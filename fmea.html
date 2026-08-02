@@ -1,0 +1,3598 @@
+ 
+ <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Primary Meta Tags -->
+<!-- ── Title (55–60 Zeichen, Keyword vorne) ── -->
+<title>FMEA im Gesundheitswesen – Risikoanalyse für KI &amp; Medizinprodukte | Thomas Bade</title>
+
+<!-- ── Meta Description (145–155 Zeichen) ── -->
+<meta name="description" content="FMEA für KI-Systeme und Medizinprodukte im Krankenhaus: RPZ-Methodik, AI-FMEA, EU AI Act Art. 9, ISO 14971 und interaktive Compliance-Checkliste – Thomas Bade, Eichstätt.">
+
+<!-- ── Meta Keywords (semantisches Cluster, kein Keyword-Stuffing) ── -->
+<meta name="keywords" content="FMEA Gesundheitswesen, Failure Mode Effects Analysis, FMEA KI, FMEA Medizinprodukte, RPZ Risikopriorätszahl, EU AI Act FMEA, ISO 14971 FMEA, AI-FMEA, Design-FMEA Krankenhaus, Post-Market Monitoring, MDR Risikoanalyse, KI Risikomanagement Krankenhaus, Hochrisiko-KI FMEA, FMEA Checkliste, Thomas Bade Compliance">
+
+
+  <!-- Bootstrap (wie üblich in deinem Setup) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+ 
+    
+   <!-- Favicons -->
+ <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon.png">
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="https://www.thomas-bade.de/assets/img/apple-touch-icon.png">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <!-- <link href="assets/vendor/aos/aos.css" rel="stylesheet"> -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+<!-- ============================================================
+     SEO <head>-Block für thomas-bade.de/fmea.html
+     Einzufügen: vollständig zwischen <head> und <!-- Privacy-friendly analytics by Plausible (Custom Properties aktiviert) -->
+<script defer data-domain="thomas-bade.de" src="/stats/js/script.php" data-api="/stats/api/event.php"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="llms" href="https://thomas-bade.de/llms.txt" />
+  <!-- Plausible Analytics -->
+  <script async="" src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
+    window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
+    plausible.init();
+  </script>
+<!-- =============================================================
+     GEO - Generative Engine Optimization - thomas-bade.de
+     Optimiert fuer: Perplexity, ChatGPT Search, Bing Copilot,
+                     Google AI Overviews, Claude, Gemini
+     Stand: 2026-07-08
+============================================================== -->
+
+<!-- 1. Autoren- und Publisher-Metadaten -->
+<meta name="author"            content="Thomas Bade">
+<meta name="creator"           content="Thomas Bade">
+<meta name="publisher"         content="thomas-bade.de">
+<meta name="copyright"         content="Thomas Bade, Eichstaett">
+<meta name="language"          content="de">
+<meta name="content-language"  content="de-DE">
+
+<!-- 2. Geografische Metadaten -->
+<meta name="geo.region"        content="DE-BY">
+<meta name="geo.placename"     content="Eichstaett, Bayern, Deutschland">
+<meta name="geo.position"      content="48.8921;11.1927">
+<meta name="ICBM"              content="48.8921, 11.1927">
+
+<!-- 3. Externe Identitaetsprofile -->
+<link rel="me" href="https://www.linkedin.com/in/thomas-bade">
+<link rel="me" href="https://x.com/thomasbade">
+<link rel="me" href="https://bsky.app/profile/thomas2024.bsky.social">
+<link rel="me" href="https://mastodon.social/@thomasbade">
+
+<!-- 4. LLM-Lesbarkeit -->
+<link rel="alternate" type="text/plain"
+      href="https://thomas-bade.de/llms.txt"
+      title="LLM-lesbarer Seitenindex thomas-bade.de">
+
+<!-- 5. Schema.org: Person + WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "givenName": "Thomas",
+      "familyName": "Bade",
+      "url": "https://www.thomas-bade.de",
+      "image": "https://www.thomas-bade.de/assets/img/leitbild.png",
+      "jobTitle": "KI-Compliance Consultant und Digital Content Designer",
+      "description": "Vendor-unabhaengiger KI-Compliance Berater mit ueber 30 Jahren Erfahrung im deutschen Gesundheits- und Sozialwesen. Spezialisiert auf EU AI Act, MDR/IVDR, DSGVO, SGB und ISO/IEC 42001. Mitglied Transparency Deutschland e.V. Signatar EU AI Act Art. 50 Code of Practice.",
+  "dateModified": "2026-07-08",
+      "knowsAbout": [
+        "EU AI Act", "KI-Compliance", "KI-Governance", "Generative KI",
+        "ISO/IEC 42001:2023", "HAIP Framework", "TRIPOD-LLM",
+        "MDR", "IVDR", "DSGVO", "SGB", "Hochrisiko-KI",
+        "KI-Risikobewertung", "Gesundheitswesen", "Pflege",
+        "Krankenhaus", "Sanitaetsfachhandel", "Kommunen",
+        "Sozialwirtschaft", "Digital Health", "KI-Auswirkungsbewertung",
+        "Trust by Design", "Menschliche Aufsicht", "KI-Ethik"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "EU AI Act Art. 50 Code of Practice - Signatar"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Mitglied Transparency Deutschland e.V."
+        }
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Transparency Deutschland e.V.",
+        "url": "https://www.transparency.de"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://www.thomas-bade.de/#organisation",
+        "name": "thomas-bade.de",
+        "url": "https://www.thomas-bade.de",
+        "description": "Vendor-unabhaengige KI-Compliance Beratung fuer das Gesundheits- und Sozialwesen"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Eichstaett",
+        "addressRegion": "Bayern",
+        "postalCode": "85072",
+        "addressCountry": "DE"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/thomas-bade",
+        "https://x.com/thomasbade",
+        "https://bsky.app/profile/thomas2024.bsky.social",
+        "https://mastodon.social/@thomasbade",
+        "https://www.instagram.com/thomasbade7",
+        "https://www.thomas-bade.de",
+        "https://www.thomas-bade.org",
+        "https://www.thomas-bade.eu"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "name": "thomas-bade.de - KI-Compliance im Gesundheitswesen",
+      "alternateName": "Thomas Bade KI-Wissensportal",
+      "url": "https://www.thomas-bade.de",
+      "description": "Vendor-unabhaengige KI-Compliance Expertise fuer Krankenhaeuser, Pflegeeinrichtungen, Kommunen und Sozialeinrichtungen. EU AI Act, MDR/IVDR, DSGVO, ISO/IEC 42001, HAIP-Framework, TRIPOD-LLM.",
+      "inLanguage": "de-DE",
+      "author":          { "@id": "https://www.thomas-bade.de/#thomas-bade" },
+      "publisher":       { "@id": "https://www.thomas-bade.de/#thomas-bade" },
+      "copyrightHolder": { "@id": "https://www.thomas-bade.de/#thomas-bade" }
+    }
+  ]
+}
+</script>
+<!-- /GEO -->
+<script type="application/ld+json" data-tbkg-generated="true">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Medizinprodukte",
+        "Gesundheitswesen",
+        "EU AI Act",
+        "KI-Monitoring",
+        "Risikomanagement",
+        "FMEA",
+        "DSGVO",
+        "Datenschutz",
+        "Patientenzentrierung",
+        "Pflege"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/fmea.html#webpage",
+      "url": "https://www.thomas-bade.de/fmea.html",
+      "headline": "FMEA im Gesundheitswesen – Risikoanalyse für KI & Medizinprodukte | Thomas Bade",
+      "description": "FMEA für KI-Systeme und Medizinprodukte im Krankenhaus: RPZ-Methodik, AI-FMEA, EU AI Act Art. 9, ISO 14971 und interaktive Compliance-Checkliste – Thomas Bade, Eichstätt.",
+      "abstract": "Im Gesundheitswesen ist die FMEA seit Jahrzehnten in der Medizinprodukteentwicklung verankert. Mit der Einführung des EU AI Act rückt sie als regulatorisches Werkzeug auch für Hochrisiko-KI-Systeme Hochrisiko-KI-Systeme sind KI-Anwendungen, die in Bereichen eingesetzt werden, die erhebliche Risiken für Gesundheit, Sicherheit oder Grundrechte darstellen – z.B.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "FMEA"
+        },
+        {
+          "@type": "Thing",
+          "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        }
+      ],
+      "keywords": [
+        "Medizinprodukte",
+        "Gesundheitswesen",
+        "EU AI Act",
+        "KI-Monitoring",
+        "Risikomanagement",
+        "FMEA",
+        "DSGVO",
+        "Datenschutz",
+        "Patientenzentrierung",
+        "Pflege"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+     Publii: Seiten-Einstellungen → Custom Head HTML
+     ============================================================ -->
+
+
+<!-- ── Canonical ── -->
+<link rel="canonical" href="https://www.thomas-bade.de/fmea.html">
+
+<!-- ── Author / Robots ── -->
+<meta name="author" content="Thomas Bade">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="language" content="de">
+<meta name="geo.region" content="DE-BY">
+<meta name="geo.placename" content="Eichstätt">
+
+<!-- ── Open Graph (Facebook, LinkedIn, WhatsApp) ── -->
+<meta property="fb:app_id" content="1526070366197506" />
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.thomas-bade.de/fmea.html">
+<meta property="og:title" content="FMEA im Gesundheitswesen – Risikoanalyse für KI-Systeme und Medizinprodukte">
+<meta property="og:description" content="Strukturierte Risikoanalyse mit FMEA: RPZ-Methodik, AI-gestützte FMEA, EU AI Act Art. 9, ISO 14971 und 20-Punkte-Compliance-Checkliste für Betreiber von Hochrisiko-KI im Krankenhaus.">
+<meta property="og:image" content="https://www.thomas-bade.de/assets/img/social_media.jpg">
+<meta property="og:image:alt" content="FMEA – Failure Mode and Effects Analysis im Gesundheitswesen, thomas-bade.de">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="675">
+<meta property="og:site_name" content="Thomas Bade – KI-Compliance Gesundheitswesen">
+<meta property="og:locale" content="de_DE">
+<meta property="article:published_time" content="2025-10-01T00:00:00+01:00">
+<meta property="article:modified_time" content="2026-04-01T00:00:00+01:00">
+<meta property="article:author" content="https://www.thomas-bade.de/index.html">
+<meta property="article:section" content="KI-Compliance">
+<meta property="article:tag" content="FMEA">
+<meta property="article:tag" content="EU AI Act">
+<meta property="article:tag" content="ISO 14971">
+<meta property="article:tag" content="Medizinprodukte">
+<meta property="article:tag" content="Risikomanagement">
+
+<!-- ── Twitter Card ── -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FMEA im Gesundheitswesen – Risikoanalyse für KI-Systeme und Medizinprodukte">
+<meta name="twitter:description" content="RPZ-Methodik, AI-FMEA, EU AI Act Art. 9, ISO 14971 und 20-Punkte-Checkliste für Betreiber von Hochrisiko-KI im Krankenhaus – thomas-bade.de">
+<meta name="twitter:image" content="https://www.thomas-bade.de/assets/img/social_media.jpg">
+<meta name="twitter:image:alt" content="FMEA Gesundheitswesen – thomas-bade.de">
+<meta name="twitter:site" content="@thomasbade">
+<meta name="twitter:creator" content="@thomasbade">
+
+<!-- ── Schema.org Structured Data ── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.thomas-bade.de/fmea.html#article",
+      "headline": "FMEA im Gesundheitswesen – Risikoanalyse für KI-Systeme und Medizinprodukte",
+      "description": "Strukturierte Risikoanalyse mit FMEA: RPZ-Methodik, AI-gestützte FMEA, EU AI Act Art. 9, ISO 14971 und 20-Punkte-Compliance-Checkliste für Betreiber von Hochrisiko-KI im Krankenhaus.",
+      "url": "https://www.thomas-bade.de/fmea.html",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.thomas-bade.de/assets/img/fmea.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "datePublished": "2025-10-01T00:00:00+01:00",
+      "dateModified": "2026-04-01T00:00:00+01:00",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/index.html#person",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de",
+        "jobTitle": "KI-Compliance Berater & Business Coach",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Eichstätt",
+          "addressRegion": "Bayern",
+          "addressCountry": "DE"
+        }
+      },
+      "publisher": {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/index.html#person",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.thomas-bade.de/assets/img/logo_tb.png"
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.thomas-bade.de/fmea.html"
+      },
+      "inLanguage": "de-DE",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Failure Mode and Effects Analysis",
+          "sameAs": "https://de.wikipedia.org/wiki/FMEA"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act",
+          "sameAs": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32024R1689"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISO 14971",
+          "sameAs": "https://www.iso.org/standard/72704.html"
+        }
+      ],
+      "keywords": "FMEA, Failure Mode Effects Analysis, RPZ, Risikopriorätszahl, EU AI Act Art. 9, ISO 14971, Medizinprodukte, KI-Risikomanagement, AI-FMEA, MDR, Hochrisiko-KI, Gesundheitswesen",
+      "articleSection": "KI-Compliance, Risikomanagement, Medizinprodukte"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.thomas-bade.de/fmea.html#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.thomas-bade.de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Sicherheit & Monitoring",
+          "item": "https://www.thomas-bade.de/ai_monitoring.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "FMEA im Gesundheitswesen",
+          "item": "https://www.thomas-bade.de/fmea.html"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.thomas-bade.de/fmea.html#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was ist FMEA im Gesundheitswesen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Failure Mode and Effects Analysis (FMEA) ist eine strukturierte Methode zur präventiven Identifikation, Bewertung und Priorisierung potenzieller Fehler in KI-Systemen und Medizinprodukten. Sie berechnet die Risikopriorätszahl RPZ = Auftreten × Bedeutung × Entdeckung. Im Gesundheitswesen ist sie Pflicht nach ISO 14971 und EU AI Act Art. 9."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche FMEA-Typen gibt es für KI-Systeme?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Für KI-Systeme im Gesundheitswesen sind vier FMEA-Typen relevant: Design-FMEA (D-FMEA) für die Entwicklungsphase, Prozess-FMEA (P-FMEA) für klinische Workflows, System-FMEA (S-FMEA) für Schnittstellen zu KIS/RIS/PACS, und Software-FMEA nach IEC 62304. Die AI-FMEA erweitert alle Typen um dynamische RPZ-Aktualisierung durch Machine Learning und NLP."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was fordert der EU AI Act Art. 9 für FMEA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "EU AI Act Art. 9 schreibt für Hochrisiko-KI (Annex III) ein iteratives Risikomanagementsystem vor, das strukturell der FMEA entspricht: Risikoidentifikation bekannter und vorhersehbarer Risiken, Risikoabschätzung für bestimmungsgemäßen und vorhersehbar missbräuchlichen Einsatz, sowie Post-Market-Monitoring und Aktualisierung der Risikoanalyse. Wirksam für Hochrisiko-KI ab 2. August 2026."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ab welchem RPZ-Wert ist eine Maßnahme in der FMEA erforderlich?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In der Praxis gilt RPZ ≥ 125 als Handlungsschwelle: eine Optimierungsmaßnahme mit Verantwortlichem und Frist ist zu dokumentieren. Bei RPZ ≥ 200 (kritisch) sind Sofortmaßnahmen und Eskalation erforderlich. Die Schwellenwerte sind einrichtungsspezifisch zu kalibrieren und schriftlich zu fixieren."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/index.html#person",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de",
+      "jobTitle": "KI-Compliance Berater & Business Coach",
+      "description": "Vendorunabhängiger KI-Compliance-Berater und Business Coach für Krankenhäuser, Pflegeeinrichtungen und Kommunen. Spezialisiert auf EU AI Act, MDR/IVDR, DSGVO und SGB-Compliance. 30+ Jahre Erfahrung im Gesundheitswesen.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "",
+        "addressLocality": "Eichstätt",
+        "postalCode": "85072",
+        "addressRegion": "Bayern",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49-8421-675-1977",
+      "email": "tb@thomas-bade.de",
+      "sameAs": [
+        "https://www.thomas-bade.de"
+      ]
+    }
+  ]
+}
+</script>
+ 
+    <style>
+        /* =========================================================
+           CI thomas-bade.de – exakt wie GPAI.html / ki_verordnung.html
+           ========================================================= */
+        :root {
+            --tb-dark:  #1a1a1a;
+            --tb-gold:  #ffc451;
+            --tb-blue:  #2c5282;
+            --tb-blue-light: #edf2f7;
+            --tb-text:  #2d3748;
+            --tb-muted: #718096;
+            --tb-border: #e2e8f0;
+        }
+
+        body {
+            font-family: 'Lato', 'Segoe UI', Tahoma, sans-serif;
+            background: #fff;
+            color: var(--tb-text);
+        }
+
+        /* ── Cookie-Banner ── */
+        #cookie-banner {
+            background: var(--tb-dark);
+            color: #ccc;
+            font-size: 0.85rem;
+            padding: 0.75rem 1.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 1100;
+        }
+        #cookie-banner a { color: var(--tb-gold); }
+        #cookie-banner button {
+            background: var(--tb-gold);
+            color: #000;
+            border: none;
+            padding: 0.3rem 1rem;
+            border-radius: 4px;
+            font-weight: 700;
+            cursor: pointer;
+            font-size: 0.83rem;
+        }
+
+        /* ── Navbar ── */
+        .tb-nav {
+            background: var(--tb-dark);
+            padding: 0.75rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .tb-nav .tb-logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.7rem;
+            color: #fff;
+            text-decoration: none;
+            letter-spacing: 1px;
+        }
+        .tb-nav .tb-logo span { color: var(--tb-gold); }
+        .tb-nav ul {
+            list-style: none;
+            margin: 0; padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.2rem;
+            align-items: center;
+        }
+        .tb-nav ul li a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 0.88rem;
+            padding: 0.35rem 0.65rem;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s;
+            white-space: nowrap;
+        }
+        .tb-nav ul li a:hover { background: rgba(255,196,81,0.15); color: var(--tb-gold); }
+        .tb-nav .tb-dropdown { position: relative; }
+        .tb-nav .tb-dropdown > a::after { content: ' ▾'; font-size: 0.72rem; }
+        .tb-nav .tb-dropdown-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--tb-dark);
+            border: 1px solid #333;
+            border-radius: 6px;
+            min-width: 220px;
+            z-index: 9999;
+            padding: 0.4rem 0;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+        .tb-nav .tb-dropdown-menu a {
+            display: block;
+            padding: 0.45rem 1rem;
+            color: #ccc;
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+        .tb-nav .tb-dropdown-menu a:hover { background: rgba(255,196,81,0.12); color: var(--tb-gold); }
+        .tb-nav .tb-dropdown:hover .tb-dropdown-menu { display: block; }
+
+        /* ── Hero ── */
+        .tb-hero {
+            background: var(--tb-dark);
+            color: #fff;
+            padding: 3rem 0 2rem;
+        }
+        .tb-hero h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.8rem;
+            letter-spacing: 1px;
+            color: #fff;
+            margin-bottom: 0;
+        }
+        .tb-hero h1 strong { color: var(--tb-gold); }
+        .tb-hero-img {
+            width: 100%;
+            max-height: 320px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+            border: 3px solid #333;
+        }
+
+        /* ── Stand-Badge ── */
+        .tb-stand {
+            font-size: 0.8rem;
+            color: var(--tb-muted);
+            background: var(--tb-blue-light);
+            border-left: 4px solid var(--tb-gold);
+            padding: 0.6rem 1rem;
+            border-radius: 0 6px 6px 0;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+
+        /* ── Anchor-Links ── */
+        .tb-anchor-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin: 1.5rem 0;
+        }
+        .tb-anchor-links a {
+            background: var(--tb-dark);
+            color: var(--tb-gold);
+            padding: 0.45rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-decoration: none;
+            border: 1px solid #333;
+            transition: background 0.2s;
+        }
+        .tb-anchor-links a:hover { background: var(--tb-blue); color: #fff; }
+
+        /* ── Callout-Boxen (Executive Takeaway, Leitplanke) ── */
+        .tb-callout {
+            border-left: 5px solid var(--tb-blue);
+            background: var(--tb-blue-light);
+            border-radius: 0 8px 8px 0;
+            padding: 1rem 1.4rem;
+            margin: 1.5rem 0;
+        }
+        .tb-callout strong { color: var(--tb-blue); display: block; margin-bottom: 0.35rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        .tb-callout-gold {
+            border-left: 5px solid var(--tb-gold);
+            background: #fffdf0;
+            border-radius: 0 8px 8px 0;
+            padding: 1rem 1.4rem;
+            margin: 1.5rem 0;
+        }
+        .tb-callout-gold strong { color: #92600a; display: block; margin-bottom: 0.35rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.5px; }
+
+        /* ── Section-Headings ── */
+        .tb-section { margin-bottom: 2.5rem; }
+        .tb-section h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 1.75rem;
+            color: var(--tb-blue);
+            border-bottom: 2px solid var(--tb-gold);
+            padding-bottom: 0.4rem;
+            margin-bottom: 1.2rem;
+            letter-spacing: 0.5px;
+        }
+        .tb-section h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--tb-dark);
+            margin-top: 1.5rem;
+            margin-bottom: 0.6rem;
+        }
+        .tb-section h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--tb-blue);
+            margin-top: 1.2rem;
+            margin-bottom: 0.4rem;
+        }
+
+        /* ── Numbered Steps (Governance) ── */
+        .tb-steps { counter-reset: step-counter; }
+        .tb-step {
+            counter-increment: step-counter;
+            padding: 1rem 1rem 1rem 3.5rem;
+            position: relative;
+            border-left: 3px solid var(--tb-border);
+            margin-bottom: 1rem;
+            background: #fafafa;
+            border-radius: 0 6px 6px 0;
+        }
+        .tb-step::before {
+            content: counter(step-counter);
+            position: absolute;
+            left: -1px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--tb-blue);
+            color: #fff;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+            left: 0.85rem;
+        }
+        .tb-step strong { color: var(--tb-dark); }
+
+        /* ── RPN-Vergleichstabelle ── */
+        .tb-table-wrap { overflow-x: auto; margin: 1.25rem 0; }
+        .tb-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.88rem;
+        }
+        .tb-table thead th {
+            background: var(--tb-dark);
+            color: #fff;
+            padding: 0.65rem 0.85rem;
+            text-align: left;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .tb-table thead th:first-child { border-radius: 6px 0 0 0; }
+        .tb-table thead th:last-child { border-radius: 0 6px 0 0; }
+        .tb-table tbody tr:nth-child(odd) { background: var(--tb-blue-light); }
+        .tb-table tbody td {
+            padding: 0.6rem 0.85rem;
+            border-bottom: 1px solid var(--tb-border);
+            vertical-align: top;
+        }
+        .tb-table .td-badge {
+            background: var(--tb-gold);
+            color: #000;
+            padding: 0.2rem 0.55rem;
+            border-radius: 4px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+        .tb-table .td-badge-blue {
+            background: var(--tb-blue);
+            color: #fff;
+            padding: 0.2rem 0.55rem;
+            border-radius: 4px;
+            font-size: 0.78rem;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        /* ── Checkliste ── */
+        .tb-checklist-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; }
+        .tb-checklist-table th {
+            background: var(--tb-dark);
+            color: #fff;
+            padding: 0.6rem 0.85rem;
+            text-align: left;
+        }
+        .tb-checklist-table tbody tr { border-bottom: 1px solid var(--tb-border); }
+        .tb-checklist-table tbody tr:nth-child(odd) { background: #fafafa; }
+        .tb-checklist-table td { padding: 0.65rem 0.85rem; vertical-align: top; }
+        .tb-checklist-table td:first-child { text-align: center; width: 40px; }
+        .tb-checklist-table .section-header td {
+            background: var(--tb-blue-light);
+            font-weight: 700;
+            color: var(--tb-blue);
+            padding: 0.5rem 0.85rem;
+            font-size: 0.82rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .tb-checklist-table input[type=checkbox] {
+            width: 16px; height: 16px; cursor: pointer; accent-color: var(--tb-blue);
+        }
+        .tb-checklist-table .owner-tag {
+            font-size: 0.75rem;
+            background: var(--tb-blue-light);
+            color: var(--tb-blue);
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            white-space: nowrap;
+        }
+        .tb-checklist-table .nachweis-tag {
+            font-size: 0.75rem;
+            background: #fefcbf;
+            color: #744210;
+            padding: 0.15rem 0.5rem;
+            border-radius: 3px;
+            white-space: nowrap;
+        }
+
+        /* Progress Bar */
+        .tb-progress-wrap { margin: 1rem 0 1.5rem; }
+        .tb-progress-bar-bg {
+            background: var(--tb-border);
+            border-radius: 8px;
+            height: 12px;
+            overflow: hidden;
+        }
+        .tb-progress-bar-fill {
+            background: linear-gradient(90deg, var(--tb-blue), var(--tb-gold));
+            height: 100%;
+            border-radius: 8px;
+            transition: width 0.4s;
+            width: 0%;
+        }
+        .tb-progress-label { font-size: 0.82rem; color: var(--tb-muted); margin-top: 0.4rem; }
+
+        /* ── Glossar-Tooltips ── */
+        .tb-glossar {
+            border-bottom: 1px dotted var(--tb-blue);
+            cursor: help;
+            color: inherit;
+            position: relative;
+        }
+        .tb-glossar .tb-tt {
+            display: none;
+            position: absolute;
+            bottom: 130%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--tb-dark);
+            color: #e2e8f0;
+            font-size: 0.78rem;
+            line-height: 1.4;
+            padding: 0.65rem 0.9rem;
+            border-radius: 6px;
+            width: 260px;
+            z-index: 9000;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+            border-top: 2px solid var(--tb-gold);
+        }
+        .tb-glossar:hover .tb-tt { display: block; }
+
+        /* ── Literatur-Box + CTA (wie GPAI.html) ── */
+        .tb-lit-cta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            background: var(--tb-blue-light);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-top: 2rem;
+            align-items: flex-start;
+        }
+        .tb-lit-cta .tb-lit { flex: 2 1 260px; font-size: 0.87rem; }
+        .tb-lit-cta .tb-lit strong { display: block; font-size: 0.95rem; color: var(--tb-blue); margin-bottom: 0.5rem; }
+        .tb-lit-cta .tb-cta-block {
+            flex: 1 1 200px;
+            background: var(--tb-dark);
+            color: #ccc;
+            border-radius: 8px;
+            padding: 1.25rem;
+            font-size: 0.87rem;
+            text-align: center;
+        }
+        .tb-cta-block hr { border-color: #333; margin: 0.75rem 0; }
+        .tb-btn-gold {
+            background: var(--tb-gold);
+            color: #000;
+            font-weight: 700;
+            padding: 0.6rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+            margin-top: 0.75rem;
+        }
+        .tb-btn-gold:hover { background: #fff; color: #000; }
+
+        /* ── Share / Copy ── */
+        #share-toast {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            background: var(--tb-dark);
+            color: var(--tb-gold);
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            display: none;
+            z-index: 9999;
+        }
+
+        /* ── Footer ── */
+        .tb-footer {
+            background: var(--tb-dark);
+            color: #888;
+            font-size: 0.82rem;
+            text-align: center;
+            padding: 1.25rem;
+            margin-top: 3rem;
+        }
+        .tb-footer a { color: var(--tb-gold); text-decoration: none; }
+        .tb-footer a:hover { text-decoration: underline; }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            .tb-hero h1 { font-size: 2rem; }
+            .tb-nav ul { display: none; }
+            .tb-lit-cta { flex-direction: column; }
+        }
+        /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+<!-- Schema.org Structured Data (JSON-LD) -->
+
+<style>
+  .prrc-tooltip-wrapper {
+    position: relative;
+    display: inline;
+  }
+
+  .prrc-highlight {
+    color: #000000;
+    font-weight: bold;
+    cursor: help;
+    border-bottom: 1px dashed #000000;
+    white-space: nowrap;
+  }
+
+  .prrc-tooltip-box {
+    display: none;
+    position: fixed;
+    width: 340px;
+    max-width: calc(100vw - 30px);
+    background: #1a1a1a;
+    color: #f0f0f0;
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border-left: 3px solid #ffc451;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+    pointer-events: none;
+  }
+
+  .prrc-tooltip-box strong {
+    color: #ffc451;
+  }
+
+  .prrc-tooltip-box::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    border: 7px solid transparent;
+    border-top-color: #1a1a1a;
+  }
+
+  @keyframes prrcFadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* ── Footer ── */
+    #footer { background:#000 !important; }
+    #footer .footer-top { background:#000 !important; padding:40px 0 20px; }
+    #footer .footer-top p { font-size:14px !important; line-height:2 !important; margin-bottom:4px; }
+    #footer .footer-top a { color:#ccc !important; font-size:14px !important; text-decoration:none !important; }
+    #footer .footer-top a:hover { color:#ffc451 !important; }
+    #footer .footer-top img { height:120px !important; margin-bottom:20px !important; }
+    #footer .copyright { display:none; }
+    #footer .footer-label { color:#ffc451 !important; }
+
+    /* ── Footer Dropdown ── */
+    .footer-dropdown { position:relative; display:inline-block; margin-bottom:16px; }
+    .footer-dd-trigger { background:#1a1a1a; border:1px solid #333; color:#ccc; font-size:13px; padding:8px 16px; border-radius:4px; cursor:pointer; display:flex; align-items:center; gap:8px; transition:border-color 0.2s, color 0.2s; font-family:inherit; }
+    .footer-dd-trigger:hover { border-color:#ffc451; color:#ffc451; }
+    .footer-dd-chevron { font-size:10px; color:#ffc451; transition:transform 0.2s; }
+    .footer-dd-menu { display:none; position:absolute; bottom:calc(100% + 6px); left:0; background:#1a1a1a; border:1px solid #333; border-top:2px solid #ffc451; border-radius:4px; list-style:none; padding:6px 0; min-width:280px; z-index:9999; box-shadow:0 -12px 32px rgba(0,0,0,0.6); column-count:2; column-gap:0; }
+    .footer-dd-menu.open { display:block; }
+    .footer-dd-trigger.open .footer-dd-chevron { transform:rotate(180deg); }
+    .footer-dd-menu li { break-inside:avoid; }
+    .footer-dd-menu li a { display:block; padding:6px 14px; font-size:12px !important; color:#aaa !important; text-decoration:none !important; white-space:nowrap; transition:color 0.15s, background 0.15s; line-height:1.6 !important; }
+    .footer-dd-menu li a:hover { color:#ffc451 !important; background:rgba(255,196,81,0.06); }
+    /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+  
+
+<script src="assets/js/fmea-glossar.js"></script>
+   
+
+  <link rel="llms" href="https://thomas-bade.de/llms.txt" />
+  <!-- Plausible Analytics -->
+  <script async="" src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
+    window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
+    plausible.init();
+  </script></head>
+
+<body>
+<!-- Cookie-Hinweis: nur technisch notwendige Cookies -->
+<style>
+  #cookieNotice {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #111;
+    color: #f1f1f1;
+    padding: 16px 20px;
+    z-index: 9999;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+    display: none;
+  }
+
+  #cookieNotice a {
+    color: #4da3ff;
+    text-decoration: underline;
+  }
+
+  #cookieNotice button {
+    background: #4da3ff;
+    border: none;
+    color: #fff;
+    padding: 8px 14px;
+    margin-left: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+
+  #cookieNotice button:hover {
+    background: #2f89e5;
+  }
+
+  @media (max-width: 576px) {
+    #cookieNotice {
+      font-size: 0.85rem;
+    }
+    #cookieNotice button {
+      margin-top: 10px;
+      display: block;
+    }
+  }
+    /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+
+<div id="cookieNotice">
+  Diese Website verwendet ausschließlich technisch notwendige Cookies,
+  die für den Betrieb der Seite erforderlich sind.
+  <a href="https://www.thomas-bade.de/impressum.html">Weitere Informationen</a>
+  <button id="cookieAccept">Verstanden</button>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!localStorage.getItem("cookieNoticeAccepted")) {
+      document.getElementById("cookieNotice").style.display = "block";
+    }
+
+    document.getElementById("cookieAccept").addEventListener("click", function () {
+      localStorage.setItem("cookieNoticeAccepted", "true");
+      document.getElementById("cookieNotice").style.display = "none";
+    });
+  });
+</script>
+
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo mb-0">
+        <a href="index.html">Thomas Bade<span style="font-size:15px; color:#ffc451;">&#9632;</span></a>
+      </h1>
+      <nav id="tb-nav" class="d-flex align-items-center gap-3">
+        <a href="https://www.thomas-bade.de/termine.html" class="tb-nav-link d-none d-lg-inline-block">
+          Let&#8217;s talk<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <a href="https://www.thomas-bade.de/sitemap.html" class="tb-nav-link d-none d-lg-inline-block">
+          Alle KI Themen<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <button id="tb-burger" aria-label="Men&#252; &#246;ffnen" aria-expanded="false" aria-controls="tb-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Hamburger Menu Panel ======= -->
+  <div id="tb-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+    <div id="tb-menu-inner">
+      <button id="tb-menu-close" aria-label="Men&#252; schlie&#223;en">
+        <i class="bi bi-x"></i>
+      </button>
+      <ul>
+        <li><a href="https://www.thomas-bade.de/termine.html">
+          <i class="bi bi-calendar-check me-2"></i>Let&#8217;s talk
+        </a></li>
+        <li><a href="https://www.thomas-bade.de/sitemap.html">
+          <i class="bi bi-grid-3x3-gap me-2"></i>Alle KI Themen &#8211; Site Map
+        </a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="tb-menu-overlay"></div><!-- End Header -->
+
+  <main id="main">
+
+
+
+    <!-- ======= Breadcrumbs ======= -->
+     <section class="inner-page">
+      <div class="container"><br><br>
+          <h1><p style="color:#000000"><b>FMEA im Gesundheitswesen</b></h1>
+         
+     
+
+      
+                          <img src="assets/img/fmea.jpg" width="1000" height="402" class="img-fluid" alt=""><br><br>
+               
+              
+<!-- ========================================
+     SITE-SEARCH FÜR RISK.HTML
+     Identischer Script wie auf anderen Seiten
+     Nur Design in Weiß angepasst
+     ======================================== -->
+
+<!-- SUCHMASKE -->
+<div id="site-search-container" class="risk-search-wrapper">
+  <div id="site-search-bar" class="search-bar">
+    <div class="search-input-wrapper">
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+      <input 
+        type="text" 
+        id="site-search-input" 
+        class="search-input"
+        placeholder="thomas-bade.de durchsuchen"
+        autocomplete="off"
+        aria-label="Suchbegriff eingeben"
+      >
+      <button id="search-clear-btn" class="search-clear" aria-label="Suche löschen" style="display: none;">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Search Results Dropdown -->
+    <div id="search-results" class="search-results" style="display: none;">
+      <div class="search-results-header">
+        <span id="results-count">0 Ergebnisse</span>
+      </div>
+      <div id="search-results-list" class="search-results-list">
+        <!-- Results inserted by JavaScript -->
+      </div>
+    </div>
+    
+    <!-- No Results -->
+    <div id="no-results" class="no-results" style="display: none;">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.35-4.35"></path>
+      </svg>
+      <p class="no-results-title">Keine Ergebnisse</p>
+      <p class="no-results-text">Andere Begriffe versuchen</p>
+    </div>
+  </div>
+  
+  <div id="search-overlay" class="search-overlay"></div>
+</div>
+
+<!-- CSS - WEISSES DESIGN FÜR RISK.HTML -->
+<style>
+/* Container für risk.html - positioniert unter dem Bild links */
+.risk-search-wrapper {
+  position: relative;
+  margin: 20px 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-bar {
+  position: relative;
+  display: block;
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #ffffff !important;
+  border: 2px solid #ced4da;
+  border-radius: 8px;
+  padding: 8px 14px;
+  transition: all 0.3s ease;
+  min-width: 300px;
+  height: 42px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input-wrapper:hover {
+  background: #ffffff !important;
+  border-color: #0066cc;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.search-input-wrapper:focus-within {
+  background: #ffffff !important;
+  border-color: #0066cc;
+  box-shadow: 0 0 0 4px rgba(0, 102, 204, 0.2), 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.search-icon {
+  color: #6c757d;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #212529;
+  background: transparent !important;
+  min-width: 0;
+  font-family: inherit;
+}
+
+.search-input::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+.search-clear {
+  background: none;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  padding: 2px;
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.search-clear:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: #212529;
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;  /* Von links nach rechts öffnen */
+  width: 500px;
+  max-width: 95vw;
+  max-height: 500px;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  z-index: 10000;
+}
+
+.search-results-header {
+  padding: 10px 16px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 12px;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.search-results-list {
+  padding: 4px 0;
+}
+
+.search-result-item {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+}
+
+.search-result-item:hover,
+.search-result-item.selected {
+  background: #f8f9fa;
+  border-left-color: #0066cc;
+}
+
+.search-result-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-result-icon {
+  width: 14px;
+  height: 14px;
+  color: #0066cc;
+  flex-shrink: 0;
+}
+
+.search-result-excerpt {
+  font-size: 12px;
+  color: #6c757d;
+  line-height: 1.5;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.search-result-excerpt mark {
+  background: rgba(255, 196, 81, 0.4);
+  color: #212529;
+  padding: 1px 3px;
+  border-radius: 2px;
+  font-weight: 500;
+}
+
+.search-result-meta {
+  font-size: 11px;
+  color: #adb5bd;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-result-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.search-result-breadcrumb span::after {
+  content: "›";
+  margin-left: 4px;
+  color: #dee2e6;
+}
+
+.search-result-breadcrumb span:last-child::after {
+  content: none;
+}
+
+.no-results {
+  padding: 40px 20px;
+  text-align: center;
+  background: #ffffff;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;  /* Von links nach rechts öffnen */
+  width: 350px;
+  max-width: 95vw;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  z-index: 10000;
+}
+
+.no-results svg {
+  color: #adb5bd;
+  margin-bottom: 12px;
+}
+
+.no-results-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #6c757d;
+  margin-bottom: 4px;
+}
+
+.no-results-text {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+.search-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 9998;
+}
+
+.search-overlay.active {
+  display: block;
+}
+
+.search-results::-webkit-scrollbar {
+  width: 8px;
+}
+
+.search-results::-webkit-scrollbar-track {
+  background: #f8f9fa;
+}
+
+.search-results::-webkit-scrollbar-thumb {
+  background: #dee2e6;
+  border-radius: 4px;
+}
+
+.search-results::-webkit-scrollbar-thumb:hover {
+  background: #adb5bd;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.search-results,
+.no-results {
+  animation: slideDown 0.2s ease;
+}
+
+@media (max-width: 991px) {
+  .risk-search-wrapper {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;  /* Links ausrichten auf Tablets */
+  }
+  
+  .search-input-wrapper {
+    min-width: 280px;
+  }
+  
+  .search-results,
+  .no-results {
+    left: 0;  /* Von links ausrichten */
+    right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .risk-search-wrapper {
+    justify-content: flex-start;  /* Links ausrichten auf Mobile */
+  }
+  
+  .search-input-wrapper {
+    padding: 7px 12px;
+    height: 40px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  .search-input {
+    font-size: 14px;
+  }
+  
+  .search-results,
+  .no-results {
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+.search-input:focus {
+  outline: none;
+}
+    /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+
+<!-- JAVASCRIPT MIT MAXIMALER CONTENT-GEWICHTUNG -->
+<script>
+// =====================================================================
+// ⭐ HIER NEUE SEITEN HINZUFÜGEN ⭐
+// =====================================================================
+
+const SITE_SEARCH_CONFIG = {
+    pages: [
+        // ═══════════════════════════════════════════════════════════════
+        // BESTEHENDE SEITEN
+        // ═══════════════════════════════════════════════════════════════
+        
+        {
+            title: "Home - KI in Gesellschaft & Wirtschaft",
+            url: "https://www.thomas-bade.de/",
+            category: "Hauptseiten",
+            excerpt: "Künstliche Intelligenz in Gesellschaft und Wirtschaft. Chancen, Verantwortung und Zukunft.",
+            content: "Künstliche Intelligenz hat im Gesundheitswesen einen beispiellosen Hype ausgelöst. Fast täglich erscheinen neue Studien, politische Programme, industrielle Versprechen und technologische Durchbrüche. Doch zwischen Euphorie und Unsicherheit geht häufig verloren, was wirklich zählt: Welche KI-Lösungen bringen tatsächlich Nutzen und unter welchen Bedingungen. Diese Website bietet einen fundierten komprimierten und realitätsnahen Überblick über die zentralen Entwicklungen der KI im Gesundheitswesen. Sie zeigt Chancen Risiken regulatorische Anforderungen und konkrete Anwendungsfelder ohne Marketingfloskeln sondern orientiert an Evidenz Governance und praktischer Umsetzbarkeit. Ethik Verantwortung Risikominimierung EU AI Act Zweckbestimmung Governance Betriebsrat Versicherungen Haftung Fairness Bias Diskriminierung Bundesnetzagentur Marktüberwachung Aufsichtsbehörde",
+            keywords: "KI, Künstliche Intelligenz, Gesundheitswesen, Governance, Beratung, EU AI Act, Ethik, Verantwortung"
+        },
+         {
+    title: "Digitalisierungsstrategie 2026 – Was bedeutet das für Kommunen und Gesundheitseinrichtungen?",
+    url: "https://www.thomas-bade.de/bmg.html",
+    category: "Analyse & Beratungspraxis",
+    excerpt: "Das BMG hat den strategischen Kompass für die digitale Transformation bis 2030 neu kalibriert. Was bedeutet \"Gemeinsam Digital 2026\" konkret für Kommunen, Kliniken und Sozialeinrichtungen?",
+    content: "Das Bundesministerium für Gesundheit hat im Februar 2026 die Weiterentwicklung der Digitalisierungsstrategie Gemeinsam Digital vorgelegt mit messbaren Zielen konkreten Maßnahmen und einem klaren Schwerpunkt auf Künstlicher Intelligenz und dem Europäischen Gesundheitsdatenraum EHDS. Drei Handlungsfelder: Personenzentrierte Versorgungsprozesse Qualitativ hochwertige Daten Nutzenorientierte Technologien und Anwendungen. Messbare Ziele: bis Ende 2026 mindestens 300 Forschungsvorhaben über das Forschungsdatenzentrum Gesundheit. Ab Ende 2027 werden 100 Prozent der Arztbriefe elektronisch übermittelt. KI-gestützte Dokumentation soll bis 2028 in mehr als 70 Prozent der Einrichtungen aktiv genutzt werden. Bis 2030 sollen mehr als 20 Millionen Versicherte die ePA aktiv nutzen. Mapping Strategie auf Beratungsleistungen: KI-Reallabore regulatorische Beratung Betreiberpflichten Art. 26 KI-VO digitaler Entlassprozess § 39 SGB V Forschungsdatenzentrum FDZ Gesundheit 74,5 Millionen Versicherte EHDS Europäischer Gesundheitsdatenraum EU-KI-Verordnung KI-MIG 2026 KI in Diagnostik und Pflege Mammographie PRAIM-Studie 17,6 Prozent mehr Brustkrebserkennungen CE-Kennzeichnung Zweckbestimmung DiGA DiPA Telepflege § 125a SGB XI Enquete-Kommission. Kommunale Anknüpfungspunkte: Pflegebedarfsplanung Daseinsvorsorge Pflege-Cockpit Pflegekassen Kompetenzzentrum Digitalisierung und Pflege GKV-Spitzenverband Altenhilfeplanung § 71 SGB XII Öffentlicher Gesundheitsdienst ÖGD Gesundheitsregionen plus Quartiersmanagement Förderanträge. Beratungsleistungen Thomas Bade: KI-Systemanalyse Compliance-Check datengestützte Bedarfsplanung SAHRA-Kennzahlen Förderantrag Finanzierungsstrategie Schulung KI-Kompetenz KI-Literacy Art. 4 KI-VO externer KI-Beauftragter.",
+    keywords: "Digitalisierungsstrategie 2026, Gemeinsam Digital, BMG, Bundesministerium für Gesundheit, EHDS, Europäischer Gesundheitsdatenraum, ePA, elektronische Patientenakte, FDZ, Forschungsdatenzentrum Gesundheit, KI-MIG, EU AI Act, Handlungsfelder, Kommunen, Kliniken, Pflegebedarfsplanung, Entlassmanagement, DiGA, DiPA, KI-Dokumentation, Interoperabilität, Telemedizin, Nina Warken, Beratung"
+},   
+        {
+            title: "Let's talk! - Terminbuchung",
+            url: "https://www.thomas-bade.de/termine.html",
+            category: "Kontakt",
+            excerpt: "Vereinbaren Sie einen Beratungstermin für Ihre KI-Projekte",
+            content: "Vereinbaren Sie einen persönlichen Beratungstermin für Ihre KI-Projekte im Gesundheitswesen. Professionelle Unterstützung bei EU AI Act Compliance MDR Hochrisiko-KI Implementierung Governance-Strukturen und strategischer KI-Transformation. Individuelle Beratung für Krankenhäuser Kliniken Gesundheitseinrichtungen und Unternehmen im Healthcare-Bereich.",
+            keywords: "Termin, Beratung, Gespräch, Kontakt, Consulting"
+        },
+        {
+            title: "Business Coach",
+            url: "https://www.thomas-bade.de/coach.html",
+            category: "Hauptseiten",
+            excerpt: "Coaching für Führungskräfte im Gesundheitswesen bei KI-Transformation",
+            content: "Business Coaching für Führungskräfte im Gesundheitswesen. Unterstützung bei der strategischen KI-Transformation Change Management Governance-Aufbau und Leadership in digitalen Transformationsprozessen. Coaching für Geschäftsführer Vorstände IT-Leiter und Entscheidungsträger in Healthcare-Organisationen.",
+            keywords: "Coaching, Business Coach, Führungskräfte, Transformation, Leadership"
+        },
+        {
+            title: "KI-Kompetenz",
+            url: "https://www.thomas-bade.de/kompetenz.html",
+            category: "Hauptseiten",
+            excerpt: "Expertise in KI-Compliance und EU AI Act für das Gesundheitswesen",
+            content: "Umfassende KI-Kompetenz und Expertise in KI-Compliance EU AI Act MDR Hochrisiko-KI-Systeme und Governance im Gesundheitswesen. Über 30 Jahre Erfahrung in Gesundheitswesen und Sozialwesen. Spezialisierung auf regulatorische Anforderungen Risikobewertung technische Dokumentation und praktische Implementierung von KI-Systemen in Healthcare-Umgebungen.",
+            keywords: "Kompetenz, Expertise, KI-Beratung, Compliance, Qualifikation"
+        },
+         {
+   		 title: "KI Monitoring im Regelbetrieb",
+   		 url: "https://www.thomas-bade.de/ai_monitoring.html",
+   		 category: "Analyse & Beratungspraxis",
+ 	  	excerpt: "KI-Systeme im Gesundheitswesen müssen auch nach der Einführung überwacht werden. Die Seite zeigt, warum Post-Deployment Monitoring, Drift-Erkennung, Safety Reporting und Governance im Regelbetrieb entscheidend sind.",
+   		 content: "Die Seite KI Monitoring im Regelbetrieb beschreibt, warum KI-Systeme nach dem Go-live nicht als abgeschlossen betrachtet werden dürfen. Im Mittelpunkt stehen Post-Deployment Monitoring, KI-Betriebsüberwachung, Modell-Drift, Verteilungsverschiebungen, nicht-deterministische Outputs, Safety Reporting, Incident Reporting und Revalidierung. Grundlage sind zwei aktuelle Veröffentlichungen: NIST AI 800-4 Challenges to the Monitoring of Deployed AI Systems und die Leitlinien des Royal College of Radiologists zum Post-deployment monitoring and safety reporting of AI medical imaging devices. Die Seite zeigt, dass KI-Monitoring keine optionale Zusatzaufgabe ist, sondern eine betriebliche, regulatorische und ethische Kernpflicht. Zentrale Themen sind KI-Inventar, lokale Validierung, Audit-Stichproben, Referenzstandards, Abweichungsraten, Fehlermuster, Änderungsprotokolle, Lieferantensteuerung, Eskalationsschwellen, Qualitätsmanagement, Risikomanagement, klinische Governance und Human Oversight. Für Gesundheitseinrichtungen relevant sind insbesondere Scanner-Updates, Workflow-Brüche, Infrastrukturänderungen, Bias, Übervertrauen in KI-Systeme, menschliche Overrides und die Beobachtung nachgelagerter Entscheidungen. Die Seite übersetzt internationale Leitlinien in eine praxistaugliche Steuerungslogik für Kliniken, Radiologie, Versorgungseinrichtungen und Gesundheitsorganisationen. Beratungsbezug Thomas Bade: AI Governance, Betreiberpflichten, KI-Compliance, Risk Management, Monitoring-Strukturen, Management Summary, Executive Summary, KI-Literacy, Einführung eines belastbaren Monitoring-Rahmens für den Regelbetrieb.",
+ 	   keywords: "KI Monitoring, KI Monitoring im Regelbetrieb, AI Monitoring, Post Deployment Monitoring, Post-Deployment Monitoring, KI-Betriebsüberwachung, Modell Drift, Drift, Verteilungsverschiebung, Safety Reporting, Incident Reporting, Revalidierung, lokale Validierung, KI Inventar, Auditierbarkeit, Audit Stichprobe, Referenzstandard, Qualitätsmanagement, Risikomanagement, klinische Governance, Human Oversight, Override, AI Governance, Responsible AI, NIST AI 800-4, Royal College of Radiologists, Healthcare AI, Radiologie KI, KI Gesundheitswesen, Betreiberpflichten KI, KI Compliance, Thomas Bade"
+		}, 
+        {
+            title: "Hochrisiko-KI",
+            url: "https://www.thomas-bade.de/mdr_ki.html",
+            category: "Regeln & Risiken",
+            excerpt: "Anforderungen an Hochrisiko-KI-Systeme nach EU AI Act",
+            content: "Hochrisiko-KI-Systeme nach EU AI Act Artikel 6 und Anhang III. Gesundheitswesen und Medizinprodukte gelten grundsätzlich als Hochrisiko. Anforderungen umfassen Risikomanagement-System Datengovernance technische Dokumentation Aufzeichnungspflichten Transparenz menschliche Aufsicht Robustheit Genauigkeit und Cybersicherheit. Compliance-Anforderungen für Anbieter und Betreiber. Konformitätsbewertung CE-Kennzeichnung Registrierung und Marktüberwachung nach MDR Medical Device Regulation. Bundesnetzagentur als zuständige Marktüberwachungsbehörde für KI-Systeme in Deutschland. Aufsicht und Durchsetzung von Compliance-Anforderungen durch die Bundesnetzagentur.",
+            keywords: "Hochrisiko, High Risk, EU AI Act, MDR, Medizinprodukte, Compliance, Risikomanagement, Bundesnetzagentur"
+        },
+        {
+            title: "GPAI-Modelle",
+            url: "https://www.thomas-bade.de/GPAI.html",
+            category: "Regeln & Risiken",
+            excerpt: "General Purpose AI Modelle und ihre regulatorischen Anforderungen",
+            content: "GPAI General Purpose AI Modelle Foundation Models Large Language Models wie GPT Claude Gemini. Regulatorische Anforderungen nach EU AI Act für Anbieter von Basismodellen. Transparenzpflichten technische Dokumentation Copyright-Compliance Risikobewertung und besondere Pflichten bei systemischem Risiko. Downstream-Anbieter müssen Zweckbestimmung definieren und eigene Risikobewertung durchführen. Integration von GPAI-Modellen in Healthcare-Anwendungen. Bundesnetzagentur Aufsicht und Compliance-Überwachung für GPAI-Systeme.",
+            keywords: "GPAI, General Purpose AI, Foundation Models, Claude, GPT, LLM, Sprachmodelle"
+        },
+        {
+            title: "KI als Medizinprodukt",
+            url: "https://www.thomas-bade.de/ki_verordnung.html",
+            category: "Regeln & Risiken",
+            excerpt: "Regulierung von KI als Medizinprodukt nach MDR und EU AI Act",
+            content: "KI als Medizinprodukt unterliegt der Medical Device Regulation MDR 2017/745 und dem EU AI Act. Klassifizierung nach Risikoklasse I IIa IIb III bestimmt regulatorische Anforderungen. Zweckbestimmung ist entscheidend für Einordnung als Medizinprodukt. Software zur Diagnose Therapieentscheidung oder Krankheitsprävention gilt als Medizinprodukt. Klinische Bewertung Leistungsbewertung technische Dokumentation Konformitätsbewertung durch Benannte Stelle CE-Kennzeichnung Post-Market-Surveillance und Vigilanz sind erforderlich.",
+            keywords: "Medizinprodukt, MDR, Zulassung, CE-Kennzeichnung, Software, Klassifizierung, KI-MIG"
+        },
+        {
+            title: "KI & Entlassmanagement",
+            url: "https://www.thomas-bade.de/em_ki.html",
+            category: "Regeln & Risiken",
+            excerpt: "Kritische Betrachtung von KI-Systemen im Entlassmanagement",
+            content: "KI im Entlassmanagement nach Paragraph 39 SGB V. Kritische Analyse von KI-basierten Systemen zur Vorhersage von Pflege- oder Rehabilitationsbedarf. Begrenzte Datengrundlage durch DRG und ICD-Kodierung. Prognostische Limitationen und Risiken algorithmischer Entscheidungen. Rechtliche Rahmenbedingungen Rahmenvertrag Entlassmanagement Haftungsfragen und Betreiberpflichten. Human-in-the-Loop erforderlich. Transparenz und Nachvollziehbarkeit von KI-Empfehlungen.",
+            keywords: "Entlassmanagement, Krankenhaus, Discharge Management, § 39 SGB V, Prognose"
+        },
+        {
+            title: "Was müssen KI-Systeme leisten?",
+            url: "https://www.thomas-bade.de/control_panel.html",
+            category: "Regeln & Risiken",
+            excerpt: "Anforderungen und Leistungsmerkmale von KI-Systemen im Gesundheitswesen",
+            content: "Anforderungen an KI-Systeme im Gesundheitswesen. Leistungsmerkmale Performance-Metriken Genauigkeit Sensitivität Spezifität Robustheit und Zuverlässigkeit. Validierung und Verifizierung von KI-Algorithmen. Klinische Evidenz Real-World-Performance und kontinuierliches Monitoring. Bias-Erkennung Fairness-Metriken und Qualitätssicherung. Technical Requirements nach EU AI Act und MDR.",
+            keywords: "Anforderungen, Requirements, Performance, Leistung, Validierung, Qualität"
+        },
+        {
+            title: "Forschung & Wissenschaft",
+            url: "https://www.thomas-bade.de/wissenschaft.html",
+            category: "Regeln & Risiken",
+            excerpt: "KI in Forschung und Wissenschaft - Bundesstrategie und Förderung",
+            content: "KI in Forschung und Wissenschaft. Bundesregierung KI-Strategie Exzellenzcluster Reasonable Artificial Intelligence an der TU Darmstadt. Förderung von KI-Forschung Recheninfrastruktur Datenökosysteme Talentgewinnung und vertrauensbildende Maßnahmen. Wissenschaftliche Methodik Evidence-based Medicine und KI-basierte Forschungstools. Ethische Aspekte in der KI-Forschung.",
+            keywords: "Forschung, Wissenschaft, Exzellenzcluster, Bundesregierung, Förderung, Strategie"
+        },
+        {
+            title: "WHO Klassifizierung Digital Health",
+            url: "https://www.thomas-bade.de/who.html",
+            category: "Regeln & Risiken",
+            excerpt: "WHO-Klassifikationssystem für digitale Gesundheitstechnologien",
+            content: "WHO Weltgesundheitsorganisation Klassifizierung von Digital Health Interventionen. Taxonomie für digitale Gesundheitstechnologien mHealth Telemedizin elektronische Gesundheitsakten Clinical Decision Support Systems und KI-basierte Diagnostik. Internationale Standards und Interoperabilität. WHO-Guidelines für sichere und effektive digitale Gesundheitslösungen.",
+            keywords: "WHO, Digital Health, Klassifizierung, Weltgesundheitsorganisation, mHealth, Telemedizin"
+        },
+        {
+            title: "KI-Produktivitätsanalyse",
+            url: "https://www.thomas-bade.de/claude.html",
+            category: "Regeln & Risiken",
+            excerpt: "Anthropic-Studie zu KI-Produktivitätsgewinnen kritisch betrachtet",
+            content: "KI-Produktivitätsanalyse Anthropic-Studie zu Produktivitätsgewinnen durch KI-Assistenten wie Claude. Kritische Betrachtung von Zeitersparnis ROI Return on Investment und Wirtschaftlichkeit von KI-Implementierungen im Gesundheitswesen. Realistische Kosten-Nutzen-Kalkulation Compliance-Kosten Governance-Aufwand und langfristige TCO Total Cost of Ownership. Differenzierung zwischen Marketing-Versprechen und praktischer Realität.",
+            keywords: "Produktivität, Anthropic, Claude, ROI, Wirtschaftlichkeit, Effizienz, Zeitersparnis"
+        },
+        {
+            title: "Enquete-Kommission & KI",
+            url: "https://www.thomas-bade.de/enquete.html",
+            category: "Regeln & Risiken",
+            excerpt: "Parlamentarische Enquete-Kommission zu Künstlicher Intelligenz",
+            content: "Enquete-Kommission Künstliche Intelligenz des Deutschen Bundestages. Parlamentarische Beratung zu gesellschaftlichen ethischen wirtschaftlichen und rechtlichen Fragen der KI. Empfehlungen für Gesetzgebung Regulierung Forschungsförderung und gesellschaftlichen Dialog. KI-Strategie der Bundesregierung politische Rahmenbedingungen und demokratische Gestaltung von KI-Entwicklung.",
+            keywords: "Enquete, Bundestag, Politik, Gesetzgebung, Parlament, Demokratie"
+        },
+        {
+            title: "Ethische KI-Prinzipien (Anthropic)",
+            url: "https://www.thomas-bade.de/constitution.html",
+            category: "Regeln & Risiken",
+            excerpt: "Constitutional AI und ethische Prinzipien von Anthropic",
+            content: "Constitutional AI ethische KI-Prinzipien von Anthropic. RLHF Reinforcement Learning from Human Feedback und wertebasierte KI-Entwicklung. Transparenz Fairness Vermeidung von Bias und Diskriminierung. Harmlessness Helpfulness und Honesty als zentrale Werte. Alignment-Forschung und sichere KI-Systeme. Ethical AI Guidelines und verantwortungsvolle KI-Entwicklung.",
+            keywords: "Ethik, Constitutional AI, Anthropic, Prinzipien, RLHF, Werte, Fairness"
+        },
+        {
+            title: "Risk Categorization & Responsible AI",
+            url: "https://www.thomas-bade.de/risk.html",
+            category: "Regeln & Risiken",
+            excerpt: "CHAI Risk Categorization Tool und Responsible AI Framework",
+            content: "CHAI Coalition for Health AI Risk Categorization Tool für Risikobewertung von KI-Systemen im Gesundheitswesen. 19 Risikomodifikatoren über zwei Domänen Patientensicherheit und Technologie Daten. Eticas Responsible AI Framework mit sechs zentralen Risikofeldern Safety Bias Privacy Reliability Security und Governance. Strukturierte Pre-Deployment-Bewertung Risk Assessment Mitigation und Monitoring. Praktische Werkzeuge für Gesundheitseinrichtungen zur systematischen KI-Risikobewertung.",
+            keywords: "Risk, Risiko, CHAI, Eticas, Governance, Risikobewertung, Responsible AI, Sicherheit"
+        }
+    ]
+};
+
+// =====================================================================
+// ⚠️ AB HIER NICHTS MEHR ÄNDERN ⚠️
+// =====================================================================
+
+class SiteSearch {
+    constructor() {
+        this.searchInput = document.getElementById('site-search-input');
+        this.searchResults = document.getElementById('search-results');
+        this.searchResultsList = document.getElementById('search-results-list');
+        this.noResults = document.getElementById('no-results');
+        this.resultsCount = document.getElementById('results-count');
+        this.clearBtn = document.getElementById('search-clear-btn');
+        this.searchBar = document.getElementById('site-search-bar');
+        this.searchOverlay = document.getElementById('search-overlay');
+        
+        this.selectedIndex = -1;
+        this.currentResults = [];
+        
+        this.init();
+    }
+    
+    init() {
+        if (!this.searchInput) return;
+        
+        this.searchInput.addEventListener('input', (e) => this.handleSearch(e.target.value));
+        this.searchInput.addEventListener('keydown', (e) => this.handleKeyboard(e));
+        this.searchInput.addEventListener('focus', () => {
+            if (this.searchInput.value.length >= 2) {
+                this.handleSearch(this.searchInput.value);
+            }
+        });
+        
+        if (this.clearBtn) {
+            this.clearBtn.addEventListener('click', () => this.clearSearch());
+        }
+        
+        if (this.searchOverlay) {
+            this.searchOverlay.addEventListener('click', () => this.closeSearch());
+        }
+        
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                this.closeSearch();
+            }
+        });
+        
+        document.addEventListener('click', (e) => {
+            const container = document.getElementById('site-search-container');
+            if (container && !container.contains(e.target)) {
+                this.hideResults();
+            }
+        });
+    }
+    
+    handleSearch(query) {
+        query = query.trim().toLowerCase();
+        
+        if (this.clearBtn) {
+            this.clearBtn.style.display = query ? 'flex' : 'none';
+        }
+        
+        if (query.length < 2) {
+            this.hideResults();
+            return;
+        }
+        
+        const results = this.searchPages(query);
+        this.currentResults = results;
+        this.selectedIndex = -1;
+        
+        if (results.length > 0) {
+            this.displayResults(results, query);
+        } else {
+            this.showNoResults();
+        }
+    }
+    
+    searchPages(query) {
+        const results = [];
+        const queryWords = query.split(' ').filter(w => w.length > 1);
+        
+        SITE_SEARCH_CONFIG.pages.forEach(page => {
+            let score = 0;
+            const searchText = `${page.title} ${page.content} ${page.keywords}`.toLowerCase();
+            
+            queryWords.forEach(word => {
+                const lowerWord = word.toLowerCase();
+                
+                if (page.title.toLowerCase().includes(lowerWord)) {
+                    score += 200;
+                }
+                
+                if (page.keywords.toLowerCase().includes(lowerWord)) {
+                    score += 100;
+                }
+                
+                if (page.content && page.content.toLowerCase().includes(lowerWord)) {
+                    const regex = new RegExp(lowerWord, 'gi');
+                    const matches = page.content.match(regex);
+                    if (matches) {
+                        score += matches.length * 30;
+                    }
+                }
+                
+                if (searchText.includes(lowerWord)) {
+                    score += 5;
+                }
+            });
+            
+            if (score > 0) {
+                results.push({ ...page, score });
+            }
+        });
+        
+        return results.sort((a, b) => b.score - a.score);
+    }
+    
+    displayResults(results, query) {
+        if (!this.searchResults || !this.searchResultsList) return;
+        
+        this.searchResults.style.display = 'block';
+        this.noResults.style.display = 'none';
+        if (this.searchOverlay) this.searchOverlay.classList.add('active');
+        
+        if (this.resultsCount) {
+            this.resultsCount.textContent = `${results.length} Ergebnis${results.length !== 1 ? 'se' : ''}`;
+        }
+        
+        this.searchResultsList.innerHTML = results.map((result, index) => {
+            const excerpt = this.extractRelevantExcerpt(result.content || result.excerpt, query);
+            const highlightedExcerpt = this.highlightText(excerpt, query);
+            const highlightedTitle = this.highlightText(result.title, query);
+            
+            return `
+                <a href="${result.url}" 
+                   class="search-result-item" 
+                   data-index="${index}"
+                   tabindex="0">
+                    <div class="search-result-title">
+                        <svg class="search-result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                        </svg>
+                        ${highlightedTitle}
+                    </div>
+                    <div class="search-result-excerpt">${highlightedExcerpt}</div>
+                    <div class="search-result-meta">
+                        <span class="search-result-breadcrumb">
+                            <span>${result.category}</span>
+                        </span>
+                    </div>
+                </a>
+            `;
+        }).join('');
+        
+        this.searchResultsList.querySelectorAll('.search-result-item').forEach(item => {
+            item.addEventListener('click', () => this.closeSearch());
+        });
+    }
+    
+    extractRelevantExcerpt(text, query) {
+        const words = query.split(' ').filter(w => w.length > 1);
+        const lowerText = text.toLowerCase();
+        
+        let firstIndex = -1;
+        words.forEach(word => {
+            const index = lowerText.indexOf(word.toLowerCase());
+            if (index !== -1 && (firstIndex === -1 || index < firstIndex)) {
+                firstIndex = index;
+            }
+        });
+        
+        if (firstIndex === -1) {
+            return text.substring(0, 200) + '...';
+        }
+        
+        const start = Math.max(0, firstIndex - 50);
+        const end = Math.min(text.length, firstIndex + 150);
+        let excerpt = text.substring(start, end);
+        
+        if (start > 0) excerpt = '...' + excerpt;
+        if (end < text.length) excerpt = excerpt + '...';
+        
+        return excerpt;
+    }
+    
+    highlightText(text, query) {
+        const words = query.split(' ').filter(w => w.length > 1);
+        let result = text;
+        
+        words.forEach(word => {
+            const regex = new RegExp(`(${this.escapeRegex(word)})`, 'gi');
+            result = result.replace(regex, '<mark>$1</mark>');
+        });
+        
+        return result;
+    }
+    
+    escapeRegex(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+    
+    showNoResults() {
+        if (!this.searchResults || !this.noResults) return;
+        
+        this.searchResults.style.display = 'none';
+        this.noResults.style.display = 'block';
+        if (this.searchOverlay) this.searchOverlay.classList.add('active');
+    }
+    
+    hideResults() {
+        if (this.searchResults) this.searchResults.style.display = 'none';
+        if (this.noResults) this.noResults.style.display = 'none';
+        if (this.searchOverlay) this.searchOverlay.classList.remove('active');
+    }
+    
+    clearSearch() {
+        if (!this.searchInput) return;
+        
+        this.searchInput.value = '';
+        if (this.clearBtn) this.clearBtn.style.display = 'none';
+        this.hideResults();
+        this.searchInput.focus();
+    }
+    
+    handleKeyboard(e) {
+        if (!this.searchResultsList) return;
+        
+        const items = this.searchResultsList.querySelectorAll('.search-result-item');
+        
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            this.selectedIndex = Math.min(this.selectedIndex + 1, items.length - 1);
+            this.updateSelection(items);
+        } else if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            this.selectedIndex = Math.max(this.selectedIndex - 1, -1);
+            this.updateSelection(items);
+        } else if (e.key === 'Enter' && this.selectedIndex >= 0) {
+            e.preventDefault();
+            items[this.selectedIndex].click();
+        }
+    }
+    
+    updateSelection(items) {
+        items.forEach((item, index) => {
+            if (index === this.selectedIndex) {
+                item.classList.add('selected');
+                item.scrollIntoView({ block: 'nearest' });
+            } else {
+                item.classList.remove('selected');
+            }
+        });
+    }
+    
+    closeSearch() {
+        this.hideResults();
+    }
+}
+
+// Initialize
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => new SiteSearch());
+} else {
+    new SiteSearch();
+}
+</script>                     
+
+  
+
+
+  
+          
+
+    
+ <!-- Main Content -->
+<div class="container" style="max-width:960px; padding: 2rem 1rem;">
+
+    <div class="tb-stand">
+        Stand: 2025/2026 – Grundlage: ISO 14971:2019, EU AI Act (VO (EU) 2024/1689), AIAG FMEA Handbook (2019), Dhole (2025)
+    </div>
+
+    <!-- Prüfschema-Badge -->
+    <div style="background:var(--tb-blue-light); border:1px solid var(--tb-border); border-radius:8px; padding:1rem 1.25rem; margin-bottom:1.5rem;">
+        <strong style="font-size:0.82rem; text-transform:uppercase; letter-spacing:0.5px; color:var(--tb-blue);">■ Prüfschema</strong><br>
+        <span style="font-size:0.9rem;">Methodik, regulatorische Einordnung, AI-FMEA und Bewertungs-Checkliste für Betreiber von KI-Systemen und Medizinprodukten im Gesundheitswesen</span>
+    </div>
+
+    <!-- Definition FMEA -->
+    <div class="tb-section" id="definition">
+        <h2>Was ist FMEA?</h2>
+
+        <p>Die <strong>Failure Mode and Effects Analysis (FMEA)</strong> – auf Deutsch: Fehlermöglichkeits- und Einflussanalyse – ist eine strukturierte, präventive Methode zur systematischen Identifikation, Bewertung und Priorisierung potenzieller Fehler in Prozessen, Systemen oder Produkten, bevor sie auftreten.</p>
+
+        <p>Im Gesundheitswesen ist die FMEA seit Jahrzehnten in der Medizinprodukteentwicklung verankert. Mit der Einführung des EU AI Act rückt sie als regulatorisches Werkzeug auch für <span class="tb-glossar">Hochrisiko-KI-Systeme<span class="tb-tt">Hochrisiko-KI-Systeme sind KI-Anwendungen, die in Bereichen eingesetzt werden, die erhebliche Risiken für Gesundheit, Sicherheit oder Grundrechte darstellen – z.B. KI in Medizinprodukten (Annex III Nr. 5) oder in der Patientendiagnostik.</span></span> in den Vordergrund.
+
+        <p>Die FMEA beantwortet drei Grundfragen:</p>
+        <ul>
+            <li><strong>Was kann schiefgehen?</strong> – Identifikation von Fehlermoden (Failure Modes)</li>
+            <li><strong>Wie schlimm ist es?</strong> – Bewertung von Schweregrad, Auftretenswahrscheinlichkeit und Entdeckungswahrscheinlichkeit</li>
+            <li><strong>Was ist zu tun?</strong> – Priorisierung von Maßnahmen über die Risikopriorätszahl (RPZ)</li>
+        </ul>
+
+        <div class="tb-callout">
+            <strong>Executive Takeaway</strong>
+            Im Krankenhaus ist FMEA selten ein einmaliges Projekt – sie ist ein kontinuierlicher Prozess entlang des gesamten Produktlebenszyklus. KI-gestützte FMEA-Systeme verändern dabei die Spielregeln: Aus statischer Dokumentation wird ein dynamisches, datengetriebenes Risikomanagementsystem.
+        </div>
+
+        <div class="tb-callout-gold">
+            <strong>Leitplanke</strong>
+            Ohne strukturiertes FMEA-Verfahren entsteht operativ ein Compliance-Delta gegenüber ISO&nbsp;14971, EU AI Act Art.&nbsp;9 und MDR Annex I – inklusive Haftungs- und Zulassungsrisiko bei Hochrisiko-KI.
+        </div>
+    </div>
+
+    <!-- Anchor-Links -->
+    <div class="tb-anchor-links">
+        <a href="#methodik">Zur Methodik</a>
+        <a href="#ai-fmea">AI-FMEA</a>
+        <a href="#regulatorik">Regulatorik</a>
+        <a href="#checkliste">Checkliste</a>
+    </div>
+
+    <!-- RPZ-Erläuterung -->
+    <div class="tb-section" id="methodik">
+        <h2>FMEA-Methodik: RPZ und Bewertungsschema</h2>
+
+        <h3>Die Risikopriorätszahl (RPZ)</h3>
+        <p>Das Kernwerkzeug der FMEA ist die <strong>Risikopriorätszahl (RPZ)</strong>, auch Risk Priority Number (RPN) genannt:</p>
+
+        <div style="text-align:center; background:var(--tb-dark); color:#fff; padding:1.25rem; border-radius:8px; font-family:'Bebas Neue',sans-serif; font-size:1.8rem; letter-spacing:2px; margin: 1.25rem 0;">
+            RPZ = A &nbsp;×&nbsp; B &nbsp;×&nbsp; E
+        </div>
+
+        <div class="tb-table-wrap">
+            <table class="tb-table">
+                <thead>
+                    <tr>
+                        <th>Kriterium</th>
+                        <th>Beschreibung</th>
+                        <th>Skala</th>
+                        <th>Beispiel Gesundheitswesen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="td-badge">A</span> Auftreten</td>
+                        <td>Wie wahrscheinlich tritt der Fehler auf?</td>
+                        <td>1 (selten) – 10 (ständig)</td>
+                        <td>KI-Fehlklassifikation bei seltener Diagnose</td>
+                    </tr>
+                    <tr>
+                        <td><span class="td-badge">B</span> Bedeutung</td>
+                        <td>Wie schwerwiegend sind die Folgen?</td>
+                        <td>1 (unerheblich) – 10 (existenzbedrohend)</td>
+                        <td>Falsch-negatives Screening → Patientenschaden</td>
+                    </tr>
+                    <tr>
+                        <td><span class="td-badge">E</span> Entdeckung</td>
+                        <td>Wie wahrscheinlich wird der Fehler <em>nicht</em> entdeckt?</td>
+                        <td>1 (sicher erkannt) – 10 (nicht erkennbar)</td>
+                        <td>KI-Ausgabe ohne Human-Oversight-Prozess</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>RPZ-Ampel: Handlungsschwellen</h3>
+        <div class="tb-table-wrap">
+            <table class="tb-table">
+                <thead>
+                    <tr><th>RPZ-Bereich</th><th>Bewertung</th><th>Handlungspflicht</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong style="color:#22543d;">1–49</strong></td>
+                        <td>Niedrig</td>
+                        <td>Dokumentation; Monitoring fortführen</td>
+                    </tr>
+                    <tr>
+                        <td><strong style="color:#744210;">50–99</strong></td>
+                        <td>Mittel</td>
+                        <td>Optimierungsmaßnahmen einleiten; Verantwortliche benennen</td>
+                    </tr>
+                    <tr>
+                        <td><strong style="color:#7b341e;">100–199</strong></td>
+                        <td>Hoch</td>
+                        <td>Korrekturmaßnahmen innerhalb definierter Frist erforderlich</td>
+                    </tr>
+                    <tr>
+                        <td><strong style="color:#742a2a;">≥ 200</strong></td>
+                        <td>Kritisch</td>
+                        <td>Sofortmaßnahmen; Eskalation; ggf. Betriebsstopp</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>FMEA-Typen im Überblick</h3>
+        <div class="tb-steps">
+            <div class="tb-step"><strong>Design-FMEA (D-FMEA)</strong><br>Analyse möglicher Fehler bereits in der Entwicklungsphase eines KI-Systems oder Medizinprodukts. Pflicht nach MDR Annex I und EU AI Act Art. 9 für Hochrisiko-KI.</div>
+            <div class="tb-step"><strong>Prozess-FMEA (P-FMEA)</strong><br>Bewertung von Fehlern in der Herstellungs- oder Betriebsphase. Im Krankenhauskontext: Analyse klinischer Workflows, in die das KI-System eingebettet ist.</div>
+            <div class="tb-step"><strong>System-FMEA (S-FMEA)</strong><br>Ganzheitliche Betrachtung von Systemgrenzen und Schnittstellen – relevant bei vernetzten KI-Systemen (z.B. KI-Radiologie integriert in KIS/RIS/PACS).</div>
+            <div class="tb-step"><strong>Software-FMEA</strong><br>Spezialisierte FMEA für Softwarekomponenten nach IEC 62304. Direkt anwendbar auf KI-Softwaremodule in Medizinprodukten.</div>
+        </div>
+    </div>
+
+    <!-- AI-FMEA -->
+    <div class="tb-section" id="ai-fmea">
+        <h2>AI-gestützte FMEA: Von statisch zu dynamisch</h2>
+
+        <p>Die klassische FMEA weist systemische Schwächen auf, die im Kontext von KI-Systemen besonders gravierend werden. Dhole (2025) identifiziert drei zentrale Limitierungen:</p>
+
+        <div class="tb-table-wrap">
+            <table class="tb-table">
+                <thead>
+                    <tr><th>Limitierung</th><th>Traditionelle FMEA</th><th>AI-gestützte FMEA</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Subjektivität</strong></td>
+                        <td>RPZ-Bewertung variiert zwischen Teams und Standorten</td>
+                        <td>ML-Modelle kalibrieren Scores auf Basis empirischer Daten</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Statische Datenbasis</strong></td>
+                        <td>Bewertungen beruhen auf veralteten Datenbanken</td>
+                        <td>Real-time Datenintegration aus Post-Market Surveillance, Vigilanz-Datenbanken</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mustererkennung</strong></td>
+                        <td>Seltene oder latente Fehlermodi werden nicht erkannt</td>
+                        <td>NLP scannt Klinische Notizen, MDR-Meldungen, Audit-Trails automatisch</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Aktualisierungsfrequenz</strong></td>
+                        <td>Periodische Updates durch manuellen Aufwand</td>
+                        <td>Kontinuierliche dynamische RPN-Aktualisierung</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Der AI-FMEA-Workflow (nach Dhole 2025)</h3>
+
+        <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin: 1.25rem 0; align-items:center;">
+            <div style="background:var(--tb-blue); color:#fff; padding:0.65rem 1rem; border-radius:6px; font-size:0.85rem; font-weight:700; text-align:center; flex:1 1 130px;">
+                <div style="font-size:1.2rem;">📊</div>
+                Datenaggregation<br><small style="font-weight:400;">Sensoren, Logs, Klinik</small>
+            </div>
+            <div style="color:var(--tb-gold); font-size:1.5rem; font-weight:700;">→</div>
+            <div style="background:var(--tb-blue); color:#fff; padding:0.65rem 1rem; border-radius:6px; font-size:0.85rem; font-weight:700; text-align:center; flex:1 1 130px;">
+                <div style="font-size:1.2rem;">🔍</div>
+                NLP-Tagging<br><small style="font-weight:400;">Fehlermodus-Erkennung</small>
+            </div>
+            <div style="color:var(--tb-gold); font-size:1.5rem; font-weight:700;">→</div>
+            <div style="background:var(--tb-blue); color:#fff; padding:0.65rem 1rem; border-radius:6px; font-size:0.85rem; font-weight:700; text-align:center; flex:1 1 130px;">
+                <div style="font-size:1.2rem;">📈</div>
+                Predictive Analytics<br><small style="font-weight:400;">Risikovorhersage</small>
+            </div>
+            <div style="color:var(--tb-gold); font-size:1.5rem; font-weight:700;">→</div>
+            <div style="background:var(--tb-gold); color:#000; padding:0.65rem 1rem; border-radius:6px; font-size:0.85rem; font-weight:700; text-align:center; flex:1 1 130px;">
+                <div style="font-size:1.2rem;">🔄</div>
+                Dynamische RPZ<br><small style="font-weight:400;">Real-time Anpassung</small>
+            </div>
+        </div>
+
+        <h3>RPN-Vergleich: Klassisch vs. AI-gestützt</h3>
+        <p>Das folgende Beispiel aus der Fallstudie zu implantierbaren Kardioverter-Defibrillatoren (ICDs) zeigt, wie AI-gestützte FMEA die RPZ durch Kalibrierung an Realdaten senkt – und damit eine präzisere Ressourcensteuerung ermöglicht:</p>
+
+        <div class="tb-table-wrap">
+            <table class="tb-table">
+                <thead>
+                    <tr>
+                        <th>Fehlermode</th>
+                        <th>A</th><th>B</th><th>E</th>
+                        <th>RPZ (klassisch)</th>
+                        <th>RPZ (AI)</th>
+                        <th>Δ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Elektroden-Degradation</td>
+                        <td>4</td><td>8</td><td>4</td>
+                        <td><span class="td-badge">128</span></td>
+                        <td><span class="td-badge-blue">96</span></td>
+                        <td style="color:#22543d;">−25 %</td>
+                    </tr>
+                    <tr>
+                        <td>Firmware-Lockup</td>
+                        <td>3</td><td>9</td><td>3</td>
+                        <td><span class="td-badge">81</span></td>
+                        <td><span class="td-badge-blue">60</span></td>
+                        <td style="color:#22543d;">−26 %</td>
+                    </tr>
+                    <tr>
+                        <td>Thrombus-Bildung</td>
+                        <td>2</td><td>7</td><td>5</td>
+                        <td><span class="td-badge">70</span></td>
+                        <td><span class="td-badge-blue">50</span></td>
+                        <td style="color:#22543d;">−29 %</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p style="font-size:0.82rem; color:var(--tb-muted);">Quelle: Dhole, A. (2025). AI-Powered FMEA for Cardiovascular Devices. The American Journal of Interdisciplinary Innovations and Research, 7(09), 121–125.</p>
+
+        <div class="tb-callout">
+            <strong>Praktische Bedeutung für Krankenhäuser</strong>
+            AI-gestützte FMEA überführt die statische Risikobewertung in ein lebendiges <span class="tb-glossar">Post-Market-Monitoring<span class="tb-tt">Post-Market Monitoring (PMM) bezeichnet die systematische Sammlung und Auswertung von Erfahrungsdaten nach dem Inverkehrbringen eines Medizinprodukts oder KI-Systems im realen Einsatz. Pflicht nach MDR Art. 83–86 und EU AI Act Art. 72.</span></span>-System. Für Betreiber von Hochrisiko-KI im Sinne von EU AI Act Annex III ist das kein Nice-to-have, sondern regulatorische Pflicht ab August 2026.
+        </div>
+    </div>
+
+    <!-- Regulatorik -->
+    <div class="tb-section" id="regulatorik">
+        <h2>Regulatorik: FMEA im Rechtsrahmen</h2>
+
+        <h3>ISO 14971:2019 – Der Standard</h3>
+        <p>Die ISO 14971 ist der internationale Goldstandard für Risikomanagement bei Medizinprodukten und bildet das Fundament jeder FMEA im Gesundheitswesen. Sie schreibt vor:</p>
+        <ul>
+            <li>Systematische <span class="tb-glossar">Gefährdungsidentifikation<span class="tb-tt">Im Kontext der ISO 14971 umfasst die Gefährdungsidentifikation alle potenziellen Quellen von Schäden, die von einem Medizinprodukt oder KI-System ausgehen können – direkt (z.B. Fehldiagnose) oder indirekt (z.B. fehlerhafte Medikationsentscheidung).</span></span> über den gesamten Produktlebenszyklus</li>
+            <li>Risikoabschätzung und -bewertung mit definierten Akzeptanzkriterien</li>
+            <li>Risikominderung nach ALARP-Prinzip (As Low As Reasonably Practicable)</li>
+            <li>Post-Market-Risikoüberwachung und Aktualisierung der Risikobewertung</li>
+        </ul>
+
+        <h3>EU AI Act – Art. 9 und Annex III</h3>
+        <p>Für KI-Systeme, die unter Annex III des EU AI Act fallen (u.a. KI in Medizinprodukten, KI zur Diagnoseunterstützung), schreibt <strong>Art. 9</strong> ein Risikomanagementsystem vor, das strukturell dem FMEA-Ansatz entspricht:</p>
+
+        <div class="tb-table-wrap">
+            <table class="tb-table">
+                <thead>
+                    <tr><th>Anforderung EU AI Act</th><th>FMEA-Entsprechung</th><th>Rechtsgrundlage</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Risikoidentifikation bekannter und vorhersehbarer Risiken</td>
+                        <td>Fehlermode-Identifikation</td>
+                        <td>Art. 9 Abs. 2 lit. a</td>
+                    </tr>
+                    <tr>
+                        <td>Risikoabschätzung bei bestimmungsgemäßem und vorhersehbar missbräuchlichem Einsatz</td>
+                        <td>A × B × E Bewertung</td>
+                        <td>Art. 9 Abs. 2 lit. b</td>
+                    </tr>
+                    <tr>
+                        <td>Risikomanagement als iterativer Prozess über gesamten Lebenszyklus</td>
+                        <td>Dynamische FMEA / PMM</td>
+                        <td>Art. 9 Abs. 1</td>
+                    </tr>
+                    <tr>
+                        <td>Post-Market-Monitoring und Aktualisierung der Risikoanalyse</td>
+                        <td>AI-FMEA mit Real-time-Daten</td>
+                        <td>Art. 72</td>
+                    </tr>
+                    <tr>
+                        <td>Technische Dokumentation inkl. Risikomanagement</td>
+                        <td>FMEA als Teil des DHF/DMF</td>
+                        <td>Annex IV</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>MDR / IVDR – Produktsicherheit</h3>
+        <p>Für KI-Systeme, die als Medizinprodukt (MDR) oder In-vitro-Diagnostikum (IVDR) klassifiziert sind, ist die FMEA Teil der <span class="tb-glossar">Design History File (DHF)<span class="tb-tt">Die Design History File (DHF) oder technische Dokumentation dokumentiert den gesamten Entwicklungsprozess eines Medizinprodukts, einschließlich Risikoanalysen, Verifizierungs- und Validierungsergebnisse sowie klinische Bewertungen. Sie ist Voraussetzung für die CE-Kennzeichnung nach MDR/IVDR.</span></span>. Die Kombination FMEA + ISO 14971 + MDR Annex I (Allgemeine Sicherheits- und Leistungsanforderungen) ist die regulatorische Mindestanforderung für die CE-Kennzeichnung.</p>
+
+        <h3>DSGVO-Schnittstelle</h3>
+        <p>Bei KI-Systemen, die Gesundheitsdaten verarbeiten, überschneidet sich die FMEA-Risikobewertung mit der <span class="tb-glossar">Datenschutz-Folgenabschätzung (DSFA)<span class="tb-tt">Die Datenschutz-Folgenabschätzung (DSFA / DPIA) nach Art. 35 DSGVO ist für Verarbeitungsvorgänge mit voraussichtlich hohem Risiko für Rechte und Freiheiten natürlicher Personen Pflicht – z.B. bei KI-Systemen, die Gesundheitsdaten oder Verhaltensdaten in großem Maßstab verarbeiten.</span></span> nach Art. 35 DSGVO. Sinnvoll ist eine integrierte Risikobewertung, die beide Anforderungen in einem Dokument adressiert.</p>
+    </div>
+
+    <!-- Governance -->
+    <div class="tb-section" id="governance">
+        <h2>Governance-Setup: FMEA im Krankenhausbetrieb</h2>
+
+        <div class="tb-steps">
+            <div class="tb-step">
+                <strong>Rollen &amp; Verantwortung</strong><br>
+                FMEA-Teamzusammensetzung: QM-Leitung, klinische Fachkraft, IT/Medizintechnik, Datenschutzbeauftragter. Bei KI-Systemen: zusätzlich KI-Kompetenz (Art. 4 EU AI Act) sicherstellen. Klare Trennung: Hersteller-FMEA vs. Betreiber-Risikoanalyse.
+            </div>
+            <div class="tb-step">
+                <strong>Scope-Festlegung</strong>
+                Systemgrenzen und Schnittstellen definieren (KI-Modell, Integration, klinischer Workflow). Intended Use vs. foreseeable misuse dokumentieren. Für Hochrisiko-KI: Annex III-Klassifizierung als Eingangsvoraussetzung prüfen.
+            </div>
+            <div class="tb-step">
+                <strong>Datenbasis und Dokumentation</strong>
+                Herstellerdokumentation (Technical File, Instructions for Use) auswerten. Post-Market-Surveillance-Daten (EUDAMED, BfArM-Datenbank, interne Vorfallsberichte) einbeziehen. Für AI-FMEA: Logging-Daten des KI-Systems als kontinuierliche Datenquelle aktivieren.
+            </div>
+            <div class="tb-step">
+                <strong>Aktualisierungszyklus</strong>
+                Mindestens jährliche FMEA-Review. Anlassbezogene Aktualisierung bei: neuer Softwareversion, Änderung des Einsatzbereichs, signifikantem Vorfall, Änderung regulatorischer Anforderungen. Bei AI-FMEA: kontinuierliches Monitoring mit definierten Eskalationsschwellen.
+            </div>
+            <div class="tb-step">
+                <strong>Integration in QM-System</strong>
+                FMEA als Kernelement in QM-Handbuch verankern (ISO 9001 / DIN EN 15224). CAPA-Prozess (Corrective and Preventive Actions) an FMEA-Maßnahmen koppeln. Audit-Programm für KI-Systeme aufbauen.
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkliste -->
+    <div class="tb-section" id="checkliste">
+        <h2>Checkliste: FMEA-Readiness für KI-Systeme im Krankenhaus</h2>
+
+        <p style="font-size:0.88rem; color:var(--tb-muted);">Tipp: intern als Readiness-Check für QM-, IT- oder Compliance-Abteilung vor Inbetriebnahme von Hochrisiko-KI-Systemen.</p>
+
+        <div class="tb-progress-wrap">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.35rem;">
+                <span style="font-size:0.85rem; font-weight:700; color:var(--tb-blue);">Fortschritt</span>
+                <span id="progress-pct" style="font-size:0.85rem; font-weight:700; color:var(--tb-blue);">0 %</span>
+            </div>
+            <div class="tb-progress-bar-bg">
+                <div class="tb-progress-bar-fill" id="progress-fill"></div>
+            </div>
+            <div class="tb-progress-label" id="progress-label">0 von 20 Prüfpunkten erledigt</div>
+        </div>
+
+        <div style="overflow-x:auto;">
+        <table class="tb-checklist-table" id="fmea-checklist">
+            <thead>
+                <tr>
+                    <th style="width:40px;">OK</th>
+                    <th>Prüfpunkt</th>
+                    <th>Owner</th>
+                    <th>Nachweis</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- A) Scope & Klassifizierung -->
+                <tr class="section-header"><td colspan="4">A) Scope &amp; Klassifizierung</td></tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>KI-System ist gemäß Annex III EU AI Act auf Hochrisiko-Klassifizierung geprüft; Ergebnis schriftlich dokumentiert.</td>
+                    <td><span class="owner-tag">QM / Compliance</span></td>
+                    <td><span class="nachweis-tag">Klassifizierungsdossier</span></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Systemgrenzen des KI-Systems sind definiert (Eingabe, Ausgabe, Schnittstellen, Workflows). Intended Use und reasonably foreseeable misuse sind dokumentiert.</td>
+                    <td><span class="owner-tag">IT / Medizintechnik</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">System-Scope-Dokument</span>
+    <span class="prrc-tooltip-box">
+      <strong>System-Scope-Dokument</strong><br>
+      Definiert die Grenzen des KI-Systems: Eingaben, Ausgaben, Schnittstellen
+      (KIS/RIS/PACS), Workflows sowie Intended Use und reasonably foreseeable
+      misuse gemäß EU AI Act. Voraussetzung für Schritt 1 der FMEA-Durchführung
+      und Bestandteil der technischen Dokumentation nach Annex IV EU AI Act.
+    </span>
+  </span>
+</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>FMEA-Typ festgelegt (D-FMEA, P-FMEA, S-FMEA oder Kombination); Team mit FMEA-Kompetenz und klinischer Expertise zusammengesetzt.</td>
+                    <td><span class="owner-tag">QM / Projektleitung</span></td>
+                    <td><span class="nachweis-tag">Team-Charter</span></td>
+                </tr>
+
+                <!-- B) Fehlermoden-Identifikation -->
+                <tr class="section-header"><td colspan="4">B) Fehlermoden-Identifikation</td></tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Systematische Identifikation von Fehlermoden unter Einbeziehung: Herstellerdokumentation, klinische Erfahrungswerte, EUDAMED/BfArM-Meldungen, Fachliteratur.</td>
+                    <td><span class="owner-tag">FMEA-Team</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">Failure Mode Liste</span>
+    <span class="prrc-tooltip-box">
+      <strong>Failure Mode Liste</strong><br>
+      Zentrales FMEA-Dokument zur systematischen Erfassung potenzieller Fehler,
+      ihrer Ursachen und Auswirkungen. Grundlage für die RPZ-Bewertung
+      (Auftrittswahrscheinlichkeit × Bedeutung × Entdeckungswahrscheinlichkeit)
+      und die Priorisierung von Abstellmaßnahmen.
+    </span>
+  </span>
+</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>KI-spezifische Fehlermoden erfasst: Halluzinationen, Bias, Out-of-Distribution-Verhalten, Adversarial Attacks, Drift, Logging-Ausfall.</td>
+                    <td><span class="owner-tag">IT / KI-Experte</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">AI Failure Catalogue</span>
+    <span class="prrc-tooltip-box">
+      <strong>AI Failure Catalogue</strong><br>
+      Strukturierte Erfassung KI-spezifischer Fehlermoden: Halluzinationen, Bias,
+      Out-of-Distribution-Verhalten, Adversarial Attacks, Model Drift und
+      Logging-Ausfälle. Bildet die Grundlage für die FMEA-Fehleranalyse und
+      ergänzt klassische IT-Fehlerkataloge um KI-systemische Risiken.
+    </span>
+  </span>
+</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Für jeden Fehlermode: Fehlerursache (Root Cause) und Fehlerauswirkung (Effect) auf Patientensicherheit und Betrieb dokumentiert.</td>
+                    <td><span class="owner-tag">FMEA-Team</span></td>
+                    <td><span class="nachweis-tag">FMEA-Formblatt</span></td>
+                </tr>
+
+                <!-- C) RPZ-Bewertung -->
+                <tr class="section-header"><td colspan="4">C) RPZ-Bewertung</td></tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Bewertungsskalen für A, B, E sind einrichtungsspezifisch kalibriert und schriftlich fixiert; alle FMEA-Teammitglieder wurden kalibriert.</td>
+                    <td><span class="owner-tag">QM</span></td>
+                    <td><span class="nachweis-tag">Bewertungsskalen-Dok.</span></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>RPZ für alle identifizierten Fehlermoden berechnet; Handlungsschwellen definiert (z.B. RPZ ≥ 125 = Maßnahme erforderlich).</td>
+                    <td><span class="owner-tag">FMEA-Team</span></td>
+                    <td><span class="nachweis-tag">FMEA-Tabelle</span></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Alle Fehlermoden mit RPZ ≥ 125 haben dokumentierte Optimierungsmaßnahmen mit Verantwortlichem und Umsetzungsfrist.</td>
+                    <td><span class="owner-tag">QM / Fachbereich</span></td>
+                    <td><span class="nachweis-tag">Maßnahmenplan</span></td>
+                </tr>
+
+                <!-- D) Regulatorik & Dokumentation -->
+                <tr class="section-header"><td colspan="4">D) Regulatorik &amp; Dokumentation</td></tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>FMEA ist in die technische Dokumentation / DHF integriert und versioniert. Verbindung zum ISO-14971-Risikomanagement-File ist hergestellt.</td>
+                    <td><span class="owner-tag">QM / Regulatory</span></td>
+                    <td><span class="nachweis-tag">Tech. Dokumentation</span></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Grundrechts-Folgenabschätzung (FRIA, Art. 27 EU AI Act) durchgeführt und mit FMEA-Risikobewertung abgeglichen.</td>
+                    <td><span class="owner-tag">Datenschutzbeauftragter</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">FRIA-Dokument</span>
+    <span class="prrc-tooltip-box">
+      <strong>FRIA-Dokument</strong><br>
+      Ein FRIA-Dokument steht im Kontext der EU-KI-Verordnung (AI Act) für eine
+      Fundamental Rights Impact Assessment (Grundrechte-Folgenabschätzung).
+      Es bewertet die Auswirkungen von Hochrisiko-KI-Systemen auf Grundrechte
+      vor deren Einsatz (Deployment).
+    </span>
+  </span>
+</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>DSGVO-Datenschutz-Folgenabschätzung (DSFA, Art. 35 DSGVO) bei Verarbeitung von Gesundheitsdaten durchgeführt und dokumentiert.</td>
+                    <td><span class="owner-tag">Datenschutzbeauftragter / IT</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">DSFA-Dokument</span>
+    <span class="prrc-tooltip-box">
+      <strong>DSFA-Dokument</strong><br>
+      Datenschutz-Folgenabschätzung gemäß Art. 35 DSGVO – erforderlich, wenn eine
+      Datenverarbeitung voraussichtlich ein hohes Risiko für Rechte und Freiheiten
+      natürlicher Personen mit sich bringt. Dient der systematischen Analyse
+      und Minimierung dieser Risiken.
+    </span>
+  </span>
+</td>
+                </tr>
+
+                <!-- E) Post-Market-Monitoring & Dynamik -->
+                <tr class="section-header"><td colspan="4">E) Post-Market-Monitoring &amp; Dynamische Aktualisierung</td></tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Post-Market-Monitoring-Plan nach Art. 72 EU AI Act / MDR Art. 83 erstellt; KPIs, Datenquellen, Meldeschwellen und Aktualisierungsfrequenz definiert.</td>
+                    <td><span class="owner-tag">QM / IT</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">PMM-Plan</span>
+    <span class="prrc-tooltip-box">
+      <strong>PMM-Plan</strong><br>
+      Post-Market-Monitoring-Plan gemäß Art. 72 EU AI Act bzw. MDR Art. 83 –
+      definiert KPIs, Datenquellen, Meldeschwellen und Aktualisierungsfrequenz
+      für die laufende Überwachung eines KI-Systems oder Medizinprodukts
+      nach dessen Inbetriebnahme.
+    </span>
+  </span>
+</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Logging-Konzept für das KI-System aktiviert: Eingaben, Ausgaben, Nutzer, Zeitstempel, Modellversion werden revisionsfest gespeichert (mind. 6 Monate gemäß Art. 26 Abs. 6 EU AI Act).</td>
+                    <td><span class="owner-tag">IT</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">Log-Konzept</span>
+    <span class="prrc-tooltip-box">
+      <strong>Log-Konzept</strong><br>
+      Definiert, wie ein KI-System Ereignisse, Fehler und Aktivitäten strukturiert
+      aufzeichnet – inkl. Formate, Aufbewahrungsfristen und Zugriffssicherheit.
+      Für Hochrisiko-KI schreibt Art. 26 Abs. 6 EU AI Act eine revisionsfeste
+      Speicherung von Eingaben, Ausgaben, Nutzer, Zeitstempel und Modellversion
+      vor – mindestens 6 Monate.
+    </span>
+  </span>
+</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Vorfalls-Meldeprotokoll (Art. 73 EU AI Act): Meldeweg bei schwerwiegenden Vorfällen definiert; 15-Tage-Frist für Gesundheitsbereich im QM-System verankert; Verantwortlicher benannt.</td>
+                    <td><span class="owner-tag">QM / IT-Security</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">Incident-Runbook</span>
+    <span class="prrc-tooltip-box">
+      <strong>Incident-Runbook</strong><br>
+      Strukturiertes Dokument mit schrittweisen Anweisungen zur Reaktion auf
+      KI-bezogene Störfälle. Im Kontext des EU AI Act (Art. 73) definiert es
+      den Meldeweg bei schwerwiegenden Vorfällen, benennt Verantwortliche und
+      verankert die 15-Tage-Meldefrist für den Gesundheitsbereich im QM-System.
+    </span>
+  </span>
+</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>FMEA-Review-Zyklus festgelegt: mindestens jährlich und anlassbezogen (neue Softwareversion, Scope-Änderung, Schwellenwert-Überschreitung bei Monitoring-Daten).</td>
+                    <td><span class="owner-tag">QM</span></td>
+                    <td><span class="nachweis-tag">Auditplan</span></td>
+                </tr>
+
+                <!-- F) Human Oversight & Schulung -->
+                <tr class="section-header"><td colspan="4">F) Human Oversight &amp; KI-Kompetenz</td></tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>Human-Oversight-Prozess definiert: KI liefert Ausgabe, Fachkraft prüft und entscheidet. Override-Protokoll und Stop-Use-Kriterien dokumentiert (Art. 14 EU AI Act).</td>
+                    <td><span class="owner-tag">Fachbereich / QM</span></td>
+                    <td>
+  <span class="prrc-tooltip-wrapper">
+    <span class="nachweis-tag prrc-highlight">SOP / Arbeitsanweisung</span>
+    <span class="prrc-tooltip-box">
+      <strong>SOP / Arbeitsanweisung</strong><br>
+      Verbindliche Standardarbeitsanweisung für den KI-gestützten klinischen
+      Workflow: definiert Human-Oversight-Prozess, Override-Protokoll und
+      Stop-Use-Kriterien gemäß Art. 14 EU AI Act. Sichert Qualität,
+      Patientensicherheit und Nachweisfähigkeit im Regelbetrieb.
+    </span>
+  </span>
+</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" onchange="updateProgress()"></td>
+                    <td>KI-Kompetenzschulung (Art. 4 EU AI Act) durchgeführt: Fehlermodi, Bias, Grenzen, Eskalation, sichere Nutzung. Qualifikationsnachweise dokumentiert.</td>
+                    <td><span class="owner-tag">HR / QM</span></td>
+                    <td><span class="nachweis-tag">Schulungsnachweis</span></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <p style="font-size:0.8rem; color:var(--tb-muted); margin-top:0.75rem;">
+            Quelle: EU AI Act (VO (EU) 2024/1689), Art. 9, 14, 26–27, 72–73, Annex III; ISO 14971:2019; MDR (EU) 2017/745; DSGVO Art. 35.
+        </p>
+    </div>
+
+    <!-- Literatur + CTA -->
+    <div class="tb-lit-cta">
+        <div class="tb-lit">
+            <strong>Literatur &amp; Quellen</strong>
+            <p>Dhole, A. (2025). AI-Powered Failure Mode and Effects Analysis (FMEA) for Cardiovascular Devices: A Modern Framework for Proactive Risk Management. <em>The American Journal of Interdisciplinary Innovations and Research</em>, 7(09), 121–125. <a href="https://doi.org/10.37547/tajiir/Volume07Issue09-13" target="_blank" rel="noopener" style="color:var(--tb-blue);">DOI 10.37547/tajiir/Volume07Issue09-13</a></p>
+            <p>ISO 14971:2019 – Medical devices: Application of risk management to medical devices. <a href="https://www.iso.org/standard/72704.html" target="_blank" rel="noopener" style="color:var(--tb-blue);">ISO.org</a></p>
+            <p>AIAG (2019). Potential Failure Mode and Effects Analysis (FMEA) Handbook (1st ed.). Southfield, MI: AIAG.</p>
+            <p>EU AI Act (VO (EU) 2024/1689), Art. 9, 14, 26, 27, 72, 73, Annex III–IV. <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32024R1689" target="_blank" rel="noopener" style="color:var(--tb-blue);">EUR-Lex</a></p>
+        </div>
+        <div class="tb-cta-block">
+  FMEA für Ihr KI-System einführen?<br>
+    <hr>
+  <a href="https://www.thomas-bade.de/termine.html" class="tb-btn-gold">Let's talk</a>
+  &nbsp;
+  <button onclick="openFmeaModal()"
+          class="tb-btn-gold mt-2"
+          style="border:none; cursor:pointer;">
+    <i class="bi bi-book me-1"></i> Lernmodul (Oraghandbuch) des Bundesministerium für Digitales und Staatsmodernisierung
+  </button>
+</div>
+
+   
+
+<!-- ══════════════════════════════════════════════════
+     MODAL OVERLAY
+══════════════════════════════════════════════════ -->
+<div id="fmea-modal"
+     style="display:none; position:fixed; inset:0;
+            background:rgba(0,0,0,.80); z-index:9500;
+            padding:1.5rem 1rem; overflow-y:auto;"
+     onclick="if(event.target===this) closeFmeaModal()"
+     role="dialog" aria-modal="true" aria-labelledby="fmea-modal-title">
+
+  <!-- Dialog-Box: Bootstrap card + CI-Farben -->
+  <div class="mx-auto" style="max-width:680px;">
+    <div class="card border-0 rounded-0"
+         style="background:#fff; border-top:4px solid var(--tb-gold) !important;">
+
+     <!-- ── Kopfzeile ── -->
+      <div class="card-header rounded-0 d-flex align-items-start justify-content-between gap-3"
+           style="background:#fff; border-bottom:2px solid var(--tb-gold);">
+        <div>
+         
+          <h2 id="fmea-modal-title"
+              style="font-family:'Bebas Neue',sans-serif; font-size:1.8rem;
+                     letter-spacing:2px; color:#000; margin:0; line-height:1.1;">
+            FMEA Prinzipien nach dem Organhandbuch 2018<span style='font-size:12px; color:#ffc451;'>■</span>
+          </h2>
+          <p class="mb-0 mt-1" style="font-size:.8rem; color:#555;">
+            Failure Mode and Effects Analysis · DIN EN 60812 · EU AI Act Art. 9
+          </p>
+        </div>
+        <button onclick="closeFmeaModal()"
+                class="btn btn-sm border-0"
+                aria-label="Schließen"
+                style="font-size:1.2rem; line-height:1; flex-shrink:0; color:#000;">
+          ✕
+        </button>
+      </div><!-- /card-header -->
+
+      <!-- ── Tab-Navigation ── -->
+      <div class="card-body p-0">
+
+        <div class="tb-anchor-links px-3 pt-3 pb-0 mb-0 gap-1">
+          <button class="fmea-tab tb-btn-gold active"
+                  onclick="fmeaTab('grundlagen',this)"
+                  style="font-size:.75rem; padding:.35rem .85rem; border:none; cursor:pointer;">
+            Grundlagen
+          </button>
+          <button class="fmea-tab"
+                  onclick="fmeaTab('schritte',this)"
+                  style="font-size:.75rem; padding:.35rem .85rem; border:1px solid #ccc;
+                         background:#f7f7f7; color:#333; cursor:pointer;">
+            5 Schritte
+          </button>
+          <button class="fmea-tab"
+                  onclick="fmeaTab('rpz',this)"
+                  style="font-size:.75rem; padding:.35rem .85rem; border:1px solid #ccc;
+                         background:#f7f7f7; color:#333; cursor:pointer;">
+            RPZ-Bewertung
+          </button>
+          <button class="fmea-tab"
+                  onclick="fmeaTab('praxis',this)"
+                  style="font-size:.75rem; padding:.35rem .85rem; border:1px solid #ccc;
+                         background:#f7f7f7; color:#333; cursor:pointer;">
+            Praxis
+          </button>
+          <button class="fmea-tab"
+                  onclick="fmeaTab('fragen',this)"
+                  style="font-size:.75rem; padding:.35rem .85rem; border:1px solid #ccc;
+                         background:#f7f7f7; color:#333; cursor:pointer;">
+            Fragen
+          </button>
+        </div>
+
+        <hr class="mx-3 mt-2 mb-0" style="border-color:var(--tb-border);">
+
+        <div class="p-3">
+
+          <!-- ── PANEL: Grundlagen ── -->
+          <div id="fmea-p-grundlagen" class="fmea-panel">
+
+            <p class="mb-2" style="font-size:.9rem;">
+              Die FMEA ist eine analytische Methode zur <strong>frühzeitigen Erkennung und
+              Vermeidung</strong> potenzieller Fehler in Prozessen, Produkten oder Systemen.
+              Normgrundlage: <strong>DIN EN 60812</strong>.
+            </p>
+
+            <div class="tb-callout-gold mb-3">
+              <strong>Warum im Gesundheitswesen besonders relevant?</strong>
+              Leistungserbringung und -konsum fallen zeitlich zusammen – Fehler lassen sich
+              nachträglich kaum korrigieren, ohne Schaden für Patienten oder Reputation.
+              Die FMEA setzt <em>vor</em> der Leistungserbringung an.
+            </div>
+
+            <div class="tb-table-wrap mb-3">
+              <table class="tb-table">
+                <thead>
+                  <tr>
+                    <th>FMEA-Typ</th>
+                    <th>Fokus</th>
+                    <th>Relevanz</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Produkt-FMEA</strong></td>
+                    <td>Entwicklung & Design</td>
+                    <td>MDR, Medizinprodukte, SaMD</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Prozess-FMEA</strong></td>
+                    <td>Leistungs- & Arbeitsprozesse</td>
+                    <td>Klinische Abläufe, Verwaltung, KI-Betrieb</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="row g-2">
+              <div class="col-6">
+                <div class="p-2 rounded" style="border-top:2px solid #4caf7d; background:#f0faf4; font-size:.82rem;">
+                  <strong style="color:#2d6a4f; display:block; margin-bottom:.3rem; font-size:.72rem; text-transform:uppercase; letter-spacing:.5px;">Stärken</strong>
+                  <ul class="mb-0 ps-3" style="color:#555;">
+                    <li>Vorausschauende Fehlervermeidung</li>
+                    <li>Qualitätsbewusstsein stärken</li>
+                    <li>Ergebnisse wiederverwendbar</li>
+                    <li>Haftungsentlastung dokumentierbar</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="p-2 rounded" style="border-top:2px solid #e05555; background:#fff5f5; font-size:.82rem;">
+                  <strong style="color:#9b2c2c; display:block; margin-bottom:.3rem; font-size:.72rem; text-transform:uppercase; letter-spacing:.5px;">Grenzen</strong>
+                  <ul class="mb-0 ps-3" style="color:#555;">
+                    <li>Erheblicher Analyseaufwand</li>
+                    <li>Qualitativ, nicht quantitativ</li>
+                    <li>Subjektive RPZ-Vergabe möglich</li>
+                    <li>Regelmäßige Aktualisierung nötig</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /grundlagen -->
+
+
+          <!-- ── PANEL: 5 Schritte ── -->
+          <div id="fmea-p-schritte" class="fmea-panel" style="display:none;">
+
+            <div class="tb-callout mb-3">
+              <strong>Hinweis zur Durchführung</strong>
+              Gruppen­arbeit aus Pflege, Ärzteschaft, IT und QM nutzt das vorhandene
+              Erfahrungswissen aller Fachbereiche – und ist dem Einzeleinsatz vorzuziehen.
+            </div>
+
+            <div class="tb-steps">
+              <div class="tb-step">
+                <strong>Prozessabgrenzung</strong>
+                Prozess modellieren, dokumentieren, Teilprozesse identifizieren.
+                Voraussetzung für alle Folgeschritte.
+              </div>
+              <div class="tb-step">
+                <strong>Fehler, Folgen &amp; Ursachen analysieren</strong>
+                Leitfragen: Welche Fehler? Welche Folgen? Welche Ursachen? –
+                Systematisch für jeden Teilprozess.
+              </div>
+              <div class="tb-step">
+                <strong>Risikobewertung (RPZ)</strong>
+                A × B × E für jeden Fehler ermitteln. Schwellenwert festlegen
+                (Orientierung: RPZ ≥ 125).
+              </div>
+              <div class="tb-step">
+                <strong>Maßnahmen ableiten</strong>
+                Für kritische RPZ: Abstellmaßnahmen mit Verantwortung und Frist.
+                Alle Fehler – auch ohne Maßnahme – nachvollziehbar dokumentieren.
+              </div>
+              <div class="tb-step">
+                <strong>Wirksamkeit prüfen &amp; aktualisieren</strong>
+                RPZ nach Maßnahmenumsetzung neu bewerten. Bei Systemänderungen
+                (z. B. neue KI-Software, Modulupdate) FMEA aktualisieren.
+              </div>
+            </div>
+
+          </div><!-- /schritte -->
+
+
+          <!-- ── PANEL: RPZ ── -->
+          <div id="fmea-p-rpz" class="fmea-panel" style="display:none;">
+
+            <!-- Formel-Box im CI -->
+            <div class="text-center py-3 mb-3 rounded"
+                 style="background:var(--tb-dark); border:1px solid #333;">
+              <div style="font-family:'Bebas Neue',sans-serif; font-size:2.2rem;
+                          letter-spacing:4px; color:#fff;">
+                <span style="color:var(--tb-gold);">RPZ</span> = A × B × E
+              </div>
+              <p class="mb-0 mt-1" style="font-size:.75rem; color:#888;">
+                Wertebereich 1–1.000 · Je höher, desto dringlicher der Handlungsbedarf
+              </p>
+            </div>
+
+            <div class="tb-table-wrap mb-3">
+              <table class="tb-table">
+                <thead>
+                  <tr><th>Faktor</th><th>Bezeichnung</th><th>Skala 1–10</th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="td-badge">A</span></td>
+                    <td>Auftrittswahrscheinlichkeit</td>
+                    <td>1 = sehr selten &nbsp;·&nbsp; 10 = fast sicher</td>
+                  </tr>
+                  <tr>
+                    <td><span class="td-badge">B</span></td>
+                    <td>Bedeutung / Schwere der Folge</td>
+                    <td>1 = kaum spürbar &nbsp;·&nbsp; 10 = sicherheitskritisch</td>
+                  </tr>
+                  <tr>
+                    <td><span class="td-badge">E</span></td>
+                    <td>Entdeckungswahrscheinlichkeit</td>
+                    <td>1 = sicher erkannt &nbsp;·&nbsp; 10 = nicht erkennbar</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="tb-table-wrap mb-3">
+              <table class="tb-table">
+                <thead>
+                  <tr><th>RPZ-Bereich</th><th>Bewertung</th><th>Handlung</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>1–50</td><td>Gering</td><td>Beobachten</td></tr>
+                  <tr><td>51–124</td><td>Moderat</td><td>Maßnahmen prüfen und planen</td></tr>
+                  <tr><td>125–200</td><td>Hoch</td><td>Kurzfristig handeln, Verantwortliche benennen</td></tr>
+                  <tr><td>&gt; 200</td><td>Kritisch</td><td>Sofortmaßnahme · Eskalation erforderlich</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="tb-callout-gold">
+              <strong>Schwellenwert in der Praxis</strong>
+              RPZ ≥ 125 gilt als verbreitete Handlungsschwelle (Orientierung: REFA 2012,
+              Orgahandbuch BMI/BVA). Der Schwellenwert ist einrichtungsspezifisch zu
+              kalibrieren und schriftlich zu fixieren – es gibt keinen normativ
+              verbindlichen Grenzwert.
+            </div>
+
+          </div><!-- /rpz -->
+
+
+          <!-- ── PANEL: Praxis ── -->
+          <div id="fmea-p-praxis" class="fmea-panel" style="display:none;">
+
+            <div class="tb-table-wrap mb-3">
+              <table class="tb-table">
+                <thead>
+                  <tr><th>Kontext</th><th>Typische Prozess-FMEA-Anwendungen</th></tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Krankenhaus</strong></td>
+                    <td>Entlassmanagement, Medikamentenvergabe, OP-Vorbereitung,
+                        Patientenidentifikation, KI-gestützte Diagnostik</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Pflege</strong></td>
+                    <td>Sturzprävention, Schichtübergaben, Pflegedokumentation,
+                        Leistungsabrechnung SGB XI, sensorische Assistenzsysteme</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Kommune</strong></td>
+                    <td>Bedarfsplanung § 71 SGB XII, IT-Beschaffung,
+                        automatisierte Verwaltungsverfahren, KI-Entscheidungsunterstützung</td>
+                  </tr>
+                  <tr>
+                    <td><strong>KI-Systeme</strong></td>
+                    <td>SaMD-Einführung (MDR Anhang I), Hochrisiko-KI (EU AI Act
+                        Anhang III), IEC 62304 Software-FMEA</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="tb-callout">
+              <strong>EU AI Act – Art. 9 Risikomanagementsystem</strong>
+              Für Hochrisiko-KI (Annex III) ist ein iteratives Risikomanagementsystem
+              vorgeschrieben, das strukturell der Prozess-FMEA entspricht:
+              Risikoidentifikation, -abschätzung, Post-Market-Monitoring und laufende
+              Aktualisierung. Kombinierbar mit CAPA-Prozessen und ISO 14971.
+              Wirksam für Hochrisiko-KI ab <strong>2. August 2026</strong>.
+            </div>
+
+          </div><!-- /praxis -->
+
+
+          <!-- ── PANEL: Fragen ── -->
+          <div id="fmea-p-fragen" class="fmea-panel" style="display:none;">
+
+            <p class="mb-3" style="font-size:.88rem; color:var(--tb-muted);">
+              Fragen zur Wissensüberprüfung – ohne Musterlösung, zur eigenen Reflexion.
+            </p>
+
+            <ol class="ps-3" style="font-size:.9rem; line-height:1.7; color:var(--tb-text);">
+              <li class="mb-3">
+                Welche FMEA-Form ist in Organisationsuntersuchungen im Gesundheitswesen
+                zentral – und warum ist eine nachträgliche Korrektur in diesem Sektor
+                besonders schwierig?
+              </li>
+              <li class="mb-3">
+                Fehler bei der stationären Patientenentlassung: <strong>A = 4, B = 8, E = 5</strong>.
+                Berechnen Sie die RPZ. Ist sofortiger Handlungsbedarf gegeben?
+              </li>
+              <li class="mb-3">
+                Warum ist der Faktor <strong>E (Entdeckungswahrscheinlichkeit)</strong> im
+                Pflegekontext besonders kritisch? Nennen Sie ein konkretes Beispiel.
+              </li>
+              <li class="mb-3">
+                Welche Voraussetzung muss vor Schritt 2 (Fehleranalyse) erfüllt sein –
+                und was passiert, wenn sie fehlt?
+              </li>
+              <li class="mb-3">
+                Welcher Artikel des EU AI Act regelt das Risikomanagementsystem für
+                Hochrisiko-KI, und welche strukturellen Parallelen zur FMEA bestehen?
+              </li>
+            </ol>
+
+          </div><!-- /fragen -->
+
+        </div><!-- /p-3 -->
+      </div><!-- /card-body -->
+
+      <!-- ── Fußzeile ── -->
+      <div class="card-footer rounded-0 px-3 py-2"
+           style="background:#f7f7f7; border-top:1px solid var(--tb-border);
+                  font-size:.72rem; color:var(--tb-dark);">
+        Quelle: Organisationshandbuch BMI/BVA, Kap. 6.3.3 ·
+        <a href="https://www.orghandbuch.de/Webs/OHB/DE/Organisationshandbuch/6_MethodenTechniken/63_Analysetechniken/633_FehlermoeglichkeitUndEinflussanalyse/fehlermoeglichkeitundeinflussanalyse-node.html"
+           target="_blank" rel="noopener"
+           style="color:var(--tb-blue);">orghandbuch.de ↗</a>
+        &nbsp;·&nbsp; DIN EN 60812 &nbsp;·&nbsp; Healthcare-Einordnung: Thomas Bade
+      </div>
+
+    </div><!-- /card -->
+  </div><!-- /mx-auto -->
+</div><!-- /#fmea-modal -->
+ 
+</main>
+
+
+    <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <!-- Linke Spalte -->
+          <div class="col-lg-6 col-md-6 mb-3">
+            <img src="https://thomas-bade.de/assets/img/logo-transparent.png" alt="thomas-bade.de" style="height:120px; margin-bottom:20px; display:block;">
+            <p style="font-size:14px; margin-bottom:6px;"><a href="mailto:tb@thomas-bade.de" style="color:#ccc; text-decoration:none;"><i class="bi bi-envelope me-1"></i>E-Mail</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/coach.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-person me-1"></i>Zur Person</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/termine.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-calendar me-1"></i>Let's talk</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/impressum.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-file-text me-1"></i>Impressum &amp; Datenschutz</a></p>
+            <p style="font-size:12px; color:#ffc451; margin-top:16px;">&copy; Copyright 2026 Thomas Bade</p>
+          </div>
+
+          <!-- Rechte Spalte -->
+          <div class="col-lg-6 col-md-6 mb-3">
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-bottom:10px; color:#ffc451 !important;">Weitere Angebote</p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.eu" target="_blank" rel="noopener" style="color:#ccc; text-decoration:none;"><i class="bi bi-globe me-1"></i>thomas-bade.eu – Zukunftsraum Kommune</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.org" target="_blank" rel="noopener" style="color:#ccc; text-decoration:none;"><i class="bi bi-mortarboard me-1"></i>thomas-bade.org – KI Kompetenz- &amp; Lernportal</a></p>
+
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-top:20px; margin-bottom:10px; color:#ffc451 !important;">Alle KI-Themen</p>
+            <div class="footer-dropdown" id="footerDropdown">
+              <button class="footer-dd-trigger" id="footerDDBtn">
+                Themenübersicht 
+                <span class="footer-dd-chevron">▲</span>
+              </button>
+              <ul class="footer-dd-menu" id="footerDDMenu">
+                 <li><a href="https://www.thomas-bade.de/sitemap.html" target="_blank"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></li>
+             <li><a href="https://www.thomas-bade.de/bmg.html">Digitalisierungsstrategie 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/mdr_ki.html">Hochrisiko-KI</a></li>
+              <li><a href="https://www.thomas-bade.de/leitbild.html">Leitbild</a></li>
+              <li><a href="https://www.thomas-bade.de/mission.html">Mission Statement</a></li>
+              <li><a href="https://www.thomas-bade.de/ki_verordnung.html">KI-MIG 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/wissenschaft.html">Forschung &amp; Wissenschaft</a></li>
+              <li><a href="https://www.thomas-bade.de/constitution.html">Ethische KI-Prinzipien</a></li>
+              <li><a href="https://www.thomas-bade.de/risk.html">KI Risikomanagement</a></li>
+              <li><a href="https://www.thomas-bade.de/oecd.html">OECD 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/arise.html">State of Clinical AI Report</a></li>
+              <li><a href="https://www.thomas-bade.de/praevention.html">KI in der Prävention</a></li>
+              <li><a href="https://www.thomas-bade.de/haip.html">Health AI Partnership (HAIP)</a></li>
+              <li><a href="https://www.thomas-bade.de/portal.html">KI Lernformate</a></li>
+
+
+
+              </ul>
+            </div>
+<p style="font-size:14px; margin-bottom:6px;">
+              <a href="https://www.thomas-bade.de/sitemap.html" target="_blank" style="color:#ccc; text-decoration:none;"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></p>
+
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-top:20px; margin-bottom:10px; color:#ffc451 !important;">Seite teilen</p>
+                      <div class="share-container" id="shareContainer">
+            <button class="share-button" id="shareToggleBtn" aria-label="Seite teilen" title="Seite teilen">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+            </button>
+            <div class="share-popup" id="sharePopup">
+              <a href="#" id="shareLinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" id="shareTwitter" title="X / Twitter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" id="shareFacebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+              </a>
+              <button class="share-icon-btn" id="shareMastodon" title="Mastodon" type="button">
+                <svg viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.24-5.032C17.69.242 15.948 0 11.994 0h-.028C8.017 0 6.274.242 5.94.281 3.35.693 1.038 2.554.526 5.157A27.3 27.3 0 0 0 .25 9.099c-.064 1.265-.063 2.529-.037 3.794.065 3.028.222 6.051.668 9.048.255 1.688.85 3.232 2.025 4.58A8.208 8.208 0 0 0 8.36 23.77c1.947.476 3.952.586 5.94.478a29.39 29.39 0 0 0 5.656-1.085 8.178 8.178 0 0 0 1.538-.666c-.01-.072-.013-.146-.013-.22v-3.03c-.756.183-1.522.33-2.296.44-1.698.241-3.413.31-5.12.188a9.94 9.94 0 0 1-2.494-.495c-.874-.297-1.57-.862-1.916-1.752a5.99 5.99 0 0 1-.326-1.48c2.064.496 4.162.744 6.265.744 1.013 0 2.024-.048 3.03-.148 1.71-.173 3.48-.556 4.997-1.464a6.274 6.274 0 0 0 2.786-4.148c.16-.924.22-1.86.22-2.798 0-.93-.063-1.855-.207-2.772zm-5.516 6.6c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.667-1.218-2.667-2.72V7.86c0-1.502 1.194-2.72 2.667-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053zm-8.068 0c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.668-1.218-2.668-2.72V7.86c0-1.502 1.195-2.72 2.668-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareInstagram" title="Instagram (Link kopieren)" type="button">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareCopyLink" title="Link kopieren" type="button">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </button>
+            </div><!-- /share-popup -->
+            <div id="mastodonPrompt">
+              <label for="mastodonInstance">Mastodon-Instanz eingeben:</label>
+              <input type="text" id="mastodonInstance" placeholder="z.B. mastodon.social" autocomplete="off">
+              <button class="masto-go" id="mastodonGo" type="button">Teilen &#8599;</button>
+            </div>
+          </div><!-- /share-container -->
+          <div class="copy-notification" id="copyNotification">&#10003; Link in Zwischenablage kopiert</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="assets/js/fmea-glossar.js"></script>
+   <script>
+(function () {
+  'use strict';
+
+  var usingTouch = false;
+  var touchActive = false;
+
+  window.addEventListener('touchstart', function () {
+    usingTouch = true;
+    touchActive = true;
+  }, { passive: true });
+
+  window.addEventListener('touchend', function () {
+    // kurze Sperre damit simuliertes mousemove danach ignoriert wird
+    setTimeout(function () { touchActive = false; }, 500);
+  }, { passive: true });
+
+  window.addEventListener('mousemove', function () {
+    if (touchActive) return; // simuliertes mousemove nach Touch ignorieren
+    usingTouch = false;
+  }, { passive: true });
+
+  function positionTooltip(wrapper, box) {
+    box.style.visibility = 'hidden';
+    box.style.display = 'block';
+    var tooltipHeight = box.offsetHeight;
+    box.style.display = 'none';
+    box.style.visibility = '';
+
+    var rect = wrapper.getBoundingClientRect();
+    var margin = 10;
+    var top = rect.top - tooltipHeight - margin;
+    if (top < 10) top = rect.bottom + margin;
+
+    var left = rect.left;
+    var maxLeft = window.innerWidth - 340 - 15;
+    if (left > maxLeft) left = maxLeft;
+    if (left < 10) left = 10;
+
+    box.style.top  = top + 'px';
+    box.style.left = left + 'px';
+    box.style.animation = 'prrcFadeIn 0.18s ease';
+  }
+
+  function closeAll() {
+    document.querySelectorAll('.prrc-tooltip-box').forEach(function (b) {
+      b.style.display = 'none';
+    });
+  }
+
+  document.querySelectorAll('.prrc-tooltip-wrapper').forEach(function (wrapper) {
+    var box = wrapper.querySelector('.prrc-tooltip-box');
+
+    // Desktop: Mouseover
+    wrapper.addEventListener('mouseenter', function () {
+      if (usingTouch) return;
+      positionTooltip(wrapper, box);
+      box.style.display = 'block';
+    });
+
+    wrapper.addEventListener('mouseleave', function () {
+      if (usingTouch) return;
+      box.style.display = 'none';
+    });
+
+    // Touch: 1x Tippen öffnet/schließt
+    wrapper.addEventListener('click', function (e) {
+      if (!usingTouch) return;
+      var isVisible = box.style.display === 'block';
+      closeAll();
+      if (!isVisible) {
+        positionTooltip(wrapper, box);
+        box.style.display = 'block';
+      }
+      e.stopPropagation();
+    });
+  });
+
+  document.addEventListener('click', function () {
+    if (usingTouch) closeAll();
+  });
+
+})();
+</script>
+<!-- ════════════════════════════════════════
+     SCRIPT – Tab-Steuerung & Modal
+════════════════════════════════════════ -->
+<script>
+  function openFmeaModal() {
+    document.getElementById('fmea-modal').style.display = 'block';
+    document.body.style.overflow = 'hidden';
+  }
+  function closeFmeaModal() {
+    document.getElementById('fmea-modal').style.display = 'none';
+    document.body.style.overflow = '';
+  }
+  function fmeaTab(id, btn) {
+    // Panels
+    document.querySelectorAll('.fmea-panel').forEach(function(p) {
+      p.style.display = 'none';
+    });
+    document.getElementById('fmea-p-' + id).style.display = 'block';
+    // Buttons
+    document.querySelectorAll('.fmea-tab').forEach(function(b) {
+      b.classList.remove('tb-btn-gold');
+      b.style.background = '#f7f7f7';
+      b.style.color = '#333';
+      b.style.border = '1px solid #ccc';
+    });
+    btn.classList.add('tb-btn-gold');
+    btn.style.background = '';
+    btn.style.color = '';
+    btn.style.border = 'none';
+  }
+  // ESC schließt Modal
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeFmeaModal();
+  });
+</script>
+<script>
+function updateProgress() {
+  var boxes   = document.querySelectorAll('#fmea-checklist input[type="checkbox"]');
+  var total   = boxes.length;
+  var checked = 0;
+  boxes.forEach(function(cb) { if (cb.checked) checked++; });
+  var pct = total > 0 ? Math.round((checked / total) * 100) : 0;
+  var fill  = document.getElementById('progress-fill');
+  var label = document.getElementById('progress-label');
+  var pctEl = document.getElementById('progress-pct');
+  if (fill)  fill.style.width  = pct + '%';
+  if (pctEl) pctEl.textContent = pct + ' %';
+  if (label) label.textContent = checked + ' von ' + total + ' Prüfpunkten erledigt';
+}
+document.addEventListener('DOMContentLoaded', updateProgress);
+</script>
+<script>
+ // ── Footer Dropdown ──
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn  = document.getElementById('footerDDBtn');
+      var menu = document.getElementById('footerDDMenu');
+      var dd   = document.getElementById('footerDropdown');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        menu.classList.toggle('open');
+        btn.classList.toggle('open');
+      });
+      document.addEventListener('click', function (e) {
+        if (dd && !dd.contains(e.target)) {
+          menu.classList.remove('open');
+          btn.classList.remove('open');
+        }
+      });
+    });
+</script>
+
+  <script>
+/* ---- Share Button â€“ vollstaendig inline, alle Plattformen ---- */
+(function(){
+  var container   = document.getElementById('shareContainer');
+  var toggleBtn   = document.getElementById('shareToggleBtn');
+  var popup       = document.getElementById('sharePopup');
+  var liBtn       = document.getElementById('shareLinkedIn');
+  var twBtn       = document.getElementById('shareTwitter');
+  var fbBtn       = document.getElementById('shareFacebook');
+  var mastoBtn    = document.getElementById('shareMastodon');
+  var igBtn       = document.getElementById('shareInstagram');
+  var cpBtn       = document.getElementById('shareCopyLink');
+  var notice      = document.getElementById('copyNotification');
+  var mastoPrompt = document.getElementById('mastodonPrompt');
+  var mastoInput  = document.getElementById('mastodonInstance');
+  var mastoGo     = document.getElementById('mastodonGo');
+  if(!toggleBtn || !popup) return;
+  var pageUrl   = encodeURIComponent(window.location.href);
+  var pageTitle = encodeURIComponent(document.title);
+  var rawUrl    = window.location.href;
+  liBtn.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl;
+  twBtn.href = 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle;
+  fbBtn.href = 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl;
+  toggleBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = popup.classList.contains('open');
+    closeAll();
+    if(!isOpen) popup.classList.add('open');
+  });
+  mastoBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = mastoPrompt.classList.contains('open');
+    mastoPrompt.classList.toggle('open');
+    if(!isOpen && mastoInput) mastoInput.focus();
+  });
+  mastoGo.addEventListener('click', function(){
+    var instance = (mastoInput.value || '').trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
+    if(!instance){ mastoInput.focus(); return; }
+    var shareUrl = 'https://' + instance + '/share?text=' + pageTitle + '%20' + pageUrl;
+    window.open(shareUrl, '_blank', 'noopener,noreferrer');
+    closeAll();
+  });
+  mastoInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter') mastoGo.click();
+    if(e.key === 'Escape') closeAll();
+  });
+  igBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, 'Link kopiert â€“ jetzt in Instagram einfuegen');
+  });
+  cpBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, '&#10003; Link in Zwischenablage kopiert');
+  });
+  function copyToClipboard(text, msg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showNotice(msg); }, function(){ fallback(text, msg); });
+    } else { fallback(text, msg); }
+  }
+  function fallback(text, msg){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position='fixed'; ta.style.top='-9999px';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try{ document.execCommand('copy'); showNotice(msg); } catch(err){}
+    document.body.removeChild(ta);
+  }
+  function showNotice(msg){
+    if(!notice) return;
+    notice.innerHTML = msg;
+    notice.classList.add('visible');
+    setTimeout(function(){ notice.classList.remove('visible'); }, 3000);
+  }
+  function closeAll(){
+    popup.classList.remove('open');
+    if(mastoPrompt) mastoPrompt.classList.remove('open');
+  }
+  document.addEventListener('click', function(e){
+    if(!container.contains(e.target)) closeAll();
+  });
+})();
+</script>
+
+  <style>
+    /* ── Hamburger Nav ── */
+    #tb-nav .tb-nav-link {
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+      letter-spacing: .02em;
+      transition: color .2s;
+    }
+    #tb-nav .tb-nav-link:hover { color: #ffc451; }
+
+    /* Hamburger Button */
+    #tb-burger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 4px;
+      transition: background .2s;
+    }
+    #tb-burger:hover { background: rgba(255,196,81,.15); }
+    #tb-burger span {
+      display: block;
+      height: 2px;
+      width: 24px;
+      background: #fff;
+      border-radius: 2px;
+      transition: transform .25s ease, opacity .2s ease, width .2s ease;
+      transform-origin: center;
+    }
+    #tb-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    #tb-burger.open span:nth-child(2) { opacity: 0; width: 0; }
+    #tb-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Menu Panel */
+    #tb-menu {
+      position: fixed;
+      top: 0; right: 0;
+      width: min(300px, 88vw);
+      height: 100%;
+      background: #0b0b0b;
+      z-index: 10100;
+      transform: translateX(100%);
+      transition: transform .28s cubic-bezier(.4,0,.2,1);
+      overflow-y: auto;
+    }
+    #tb-menu.open { transform: translateX(0); }
+    #tb-menu-inner { padding: 20px 24px 40px; }
+
+    /* Close Button */
+    #tb-menu-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 6px;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-bottom: 28px;
+      transition: background .2s, color .2s;
+      line-height: 1;
+    }
+    #tb-menu-close:hover { background: #ffc451; color: #000; border-color: #ffc451; }
+
+    /* Menu Links */
+    #tb-menu ul { list-style: none; padding: 0; margin: 0; }
+    #tb-menu ul li + li { margin-top: 8px; }
+    #tb-menu ul li a {
+      display: flex;
+      align-items: center;
+      padding: 14px 18px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 8px;
+      color: #eee;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background .2s, color .2s, border-color .2s;
+    }
+    #tb-menu ul li a:hover {
+      background: #ffc451;
+      color: #000;
+      border-color: #ffc451;
+    }
+    #tb-menu ul li a i { font-size: 17px; flex-shrink: 0; }
+
+    /* Overlay */
+    #tb-menu-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.55);
+      z-index: 10090;
+      backdrop-filter: blur(2px);
+    }
+    #tb-menu-overlay.open { display: block; }
+
+    /* Focus ring */
+    #tb-menu a:focus-visible,
+    #tb-menu-close:focus-visible,
+    #tb-burger:focus-visible {
+      outline: 2px solid #ffc451;
+      outline-offset: 2px;
+    }
+  </style>
+  <script>
+  /* ── Hamburger Menu ── */
+  (function () {
+    var burger   = document.getElementById('tb-burger');
+    var menu     = document.getElementById('tb-menu');
+    var overlay  = document.getElementById('tb-menu-overlay');
+    var closeBtn = document.getElementById('tb-menu-close');
+    if (!burger || !menu) return;
+
+    function openMenu() {
+      menu.classList.add('open');
+      overlay.classList.add('open');
+      burger.classList.add('open');
+      burger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      var first = menu.querySelector('a, button');
+      if (first) setTimeout(function () { first.focus(); }, 300);
+    }
+
+    function closeMenu() {
+      menu.classList.remove('open');
+      overlay.classList.remove('open');
+      burger.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      burger.focus();
+    }
+
+    burger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menu.classList.contains('open') ? closeMenu() : openMenu();
+    });
+
+    closeBtn.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('open')) closeMenu();
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { closeMenu(); });
+    });
+  })();
+  </script>
+</body>
+</html>

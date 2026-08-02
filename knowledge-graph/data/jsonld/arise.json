@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "KI-Governance",
+        "Risikomanagement",
+        "Patientenzentrierung",
+        "Pflege",
+        "KI-Monitoring",
+        "State",
+        "Clinical",
+        "Report",
+        "Klinische",
+        "Governance"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/arise.html#webpage",
+      "url": "https://www.thomas-bade.de/arise.html",
+      "headline": "State of Clinical AI Report 2026 – Klinische KI: Governance, Risiken & Einordnung",
+      "description": "MEESTAR-Checkliste für KI-Systeme im Gesundheits- und Sozialwesen: Interaktive ethische Evaluierung nach EU AI Act, DSGVO und MDR. Sechs Dimensionen – Mensch, Ethik, Technik, Soziales, Recht, Ökonomie – mit PDF-Export. Von Thomas Bade, KI-Compliance Berater.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map State of Clinical AI Report 2026 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Entwicklungen, Erkenntnisse und Herausforderungen im Bereich klinischer KI. Eine praxisnahe Übersetzung der zentralen Erkenntnisse des Reports in Entscheidungs- und Governance-Kontexte im Gesundheitswesen.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "State"
+        },
+        {
+          "@type": "Thing",
+          "name": "Clinical"
+        },
+        {
+          "@type": "Thing",
+          "name": "Report"
+        },
+        {
+          "@type": "Thing",
+          "name": "Klinische"
+        },
+        {
+          "@type": "Thing",
+          "name": "Governance"
+        }
+      ],
+      "keywords": [
+        "KI-Governance",
+        "Risikomanagement",
+        "Patientenzentrierung",
+        "Pflege",
+        "KI-Monitoring",
+        "State",
+        "Clinical",
+        "Report",
+        "Klinische",
+        "Governance"
+      ]
+    }
+  ]
+}

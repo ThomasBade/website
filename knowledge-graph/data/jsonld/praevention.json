@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Prävention",
+        "KI-Governance",
+        "Wissenschaft",
+        "Governance",
+        "Predictive",
+        "Policing",
+        "Künstliche Intelligenz",
+        "Datenschutz",
+        "Risikomanagement",
+        "EU AI Act"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://thomas-bade.de/praevention.html#webpage",
+      "url": "https://thomas-bade.de/praevention.html",
+      "headline": "KI in der Prävention – Governance, Bias & Predictive Policing",
+      "description": "Analyse zu KI in der Prävention: Bias, Predictive Policing, Rechtsfragen und Governance-Anforderungen. Wissenschaftliche Einordnung zum 31. Deutschen Präventionstag 2026 – von Thomas Bade, KI-Compliance-Berater.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI in der Prävention Governance, Bias & Predictive Policing 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen 31. Deutscher Präventionstag 2026 Was bedeutet KI in der Prävention?",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Prävention"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Wissenschaft"
+        },
+        {
+          "@type": "Thing",
+          "name": "Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Predictive"
+        },
+        {
+          "@type": "Thing",
+          "name": "Policing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        }
+      ],
+      "keywords": [
+        "Prävention",
+        "KI-Governance",
+        "Wissenschaft",
+        "Governance",
+        "Predictive",
+        "Policing",
+        "Künstliche Intelligenz",
+        "Datenschutz",
+        "Risikomanagement",
+        "EU AI Act"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "page:fmea",
+  "slug": "fmea",
+  "filename": "fmea.html",
+  "url": "https://www.thomas-bade.de/fmea.html",
+  "canonical": "https://www.thomas-bade.de/fmea.html",
+  "title": "FMEA im Gesundheitswesen – Risikoanalyse für KI & Medizinprodukte | Thomas Bade",
+  "description": "FMEA für KI-Systeme und Medizinprodukte im Krankenhaus: RPZ-Methodik, AI-FMEA, EU AI Act Art. 9, ISO 14971 und interaktive Compliance-Checkliste – Thomas Bade, Eichstätt.",
+  "summary": "Im Gesundheitswesen ist die FMEA seit Jahrzehnten in der Medizinprodukteentwicklung verankert. Mit der Einführung des EU AI Act rückt sie als regulatorisches Werkzeug auch für Hochrisiko-KI-Systeme Hochrisiko-KI-Systeme sind KI-Anwendungen, die in Bereichen eingesetzt werden, die erhebliche Risiken für Gesundheit, Sicherheit oder Grundrechte darstellen – z.B.",
+  "topics": [
+    "Medizinprodukte",
+    "Gesundheitswesen",
+    "EU AI Act",
+    "KI-Monitoring",
+    "Risikomanagement",
+    "FMEA",
+    "DSGVO",
+    "Datenschutz",
+    "Patientenzentrierung",
+    "Pflege"
+  ],
+  "word_count": 2734,
+  "heading_count": 16,
+  "h1_count": 0,
+  "internal_links": 18,
+  "linked_pages": [
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 2,
+  "has_og": true,
+  "citation_signals": 13,
+  "question_headings": 1,
+  "structured_blocks": 17,
+  "author_signal": true,
+  "content_hash": "25868811503d8d26",
+  "seo_score": 80,
+  "geo_score": 100,
+  "ai_overview_probability": 83,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": false,
+    "Meta-Beschreibung": true,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Medizinprodukte",
+          "Gesundheitswesen",
+          "EU AI Act",
+          "KI-Monitoring",
+          "Risikomanagement",
+          "FMEA",
+          "DSGVO",
+          "Datenschutz",
+          "Patientenzentrierung",
+          "Pflege"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/fmea.html#webpage",
+        "url": "https://www.thomas-bade.de/fmea.html",
+        "headline": "FMEA im Gesundheitswesen – Risikoanalyse für KI & Medizinprodukte | Thomas Bade",
+        "description": "FMEA für KI-Systeme und Medizinprodukte im Krankenhaus: RPZ-Methodik, AI-FMEA, EU AI Act Art. 9, ISO 14971 und interaktive Compliance-Checkliste – Thomas Bade, Eichstätt.",
+        "abstract": "Im Gesundheitswesen ist die FMEA seit Jahrzehnten in der Medizinprodukteentwicklung verankert. Mit der Einführung des EU AI Act rückt sie als regulatorisches Werkzeug auch für Hochrisiko-KI-Systeme Hochrisiko-KI-Systeme sind KI-Anwendungen, die in Bereichen eingesetzt werden, die erhebliche Risiken für Gesundheit, Sicherheit oder Grundrechte darstellen – z.B.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Medizinprodukte"
+          },
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Monitoring"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "FMEA"
+          },
+          {
+            "@type": "Thing",
+            "name": "DSGVO"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          }
+        ],
+        "keywords": [
+          "Medizinprodukte",
+          "Gesundheitswesen",
+          "EU AI Act",
+          "KI-Monitoring",
+          "Risikomanagement",
+          "FMEA",
+          "DSGVO",
+          "Datenschutz",
+          "Patientenzentrierung",
+          "Pflege"
+        ]
+      }
+    ]
+  }
+}

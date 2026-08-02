@@ -1,0 +1,182 @@
+{
+  "id": "page:mission",
+  "slug": "mission",
+  "filename": "mission.html",
+  "url": "https://www.thomas-bade.de/mission.html",
+  "canonical": "https://www.thomas-bade.de/mission.html",
+  "title": "Mission Statement Digital Sovereignty & European AI",
+  "description": "Mission statement for AI qualification in healthcare, care, social economy and municipal public services: digital sovereignty, European and German AI providers, EU AI Act and Apply AI Strategy.",
+  "summary": "Mission Statement · ESF+ Calls 8 & 9 Sovereignty as a guiding principle of qualification The digital transformation of the social economy is increasingly shaped by the use of artificial intelligence. In development, testing and implementation of AI qualification measures, this initiative aims to give priority to European and especially German AI providers , platforms and digital infrastructures.",
+  "topics": [
+    "EU AI Act",
+    "KI-Governance",
+    "Künstliche Intelligenz",
+    "Mission",
+    "Statement",
+    "Digital",
+    "Sovereignty",
+    "European",
+    "KI-Compliance"
+  ],
+  "word_count": 1245,
+  "heading_count": 18,
+  "h1_count": 0,
+  "internal_links": 19,
+  "linked_pages": [
+    "bmg",
+    "coach",
+    "constitution",
+    "esf",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 2,
+  "has_og": true,
+  "citation_signals": 0,
+  "question_headings": 0,
+  "structured_blocks": 4,
+  "author_signal": true,
+  "content_hash": "a82215b90ea6c22c",
+  "seo_score": 76,
+  "geo_score": 78,
+  "ai_overview_probability": 63,
+  "maturity": "fortgeschritten",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": false,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "EU AI Act",
+          "KI-Governance",
+          "Künstliche Intelligenz",
+          "Mission",
+          "Statement",
+          "Digital",
+          "Sovereignty",
+          "European",
+          "KI-Compliance"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/mission.html#webpage",
+        "url": "https://www.thomas-bade.de/mission.html",
+        "headline": "Mission Statement Digital Sovereignty & European AI",
+        "description": "Mission statement for AI qualification in healthcare, care, social economy and municipal public services: digital sovereignty, European and German AI providers, EU AI Act and Apply AI Strategy.",
+        "abstract": "Mission Statement · ESF+ Calls 8 & 9 Sovereignty as a guiding principle of qualification The digital transformation of the social economy is increasingly shaped by the use of artificial intelligence. In development, testing and implementation of AI qualification measures, this initiative aims to give priority to European and especially German AI providers , platforms and digital infrastructures.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Künstliche Intelligenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Mission"
+          },
+          {
+            "@type": "Thing",
+            "name": "Statement"
+          },
+          {
+            "@type": "Thing",
+            "name": "Digital"
+          },
+          {
+            "@type": "Thing",
+            "name": "Sovereignty"
+          },
+          {
+            "@type": "Thing",
+            "name": "European"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          }
+        ],
+        "keywords": [
+          "EU AI Act",
+          "KI-Governance",
+          "Künstliche Intelligenz",
+          "Mission",
+          "Statement",
+          "Digital",
+          "Sovereignty",
+          "European",
+          "KI-Compliance"
+        ]
+      }
+    ]
+  }
+}

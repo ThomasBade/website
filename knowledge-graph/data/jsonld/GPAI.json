@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Gesundheitswesen",
+        "Risikomanagement",
+        "KI-Compliance",
+        "EU AI Act",
+        "KI-Governance",
+        "GPAI-Modelle",
+        "Compliance-Checkliste",
+        "Krankenhäuser",
+        "Künstliche Intelligenz",
+        "Datenschutz"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/GPAI.html#webpage",
+      "url": "https://www.thomas-bade.de/GPAI.html",
+      "headline": "GPAI-Modelle im Gesundheitswesen: EU AI Act Compliance-Checkliste für Krankenhäuser",
+      "description": "Praxiserprobte Checkliste für GPAI-Compliance nach EU AI Act und KI-MIG: 10²³ FLOPS-Schwelle, systemisches Risiko, Betreiberpflichten, Bundesnetzagentur-Zuständigkeit, Due Diligence. Spezialisierte Beratung für Krankenhäuser & Gesundheitseinrichtungen.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map GPAI-Modelle im Gesundheitswesen 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. Für GPAI-Modelle selbst bleibt das europäische KI-Büro zuständig; für den Einsatz GPAI-basierter Anwendungen in Deutschland (z.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "GPAI-Modelle"
+        },
+        {
+          "@type": "Thing",
+          "name": "Compliance-Checkliste"
+        },
+        {
+          "@type": "Thing",
+          "name": "Krankenhäuser"
+        },
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        }
+      ],
+      "keywords": [
+        "Gesundheitswesen",
+        "Risikomanagement",
+        "KI-Compliance",
+        "EU AI Act",
+        "KI-Governance",
+        "GPAI-Modelle",
+        "Compliance-Checkliste",
+        "Krankenhäuser",
+        "Künstliche Intelligenz",
+        "Datenschutz"
+      ]
+    }
+  ]
+}

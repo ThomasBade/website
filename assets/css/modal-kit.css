@@ -1,0 +1,305 @@
+﻿/* ============================================================
+   MODAL KIT — KI-gestützte Teilhabeplanung
+   Einbinden via: <link rel="stylesheet" href="modal-kit.css">
+   ============================================================ */
+
+/* --- Reset & Basis ----------------------------------------- */
+.tkp-modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 10, 20, 0.65);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 9000;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  /* Animation beim Einblenden */
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.tkp-modal-overlay.is-open {
+  display: flex;
+  opacity: 1;
+}
+
+.tkp-modal-overlay.is-visible {
+  opacity: 1;
+}
+
+/* --- Modal Box ---------------------------------------------- */
+.tkp-modal {
+  background: #ffffff;
+  border-radius: 16px;
+  max-width: 700px;
+  width: 100%;
+  max-height: 88vh;
+  overflow-y: auto;
+  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.28);
+  transform: translateY(24px);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  outline: none;
+  /* Scrollbar dezent */
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+.tkp-modal-overlay.is-visible .tkp-modal {
+  transform: translateY(0);
+}
+
+.tkp-modal::-webkit-scrollbar { width: 5px; }
+.tkp-modal::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+
+/* --- Header ------------------------------------------------- */
+.tkp-modal__header {
+  padding: 1.5rem 2rem;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  /* Farbe wird per Theme-Klasse gesetzt */
+  background: linear-gradient(135deg, #333, #555);
+  color: #fff;
+}
+
+.tkp-modal__meta { flex: 1; }
+
+.tkp-modal__kicker {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  opacity: 0.72;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.tkp-modal__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* --- Schließen-Button --------------------------------------- */
+.tkp-modal__close {
+  background: rgba(255, 255, 255, 0.18);
+  border: none;
+  color: #fff;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+
+.tkp-modal__close:hover,
+.tkp-modal__close:focus {
+  background: rgba(255, 255, 255, 0.35);
+  outline: none;
+}
+
+/* --- Body --------------------------------------------------- */
+.tkp-modal__body {
+  padding: 2rem;
+}
+
+.tkp-modal__lead {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.tkp-modal__body p {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* --- Footer ------------------------------------------------- */
+.tkp-modal__footer {
+  padding: 1rem 2rem;
+  border-top: 1px solid #efefef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tkp-modal__source {
+  font-size: 0.78rem;
+  color: #999;
+  font-style: italic;
+}
+
+.tkp-modal__btn-close {
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.15s;
+}
+
+.tkp-modal__btn-close:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+/* --- Trigger-Button ----------------------------------------- */
+.tkp-modal-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  background: #fff;
+}
+
+.tkp-modal-trigger:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+}
+
+/* ============================================================
+   FARB-THEMES  (data-theme="…")
+   ============================================================ */
+
+/* Blau — Einleitung */
+[data-theme="blau"] .tkp-modal__header  { background: linear-gradient(135deg, #1a237e, #3949ab); }
+[data-theme="blau"] .tkp-modal__lead    { color: #1a237e; border-color: #e8eaf6; }
+[data-theme="blau"] .tkp-modal__btn-close { background: #1a237e; }
+[data-theme="blau"] .tkp-modal-trigger  { color: #1a237e; }
+
+/* Grün — Forschungsstand */
+[data-theme="gruen"] .tkp-modal__header  { background: linear-gradient(135deg, #1b5e20, #388e3c); }
+[data-theme="gruen"] .tkp-modal__lead    { color: #1b5e20; border-color: #e8f5e9; }
+[data-theme="gruen"] .tkp-modal__btn-close { background: #2e7d32; }
+[data-theme="gruen"] .tkp-modal-trigger  { color: #1b5e20; }
+
+/* Violett — Methodologie */
+[data-theme="violett"] .tkp-modal__header  { background: linear-gradient(135deg, #4a148c, #7b1fa2); }
+[data-theme="violett"] .tkp-modal__lead    { color: #4a148c; border-color: #f3e5f5; }
+[data-theme="violett"] .tkp-modal__btn-close { background: #6a1b9a; }
+[data-theme="violett"] .tkp-modal-trigger  { color: #4a148c; }
+
+/* Orange — Verantwortung */
+[data-theme="orange"] .tkp-modal__header  { background: linear-gradient(135deg, #bf360c, #e64a19); }
+[data-theme="orange"] .tkp-modal__lead    { color: #bf360c; border-color: #fbe9e7; }
+[data-theme="orange"] .tkp-modal__btn-close { background: #d84315; }
+[data-theme="orange"] .tkp-modal-trigger  { color: #bf360c; }
+
+/* Petrol — Entscheidungen */
+[data-theme="petrol"] .tkp-modal__header  { background: linear-gradient(135deg, #004d40, #00796b); }
+[data-theme="petrol"] .tkp-modal__lead    { color: #004d40; border-color: #e0f2f1; }
+[data-theme="petrol"] .tkp-modal__btn-close { background: #00695c; }
+[data-theme="petrol"] .tkp-modal-trigger  { color: #004d40; }
+
+/* Rot — Daten */
+[data-theme="rot"] .tkp-modal__header  { background: linear-gradient(135deg, #b71c1c, #d32f2f); }
+[data-theme="rot"] .tkp-modal__lead    { color: #b71c1c; border-color: #ffebee; }
+[data-theme="rot"] .tkp-modal__btn-close { background: #c62828; }
+[data-theme="rot"] .tkp-modal-trigger  { color: #b71c1c; }
+
+/* Indigo — Technologie */
+[data-theme="indigo"] .tkp-modal__header  { background: linear-gradient(135deg, #1a237e, #512da8); }
+[data-theme="indigo"] .tkp-modal__lead    { color: #1a237e; border-color: #e8eaf6; }
+[data-theme="indigo"] .tkp-modal__btn-close { background: #283593; }
+[data-theme="indigo"] .tkp-modal-trigger  { color: #1a237e; }
+
+/* Bernstein — Profession */
+[data-theme="bernstein"] .tkp-modal__header  { background: linear-gradient(135deg, #e65100, #f57c00); }
+[data-theme="bernstein"] .tkp-modal__lead    { color: #e65100; border-color: #fff8e1; }
+[data-theme="bernstein"] .tkp-modal__btn-close { background: #ef6c00; }
+[data-theme="bernstein"] .tkp-modal-trigger  { color: #e65100; }
+
+/* Olivgrün — Diskussion */
+[data-theme="oliv"] .tkp-modal__header  { background: linear-gradient(135deg, #1b5e20, #33691e); }
+[data-theme="oliv"] .tkp-modal__lead    { color: #1b5e20; border-color: #e8f5e9; }
+[data-theme="oliv"] .tkp-modal__btn-close { background: #2e7d32; }
+[data-theme="oliv"] .tkp-modal-trigger  { color: #1b5e20; }
+
+/* ============================================================
+   HILFS-KOMPONENTEN (optional, wiederverwendbar)
+   ============================================================ */
+
+/* Key-Points Box */
+.tkp-keypoints {
+  background: #f5f5f5;
+  border-left: 4px solid currentColor;
+  border-radius: 0 8px 8px 0;
+  padding: 1rem 1.2rem;
+  margin: 1.2rem 0;
+}
+.tkp-keypoints__title {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+.tkp-keypoints__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tkp-keypoints__list li {
+  padding: 0.28rem 0 0.28rem 1.3rem;
+  font-size: 0.88rem;
+  color: #444;
+  position: relative;
+}
+.tkp-keypoints__list li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Karten-Grid */
+.tkp-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin: 1.2rem 0;
+}
+.tkp-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  border-top: 3px solid currentColor;
+}
+.tkp-card__icon { font-size: 1.3rem; margin-bottom: 0.4rem; }
+.tkp-card__title { font-size: 0.85rem; font-weight: 700; margin-bottom: 0.3rem; }
+.tkp-card__text  { font-size: 0.78rem; color: #666; margin: 0; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .tkp-modal__header { padding: 1.2rem 1.2rem; }
+  .tkp-modal__body   { padding: 1.2rem; }
+  .tkp-modal__footer { padding: 0.9rem 1.2rem; }
+  .tkp-modal__title  { font-size: 1.1rem; }
+  .tkp-card-grid { grid-template-columns: 1fr; }
+}

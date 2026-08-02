@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Medizinprodukte",
+        "EU AI Act",
+        "Risikomanagement",
+        "KI-Governance",
+        "KI-Compliance",
+        "Gesundheitswesen",
+        "KI-Monitoring",
+        "Patientenzentrierung",
+        "Verordnung",
+        "KI-MIG"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/mdr_ki.html#webpage",
+      "url": "https://www.thomas-bade.de/mdr_ki.html",
+      "headline": "KI Verordnung Medizinprodukte (MDR) | KI-MIG & Anhang-I-Fristen 2028",
+      "description": "Wann gilt KI als Medizinprodukt nach MDR? Anforderungen an Risikoklassifizierung, klinische Bewertung, technische Dokumentation und Software als Medizinprodukt (SaMD) – inkl. KI-MIG-Zuständigkeiten und Digital-Omnibus-Fristen bis 2028.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI Verordnung Medizinprodukte (MDR) 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. Für KI-Medizinprodukte übernehmen die bereits zuständigen MDR-Behörden auch die KI-bezogene Marktüberwachung (§ 2 Abs.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Verordnung"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-MIG"
+        }
+      ],
+      "keywords": [
+        "Medizinprodukte",
+        "EU AI Act",
+        "Risikomanagement",
+        "KI-Governance",
+        "KI-Compliance",
+        "Gesundheitswesen",
+        "KI-Monitoring",
+        "Patientenzentrierung",
+        "Verordnung",
+        "KI-MIG"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "page:impressum",
+  "slug": "impressum",
+  "filename": "impressum.html",
+  "url": "https://www.thomas-bade.de/impressum.html",
+  "canonical": "https://www.thomas-bade.de/impressum.html",
+  "title": "Impressum",
+  "description": "",
+  "summary": "39 85072 Eichstätt Deutschland Pflichtangaben nach § 5 Abs. 1 Digitale-Dienste-Gesetz (DDG) Name und Anschrift (§ 5 Abs.",
+  "topics": [
+    "DSGVO",
+    "Datenschutz",
+    "Impressum",
+    "EU AI Act",
+    "Medizinprodukte",
+    "FMEA"
+  ],
+  "word_count": 1815,
+  "heading_count": 0,
+  "h1_count": 0,
+  "internal_links": 3,
+  "linked_pages": [
+    "index",
+    "sitemap",
+    "termine"
+  ],
+  "existing_jsonld": 1,
+  "has_og": false,
+  "citation_signals": 7,
+  "question_headings": 0,
+  "structured_blocks": 3,
+  "author_signal": true,
+  "content_hash": "09a27c8aa3eb0ba6",
+  "seo_score": 60,
+  "geo_score": 74,
+  "ai_overview_probability": 63,
+  "maturity": "fortgeschritten",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": false,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": false,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": false,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": false,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "DSGVO",
+          "Datenschutz",
+          "Impressum",
+          "EU AI Act",
+          "Medizinprodukte",
+          "FMEA"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/impressum.html#webpage",
+        "url": "https://www.thomas-bade.de/impressum.html",
+        "headline": "Impressum",
+        "description": "39 85072 Eichstätt Deutschland Pflichtangaben nach § 5 Abs. 1 Digitale-Dienste-Gesetz (DDG) Name und Anschrift (§ 5 Abs.",
+        "abstract": "39 85072 Eichstätt Deutschland Pflichtangaben nach § 5 Abs. 1 Digitale-Dienste-Gesetz (DDG) Name und Anschrift (§ 5 Abs.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "DSGVO"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Impressum"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "Medizinprodukte"
+          },
+          {
+            "@type": "Thing",
+            "name": "FMEA"
+          }
+        ],
+        "keywords": [
+          "DSGVO",
+          "Datenschutz",
+          "Impressum",
+          "EU AI Act",
+          "Medizinprodukte",
+          "FMEA"
+        ]
+      }
+    ]
+  }
+}

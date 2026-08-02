@@ -1,0 +1,189 @@
+{
+  "id": "page:control_quartier",
+  "slug": "control_quartier",
+  "filename": "control_quartier.html",
+  "url": "https://www.thomas-bade.de/control_quartier.html",
+  "canonical": "https://www.thomas-bade.de/control_quartier.html",
+  "title": "Kommunale Versorgungsstrukturen analysieren | Quartiersmanagement",
+  "description": "Interaktive Analyse kommunaler Versorgungsstrukturen mit strukturierten Prüfkriterien, PDF-Export und KI-gestütztem Management Summary. Bewertung von Gesundheits-, Pflege- und Sozialstrukturen für Kommunen und Träger.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Kommunale Versorgungsstrukturen beim Quartiersmanagement analysieren! 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Progressive Web App (PAW) Der Progressive Web App (PWA) Download ist eine moderne Website, die sich wie eine klassische App nutzen lässt — direkt im Browser, ohne Installation über einen App Store.",
+  "topics": [
+    "Pflege",
+    "KI-Kompetenz",
+    "Patientenzentrierung",
+    "Datenschutz",
+    "Kommunale",
+    "Versorgungsstrukturen",
+    "analysieren",
+    "Quartiersmanagement",
+    "KI-Governance",
+    "Prävention"
+  ],
+  "word_count": 3129,
+  "heading_count": 12,
+  "h1_count": 0,
+  "internal_links": 19,
+  "linked_pages": [
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "dikw",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 4,
+  "has_og": true,
+  "citation_signals": 2,
+  "question_headings": 0,
+  "structured_blocks": 14,
+  "author_signal": true,
+  "content_hash": "6861d09a8560cd9a",
+  "seo_score": 76,
+  "geo_score": 92,
+  "ai_overview_probability": 72,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Pflege",
+          "KI-Kompetenz",
+          "Patientenzentrierung",
+          "Datenschutz",
+          "Kommunale",
+          "Versorgungsstrukturen",
+          "analysieren",
+          "Quartiersmanagement",
+          "KI-Governance",
+          "Prävention"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/control_quartier.html#webpage",
+        "url": "https://www.thomas-bade.de/control_quartier.html",
+        "headline": "Kommunale Versorgungsstrukturen analysieren | Quartiersmanagement",
+        "description": "Interaktive Analyse kommunaler Versorgungsstrukturen mit strukturierten Prüfkriterien, PDF-Export und KI-gestütztem Management Summary. Bewertung von Gesundheits-, Pflege- und Sozialstrukturen für Kommunen und Träger.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Kommunale Versorgungsstrukturen beim Quartiersmanagement analysieren! 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Progressive Web App (PAW) Der Progressive Web App (PWA) Download ist eine moderne Website, die sich wie eine klassische App nutzen lässt — direkt im Browser, ohne Installation über einen App Store.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Kompetenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Kommunale"
+          },
+          {
+            "@type": "Thing",
+            "name": "Versorgungsstrukturen"
+          },
+          {
+            "@type": "Thing",
+            "name": "analysieren"
+          },
+          {
+            "@type": "Thing",
+            "name": "Quartiersmanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Prävention"
+          }
+        ],
+        "keywords": [
+          "Pflege",
+          "KI-Kompetenz",
+          "Patientenzentrierung",
+          "Datenschutz",
+          "Kommunale",
+          "Versorgungsstrukturen",
+          "analysieren",
+          "Quartiersmanagement",
+          "KI-Governance",
+          "Prävention"
+        ]
+      }
+    ]
+  }
+}

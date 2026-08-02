@@ -1,0 +1,188 @@
+{
+  "id": "page:praevention",
+  "slug": "praevention",
+  "filename": "praevention.html",
+  "url": "https://thomas-bade.de/praevention.html",
+  "canonical": "https://thomas-bade.de/praevention.html",
+  "title": "KI in der Prävention – Governance, Bias & Predictive Policing",
+  "description": "Analyse zu KI in der Prävention: Bias, Predictive Policing, Rechtsfragen und Governance-Anforderungen. Wissenschaftliche Einordnung zum 31. Deutschen Präventionstag 2026 – von Thomas Bade, KI-Compliance-Berater.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI in der Prävention Governance, Bias & Predictive Policing 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen 31. Deutscher Präventionstag 2026 Was bedeutet KI in der Prävention?",
+  "topics": [
+    "Prävention",
+    "KI-Governance",
+    "Wissenschaft",
+    "Governance",
+    "Predictive",
+    "Policing",
+    "Künstliche Intelligenz",
+    "Datenschutz",
+    "Risikomanagement",
+    "EU AI Act"
+  ],
+  "word_count": 1044,
+  "heading_count": 28,
+  "h1_count": 1,
+  "internal_links": 18,
+  "linked_pages": [
+    "GPAI",
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "kompetenz",
+    "mdr_ki",
+    "oecd",
+    "portal",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 1,
+  "has_og": true,
+  "citation_signals": 1,
+  "question_headings": 1,
+  "structured_blocks": 5,
+  "author_signal": true,
+  "content_hash": "c2154eaeac6a67c2",
+  "seo_score": 88,
+  "geo_score": 86,
+  "ai_overview_probability": 71,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": false,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Prävention",
+          "KI-Governance",
+          "Wissenschaft",
+          "Governance",
+          "Predictive",
+          "Policing",
+          "Künstliche Intelligenz",
+          "Datenschutz",
+          "Risikomanagement",
+          "EU AI Act"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://thomas-bade.de/praevention.html#webpage",
+        "url": "https://thomas-bade.de/praevention.html",
+        "headline": "KI in der Prävention – Governance, Bias & Predictive Policing",
+        "description": "Analyse zu KI in der Prävention: Bias, Predictive Policing, Rechtsfragen und Governance-Anforderungen. Wissenschaftliche Einordnung zum 31. Deutschen Präventionstag 2026 – von Thomas Bade, KI-Compliance-Berater.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI in der Prävention Governance, Bias & Predictive Policing 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen 31. Deutscher Präventionstag 2026 Was bedeutet KI in der Prävention?",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Prävention"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Wissenschaft"
+          },
+          {
+            "@type": "Thing",
+            "name": "Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Predictive"
+          },
+          {
+            "@type": "Thing",
+            "name": "Policing"
+          },
+          {
+            "@type": "Thing",
+            "name": "Künstliche Intelligenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          }
+        ],
+        "keywords": [
+          "Prävention",
+          "KI-Governance",
+          "Wissenschaft",
+          "Governance",
+          "Predictive",
+          "Policing",
+          "Künstliche Intelligenz",
+          "Datenschutz",
+          "Risikomanagement",
+          "EU AI Act"
+        ]
+      }
+    ]
+  }
+}

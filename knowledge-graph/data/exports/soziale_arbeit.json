@@ -1,0 +1,188 @@
+{
+  "id": "page:soziale_arbeit",
+  "slug": "soziale_arbeit",
+  "filename": "soziale_arbeit.html",
+  "url": "https://www.thomas-bade.de/soziale_arbeit.html",
+  "canonical": "https://www.thomas-bade.de/soziale_arbeit.html",
+  "title": "KI in der Sozialen Arbeit | Thomas Bade",
+  "description": "Fachsoftware ist nie nur Technik – sie übersetzt Soziale Arbeit in Daten und Entscheidungslogiken. Thomas Bade analysiert Digitalisierung, Datafizierung und KI-Governance im Gesundheits- und Sozialwesen. Jetzt informieren.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Soziale Arbeit digital gestalten! 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Progressive Web App (PWA) Der Progressive Web App (PWA) Download ist eine moderne Website, die sich wie eine klassische App nutzen lässt — direkt im Browser, ohne Installation über einen App Store.",
+  "topics": [
+    "KI-Governance",
+    "Soziale Arbeit",
+    "Datenschutz",
+    "Wissenschaft",
+    "Sozialen",
+    "Arbeit",
+    "Thomas",
+    "Pflege",
+    "KI-Kompetenz",
+    "Künstliche Intelligenz"
+  ],
+  "word_count": 2189,
+  "heading_count": 32,
+  "h1_count": 1,
+  "internal_links": 18,
+  "linked_pages": [
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 5,
+  "has_og": true,
+  "citation_signals": 9,
+  "question_headings": 4,
+  "structured_blocks": 6,
+  "author_signal": true,
+  "content_hash": "1873540436f52633",
+  "seo_score": 88,
+  "geo_score": 100,
+  "ai_overview_probability": 85,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "KI-Governance",
+          "Soziale Arbeit",
+          "Datenschutz",
+          "Wissenschaft",
+          "Sozialen",
+          "Arbeit",
+          "Thomas",
+          "Pflege",
+          "KI-Kompetenz",
+          "Künstliche Intelligenz"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/soziale_arbeit.html#webpage",
+        "url": "https://www.thomas-bade.de/soziale_arbeit.html",
+        "headline": "KI in der Sozialen Arbeit | Thomas Bade",
+        "description": "Fachsoftware ist nie nur Technik – sie übersetzt Soziale Arbeit in Daten und Entscheidungslogiken. Thomas Bade analysiert Digitalisierung, Datafizierung und KI-Governance im Gesundheits- und Sozialwesen. Jetzt informieren.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Soziale Arbeit digital gestalten! 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Progressive Web App (PWA) Der Progressive Web App (PWA) Download ist eine moderne Website, die sich wie eine klassische App nutzen lässt — direkt im Browser, ohne Installation über einen App Store.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Soziale Arbeit"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Wissenschaft"
+          },
+          {
+            "@type": "Thing",
+            "name": "Sozialen"
+          },
+          {
+            "@type": "Thing",
+            "name": "Arbeit"
+          },
+          {
+            "@type": "Thing",
+            "name": "Thomas"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Kompetenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Künstliche Intelligenz"
+          }
+        ],
+        "keywords": [
+          "KI-Governance",
+          "Soziale Arbeit",
+          "Datenschutz",
+          "Wissenschaft",
+          "Sozialen",
+          "Arbeit",
+          "Thomas",
+          "Pflege",
+          "KI-Kompetenz",
+          "Künstliche Intelligenz"
+        ]
+      }
+    ]
+  }
+}

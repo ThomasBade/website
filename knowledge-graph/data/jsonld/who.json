@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Patientenzentrierung",
+        "Health",
+        "Risikomanagement",
+        "EU AI Act",
+        "KI-Governance",
+        "World",
+        "Organization",
+        "Digital",
+        "Pflege",
+        "DSGVO"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/who.html#webpage",
+      "url": "https://www.thomas-bade.de/who.html",
+      "headline": "World Health Organization (WHO) und Digital Health",
+      "description": "Thomas Bade berät als KI-Compliance Experte Krankenhäuser, Pflegeeinrichtungen und Organisationen bei EU AI Act, MDR-Compliance und strategischer KI-Implementierung im Gesundheitswesen.",
+      "abstract": "Die WHO-Klassifizierung etabliert ein bewährtes Ordnungssystem für digitale Gesundheitslösungen – von der Bedarfsanalyse über Funktionsdefinition bis zur Systemzuordnung. Das Ergebnis: vergleichbare Investitionen, interoperable Architekturen und transparente Portfolios.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Health"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "World"
+        },
+        {
+          "@type": "Thing",
+          "name": "Organization"
+        },
+        {
+          "@type": "Thing",
+          "name": "Digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "DSGVO"
+        }
+      ],
+      "keywords": [
+        "Patientenzentrierung",
+        "Health",
+        "Risikomanagement",
+        "EU AI Act",
+        "KI-Governance",
+        "World",
+        "Organization",
+        "Digital",
+        "Pflege",
+        "DSGVO"
+      ]
+    }
+  ]
+}

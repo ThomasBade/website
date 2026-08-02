@@ -1,0 +1,81 @@
+# ═══════════════════════════════════════════════════════
+# robots.txt · thomas-bade.de
+# Stand: Mai 2026
+# ═══════════════════════════════════════════════════════
+
+# ── Standard: alle Crawler erlaubt ──
+User-agent: *
+Allow: /
+
+# ── Google ──
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# ── Bing / Microsoft ──
+User-agent: Bingbot
+Allow: /
+
+User-agent: adidxbot
+Allow: /
+
+# ── Anthropic / Claude ──
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ── Mistral AI ──
+User-agent: MistralBot
+Allow: /
+
+# ── OpenAI / ChatGPT ──
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ── Google AI (Gemini) ──
+User-agent: Google-Extended
+Allow: /
+
+# ── Meta AI ──
+User-agent: FacebookBot
+Allow: /
+
+# ── Perplexity AI ──
+User-agent: PerplexityBot
+Allow: /
+
+# ── Apple ──
+User-agent: Applebot
+Allow: /
+
+# ── DuckDuckGo ──
+User-agent: DuckDuckBot
+Allow: /
+
+# LLMs.txt – KI-Crawler
+User-agent: *
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+# ═══════════════════════════════════════════════════════
+# Content Signals (Cloudflare-Standard für granulare
+# KI-Nutzungspräferenzen, ergänzt robots.txt-Allow/Disallow)
+# ═══════════════════════════════════════════════════════
+
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
+# ═══════════════════════════════════════════════════════
+# Sitemap
+# ═══════════════════════════════════════════════════════
+
+Sitemap: https://www.thomas-bade.de/sitemap.xml

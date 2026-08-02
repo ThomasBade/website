@@ -1,0 +1,102 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "EU AI Act",
+        "KI-Governance",
+        "Künstliche Intelligenz",
+        "Mission",
+        "Statement",
+        "Digital",
+        "Sovereignty",
+        "European",
+        "KI-Compliance"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/mission.html#webpage",
+      "url": "https://www.thomas-bade.de/mission.html",
+      "headline": "Mission Statement Digital Sovereignty & European AI",
+      "description": "Mission statement for AI qualification in healthcare, care, social economy and municipal public services: digital sovereignty, European and German AI providers, EU AI Act and Apply AI Strategy.",
+      "abstract": "Mission Statement · ESF+ Calls 8 & 9 Sovereignty as a guiding principle of qualification The digital transformation of the social economy is increasingly shaped by the use of artificial intelligence. In development, testing and implementation of AI qualification measures, this initiative aims to give priority to European and especially German AI providers , platforms and digital infrastructures.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Mission"
+        },
+        {
+          "@type": "Thing",
+          "name": "Statement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Sovereignty"
+        },
+        {
+          "@type": "Thing",
+          "name": "European"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        }
+      ],
+      "keywords": [
+        "EU AI Act",
+        "KI-Governance",
+        "Künstliche Intelligenz",
+        "Mission",
+        "Statement",
+        "Digital",
+        "Sovereignty",
+        "European",
+        "KI-Compliance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Wissenschaft",
+        "KI-Governance",
+        "Risikomanagement",
+        "Patientenzentrierung",
+        "EU AI Act",
+        "Datenschutz",
+        "Agentic AI",
+        "Forschung",
+        "Künstliche Intelligenz",
+        "Pflege"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/wissenschaft.html#webpage",
+      "url": "https://www.thomas-bade.de/wissenschaft.html",
+      "headline": "KI in Forschung und Wissenschaft",
+      "description": "KI-Exzellenzstrategie (BT 21/3357) trifft State of Clinical AI Report 2026: Stanford-Harvard ARISE analysiert klinische KI-Risiken, Automation Bias und Governance. Strategische Einordnung von Thomas Bade, KI-Compliance-Experte.",
+      "abstract": "Dies macht die Bundesregierung in ihrer Antwort (21/3357) auf eine Kleine Anfrage mit dem Titel „Strategien und Maßnahmen der Bundesregierung zur Nutzung künstlicher Intelligenz in Forschung und Wissenschaft\" deutlich. Die Bundesregierung positioniert KI als Schlüsseltechnologie und setzt operativ auf föderale Zuständigkeiten, europäische Verzahnung und disziplinspezifische Förderung – mit Fokus auf Recheninfrastruktur, Datenökosysteme, Talentgewinnung und vertrauensbildende Leitplanken.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Wissenschaft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Agentic AI"
+        },
+        {
+          "@type": "Thing",
+          "name": "Forschung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        }
+      ],
+      "keywords": [
+        "Wissenschaft",
+        "KI-Governance",
+        "Risikomanagement",
+        "Patientenzentrierung",
+        "EU AI Act",
+        "Datenschutz",
+        "Agentic AI",
+        "Forschung",
+        "Künstliche Intelligenz",
+        "Pflege"
+      ]
+    }
+  ]
+}

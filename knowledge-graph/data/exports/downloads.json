@@ -1,0 +1,188 @@
+{
+  "id": "page:downloads",
+  "slug": "downloads",
+  "filename": "downloads.html",
+  "url": "https://www.thomas-bade.de/downloads.html",
+  "canonical": "https://www.thomas-bade.de/downloads.html",
+  "title": "Downloads KI-Lernformate für das Gesundheitswesen | Thomas Bade",
+  "description": "Vendor-unabhängige KI-Lernmodule für Krankenhaus, Pflege und HomeCare: EU AI Act, DSGVO, Hochrisiko-KI und Vendor-Evaluation – aus Betreiber-Perspektive, ohne Interessenkonflikt.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Downloads ■ Ressourcen ■ PDF-Dokumente ■ Praxiswissen als PDF Alle Dokumente stehen als druckfertige PDF zur freien Nutzung bereit. One-Pager geben einen kompakten Überblick für Entscheider und Führungskräfte.",
+  "topics": [
+    "Gesundheitswesen",
+    "Pflege",
+    "KI-Compliance",
+    "EU AI Act",
+    "Datenschutz",
+    "Medizinprodukte",
+    "Downloads",
+    "KI-Lernformate",
+    "Thomas",
+    "DSGVO"
+  ],
+  "word_count": 954,
+  "heading_count": 12,
+  "h1_count": 1,
+  "internal_links": 18,
+  "linked_pages": [
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "sitemap",
+    "stanford",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 2,
+  "has_og": true,
+  "citation_signals": 2,
+  "question_headings": 0,
+  "structured_blocks": 2,
+  "author_signal": true,
+  "content_hash": "bd52c1666c0f0a42",
+  "seo_score": 100,
+  "geo_score": 92,
+  "ai_overview_probability": 77,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": true,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Gesundheitswesen",
+          "Pflege",
+          "KI-Compliance",
+          "EU AI Act",
+          "Datenschutz",
+          "Medizinprodukte",
+          "Downloads",
+          "KI-Lernformate",
+          "Thomas",
+          "DSGVO"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/downloads.html#webpage",
+        "url": "https://www.thomas-bade.de/downloads.html",
+        "headline": "Downloads KI-Lernformate für das Gesundheitswesen | Thomas Bade",
+        "description": "Vendor-unabhängige KI-Lernmodule für Krankenhaus, Pflege und HomeCare: EU AI Act, DSGVO, Hochrisiko-KI und Vendor-Evaluation – aus Betreiber-Perspektive, ohne Interessenkonflikt.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Downloads ■ Ressourcen ■ PDF-Dokumente ■ Praxiswissen als PDF Alle Dokumente stehen als druckfertige PDF zur freien Nutzung bereit. One-Pager geben einen kompakten Überblick für Entscheider und Führungskräfte.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Medizinprodukte"
+          },
+          {
+            "@type": "Thing",
+            "name": "Downloads"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Lernformate"
+          },
+          {
+            "@type": "Thing",
+            "name": "Thomas"
+          },
+          {
+            "@type": "Thing",
+            "name": "DSGVO"
+          }
+        ],
+        "keywords": [
+          "Gesundheitswesen",
+          "Pflege",
+          "KI-Compliance",
+          "EU AI Act",
+          "Datenschutz",
+          "Medizinprodukte",
+          "Downloads",
+          "KI-Lernformate",
+          "Thomas",
+          "DSGVO"
+        ]
+      }
+    ]
+  }
+}

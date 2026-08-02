@@ -1,0 +1,186 @@
+{
+  "id": "page:wissen",
+  "slug": "wissen",
+  "filename": "wissen.html",
+  "url": "https://www.thomas-bade.de/wissen.html",
+  "canonical": "https://www.thomas-bade.de/wissen.html",
+  "title": "Wissensmanagement mit KI – Erfahrungswissen sichern und transferieren",
+  "description": "Wie KI-basierte Assistenzsysteme Erfahrungswissen im Gesundheits- und Sozialwesen sichern und transferieren. Das KI_eeper-Methoden-Toolkit (ifaa/Springer 2026) für Pflege, Sozialwirtschaft und Kommunen – eingeordnet von Thomas Bade.",
+  "summary": "Transkript anzeigen Willkommen auf dieser Seite zum Thema Wissensmanagement mit Künstlicher Intelligenz. Der demografische Wandel stellt Einrichtungen des Gesundheits- und Sozialwesens vor eine doppelte Herausforderung: Fachkräfte gehen in Rente – und mit ihnen geht wertvolles Erfahrungswissen verloren, das sich nicht einfach in Schulungsunterlagen übersetzen lässt.",
+  "topics": [
+    "EU AI Act",
+    "Pflege",
+    "Risikomanagement",
+    "Datenschutz",
+    "Gesundheitswesen",
+    "KI-Compliance",
+    "DSGVO",
+    "Patientenzentrierung",
+    "FMEA",
+    "Wissensmanagement"
+  ],
+  "word_count": 2035,
+  "heading_count": 35,
+  "h1_count": 1,
+  "internal_links": 16,
+  "linked_pages": [
+    "bmg",
+    "coach",
+    "constitution",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "leitbild",
+    "mdr_ki",
+    "patient",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 2,
+  "has_og": true,
+  "citation_signals": 4,
+  "question_headings": 1,
+  "structured_blocks": 8,
+  "author_signal": true,
+  "content_hash": "7c440dbdccb14a27",
+  "seo_score": 80,
+  "geo_score": 100,
+  "ai_overview_probability": 83,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": false,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "EU AI Act",
+          "Pflege",
+          "Risikomanagement",
+          "Datenschutz",
+          "Gesundheitswesen",
+          "KI-Compliance",
+          "DSGVO",
+          "Patientenzentrierung",
+          "FMEA",
+          "Wissensmanagement"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/wissen.html#webpage",
+        "url": "https://www.thomas-bade.de/wissen.html",
+        "headline": "Wissensmanagement mit KI – Erfahrungswissen sichern und transferieren",
+        "description": "Wie KI-basierte Assistenzsysteme Erfahrungswissen im Gesundheits- und Sozialwesen sichern und transferieren. Das KI_eeper-Methoden-Toolkit (ifaa/Springer 2026) für Pflege, Sozialwirtschaft und Kommunen – eingeordnet von Thomas Bade.",
+        "abstract": "Transkript anzeigen Willkommen auf dieser Seite zum Thema Wissensmanagement mit Künstlicher Intelligenz. Der demografische Wandel stellt Einrichtungen des Gesundheits- und Sozialwesens vor eine doppelte Herausforderung: Fachkräfte gehen in Rente – und mit ihnen geht wertvolles Erfahrungswissen verloren, das sich nicht einfach in Schulungsunterlagen übersetzen lässt.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          },
+          {
+            "@type": "Thing",
+            "name": "DSGVO"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "FMEA"
+          },
+          {
+            "@type": "Thing",
+            "name": "Wissensmanagement"
+          }
+        ],
+        "keywords": [
+          "EU AI Act",
+          "Pflege",
+          "Risikomanagement",
+          "Datenschutz",
+          "Gesundheitswesen",
+          "KI-Compliance",
+          "DSGVO",
+          "Patientenzentrierung",
+          "FMEA",
+          "Wissensmanagement"
+        ]
+      }
+    ]
+  }
+}

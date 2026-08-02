@@ -1,0 +1,193 @@
+﻿/* 
+=================================================================
+SHARE BUTTON CSS - thomas-bade.de
+=================================================================
+Variante 4: Compact Icon Button mit Instagram
+Link-Kopieren statt E-Mail (kein Outlook-Fehler)
+=================================================================
+*/
+
+:root {
+    --primary-blue: #000000;
+    --light-bg:  #000000;
+    --border-color:  #000000;
+}
+
+/* Share Button Container */
+.share-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Share Button */
+.share-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: var(--light-bg)
+    color: #555;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.share-button:hover {
+    border-color: var(--primary-blue);
+    color: var(--boder-color);
+    background: #000000;
+}
+
+.share-button svg {
+    width: 20px;
+    height: 20px;
+    fill: #ffc451;
+}
+
+/* Pop-up MenÃ¼ */
+.share-popup {
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    gap: 6px;
+    opacity: 0;
+    transform: translateX(-50%) translateY(10px);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.share-container.active .share-popup {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+    pointer-events: all;
+}
+
+/* Pfeil unter dem Pop-up */
+.share-popup::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-right: 2px solid var(--border-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+/* Social Media Icons */
+.share-popup a,
+.share-popup button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    background: white;
+    color: #555;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.share-popup a svg,
+.share-popup button svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.share-popup a:hover,
+.share-popup button:hover {
+    transform: translateY(-2px);
+}
+
+/* Hover-Farben fÃ¼r jede Plattform */
+.share-popup a.linkedin:hover {
+    background: #0077b5;
+    color: white;
+}
+
+.share-popup a.twitter:hover {
+    background: #1da1f2;
+    color: white;
+}
+
+.share-popup a.facebook:hover {
+    background: #1877f2;
+    color: white;
+}
+
+.share-popup a.instagram:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+}
+
+.share-popup a.mastodon:hover {
+    background: #6364ff;
+    color: white;
+}
+
+.share-popup button.email:hover {
+    background: #4caf50;
+    color: white;
+}
+
+/* Kopiert-BestÃ¤tigung */
+.copy-notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    background: #4caf50;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 10000;
+    pointer-events: none;
+}
+
+.copy-notification.show {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+    .share-popup {
+        flex-wrap: wrap;
+        max-width: 200px;
+    }
+}
+
+/* 
+=================================================================
+FARBANPASSUNG
+=================================================================
+Um die Farben an dein Corporate Design anzupassen, Ã¤ndere die 
+Werte in den CSS-Variablen oben:
+
+--primary-blue: #0066cc;     â†’ Deine Hauptfarbe
+--light-bg: #f8f9fa;         â†’ Hintergrundfarbe der Buttons
+--border-color: #e0e0e0;     â†’ Rahmenfarbe
+
+=================================================================
+*/

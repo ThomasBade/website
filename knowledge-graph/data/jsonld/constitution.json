@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Risikomanagement",
+        "EU AI Act",
+        "Gesundheitswesen",
+        "KI-Governance",
+        "DSGVO",
+        "Patientenzentrierung",
+        "Claude",
+        "Verfassung",
+        "Ethische",
+        "KI-Prinzipien"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/constitution.html#webpage",
+      "url": "https://www.thomas-bade.de/constitution.html",
+      "headline": "Claude's Verfassung: Ethische KI-Prinzipien & Sicherheitsstandards",
+      "description": "Analyse der Claude Constitution von Anthropic: Wie ethische KI funktioniert. Sicherheit, Ehrlichkeit, Hilfsbereitschaft & absolute Grenzen für verantwortungsvolle KI-Entwicklung im Gesundheitswesen.",
+      "abstract": "Nicht als Marketing-Gag, sondern als echtes Trainings-Framework, das Claudes Verhalten direkt steuert. Die Verfassung definiert eine klare Hierarchie: Sicherheit vor Ethik vor Richtlinien vor Hilfsbereitschaft .",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Claude"
+        },
+        {
+          "@type": "Thing",
+          "name": "Verfassung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Ethische"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Prinzipien"
+        }
+      ],
+      "keywords": [
+        "Risikomanagement",
+        "EU AI Act",
+        "Gesundheitswesen",
+        "KI-Governance",
+        "DSGVO",
+        "Patientenzentrierung",
+        "Claude",
+        "Verfassung",
+        "Ethische",
+        "KI-Prinzipien"
+      ]
+    }
+  ]
+}

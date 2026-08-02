@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "EU AI Act",
+        "Pflege",
+        "Risikomanagement",
+        "Datenschutz",
+        "Gesundheitswesen",
+        "KI-Compliance",
+        "DSGVO",
+        "Patientenzentrierung",
+        "FMEA",
+        "Wissensmanagement"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/wissen.html#webpage",
+      "url": "https://www.thomas-bade.de/wissen.html",
+      "headline": "Wissensmanagement mit KI – Erfahrungswissen sichern und transferieren",
+      "description": "Wie KI-basierte Assistenzsysteme Erfahrungswissen im Gesundheits- und Sozialwesen sichern und transferieren. Das KI_eeper-Methoden-Toolkit (ifaa/Springer 2026) für Pflege, Sozialwirtschaft und Kommunen – eingeordnet von Thomas Bade.",
+      "abstract": "Transkript anzeigen Willkommen auf dieser Seite zum Thema Wissensmanagement mit Künstlicher Intelligenz. Der demografische Wandel stellt Einrichtungen des Gesundheits- und Sozialwesens vor eine doppelte Herausforderung: Fachkräfte gehen in Rente – und mit ihnen geht wertvolles Erfahrungswissen verloren, das sich nicht einfach in Schulungsunterlagen übersetzen lässt.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "FMEA"
+        },
+        {
+          "@type": "Thing",
+          "name": "Wissensmanagement"
+        }
+      ],
+      "keywords": [
+        "EU AI Act",
+        "Pflege",
+        "Risikomanagement",
+        "Datenschutz",
+        "Gesundheitswesen",
+        "KI-Compliance",
+        "DSGVO",
+        "Patientenzentrierung",
+        "FMEA",
+        "Wissensmanagement"
+      ]
+    }
+  ]
+}

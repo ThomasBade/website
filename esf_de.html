@@ -1,0 +1,1685 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+    <!-- Favicon - Bing/Google Indexierung -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="canonical" href="https://www.thomas-bade.de/esf_de.html" />
+  <title>ESF+ Bundesländer – KI-Qualifizierung Transfer</title>
+  <meta name="description" content="ESF+ Bundesländer-Übersicht für die Übertragung des KI-Qualifizierungsmodells aus Bayern auf Baden-Württemberg, Nordrhein-Westfalen, Niedersachsen, Brandenburg und Sachsen.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="ESF+ Bundesländer – KI-Qualifizierung Transfer Thomas Bade">
+  <meta property="og:description" content="Bundesweite Transferstrategie für ESF+-anschlussfähige KI-Qualifizierung in Sozialwirtschaft, Pflege, Gesundheitswesen und Kommunen.">
+  <meta property="og:url" content="https://www.thomas-bade.de/esf_de.html">
+  <meta property="og:image" content="https://www.thomas-bade.de/assets/img/esf_de_social.png">
+  <meta property="og:site_name" content="Thomas Bade – KI-Compliance & Digitale Gesundheit">
+  <meta property="og:locale" content="de_DE">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --tb-accent: #ffc451;
+      --tb-dark: #151515;
+      --tb-muted: #6c757d;
+      --tb-bg: #f8f9fa;
+      --tb-card: #ffffff;
+      --tb-border: #e6e6e6;
+      --tb-danger: #d34e36;
+      --tb-success: #198754;
+      --tb-blue: #234e70;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Open Sans', Arial, sans-serif; background: var(--tb-bg); color: #222; line-height: 1.65; }
+    .container { width: min(1180px, calc(100% - 32px)); margin: 0 auto; }
+
+    /* ── HERO ── */
+    .esf-hero {
+      background: linear-gradient(135deg, rgba(21,21,21,.97), rgba(35,78,112,.95));
+      color: #fff;
+      padding: 60px 0 48px;
+      border-bottom: 4px solid var(--tb-accent);
+      position: relative;
+      overflow: hidden;
+    }
+    .esf-hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: repeating-linear-gradient(45deg, rgba(255,196,81,.03) 0, rgba(255,196,81,.03) 1px, transparent 1px, transparent 40px);
+      pointer-events: none;
+    }
+    .hero-kicker-esf {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: rgba(255,196,81,.13); color: #ffc451;
+      border: 1px solid rgba(255,196,81,.35);
+      font-weight: 700; padding: 7px 16px; border-radius: 999px;
+      margin-bottom: 20px; font-size: .88rem; letter-spacing: .04em;
+    }
+    .esf-hero h1 { font-size: clamp(1.9rem, 4vw, 3rem); line-height: 1.15; margin: 0 0 18px; font-weight: 700; }
+    .esf-hero h1 span { color: var(--tb-accent); }
+    .esf-hero .lead { font-size: 1.07rem; color: rgba(255,255,255,.88); max-width: 1200px; margin: 0 0 28px; }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 36px; }
+    .btn-gold {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--tb-accent); color: #000; font-weight: 700;
+      padding: 13px 26px; border-radius: 8px; text-decoration: none;
+      font-size: .97rem; border: none; cursor: pointer; font-family: inherit;
+      transition: background .2s, transform .15s;
+    }
+    .btn-gold:hover { background: #ffe08a; transform: translateY(-2px); color: #000; }
+    .btn-outline-white {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; color: rgba(255,255,255,.8); font-weight: 600;
+      padding: 13px 26px; border-radius: 8px; text-decoration: none;
+      font-size: .97rem; border: 1px solid rgba(255,255,255,.3);
+      cursor: pointer; font-family: inherit;
+      transition: border-color .2s, color .2s;
+    }
+    .btn-outline-white:hover { border-color: var(--tb-accent); color: var(--tb-accent); }
+    .hero-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 8px; }
+    .hero-stat {
+      background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12);
+      border-radius: 12px; padding: 18px 16px; text-align: center;
+    }
+    .hero-stat strong { display: block; font-size: 1.7rem; color: var(--tb-accent); font-weight: 700; }
+    .hero-stat span { font-size: .8rem; color: rgba(255,255,255,.7); line-height: 1.3; display: block; }
+
+    /* ── DEADLINE BANNER ── */
+    .deadline-bar {
+      background: #fff3cd; border-bottom: 3px solid var(--tb-accent);
+      padding: 12px 0; text-align: center; font-size: .93rem; font-weight: 600; color: #4a3800;
+    }
+    .deadline-bar .dl-badge {
+      display: inline-block; background: var(--tb-accent); color: #000;
+      padding: 3px 12px; border-radius: 999px; font-size: .82rem; font-weight: 700; margin-right: 8px;
+    }
+
+    /* ── SECTIONS ── */
+    .esf-section { padding: 44px 0; }
+    .section-kicker {
+      color: var(--tb-danger); font-weight: 700; text-transform: uppercase;
+      letter-spacing: .05em; font-size: .8rem; margin-bottom: 8px; display: block;
+    }
+    h2 { font-size: clamp(1.5rem, 2.5vw, 2.1rem); line-height: 1.2; margin: 0 0 14px; font-weight: 700; }
+    h3 { font-size: 1.15rem; font-weight: 700; margin: 0 0 10px; }
+    .section-intro { max-width: 1200px; margin-bottom: 28px; color: #444; font-size: 1.01rem; }
+
+    /* ── CARDS ── */
+    .card-grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .card-grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .card-grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+    .tb-card {
+      background: var(--tb-card); border: 1px solid var(--tb-border);
+      border-radius: 14px; padding: 26px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.05);
+      transition: transform .25s, box-shadow .25s;
+    }
+    .tb-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,.09); }
+    .tb-card .card-icon { font-size: 1.8rem; margin-bottom: 14px; display: block; }
+    .tb-card h3 { font-size: 1.05rem; }
+    .tb-card p { font-size: .92rem; color: #555; margin: 0; line-height: 1.6; }
+    .tb-card.accent-top { border-top: 4px solid var(--tb-accent); }
+    .tb-card.accent-blue { border-top: 4px solid var(--tb-blue); }
+    .tb-card.accent-green { border-top: 4px solid var(--tb-success); }
+    .tb-card.accent-red { border-top: 4px solid var(--tb-danger); }
+
+    /* ── MODUL TABLE ── */
+    .modul-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 14px; overflow: hidden; box-shadow: 0 6px 20px rgba(0,0,0,.05); }
+    .modul-table th { background: var(--tb-accent); color: #000; font-size: .88rem; font-weight: 700; padding: 13px 16px; text-align: left; }
+    .modul-table td { padding: 13px 16px; font-size: .91rem; color: #444; border-bottom: 1px solid var(--tb-border); vertical-align: top; }
+    .modul-table tr:last-child td { border-bottom: none; }
+    .modul-table tr:hover td { background: #fffbf0; }
+    .modul-num { display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; background: var(--tb-dark); color: var(--tb-accent); border-radius: 50%; font-size: .78rem; font-weight: 700; margin-right: 8px; flex-shrink: 0; }
+    .modul-label { font-weight: 700; color: #1a1a1a; display: flex; align-items: center; }
+
+    /* ── PARTNER TABLE ── */
+    .partner-table { width: 100%; border-collapse: collapse; }
+    .partner-table th { background: var(--tb-dark); color: var(--tb-accent); padding: 12px 16px; font-size: .85rem; font-weight: 700; text-align: left; }
+    .partner-table td { padding: 12px 16px; font-size: .91rem; border-bottom: 1px solid var(--tb-border); vertical-align: top; color: #444; }
+    .partner-table tr:hover td { background: #f9f9f9; }
+    .partner-table td:first-child { font-weight: 700; color: #1a1a1a; white-space: nowrap; }
+    .tbl-wrap { background: #fff; border: 1px solid var(--tb-border); border-radius: 14px; overflow: hidden; box-shadow: 0 6px 20px rgba(0,0,0,.05); overflow-x: auto; }
+
+    /* ── TIMELINE ── */
+    .timeline { position: relative; padding-left: 36px; }
+    .timeline::before { content:''; position:absolute; left:12px; top:0; bottom:0; width:2px; background: linear-gradient(to bottom, var(--tb-accent), rgba(255,196,81,.15)); }
+    .tl-item { position:relative; margin-bottom:28px; }
+    .tl-item:last-child { margin-bottom:0; }
+    .tl-dot { position:absolute; left:-30px; top:4px; width:16px; height:16px; border-radius:50%; background:var(--tb-accent); border:3px solid #fff; box-shadow:0 0 0 2px var(--tb-accent); }
+    .tl-week { font-size:.75rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--tb-danger); margin-bottom:4px; }
+    .tl-item h4 { font-size:.97rem; font-weight:700; margin:0 0 4px; color:#1a1a1a; }
+    .tl-item p { font-size:.88rem; color:#666; margin:0; }
+
+    /* ── LEITBOTSCHAFT ── */
+    .leitbox {
+      background: #fff7e3; border: 1px solid rgba(255,196,81,.5);
+      border-left: 5px solid var(--tb-accent);
+      border-radius: 12px; padding: 24px 28px; margin: 24px 0;
+    }
+    .leitbox p { font-size: 1.05rem; color: #3a2e00; margin: 0; line-height: 1.65; font-style: italic; }
+
+    /* ── DOWNLOAD BOX ── */
+    .download-box {
+      background: linear-gradient(135deg, #111, #1e2d3d);
+      border: 1px solid #2a2a2a; border-left: 5px solid var(--tb-accent);
+      border-radius: 16px; padding: 28px 32px;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 24px; flex-wrap: wrap;
+    }
+    .dl-meta { font-size: .78rem; color: rgba(255,255,255,.4); margin-top: 4px; }
+    .dl-title { font-size: 1.3rem; font-weight: 700; color: #fff; margin-bottom: 5px; }
+    .dl-sub { font-size: .93rem; color: rgba(255,255,255,.72); max-width: 500px; }
+    .dl-actions { display: flex; gap: 12px; flex-wrap: wrap; flex-shrink: 0; }
+
+    /* ── FORM ── */
+    .form-section {
+      background: #fff; border: 1px solid var(--tb-border);
+      border-radius: 20px; padding: 42px 44px;
+      box-shadow: 0 10px 40px rgba(0,0,0,.07);
+    }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group.full { grid-column: 1 / -1; }
+    label { font-size: .87rem; font-weight: 700; color: #333; letter-spacing: .02em; }
+    label .req { color: var(--tb-danger); margin-left: 2px; }
+    input[type=text], input[type=email], input[type=tel], select, textarea {
+      width: 100%; border: 1.5px solid #d0d0d0; border-radius: 8px;
+      padding: 11px 14px; font-size: .95rem; font-family: inherit;
+      color: #222; background: #fafafa;
+      transition: border-color .2s, box-shadow .2s;
+      outline: none;
+    }
+    input:focus, select:focus, textarea:focus {
+      border-color: var(--tb-accent); background: #fff;
+      box-shadow: 0 0 0 3px rgba(255,196,81,.2);
+    }
+    textarea { resize: vertical; min-height: 120px; }
+    select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23666' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 36px; }
+    .form-hint { font-size: .8rem; color: #888; margin-top: 2px; }
+    .checkbox-group { display: flex; flex-direction: column; gap: 10px; }
+    .checkbox-item { display: flex; align-items: flex-start; gap: 10px; cursor: pointer; }
+    .checkbox-item input[type=checkbox] { margin-top: 2px; accent-color: var(--tb-accent); width: 16px; height: 16px; flex-shrink: 0; cursor: pointer; }
+    .checkbox-item span { font-size: .9rem; color: #444; line-height: 1.5; }
+    .form-submit-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 8px; }
+    .btn-submit {
+      background: var(--tb-accent); color: #000; font-weight: 700;
+      border: none; border-radius: 8px; padding: 14px 32px;
+      font-size: 1rem; cursor: pointer; font-family: inherit;
+      transition: background .2s, transform .15s;
+      display: inline-flex; align-items: center; gap: 8px;
+    }
+    .btn-submit:hover { background: #ffe08a; transform: translateY(-2px); }
+    .form-privacy { font-size: .78rem; color: #888; max-width: 500px; }
+    .form-success {
+      display: none; background: #e8f5e9; border: 1px solid #a5d6a7;
+      border-radius: 10px; padding: 20px 24px; text-align: center;
+      color: #1b5e20; font-weight: 600; font-size: 1rem;
+    }
+
+    /* ── ESF INFO ── */
+    .esf-box {
+      background: #fff; border: 1px solid var(--tb-border);
+      border-left: 5px solid var(--tb-blue);
+      border-radius: 12px; padding: 22px 26px;
+    }
+    .esf-box h3 { color: var(--tb-blue); margin-bottom: 10px; font-size: 1rem; }
+    .esf-box p, .esf-box li { font-size: .9rem; color: #555; line-height: 1.6; }
+    .esf-box ul { margin: 8px 0 0 18px; padding: 0; }
+
+    /* ── ABGRENZUNG ── */
+    .abgrenzung {
+      background: #f0f4fa; border: 1px solid #c9d8ed;
+      border-radius: 12px; padding: 20px 24px; font-size: .88rem; color: #3a4a65;
+    }
+    .abgrenzung strong { color: var(--tb-blue); }
+
+    /* Nav override für Seite */
+    #navbar .dropdown ul{column-count:2;column-gap:0;min-width:420px;background:#ffc451!important;left:auto;right:0;}
+    #navbar .dropdown ul li{break-inside:avoid;}
+    #navbar .dropdown ul li a{font-size:12px!important;padding:6px 14px!important;white-space:nowrap;color:#1a1a1a!important;}
+    /* Footer */
+    #footer{background:#000!important;}
+    #footer .footer-top{background:#000!important;padding:40px 0 20px;}
+    #footer .footer-top p{font-size:14px!important;line-height:2!important;margin-bottom:4px;}
+    #footer .footer-top a{color:#ccc!important;font-size:14px!important;text-decoration:none!important;}
+    #footer .footer-top a:hover{color:#ffc451!important;}
+    #footer .footer-top img{height:120px!important;margin-bottom:20px!important;}
+    #footer .copyright{display:none;}
+    #footer .footer-label{color:#ffc451!important;}
+    .footer-dropdown{position:relative;display:inline-block;margin-bottom:16px;}
+    .footer-dd-trigger{background:#1a1a1a;border:1px solid #333;color:#ccc;font-size:13px;padding:8px 16px;border-radius:4px;cursor:pointer;display:flex;align-items:center;gap:8px;font-family:inherit;}
+    .footer-dd-trigger:hover{border-color:#ffc451;color:#ffc451;}
+    .footer-dd-chevron{font-size:10px;color:#ffc451;transition:transform .2s;}
+    .footer-dd-menu{display:none;position:absolute;bottom:calc(100% + 6px);left:0;background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;border-radius:4px;list-style:none;padding:6px 0;min-width:280px;z-index:9999;box-shadow:0 -12px 32px rgba(0,0,0,.6);column-count:2;}
+    .footer-dd-menu.open{display:block;}
+    .footer-dd-trigger.open .footer-dd-chevron{transform:rotate(180deg);}
+    .footer-dd-menu li{break-inside:avoid;}
+    .footer-dd-menu li a{display:block;padding:6px 14px;font-size:12px!important;color:#aaa!important;text-decoration:none!important;white-space:nowrap;line-height:1.6!important;}
+    .footer-dd-menu li a:hover{color:#ffc451!important;background:rgba(255,196,81,.06);}
+    /* Cookie */
+    #cookieNotice{position:fixed;bottom:0;left:0;width:100%;background:#111;color:#f1f1f1;padding:16px 20px;z-index:9999;font-size:.9rem;display:none;}
+    #cookieNotice a{color:#4da3ff;text-decoration:underline;}
+    #cookieNotice button{background:#4da3ff;border:none;color:#fff;padding:8px 14px;margin-left:15px;border-radius:4px;cursor:pointer;}
+    /* CI Buttons */
+    a.btn.btn-ci,button.btn.btn-ci{background-color:#ffc451!important;border:1px solid #ffc451!important;color:#000!important;font-weight:600;}
+    a.btn.btn-ci:hover,button.btn.btn-ci:hover{background-color:#fff!important;}
+    /* Share */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{background:#1a1a1a;border:1px solid #333;border-radius:50%;width:42px;height:42px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:background .2s,border-color .2s;padding:0;}
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{display:none;position:absolute;bottom:calc(100% + 10px);left:0;background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;border-radius:6px;padding:10px 12px;gap:8px;flex-direction:row;align-items:center;flex-wrap:wrap;box-shadow:0 -8px 28px rgba(0,0,0,.5);white-space:nowrap;z-index:9999;min-width:220px;}
+    .share-popup.open{display:flex;}
+    .share-popup a,.share-popup button.share-icon-btn{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:#222;border:1px solid #333;cursor:pointer;transition:background .18s,border-color .18s;text-decoration:none;padding:0;}
+    .share-popup a:hover,.share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,.share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{display:none;position:absolute;bottom:calc(100% + 60px);left:0;background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;padding:12px 14px;z-index:10000;width:260px;box-shadow:0 -8px 24px rgba(0,0,0,.6);}
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;}
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{background:#ffc451;color:#000;border:none;padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;}
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+    /* FAB */
+    #tb-lernportal-fab{position:fixed;bottom:28px;left:28px;z-index:9990;display:flex;flex-direction:column;align-items:flex-start;gap:6px;}
+    #tb-lernportal-fab-dismiss{font-family:inherit;font-size:12px;color:#666;background:none;border:none;cursor:pointer;padding:2px 4px;}
+    #tb-lernportal-fab-dismiss:hover{color:#ffc451;}
+    #tb-lernportal-fab-btn{display:inline-flex;align-items:center;gap:10px;background:#000;border:1px solid #000;border-left:3px solid #ffc451;border-radius:4px;padding:10px 18px 10px 12px;cursor:pointer;font-family:inherit;box-shadow:0 4px 20px rgba(0,0,0,.6);transition:background .2s,transform .15s;}
+    #tb-lernportal-fab-btn:hover{background:#1a1a1a;transform:translateY(-2px);}
+    #tb-lernportal-fab-icon{width:34px;height:34px;border-radius:50%;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+    #tb-lernportal-fab-label{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#ffc451;line-height:1.2;display:block;}
+    #tb-lernportal-fab-sub{font-size:10px;color:#888;line-height:1.3;display:block;}
+    #tb-lernportal-overlay{display:none;position:fixed;inset:0;z-index:10500;background:rgba(0,0,0,.85);align-items:center;justify-content:center;padding:20px;}
+    #tb-lernportal-overlay.active{display:flex;}
+    #tb-lernportal-iframe{width:100%;max-width:880px;height:90vh;border:none;border-radius:6px;background:#111;}
+    /* Search */
+    .risk-search-wrapper{position:relative;margin:20px 0;z-index:1000;display:flex;}
+    .search-bar{position:relative;display:block;}
+    .search-input-wrapper{display:flex;align-items:center;background:#fff!important;border:2px solid #ced4da;border-radius:8px;padding:8px 14px;min-width:300px;height:42px;box-shadow:0 2px 6px rgba(0,0,0,.1);}
+    .search-input-wrapper:focus-within{border-color:#0066cc;}
+    .search-icon{color:#6c757d;flex-shrink:0;margin-right:8px;}
+    .search-input{flex:1;border:none;outline:none;font-size:14px;color:#212529;background:transparent!important;font-family:inherit;}
+    .search-input::placeholder{color:#000;opacity:1;}
+    .search-clear{background:none;border:none;cursor:pointer;display:flex;align-items:center;flex-shrink:0;}
+    .search-results{position:absolute;top:calc(100% + 8px);left:0;width:500px;max-width:95vw;max-height:500px;overflow-y:auto;background:#fff;border:1px solid #dee2e6;border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.15);z-index:10000;display:none;}
+    .search-results-header{padding:10px 16px;background:#f8f9fa;border-bottom:1px solid #dee2e6;font-size:12px;color:#6c757d;}
+    .search-results-list{padding:4px 0;}
+    .search-result-item{display:block;padding:12px 16px;text-decoration:none;color:inherit;border-left:3px solid transparent;}
+    .search-result-item:hover{background:#f8f9fa;border-left-color:#0066cc;}
+    .search-result-title{font-size:14px;font-weight:600;color:#212529;margin-bottom:4px;display:flex;align-items:center;gap:8px;}
+    .search-result-excerpt{font-size:12px;color:#6c757d;line-height:1.5;}
+    .search-result-meta{font-size:11px;color:#adb5bd;}
+    .no-results{padding:30px 20px;text-align:center;background:#fff;position:absolute;top:calc(100% + 8px);left:0;width:350px;border:1px solid #dee2e6;border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.15);z-index:10000;display:none;}
+    .search-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:9998;}
+    .search-overlay.active{display:block;}
+
+    /* Responsive */
+    @media (max-width: 980px) {
+      .hero-stats { grid-template-columns: repeat(2, 1fr); }
+      .card-grid-3, .card-grid-4 { grid-template-columns: 1fr 1fr; }
+      .form-grid { grid-template-columns: 1fr; }
+      .form-section { padding: 28px 24px; }
+      .download-box { flex-direction: column; }
+    }
+    @media (max-width: 600px) {
+      .hero-stats, .card-grid-3, .card-grid-4, .card-grid-2 { grid-template-columns: 1fr; }
+      .esf-hero { padding: 44px 0 36px; }
+      .hero-actions { flex-direction: column; }
+      .btn-gold, .btn-outline-white { justify-content: center; }
+      #tb-lernportal-fab { bottom: 16px; left: 16px; }
+      #tb-lernportal-fab-sub { display: none; }
+      #tb-lernportal-iframe { height: 95vh; }
+    }
+    section{visibility:visible!important;opacity:1!important;}
+  </style>
+
+<!-- Privacy-friendly analytics by Plausible (Custom Properties aktiviert) -->
+<!-- Privacy-friendly analytics by Plausible -->
+<script async src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+<script>
+  window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+  plausible.init()
+</script>
+  <link rel="llms" href="https://thomas-bade.de/llms.txt" />
+<script type="application/ld+json" data-tbkg-generated="true">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Pflege",
+        "KI-Governance",
+        "KI-Kompetenz",
+        "Gesundheitswesen",
+        "Bundesländer",
+        "KI-Qualifizierung",
+        "Transfer",
+        "EU AI Act",
+        "Datenschutz",
+        "KI-Monitoring"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/esf_de.html#webpage",
+      "url": "https://www.thomas-bade.de/esf_de.html",
+      "headline": "ESF+ Bundesländer – KI-Qualifizierung Transfer",
+      "description": "ESF+ Bundesländer-Übersicht für die Übertragung des KI-Qualifizierungsmodells aus Bayern auf Baden-Württemberg, Nordrhein-Westfalen, Niedersachsen, Brandenburg und Sachsen.",
+      "abstract": "Ziel ist der Aufbau einer bundesweiten Lern- und Governance-Struktur für den verantwortungsvollen Einsatz von Künstlicher Intelligenz in Gesundheitswesen, Sozialwirtschaft, Pflege und kommunaler Daseinsvorsorge. Schwerpunkt sind fünf Bundesländer mit hoher strategischer Anschlussfähigkeit: Baden-Württemberg, Nordrhein-Westfalen, Niedersachsen, Brandenburg und Sachsen.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Bundesländer"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Qualifizierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Transfer"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        }
+      ],
+      "keywords": [
+        "Pflege",
+        "KI-Governance",
+        "KI-Kompetenz",
+        "Gesundheitswesen",
+        "Bundesländer",
+        "KI-Qualifizierung",
+        "Transfer",
+        "EU AI Act",
+        "Datenschutz",
+        "KI-Monitoring"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Cookie Notice -->
+<div id="cookieNotice">
+  Diese Website verwendet ausschließlich technisch notwendige Cookies.
+  <a href="https://www.thomas-bade.de/impressum.html">Weitere Informationen</a>
+  <button id="cookieAccept">Verstanden</button>
+</div>
+
+<!-- Header -->
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo mb-0">
+        <a href="index.html">Thomas Bade<span style="font-size:15px; color:#ffc451;">&#9632;</span></a>
+      </h1>
+      <nav id="tb-nav" class="d-flex align-items-center gap-3">
+        <a href="https://www.thomas-bade.de/termine.html" class="tb-nav-link d-none d-lg-inline-block">
+          Let&#8217;s talk<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <a href="https://www.thomas-bade.de/sitemap.html" class="tb-nav-link d-none d-lg-inline-block">
+          Alle KI Themen<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <button id="tb-burger" aria-label="Men&#252; &#246;ffnen" aria-expanded="false" aria-controls="tb-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Hamburger Menu Panel ======= -->
+  <div id="tb-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+    <div id="tb-menu-inner">
+      <button id="tb-menu-close" aria-label="Men&#252; schlie&#223;en">
+        <i class="bi bi-x"></i>
+      </button>
+      <ul>
+        <li><a href="https://www.thomas-bade.de/termine.html">
+          <i class="bi bi-calendar-check me-2"></i>Let&#8217;s talk
+        </a></li>
+        <li><a href="https://www.thomas-bade.de/sitemap.html">
+          <i class="bi bi-grid-3x3-gap me-2"></i>Alle KI Themen &#8211; Site Map
+        </a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="tb-menu-overlay"></div>
+
+<!-- Main -->
+<main id="main">
+  <section class="inner-page">
+    <div class="container"><br><br>
+      <h1><p style="color:#000"><b>ESF+ Bundesländer · KI-Qualifizierung</b></p></h1>
+
+     <img src="assets/img/esf_de.png" width="800" height="427" class="img-fluid" alt="ESF+ KI-Qualifizierung Bundesländer"><br><br>
+
+     <p><br><br></p>
+      <!-- HERO SECTION -->
+      <div class="esf-hero" style="border-radius:16px;margin-bottom:32px;">
+        <div class="container" style="padding:0;">
+          <div class="hero-kicker-esf">
+            <span>📣</span> Bundesweite ESF+-Transferinitiative · 2026–2028
+          </div>
+          <h1><span>KI-Qualifizierung</span> für Sozialwirtschaft und Kommunen bundesweit skalieren</h1>
+          <p class="lead">Das in Bayern entwickelte Qualifizierungskonzept auf Basis der ESF+-Aufrufe 8 und 9 wird als übertragbares Modell für weitere Bundesländer vorbereitet. Ziel ist der Aufbau einer bundesweiten Lern- und Governance-Struktur für den verantwortungsvollen Einsatz von Künstlicher Intelligenz in Gesundheitswesen, Sozialwirtschaft, Pflege und kommunaler Daseinsvorsorge.<br>
+          Schwerpunkt sind fünf Bundesländer mit hoher strategischer Anschlussfähigkeit: Baden-Württemberg, Nordrhein-Westfalen, Niedersachsen, Brandenburg und Sachsen.</p>
+          <div class="hero-actions">
+            <a href="#mitmachen" class="btn-gold">✍️ Regionale Partnerschaft anfragen</a>
+            <a href="#bundeslaender" class="btn-outline-white">🗺️ Bundesländer ansehen</a>
+            <a href="https://thomas-bade.de/esf.html" class="btn-outline-white" target="_blank">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" style="vertical-align:middle;margin-right:6px;border-radius:2px;">
+    <rect width="20" height="14" fill="#FFFFFF"/>
+    <rect width="10" height="7" x="0"  y="0"  fill="#0057A8"/>
+    <rect width="10" height="7" x="10" y="7"  fill="#0057A8"/>
+  </svg>
+  ESF+ Programm Bayern
+</a>
+
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat"><strong>5</strong><span>priorisierte Bundesländer</span></div>
+            <div class="hero-stat"><strong>80 %</strong><span>mögliche ESF+-Förderquote je nach Förderlinie</span></div>
+            <div class="hero-stat"><strong>2026–2028</strong><span>Transfer- und Skalierungszeitraum</span></div>
+            <div class="hero-stat"><strong>1 Modell</strong><span>mehrfach übertragbar</span></div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- AUSGANGSLAGE -->
+      <div class="esf-section">
+        <span class="section-kicker">Ausgangslage &amp; Transferlogik</span>
+        <h2>Warum Bayern als Referenzmodell für andere Bundesländer funktioniert</h2>
+        <p class="section-intro">Die bayerischen ESF+-Aufrufe 8 und 9 verbinden zwei Handlungsfelder, die auch in anderen Bundesländern eine hohe Priorität haben: soziale Innovation und Qualifizierung für digitale Transformation. Das vorhandene Konzept kann deshalb nicht nur als Einzelprojekt in Bayern, sondern als übertragbarer methodischer Baukasten für weitere ESF+-Regionen positioniert werden.</p>
+        <p>Im Kern geht es nicht um eine klassische IT-Schulung, sondern um einen verantwortlichen Qualifizierungsansatz für den praktischen KI-Einsatz. Die Lernmodule verbinden Grundlagenwissen, Anwendungsfälle, Datenschutz, EU AI Act, Betreiberpflichten, Governance, Dokumentation und ethische Bewertung. Damit entsteht ein Modell, das an regionale Förderlogiken angepasst werden kann, ohne den fachlichen Kern neu aufzubauen.</p>
+        <div class="leitbox">
+          <p>„Aus einem bayerischen ESF+-Projekt wird ein skalierbares Transfermodell: gleiche Grundstruktur, regionale Anpassung, klare Partnerrollen und ein wiederverwendbarer Qualifizierungsrahmen für Sozialwirtschaft, Pflege, Gesundheitswesen und Kommunen."</p>
+        </div>
+        <div class="card-grid-3">
+          <div class="tb-card accent-top">
+            <span class="card-icon">📚</span>
+            <h3>Wissensbasis vorhanden</h3>
+            <p>Die Plattform thomas-bade.de bündelt Fachseiten, Checklisten und Governance-Logiken zu KI im Gesundheits- und Sozialwesen. Diese Basis kann als Curriculum, Transferpaket und Nachweisstruktur genutzt werden.</p>
+          </div>
+          <div class="tb-card accent-blue">
+            <span class="card-icon">🏛️</span>
+            <h3>ESF+-anschlussfähig</h3>
+            <p>Viele Bundesländer fördern Weiterbildung, Digitalisierung, soziale Innovation, Fachkräftesicherung oder digitale Aus- und Weiterbildungsangebote. Genau hier lässt sich das Bayern-Modell fachlich andocken.</p>
+          </div>
+          <div class="tb-card accent-green">
+            <span class="card-icon">🤝</span>
+            <h3>Partnerfähig</h3>
+            <p>Das Modell eignet sich für Bildungsträger, Wohlfahrtsverbände, Kommunen, Landkreise, Hochschulen, Kammern, Pflege- und Gesundheitseinrichtungen sowie regionale Wirtschaftsförderer.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- BUNDESLAENDER -->
+      <div class="esf-section" id="bundeslaender" style="background:#fff;border-radius:16px;padding:36px 32px;margin-bottom:8px;">
+        <span class="section-kicker">Priorisierte Zielregionen</span>
+        <h2>Die fünf wichtigsten Bundesländer für eine ESF+-Übertragung</h2>
+        <p class="section-intro">Die Auswahl folgt einer einfachen operativen Logik: vorhandene ESF+-Förderlinien, Anschluss an Digitalisierung oder soziale Innovation, erreichbare Ansprechpartner und realistische Transferfähigkeit in Sozialwirtschaft, Pflege, Gesundheitswesen und kommunale Strukturen.</p>
+
+        <style>
+          .bl-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+          @media (max-width: 768px) { .bl-grid { grid-template-columns: 1fr; } }
+          .bl-card {
+            background: #fff; border: 1px solid var(--tb-border);
+            border-radius: 14px; overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0,0,0,.05);
+          }
+          .bl-card-head {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 16px 20px; gap: 12px;
+          }
+          .bl-card-head h3 {
+            margin: 0; font-size: 1.05rem; font-weight: 700; color: #fff;
+          }
+          .bl-frist {
+            font-size: .75rem; font-weight: 700; white-space: nowrap;
+            background: rgba(0,0,0,.25); color: #fff;
+            padding: 4px 10px; border-radius: 999px;
+          }
+          .bl-frist.urgent { background: var(--tb-accent); color: #000; }
+          .bl-card-body { padding: 18px 20px; display: flex; flex-direction: column; gap: 12px; }
+          .bl-row { display: flex; gap: 10px; align-items: flex-start; font-size: .88rem; }
+          .bl-icon { flex-shrink: 0; width: 22px; text-align: center; margin-top: 1px; font-size: .95rem; }
+          .bl-label { font-weight: 700; color: #444; min-width: 110px; flex-shrink: 0; font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; }
+          .bl-val { color: #444; line-height: 1.55; }
+          .bl-val a { color: var(--tb-blue); text-decoration: none; font-weight: 600; }
+          .bl-val a:hover { text-decoration: underline; }
+          .bl-transfer {
+            margin-top: 4px; padding: 10px 14px;
+            background: #f8fdf9; border-left: 3px solid var(--tb-success);
+            border-radius: 0 6px 6px 0; font-size: .86rem; color: #2a5c3a; line-height: 1.5;
+          }
+          .bl-transfer-label { font-size: .73rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--tb-success); margin-bottom: 3px; }
+        </style>
+
+        <div class="bl-grid">
+
+          <!-- Baden-Württemberg -->
+          <div class="bl-card">
+            <div class="bl-card-head" style="background: var(--tb-blue);">
+              <h3>🏛️ Baden-Württemberg</h3>
+              <span class="bl-frist urgent">Frist 31.07.2026</span>
+            </div>
+            <div class="bl-card-body">
+              <div class="bl-row">
+                <span class="bl-icon">📋</span>
+                <div>
+                  <div class="bl-label">Förderlogik</div>
+                  <div class="bl-val">ESF+ Förderaufruf „Soziale Innovation 2026"; Modellprojekte und neue Ansätze mit regionaler Übertragbarkeit.</div>
+                </div>
+              </div>
+              <div class="bl-row">
+                <span class="bl-icon">🏢</span>
+                <div>
+                  <div class="bl-label">Ansprechpartner</div>
+                  <div class="bl-val">ESF Plus Baden-Württemberg · Ministerium für Soziales, Gesundheit und Integration ·
+                    <a href="https://www.esf-bw.de/projekte-und-programme-umsetzen/foerderbereich-arbeit-soziales/soziale-innovation-foerderaufruf-2026" target="_blank" rel="noopener">Förderaufruf <i class="bi bi-box-arrow-up-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="bl-transfer">
+                <div class="bl-transfer-label">Transfer Bayern-Modell</div>
+                Starker Sofort-Transfer: KI-Qualifizierung als soziales Innovationsmodell für Pflege, Sozialwirtschaft und kommunale Träger.
+              </div>
+            </div>
+          </div>
+
+          <!-- Nordrhein-Westfalen -->
+          <div class="bl-card">
+            <div class="bl-card-head" style="background: #2d6a4f;">
+              <h3>🏙️ Nordrhein-Westfalen</h3>
+              <span class="bl-frist">Laufend</span>
+            </div>
+            <div class="bl-card-body">
+              <div class="bl-row">
+                <span class="bl-icon">📋</span>
+                <div>
+                  <div class="bl-label">Förderlogik</div>
+                  <div class="bl-val">ESF+-Förderperiode mit Regionalagenturen, G.I.B., Bildungsscheck 2.0 und arbeitsmarktpolitischen Förderprogrammen.</div>
+                </div>
+              </div>
+              <div class="bl-row">
+                <span class="bl-icon">🗓️</span>
+                <div>
+                  <div class="bl-label">Frist / Status</div>
+                  <div class="bl-val">Bildungsscheck 2.0 ab Februar 2026; weitere Aufrufe je nach Förderlinie und Region.</div>
+                </div>
+              </div>
+              <div class="bl-row">
+                <span class="bl-icon">🏢</span>
+                <div>
+                  <div class="bl-label">Ansprechpartner</div>
+                  <div class="bl-val">MAGS NRW, Regionalagenturen, G.I.B. und zuständige Bezirksregierungen ·
+                    <a href="https://www.mags.nrw/esf-ansprechpartner" target="_blank" rel="noopener">Ansprechstellen <i class="bi bi-box-arrow-up-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="bl-transfer">
+                <div class="bl-transfer-label">Transfer Bayern-Modell</div>
+                Transfer über Wohlfahrtsverbände, kommunale Träger, Pflegeeinrichtungen und regionale Bildungsnetzwerke.
+              </div>
+            </div>
+          </div>
+
+          <!-- Niedersachsen -->
+          <div class="bl-card">
+            <div class="bl-card-head" style="background: #555;">
+              <h3>🤖 Niedersachsen</h3>
+              <span class="bl-frist">Nächste Runde</span>
+            </div>
+            <div class="bl-card-body">
+              <div class="bl-row">
+                <span class="bl-icon">📋</span>
+                <div>
+                  <div class="bl-label">Förderlogik</div>
+                  <div class="bl-val">ESF+-Förderlinie „Soziale Innovation"; zusätzlicher thematischer Bezug zu KI und Robotik.</div>
+                </div>
+              </div>
+              <div class="bl-row">
+                <span class="bl-icon">🗓️</span>
+                <div>
+                  <div class="bl-label">Frist / Status</div>
+                  <div class="bl-val">Förderaufrufe 2026 waren bis 06.03.2026 bzw. 22.05.2026 befristet; Vorbereitung auf nächste Runde sinnvoll.</div>
+                </div>
+              </div>
+              <div class="bl-row">
+                <span class="bl-icon">🏢</span>
+                <div>
+                  <div class="bl-label">Ansprechpartner</div>
+                  <div class="bl-val">NBank ·
+                    <a href="https://www.nbank.de/F%C3%B6rderprogramme/Aktuelle-F%C3%B6rderprogramme/Projekte-f%C3%BCr-Soziale-Innovation.html" target="_blank" rel="noopener">Soziale Innovation Projekte <i class="bi bi-box-arrow-up-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="bl-transfer">
+                <div class="bl-transfer-label">Transfer Bayern-Modell</div>
+                Gute Anschlussfähigkeit für ein 2027er Transferpaket mit Daseinsvorsorge, Fachkräftesicherung, KI und Robotik.
+              </div>
+            </div>
+          </div>
+
+          <!-- Brandenburg -->
+          <div class="bl-card">
+            <div class="bl-card-head" style="background: #7b4f12;">
+              <h3>🌾 Brandenburg</h3>
+              <span class="bl-frist">Laufend (ILB)</span>
+            </div>
+            <div class="bl-card-body">
+              <div class="bl-row">
+                <span class="bl-icon">📋</span>
+                <div>
+                  <div class="bl-label">Förderlogik</div>
+                  <div class="bl-val">ESF+-Weiterbildungsrichtlinie 2026 und arbeitsmarktpolitische Förderprogramme mit Fokus auf berufliche Weiterbildung.</div>
+                </div>
+              </div>
+              <div class="bl-row">
+                <span class="bl-icon">🗓️</span>
+                <div>
+                  <div class="bl-label">Frist / Status</div>
+                  <div class="bl-val">Antragstellung über ILB-Kundenportal; programmspezifische Zeitpläne und Aufrufe laufend prüfen.</div>
+                </div>
+              </div>
+              <div class="bl-row">
+                <span class="bl-icon">🏢</span>
+                <div>
+                  <div class="bl-label">Ansprechpartner</div>
+                  <div class="bl-val">Investitionsbank des Landes Brandenburg (ILB) · Infotelefon Arbeit 0331 660-2200 ·
+                    <a href="https://www.ilb.de/de/arbeit/uebersicht-der-foerderprogramme/weiterbildungsrichtlinie-2026/" target="_blank" rel="noopener">Weiterbildungsrichtlinie 2026 <i class="bi bi-box-arrow-up-right"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="bl-transfer">
+                <div class="bl-transfer-label">Transfer Bayern-Modell</div>
+                Transfer als Weiterbildungspaket für KMU, Sozialunternehmen, öffentliche Einrichtungen und regionale Träger.
+              </div>
+            </div>
+          </div>
+
+          <!-- Sachsen (volle Breite) -->
+          <div class="bl-card" style="grid-column: 1 / -1;">
+            <div class="bl-card-head" style="background: var(--tb-danger);">
+              <h3>💡 Sachsen</h3>
+              <span class="bl-frist">Laufend (SAB)</span>
+            </div>
+            <div class="bl-card-body" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+              <div class="bl-row" style="flex-direction: column; gap: 4px;">
+                <div class="bl-label" style="display:flex;align-items:center;gap:6px;">📋 Förderlogik</div>
+                <div class="bl-val">ESF Plus Richtlinie „Zukunft berufliche Bildung"; digitalgestützte Aus- und Weiterbildungsangebote, Einzelprojekte und Zusatzqualifikationen.</div>
+              </div>
+              <div class="bl-row" style="flex-direction: column; gap: 4px;">
+                <div class="bl-label" style="display:flex;align-items:center;gap:6px;">🏢 Ansprechpartner</div>
+                <div class="bl-val">Sächsische Aufbaubank (SAB) · <a href="mailto:bg50smwazukunftberuflichebildung@sab.sachsen.de">E-Mail SAB</a> ·
+                  <a href="https://sab.sachsen.de/esf-plus-richtlinie-zukunft-berufliche-bildung-einzelprojekte" target="_blank" rel="noopener">Einzelprojekte <i class="bi bi-box-arrow-up-right"></i></a>
+                </div>
+              </div>
+              <div>
+                <div class="bl-transfer" style="height:100%;margin-top:0;">
+                  <div class="bl-transfer-label">Transfer Bayern-Modell</div>
+                  Transfer über digitale Lernformate, Zusatzqualifikationen und praxisnahe KI-Kompetenzmodule.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /bl-grid -->
+
+        <p style="font-size:.82rem;color:#777;margin-top:18px;">Hinweis: Förderfristen, Aufrufe und Zuständigkeiten können sich ändern. Vor einer Ansprache sollte immer der jeweils aktuelle Förderaufruf geprüft werden.</p>
+      </div>
+
+      <!-- LANDER CARDS -->
+      <div class="esf-section">
+        <span class="section-kicker">Bundesländerprofile</span>
+        <h2>Regionale Positionierung in fünf Transferclustern</h2>
+        <p class="section-intro">Für jedes Bundesland wird das gleiche Grundmodell genutzt, aber mit einer eigenen regionalen Argumentationslinie. Dadurch bleibt die Plattform konsistent und erfüllt gleichzeitig die Anforderungen der jeweiligen Förderlogik.</p>
+        <div class="card-grid-3">
+          <div class="tb-card accent-top">
+            <span class="card-icon">🏛️</span>
+            <h3>Baden-Württemberg · Soziale Innovation</h3>
+            <p>Positionierung als modellhaftes Innovationsprojekt für regionale Träger. Fokus: soziale Innovation, niedrigschwellige Qualifizierung, Pflege, Kommunen, Wohlfahrt und übertragbare Modellansätze.</p>
+          </div>
+          <div class="tb-card accent-blue">
+            <span class="card-icon">🏙️</span>
+            <h3>Nordrhein-Westfalen · Transformation der Arbeitswelt</h3>
+            <p>Positionierung über Weiterbildung, Regionalagenturen, Sozialwirtschaft und große Trägerlandschaften. Fokus: Skalierung über Verbände, Bildungsanbieter und kommunale Netzwerke.</p>
+          </div>
+          <div class="tb-card accent-green">
+            <span class="card-icon">🤖</span>
+            <h3>Niedersachsen · KI, Robotik und Daseinsvorsorge</h3>
+            <p>Positionierung als nächster Innovationsbaustein für soziale Innovation, KI und Robotik. Fokus: Daseinsvorsorge, Fachkräftesicherung, regionale Versorgung und Zukunft der Arbeit.</p>
+          </div>
+          <div class="tb-card accent-red">
+            <span class="card-icon">🌾</span>
+            <h3>Brandenburg · Weiterbildung und regionale Entwicklung</h3>
+            <p>Positionierung als berufliche Weiterbildung für KMU, Sozialunternehmen und öffentliche Einrichtungen. Fokus: Strukturwandel, regionale Erreichbarkeit und digitale Routinen.</p>
+          </div>
+          <div class="tb-card accent-blue">
+            <span class="card-icon">💡</span>
+            <h3>Sachsen · Zukunft beruflicher Bildung</h3>
+            <p>Positionierung als digitalgestütztes Aus- und Weiterbildungsangebot. Fokus: Zusatzqualifikationen, Lernplattformen, modulare KI-Kompetenz und Transfer in Betriebe.</p>
+          </div>
+          <div class="tb-card accent-top">
+            <span class="card-icon">🔁</span>
+            <h3>Gemeinsamer Kern</h3>
+            <p>Alle Länder nutzen dasselbe Grundprinzip: KI-Kompetenz muss fachlich, rechtlich, ethisch und praktisch aufgebaut werden – nicht als Tool-Schulung, sondern als Governance-Qualifizierung.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ÜBERTRAGUNG -->
+      <div class="esf-section" style="background:#fff;border-radius:16px;padding:36px 32px;margin-bottom:8px;">
+        <span class="section-kicker">Transfermodell Bayern → Deutschland</span>
+        <h2>So werden die ESF+-Aufrufe 8 und 9 in andere Bundesländer übertragen</h2>
+        <p class="section-intro">Die operative Übertragung erfolgt nicht durch Kopieren eines Förderantrags. Sie erfolgt durch eine saubere Modularisierung des bayerischen Projektansatzes in vier Bausteine, die je nach Bundesland neu gewichtet werden können.</p>
+
+        <div class="card-grid-4">
+          <div class="tb-card">
+            <span class="card-icon">1️⃣</span>
+            <h3>Curriculum</h3>
+            <p>KI-Grundlagen, Tool-Auswahl, Anwendung, Risiken, Datenschutz, EU AI Act, Betreiberpflichten und praktische Umsetzung.</p>
+          </div>
+          <div class="tb-card">
+            <span class="card-icon">2️⃣</span>
+            <h3>Governance</h3>
+            <p>Rollen, Verantwortlichkeiten, SOPs, Freigabeprozesse, Eskalationswege, Dokumentation und Monitoring.</p>
+          </div>
+          <div class="tb-card">
+            <span class="card-icon">3️⃣</span>
+            <h3>Praxisfälle</h3>
+            <p>Pflege, Sozialarbeit, Quartiersmanagement, Krankenhaus, HomeCare, Verwaltung, Bildungsträger und kommunale Daseinsvorsorge.</p>
+          </div>
+          <div class="tb-card">
+            <span class="card-icon">4️⃣</span>
+            <h3>Evaluation</h3>
+            <p>Teilnahmebescheinigung, Kompetenznachweis, Lernfortschritt, Transferindikatoren, Verstetigung und Skalierung.</p>
+          </div>
+        </div>
+
+        <div class="leitbox">
+          <p>„Der bayerische Projektansatz wird als Referenzarchitektur genutzt. Die Länder erhalten keinen fertigen Einheitsantrag, sondern ein anpassbares Transferpaket aus Curriculum, Governance, Praxisfällen und Evaluation."</p>
+        </div>
+      </div>
+
+      <!-- FAHRPLAN -->
+      <div class="esf-section">
+        <span class="section-kicker">Fahrplan</span>
+        <h2>Skalierungspfad 2026 bis 2028</h2>
+        <p class="section-intro">Der Transfer sollte mit einer klassischen Stufenlogik aufgebaut werden: Bayern als Referenz, Baden-Württemberg als unmittelbares Anschlussfenster, danach NRW, Niedersachsen, Brandenburg und Sachsen als strukturierte Skalierung.</p>
+        <div style="max-width:820px;">
+          <div class="timeline">
+
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-week">Phase 1 · Bayern 2026</div>
+              <h4>Referenzmodell aus ESF+-Aufrufen 8 und 9 finalisieren</h4>
+              <p>Das bayerische Konzept bildet die methodische Grundlage: Zielgruppen, Lernmodule, Partnerrollen, Qualifizierungslogik, Kostenstruktur, Dokumentation und Transferargumentation.</p>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-week">Phase 2 · Baden-Württemberg 2026</div>
+              <h4>Aktives Zeitfenster Soziale Innovation nutzen</h4>
+              <p>Baden-Württemberg ist wegen der laufenden Frist bis 31.07.2026 der wichtigste Sofortkandidat. Die Argumentation sollte auf soziale Innovation, regionale Modellprojekte und Übertragbarkeit ausgerichtet werden.</p>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-week">Phase 3 · NRW und Niedersachsen 2027</div>
+              <h4>Große Trägerlandschaften und Innovationslinien vorbereiten</h4>
+              <p>NRW eignet sich für Skalierung über Verbände, Regionalagenturen und Sozialwirtschaft. Niedersachsen eignet sich als nächstes Innovationsfenster mit Bezug zu KI, Robotik und Daseinsvorsorge.</p>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-dot"></div>
+              <div class="tl-week">Phase 4 · Brandenburg und Sachsen 2027–2028</div>
+              <h4>Berufliche Weiterbildung und digitale Lernangebote operationalisieren</h4>
+              <p>Brandenburg und Sachsen bieten Anschluss über berufliche Weiterbildung, digitale Aus- und Weiterbildungsangebote sowie KMU- und Fachkräftelogiken.</p>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-dot" style="background:#d34e36;box-shadow:0 0 0 2px #d34e36;"></div>
+              <div class="tl-week">Zielbild · 2028</div>
+              <h4>Bundesweites ESF+-Transfernetzwerk für KI-Kompetenz</h4>
+              <p>Aus einzelnen Projektanträgen entsteht ein übertragbares Netzwerkmodell mit regionalen Partnern, gemeinsamen Lernmodulen und wiederverwendbaren Governance-Werkzeugen.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- DOWNLOAD / CTA -->
+      <div class="esf-section">
+        <div class="download-box">
+          <div>
+            <div class="dl-meta">Transferseite · Thomas Bade · ESF+ Bundesländer</div>
+            <div class="dl-title">📄 Bundesweite Anschlussfähigkeit vorbereiten</div>
+            <div class="dl-sub">Diese Seite dient als strategische Grundlage für Gespräche mit Unternehmen aus der Gesundheitswirtschaft in den priorisierten Bundesländern.</div>
+          </div>
+          <div class="dl-actions">
+            <a href="#mitmachen" class="btn-gold">✍️ Regionale Partnerschaft anfragen</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- KONTAKTFORMULAR -->
+      <div class="esf-section" id="mitmachen" style="background:#fff;border-radius:16px;padding:44px 36px;margin-bottom:8px;">
+        <span class="section-kicker">Bundesweite Partnerschaft</span>
+        <h2>Interesse an einer regionalen ESF+-Partnerschaft</h2>
+        <p class="section-intro">Gesucht werden Pflegedienste, Sanitätshäuser, Orthopädietechnik Unternehmen, HomeCare Unternehmen, Arztpraxen sowie Krankenhäuser, die das bayerische KI-Qualifizierungsmodell in ihr Bundesland übertragen möchten.</p>
+
+        <div class="form-section">
+          <div id="formSuccess" class="form-success">
+            ✅ Vielen Dank für Ihre Rückmeldung! Thomas Bade meldet sich in Kürze bei Ihnen.
+          </div>
+          <form id="partnerForm" action="https://formspree.io/f/xgobvjko" method="POST" novalidate>
+            <div class="form-grid">
+              <div class="form-group"><label for="vorname">Vorname <span class="req">*</span></label><input type="text" id="vorname" name="vorname" placeholder="Ihr Vorname" required></div>
+              <div class="form-group"><label for="nachname">Nachname <span class="req">*</span></label><input type="text" id="nachname" name="nachname" placeholder="Ihr Nachname" required></div>
+              <div class="form-group"><label for="email">E-Mail-Adresse <span class="req">*</span></label><input type="email" id="email" name="email" placeholder="ihre@email.de" required></div>
+              <div class="form-group"><label for="organisation">Organisation / Unternehmen</label><input type="text" id="organisation" name="organisation" placeholder="Name Ihrer Organisation"></div>
+
+              <div class="form-group">
+                <label for="bundesland">Bundesland / Zielregion <span class="req">*</span></label>
+                <select id="bundesland" name="bundesland" required>
+                  <option value="">– Bitte wählen –</option>
+                  <option>Baden-Württemberg</option>
+                  <option>Nordrhein-Westfalen</option>
+                  <option>Niedersachsen</option>
+                  <option>Brandenburg</option>
+                  <option>Sachsen</option>
+                  <option>Bayern</option>
+                  <option>Sonstige Region</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="rolle">Ihre Rolle im Transfer <span class="req">*</span></label>
+                <select id="rolle" name="rolle" required>
+                  <option value="">– Bitte wählen –</option>
+                  <option>Arztpraxis / MVZ</option>
+                  <option>Sanitätshaus</option>
+                  <option>HomeCare Unternehmen</option>
+                  <option>Krankenhaus / Klinikverbund</option>
+                  <option>Pflegeeinrichtung / Pflegedienst</option>
+                  <option>Sonstiges</option>
+                </select>
+              </div>
+
+              <div class="form-group full">
+                <label>Mögliches Interesse am ESF+-Transfer <span style="font-weight:400;color:#888;">(Mehrfachauswahl möglich)</span></label>
+
+                <p style="font-size:.8rem;color:#888;margin:6px 0 10px;">Die Auswahl hilft bei der ersten Einordnung: Geht es um einen Pilotstandort, um Projektpartnerschaft, um Evaluation oder um regionale Skalierung?</p>
+
+                <div class="checkbox-group">
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="interesse[]" value="Regionale Projektpartnerschaft">
+                    <span>Regionale Projektpartnerschaft für eine ESF+-Antragstellung</span>
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="interesse[]" value="Pilotstandort">
+                    <span>Pilotstandort für KI-Qualifizierung in der Gesundheitswirtschaft</span>
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="interesse[]" value="Multiplikator Verband Netzwerk">
+                    <span>Multiplikator über Leistungserbringerverband</span>
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="interesse[]" value="Wissenschaftliche Begleitung Evaluation">
+                    <span>Wissenschaftliche Begleitung, Evaluation, Monitoring oder Wirkungsnachweis</span>
+                  </label>
+                  <label class="checkbox-item">
+                    <input type="checkbox" name="interesse[]" value="Transfer in weitere Bundesländer">
+                    <span>Transfer in weitere Bundesländer oder Aufbau eines länderübergreifenden Partnernetzwerks</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group full"><label for="nachricht">Ihre Rückmeldung <span class="req">*</span></label><textarea id="nachricht" name="nachricht" rows="5" placeholder="Welche Erfahrungen, Zielgruppen oder regionalen Netzwerke möchten Sie in eine bundesweite KI-Qualifizierungsinitiative einbringen?" required></textarea><span class="form-hint">Bitte ca. 3–5 Sätze – keine vollständige Bewerbung erforderlich.</span></div>
+              <div class="form-group full"><label for="foerderlinie">Bekannte Förderlinie oder Frist (optional)</label><textarea id="foerderlinie" name="foerderlinie" rows="3" placeholder="Falls bereits bekannt: ESF+-Förderlinie, Ansprechpartner, Frist, bestehende Projektidee oder regionale Ausschreibung."></textarea></div>
+              <div class="form-group full">
+                <label class="checkbox-item">
+                  <input type="checkbox" name="datenschutz" value="zugestimmt" required>
+                  <span>Ich stimme der Verarbeitung meiner Daten zum Zweck der Kontaktaufnahme im Rahmen der ESF+-Transferinitiative zu.<br>
+                  Die Daten werden nicht an Dritte weitergegeben. <span class="req">*</span></span>
+                </label>
+              </div>
+            </div>
+            <input type="hidden" name="_subject" value="Bundesweite ESF+ KI-Qualifizierung – Interessenbekundung">
+            <input type="hidden" name="_language" value="de">
+            <input type="text" name="_gotcha" style="display:none">
+            <p style="font-size:.8rem;color:#888;margin:16px 0 0;"><span style="color:#d34e36;font-weight:700;">*</span> Pflichtfelder müssen ausgefüllt werden.</p>
+            <div id="formError" style="display:none;background:#fde8e6;border:1px solid #f5c6c2;border-left:4px solid #d34e36;border-radius:8px;padding:12px 16px;margin-top:14px;font-size:.9rem;color:#a12b1d;font-weight:600;">
+              ⚠️ Bitte füllen Sie alle Pflichtfelder aus. Das erste fehlende Feld ist markiert.
+            </div>
+            <div class="form-submit-row" style="margin-top:16px;">
+              <button type="submit" class="btn-submit">✍️ Transferinteresse senden</button>
+              <p class="form-privacy">Ihre Daten werden ausschließlich zur Koordination möglicher ESF+-Transferpartnerschaften genutzt. Keine Weitergabe an Dritte. Kein Newsletter ohne Ihre ausdrückliche Zustimmung.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<!-- Footer – 1:1 aus dikw.html -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mb-3">
+          <img src="https://thomas-bade.de/assets/img/logo-transparent.png" alt="thomas-bade.de" style="height:120px;margin-bottom:20px;display:block;">
+          <p><a href="mailto:tb@thomas-bade.de"><i class="bi bi-envelope me-1"></i>E-Mail</a></p>
+          <p><a href="https://www.thomas-bade.de/coach.html"><i class="bi bi-person me-1"></i>Zur Person</a></p>
+          <p><a href="https://www.thomas-bade.de/termine.html"><i class="bi bi-calendar me-1"></i>Let's talk</a></p>
+          <p><a href="https://www.thomas-bade.de/impressum.html"><i class="bi bi-file-text me-1"></i>Impressum &amp; Datenschutz</a></p>
+          <p style="font-size:12px;color:#ffc451;margin-top:16px;">&copy; Copyright 2026 Thomas Bade</p>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;color:#ffc451!important;">Weitere Angebote</p>
+          <p><a href="https://www.thomas-bade.eu" target="_blank" rel="noopener"><i class="bi bi-globe me-1"></i>thomas-bade.eu – Zukunftsraum Kommune</a></p>
+          <p><a href="https://www.thomas-bade.org" target="_blank" rel="noopener"><i class="bi bi-mortarboard me-1"></i>thomas-bade.org – KI Lernportal</a></p>
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:20px;margin-bottom:10px;color:#ffc451!important;">Alle KI-Themen</p>
+          <div class="footer-dropdown" id="footerDropdown">
+            <button class="footer-dd-trigger" id="footerDDBtn">Themenübersicht <span class="footer-dd-chevron">▲</span></button>
+            <ul class="footer-dd-menu" id="footerDDMenu">
+              <li><a href="https://www.thomas-bade.de/sitemap.html" target="_blank"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></li>
+              <li><a href="https://www.thomas-bade.de/bmg.html">Digitalisierungsstrategie 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/mdr_ki.html">Hochrisiko-KI</a></li>
+              <li><a href="https://www.thomas-bade.de/GPAI.html">GPAI-Modelle</a></li>
+              <li><a href="https://www.thomas-bade.de/kompetenz.html">KI-Kompetenz</a></li>
+              <li><a href="https://www.thomas-bade.de/ki_verordnung.html">KI-MIG 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/wissenschaft.html">Forschung &amp; Wissenschaft</a></li>
+              <li><a href="https://www.thomas-bade.de/constitution.html">Ethische KI-Prinzipien</a></li>
+              <li><a href="https://www.thomas-bade.de/risk.html">KI Risikomanagement</a></li>
+              <li><a href="https://www.thomas-bade.de/oecd.html">OECD 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/fmea.html">FMEA im Gesundheitswesen</a></li>
+              <li><a href="https://www.thomas-bade.de/praevention.html">KI in der Prävention</a></li>
+              <li><a href="https://www.thomas-bade.de/haip.html">Health AI Partnership (HAIP)</a></li>
+              <li><a href="https://www.thomas-bade.de/portal.html">KI Lernformate</a></li>
+            </ul>
+          </div>
+          <p style="font-size:14px;margin-bottom:6px;">
+            <a href="https://www.thomas-bade.de/sitemap.html" target="_blank" style="color:#ccc;text-decoration:none;"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></p>
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:20px;margin-bottom:10px;color:#ffc451!important;">Seite teilen</p>
+          <div class="share-container" id="shareContainer">
+            <button class="share-button" id="shareToggleBtn" aria-label="Seite teilen" title="Seite teilen">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+            </button>
+            <div class="share-popup" id="sharePopup">
+              <a href="#" id="shareLinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" id="shareTwitter" title="X / Twitter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" id="shareFacebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+              </a>
+              <button class="share-icon-btn" id="shareMastodon" title="Mastodon" type="button">
+                <svg viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.24-5.032C17.69.242 15.948 0 11.994 0h-.028C8.017 0 6.274.242 5.94.281 3.35.693 1.038 2.554.526 5.157A27.3 27.3 0 0 0 .25 9.099c-.064 1.265-.063 2.529-.037 3.794.065 3.028.222 6.051.668 9.048.255 1.688.85 3.232 2.025 4.58A8.208 8.208 0 0 0 8.36 23.77c1.947.476 3.952.586 5.94.478a29.39 29.39 0 0 0 5.656-1.085 8.178 8.178 0 0 0 1.538-.666c-.01-.072-.013-.146-.013-.22v-3.03c-.756.183-1.522.33-2.296.44-1.698.241-3.413.31-5.12.188a9.94 9.94 0 0 1-2.494-.495c-.874-.297-1.57-.862-1.916-1.752a5.99 5.99 0 0 1-.326-1.48c2.064.496 4.162.744 6.265.744 1.013 0 2.024-.048 3.03-.148 1.71-.173 3.48-.556 4.997-1.464a6.274 6.274 0 0 0 2.786-4.148c.16-.924.22-1.86.22-2.798 0-.93-.063-1.855-.207-2.772zm-5.516 6.6c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.667-1.218-2.667-2.72V7.86c0-1.502 1.194-2.72 2.667-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053zm-8.068 0c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.668-1.218-2.668-2.72V7.86c0-1.502 1.195-2.72 2.668-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareInstagram" title="Instagram (Link kopieren)" type="button">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareCopyLink" title="Link kopieren" type="button">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </button>
+            </div>
+            <div id="mastodonPrompt">
+              <label for="mastodonInstance">Mastodon-Instanz eingeben:</label>
+              <input type="text" id="mastodonInstance" placeholder="z.B. mastodon.social" autocomplete="off">
+              <button class="masto-go" id="mastodonGo" type="button">Teilen &#8599;</button>
+            </div>
+          </div>
+          <div class="copy-notification" id="copyNotification">&#10003; Link in Zwischenablage kopiert</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor Scripts – 1:1 aus dikw.html -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<!-- php-email-form/validate.js entfernt: Konflikt mit Formspree AJAX -->
+
+<!-- Formular AJAX – VOR main.js, capture:true damit kein anderer Handler gewinnt -->
+<script>
+(function(){
+  var form = document.getElementById('partnerForm');
+  var success = document.getElementById('formSuccess');
+  var errorBox = document.getElementById('formError');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    e.stopImmediatePropagation();
+
+    // Alle Fehlermarkierungen zurücksetzen
+    form.querySelectorAll('[required]').forEach(function(el){
+      el.style.borderColor = '';
+      el.style.boxShadow = '';
+      if(el.type === 'checkbox'){
+        var ci = el.closest('.checkbox-item');
+        if(ci) ci.style.outline = '';
+      }
+    });
+    if(errorBox) errorBox.style.display = 'none';
+
+    // Validierung: erstes fehlerhaftes Feld merken
+    var required = form.querySelectorAll('[required]');
+    var valid = true;
+    var firstInvalid = null;
+
+    required.forEach(function(el){
+      var bad = false;
+      if(el.type === 'checkbox' && !el.checked){
+        bad = true;
+        var ci = el.closest('.checkbox-item');
+        if(ci) ci.style.outline = '2px solid #d34e36';
+      } else if(el.type !== 'checkbox' && !el.value.trim()){
+        bad = true;
+        el.style.borderColor = '#d34e36';
+        el.style.boxShadow = '0 0 0 3px rgba(211,78,54,.18)';
+      }
+      if(bad){
+        valid = false;
+        if(!firstInvalid) firstInvalid = el;
+      }
+    });
+
+    if(!valid){
+      // Fehlerhinweis einblenden
+      if(errorBox) errorBox.style.display = 'block';
+      // Zum ersten fehlerhaften Feld scrollen, mit etwas Abstand nach oben
+      if(firstInvalid){
+        var target = firstInvalid.closest('.form-group') || firstInvalid;
+        var y = target.getBoundingClientRect().top + window.scrollY - 120;
+        window.scrollTo({top: y, behavior: 'smooth'});
+        // Fokus nach Scroll-Ende setzen
+        setTimeout(function(){ firstInvalid.focus(); }, 420);
+      }
+      return;
+    }
+
+    var btn = form.querySelector('.btn-submit');
+    btn.textContent = '⏳ Wird gesendet …';
+    btn.disabled = true;
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    })
+    .then(function(r){
+      if(r.ok){
+        plausible('Formular Absenden', {props: {formular: 'ESF-Partneraufruf', seite: 'esf-de'}});
+        form.style.display = 'none';
+        success.style.display = 'block';
+        success.scrollIntoView({behavior:'smooth', block:'center'});
+      } else {
+        btn.textContent = '✍️ Interesse bekunden';
+        btn.disabled = false;
+        alert('Fehler beim Senden. Bitte direkt an tb@thomas-bade.de schreiben.');
+      }
+    })
+    .catch(function(){
+      btn.textContent = '✍️ Interesse bekunden';
+      btn.disabled = false;
+      alert('Verbindung fehlgeschlagen. Bitte direkt an tb@thomas-bade.de schreiben.');
+    });
+  }, true); // capture:true – läuft vor allen von main.js registrierten Handlern
+
+  // Fehlermarkierung live zurücksetzen sobald Nutzer tippt/auswählt
+  form.addEventListener('input', function(e){
+    var el = e.target;
+    if(el.type !== 'checkbox'){
+      el.style.borderColor = '';
+      el.style.boxShadow = '';
+    }
+  });
+  form.addEventListener('change', function(e){
+    var el = e.target;
+    if(el.type === 'checkbox'){
+      var ci = el.closest('.checkbox-item');
+      if(ci) ci.style.outline = '';
+    }
+    if(errorBox && form.querySelectorAll('[required]').length){
+      // Fehlerbox ausblenden sobald erstes Feld korrigiert
+      errorBox.style.display = 'none';
+    }
+  });
+
+  // Smooth scroll für Anker-Links
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(e){
+      var t = document.querySelector(a.getAttribute('href'));
+      if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth', block:'start'}); }
+    });
+  });
+})();
+</script>
+
+<script src="assets/js/main.js"></script>
+
+<script>
+// Cookie – 1:1 aus dikw.html
+document.addEventListener('DOMContentLoaded',function(){
+  if(!localStorage.getItem('cookieNoticeAccepted'))document.getElementById('cookieNotice').style.display='block';
+  document.getElementById('cookieAccept').addEventListener('click',function(){localStorage.setItem('cookieNoticeAccepted','true');document.getElementById('cookieNotice').style.display='none';});
+});
+
+// Footer DD – 1:1 aus dikw.html
+document.addEventListener('DOMContentLoaded',function(){
+  var b=document.getElementById('footerDDBtn'),m=document.getElementById('footerDDMenu'),d=document.getElementById('footerDropdown');
+  if(!b||!m)return;
+  b.addEventListener('click',function(e){e.stopPropagation();m.classList.toggle('open');b.classList.toggle('open');});
+  document.addEventListener('click',function(e){if(d&&!d.contains(e.target)){m.classList.remove('open');b.classList.remove('open');}});
+});
+
+// Search – 1:1 aus dikw.html
+var PAGES=[
+  {t:"AI Leadership Report 2026",u:"https://www.thomas-bade.de/ai_sweden.html",c:"Leadership",k:"AI Sweden Führung Governance Strategie Vorstand Geschäftsführung"},
+  {t:"Home",u:"https://www.thomas-bade.de/",c:"Hauptseiten",k:"KI EU AI Act Gesundheitswesen"},
+  {t:"FMEA im Gesundheitswesen",u:"https://www.thomas-bade.de/fmea.html",c:"Sicherheit",k:"FMEA RPZ MDR Hochrisiko"},
+  {t:"KI Monitoring",u:"https://www.thomas-bade.de/ai_monitoring.html",c:"Analyse",k:"Post-Deployment NIST Monitoring"},
+  {t:"KI-Kompetenz",u:"https://www.thomas-bade.de/kompetenz.html",c:"Hauptseiten",k:"Kompetenz EU AI Act BAPID Pflege"},
+  {t:"Hochrisiko-KI",u:"https://www.thomas-bade.de/mdr_ki.html",c:"Regeln",k:"Hochrisiko MDR EU AI Act"},
+  {t:"KI-Produktivitätsanalyse",u:"https://www.thomas-bade.de/claude.html",c:"Analyse",k:"Produktivität Anthropic Claude ROI 80%"},
+  {t:"GPAI-Modelle",u:"https://www.thomas-bade.de/GPAI.html",c:"Regeln",k:"GPAI Foundation Models GPT"},
+  {t:"KI Entlassmanagement",u:"https://www.thomas-bade.de/em_ki.html",c:"Regeln",k:"Entlassmanagement SGB V DNQP"},
+  {t:"KI Risikomanagement",u:"https://www.thomas-bade.de/risk.html",c:"Regeln",k:"CHAI Risikobewertung Governance"}
+];
+(function(){
+  var si=document.getElementById('site-search-input'),sr=document.getElementById('search-results'),srl=document.getElementById('search-results-list'),nr=document.getElementById('no-results'),rc=document.getElementById('results-count'),cb=document.getElementById('search-clear-btn'),so=document.getElementById('search-overlay');
+  if(!si)return;
+  function hs(q){q=q.trim().toLowerCase();if(cb)cb.style.display=q?'flex':'none';if(q.length<2){hide();return;}var r=PAGES.filter(function(p){return(p.t+' '+p.k).toLowerCase().includes(q);});if(r.length){sr.style.display='block';nr.style.display='none';if(so)so.classList.add('active');if(rc)rc.textContent=r.length+' Ergebnis'+(r.length!==1?'se':'');srl.innerHTML=r.map(function(p){return'<a href="'+p.u+'" class="search-result-item"><div class="search-result-title">'+p.t+'</div><div class="search-result-meta">'+p.c+'</div></a>';}).join('');srl.querySelectorAll('.search-result-item').forEach(function(i){i.addEventListener('click',hide);});}else{sr.style.display='none';nr.style.display='block';if(so)so.classList.add('active');}}
+  function hide(){sr.style.display='none';nr.style.display='none';if(so)so.classList.remove('active');}
+  si.addEventListener('input',function(e){hs(e.target.value);});
+  if(cb)cb.addEventListener('click',function(){si.value='';cb.style.display='none';hide();si.focus();});
+  if(so)so.addEventListener('click',hide);
+  document.addEventListener('click',function(e){var c=document.getElementById('site-search-container');if(c&&!c.contains(e.target))hide();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')hide();});
+})();
+</script>
+
+
+
+
+<!-- Share Button – 1:1 aus dikw.html -->
+<script>
+(function(){
+  var container   = document.getElementById('shareContainer');
+  var toggleBtn   = document.getElementById('shareToggleBtn');
+  var popup       = document.getElementById('sharePopup');
+  var liBtn       = document.getElementById('shareLinkedIn');
+  var twBtn       = document.getElementById('shareTwitter');
+  var fbBtn       = document.getElementById('shareFacebook');
+  var mastoBtn    = document.getElementById('shareMastodon');
+  var igBtn       = document.getElementById('shareInstagram');
+  var cpBtn       = document.getElementById('shareCopyLink');
+  var notice      = document.getElementById('copyNotification');
+  var mastoPrompt = document.getElementById('mastodonPrompt');
+  var mastoInput  = document.getElementById('mastodonInstance');
+  var mastoGo     = document.getElementById('mastodonGo');
+  if(!toggleBtn || !popup) return;
+  var pageUrl   = encodeURIComponent(window.location.href);
+  var pageTitle = encodeURIComponent(document.title);
+  var rawUrl    = window.location.href;
+  liBtn.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl;
+  twBtn.href = 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle;
+  fbBtn.href = 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl;
+  toggleBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = popup.classList.contains('open');
+    closeAll();
+    if(!isOpen) popup.classList.add('open');
+  });
+  mastoBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = mastoPrompt.classList.contains('open');
+    mastoPrompt.classList.toggle('open');
+    if(!isOpen && mastoInput) mastoInput.focus();
+  });
+  mastoGo.addEventListener('click', function(){
+    var instance = (mastoInput.value || '').trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
+    if(!instance){ mastoInput.focus(); return; }
+    var shareUrl = 'https://' + instance + '/share?text=' + pageTitle + '%20' + pageUrl;
+    window.open(shareUrl, '_blank', 'noopener,noreferrer');
+    closeAll();
+  });
+  mastoInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter') mastoGo.click();
+    if(e.key === 'Escape') closeAll();
+  });
+  igBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, 'Link kopiert – jetzt in Instagram einfügen');
+  });
+  cpBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, '&#10003; Link in Zwischenablage kopiert');
+  });
+  function copyToClipboard(text, msg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showNotice(msg); }, function(){ fallback(text, msg); });
+    } else { fallback(text, msg); }
+  }
+  function fallback(text, msg){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position='fixed'; ta.style.top='-9999px';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try{ document.execCommand('copy'); showNotice(msg); } catch(err){}
+    document.body.removeChild(ta);
+  }
+  function showNotice(msg){
+    if(!notice) return;
+    notice.innerHTML = msg;
+    notice.classList.add('visible');
+    setTimeout(function(){ notice.classList.remove('visible'); }, 3000);
+  }
+  function closeAll(){
+    popup.classList.remove('open');
+    if(mastoPrompt) mastoPrompt.classList.remove('open');
+  }
+  document.addEventListener('click', function(e){
+    if(!container.contains(e.target)) closeAll();
+  });
+})();
+</script>
+
+<!-- Site Search – 1:1 aus dikw.html -->
+<script src="https://www.thomas-bade.de/assets/js/search-config.js"></script>
+<script src="https://www.thomas-bade.de/assets/js/search.js"></script>
+
+<!-- Webinar-Formular Handler -->
+<script>
+(function () {
+  var wForm = document.getElementById('webinarForm');
+  if (!wForm) return;
+  wForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var termin = document.getElementById('webinar_termin');
+    var email  = document.getElementById('w_email');
+    var dsgvo  = wForm.querySelector('[name="datenschutz_webinar"]');
+    var ok = true;
+    [document.getElementById('w_vorname'), document.getElementById('w_nachname'), email, termin].forEach(function(f){
+      if (f && !f.value.trim()) { f.style.borderColor='#d34e36'; ok=false; } else if(f) { f.style.borderColor=''; }
+    });
+    if (dsgvo && !dsgvo.checked) { dsgvo.parentElement.style.color='#d34e36'; ok=false; } else if(dsgvo) { dsgvo.parentElement.style.color=''; }
+    if (!ok) return;
+    var submitBtn = wForm.querySelector('button[type="submit"]');
+    if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = '⏳ Wird gesendet…'; }
+    var data = new FormData(wForm);
+    fetch(wForm.action, { method:'POST', body:data, headers:{'Accept':'application/json'} })
+      .then(function(r){
+        if (r.ok) {
+          wForm.style.display = 'none';
+          document.getElementById('webinarSuccess').style.display = 'block';
+          document.getElementById('webinarSuccess').scrollIntoView({behavior:'smooth', block:'center'});
+        } else {
+          r.json().then(function(json){
+            var msg = (json && json.error) ? json.error : 'HTTP ' + r.status;
+            showWebinarError('Fehler: ' + msg + ' – Bitte direkt an <a href="mailto:tb@thomas-bade.de">tb@thomas-bade.de</a> schreiben.');
+          }).catch(function(){
+            showWebinarError('Fehler beim Senden (HTTP ' + r.status + '). Bitte direkt an <a href="mailto:tb@thomas-bade.de">tb@thomas-bade.de</a> schreiben.');
+          });
+          if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = '📩 Verbindlich anmelden'; }
+        }
+      })
+      .catch(function(){
+        showWebinarError('Netzwerkfehler. Bitte prüfen Sie Ihre Verbindung oder schreiben Sie direkt an <a href="mailto:tb@thomas-bade.de">tb@thomas-bade.de</a>.');
+        if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = '📩 Verbindlich anmelden'; }
+      });
+  });
+  function showWebinarError(msg) {
+    var el = document.getElementById('webinarError');
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'webinarError';
+      el.style.cssText = 'background:#fde8e6;border:1px solid #f5c6c2;border-left:4px solid #d34e36;border-radius:8px;padding:12px 16px;margin-top:14px;font-size:.9rem;color:#a12b1d;font-weight:600;';
+      document.getElementById('webinarForm').appendChild(el);
+    }
+    el.innerHTML = '⚠️ ' + msg;
+    el.style.display = 'block';
+  }
+}());
+</script>
+
+<!-- File Download Tracking – Event Delegation (analog downloads.html) -->
+<script>
+document.addEventListener('click', function (event) {
+  if (typeof plausible !== 'function') return;
+  var el = event.target.closest('a[href], button[onclick]');
+  if (!el) return;
+  var pdfUrl = null;
+
+  if (el.tagName === 'A' && el.href && el.href.toLowerCase().split('?')[0].endsWith('.pdf')) {
+    pdfUrl = el.href;
+  }
+
+  if (el.tagName === 'BUTTON') {
+    var onclick = el.getAttribute('onclick') || '';
+    var match = onclick.match(/['"](https?:\/\/[^'"]+\.pdf)['"]/i);
+    if (match) pdfUrl = match[1];
+  }
+
+  if (!pdfUrl) return;
+  plausible('File Download', { props: { url: pdfUrl } });
+}, true);
+</script>
+
+<div id="tb-lernportal-fab">
+  <button id="tb-lernportal-fab-dismiss" type="button">Ausblenden &#x2715;</button>
+  <button id="tb-lernportal-fab-btn" type="button" aria-label="KI-Lernportal &#xF6;ffnen">
+    <span id="tb-lernportal-fab-icon">
+      <img src="https://www.thomas-bade.de/assets/img/favicon.png"
+           width="34" height="34" alt="KI-Lernportal"
+           style="display:block;object-fit:contain;"
+           onerror="this.style.display='none';this.parentElement.textContent='&#x1F393;';">
+    </span>
+    <span>
+      <span id="tb-lernportal-fab-label">KI-Lernformate</span>
+    </span>
+  </button>
+</div>
+
+<div id="tb-lernportal-overlay">
+  <iframe id="tb-lernportal-iframe"
+          title="KI-Lernportal thomas-bade.org"
+          src="about:blank"></iframe>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var KEY = 'tb-lernportal-hidden';
+  var MODAL_URL = 'https://www.thomas-bade.de/modal/ki-lernportal-modal.html';
+  var fab     = document.getElementById('tb-lernportal-fab');
+  var dismiss = document.getElementById('tb-lernportal-fab-dismiss');
+  var btn     = document.getElementById('tb-lernportal-fab-btn');
+  var overlay = document.getElementById('tb-lernportal-overlay');
+  var frame   = document.getElementById('tb-lernportal-iframe');
+  function openModal() {
+    if (!frame.src || frame.src === 'about:blank') frame.src = MODAL_URL;
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    plausible('FAB Lernportal', {props: {aktion: 'geöffnet', seite: 'esf-de'}});
+  }
+  function closeModal() {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+  try { if (sessionStorage.getItem(KEY)) fab.style.display = 'none'; } catch(e) {}
+  if (dismiss) {
+    dismiss.addEventListener('click', function(e) {
+      e.stopPropagation();
+      fab.style.display = 'none';
+      try { sessionStorage.setItem(KEY, '1'); } catch(e) {}
+    });
+  }
+  if (btn) btn.addEventListener('click', openModal);
+  if (overlay) {
+    overlay.addEventListener('click', function(e) {
+      if (e.target === overlay) closeModal();
+    });
+  }
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && overlay.classList.contains('active')) closeModal();
+  });
+  window.addEventListener('message', function(e) {
+    if (e.data === 'tb-modal-close') closeModal();
+  });
+}());
+</script>
+
+
+  <style>
+    /* ── Hamburger Nav ── */
+    #tb-nav .tb-nav-link {
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+      letter-spacing: .02em;
+      transition: color .2s;
+    }
+    #tb-nav .tb-nav-link:hover { color: #ffc451; }
+
+    /* Hamburger Button */
+    #tb-burger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 4px;
+      transition: background .2s;
+    }
+    #tb-burger:hover { background: rgba(255,196,81,.15); }
+    #tb-burger span {
+      display: block;
+      height: 2px;
+      width: 24px;
+      background: #fff;
+      border-radius: 2px;
+      transition: transform .25s ease, opacity .2s ease, width .2s ease;
+      transform-origin: center;
+    }
+    #tb-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    #tb-burger.open span:nth-child(2) { opacity: 0; width: 0; }
+    #tb-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Menu Panel */
+    #tb-menu {
+      position: fixed;
+      top: 0; right: 0;
+      width: min(300px, 88vw);
+      height: 100%;
+      background: #0b0b0b;
+      z-index: 10100;
+      transform: translateX(100%);
+      transition: transform .28s cubic-bezier(.4,0,.2,1);
+      overflow-y: auto;
+    }
+    #tb-menu.open { transform: translateX(0); }
+    #tb-menu-inner { padding: 20px 24px 40px; }
+
+    /* Close Button */
+    #tb-menu-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 6px;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-bottom: 28px;
+      transition: background .2s, color .2s;
+      line-height: 1;
+    }
+    #tb-menu-close:hover { background: #ffc451; color: #000; border-color: #ffc451; }
+
+    /* Menu Links */
+    #tb-menu ul { list-style: none; padding: 0; margin: 0; }
+    #tb-menu ul li + li { margin-top: 8px; }
+    #tb-menu ul li a {
+      display: flex;
+      align-items: center;
+      padding: 14px 18px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 8px;
+      color: #eee;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background .2s, color .2s, border-color .2s;
+    }
+    #tb-menu ul li a:hover {
+      background: #ffc451;
+      color: #000;
+      border-color: #ffc451;
+    }
+    #tb-menu ul li a i { font-size: 17px; flex-shrink: 0; }
+
+    /* Overlay */
+    #tb-menu-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.55);
+      z-index: 10090;
+      backdrop-filter: blur(2px);
+    }
+    #tb-menu-overlay.open { display: block; }
+
+    /* Focus ring */
+    #tb-menu a:focus-visible,
+    #tb-menu-close:focus-visible,
+    #tb-burger:focus-visible {
+      outline: 2px solid #ffc451;
+      outline-offset: 2px;
+    }
+  </style>
+  <script>
+  /* ── Hamburger Menu ── */
+  (function () {
+    var burger   = document.getElementById('tb-burger');
+    var menu     = document.getElementById('tb-menu');
+    var overlay  = document.getElementById('tb-menu-overlay');
+    var closeBtn = document.getElementById('tb-menu-close');
+    if (!burger || !menu) return;
+
+    function openMenu() {
+      menu.classList.add('open');
+      overlay.classList.add('open');
+      burger.classList.add('open');
+      burger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      var first = menu.querySelector('a, button');
+      if (first) setTimeout(function () { first.focus(); }, 300);
+    }
+
+    function closeMenu() {
+      menu.classList.remove('open');
+      overlay.classList.remove('open');
+      burger.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      burger.focus();
+    }
+
+    burger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menu.classList.contains('open') ? closeMenu() : openMenu();
+    });
+
+    closeBtn.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('open')) closeMenu();
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { closeMenu(); });
+    });
+  })();
+  </script>
+</body>
+</html>

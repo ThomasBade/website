@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "EU AI Act",
+        "KI-Governance",
+        "Risikomanagement",
+        "KI-Kompetenz",
+        "KI-Ethik",
+        "Medizinprodukte",
+        "DSGVO",
+        "FMEA",
+        "Datenschutz",
+        "KI-Compliance"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/dikw.html#webpage",
+      "url": "https://www.thomas-bade.de/dikw.html",
+      "headline": "DIKW Pyramide – KI Kompetenz strukturiert aufbauen | Thomas Bade",
+      "description": "Das DIKW-Modell als Lernframework für KI-Kompetenz: Von Rohdaten zur KI-Weisheit – strukturiert nach EU AI Act Art. 4 für das Gesundheits- und Sozialwesen.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map DIKW-Pyramide 0 Ergebnisse Keine Ergebnisse KI-Kompetenz · DIKW-Modell · Ackoff 1989 · EU AI Act Art. 4 Von Rohdaten zur KI-Urteilsfähigkeit: Die DIKW-Hierarchie als Lernarchitektur für KI-Kompetenz.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Ethik"
+        },
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "FMEA"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        }
+      ],
+      "keywords": [
+        "EU AI Act",
+        "KI-Governance",
+        "Risikomanagement",
+        "KI-Kompetenz",
+        "KI-Ethik",
+        "Medizinprodukte",
+        "DSGVO",
+        "FMEA",
+        "Datenschutz",
+        "KI-Compliance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "id": "page:dikw",
+  "slug": "dikw",
+  "filename": "dikw.html",
+  "url": "https://www.thomas-bade.de/dikw.html",
+  "canonical": "https://www.thomas-bade.de/dikw.html",
+  "title": "DIKW Pyramide – KI Kompetenz strukturiert aufbauen | Thomas Bade",
+  "description": "Das DIKW-Modell als Lernframework für KI-Kompetenz: Von Rohdaten zur KI-Weisheit – strukturiert nach EU AI Act Art. 4 für das Gesundheits- und Sozialwesen.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map DIKW-Pyramide 0 Ergebnisse Keine Ergebnisse KI-Kompetenz · DIKW-Modell · Ackoff 1989 · EU AI Act Art. 4 Von Rohdaten zur KI-Urteilsfähigkeit: Die DIKW-Hierarchie als Lernarchitektur für KI-Kompetenz.",
+  "topics": [
+    "EU AI Act",
+    "KI-Governance",
+    "Risikomanagement",
+    "KI-Kompetenz",
+    "KI-Ethik",
+    "Medizinprodukte",
+    "DSGVO",
+    "FMEA",
+    "Datenschutz",
+    "KI-Compliance"
+  ],
+  "word_count": 2270,
+  "heading_count": 26,
+  "h1_count": 1,
+  "internal_links": 20,
+  "linked_pages": [
+    "bmg",
+    "coach",
+    "constitution",
+    "control_quartier",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "kompetenz",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 1,
+  "has_og": true,
+  "citation_signals": 15,
+  "question_headings": 1,
+  "structured_blocks": 4,
+  "author_signal": true,
+  "content_hash": "01f546cc49d8dd31",
+  "seo_score": 100,
+  "geo_score": 100,
+  "ai_overview_probability": 88,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": true,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "EU AI Act",
+          "KI-Governance",
+          "Risikomanagement",
+          "KI-Kompetenz",
+          "KI-Ethik",
+          "Medizinprodukte",
+          "DSGVO",
+          "FMEA",
+          "Datenschutz",
+          "KI-Compliance"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/dikw.html#webpage",
+        "url": "https://www.thomas-bade.de/dikw.html",
+        "headline": "DIKW Pyramide – KI Kompetenz strukturiert aufbauen | Thomas Bade",
+        "description": "Das DIKW-Modell als Lernframework für KI-Kompetenz: Von Rohdaten zur KI-Weisheit – strukturiert nach EU AI Act Art. 4 für das Gesundheits- und Sozialwesen.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map DIKW-Pyramide 0 Ergebnisse Keine Ergebnisse KI-Kompetenz · DIKW-Modell · Ackoff 1989 · EU AI Act Art. 4 Von Rohdaten zur KI-Urteilsfähigkeit: Die DIKW-Hierarchie als Lernarchitektur für KI-Kompetenz.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Kompetenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Ethik"
+          },
+          {
+            "@type": "Thing",
+            "name": "Medizinprodukte"
+          },
+          {
+            "@type": "Thing",
+            "name": "DSGVO"
+          },
+          {
+            "@type": "Thing",
+            "name": "FMEA"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          }
+        ],
+        "keywords": [
+          "EU AI Act",
+          "KI-Governance",
+          "Risikomanagement",
+          "KI-Kompetenz",
+          "KI-Ethik",
+          "Medizinprodukte",
+          "DSGVO",
+          "FMEA",
+          "Datenschutz",
+          "KI-Compliance"
+        ]
+      }
+    ]
+  }
+}

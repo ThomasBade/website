@@ -1,0 +1,476 @@
+/* ══════════════════════════════════════════════════════════════
+   SNIPPET: KI-Strategie Irland – Modal + Floating Notification
+   Einbinden in: thomas-bade.de custom CSS (nach bestehendem Stylesheet)
+   Abhängigkeiten: Bootstrap, Bebas Neue + Lato via bestehende Fonts
+   ══════════════════════════════════════════════════════════════ */
+
+
+/* ── Floating Notification (unten links) ───────────────────── */
+
+.tb-floater {
+  position: fixed;
+  bottom: 1.8rem;
+  left: 1.8rem;
+  z-index: 9990;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+  animation: tb-slideUp .5s .8s both ease-out;
+}
+
+@keyframes tb-slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.tb-floater-dismiss {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: .68rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: .1rem .3rem;
+  font-family: inherit;
+  transition: color .15s;
+}
+.tb-floater-dismiss:hover { color: #ffc451; }
+
+.tb-floater-card {
+  background: #242424;
+  border: 1px solid #333333;
+  border-left: 3px solid #ffc451;
+  width: 300px;
+  box-shadow: 0 8px 32px rgba(0,0,0,.55);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: border-color .2s, box-shadow .2s;
+}
+.tb-floater-card:hover {
+  border-color: #ffc451;
+  box-shadow: 0 12px 40px rgba(255,196,81,.12);
+}
+
+/* Puls-Ring */
+.tb-floater-card::before {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 8px;
+  height: 8px;
+  background: #ffc451;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(255,196,81,.6);
+  animation: tb-pulse 2s infinite;
+}
+@keyframes tb-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(255,196,81,.6); }
+  70%  { box-shadow: 0 0 0 8px rgba(255,196,81,0); }
+  100% { box-shadow: 0 0 0 0 rgba(255,196,81,0); }
+}
+
+.tb-floater-inner {
+  padding: .9rem 1rem .9rem 2.2rem;
+}
+.tb-floater-tag {
+  font-size: .62rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: #ffc451;
+  margin-bottom: .3rem;
+}
+.tb-floater-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.05rem;
+  color: #ffffff;
+  line-height: 1.15;
+  letter-spacing: .03em;
+  margin-bottom: .35rem;
+}
+.tb-floater-text {
+  font-size: .75rem;
+  color: #9A9A9A;
+  line-height: 1.5;
+  margin-bottom: .6rem;
+}
+.tb-floater-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #ffc451;
+}
+.tb-floater-cta .tb-arrow { transition: transform .2s; }
+.tb-floater-card:hover .tb-floater-cta .tb-arrow { transform: translateX(3px); }
+
+
+/* ── Modal Overlay ──────────────────────────────────────────── */
+
+#modal-irland.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.82);
+  z-index: 9995;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 1rem;
+  overflow-y: auto;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+#modal-irland.modal-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* Bootstrap überschreibt display:flex — deshalb explizit */
+#modal-irland.modal { display: flex !important; }
+
+
+/* ── Modal Box ──────────────────────────────────────────────── */
+
+#modal-irland .tb-modal-box {
+  background: #242424;
+  width: 100%;
+  max-width: 860px;
+  border-top: 3px solid #ffc451;
+  position: relative;
+  transform: translateY(24px);
+  transition: transform .3s ease;
+  margin: auto 0; /* vertikale Zentrierung im Flex-Container */
+}
+#modal-irland.active .tb-modal-box {
+  transform: translateY(0);
+}
+
+
+/* ── Modal Header ───────────────────────────────────────────── */
+
+.tb-modal-header {
+  background: #1A1A1A;
+  padding: 1.8rem 2rem 1.4rem;
+  border-bottom: 1px solid #333333;
+  position: relative;
+}
+.tb-modal-eyebrow {
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #ffc451;
+  margin-bottom: .45rem;
+}
+.tb-modal-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.1rem;
+  letter-spacing: .04em;
+  color: #ffffff;
+  line-height: 1.1;
+  margin: 0;
+}
+.tb-modal-subtitle {
+  font-size: .85rem;
+  color: #9A9A9A;
+  margin-top: .4rem;
+  margin-bottom: 0;
+}
+.tb-modal-close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.4rem;
+  background: none;
+  border: 1px solid #333333;
+  color: #9A9A9A;
+  width: 32px;
+  height: 32px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color .15s, color .15s;
+  padding: 0;
+}
+.tb-modal-close:hover { border-color: #ffc451; color: #ffc451; }
+
+
+/* ── Modal Body ─────────────────────────────────────────────── */
+
+.tb-modal-body {
+  padding: 2rem 2rem 1rem;
+}
+
+.tb-intro {
+  font-size: .95rem;
+  color: #E8E8E8;
+  border-left: 3px solid #ffc451;
+  padding-left: 1rem;
+  margin-bottom: 1.8rem;
+  line-height: 1.7;
+}
+
+.tb-section-label {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem;
+  letter-spacing: .1em;
+  color: #ffc451;
+  border-bottom: 1px solid #333333;
+  padding-bottom: .3rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+
+/* ── Säulen-Grid ────────────────────────────────────────────── */
+
+.tb-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: .9rem;
+  margin-bottom: 2rem;
+}
+.tb-pillar {
+  background: #1A1A1A;
+  border: 1px solid #333333;
+  border-top: 2px solid #ffc451;
+  padding: 1rem 1.1rem;
+}
+.tb-pillar-num {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  color: #ffc451;
+  line-height: 1;
+  margin-bottom: .2rem;
+}
+.tb-pillar-label {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: .5rem;
+}
+.tb-pillar p {
+  font-size: .78rem;
+  color: #9A9A9A;
+  line-height: 1.55;
+  margin: 0;
+}
+
+
+/* ── Horizonte ──────────────────────────────────────────────── */
+
+.tb-horizons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .75rem;
+  margin-bottom: 2rem;
+}
+.tb-hz {
+  background: #1A1A1A;
+  border: 1px solid #333333;
+  padding: .9rem 1rem;
+}
+.tb-hz-badge {
+  display: inline-block;
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  background: #ffc451;
+  color: #1A1A1A;
+  padding: .15rem .5rem;
+  margin-bottom: .55rem;
+}
+.tb-hz-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.05rem;
+  color: #ffffff;
+  margin-bottom: .4rem;
+}
+.tb-hz ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tb-hz ul li {
+  font-size: .75rem;
+  color: #9A9A9A;
+  padding: .18rem 0 .18rem .9rem;
+  position: relative;
+  line-height: 1.45;
+}
+.tb-hz ul li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: #ffc451;
+}
+
+
+/* ── Leitprinzipien Tags ────────────────────────────────────── */
+
+.tb-principles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 2rem;
+}
+.tb-tag {
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  border: 1px solid #ffc451;
+  color: #ffc451;
+  padding: .3rem .75rem;
+  background: transparent;
+}
+
+
+/* ── Relevanz-Box (Deutschland) ─────────────────────────────── */
+
+.tb-relevanz {
+  background: #1A1A1A;
+  border: 1px solid #333333;
+  border-left: 3px solid #5a9fd4;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 2rem;
+}
+.tb-relevanz .tb-section-label { color: #5a9fd4; }
+
+.tb-relevanz-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .8rem;
+  margin-top: .6rem;
+}
+.tb-relevanz-table th {
+  text-align: left;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #5a9fd4;
+  padding: .4rem .6rem;
+  border-bottom: 1px solid #333333;
+}
+.tb-relevanz-table td {
+  padding: .45rem .6rem;
+  vertical-align: top;
+  border-bottom: 1px solid #333333;
+  color: #9A9A9A;
+  line-height: 1.5;
+}
+.tb-relevanz-table td:first-child {
+  color: #ffffff;
+  font-weight: 700;
+  width: 28%;
+}
+.tb-relevanz-table tr:last-child td { border-bottom: none; }
+
+
+/* ── Fazit-Callout ──────────────────────────────────────────── */
+
+.tb-fazit {
+  background: linear-gradient(135deg, #1e1c0f 0%, #1A1A1A 100%);
+  border: 1px solid #cc9c3f;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.tb-fazit p {
+  font-size: .85rem;
+  color: #E8E8E8;
+  line-height: 1.7;
+  margin: 0;
+}
+.tb-fazit strong { color: #ffc451; }
+
+
+/* ── Modal Footer ───────────────────────────────────────────── */
+
+.tb-modal-footer {
+  background: #1A1A1A;
+  padding: 1rem 2rem;
+  border-top: 1px solid #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+.tb-modal-source {
+  font-size: .72rem;
+  color: #9A9A9A;
+  margin: 0;
+}
+.tb-modal-source a {
+  color: #ffc451;
+  text-decoration: none;
+}
+.tb-modal-source a:hover {
+  color: #cc9c3f;
+  text-decoration: underline;
+}
+
+/* CTA-Button passt zu .btn.btn-ci aus dem Hauptstylesheet */
+.tb-modal-footer .btn.btn-ci {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: .95rem;
+  letter-spacing: .08em;
+  border-radius: 0;
+}
+
+
+.tb-modal-footer-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.tb-modal-footer-close {
+  background: none;
+  border: none;
+  color: #E8E8E8;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+  transition: color .15s;
+}
+.tb-modal-footer-close:hover { color: #ffc451; }
+
+
+/* ── Utility ────────────────────────────────────────────────── */
+
+.tb-hidden { display: none !important; }
+
+
+/* ── Responsive ─────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  .tb-horizons { grid-template-columns: 1fr; }
+  .tb-modal-body { padding: 1.4rem 1.2rem .8rem; }
+  .tb-modal-title { font-size: 1.55rem; }
+  .tb-modal-footer { flex-direction: column; align-items: flex-start; }
+  .tb-floater { left: 1rem; bottom: 1rem; }
+  .tb-floater-card { width: 270px; }
+  .tb-relevanz-table td:first-child { white-space: normal; width: auto; }
+}
+
+@media (max-width: 576px) {
+  .tb-pillars { grid-template-columns: 1fr 1fr; }
+  .tb-modal-header { padding: 1.4rem 1.2rem 1rem; }
+}

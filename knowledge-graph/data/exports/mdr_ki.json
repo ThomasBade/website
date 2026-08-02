@@ -1,0 +1,190 @@
+{
+  "id": "page:mdr_ki",
+  "slug": "mdr_ki",
+  "filename": "mdr_ki.html",
+  "url": "https://www.thomas-bade.de/mdr_ki.html",
+  "canonical": "https://www.thomas-bade.de/mdr_ki.html",
+  "title": "KI Verordnung Medizinprodukte (MDR) | KI-MIG & Anhang-I-Fristen 2028",
+  "description": "Wann gilt KI als Medizinprodukt nach MDR? Anforderungen an Risikoklassifizierung, klinische Bewertung, technische Dokumentation und Software als Medizinprodukt (SaMD) – inkl. KI-MIG-Zuständigkeiten und Digital-Omnibus-Fristen bis 2028.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI Verordnung Medizinprodukte (MDR) 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. Für KI-Medizinprodukte übernehmen die bereits zuständigen MDR-Behörden auch die KI-bezogene Marktüberwachung (§ 2 Abs.",
+  "topics": [
+    "Medizinprodukte",
+    "EU AI Act",
+    "Risikomanagement",
+    "KI-Governance",
+    "KI-Compliance",
+    "Gesundheitswesen",
+    "KI-Monitoring",
+    "Patientenzentrierung",
+    "Verordnung",
+    "KI-MIG"
+  ],
+  "word_count": 2077,
+  "heading_count": 2,
+  "h1_count": 0,
+  "internal_links": 20,
+  "linked_pages": [
+    "GPAI",
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "control_panel",
+    "enquete",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 6,
+  "has_og": true,
+  "citation_signals": 5,
+  "question_headings": 1,
+  "structured_blocks": 7,
+  "author_signal": true,
+  "content_hash": "7fac42ce10dc1c0e",
+  "seo_score": 68,
+  "geo_score": 90,
+  "ai_overview_probability": 75,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": false,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": false,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Medizinprodukte",
+          "EU AI Act",
+          "Risikomanagement",
+          "KI-Governance",
+          "KI-Compliance",
+          "Gesundheitswesen",
+          "KI-Monitoring",
+          "Patientenzentrierung",
+          "Verordnung",
+          "KI-MIG"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/mdr_ki.html#webpage",
+        "url": "https://www.thomas-bade.de/mdr_ki.html",
+        "headline": "KI Verordnung Medizinprodukte (MDR) | KI-MIG & Anhang-I-Fristen 2028",
+        "description": "Wann gilt KI als Medizinprodukt nach MDR? Anforderungen an Risikoklassifizierung, klinische Bewertung, technische Dokumentation und Software als Medizinprodukt (SaMD) – inkl. KI-MIG-Zuständigkeiten und Digital-Omnibus-Fristen bis 2028.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI Verordnung Medizinprodukte (MDR) 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. Für KI-Medizinprodukte übernehmen die bereits zuständigen MDR-Behörden auch die KI-bezogene Marktüberwachung (§ 2 Abs.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Medizinprodukte"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Monitoring"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Verordnung"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-MIG"
+          }
+        ],
+        "keywords": [
+          "Medizinprodukte",
+          "EU AI Act",
+          "Risikomanagement",
+          "KI-Governance",
+          "KI-Compliance",
+          "Gesundheitswesen",
+          "KI-Monitoring",
+          "Patientenzentrierung",
+          "Verordnung",
+          "KI-MIG"
+        ]
+      }
+    ]
+  }
+}

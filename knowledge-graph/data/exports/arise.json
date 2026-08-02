@@ -1,0 +1,188 @@
+{
+  "id": "page:arise",
+  "slug": "arise",
+  "filename": "arise.html",
+  "url": "https://www.thomas-bade.de/arise.html",
+  "canonical": "https://www.thomas-bade.de/arise.html",
+  "title": "State of Clinical AI Report 2026 – Klinische KI: Governance, Risiken & Einordnung",
+  "description": "MEESTAR-Checkliste für KI-Systeme im Gesundheits- und Sozialwesen: Interaktive ethische Evaluierung nach EU AI Act, DSGVO und MDR. Sechs Dimensionen – Mensch, Ethik, Technik, Soziales, Recht, Ökonomie – mit PDF-Export. Von Thomas Bade, KI-Compliance Berater.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map State of Clinical AI Report 2026 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Entwicklungen, Erkenntnisse und Herausforderungen im Bereich klinischer KI. Eine praxisnahe Übersetzung der zentralen Erkenntnisse des Reports in Entscheidungs- und Governance-Kontexte im Gesundheitswesen.",
+  "topics": [
+    "KI-Governance",
+    "Risikomanagement",
+    "Patientenzentrierung",
+    "Pflege",
+    "KI-Monitoring",
+    "State",
+    "Clinical",
+    "Report",
+    "Klinische",
+    "Governance"
+  ],
+  "word_count": 1350,
+  "heading_count": 22,
+  "h1_count": 1,
+  "internal_links": 18,
+  "linked_pages": [
+    "bmg",
+    "coach",
+    "constitution",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 1,
+  "has_og": true,
+  "citation_signals": 2,
+  "question_headings": 1,
+  "structured_blocks": 4,
+  "author_signal": true,
+  "content_hash": "fd22b5c6c9409e8c",
+  "seo_score": 80,
+  "geo_score": 100,
+  "ai_overview_probability": 77,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": false,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "KI-Governance",
+          "Risikomanagement",
+          "Patientenzentrierung",
+          "Pflege",
+          "KI-Monitoring",
+          "State",
+          "Clinical",
+          "Report",
+          "Klinische",
+          "Governance"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/arise.html#webpage",
+        "url": "https://www.thomas-bade.de/arise.html",
+        "headline": "State of Clinical AI Report 2026 – Klinische KI: Governance, Risiken & Einordnung",
+        "description": "MEESTAR-Checkliste für KI-Systeme im Gesundheits- und Sozialwesen: Interaktive ethische Evaluierung nach EU AI Act, DSGVO und MDR. Sechs Dimensionen – Mensch, Ethik, Technik, Soziales, Recht, Ökonomie – mit PDF-Export. Von Thomas Bade, KI-Compliance Berater.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map State of Clinical AI Report 2026 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Entwicklungen, Erkenntnisse und Herausforderungen im Bereich klinischer KI. Eine praxisnahe Übersetzung der zentralen Erkenntnisse des Reports in Entscheidungs- und Governance-Kontexte im Gesundheitswesen.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Monitoring"
+          },
+          {
+            "@type": "Thing",
+            "name": "State"
+          },
+          {
+            "@type": "Thing",
+            "name": "Clinical"
+          },
+          {
+            "@type": "Thing",
+            "name": "Report"
+          },
+          {
+            "@type": "Thing",
+            "name": "Klinische"
+          },
+          {
+            "@type": "Thing",
+            "name": "Governance"
+          }
+        ],
+        "keywords": [
+          "KI-Governance",
+          "Risikomanagement",
+          "Patientenzentrierung",
+          "Pflege",
+          "KI-Monitoring",
+          "State",
+          "Clinical",
+          "Report",
+          "Klinische",
+          "Governance"
+        ]
+      }
+    ]
+  }
+}

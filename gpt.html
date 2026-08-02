@@ -1,0 +1,1916 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta property='og:site_name' content="KI in Gesellschaft und Wirtschaft" />
+  <meta itemprop='name' content='KI in Gesellschaft und Wirtschaft' />
+
+  <title>KI im Gesundheitswesen und Code of Conduct</title>
+  <meta name="title" content="KI im Gesundheitswesen & Kommunen | KI-Governance & EU AI Act Beratung">
+  <meta name="description" content="Strategischer Einsatz von KI im Gesundheitswesen und in Kommunen: KI-Governance, EU AI Act Compliance, Risikobewertung und praxisnahe Implementierung. Beratung für Krankenhäuser, Pflege, Verwaltung und kommunale Entscheider.">
+  <meta name="keywords" content="KI Gesundheitswesen, KI Governance, EU AI Act Beratung, KI Compliance Krankenhaus, ChatGPT Kommune, Responsible AI, KI Risikobewertung, AI Act Umsetzung, KI Management, Digitale Transformation Verwaltung">
+  <meta name="author" content="info" >
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="content-language" content="de">
+  <meta property="fb:app_id" content="1526070366197506" />
+<meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.thomas-bade.de/gpt.html">
+  <meta property="og:title" content="ChatGPT im Gesundheitswesen & Kommunen – KI-Governance & EU AI Act Beratung">
+  <meta property="og:description" content="Professionelle Beratung zum Einsatz von ChatGPT in Kliniken, Pflege und kommunaler Verwaltung.">
+  <meta property="og:image" content="https://www.thomas-bade.de/assets/img/og_gpt.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ChatGPT im Gesundheitswesen & Kommunen – KI-Governance Beratung">
+  <meta name="twitter:description" content="KI strategisch, compliant und zukunftssicher einsetzen.">
+  <meta name="twitter:image" content="https://www.thomas-bade.de/assets/img/og_gpt.jpg">
+  <link rel="canonical" href="https://www.thomas-bade.de/gpt.html">
+
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon.png">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="https://www.thomas-bade.de/assets/img/apple-touch-icon.png">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+  <style>
+    /* ── Tooltip ── */
+    .prrc-tooltip-wrapper { position: relative; display: inline; }
+    .prrc-highlight { color: #000000; font-weight: bold; cursor: help; border-bottom: 1px dashed #000000; white-space: nowrap; }
+    .prrc-tooltip-box { display: none; position: fixed; width: 340px; max-width: calc(100vw - 30px); background: #1a1a1a; color: #f0f0f0; font-size: 13px; line-height: 1.6; padding: 14px 16px; border-radius: 8px; border-left: 3px solid #ffc451; box-shadow: 0 6px 20px rgba(0,0,0,0.4); z-index: 9999; pointer-events: none; }
+    .prrc-tooltip-box strong { color: #ffc451; }
+    .prrc-tooltip-box::after { content: ''; position: absolute; top: 100%; left: 20px; border: 7px solid transparent; border-top-color: #1a1a1a; }
+    @keyframes prrcFadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* ── Cookie Notice ── */
+    #cookieNotice { position: fixed; bottom: 0; left: 0; width: 100%; background: #111; color: #f1f1f1; padding: 16px 20px; z-index: 9999; font-size: 0.9rem; box-shadow: 0 -2px 8px rgba(0,0,0,0.3); display: none; }
+    #cookieNotice a { color: #4da3ff; text-decoration: underline; }
+    #cookieNotice button { background: #4da3ff; border: none; color: #fff; padding: 8px 14px; margin-left: 15px; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }
+    #cookieNotice button:hover { background: #2f89e5; }
+    @media (max-width: 576px) { #cookieNotice { font-size: 0.85rem; } #cookieNotice button { margin-top: 10px; display: block; } }
+
+    /* ── CI Buttons ── */
+    a.btn.btn-ci, button.btn.btn-ci { background-color: #ffc451 !important; border: 1px solid #ffc451 !important; color: #000 !important; font-weight: 600; }
+    a.btn.btn-ci:hover, button.btn.btn-ci:hover { background-color: #ffffff !important; border: 1px solid #ffc451 !important; color: #000 !important; }
+
+    /* ── Alert CI ── */
+    .alert-ci { background-color: rgba(255,196,81,0.15); border: 1px solid #ffc451; }
+
+    /* ── HR CI ── */
+    hr.hr-ci { border: 0; border-top: 2px solid #000000; margin: 1.5rem 0; }
+
+    /* ── Modal fix ── */
+    body.modal-open { overflow: hidden !important; padding-right: 0 !important; }
+
+    /* ── Site Search ── */
+    .risk-search-wrapper { position: relative; margin: 20px 0; z-index: 1000; display: flex; justify-content: flex-start; }
+    .search-bar { position: relative; display: block; }
+    .search-input-wrapper { position: relative; display: flex; align-items: center; background: #ffffff !important; border: 2px solid #ced4da; border-radius: 8px; padding: 8px 14px; transition: all 0.3s ease; min-width: 300px; height: 42px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .search-input-wrapper:hover { border-color: #0066cc; box-shadow: 0 3px 10px rgba(0,0,0,0.15); }
+    .search-input-wrapper:focus-within { border-color: #0066cc; box-shadow: 0 0 0 4px rgba(0,102,204,0.2), 0 3px 10px rgba(0,0,0,0.15); }
+    .search-icon { color: #6c757d; flex-shrink: 0; margin-right: 8px; }
+    .search-input { flex: 1; border: none; outline: none; font-size: 14px; color: #212529; background: transparent !important; min-width: 0; font-family: inherit; }
+    .search-input::placeholder { color: #000000; opacity: 1; }
+    .search-clear { background: none; border: none; color: #000; cursor: pointer; padding: 2px; margin-left: 4px; display: flex; align-items: center; justify-content: center; border-radius: 3px; transition: all 0.2s ease; flex-shrink: 0; }
+    .search-results { position: absolute; top: calc(100% + 8px); left: 0; width: 500px; max-width: 95vw; max-height: 500px; overflow-y: auto; background: #fff; border: 1px solid #dee2e6; border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); z-index: 10000; }
+    .search-results-header { padding: 10px 16px; background: #f8f9fa; border-bottom: 1px solid #dee2e6; font-size: 12px; color: #6c757d; font-weight: 500; }
+    .search-results-list { padding: 4px 0; }
+    .search-result-item { display: block; padding: 12px 16px; text-decoration: none; color: inherit; transition: all 0.2s ease; border-left: 3px solid transparent; cursor: pointer; }
+    .search-result-item:hover, .search-result-item.selected { background: #f8f9fa; border-left-color: #0066cc; }
+    .search-result-title { font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
+    .search-result-icon { width: 14px; height: 14px; color: #0066cc; flex-shrink: 0; }
+    .search-result-excerpt { font-size: 12px; color: #6c757d; line-height: 1.5; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .search-result-excerpt mark { background: rgba(255,196,81,0.4); color: #212529; padding: 1px 3px; border-radius: 2px; font-weight: 500; }
+    .search-result-meta { font-size: 11px; color: #adb5bd; }
+    .no-results { padding: 40px 20px; text-align: center; background: #fff; position: absolute; top: calc(100% + 8px); left: 0; width: 350px; max-width: 95vw; border: 1px solid #dee2e6; border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); z-index: 10000; }
+    .no-results svg { color: #adb5bd; margin-bottom: 12px; }
+    .no-results-title { font-size: 14px; font-weight: 600; color: #6c757d; margin-bottom: 4px; }
+    .no-results-text { font-size: 12px; color: #adb5bd; }
+    .search-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); z-index: 9998; }
+    .search-overlay.active { display: block; }
+    @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+    .search-results, .no-results { animation: slideDown 0.2s ease; }
+    @media (max-width: 768px) { .search-input-wrapper { min-width: 100%; } .search-results, .no-results { left: 0; right: 0; width: 100%; } }
+    
+    /* =============================================
+   MODAL OVERLAY — vollständig inline
+   (ersetzt tb-modal-irland.css komplett)
+   ============================================= */
+.modal-overlay{
+  display:none;
+  position:fixed;
+  inset:0;
+  z-index:10500;
+  background:rgba(0,0,0,.78);
+  align-items:flex-start;
+  justify-content:center;
+  padding:24px 16px;
+  overflow-y:auto;
+}
+.modal-overlay.active{
+  display:flex;
+}
+.tb-modal-box{
+  background:#111;
+  border:1px solid #2a2a2a;
+  border-radius:6px;
+  width:100%;
+  max-width:820px;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  box-shadow:0 24px 80px rgba(0,0,0,.8);
+}
+.tb-modal-header{
+  background:#0d0d0d;
+  border-bottom:1px solid #222;
+  padding:28px 32px 24px;
+  position:relative;
+}
+.tb-modal-eyebrow{
+  font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#ffc451;margin:0 0 10px;
+}
+.tb-modal-title{
+  font-size:clamp(1.3rem,3vw,1.9rem);font-weight:700;color:#fff;
+  line-height:1.2;margin:0 0 10px;padding-right:40px;
+}
+.tb-modal-subtitle{font-size:12px;color:#fff;margin:0;letter-spacing:.04em;}
+.tb-modal-close{
+  position:absolute;top:20px;right:20px;
+  background:#1e1e1e;border:1px solid #333;color:#aaa;
+  width:32px;height:32px;border-radius:4px;cursor:pointer;
+  font-size:16px;display:flex;align-items:center;justify-content:center;
+  transition:background .2s,color .2s;line-height:1;font-family:inherit;
+}
+.tb-modal-close:hover{background:#ffc451;color:#000;border-color:#ffc451;}
+.tb-modal-body{
+  padding:28px 32px;
+  overflow-y:auto;
+  max-height:80vh;
+}
+.tb-intro{
+  font-size:14px;color:#ccc;line-height:1.75;margin:0 0 20px;
+  border-left:3px solid #ffc451;padding-left:14px;
+}
+.tb-intro strong{color:#fff;}
+.tb-section-label{
+  font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+  color:#ffc451;margin:20px 0 10px;display:block;
+}
+.tb-relevanz{margin:20px 0;}
+.tb-relevanz-table{width:100%;border-collapse:collapse;font-size:12px;}
+.tb-relevanz-table th{
+  background:#1a1a1a;color:#ffc451;font-weight:700;letter-spacing:.08em;
+  text-transform:uppercase;font-size:10px;padding:8px 12px;text-align:left;
+  border-bottom:1px solid #2a2a2a;
+}
+.tb-relevanz-table td{
+  padding:8px 12px;color:#ccc;border-bottom:1px solid #1e1e1e;
+  vertical-align:top;line-height:1.5;
+}
+.tb-relevanz-table td:first-child{color:#888;font-size:11px;white-space:nowrap;width:110px;}
+.tb-relevanz-table tr:last-child td{border-bottom:none;}
+.tb-modal-footer{
+  background:#0d0d0d;border-top:1px solid #222;
+  padding:16px 32px;display:flex;align-items:center;
+  justify-content:space-between;gap:12px;flex-wrap:wrap;
+}
+.tb-modal-source{font-size:11px;color:#555;margin:0;}
+.tb-modal-source a{color:#888;text-decoration:none;}
+.tb-modal-source a:hover{color:#ffc451;}
+.tb-modal-footer-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: auto;  /* ← schiebt den Block nach rechts */
+}
+.tb-modal-footer-close{
+  background:#1e1e1e;border:1px solid #333;color:#aaa;
+  font-size:11px;padding:7px 14px;border-radius:3px;cursor:pointer;
+  transition:background .2s;font-family:inherit;
+}
+.tb-modal-footer-close:hover{background:#2a2a2a;color:#fff;}
+
+/* =============================================
+   CURRICULUM FAB + KARTEN â€” bereinigt
+   ============================================= */
+
+/* â”€â”€ Floating Action Button â”€â”€ */
+.tb-fab {
+  position: fixed;
+  bottom: 28px;
+  left: 28px;
+  right: auto;
+  z-index: 9990;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.tb-fab.tb-hidden { display: none !important; }
+
+.tb-fab-dismiss {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: .08em;
+  color: #888;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 4px;
+  line-height: 1;
+  text-align: left;
+}
+.tb-fab-dismiss:hover { color: #ffc451; }
+
+.tb-fab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #000;
+  border: 1px solid #000;
+  border-left: 3px solid #ffc451;
+  border-radius: 4px;
+  padding: 11px 18px 11px 14px;
+  cursor: pointer;
+  text-decoration: none !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  transition: background 0.2s, transform 0.15s, box-shadow 0.15s;
+  max-width: 260px;
+}
+.tb-fab-btn:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.7);
+}
+
+.tb-fab-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255,196,81,.12);
+  border: 1px solid rgba(255,196,81,.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+.tb-fab-text { display: flex; flex-direction: column; gap: 1px; }
+
+.tb-fab-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #ffc451;
+  line-height: 1.2;
+}
+
+.tb-fab-sub {
+  font-size: 11px;
+  color: #aaa;
+  line-height: 1.3;
+}
+
+/* â”€â”€ Curriculum-Karten â”€â”€ */
+.tb-curriculum-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 14px 0 20px;
+}
+
+.tb-cur-card {
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  padding: 12px 14px;
+  position: relative;
+  overflow: hidden;
+}
+.tb-cur-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: #ffc451;
+}
+.tb-cur-card.basic::before { background: #4A9EBF; }
+
+.tb-cur-num {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: #ffc451;
+  margin-bottom: 4px;
+}
+.tb-cur-card.basic .tb-cur-num { color: #4A9EBF; }
+
+.tb-cur-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+  line-height: 1.35;
+}
+
+.tb-cur-topics { list-style: none; padding: 0; margin: 0; }
+.tb-cur-topics li {
+  font-size: 11px;
+  color: #fff;
+  padding: 2px 0 2px 12px;
+  line-height: 1.45;
+  position: relative;
+}
+.tb-cur-topics li::before {
+  content: 'â–¸';
+  position: absolute;
+  left: 0;
+  color: #ffc451;
+  font-size: 9px;
+  top: 3px;
+}
+.tb-cur-card.basic .tb-cur-topics li::before { color: #4A9EBF; }
+
+/* â”€â”€ Tier-Badges â”€â”€ */
+.tb-tier-row { display: flex; gap: 8px; margin: 0 0 16px; flex-wrap: wrap; }
+
+.tb-tier-badge {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.tb-tier-badge.basic {
+  background: rgba(74,158,191,.15);
+  color: #fff;
+  border: 1px solid rgba(74,158,191,.3);
+}
+.tb-tier-badge.premium {
+  background: rgba(255,196,81,.12);
+  color: #fff;
+  border: 1px solid rgba(255,196,81,.3);
+}
+
+/* â”€â”€ Kalender-Box â”€â”€ */
+.tb-cal-box {
+  background: linear-gradient(135deg, #1a1400, #1a1a00);
+  border: 1px solid rgba(255,196,81,.3);
+  border-top: 3px solid #ffc451;
+  border-radius: 4px;
+  padding: 18px 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.tb-cal-box h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffc451;
+  margin: 0 0 6px;
+}
+.tb-cal-box p {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0 0 14px;
+  line-height: 1.6;
+}
+
+.tb-cal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffc451;
+  color: #000 !important;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  border-radius: 3px;
+  text-decoration: none !important;
+  transition: background .2s, transform .15s;
+  border: none;
+  cursor: pointer;
+}
+.tb-cal-btn:hover {
+  background: #ffe08a;
+  transform: translateY(-1px);
+  color: #000 !important;
+}
+
+.tb-cal-note {
+  font-size: 10px;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* â”€â”€ Responsive â”€â”€ */
+@media (max-width: 600px) {
+  .tb-curriculum-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .tb-fab { bottom: 16px; left: 16px; }
+  .tb-fab-btn { max-width: 220px; padding: 9px 14px 9px 12px; }
+  .tb-fab-sub { display: none; }
+}
+
+    /* ── Footer ── */
+    #footer { background: #000 !important; }
+    #footer .footer-top { background: #000 !important; padding: 40px 0 20px; }
+    #footer .footer-top p { font-size: 14px !important; line-height: 2 !important; margin-bottom: 4px; }
+    #footer .footer-top a { color: #ccc !important; font-size: 14px !important; text-decoration: none !important; }
+    #footer .footer-top a:hover { color: #ffc451 !important; }
+    #footer .footer-top img { height: 120px !important; margin-bottom: 20px !important; }
+    #footer .copyright { display: none; }
+    #footer .footer-label { color: #ffc451 !important; }
+
+    /* ── Footer Dropdown ── */
+    .footer-dropdown { position: relative; display: inline-block; margin-bottom: 16px; }
+    .footer-dd-trigger { background: #1a1a1a; border: 1px solid #333; color: #ccc; font-size: 13px; padding: 8px 16px; border-radius: 4px; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: border-color 0.2s, color 0.2s; font-family: inherit; }
+    .footer-dd-trigger:hover { border-color: #ffc451; color: #ffc451; }
+    .footer-dd-chevron { font-size: 10px; color: #ffc451; transition: transform 0.2s; }
+    .footer-dd-menu { display: none; position: absolute; bottom: calc(100% + 6px); left: 0; background: #1a1a1a; border: 1px solid #333; border-top: 2px solid #ffc451; border-radius: 4px; list-style: none; padding: 6px 0; min-width: 280px; z-index: 9999; box-shadow: 0 -12px 32px rgba(0,0,0,0.6); column-count: 2; column-gap: 0; }
+    .footer-dd-menu.open { display: block; }
+    .footer-dd-trigger.open .footer-dd-chevron { transform: rotate(180deg); }
+    .footer-dd-menu li { break-inside: avoid; }
+    .footer-dd-menu li a { display: block; padding: 6px 14px; font-size: 12px !important; color: #aaa !important; text-decoration: none !important; white-space: nowrap; transition: color 0.15s, background 0.15s; line-height: 1.6 !important; }
+    .footer-dd-menu li a:hover { color: #ffc451 !important; background: rgba(255,196,81,0.06); }
+
+    /* ── Agentic AI Modal button hover ── */
+    a[data-bs-target="#agenticAiModal"]:hover { background-color: #ffffff !important; color: #000000 !important; border-color: #d34e36 !important; transition: all 0.2s ease-in-out; }
+      /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+<!-- Privacy-friendly analytics by Plausible (Custom Properties aktiviert) -->
+<script defer data-domain="thomas-bade.de" src="/stats/js/script.php" data-api="/stats/api/event.php"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="llms" href="https://thomas-bade.de/llms.txt" />
+  <!-- Plausible Analytics -->
+  <script async="" src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
+    window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
+    plausible.init();
+  </script>
+<!-- =============================================================
+     GEO - Generative Engine Optimization - thomas-bade.de
+     Optimiert fuer: Perplexity, ChatGPT Search, Bing Copilot,
+                     Google AI Overviews, Claude, Gemini
+     Stand: 2026-07-08
+============================================================== -->
+
+<!-- 1. Autoren- und Publisher-Metadaten -->
+<meta name="author" content="info" >
+<meta name="creator"           content="Thomas Bade">
+<meta name="publisher"         content="thomas-bade.de">
+<meta name="copyright"         content="Thomas Bade, Eichstaett">
+<meta name="language"          content="de">
+<meta name="content-language"  content="de-DE">
+
+<!-- 2. Geografische Metadaten -->
+<meta name="geo.region"        content="DE-BY">
+<meta name="geo.placename"     content="Eichstaett, Bayern, Deutschland">
+<meta name="geo.position"      content="48.8921;11.1927">
+<meta name="ICBM"              content="48.8921, 11.1927">
+
+<!-- 3. Externe Identitaetsprofile -->
+<link rel="me" href="https://www.linkedin.com/in/thomas-bade">
+<link rel="me" href="https://x.com/thomasbade">
+<link rel="me" href="https://bsky.app/profile/thomas2024.bsky.social">
+<link rel="me" href="https://mastodon.social/@thomasbade">
+
+<!-- 4. LLM-Lesbarkeit -->
+<link rel="alternate" type="text/plain"
+      href="https://thomas-bade.de/llms.txt"
+      title="LLM-lesbarer Seitenindex thomas-bade.de">
+
+<!-- 5. Schema.org: Person + WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "givenName": "Thomas",
+      "familyName": "Bade",
+      "url": "https://www.thomas-bade.de",
+      "image": "https://www.thomas-bade.de/assets/img/leitbild.png",
+      "jobTitle": "KI-Compliance Consultant und Digital Content Designer",
+      "description": "Vendor-unabhaengiger KI-Compliance Berater mit ueber 30 Jahren Erfahrung im deutschen Gesundheits- und Sozialwesen. Spezialisiert auf EU AI Act, MDR/IVDR, DSGVO, SGB und ISO/IEC 42001. Mitglied Transparency Deutschland e.V. Signatar EU AI Act Art. 50 Code of Practice.",
+
+  "dateModified": "2026-07-08",
+      "knowsAbout": [
+        "EU AI Act", "KI-Compliance", "KI-Governance", "Generative KI",
+        "ISO/IEC 42001:2023", "HAIP Framework", "TRIPOD-LLM",
+        "MDR", "IVDR", "DSGVO", "SGB", "Hochrisiko-KI",
+        "KI-Risikobewertung", "Gesundheitswesen", "Pflege",
+        "Krankenhaus", "Sanitaetsfachhandel", "Kommunen",
+        "Sozialwirtschaft", "Digital Health", "KI-Auswirkungsbewertung",
+        "Trust by Design", "Menschliche Aufsicht", "KI-Ethik"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "EU AI Act Art. 50 Code of Practice - Signatar"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Mitglied Transparency Deutschland e.V."
+        }
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Transparency Deutschland e.V.",
+        "url": "https://www.transparency.de"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://www.thomas-bade.de/#organisation",
+        "name": "thomas-bade.de",
+        "url": "https://www.thomas-bade.de",
+        "description": "Vendor-unabhaengige KI-Compliance Beratung fuer das Gesundheits- und Sozialwesen"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Eichstaett",
+        "addressRegion": "Bayern",
+        "postalCode": "85072",
+        "addressCountry": "DE"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/thomas-bade",
+        "https://x.com/thomasbade",
+        "https://bsky.app/profile/thomas2024.bsky.social",
+        "https://mastodon.social/@thomasbade",
+        "https://www.instagram.com/thomasbade7",
+        "https://www.thomas-bade.de",
+        "https://www.thomas-bade.org",
+        "https://www.thomas-bade.eu"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "name": "thomas-bade.de - KI-Compliance im Gesundheitswesen",
+      "alternateName": "Thomas Bade KI-Wissensportal",
+      "url": "https://www.thomas-bade.de",
+      "description": "Vendor-unabhaengige KI-Compliance Expertise fuer Krankenhaeuser, Pflegeeinrichtungen, Kommunen und Sozialeinrichtungen. EU AI Act, MDR/IVDR, DSGVO, ISO/IEC 42001, HAIP-Framework, TRIPOD-LLM.",
+      "inLanguage": "de-DE",
+      "author":          { "@id": "https://www.thomas-bade.de/#thomas-bade" },
+      "publisher":       { "@id": "https://www.thomas-bade.de/#thomas-bade" },
+      "copyrightHolder": { "@id": "https://www.thomas-bade.de/#thomas-bade" }
+    }
+  ]
+}
+</script>
+<!-- /GEO -->
+<script type="application/ld+json" data-tbkg-generated="true">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Künstliche Intelligenz",
+        "Gesundheitswesen",
+        "EU AI Act",
+        "Pflege",
+        "KI-Governance",
+        "Wissenschaft",
+        "KI-Ethik",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "KI-Kompetenz"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/gpt.html#webpage",
+      "url": "https://www.thomas-bade.de/gpt.html",
+      "headline": "KI im Gesundheitswesen und Code of Conduct",
+      "description": "Strategischer Einsatz von KI im Gesundheitswesen und in Kommunen: KI-Governance, EU AI Act Compliance, Risikobewertung und praxisnahe Implementierung. Beratung für Krankenhäuser, Pflege, Verwaltung und kommunale Entscheider.",
+      "abstract": "Auf dieser Webseite werden die wichtigsten Entwicklungen zusammengefasst – kompakt, praxisnah und strategisch ausgerichtet. Egal, ob KI im Krankenhaus, in der Pflege, bei Home Care Versorgungen, in der Daseinsvorsorge oder im kommunalen Management eingesetzt wird: Die regulatorischen Rahmenbedingungen sind ein entscheidender Faktor für erfolgreiche Projekte.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Wissenschaft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Ethik"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        }
+      ],
+      "keywords": [
+        "Künstliche Intelligenz",
+        "Gesundheitswesen",
+        "EU AI Act",
+        "Pflege",
+        "KI-Governance",
+        "Wissenschaft",
+        "KI-Ethik",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "KI-Kompetenz"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+  <!-- ======= Cookie Notice ======= -->
+  <div id="cookieNotice">
+    Diese Website verwendet ausschließlich technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind.
+    <a href="https://www.thomas-bade.de/impressum.html">Weitere Informationen</a>
+    <button id="cookieAccept">Verstanden</button>
+  </div>
+
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo mb-0">
+        <a href="index.html">Thomas Bade<span style="font-size:15px; color:#ffc451;">&#9632;</span></a>
+      </h1>
+      <nav id="tb-nav" class="d-flex align-items-center gap-3">
+        <a href="https://www.thomas-bade.de/termine.html" class="tb-nav-link d-none d-lg-inline-block">
+          Let&#8217;s talk<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <a href="https://www.thomas-bade.de/sitemap.html" class="tb-nav-link d-none d-lg-inline-block">
+          Alle KI Themen<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <button id="tb-burger" aria-label="Men&#252; &#246;ffnen" aria-expanded="false" aria-controls="tb-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Hamburger Menu Panel ======= -->
+  <div id="tb-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+    <div id="tb-menu-inner">
+      <button id="tb-menu-close" aria-label="Men&#252; schlie&#223;en">
+        <i class="bi bi-x"></i>
+      </button>
+      <ul>
+        <li><a href="https://www.thomas-bade.de/termine.html">
+          <i class="bi bi-calendar-check me-2"></i>Let&#8217;s talk
+        </a></li>
+        <li><a href="https://www.thomas-bade.de/sitemap.html">
+          <i class="bi bi-grid-3x3-gap me-2"></i>Alle KI Themen &#8211; Site Map
+        </a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="tb-menu-overlay"></div>
+
+  <!-- ======= Main ======= -->
+  <main id="main">
+    <section class="inner-page">
+      <div class="container"><br><br>
+
+        <h1><p style="color:#000000"><b>KI im Gesundheitswesen und Code of Conduct</b></p></h1>
+
+        <img src="assets/img/team/gpt_2.jpg" width="1000" height="419" class="img-fluid" alt=""><br><br>
+
+        <!-- ======= Site Search ======= -->
+        <div id="site-search-container" class="risk-search-wrapper">
+          <div id="site-search-bar" class="search-bar">
+            <div class="search-input-wrapper">
+              <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+              <input type="text" id="site-search-input" class="search-input" placeholder="thomas-bade.de durchsuchen" autocomplete="off" aria-label="Suchbegriff eingeben">
+              <button id="search-clear-btn" class="search-clear" aria-label="Suche löschen" style="display:none;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </button>
+            </div>
+            <div id="search-results" class="search-results" style="display:none;">
+              <div class="search-results-header"><span id="results-count">0 Ergebnisse</span></div>
+              <div id="search-results-list" class="search-results-list"></div>
+            </div>
+            <div id="no-results" class="no-results" style="display:none;">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+              <p class="no-results-title">Keine Ergebnisse</p>
+              <p class="no-results-text">Andere Begriffe versuchen</p>
+            </div>
+          </div>
+          <div id="search-overlay" class="search-overlay"></div>
+        </div>
+
+        <!-- ======= Page Content ======= -->
+        <div class="tb-card text-dark">
+          <h4><b>KI verstehen – KI verantwortungsvoll nutzen</b></h4>
+          <p>Wer GPT-Modelle (<b>G</b>enerative <b>P</b>re-trained <b>T</b>ransformer) sicher, verantwortungsvoll und gesetzeskonform einsetzen möchte, benötigt einen klaren Überblick über die relevanten Gesetze, EU-Vorschriften, technischen Richtlinien und ethischen Leitplanken.</p>
+          <p>Auf dieser Webseite werden die wichtigsten Entwicklungen zusammengefasst – kompakt, praxisnah und strategisch ausgerichtet.</p>
+          <p>Egal, ob KI im Krankenhaus, in der Pflege, bei Home Care Versorgungen, in der Daseinsvorsorge oder im kommunalen Management eingesetzt wird:<br>Die regulatorischen Rahmenbedingungen sind ein entscheidender Faktor für erfolgreiche Projekte.</p>
+          <p>Künstliche Intelligenz verändert zunehmend die Art und Weise, wie Entscheidungen im Gesundheitswesen vorbereitet und getroffen werden.<br>Systeme wie große Sprachmodelle können komplexe Informationen strukturieren, Wissen zugänglich machen und Fachkräfte bei Analyse- und Entscheidungsprozessen unterstützen.</p><br>
+          <hr style="border:solid #000000 1px;background-color:#000000;height:0.3em;">
+
+          <h4><b>Wichtige Referenzen zu Gesetzgebung, Wissenschaft und Ethik</b></h4>
+          <p>Im Mittelpunkt der Beratungsphilosophie von Thomas Bade steht dabei nicht die Technologie selbst, sondern der kompetente und verantwortungsvolle Umgang mit ihr.<br>KI soll Fachkräfte im Gesundheitswesen stärken – nicht ersetzen.</p>
+          <p>In der tabellarischen Übersicht <b><em>Gesetzgebung, Wissenschaft und Ethik</em></b> sind schlüssige Referenzen aus verschiedenen Bereichen rund um Künstliche Intelligenz (KI) aufgeführt.</p>
+          <p>Sie bieten einen kompakten Überblick über aktuelle Gesetzgebung, wissenschaftliche Ressourcen, ethische Leitlinien, Empfehlungen aus der Praxis sowie Perspektiven aus der Versicherungsbranche.</p>
+
+          <hr style="border:solid #000000 1px;background-color:#000000;height:0.3em;">
+          <h4><b>Code of Conduct für demokratische KI</b></h4>
+          <p>Der Code of Conduct wurde von einem interdisziplinären Expertenteam des Projekts Demokratische KI entwickelt.</p>
+          <p>Beteiligt sind Wissenschaftlerinnen verschiedener deutscher Universitäten, zivilgesellschaftliche Organisationen, Juristinnen, Technikethiker*innen sowie Praktiker aus Verwaltung und Digitalwirtschaft.</p>
+          <p>Gemeinsam verfolgen sie das Ziel, praxisnahe Leitlinien zu schaffen, die Verantwortliche beim sicheren, gerechten und nachvollziehbaren Einsatz von KI unterstützen.</p><br>
+        </div>
+
+        <!-- ======= Code of Conduct Section ======= -->
+        <section id="code-of-conduct" class="py-5 bg-light">
+          <div class="container">
+            <div class="row mb-4 align-items-center">
+              <div class="col-lg-8">
+                <h4><b>Code of Conduct – Demokratische KI</b></h4>
+                <p class="medium mb-2">Der Code of Conduct „Demokratische KI" beschreibt, wie Künstliche Intelligenz gemeinwohlorientiert, gerecht und verantwortungsvoll eingesetzt werden kann.</p>
+                <p class="mb-0">Auf dieser Seite finden Sie die zentralen Themen des Code of Conduct in kompakter Form – mit Fokus auf <strong>Ethik</strong>, <strong>Transparenz</strong>, <strong>Teilhabe</strong> und <strong>Verantwortung</strong> beim Einsatz von KI.</p>
+              </div>
+              <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="p-3 bg-ci shadow-sm rounded-3">
+                  <h5 class="mb-2">Direkt zum Original</h5>
+                  <p class="small mb-3">Der vollständige Code of Conduct „Demokratische KI" wurde in einem partizipativen Prozess von mehr als 50 gemeinwohlorientierten Organisationen entwickelt und von D64 – Zentrum für Digitalen Fortschritt koordiniert.</p>
+                  <a href="https://demokratische-ki.de/code-of-conduct" target="_blank" class="btn btn-ci w-100">Code of Conduct herunterladen (PDF)</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8">
+              <div class="accordion" id="cocAccordion">
+
+                <div class="accordion-item" id="coc-praambel">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePraambel" aria-expanded="false" aria-controls="collapsePraambel">01 Präambel – Warum ein Code of Conduct?</button></h2>
+                  <div id="collapsePraambel" class="accordion-collapse collapse" data-bs-parent="#cocAccordion">
+                    <div class="accordion-body">
+                      <p>KI wird in immer mehr Bereichen eingesetzt – auch in gemeinwohlorientierten Organisationen. Der Code of Conduct bietet einen gemeinsamen Rahmen, um Chancen zu nutzen, Risiken zu erkennen und klare Kriterien für oder gegen den Einsatz von KI zu entwickeln.</p>
+                      <ul><li>KI ist nicht neutral, sondern spiegelt bestehende Strukturen &amp; Machtverhältnisse.</li><li>Gemeinwohlorientierte Organisationen tragen besondere Verantwortung für demokratische Teilhabe.</li><li>Der Code ergänzt bestehende Rahmenwerke (z.&nbsp;B. EU-Ethik-Leitlinien, UNESCO, OECD).</li></ul>
+                      <div class="alert alert-primary small mb-0"><strong>Haltung:</strong> KI soll soziale Gerechtigkeit, Teilhabe, Nachhaltigkeit und Demokratie stärken – nicht untergraben.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item" id="coc-abwaegung">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAbwaegung" aria-expanded="false" aria-controls="collapseAbwaegung">02 Abwägung der Nutzung</button></h2>
+                  <div id="collapseAbwaegung" class="accordion-collapse collapse" data-bs-parent="#cocAccordion">
+                    <div class="accordion-body">
+                      <p>KI ist kein Selbstzweck. Vor jedem Einsatz steht die Frage: <em>Passt KI wirklich zu Ziel, Kontext und Zielgruppe?</em></p>
+                      <ul><li>Nutzen für Zielgruppen gegen mögliche negative Folgen abwägen.</li><li>Ressourcenbedarf realistisch einschätzen.</li><li>Alternative, weniger technikintensive Lösungen immer mitdenken.</li></ul>
+                      <div class="alert alert-primary small mb-0"><strong>Selbstverpflichtung:</strong> Wir prüfen Chancen und Risiken des KI-Einsatzes sorgfältig.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item" id="coc-transparenz">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTransparenz" aria-expanded="false" aria-controls="collapseTransparenz">04 Transparenz</button></h2>
+                  <div id="collapseTransparenz" class="accordion-collapse collapse" data-bs-parent="#cocAccordion">
+                    <div class="accordion-body">
+                      <p>Transparenz betrifft Datenbasis, Funktionsweise, Verantwortlichkeiten und Einsatzbereiche von KI-Systemen.</p>
+                      <ul><li>Einsatz von KI intern und extern offenlegen.</li><li>KI-generierte Inhalte kennzeichnen.</li><li>Funktionsweise so verstehen, dass eine kritische Bewertung möglich ist.</li></ul>
+                      <div class="alert alert-primary small mb-0"><strong>Selbstverpflichtung:</strong> Wir machen unseren KI-Einsatz transparent.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item" id="coc-verantwortung">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseVerantwortung" aria-expanded="false" aria-controls="collapseVerantwortung">07 Verantwortung &amp; Verantwortlichkeit</button></h2>
+                  <div id="collapseVerantwortung" class="accordion-collapse collapse" data-bs-parent="#cocAccordion">
+                    <div class="accordion-body">
+                      <p>Verantwortung heißt, Folgen des KI-Einsatzes zu bedenken und Entscheidungen begründen zu können.</p>
+                      <ul><li>Ethische, rechtliche, technische und soziale Aspekte zusammendenken.</li><li>Klare Rollen für Risikoabwägung, Datenschutz und Monitoring festlegen.</li><li>Ergebnisse von KI-Systemen nicht unkritisch übernehmen.</li></ul>
+                      <div class="alert alert-primary small mb-0"><strong>Selbstverpflichtung:</strong> Wir übernehmen Verantwortung und benennen klare Zuständigkeiten.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item" id="coc-oekologie">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOekologie" aria-expanded="false" aria-controls="collapseOekologie">09 Ökologische Nachhaltigkeit</button></h2>
+                  <div id="collapseOekologie" class="accordion-collapse collapse" data-bs-parent="#cocAccordion">
+                    <div class="accordion-body">
+                      <p>KI verbraucht Energie und Ressourcen – vom Training großer Modelle bis zur Hardware.</p>
+                      <ul><li>Energie- und Ressourcenverbrauch von KI-Systemen kritisch hinterfragen.</li><li>Wo möglich effizientere Modelle und nachhaltige Infrastruktur bevorzugen.</li><li>Den gesamten Lebenszyklus von Hardware mitdenken.</li></ul>
+                      <div class="alert alert-primary small mb-0"><strong>Selbstverpflichtung:</strong> Wir berücksichtigen den gesamten Lebenszyklus von KI-Systemen.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item" id="coc-schluss">
+                  <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSchluss" aria-expanded="false" aria-controls="collapseSchluss">10 Schlussbemerkung – Einladung zum Mitgestalten</button></h2>
+                  <div id="collapseSchluss" class="accordion-collapse collapse" data-bs-parent="#cocAccordion">
+                    <div class="accordion-body">
+                      <p>Der Code of Conduct versteht sich nicht als starres Regelwerk, sondern als Einladung zum kontinuierlichen Lernen und zur gemeinsamen Weiterentwicklung.</p>
+                      <ul><li>Erfahrungen mit KI teilen und voneinander lernen.</li><li>Eigene Praktiken regelmäßig überprüfen und anpassen.</li></ul>
+                      <div class="alert alert-success small mb-0"><strong>Ausblick:</strong> Gemeinsam können Organisationen dazu beitragen, dass KI demokratische Teilhabe stärkt.</div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr style="border:solid #000000 1px;background-color:#000000;height:0.3em;">
+
+        <!-- ======= Aktuelle Veröffentlichungen ======= -->
+        <section id="aktuelle-veroeffentlichungen" class="py-4">
+          <div class="container">
+            <div class="tb-card p-4 rounded-4">
+              <h4><b>Aktuelle Einordnung &amp; Impulse</b></h4>
+              <p><b>Zwei Perspektiven auf KI im Gesundheitswesen: Governance und Systemstabilität</b></p>
+              <p class="mb-3">Mit <b>„Which Human-in-the-Loop?"</b> wird die Frage präzisiert, wer im klinischen Alltag, in der Governance und im Monitoring tatsächlich Verantwortung trägt – und warum Kontext, Kultur und Gesundheitssysteme die Implementierung von KI maßgeblich beeinflussen.</p>
+              <p class="mb-3"><b>„Agents of Chaos"</b> beleuchtet ergänzend die systemischen Risiken autonomer oder teilautonomer KI-Systeme: von Fehlsteuerungen über Intransparenz bis hin zu Governance-Lücken in komplexen Versorgungsstrukturen.</p>
+              <div class="alert alert-dark border rounded-4 mb-0">
+                <small>Beide Beiträge unterstreichen einen zentralen Punkt:<br>KI entfaltet ihren Nutzen nur dann nachhaltig, wenn Entscheidungsrechte, Verantwortlichkeiten und Kontrollmechanismen klar definiert und institutionell verankert sind.</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ======= Modal Buttons ======= -->
+        <div class="container-fluid px-0 mb-4">
+          <div class="row g-2">
+            <div class="col-12 col-md-6">
+              <button type="button" class="btn btn-ci w-100" data-bs-toggle="modal" data-bs-target="#vergabeModal" style="font-size:0.9rem; text-align:left;">
+                Haug et al.: Which Human-in-the-Loop? NEJM AI, February 23, 2026 <i class="bi bi-box-arrow-up-right"></i>
+              </button>
+            </div>
+            <div class="col-12 col-md-6">
+              <button type="button" class="btn btn-ci w-100" data-bs-toggle="modal" data-bs-target="#zweiterModal" style="font-size:0.9rem; text-align:left;">
+                Shapira N. et.al.: Agents of Chaos. February 2026 <i class="bi bi-box-arrow-up-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= NEJM Modal ======= -->
+        <div class="modal fade" id="vergabeModal" tabindex="-1" aria-labelledby="vergabeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header text-dark" style="background-color:#ffc451;"><h2 class="modal-title" id="vergabeModalLabel">NEJM-AI-Editorial von Haug &amp; Harrison</h2><button type="button" class="btn btn-ci btn-sm" data-bs-dismiss="modal">Schließen</button></div>
+              <div class="modal-body">
+                <div class="legal-section">
+                  <div class="ref-small">Charlotte J. Haug, Ewen M. Harrison<br>NEJM AI Publish Ahead of Print<br>February 23, 2026 | DOI: 10.1056/AIe2600084</div>
+                  <hr>
+                  <h5><b>Which Human-in-the-Loop?</b></h5>
+                  <p>Warum Kontext, Kultur und Gesundheitssysteme entscheidend sind!</p>
+                  <p>KI-gestützte Clinical Decision Support Systeme (CDSS) sind längst kein Pilotprojekt mehr, sondern Teil der Regelversorgung. Das NEJM-AI-Editorial von Haug &amp; Harrison bringt Struktur in die Debatte: Es gibt nicht den Human-in-the-Loop, sondern drei miteinander verzahnte Kontrollschleifen.</p>
+                  <hr>
+                  <h5><b>Die drei Schleifen der Verantwortung</b></h5>
+                  <ul>
+                    <li><b>Clinical Loop</b><br>Point-of-Care: Wer sieht das KI-Ergebnis? Wer darf realistisch überstimmen?</li>
+                    <li><b>Governance Loop</b><br>Freigabe &amp; Einsatz: Wer genehmigt welches System für welchen Anwendungsfall?</li>
+                    <li><b>Learning Loop</b><br>Monitoring &amp; Updates: Wer überwacht Performance, Drift und Bias?</li>
+                  </ul>
+                  <hr>
+                  <h6><b>Link zur Original Veröffentlichung</b></h6>
+                  <p><a href="https://ai.nejm.org/doi/full/10.1056/AIe2600084" target="_blank" rel="noopener noreferrer" style="color:#0d6efd;">Haug C. J., Harrison E. M.: Which Human-in-the-Loop? <i class="bi bi-box-arrow-up-right"></i></a></p>
+                  <hr>
+                  <div class="alert alert-ci rounded-4 mb-3">
+                    <div class="fw-semibold"><i class="bi bi-exclamation-triangle me-1"></i><b>KI Transparenzhinweis</b> ART. 50 · VO (EU) 2024/1689 · EU AI ACT</div>
+                    <div style="font-size:0.8rem;">Englischsprachige Quelldokumente wurden mit Unterstützung von KI-Sprachmodellen ins Deutsche übersetzt. Thomas Bade hat alle Inhalte geprüft und freigegeben.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= Agents of Chaos Modal ======= -->
+        <div class="modal fade" id="zweiterModal" tabindex="-1" aria-labelledby="zweiterModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header text-dark" style="background-color:#ffc451;"><h2 class="modal-title" id="zweiterModalLabel">Agents of Chaos</h2><button type="button" class="btn btn-ci btn-sm" data-bs-dismiss="modal">Schließen</button></div>
+              <div class="modal-body">
+                <div class="legal-section">
+                  <div class="ref-small">Shapira, Natalie et al.<br>Agents of Chaos.<br>10.13140/RG.2.2.12295.25767, February 2026</div>
+                  <hr>
+                  <p>Das Dokument Agents of Chaos analysiert in einer explorativen Studie die Sicherheits- und Governance-Risiken autonomer KI-Agenten unter realitätsnahen Bedingungen.</p>
+                  <h5><b>Ausgangspunkt: Neue Risikooberflächen durch Autonomie</b></h5>
+                  <p>Mit dem Übergang von KI als Werkzeug zu KI als persistentem, handlungsfähigem Akteur entstehen neue Risikooberflächen: Persistenter Speicher, externer Tool-Zugriff, delegierte Entscheidungsbefugnisse, Multi-Agenten-Dynamiken.</p>
+                  <h5><b>Die Governance-Lücke</b></h5>
+                  <p>Ein zentrales Ergebnis ist die ungelöste Frage der Verantwortungszuschreibung. Agenten handeln weder eindeutig im Sinne ihres Eigentümers noch sind sie zuverlässig rechenschaftspflichtig.</p>
+                  <hr>
+                  <h6><b>Link zur Original Veröffentlichung</b></h6>
+                  <p><a href="https://www.researchgate.net/publication/401123335_Agents_of_Chaos" target="_blank" rel="noopener noreferrer" style="color:#0d6efd;">Shapira N. et.al.: Agents of Chaos! <i class="bi bi-box-arrow-up-right"></i></a></p>
+                  <hr>
+                  <div class="alert alert-ci rounded-4 mb-3">
+                    <div class="fw-semibold"><i class="bi bi-exclamation-triangle me-1"></i><b>KI Transparenzhinweis</b> ART. 50 · VO (EU) 2024/1689 · EU AI ACT</div>
+                    <div style="font-size:0.8rem;">Englischsprachige Quelldokumente wurden mit Unterstützung von KI-Sprachmodellen ins Deutsche übersetzt. Thomas Bade hat alle Inhalte geprüft und freigegeben.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======= Agentic AI Section ======= -->
+        <section id="agentic-ai" class="py-4">
+          <div class="container">
+            <hr style="border:solid #000000 1px;background-color:#000000;height:0.3em;">
+            <div class="tb-card p-4 rounded-4">
+              <h4><b><span class="prrc-tooltip-wrapper" tabindex="0"><span class="prrc-highlight">Agentic AI</span><span class="prrc-tooltip-box" role="tooltip"><strong>Agentic AI</strong> bezeichnet KI-Systeme, die Aufgaben selbstständig planen, Entscheidungen treffen und Aktionen ausführen, anstatt nur auf Befehle zu reagieren.</span></span> im Gesundheitswesen – strukturelle Grenzen und Governance-Implikationen</b></h4>
+              <p><b>Autonomie bleibt im Gesundheitswesen praktisch ausgeschlossen.</b></p>
+              <p class="mb-3">Eine aktuelle Studie von Dias et al. analysiert anhand von Interviews mit Entwicklern, Klinikern und KI-Strategen, warum sogenannte „agentische KI" im Gesundheitswesen trotz technischer Fortschritte kaum autonom eingesetzt wird.</p>
+              <p class="mb-3">In klinischen Anwendungen arbeiten KI-Systeme nahezu immer mit Human-in-the-Loop. Vollautonome medizinische Entscheidungen sind aufgrund von Haftungsrecht, Patientensicherheit und regulatorischen Anforderungen derzeit nicht realistisch.</p>
+
+              <div class="container-fluid px-0 mb-2">
+                <button type="button" class="btn btn-ci d-inline-flex align-items-left gap-2" data-bs-toggle="modal" data-bs-target="#agenticAiModal" style="background-color:#d34e36; border:none; font-size:0.85rem; color:white;">
+                  <span>Dias A. et al.: The Doctor Will (Still) See You Now – Structural Limits of Agentic AI in Healthcare</span>
+                  <i class="bi bi-box-arrow-up-right ms-2"></i>
+                </button>
+              </div>
+
+              <!-- Agentic AI Modal -->
+              <div class="modal fade" id="agenticAiModal" tabindex="-1" aria-labelledby="agenticAiModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header text-dark" style="background-color:#ffc451;"><h2 class="modal-title" id="agenticAiModalLabel">The Doctor Will (Still) See You Now</h2><button type="button" class="btn btn-ci btn-sm" data-bs-dismiss="modal">Schließen</button></div>
+                    <div class="modal-body">
+                      <div class="legal-section">
+                        <div class="ref-small">Dias A., Jafari G., Griffith K. et al.<br>Stanford University, University of Florida<br>10.48550/arXiv.2602.18460, February 2026</div>
+                        <hr>
+                        <h5><b>Executive Summary</b></h5>
+                        <p>Die Veröffentlichung analysiert die strukturellen Grenzen sogenannter „agentischer KI" im Gesundheitswesen. KI bleibt vor allem ein Assistenzinstrument innerhalb klarer Human-in-the-Loop-Strukturen.</p>
+                        <h5><b>Big Points</b></h5>
+                        <ul>
+                          <li><strong>Autonomie ist im klinischen Alltag stark begrenzt</strong> – Diagnostische und therapeutische Entscheidungen bleiben aus Sicherheits- und Haftungsgründen beim Menschen.</li>
+                          <li><strong>Benchmark-Tests sagen wenig über reale Nutzung aus</strong> – Viele KI-Evaluierungen messen nur Modellgenauigkeit, nicht Workflow-Integration.</li>
+                          <li><strong>Vertrauen ist zentrale Voraussetzung</strong> – Ärztinnen und Ärzte bleiben rechtlich verantwortlich.</li>
+                          <li><strong>Halluzinationen sind ein kritisches Sicherheitsproblem</strong> – Schon kleine Fehler können medizinisch gravierende Folgen haben.</li>
+                          <li><strong>Realistische Einsatzfelder liegen im administrativen Bereich</strong> – Dokumentation, Terminmanagement, Abrechnung.</li>
+                        </ul>
+                        <hr>
+                        <h6><b>Link zur Original Veröffentlichung</b></h6>
+                        <p><a href="https://ui.adsabs.harvard.edu/abs/2026arXiv260218460A/abstract" target="_blank" rel="noopener noreferrer" style="color:#0d6efd;">Dias A. et al.: The Doctor Will (Still) See You Now <i class="bi bi-box-arrow-up-right"></i></a></p>
+                        <hr>
+                        <div class="alert alert-ci rounded-4 mb-3">
+                          <div class="fw-semibold"><i class="bi bi-exclamation-triangle me-1"></i><b>KI Transparenzhinweis</b> ART. 50 · VO (EU) 2024/1689 · EU AI ACT</div>
+                          <div style="font-size:0.8rem;">Englischsprachige Quelldokumente wurden mit Unterstützung von KI-Sprachmodellen ins Deutsche übersetzt. Thomas Bade hat alle Inhalte geprüft und freigegeben.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ======= Tabelle ======= -->
+        <div class="container my-5">
+          <hr style="border:solid #000000 1px;background-color:#000000;height:0.3em;">
+          <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap gap-2">
+            <h4><b>Gesetzgebung, Wissenschaft und Ethik</b></h4>
+            <p>Die <b>Filterfunktion</b> ermöglicht es Nutzer*innen, gezielt Inhalte innerhalb der Tabelle zu finden.</p>
+            <div class="d-flex align-items-center gap-2">
+              <label for="statusFilter" class="mb-0 fw-semibold">Status filtern:</label>
+              <select id="statusFilter" class="form-select form-select-sm w-auto">
+                <option value="">Alle</option>
+                <option value="Gesetzgebung">Gesetzgebung</option>
+                <option value="Wissenschaft">Wissenschaft</option>
+                <option value="Ethik">Ethik</option>
+                <option value="Versicherung">Versicherung</option>
+                <option value="Empfehlung">Empfehlung</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="table-responsive shadow-sm rounded-3">
+            <table id="tbTable" class="table table-striped table-hover align-middle mb-0">
+              <thead class="table-primary">
+                <tr><th scope="col">#</th><th scope="col">Titel</th><th scope="col">Beschreibung</th><th scope="col">Status</th><th scope="col" class="text-end">Aktion</th></tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">1</th><td>Gesetz zur Durchführung der KI-Verordnung</td><td>Gesetz zur Durchführung der Verordnung (EU) 2024/1689. KI-Marktüberwachungs- und Innovationsförderungsgesetz (KI-MIG)vom 02. August 2026.</td><td><span class="badge bg-success">Gesetzgebung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://bmds.bund.de/service/gesetzgebungsverfahren/gesetz-zur-durchfuehrung-der-ki-verordnung" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">2</th><td>KI-Kompetenz</td><td>Bundesnetzagentur: Anbieter und Betreiber von KI-Systemen müssen sicherstellen, dass alle Personen über ausreichend KI-Kompetenz verfügen.</td><td><span class="badge bg-success">Gesetzgebung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/KI/7_Kompetenz/start.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">3</th><td>World Economic Forum</td><td>7 ways AI is transforming healthcare</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.weforum.org/stories/2025/08/ai-transforming-global-health/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">4</th><td>Procurement of AI</td><td>European Commission: EU wide model contractual clauses for the public procurement of trustworthy AI services.</td><td><span class="badge bg-success">Gesetzgebung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://public-buyers-community.ec.europa.eu/communities/procurement-ai" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">5</th><td>Beschaffung von KI</td><td>Mustervertragsklauseln für die Vergabe öffentlicher Aufträge für KI (MVK-KI)</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://public-buyers-community.ec.europa.eu/communities/procurement-ai/resources/updated-eu-ai-model-contractual-clauses" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">6</th><td>Deutscher Ethikrat</td><td>Mensch und Maschine – Herausforderungen durch Künstliche Intelligenz</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.ethikrat.org/publikationen/stellungnahmen/mensch-und-maschine/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">7</th><td>GKV Spitzenverband Bund</td><td>Digitalisierung der Gesundheitsversorgung – Zukunft gestalten, Versorgung neu denken!</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2166336.jsp" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">8</th><td>Bundesärztekammer</td><td>Was ist Künstliche Intelligenz in der Medizin?</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bundesaerztekammer.de/themen/aerzte/digitalisierung/ki-in-der-medizin" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">9</th><td>acatech</td><td>KI-Verordnung: Ihre Auswirkungen für Medizinprodukte. Herausforderungen und offene Fragen.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.acatech.de/publikation/ki-verordnung-auswirkungen-fuer-medizinprodukte/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">10</th><td>NEJM AI</td><td>Journal exploring cutting-edge research and applications of artificial intelligence in clinical medicine.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://ai.nejm.org/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">11</th><td>JAMA+ AI</td><td>Medical journal, dedicated to the intersection of Artificial Intelligence and healthcare.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://jamanetwork.com/channels/ai" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">12</th><td>Code of Conduct Demokratische KI</td><td>Selbstverpflichtung zum Einsatz einer verantwortungsvollen KI in der Zivilgesellschaft</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://demokratische-ki.de/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">13</th><td>European Heart Journal</td><td>Medicine, healthcare and the AI act: gaps, challenges and future implications. Digital Health, Volume 6, Issue 4, July 2025.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://academic.oup.com/ehjdh/article/6/4/833/8118685" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">14</th><td>Betriebsrat KI</td><td>Die Betriebsrat KI wurde mit allen relevanten Gesetzen für das Ehrenamt trainiert und arbeitet auf Basis von ChatGPT.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://betriebsrat.ai/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">15</th><td>DFKI – KI-Campus</td><td>Aufbau einer digitalen Lernplattform speziell zum Thema Künstliche Intelligenz.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.dfki.de/web/qualifizierung-vernetzung/qualifizierungsangebote/ki-campus" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">16</th><td>WHO Europe</td><td>Gesundheit, Menschlichkeit und KI: Aufbau einer verantwortungsvollen Zukunft.</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.who.int/europe/de/news-room/events/item/2025/09/25/default-calendar/health--humanity-and-ai--building-a-responsible-future.-regional-dialogue" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">17</th><td>National Academy of Sciences</td><td>Health Care Artificial Intelligence Code of Conduct</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://nam.edu/our-work/programs/leadership-consortium/health-care-artificial-intelligence-code-of-conduct/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">18</th><td>The Library of Congress</td><td>Artificial Intelligence (AI) in Health Care</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.congress.gov/crs-product/R48319" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">19</th><td>Munich RE – aiSure™</td><td>More AI Opportunity. Less AI Risk.</td><td><span class="badge bg-secondary">Versicherung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.munichre.com/en/solutions/for-industry-clients/insure-ai.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">20</th><td>AXA SA</td><td>Generative KI – Möglichkeiten, Risiken und Lösungsansätze aus der Sicht eines Versicherers.</td><td><span class="badge bg-secondary">Versicherung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://axaxl.com/de/fast-fast-forward/articles/generative-ki-moglichkeiten-risiken-und-losungsansatze-aus-der-sicht-eines-versicherers" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">21</th><td>Institut Zukunft des Lebens</td><td>Das EU-Gesetz zur künstlichen Intelligenz. Aktuelle Entwicklungen und Analysen.</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://artificialintelligenceact.de/de/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">22</th><td>BMWi – Ethische Leitlinien für KI</td><td>Ethische Leitlinien für Künstliche Intelligenz</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Schlaglichter-der-Wirtschaftspolitik/2021/09/11-ethische-leitlinien-fur-kunstliche-intelligenz.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">23</th><td>Deutsche UNESCO-Kommission</td><td>UNESCO-Empfehlung zur Ethik der Künstlichen Intelligenz</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.unesco.de/dokumente-und-hintergruende/publikationen/detail/unesco-empfehlung-zur-ethik-der-kuenstlichen-intelligenz/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">24</th><td>National Academy of Medicine</td><td>Artificial Intelligence and Emerging Technology</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://nam.edu/our-work/key-issues/artificial-intelligence-and-emerging-technology/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">25</th><td>BMFTR – Künstliche Intelligenz</td><td>KI ist eine der wichtigsten Schlüsseltechnologien, die auch mittlerweile unseren Alltag betrifft.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bmftr.bund.de/DE/Forschung/Schluesseltechnologien/KuenstlicheIntelligenz/kuenstlicheintelligenz_node.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">26</th><td>Stifterverband</td><td>Status quo und Handlungsbedarfe zu generativer KI im gemeinnützigen Sektor.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.ziviz.de/publikationen/ki_im_gemeinnuetzigen_sektor" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">27</th><td>Europäische Kommission – KI im Gesundheitswesen</td><td>Wie KI die Zukunft der Medizin revolutioniert (AICare@EU).</td><td><span class="badge bg-success">Gesetzgebung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://health.ec.europa.eu/ehealth-digital-health-and-care/artificial-intelligence-healthcare_de" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">28</th><td>EIT Health – SHAIPED &amp; EHDS</td><td>Shaping the Future of AI-Driven Healthcare in Europe.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://eithealth.de/news-article/shaiped-and-the-european-health-data-space-ehds/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">29</th><td>Frankfurt School of Finance</td><td>Studie: Fünf Erfolgsfaktoren entscheiden über KI-Transformation.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.frankfurt-school.de/de/news/ki-transformation-" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">30</th><td>GE HealthCare</td><td>Responsible AI in healthcare: translating explainability and interpretability into practice.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://research.gehealthcare.com/patient-care-pathways/responsible-ai-in-healthcare-translating-explainability-and-interpretability-into-practice-jb35891xx/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">31</th><td>D64 – White Paper KI &amp; Solidarität</td><td>Solidarität als Gestaltungsauftrag: Das neue White Paper zu KI in der Zivilgesellschaft ist da.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://demokratische-ki.de/white-paper-ki-solidaritaet/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">32</th><td>RD Technologies – AI Discharge</td><td>AI-Assisted Patient Discharge Solutions.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://itmedical.com/ai-assisted-patient-discharge-solutions-it-medical/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">33</th><td>acatech – Plattform Lernende Systeme</td><td>Expertise aus Wissenschaft, Wirtschaft und Gesellschaft für KI in Deutschland.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.plattform-lernende-systeme.de/startseite.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">34</th><td>DFKI</td><td>Das DFKI forscht seit über 35 Jahren an Künstlicher Intelligenz für den Menschen.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.dfki.de/web" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">35</th><td>bidt Bayern</td><td>Digitale Transformation verstehen – Zukunft im Dialog gestalten.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bidt.digital/themenmonitor-kuenstliche-intelligenz/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">36</th><td>OECD – KI in der Gesellschaft</td><td>Künstliche Intelligenz in der Gesellschaft.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.oecd.org/de/publications/kunstliche-intelligenz-in-der-gesellschaft_6b89dea3-de.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">37</th><td>KI-Tools für Literaturrecherche</td><td>KI-gestützte Tools eröffnen neue Möglichkeiten für effizientes wissenschaftliches Arbeiten.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.uni-due.de/ub/ki-tools.php" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">38</th><td>EU – AI in Science</td><td>EU Commission: Artificial intelligence research, funding, policy and related publications.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://research-and-innovation.ec.europa.eu/research-area/industrial-research-and-innovation/artificial-intelligence-ai-science_en" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">39</th><td>Marktplatz der KI-Möglichkeiten</td><td>Umfassender Überblick über den Einsatz von KI in der deutschen Verwaltung.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://maki.beki.bund.de/a/bmi-makimo-app?kiosk" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">40</th><td>EC – Study on AI in healthcare</td><td>Study on the deployment of AI in healthcare. Directorate-General for Health and Food Safety.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://op.europa.eu/en/publication-detail/-/publication/9ddf7bf8-62bf-11f0-bf4e-01aa75ed71a1/language-en" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">41</th><td>BSI – Evasion-Attacks auf LLMs</td><td>Bundesamt für Sicherheit in der Informationstechnik. Gegenmaßnahmen in der Praxis.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/KI/Evasion-Angriffe_auf_LLMs-Gegenmassnahmen.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">42</th><td>NHS – Ambient Voice Technology Registry</td><td>NHS England: self-certified registry for national ambient voice technology suppliers.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://transform.england.nhs.uk/digitise-connect-transform/digitising-the-frontline/ambient-voice-technology-self-certified-supplier-registry/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">43</th><td>Claude's Constitution – Anthropic</td><td>Anthropic vision for Claude's character. Detailed description of values and behavior.</td><td><span class="badge bg-warning text-dark">Ethik</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.anthropic.com/constitution" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">44</th><td>EC – Proposal MDR/IVDR Simplification</td><td>Proposal amending MDR/IVDR regulations for simplifying rules on medical devices.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://health.ec.europa.eu/publications/proposal-regulation-simplify-rules-medical-and-vitro-diagnostic-devices_en" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">45</th><td>DG-KIM – Deutsche Gesellschaft KI in der Medizin</td><td>Fördert die verantwortungsvolle Entwicklung und Anwendung von KI in der Medizin.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://dg-kim.de/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">46</th><td>Coalition for Health AI (CHAI)</td><td>Responsible AI Guidance and Responsible AI Checklists.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.chai.org/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">47</th><td>Stanford – Boussard Lab</td><td>Forefront of Creating Responsible and Applied AI in Health.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://med.stanford.edu/boussard-lab.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">48</th><td>EURAID – TU Dresden</td><td>KI-Systeme sicher und verantwortungsvoll in Krankenhäusern entwickeln und einführen.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://tu-dresden.de/med/mf/die-fakultaet/newsuebersicht/euraid-leitfaden-ki-systeme-sicher-und-verantwortungsvoll-in-krankenhaeusern-entwickeln-und-einfuehren" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">49</th><td>BAuA – KI im Krankenhaus menschenzentriert</td><td>Leitfaden unterstützt Kliniken dabei, KI-Anwendungen menschenzentriert zu entwickeln.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.baua.de/DE/Angebote/Aktuelles/Meldungen/2026/2026-01-29-EURAID" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">50</th><td>eticas.ai – Responsible AI in healthcare</td><td>A practical guide to risk, oversight, and independent assurance.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.eticas.ai/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">51</th><td>BSI – Evasion-Attacks (vollständig)</td><td>Richtet sich an Entwickelnde sowie IT-Sicherheitsbeauftragte.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/KI/Evasion-Angriffe_auf_LLMs-Gegenmassnahmen.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">52</th><td>BMG – Gemeinsam Digital 2026</td><td>Drei Handlungsfelder der Digitalisierungsstrategie für stärkere digitale Innovationen.</td><td><span class="badge bg-success">Gesetzgebung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bundesgesundheitsministerium.de/ministerium/meldungen/weiterentwicklung-digitalisierungsstrategie-pm-11-02-26.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">53</th><td>EC – Living Repository KI-Kompetenz</td><td>Lebendiges Repository zur Förderung des Lernens und des Austauschs über KI-Kompetenz.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://digital-strategy.ec.europa.eu/de/library/living-repository-foster-learning-and-exchange-ai-literacy" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">54</th><td>ARISE – Stanford-Harvard Research Network</td><td>Advancing Healthcare AI – interdisciplinary research network.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://arise-ai.org/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">55</th><td>WHO Observatory – Demystifying AI in Health</td><td>Practical guide for anyone working in or alongside the health sector.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://eurohealthobservatory.who.int/publications/i/demystifying-artificial-intelligence-in-health-what-health-policy-makers-need-to-know" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">56</th><td>Cochrane AI Methods Group</td><td>New AI Methods Group to spearhead adoption across four leading evidence synthesis organizations.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://methods.cochrane.org/ai/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">57</th><td>NIST AI 800-4</td><td>Challenges to the Monitoring of Deployed AI Systems.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.nist.gov/news-events/news/2026/03/new-report-challenges-monitoring-deployed-ai-systems" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">58</th><td>LDA Bayern – KI &amp; Datenschutz</td><td>Regulatorische Anforderungen beim Einsatz von Künstlicher Intelligenz aus Datenschutzsicht.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.lda.bayern.de/de/ki.html" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">59</th><td>EC – Ethics guidelines for trustworthy AI</td><td>Ethics Guidelines for Trustworthy Artificial Intelligence (2019).</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">60</th><td>ZQP – KI in der Pflege</td><td>Anwendungsfelder, ethische Fragestellungen sowie Auswirkungen auf Pflegequalität.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.zqp.de/thema/kuenstliche-intelligenz/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">61</th><td>McKinsey – The AI antidote</td><td>KI-Transformationen werden primär durch den menschlichen Faktor entschieden.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.mckinsey.com/industries/healthcare/our-insights/the-ai-antidote" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">62</th><td>AI in Nursing – BAuA Working Paper</td><td>Hartwig et al.: Empirische Belege für den Einsatz von KI in verschiedenen Pflegekontexten.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.ilo.org/publications/artificial-intelligence-ai-nursing-profession-germany" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">63</th><td>WHO – Ethics and governance of AI for health</td><td>Guidance on large multi-modal models.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.who.int/publications/i/item/9789240084759" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">64</th><td>BMDS – KI-basierte Open-Source-Module</td><td>Neue Anwendungen unterstützen Planungs- und Genehmigungsprozesse in der Verwaltung.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://bmds.bund.de/aktuelles/pressemitteilungen/detail/ki-basierte-open-source-module-fuer-die-verwaltung" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">65</th><td>AI for Care – Irland 2026–2030</td><td>The Artificial Intelligence Strategy for Healthcare in Ireland 2026–2030.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.gov.ie/en/department-of-health/publications/ai-for-care-the-artificial-intelligence-ai-strategy-for-healthcare-in-ireland-2026-2030/" target="_blank" style="color:#000000">Details</a></td></tr>
+                <tr><th scope="row">66</th><td>BMAS – Digitale Transformation in Pflegeeinrichtungen</td><td>Wie sich der Transformationsprozess in Pflegeeinrichtungen gestalten lässt.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bmas.de/DE/Service/Publikationen/Broschueren/inqa-095-digitale-transformation-in-pflegeeinrichtungen.html" target="_blank" style="color:#000000">Details</a></td></tr>
+              <tr><th scope="row">67</th><td>McKinsey & Company </td><td>Superagency in the workplace: Empowering people to unlock AI’s full potential.<br>Fast alle Unternehmen investieren in KI, doch nur 1 Prozent ist der Ansicht, dass sie bereits ausgereift ist. Die Untersuchung zeigt, dass das größte Hindernis für die Skalierung nicht die Mitarbeiter sind – die bereit sind –, sondern die Führungskräfte, die nicht schnell genug voranschreiten.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work#/" target="_blank" style="color:#000000">Details</a></td></tr>
+              <tr><th scope="row">68</th><td>ALLAI </td><td>ALLAI is an independent organization dedicated to drive and foster Responsible AI.<br>ALLAI fosters multi-disciplinarity and involves broad expertise in its activities (e.g. AI and data-scientists, legal scholars, ethicists and behavioral scientists).<br>ALLAI’s work is aimed at various stakeholders such as policy-makers, social partners, consumers, private and public sector and society at large.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://allai.nl/" target="_blank" style="color:#000000">Details</a></td></tr>
+               <tr><th scope="row">69</th><td>Artifical Intelligence, Humanrights, Democracy , and the role of Law</td><td>In September 2019, the Council of Europe's Committee of Ministers adopted the terms of reference for the Ad Hoc Committee on Artificial Intelligence (CAHAI).<br>The CAHAI is charged with examining the feasibility and potential elements of a legal framework for the design, development, and deployment of AI systems that accord with Council of Europe standards across the interrelated areas of human rights, democracy, and the rule of law.</td><td><span class="badge bg-primary">Wissenschaft</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.turing.ac.uk/news/publications/ai-human-rights-democracy-and-rule-law-primer-prepared-council-europe" target="_blank" style="color:#000000">Details</a></td></tr>
+              <tr><th scope="row">70</th><td>Privacy Guardrail – Eine Schutzschicht für KI-Prompts direkt im Browser</td><td>Mit Privacy Guardrail veröffentlicht das Deutsche Forschungszentrum für Künstliche Intelligenz (DFKI) eine Open-Source-Erweiterung für Google Chrome, die personenbezogene und andere sensible Inhalte vollständig lokal im Browser erkennt, anonymisiert und nach der KI-Antwort wiederherstellt.</td><td><span class="badge bg-danger">Empfehlung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.dfki.de/web/news/privacy-guardrail-fuer-ki-prompts-direkt-im-browser" target="_blank" style="color:#000000">Details</a></td></tr>
+              <tr><th scope="row">71</th><td>Bundesnetzagentur – KI-MIG tritt in Kraft</td><td>Die Bundesnetzagentur übernimmt ab dem 29.07.2026 die zentrale Rolle bei der Umsetzung der EU-KI-Verordnung in Deutschland. Grundlage ist das „Gesetz zur Marktüberwachung und Innovationsförderung von künstlicher Intelligenz" (KI-MIG). Die Bundesnetzagentur wird damit Marktüberwachungsbehörde, zentrale Anlaufstelle und Beschwerdestelle für die KI-Verordnung.</td><td><span class="badge bg-success">Gesetzgebung</span></td><td class="text-end"><a class="btn btn-sm btn-outline-primary" href="https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260729_KI_VO.html?nn=660040" target="_blank" style="color:#000000">Details</a></td></tr>
+              
+
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+<!-- ═══════════════════════════════════════
+     CURRICULUM FAB + MODAL
+     CSS ist im <head> inline definiert
+     Kein externes Script, kein defer
+     ═══════════════════════════════════════ -->
+
+<div class="tb-fab" id="tb-fab-curriculum">
+  <button class="tb-fab-dismiss" id="tb-fab-dismiss" aria-label="Ausblenden">Ausblenden ✕</button>
+  <button class="tb-fab-btn" id="tb-fab-trigger" aria-label="KI-Lernportal öffnen">
+    <span class="tb-fab-icon" style="background:transparent; border-color:rgba(255,196,81,0.3);">
+  <img src="data:image/png;base64,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"
+       width="22" height="22"
+       alt="KI-Lernportal thomas-bade.org"
+       style="display:block; object-fit:contain;">
+</span>
+    <span class="tb-fab-text">
+      <span class="tb-fab-label">KI-Lernportal</span>
+        </span>
+  </button>
+</div>
+
+<div id="modal-curriculum" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="tb-cur-heading">
+  <div class="tb-modal-box">
+    <div class="tb-modal-header">
+ <p><img src="assets/img/favicon.png" width="50" height="50" class="img-fluid" alt=""></p>
+        <h2 class="tb-modal-title" id="tb-cur-heading">KI-Lernmodule für Krankenhaus, Pflege, HomeCare &amp; Sanitätshaus<span style="font-size:15px; color:#ffc451;">■</span></h2>
+      <p class="tb-modal-subtitle">Vendor-unabhängig · Betreiber-Perspektive · Mitarbeiter Orientierung</p>
+      <button class="tb-modal-close" id="tb-modal-close-btn" aria-label="Schließen">✕</button>
+    </div>
+    <div class="tb-modal-body">
+      <p class="tb-intro">Im Mittelpunkt stehen praxisorientierte Lernmodule, die darauf ausgerichtet sind, KI strukturiert und wirksam in Organisationen des deutschen Gesundheits- und Sozialwesens zu verankern.</p>
+ <p class="tb-intro">Adressiert werden gezielt Betreiber und Verantwortungsträger – von QMBs über PDLs bis hin zu IT-Leitungen und Verwaltungsführungen.<br>
+ Es ist das klare Ziel, Mitarbeitende Schritt für Schritt zu befähigen, KI sicher, akzeptiert und nachhaltig in den Arbeitsalltag zu integrieren.</p>
+       <p class="tb-intro">
+      <div class="tb-tier-row">
+        <span class="tb-tier-badge basic"> Basic-Zugang für <strong>25,00 € / Monat</strong><br>
+        Ideal für den strukturierten Einstieg und den Aufbau grundlegender KI-Kompetenz.</span>
+        <span class="tb-tier-badge premium">Premium-Zugang für <strong>50,00 € / Monat</strong><br>
+        Für Organisationen, die KI systematisch implementieren, vertiefte Inhalte nutzen und Governance im Regelbetrieb etablieren wollen.</span>
+      </div>
+       <div class="tb-curriculum-grid">
+      <!-- B1 -->
+<div class="tb-cur-card basic">
+  <div class="tb-cur-num">B1 · Basic</div>
+  <div class="tb-cur-title">Was ist KI? — Sektorperspektive</div>
+ <p class="tb-cur-topics" style="color:#fff; font-size:13px;">
+    <span style="font-size:15px;color:#4A9EBF;">■</span> KI vs. klassische Software vs. Digitalisierung<br>
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Beispiele aus Pflege, Krankenhaus, Sanitätshaus<br>
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Welche Systeme laufen in meiner Einrichtung?
+  </p>
+</div>
+
+<!-- B2 -->
+<div class="tb-cur-card basic">
+  <div class="tb-cur-num">B2 · Basic</div>
+  <div class="tb-cur-title">EU AI Act — Grundlagen für Betreiber</div>
+ <p class="tb-cur-topics" style="color:#fff; font-size:13px;">
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Risikopyramide: verboten / Hochrisiko / minimal<br>
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Annex III: Hochrisiko im Gesundheitssektor<br>
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Art.&nbsp;26 Betreiber-Pflichten im Überblick
+  </p>
+</div>
+
+<!-- B3 -->
+<div class="tb-cur-card basic">
+  <div class="tb-cur-num">B3 · Basic</div>
+  <div class="tb-cur-title">KI-Tools erkennen &amp; einordnen</div>
+   <p class="tb-cur-topics" style="color:#fff; font-size:13px;">
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Ampel-Schema für Praxisbeispiele<br>
+    <span style="font-size:15px;color:#4A9EBF;">■</span> ChatGPT, Copilot &amp; Co. im Klinikalltag<br>
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Erste Fragen an den Anbieter
+  </p>
+</div>
+
+<!-- B4 -->
+<div class="tb-cur-card basic">
+  <div class="tb-cur-num">B4 · Basic</div>
+  <div class="tb-cur-title">Datenschutz &amp; DSGVO im KI-Kontext</div>
+  <p class="tb-cur-topics" style="color:#fff; font-size:13px;">
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Art.&nbsp;9 DSGVO: Patientendaten &amp; KI<br>
+    <span style="font-size:15px;color:#4A9EBF;">■</span> Auftragsverarbeitung mit KI-Anbietern<br>
+    <span style="font-size:15px;color:#4A9EBF;">■</span> §&nbsp;203 StGB: Schweigepflicht &amp; KI-Tools
+  </p>
+</div>
+</div>
+           <div class="tb-curriculum-grid">
+        <div class="tb-cur-card"><div class="tb-cur-num">P1 · Premium</div>
+    <div class="tb-cur-title">Hochrisiko-KI im Gesundheitssektor</div>    
+ <p class="tb-cur-topics" style="color:#fff; font-size:13px;">
+    <span style="font-size:15px;color:#ffc451;">■</span> Annex III detailliert mit Fallbeispielen<br>
+    <span style="font-size:15px;color:#ffc451;">■</span> MDR/IVDR-Schnittstellen, SaMD-Klassifikation<br>
+    <span style="font-size:15px;color:#ffc451;">■</span> FMEA für KI: RPZ, Schutzmaßnahmen
+  </p></div>
+        <div class="tb-cur-card"><div class="tb-cur-num">P2 · Premium</div><div class="tb-cur-title">KI-Beschaffung &amp; Vendor-Evaluation</div>
+          <p class="tb-cur-topics" style="color:#fff; font-size:13px;">
+    <span style="font-size:15px;color:#ffc451;">■</span> 15 Pflichtfragen vor jeder Kaufentscheidung<br>
+    <span style="font-size:15px;color:#ffc451;">■</span> ROI-Prüfung: Cochrane-Evidenz vs. Marketingclaims<br>
+    <span style="font-size:15px;color:#ffc451;">■</span> Vertragsklauseln, Red Flags, Vergaberecht
+  </p></div>
+        <div class="tb-cur-card"><div class="tb-cur-num">P3 · Premium</div><div class="tb-cur-title">KI-Governance &amp; interne Steuerung</div>
+           <p class="tb-cur-topics" style="color:#fff; font-size:13px;">
+    <span style="font-size:15px;color:#ffc451;">■</span> NIST AI RMF: Govern, Map, Measure, Manage<br>
+    <span style="font-size:15px;color:#ffc451;">■</span> Verantwortungsmatrix für Einrichtungen<br>
+    <span style="font-size:15px;color:#ffc451;">■</span> Monitoring-Pflichten Art.&nbsp;26 Abs.&nbsp;5
+  </p></div>
+        <div class="tb-cur-card"><div class="tb-cur-num">P4–P6 · Premium</div><div class="tb-cur-title">Generative KI · Use Cases · Zertifikat</div>
+        <p class="tb-cur-topics" style="color:#fff; font-size:13px;">
+    <span style="font-size:15px;color:#ffc451;">■</span> LLMs im Klinikalltag: Chancen &amp; Haftung<br>
+    <span style="font-size:15px;color:#ffc451;">■</span> Use-Case-Entwicklung mit FMEA-Bewertung<br>
+    <span style="font-size:15px;color:#ffc451;">■</span> PDF-Zertifikat nach EU AI Act Art.&nbsp;4
+  </p></div>
+      </div>
+            <div class="tb-cal-box">
+  <h2 style="color: #fff;">Welche Module passen zu Ihrer Einrichtung? Ich beantworte Ihre Fragen.</h2>
+
+  <!-- Zeeg Kalender direkt eingebettet -->
+  <div style="
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 0 8px;
+    background: #fff;
+    min-height: 520px;
+  ">
+    <iframe
+      src="https://zeeg.me/info3242/30min"
+      width="100%"
+      height="520"
+      frameborder="0"
+      scrolling="yes"
+      allow="payment"
+      loading="lazy"
+      title="Terminbuchung Thomas Bade – 45 Minuten Erstgespräch"
+      style="display:block; border:none; background:#fff;"
+    ></iframe>
+  </div>
+
+  <p class="tb-cal-note">Videokonferenz · 45 Min</p>
+</div>
+    </div>
+    <div class="tb-modal-footer">
+      
+      <div class="tb-modal-footer-actions">
+               <button class="tb-modal-footer-close" id="tb-modal-footer-close-btn">Schließen ✕</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <!-- Linke Spalte -->
+          <div class="col-lg-6 col-md-6 mb-3">
+            <img src="https://thomas-bade.de/assets/img/logo-transparent.png" alt="thomas-bade.de" style="height:120px; margin-bottom:20px; display:block;">
+            <p style="font-size:14px; margin-bottom:6px;"><a href="mailto:tb@thomas-bade.de" style="color:#ccc; text-decoration:none;"><i class="bi bi-envelope me-1"></i>E-Mail</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/coach.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-person me-1"></i>Zur Person</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/termine.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-calendar me-1"></i>Let's talk</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/impressum.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-file-text me-1"></i>Impressum &amp; Datenschutz</a></p>
+            <p style="font-size:12px; color:#ffc451; margin-top:16px;">&copy; Copyright 2026 Thomas Bade</p>
+          </div>
+
+          <!-- Rechte Spalte -->
+          <div class="col-lg-6 col-md-6 mb-3">
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-bottom:10px; color:#ffc451 !important;">Weitere Angebote</p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.eu" target="_blank" rel="noopener" style="color:#ccc; text-decoration:none;"><i class="bi bi-globe me-1"></i>thomas-bade.eu – Zukunftsraum Kommune</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.org" target="_blank" rel="noopener" style="color:#ccc; text-decoration:none;"><i class="bi bi-mortarboard me-1"></i>thomas-bade.org – KI Kompetenz- &amp; Lernportal</a></p>
+
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-top:20px; margin-bottom:10px; color:#ffc451 !important;">Alle KI-Themen</p>
+            <div class="footer-dropdown" id="footerDropdown">
+              <button class="footer-dd-trigger" id="footerDDBtn">
+                Themenübersicht
+                <span class="footer-dd-chevron">▲</span>
+              </button>
+              <ul class="footer-dd-menu" id="footerDDMenu">
+                  <li><a href="https://www.thomas-bade.de/sitemap.html" target="_blank"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></li>
+             <li><a href="https://www.thomas-bade.de/bmg.html">Digitalisierungsstrategie 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/mdr_ki.html">Hochrisiko-KI</a></li>
+              <li><a href="https://www.thomas-bade.de/leitbild.html">Leitbild</a></li>
+              <li><a href="https://www.thomas-bade.de/mission.html">Mission Statement</a></li>
+              <li><a href="https://www.thomas-bade.de/ki_verordnung.html">KI-MIG 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/wissenschaft.html">Forschung &amp; Wissenschaft</a></li>
+              <li><a href="https://www.thomas-bade.de/constitution.html">Ethische KI-Prinzipien</a></li>
+              <li><a href="https://www.thomas-bade.de/risk.html">KI Risikomanagement</a></li>
+              <li><a href="https://www.thomas-bade.de/oecd.html">OECD 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/arise.html">State of Clinical AI Report</a></li>
+              <li><a href="https://www.thomas-bade.de/praevention.html">KI in der Prävention</a></li>
+              <li><a href="https://www.thomas-bade.de/haip.html">Health AI Partnership (HAIP)</a></li>
+              <li><a href="https://www.thomas-bade.de/portal.html">KI Lernformate</a></li>
+
+
+              </ul>
+            </div>
+ <p style="font-size:14px; margin-bottom:6px;">
+              <a href="https://www.thomas-bade.de/sitemap.html" target="_blank" style="color:#ccc; text-decoration:none;"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></p>
+
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-top:20px; margin-bottom:10px; color:#ffc451 !important;">Seite teilen</p>
+                      <div class="share-container" id="shareContainer">
+            <button class="share-button" id="shareToggleBtn" aria-label="Seite teilen" title="Seite teilen">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+            </button>
+            <div class="share-popup" id="sharePopup">
+              <a href="#" id="shareLinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" id="shareTwitter" title="X / Twitter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" id="shareFacebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+              </a>
+              <button class="share-icon-btn" id="shareMastodon" title="Mastodon" type="button">
+                <svg viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.24-5.032C17.69.242 15.948 0 11.994 0h-.028C8.017 0 6.274.242 5.94.281 3.35.693 1.038 2.554.526 5.157A27.3 27.3 0 0 0 .25 9.099c-.064 1.265-.063 2.529-.037 3.794.065 3.028.222 6.051.668 9.048.255 1.688.85 3.232 2.025 4.58A8.208 8.208 0 0 0 8.36 23.77c1.947.476 3.952.586 5.94.478a29.39 29.39 0 0 0 5.656-1.085 8.178 8.178 0 0 0 1.538-.666c-.01-.072-.013-.146-.013-.22v-3.03c-.756.183-1.522.33-2.296.44-1.698.241-3.413.31-5.12.188a9.94 9.94 0 0 1-2.494-.495c-.874-.297-1.57-.862-1.916-1.752a5.99 5.99 0 0 1-.326-1.48c2.064.496 4.162.744 6.265.744 1.013 0 2.024-.048 3.03-.148 1.71-.173 3.48-.556 4.997-1.464a6.274 6.274 0 0 0 2.786-4.148c.16-.924.22-1.86.22-2.798 0-.93-.063-1.855-.207-2.772zm-5.516 6.6c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.667-1.218-2.667-2.72V7.86c0-1.502 1.194-2.72 2.667-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053zm-8.068 0c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.668-1.218-2.668-2.72V7.86c0-1.502 1.195-2.72 2.668-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareInstagram" title="Instagram (Link kopieren)" type="button">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareCopyLink" title="Link kopieren" type="button">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </button>
+            </div><!-- /share-popup -->
+            <div id="mastodonPrompt">
+              <label for="mastodonInstance">Mastodon-Instanz eingeben:</label>
+              <input type="text" id="mastodonInstance" placeholder="z.B. mastodon.social" autocomplete="off">
+              <button class="masto-go" id="mastodonGo" type="button">Teilen &#8599;</button>
+            </div>
+          </div><!-- /share-container -->
+          <div class="copy-notification" id="copyNotification">&#10003; Link in Zwischenablage kopiert</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+  
+  <script>
+    // ── Cookie Notice ──
+    document.addEventListener('DOMContentLoaded', function () {
+      if (!localStorage.getItem('cookieNoticeAccepted')) {
+        document.getElementById('cookieNotice').style.display = 'block';
+      }
+      document.getElementById('cookieAccept').addEventListener('click', function () {
+        localStorage.setItem('cookieNoticeAccepted', 'true');
+        document.getElementById('cookieNotice').style.display = 'none';
+      });
+    });
+
+    // ── Footer Dropdown ──
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn  = document.getElementById('footerDDBtn');
+      var menu = document.getElementById('footerDDMenu');
+      var dd   = document.getElementById('footerDropdown');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        menu.classList.toggle('open');
+        btn.classList.toggle('open');
+      });
+      document.addEventListener('click', function (e) {
+        if (dd && !dd.contains(e.target)) {
+          menu.classList.remove('open');
+          btn.classList.remove('open');
+        }
+      });
+    });
+
+    // ── Tabellen-Filter ──
+    document.addEventListener('DOMContentLoaded', function () {
+      var statusFilter = document.getElementById('statusFilter');
+      var table = document.getElementById('tbTable');
+      if (!statusFilter || !table) return;
+      var rows = table.querySelectorAll('tbody tr');
+      statusFilter.addEventListener('change', function () {
+        var selected = this.value.trim();
+        rows.forEach(function(row) {
+          var statusCell = row.querySelector('td:nth-child(4)');
+          if (!statusCell) return;
+          var statusText = statusCell.textContent.trim();
+          if (selected === '' || statusText === selected) {
+            row.classList.remove('d-none');
+          } else {
+            row.classList.add('d-none');
+          }
+        });
+      });
+    });
+
+    // ── Site Search ──
+    const SITE_SEARCH_CONFIG = {
+      pages: [
+        { title: "Home - KI in Gesellschaft & Wirtschaft", url: "https://www.thomas-bade.de/", category: "Hauptseiten", excerpt: "Künstliche Intelligenz in Gesellschaft und Wirtschaft.", content: "Künstliche Intelligenz Gesundheitswesen Ethik EU AI Act Governance Betriebsrat Versicherungen Haftung Fairness Bias", keywords: "KI, EU AI Act, Gesundheitswesen, Governance" },
+        { title: "Let's talk! - Terminbuchung", url: "https://www.thomas-bade.de/termine.html", category: "Kontakt", excerpt: "Beratungstermin für KI-Projekte.", content: "Termin Beratung Kontakt Consulting EU AI Act Krankenhaus", keywords: "Termin, Beratung, Kontakt" },
+        { title: "Digitalisierungsstrategie 2026", url: "https://www.thomas-bade.de/bmg.html", category: "Analyse & Beratungspraxis", excerpt: "BMG Digitalisierungsstrategie für Kommunen und Kliniken.", content: "Bundesministerium Gesundheit EHDS ePA FDZ KI-MIG DiGA DiPA", keywords: "Digitalisierungsstrategie 2026, BMG, EHDS" },
+        { title: "Zur Person", url: "https://www.thomas-bade.de/coach.html", category: "Hauptseiten", excerpt: "Coaching für Führungskräfte im Gesundheitswesen.", content: "Business Coaching Führungskräfte Transformation Leadership Healthcare", keywords: "Coaching, Führungskräfte" },
+        { title: "KI-Kompetenz", url: "https://www.thomas-bade.de/kompetenz.html", category: "Hauptseiten", excerpt: "KI-Compliance und EU AI Act für das Gesundheitswesen.", content: "KI-Kompetenz EU AI Act MDR Hochrisiko BAPID Pflege Krankenhaus", keywords: "Kompetenz, EU AI Act, BAPID" },
+        { title: "KI Monitoring im Regelbetrieb", url: "https://www.thomas-bade.de/ai_monitoring.html", category: "Analyse & Beratungspraxis", excerpt: "Post-Deployment Monitoring für KI-Systeme.", content: "Post-Deployment Monitoring Modell-Drift Safety Reporting NIST AI 800-4", keywords: "KI Monitoring, NIST" },
+        { title: "Hochrisiko-KI", url: "https://www.thomas-bade.de/mdr_ki.html", category: "Regeln & Risiken", excerpt: "Hochrisiko-KI-Systeme nach EU AI Act.", content: "Hochrisiko MDR EU AI Act Risikomanagement Bundesnetzagentur", keywords: "Hochrisiko, EU AI Act, MDR" },
+        { title: "GPAI-Modelle", url: "https://www.thomas-bade.de/GPAI.html", category: "Regeln & Risiken", excerpt: "General Purpose AI Modelle und regulatorische Anforderungen.", content: "GPAI General Purpose AI Foundation Models GPT Claude", keywords: "GPAI, Foundation Models, LLM" },
+        { title: "KI als Medizinprodukt", url: "https://www.thomas-bade.de/ki_verordnung.html", category: "Regeln & Risiken", excerpt: "Regulierung von KI als Medizinprodukt.", content: "Medizinprodukt MDR Zulassung CE-Kennzeichnung Klassifizierung", keywords: "Medizinprodukt, MDR, KI-MIG" },
+        { title: "KI & Entlassmanagement", url: "https://www.thomas-bade.de/em_ki.html", category: "Regeln & Risiken", excerpt: "KI im Entlassmanagement.", content: "Entlassmanagement Krankenhaus § 39 SGB V DNQP", keywords: "Entlassmanagement, § 39 SGB V" },
+        { title: "Was müssen KI-Systeme leisten?", url: "https://www.thomas-bade.de/control_panel.html", category: "Regeln & Risiken", excerpt: "Anforderungen an KI-Systeme.", content: "Anforderungen Performance Validierung Qualität Bias Fairness", keywords: "Requirements, Validierung, Qualität" },
+        { title: "Forschung & Wissenschaft", url: "https://www.thomas-bade.de/wissenschaft.html", category: "Regeln & Risiken", excerpt: "KI in Forschung und Wissenschaft.", content: "Forschung Wissenschaft Exzellenzcluster ARISE Bundesregierung", keywords: "Forschung, Wissenschaft" },
+        { title: "WHO Klassifizierung Digital Health", url: "https://www.thomas-bade.de/who.html", category: "Regeln & Risiken", excerpt: "WHO-Klassifikationssystem.", content: "WHO Digital Health Klassifizierung mHealth Telemedizin", keywords: "WHO, Digital Health" },
+        { title: "KI-Produktivitätsanalyse", url: "https://www.thomas-bade.de/claude.html", category: "Regeln & Risiken", excerpt: "KI-Produktivitätsgewinne kritisch betrachtet.", content: "Produktivität Anthropic Claude ROI Wirtschaftlichkeit", keywords: "Produktivität, ROI, Claude" },
+        { title: "FMEA im Gesundheitswesen", url: "https://www.thomas-bade.de/fmea.html", category: "Sicherheit & Monitoring", excerpt: "FMEA-Methodik und AI-FMEA.", content: "FMEA RPZ EU AI Act ISO 14971 MDR IVDR FRIA", keywords: "FMEA, RPZ, Hochrisiko-KI" },
+        { title: "Ethische KI-Prinzipien (Anthropic)", url: "https://www.thomas-bade.de/constitution.html", category: "Regeln & Risiken", excerpt: "Constitutional AI und ethische Prinzipien.", content: "Constitutional AI Anthropic RLHF Werte Fairness", keywords: "Ethik, Constitutional AI" },
+        { title: "Risk Categorization & Responsible AI", url: "https://www.thomas-bade.de/risk.html", category: "Regeln & Risiken", excerpt: "CHAI Risk Categorization Tool.", content: "CHAI Risikobewertung Responsible AI Governance", keywords: "Risk, CHAI, Responsible AI" }
+      ]
+    };
+
+    class SiteSearch {
+      constructor() {
+        this.searchInput = document.getElementById('site-search-input');
+        this.searchResults = document.getElementById('search-results');
+        this.searchResultsList = document.getElementById('search-results-list');
+        this.noResults = document.getElementById('no-results');
+        this.resultsCount = document.getElementById('results-count');
+        this.clearBtn = document.getElementById('search-clear-btn');
+        this.searchOverlay = document.getElementById('search-overlay');
+        this.selectedIndex = -1;
+        this.init();
+      }
+      init() {
+        if (!this.searchInput) return;
+        this.searchInput.addEventListener('input', (e) => this.handleSearch(e.target.value));
+        this.searchInput.addEventListener('keydown', (e) => this.handleKeyboard(e));
+        this.searchInput.addEventListener('focus', () => { if (this.searchInput.value.length >= 2) this.handleSearch(this.searchInput.value); });
+        if (this.clearBtn) this.clearBtn.addEventListener('click', () => this.clearSearch());
+        if (this.searchOverlay) this.searchOverlay.addEventListener('click', () => this.closeSearch());
+        document.addEventListener('keydown', (e) => { if (e.key === 'Escape') this.closeSearch(); });
+        document.addEventListener('click', (e) => { const c = document.getElementById('site-search-container'); if (c && !c.contains(e.target)) this.hideResults(); });
+      }
+      handleSearch(query) {
+        query = query.trim().toLowerCase();
+        if (this.clearBtn) this.clearBtn.style.display = query ? 'flex' : 'none';
+        if (query.length < 2) { this.hideResults(); return; }
+        const results = this.searchPages(query);
+        this.selectedIndex = -1;
+        if (results.length > 0) this.displayResults(results, query);
+        else this.showNoResults();
+      }
+      searchPages(query) {
+        const results = [];
+        const qw = query.split(' ').filter(w => w.length > 1);
+        SITE_SEARCH_CONFIG.pages.forEach(page => {
+          let score = 0;
+          const st = `${page.title} ${page.content} ${page.keywords}`.toLowerCase();
+          qw.forEach(w => {
+            const lw = w.toLowerCase();
+            if (page.title.toLowerCase().includes(lw)) score += 200;
+            if (page.keywords.toLowerCase().includes(lw)) score += 100;
+            if (page.content && page.content.toLowerCase().includes(lw)) { const m = page.content.match(new RegExp(lw,'gi')); if(m) score += m.length*30; }
+            if (st.includes(lw)) score += 5;
+          });
+          if (score > 0) results.push({...page, score});
+        });
+        return results.sort((a,b) => b.score - a.score);
+      }
+      displayResults(results, query) {
+        if (!this.searchResults || !this.searchResultsList) return;
+        this.searchResults.style.display = 'block';
+        this.noResults.style.display = 'none';
+        if (this.searchOverlay) this.searchOverlay.classList.add('active');
+        if (this.resultsCount) this.resultsCount.textContent = `${results.length} Ergebnis${results.length !== 1 ? 'se' : ''}`;
+        this.searchResultsList.innerHTML = results.map((r,i) => {
+          const ex = this.extractExcerpt(r.content || r.excerpt, query);
+          return `<a href="${r.url}" class="search-result-item" tabindex="0"><div class="search-result-title"><svg class="search-result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>${this.hl(r.title,query)}</div><div class="search-result-excerpt">${this.hl(ex,query)}</div><div class="search-result-meta"><span>${r.category}</span></div></a>`;
+        }).join('');
+        this.searchResultsList.querySelectorAll('.search-result-item').forEach(item => item.addEventListener('click', () => this.closeSearch()));
+      }
+      extractExcerpt(text, query) {
+        const words = query.split(' ').filter(w => w.length > 1);
+        const lt = text.toLowerCase();
+        let fi = -1;
+        words.forEach(w => { const i = lt.indexOf(w.toLowerCase()); if(i !== -1 && (fi === -1 || i < fi)) fi = i; });
+        if (fi === -1) return text.substring(0,200)+'...';
+        const s = Math.max(0,fi-50), e = Math.min(text.length,fi+150);
+        let ex = text.substring(s,e);
+        if (s>0) ex='...'+ex; if (e<text.length) ex+='...';
+        return ex;
+      }
+      hl(text, query) {
+        const words = query.split(' ').filter(w => w.length > 1);
+        let r = text;
+        words.forEach(w => { r = r.replace(new RegExp(`(${w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi'), '<mark>$1</mark>'); });
+        return r;
+      }
+      showNoResults() { if(this.searchResults) this.searchResults.style.display='none'; if(this.noResults) this.noResults.style.display='block'; if(this.searchOverlay) this.searchOverlay.classList.add('active'); }
+      hideResults() { if(this.searchResults) this.searchResults.style.display='none'; if(this.noResults) this.noResults.style.display='none'; if(this.searchOverlay) this.searchOverlay.classList.remove('active'); }
+      clearSearch() { if(!this.searchInput) return; this.searchInput.value=''; if(this.clearBtn) this.clearBtn.style.display='none'; this.hideResults(); this.searchInput.focus(); }
+      handleKeyboard(e) {
+        if (!this.searchResultsList) return;
+        const items = this.searchResultsList.querySelectorAll('.search-result-item');
+        if (e.key==='ArrowDown') { e.preventDefault(); this.selectedIndex=Math.min(this.selectedIndex+1,items.length-1); this.updateSel(items); }
+        else if (e.key==='ArrowUp') { e.preventDefault(); this.selectedIndex=Math.max(this.selectedIndex-1,-1); this.updateSel(items); }
+        else if (e.key==='Enter' && this.selectedIndex>=0) { e.preventDefault(); items[this.selectedIndex].click(); }
+      }
+      updateSel(items) { items.forEach((item,i) => { if(i===this.selectedIndex){item.classList.add('selected');item.scrollIntoView({block:'nearest'});}else item.classList.remove('selected'); }); }
+      closeSearch() { this.hideResults(); }
+    }
+    if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', () => new SiteSearch()); } else { new SiteSearch(); }
+
+    // ── Tooltip ──
+    (function () {
+      'use strict';
+      var usingTouch = false;
+      var touchActive = false;
+      window.addEventListener('touchstart', function () { usingTouch = true; touchActive = true; }, { passive: true });
+      window.addEventListener('touchend', function () { setTimeout(function () { touchActive = false; }, 500); }, { passive: true });
+      window.addEventListener('mousemove', function () { if (touchActive) return; usingTouch = false; }, { passive: true });
+
+      function positionTooltip(wrapper, box) {
+        box.style.visibility = 'hidden'; box.style.display = 'block';
+        var tooltipHeight = box.offsetHeight;
+        box.style.display = 'none'; box.style.visibility = '';
+        var rect = wrapper.getBoundingClientRect();
+        var margin = 10;
+        var top = rect.top - tooltipHeight - margin;
+        if (top < 10) top = rect.bottom + margin;
+        var left = rect.left;
+        var maxLeft = window.innerWidth - 340 - 15;
+        if (left > maxLeft) left = maxLeft;
+        if (left < 10) left = 10;
+        box.style.top = top + 'px'; box.style.left = left + 'px';
+        box.style.animation = 'prrcFadeIn 0.18s ease';
+      }
+
+      function closeAll() { document.querySelectorAll('.prrc-tooltip-box').forEach(function (b) { b.style.display = 'none'; }); }
+
+      document.querySelectorAll('.prrc-tooltip-wrapper').forEach(function (wrapper) {
+        var box = wrapper.querySelector('.prrc-tooltip-box');
+        wrapper.addEventListener('mouseenter', function () { if (usingTouch) return; positionTooltip(wrapper, box); box.style.display = 'block'; });
+        wrapper.addEventListener('mouseleave', function () { if (usingTouch) return; box.style.display = 'none'; });
+        wrapper.addEventListener('click', function (e) { if (!usingTouch) return; var isVisible = box.style.display === 'block'; closeAll(); if (!isVisible) { positionTooltip(wrapper, box); box.style.display = 'block'; } e.stopPropagation(); });
+      });
+      document.addEventListener('click', function () { if (usingTouch) closeAll(); });
+    })();
+  </script>
+<script>
+(function(){
+  'use strict';
+  var KEY='tb-fab-curriculum';
+  function open(){var o=document.getElementById('modal-curriculum');if(o){o.classList.add('active');document.body.classList.add('modal-open');}}
+  function close(){var o=document.getElementById('modal-curriculum');if(o){o.classList.remove('active');document.body.classList.remove('modal-open');}}
+  var fab=document.getElementById('tb-fab-curriculum');
+  var dis=document.getElementById('tb-fab-dismiss');
+  var tri=document.getElementById('tb-fab-trigger');
+  var ov=document.getElementById('modal-curriculum');
+  var cb=document.getElementById('tb-modal-close-btn');
+  var fb=document.getElementById('tb-modal-footer-close-btn');
+  try{if(sessionStorage.getItem(KEY)&&fab)fab.classList.add('tb-hidden');}catch(e){}
+  if(dis){dis.addEventListener('click',function(e){e.stopPropagation();if(fab)fab.classList.add('tb-hidden');try{sessionStorage.setItem(KEY,'1');}catch(e){}});}
+  if(tri){tri.addEventListener('click',open);tri.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});}
+  if(cb)cb.addEventListener('click',close);
+  if(fb)fb.addEventListener('click',close);
+  if(ov){ov.addEventListener('click',function(e){if(e.target===ov)close();});}
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&ov&&ov.classList.contains('active'))close();});
+}());
+</script>
+
+<script>
+/* ---- Share Button â€“ vollstaendig inline, alle Plattformen ---- */
+(function(){
+  var container   = document.getElementById('shareContainer');
+  var toggleBtn   = document.getElementById('shareToggleBtn');
+  var popup       = document.getElementById('sharePopup');
+  var liBtn       = document.getElementById('shareLinkedIn');
+  var twBtn       = document.getElementById('shareTwitter');
+  var fbBtn       = document.getElementById('shareFacebook');
+  var mastoBtn    = document.getElementById('shareMastodon');
+  var igBtn       = document.getElementById('shareInstagram');
+  var cpBtn       = document.getElementById('shareCopyLink');
+  var notice      = document.getElementById('copyNotification');
+  var mastoPrompt = document.getElementById('mastodonPrompt');
+  var mastoInput  = document.getElementById('mastodonInstance');
+  var mastoGo     = document.getElementById('mastodonGo');
+  if(!toggleBtn || !popup) return;
+  var pageUrl   = encodeURIComponent(window.location.href);
+  var pageTitle = encodeURIComponent(document.title);
+  var rawUrl    = window.location.href;
+  liBtn.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl;
+  twBtn.href = 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle;
+  fbBtn.href = 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl;
+  toggleBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = popup.classList.contains('open');
+    closeAll();
+    if(!isOpen) popup.classList.add('open');
+  });
+  mastoBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = mastoPrompt.classList.contains('open');
+    mastoPrompt.classList.toggle('open');
+    if(!isOpen && mastoInput) mastoInput.focus();
+  });
+  mastoGo.addEventListener('click', function(){
+    var instance = (mastoInput.value || '').trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
+    if(!instance){ mastoInput.focus(); return; }
+    var shareUrl = 'https://' + instance + '/share?text=' + pageTitle + '%20' + pageUrl;
+    window.open(shareUrl, '_blank', 'noopener,noreferrer');
+    closeAll();
+  });
+  mastoInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter') mastoGo.click();
+    if(e.key === 'Escape') closeAll();
+  });
+  igBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, 'Link kopiert â€“ jetzt in Instagram einfuegen');
+  });
+  cpBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, '&#10003; Link in Zwischenablage kopiert');
+  });
+  function copyToClipboard(text, msg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showNotice(msg); }, function(){ fallback(text, msg); });
+    } else { fallback(text, msg); }
+  }
+  function fallback(text, msg){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position='fixed'; ta.style.top='-9999px';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try{ document.execCommand('copy'); showNotice(msg); } catch(err){}
+    document.body.removeChild(ta);
+  }
+  function showNotice(msg){
+    if(!notice) return;
+    notice.innerHTML = msg;
+    notice.classList.add('visible');
+    setTimeout(function(){ notice.classList.remove('visible'); }, 3000);
+  }
+  function closeAll(){
+    popup.classList.remove('open');
+    if(mastoPrompt) mastoPrompt.classList.remove('open');
+  }
+  document.addEventListener('click', function(e){
+    if(!container.contains(e.target)) closeAll();
+  });
+})();
+</script>
+
+  <style>
+    /* ── Hamburger Nav ── */
+    #tb-nav .tb-nav-link {
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+      letter-spacing: .02em;
+      transition: color .2s;
+    }
+    #tb-nav .tb-nav-link:hover { color: #ffc451; }
+
+    /* Hamburger Button */
+    #tb-burger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 4px;
+      transition: background .2s;
+    }
+    #tb-burger:hover { background: rgba(255,196,81,.15); }
+    #tb-burger span {
+      display: block;
+      height: 2px;
+      width: 24px;
+      background: #fff;
+      border-radius: 2px;
+      transition: transform .25s ease, opacity .2s ease, width .2s ease;
+      transform-origin: center;
+    }
+    #tb-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    #tb-burger.open span:nth-child(2) { opacity: 0; width: 0; }
+    #tb-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Menu Panel */
+    #tb-menu {
+      position: fixed;
+      top: 0; right: 0;
+      width: min(300px, 88vw);
+      height: 100%;
+      background: #0b0b0b;
+      z-index: 10100;
+      transform: translateX(100%);
+      transition: transform .28s cubic-bezier(.4,0,.2,1);
+      overflow-y: auto;
+    }
+    #tb-menu.open { transform: translateX(0); }
+    #tb-menu-inner { padding: 20px 24px 40px; }
+
+    /* Close Button */
+    #tb-menu-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 6px;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-bottom: 28px;
+      transition: background .2s, color .2s;
+      line-height: 1;
+    }
+    #tb-menu-close:hover { background: #ffc451; color: #000; border-color: #ffc451; }
+
+    /* Menu Links */
+    #tb-menu ul { list-style: none; padding: 0; margin: 0; }
+    #tb-menu ul li + li { margin-top: 8px; }
+    #tb-menu ul li a {
+      display: flex;
+      align-items: center;
+      padding: 14px 18px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 8px;
+      color: #eee;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background .2s, color .2s, border-color .2s;
+    }
+    #tb-menu ul li a:hover {
+      background: #ffc451;
+      color: #000;
+      border-color: #ffc451;
+    }
+    #tb-menu ul li a i { font-size: 17px; flex-shrink: 0; }
+
+    /* Overlay */
+    #tb-menu-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.55);
+      z-index: 10090;
+      backdrop-filter: blur(2px);
+    }
+    #tb-menu-overlay.open { display: block; }
+
+    /* Focus ring */
+    #tb-menu a:focus-visible,
+    #tb-menu-close:focus-visible,
+    #tb-burger:focus-visible {
+      outline: 2px solid #ffc451;
+      outline-offset: 2px;
+    }
+  </style>
+  <script>
+  /* ── Hamburger Menu ── */
+  (function () {
+    var burger   = document.getElementById('tb-burger');
+    var menu     = document.getElementById('tb-menu');
+    var overlay  = document.getElementById('tb-menu-overlay');
+    var closeBtn = document.getElementById('tb-menu-close');
+    if (!burger || !menu) return;
+
+    function openMenu() {
+      menu.classList.add('open');
+      overlay.classList.add('open');
+      burger.classList.add('open');
+      burger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      var first = menu.querySelector('a, button');
+      if (first) setTimeout(function () { first.focus(); }, 300);
+    }
+
+    function closeMenu() {
+      menu.classList.remove('open');
+      overlay.classList.remove('open');
+      burger.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      burger.focus();
+    }
+
+    burger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menu.classList.contains('open') ? closeMenu() : openMenu();
+    });
+
+    closeBtn.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('open')) closeMenu();
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { closeMenu(); });
+    });
+  })();
+  </script>
+</body>
+</html>

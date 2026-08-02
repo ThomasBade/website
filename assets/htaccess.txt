@@ -1,0 +1,77 @@
+# =========================================================================
+# .htaccess für thomas-bade.de
+# Fix für LinkedIn/Facebook Sharing (206 -> 200 Response Code)
+# =========================================================================
+
+# Force 200 OK Response für HTML-Dateien
+<IfModule mod_headers.c>
+    # Entferne Accept-Ranges Header
+    Header unset Accept-Ranges
+    
+    # Stelle sicher, dass keine Partial Content Responses gesendet werden
+    <FilesMatch "\.(html|htm)$">
+        Header unset Accept-Ranges
+        Header set Accept-Ranges "none"
+    </FilesMatch>
+</IfModule>
+
+# Spezielle Regel für Social Media Crawler
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Verhindere Range-Requests für Social Media Bots
+    RewriteCond %{HTTP_USER_AGENT} (facebookexternalhit|LinkedInBot|Twitterbot|WhatsApp) [NC]
+    RewriteRule .* - [E=no-gzip:1]
+</IfModule>
+
+# =========================================================================
+# Optional: Weitere nützliche Einstellungen
+# =========================================================================
+
+# UTF-8 Encoding
+AddDefaultCharset UTF-8
+
+# MIME Types
+<IfModule mod_mime.c>
+    AddType text/html .html .htm
+    AddType text/css .css
+    AddType application/javascript .js
+</IfModule>
+
+# Browser Caching (für Performance)
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 1 hour"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+</IfModule>
+
+# Kompression (für Performance)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript
+
+</IfModule>
+# Plausible Proxy (Edge Tracking Prevention umgehen)
+RewriteRule ^stats/js/script\.js$ https://plausible.io/js/script.tagged-events.js [P,L]
+RewriteRule ^stats/api/event$ https://plausible.io/api/event [P,L]
+# =========================================================================
+# ── PWA: MIME-Type für Manifest ─────────────────────────────
+<IfModule mod_mime.c>
+    AddType application/manifest+json  .webmanifest
+</IfModule>
+
+# ── PWA: Service Worker nicht langfristig cachen ─────────────
+<IfModule mod_headers.c>
+    <FilesMatch "^sw\.js$">
+        Header set Cache-Control "no-cache, no-store, must-revalidate"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </FilesMatch>
+    <FilesMatch "^manifest\.webmanifest$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
+</IfModule>
+# =========================================================================
+# Ende

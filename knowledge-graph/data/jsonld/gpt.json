@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Künstliche Intelligenz",
+        "Gesundheitswesen",
+        "EU AI Act",
+        "Pflege",
+        "KI-Governance",
+        "Wissenschaft",
+        "KI-Ethik",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "KI-Kompetenz"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/gpt.html#webpage",
+      "url": "https://www.thomas-bade.de/gpt.html",
+      "headline": "KI im Gesundheitswesen und Code of Conduct",
+      "description": "Strategischer Einsatz von KI im Gesundheitswesen und in Kommunen: KI-Governance, EU AI Act Compliance, Risikobewertung und praxisnahe Implementierung. Beratung für Krankenhäuser, Pflege, Verwaltung und kommunale Entscheider.",
+      "abstract": "Auf dieser Webseite werden die wichtigsten Entwicklungen zusammengefasst – kompakt, praxisnah und strategisch ausgerichtet. Egal, ob KI im Krankenhaus, in der Pflege, bei Home Care Versorgungen, in der Daseinsvorsorge oder im kommunalen Management eingesetzt wird: Die regulatorischen Rahmenbedingungen sind ein entscheidender Faktor für erfolgreiche Projekte.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Wissenschaft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Ethik"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        }
+      ],
+      "keywords": [
+        "Künstliche Intelligenz",
+        "Gesundheitswesen",
+        "EU AI Act",
+        "Pflege",
+        "KI-Governance",
+        "Wissenschaft",
+        "KI-Ethik",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "KI-Kompetenz"
+      ]
+    }
+  ]
+}

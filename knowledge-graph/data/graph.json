@@ -1,0 +1,8557 @@
+{
+  "meta": {
+    "generated_at": "2026-08-02T11:03:46.601931+00:00",
+    "source": "C:\\Users\\info\\OneDrive\\Desktop\\WEB 2023\\Website\\DE",
+    "page_count": 52,
+    "method": "transparent heuristic v1"
+  },
+  "nodes": [
+    {
+      "id": "page:agentic",
+      "type": "page",
+      "label": "Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/agentic.html"
+    },
+    {
+      "id": "page:ai_monitoring",
+      "type": "page",
+      "label": "KI Monitoring im Regelbetrieb | Post-Deployment Monitoring für KI im Gesundheitswesen",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/ai_monitoring.html"
+    },
+    {
+      "id": "page:ai_sweden",
+      "type": "page",
+      "label": "AI Leadership Report 2026 – KI-Führung, Governance & Einordnung",
+      "score": 86,
+      "url": "https://www.thomas-bade.de/ai_sweden.html"
+    },
+    {
+      "id": "page:arise",
+      "type": "page",
+      "label": "State of Clinical AI Report 2026 – Klinische KI: Governance, Risiken & Einordnung",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/arise.html"
+    },
+    {
+      "id": "page:bmg",
+      "type": "page",
+      "label": "Digitalisierungsstrategie Pflege und Home Care",
+      "score": 86,
+      "url": "https://www.thomas-bade.de/bmg.html"
+    },
+    {
+      "id": "page:calster",
+      "type": "page",
+      "label": "Validierte KI Vorhersagemodelle – Kompetenz-Readiness | Thomas Bade",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/calster.html"
+    },
+    {
+      "id": "page:claude",
+      "type": "page",
+      "label": "KI-Produktivitätsanalyse mit Erkenntnissen der Anthropic-Studie",
+      "score": 64,
+      "url": "https://www.thomas-bade.de/claude.html"
+    },
+    {
+      "id": "page:coach",
+      "type": "page",
+      "label": "Menschen befähigen, KI verantwortungsvoll zu nutzen | Thomas Bade",
+      "score": 90,
+      "url": "https://www.thomas-bade.de/coach.html"
+    },
+    {
+      "id": "page:constitution",
+      "type": "page",
+      "label": "Claude's Verfassung: Ethische KI-Prinzipien & Sicherheitsstandards",
+      "score": 86,
+      "url": "https://www.thomas-bade.de/constitution.html"
+    },
+    {
+      "id": "page:control_panel",
+      "type": "page",
+      "label": "KI Control Panel für Entlassmanagement & Compliance | Thomas Bade",
+      "score": 82,
+      "url": "https://www.thomas-bade.de/control_panel.html"
+    },
+    {
+      "id": "page:control_quartier",
+      "type": "page",
+      "label": "Kommunale Versorgungsstrukturen analysieren | Quartiersmanagement",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/control_quartier.html"
+    },
+    {
+      "id": "page:decoding",
+      "type": "page",
+      "label": "DecodingTrust – Vertrauenswürdigkeit von GPT-Modellen",
+      "score": 70,
+      "url": "https://www.thomas-bade.de/decoding.html"
+    },
+    {
+      "id": "page:dikw",
+      "type": "page",
+      "label": "DIKW Pyramide – KI Kompetenz strukturiert aufbauen | Thomas Bade",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/dikw.html"
+    },
+    {
+      "id": "page:downloads",
+      "type": "page",
+      "label": "Downloads KI-Lernformate für das Gesundheitswesen | Thomas Bade",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/downloads.html"
+    },
+    {
+      "id": "page:em_ki",
+      "type": "page",
+      "label": "KI im Entlassmanagement | Krankenhaus und Plattformen",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/em_ki.html"
+    },
+    {
+      "id": "page:enquete",
+      "type": "page",
+      "label": "Enquete-Kommission Künstliche Intelligenz",
+      "score": 82,
+      "url": "https://www.thomas-bade.de/enquete.html"
+    },
+    {
+      "id": "page:esf",
+      "type": "page",
+      "label": "KI-Qualifizierung für Erwerbstätige – ESF+ | Thomas Bade",
+      "score": 90,
+      "url": "https://www.thomas-bade.de/esf-ki-qualifizierung.html"
+    },
+    {
+      "id": "page:esf_de",
+      "type": "page",
+      "label": "ESF+ Bundesländer – KI-Qualifizierung Transfer",
+      "score": 68,
+      "url": "https://www.thomas-bade.de/esf_de.html"
+    },
+    {
+      "id": "page:europe",
+      "type": "page",
+      "label": "Gesundheitsinvestitionen Europa: Prävention, Innovation & Value-based Health",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/europe.html"
+    },
+    {
+      "id": "page:fmea",
+      "type": "page",
+      "label": "FMEA im Gesundheitswesen – Risikoanalyse für KI & Medizinprodukte | Thomas Bade",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/fmea.html"
+    },
+    {
+      "id": "page:GPAI",
+      "type": "page",
+      "label": "GPAI-Modelle im Gesundheitswesen: EU AI Act Compliance-Checkliste für Krankenhäuser",
+      "score": 82,
+      "url": "https://www.thomas-bade.de/GPAI.html"
+    },
+    {
+      "id": "page:gpt",
+      "type": "page",
+      "label": "KI im Gesundheitswesen und Code of Conduct",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/gpt.html"
+    },
+    {
+      "id": "page:haip",
+      "type": "page",
+      "label": "Health AI Partnership (HAIP) – KI-Beschaffung & Vendor Disclosure Framework | Thomas Bade",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/haip.html"
+    },
+    {
+      "id": "page:impressum",
+      "type": "page",
+      "label": "Impressum",
+      "score": 74,
+      "url": "https://www.thomas-bade.de/impressum.html"
+    },
+    {
+      "id": "page:index",
+      "type": "page",
+      "label": "Digitale Souveränität im Gesundheitswesen – KI verstehen, steuern und nutzen",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/index.html"
+    },
+    {
+      "id": "page:iso_42001",
+      "type": "page",
+      "label": "ISO 42001 – KI-Managementsystem | KI-MIG-konforme Nachweisführung",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/iso_42001.html"
+    },
+    {
+      "id": "page:ki_kompetenzpflicht",
+      "type": "page",
+      "label": "Artikel 4 EU AI Act – Arbeitgeberpflicht KI-Kompetenz",
+      "score": 78,
+      "url": "https://www.thomas-bade.de/ki_kompetenzpflicht.html"
+    },
+    {
+      "id": "page:ki_verordnung",
+      "type": "page",
+      "label": "EU KI-Verordnung (AI Act) im Gesundheitswesen | KI-MIG in Kraft & Umsetzung",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/ki_verordnung.html"
+    },
+    {
+      "id": "page:kidelir",
+      "type": "page",
+      "label": "Partizipative KI-Entwicklung im Pflegekontext – KIDELIR Studie 2026 | Thomas Bade",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/kidelir.html"
+    },
+    {
+      "id": "page:kompetenz",
+      "type": "page",
+      "label": "KI-Kompetenz in der Pflege nach BAPID & MEESTAR Checkliste",
+      "score": 86,
+      "url": "https://www.thomas-bade.de/kompetenz.html"
+    },
+    {
+      "id": "page:leitbild",
+      "type": "page",
+      "label": "Leitbild – Digitale Souveränität & Europäische KI | thomas-bade.de",
+      "score": 78,
+      "url": "https://www.thomas-bade.de/leitbild.html"
+    },
+    {
+      "id": "page:literatur",
+      "type": "page",
+      "label": "Literaturverzeichnis – KI im Gesundheitswesen | Thomas Bade",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/literatur.html"
+    },
+    {
+      "id": "page:mdr_ki",
+      "type": "page",
+      "label": "KI Verordnung Medizinprodukte (MDR) | KI-MIG & Anhang-I-Fristen 2028",
+      "score": 90,
+      "url": "https://www.thomas-bade.de/mdr_ki.html"
+    },
+    {
+      "id": "page:medlog",
+      "type": "page",
+      "label": "MedLog – Protokollierung klinischer KI | KI-MIG Aufbewahrungspflichten",
+      "score": 70,
+      "url": "https://www.thomas-bade.de/medlog.html"
+    },
+    {
+      "id": "page:mission",
+      "type": "page",
+      "label": "Mission Statement Digital Sovereignty & European AI",
+      "score": 78,
+      "url": "https://www.thomas-bade.de/mission.html"
+    },
+    {
+      "id": "page:nursing",
+      "type": "page",
+      "label": "Nursing Informatics – Pflege, Daten und digitale Verantwortung | thomas-bade.de",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/nursing-informatics.html"
+    },
+    {
+      "id": "page:oecd",
+      "type": "page",
+      "label": "Stanford AI Index Report 2026 – Einordnung für Gesundheitswesen, Kommunen und Governance",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/stanford.html"
+    },
+    {
+      "id": "page:patient",
+      "type": "page",
+      "label": "KI bewerten, Patienten einbinden, KI demokratisieren",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/patient.html"
+    },
+    {
+      "id": "page:portal",
+      "type": "page",
+      "label": "KI-Lernformate für das Gesundheitswesen | Thomas Bade",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/portal.html"
+    },
+    {
+      "id": "page:praevention",
+      "type": "page",
+      "label": "KI in der Prävention – Governance, Bias & Predictive Policing",
+      "score": 86,
+      "url": "https://thomas-bade.de/praevention.html"
+    },
+    {
+      "id": "page:risk",
+      "type": "page",
+      "label": "KI-Risikomanagement im Gesundheitswesen | EU AI Act, Responsible AI Governance",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/risk.html"
+    },
+    {
+      "id": "page:sitemap",
+      "type": "page",
+      "label": "KI Wissens- und Lernportal – Site Map | Thomas Bade",
+      "score": 74,
+      "url": "https://www.thomas-bade.de/sitemap.html"
+    },
+    {
+      "id": "page:soziale_arbeit",
+      "type": "page",
+      "label": "KI in der Sozialen Arbeit | Thomas Bade",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/soziale_arbeit.html"
+    },
+    {
+      "id": "page:stanford",
+      "type": "page",
+      "label": "Stanford AI Index Report 2026 – Einordnung für Gesundheitswesen, Kommunen und Governance",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/stanford.html"
+    },
+    {
+      "id": "page:termin-answer",
+      "type": "page",
+      "label": "Let's talk!",
+      "score": 48,
+      "url": "https://www.thomas-bade.de/termin-answer.html"
+    },
+    {
+      "id": "page:termine",
+      "type": "page",
+      "label": "Let's talk!",
+      "score": 48,
+      "url": "https://www.thomas-bade.de/termine.html"
+    },
+    {
+      "id": "page:tripod",
+      "type": "page",
+      "label": "TRIPOD LLM – Reporting Checkliste",
+      "score": 92,
+      "url": "https://www.thomas-bade.de/tripod_llm.html"
+    },
+    {
+      "id": "page:undp",
+      "type": "page",
+      "label": "UNDP Digital Health & KI im Gesundheitswesen – Analyse & Lernformate",
+      "score": 78,
+      "url": "https://www.thomas-bade.de/undp.html"
+    },
+    {
+      "id": "page:vendor",
+      "type": "page",
+      "label": "Offenlegung von KI-Anbietern",
+      "score": 82,
+      "url": "https://www.thomas-bade.de/vendor.html"
+    },
+    {
+      "id": "page:who",
+      "type": "page",
+      "label": "World Health Organization (WHO) und Digital Health",
+      "score": 86,
+      "url": "https://www.thomas-bade.de/who.html"
+    },
+    {
+      "id": "page:wissen",
+      "type": "page",
+      "label": "Wissensmanagement mit KI – Erfahrungswissen sichern und transferieren",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/wissen.html"
+    },
+    {
+      "id": "page:wissenschaft",
+      "type": "page",
+      "label": "KI in Forschung und Wissenschaft",
+      "score": 100,
+      "url": "https://www.thomas-bade.de/wissenschaft.html"
+    },
+    {
+      "id": "topic:3506c72149",
+      "type": "topic",
+      "label": "Agentic AI",
+      "count": 4
+    },
+    {
+      "id": "topic:9913249b30",
+      "type": "topic",
+      "label": "Gesundheitswesen",
+      "count": 32
+    },
+    {
+      "id": "topic:3406d9b84c",
+      "type": "topic",
+      "label": "EU AI Act",
+      "count": 42
+    },
+    {
+      "id": "topic:dc179b52fb",
+      "type": "topic",
+      "label": "KI-Governance",
+      "count": 41
+    },
+    {
+      "id": "topic:05ebe08362",
+      "type": "topic",
+      "label": "DSGVO",
+      "count": 13
+    },
+    {
+      "id": "topic:3da775df8d",
+      "type": "topic",
+      "label": "Datenschutz",
+      "count": 24
+    },
+    {
+      "id": "topic:97ea1707a3",
+      "type": "topic",
+      "label": "Risikomanagement",
+      "count": 34
+    },
+    {
+      "id": "topic:b7aa2d3c95",
+      "type": "topic",
+      "label": "Medizinprodukte",
+      "count": 17
+    },
+    {
+      "id": "topic:2aa257402f",
+      "type": "topic",
+      "label": "Patientenzentrierung",
+      "count": 24
+    },
+    {
+      "id": "topic:21bb61eff8",
+      "type": "topic",
+      "label": "KI-Monitoring",
+      "count": 25
+    },
+    {
+      "id": "topic:423e555c5e",
+      "type": "topic",
+      "label": "Monitoring",
+      "count": 1
+    },
+    {
+      "id": "topic:e79e89b9cc",
+      "type": "topic",
+      "label": "Pflege",
+      "count": 31
+    },
+    {
+      "id": "topic:9824e6622d",
+      "type": "topic",
+      "label": "KI-Compliance",
+      "count": 18
+    },
+    {
+      "id": "topic:b26f6a78ae",
+      "type": "topic",
+      "label": "Regelbetrieb",
+      "count": 1
+    },
+    {
+      "id": "topic:6c6e1bfbaf",
+      "type": "topic",
+      "label": "KI-Kompetenz",
+      "count": 28
+    },
+    {
+      "id": "topic:1f0aef4f27",
+      "type": "topic",
+      "label": "Leadership",
+      "count": 1
+    },
+    {
+      "id": "topic:46a2a41cc6",
+      "type": "topic",
+      "label": "State",
+      "count": 1
+    },
+    {
+      "id": "topic:1dacaab7b3",
+      "type": "topic",
+      "label": "Clinical",
+      "count": 1
+    },
+    {
+      "id": "topic:4b1b4dc8cf",
+      "type": "topic",
+      "label": "Report",
+      "count": 3
+    },
+    {
+      "id": "topic:24749e6a9b",
+      "type": "topic",
+      "label": "Klinische",
+      "count": 1
+    },
+    {
+      "id": "topic:5a935787d6",
+      "type": "topic",
+      "label": "Governance",
+      "count": 2
+    },
+    {
+      "id": "topic:313b11a9b8",
+      "type": "topic",
+      "label": "FMEA",
+      "count": 6
+    },
+    {
+      "id": "topic:cf4200c484",
+      "type": "topic",
+      "label": "Validierte",
+      "count": 1
+    },
+    {
+      "id": "topic:cdcf67fe32",
+      "type": "topic",
+      "label": "Vorhersagemodelle",
+      "count": 1
+    },
+    {
+      "id": "topic:220e324a82",
+      "type": "topic",
+      "label": "Kompetenz-Readiness",
+      "count": 1
+    },
+    {
+      "id": "topic:2042101ac1",
+      "type": "topic",
+      "label": "Thomas",
+      "count": 4
+    },
+    {
+      "id": "topic:ec8316aafa",
+      "type": "topic",
+      "label": "KI-Produktivitätsanalyse",
+      "count": 1
+    },
+    {
+      "id": "topic:9e4c57f479",
+      "type": "topic",
+      "label": "Erkenntnissen",
+      "count": 1
+    },
+    {
+      "id": "topic:aed6cd2625",
+      "type": "topic",
+      "label": "Anthropic-Studie",
+      "count": 1
+    },
+    {
+      "id": "topic:a0c1690cc2",
+      "type": "topic",
+      "label": "Menschen",
+      "count": 1
+    },
+    {
+      "id": "topic:7d0d54e614",
+      "type": "topic",
+      "label": "befähigen",
+      "count": 1
+    },
+    {
+      "id": "topic:b3a87380da",
+      "type": "topic",
+      "label": "verantwortungsvoll",
+      "count": 1
+    },
+    {
+      "id": "topic:892ea6abc9",
+      "type": "topic",
+      "label": "Claude",
+      "count": 1
+    },
+    {
+      "id": "topic:a742922c82",
+      "type": "topic",
+      "label": "Verfassung",
+      "count": 1
+    },
+    {
+      "id": "topic:a4f09d5081",
+      "type": "topic",
+      "label": "Ethische",
+      "count": 1
+    },
+    {
+      "id": "topic:2f144d8cd2",
+      "type": "topic",
+      "label": "KI-Prinzipien",
+      "count": 1
+    },
+    {
+      "id": "topic:a1595abbb4",
+      "type": "topic",
+      "label": "Control",
+      "count": 1
+    },
+    {
+      "id": "topic:b8da6df14b",
+      "type": "topic",
+      "label": "Panel",
+      "count": 1
+    },
+    {
+      "id": "topic:48cb31eaaf",
+      "type": "topic",
+      "label": "Entlassmanagement",
+      "count": 1
+    },
+    {
+      "id": "topic:32e341b60f",
+      "type": "topic",
+      "label": "Kommunale",
+      "count": 1
+    },
+    {
+      "id": "topic:9697ab8ca1",
+      "type": "topic",
+      "label": "Versorgungsstrukturen",
+      "count": 1
+    },
+    {
+      "id": "topic:295ec5e7da",
+      "type": "topic",
+      "label": "analysieren",
+      "count": 1
+    },
+    {
+      "id": "topic:f3fa46b11c",
+      "type": "topic",
+      "label": "Quartiersmanagement",
+      "count": 1
+    },
+    {
+      "id": "topic:883aed33c6",
+      "type": "topic",
+      "label": "Prävention",
+      "count": 4
+    },
+    {
+      "id": "topic:9bae81755f",
+      "type": "topic",
+      "label": "DecodingTrust",
+      "count": 1
+    },
+    {
+      "id": "topic:5ddd2a6ae8",
+      "type": "topic",
+      "label": "Vertrauenswürdigkeit",
+      "count": 1
+    },
+    {
+      "id": "topic:fd3df184d4",
+      "type": "topic",
+      "label": "GPT-Modellen",
+      "count": 1
+    },
+    {
+      "id": "topic:10e883ae26",
+      "type": "topic",
+      "label": "ISO/IEC 42001",
+      "count": 3
+    },
+    {
+      "id": "topic:c2a048c4e5",
+      "type": "topic",
+      "label": "KI-Ethik",
+      "count": 7
+    },
+    {
+      "id": "topic:c20c35ef53",
+      "type": "topic",
+      "label": "Downloads",
+      "count": 1
+    },
+    {
+      "id": "topic:b5f7b1b510",
+      "type": "topic",
+      "label": "KI-Lernformate",
+      "count": 1
+    },
+    {
+      "id": "topic:4e2cbd30d4",
+      "type": "topic",
+      "label": "Künstliche Intelligenz",
+      "count": 12
+    },
+    {
+      "id": "topic:8138efd810",
+      "type": "topic",
+      "label": "Enquete-Kommission",
+      "count": 1
+    },
+    {
+      "id": "topic:224ac78006",
+      "type": "topic",
+      "label": "Künstliche",
+      "count": 1
+    },
+    {
+      "id": "topic:04957c4493",
+      "type": "topic",
+      "label": "Intelligenz",
+      "count": 1
+    },
+    {
+      "id": "topic:2fed04208b",
+      "type": "topic",
+      "label": "Wissenschaft",
+      "count": 7
+    },
+    {
+      "id": "topic:fe0bd74a32",
+      "type": "topic",
+      "label": "Bundesländer",
+      "count": 1
+    },
+    {
+      "id": "topic:daad392363",
+      "type": "topic",
+      "label": "KI-Qualifizierung",
+      "count": 1
+    },
+    {
+      "id": "topic:6950810f0d",
+      "type": "topic",
+      "label": "Transfer",
+      "count": 1
+    },
+    {
+      "id": "topic:c589571848",
+      "type": "topic",
+      "label": "Gesundheitsinvestitionen",
+      "count": 1
+    },
+    {
+      "id": "topic:5c4b925bf5",
+      "type": "topic",
+      "label": "Europa",
+      "count": 1
+    },
+    {
+      "id": "topic:32f28a2c73",
+      "type": "topic",
+      "label": "Innovation",
+      "count": 1
+    },
+    {
+      "id": "topic:cb15dace22",
+      "type": "topic",
+      "label": "Value-based",
+      "count": 1
+    },
+    {
+      "id": "topic:605669cab9",
+      "type": "topic",
+      "label": "Health",
+      "count": 3
+    },
+    {
+      "id": "topic:ee2b398667",
+      "type": "topic",
+      "label": "GPAI-Modelle",
+      "count": 1
+    },
+    {
+      "id": "topic:2479230521",
+      "type": "topic",
+      "label": "Compliance-Checkliste",
+      "count": 1
+    },
+    {
+      "id": "topic:ce8c344603",
+      "type": "topic",
+      "label": "Krankenhäuser",
+      "count": 1
+    },
+    {
+      "id": "topic:fd2648427f",
+      "type": "topic",
+      "label": "Impressum",
+      "count": 1
+    },
+    {
+      "id": "topic:ab6b2f9f56",
+      "type": "topic",
+      "label": "Digitale",
+      "count": 2
+    },
+    {
+      "id": "topic:fa6330d85b",
+      "type": "topic",
+      "label": "Souveränität",
+      "count": 2
+    },
+    {
+      "id": "topic:e1cd17eb3d",
+      "type": "topic",
+      "label": "KI-Managementsystem",
+      "count": 1
+    },
+    {
+      "id": "topic:efa100f31b",
+      "type": "topic",
+      "label": "KI-MIG-konforme",
+      "count": 1
+    },
+    {
+      "id": "topic:15f4029129",
+      "type": "topic",
+      "label": "Artikel",
+      "count": 1
+    },
+    {
+      "id": "topic:db6322f64f",
+      "type": "topic",
+      "label": "Arbeitgeberpflicht",
+      "count": 1
+    },
+    {
+      "id": "topic:c4c174dde8",
+      "type": "topic",
+      "label": "KI-Verordnung",
+      "count": 1
+    },
+    {
+      "id": "topic:745e8a9c69",
+      "type": "topic",
+      "label": "KI-MIG",
+      "count": 3
+    },
+    {
+      "id": "topic:6146f2c7de",
+      "type": "topic",
+      "label": "Partizipative",
+      "count": 1
+    },
+    {
+      "id": "topic:85bf8b307c",
+      "type": "topic",
+      "label": "KI-Entwicklung",
+      "count": 1
+    },
+    {
+      "id": "topic:d59033f93c",
+      "type": "topic",
+      "label": "Pflegekontext",
+      "count": 1
+    },
+    {
+      "id": "topic:6bab6dbcbc",
+      "type": "topic",
+      "label": "KIDELIR",
+      "count": 1
+    },
+    {
+      "id": "topic:88e60b1fcf",
+      "type": "topic",
+      "label": "Studie",
+      "count": 1
+    },
+    {
+      "id": "topic:2d7adf4d0d",
+      "type": "topic",
+      "label": "BAPID",
+      "count": 1
+    },
+    {
+      "id": "topic:3bedd70433",
+      "type": "topic",
+      "label": "MEESTAR",
+      "count": 1
+    },
+    {
+      "id": "topic:5a6c1dd258",
+      "type": "topic",
+      "label": "Checkliste",
+      "count": 2
+    },
+    {
+      "id": "topic:4917bde835",
+      "type": "topic",
+      "label": "Leitbild",
+      "count": 1
+    },
+    {
+      "id": "topic:7c9c4d8ece",
+      "type": "topic",
+      "label": "Europäische",
+      "count": 1
+    },
+    {
+      "id": "topic:227679c1c7",
+      "type": "topic",
+      "label": "Verordnung",
+      "count": 1
+    },
+    {
+      "id": "topic:ff8d2eb9e8",
+      "type": "topic",
+      "label": "MedLog",
+      "count": 1
+    },
+    {
+      "id": "topic:648f993b62",
+      "type": "topic",
+      "label": "Protokollierung",
+      "count": 1
+    },
+    {
+      "id": "topic:df731e178a",
+      "type": "topic",
+      "label": "klinischer",
+      "count": 1
+    },
+    {
+      "id": "topic:fb92d35ead",
+      "type": "topic",
+      "label": "Aufbewahrungspflichten",
+      "count": 1
+    },
+    {
+      "id": "topic:70d529695c",
+      "type": "topic",
+      "label": "Mission",
+      "count": 1
+    },
+    {
+      "id": "topic:2af6fd9ec7",
+      "type": "topic",
+      "label": "Statement",
+      "count": 1
+    },
+    {
+      "id": "topic:0bb8309239",
+      "type": "topic",
+      "label": "Digital",
+      "count": 3
+    },
+    {
+      "id": "topic:c567a01ec0",
+      "type": "topic",
+      "label": "Sovereignty",
+      "count": 1
+    },
+    {
+      "id": "topic:dfa6ea1d16",
+      "type": "topic",
+      "label": "European",
+      "count": 1
+    },
+    {
+      "id": "topic:c1311fa344",
+      "type": "topic",
+      "label": "Nursing",
+      "count": 1
+    },
+    {
+      "id": "topic:7502044331",
+      "type": "topic",
+      "label": "Informatics",
+      "count": 1
+    },
+    {
+      "id": "topic:45ebe6bd83",
+      "type": "topic",
+      "label": "Stanford",
+      "count": 2
+    },
+    {
+      "id": "topic:88fa71f0a6",
+      "type": "topic",
+      "label": "Index",
+      "count": 2
+    },
+    {
+      "id": "topic:cd7778c566",
+      "type": "topic",
+      "label": "Einordnung",
+      "count": 2
+    },
+    {
+      "id": "topic:2f572fb702",
+      "type": "topic",
+      "label": "Kommunen",
+      "count": 2
+    },
+    {
+      "id": "topic:9fd4a5ff06",
+      "type": "topic",
+      "label": "bewerten",
+      "count": 1
+    },
+    {
+      "id": "topic:b940c638fb",
+      "type": "topic",
+      "label": "Patienten",
+      "count": 1
+    },
+    {
+      "id": "topic:9e73e23ace",
+      "type": "topic",
+      "label": "einbinden",
+      "count": 1
+    },
+    {
+      "id": "topic:f17d2bb097",
+      "type": "topic",
+      "label": "Predictive",
+      "count": 1
+    },
+    {
+      "id": "topic:91b96c0ab9",
+      "type": "topic",
+      "label": "Policing",
+      "count": 1
+    },
+    {
+      "id": "topic:cfc4e76040",
+      "type": "topic",
+      "label": "Wissens",
+      "count": 1
+    },
+    {
+      "id": "topic:97eccc6754",
+      "type": "topic",
+      "label": "Soziale Arbeit",
+      "count": 1
+    },
+    {
+      "id": "topic:a5c93943ef",
+      "type": "topic",
+      "label": "Sozialen",
+      "count": 1
+    },
+    {
+      "id": "topic:8703ee40c0",
+      "type": "topic",
+      "label": "Arbeit",
+      "count": 1
+    },
+    {
+      "id": "topic:1f1fe4baeb",
+      "type": "topic",
+      "label": "TRIPOD",
+      "count": 1
+    },
+    {
+      "id": "topic:c5562ce2e2",
+      "type": "topic",
+      "label": "Reporting",
+      "count": 1
+    },
+    {
+      "id": "topic:31045a275b",
+      "type": "topic",
+      "label": "Analyse",
+      "count": 1
+    },
+    {
+      "id": "topic:e2da23c264",
+      "type": "topic",
+      "label": "Lernformate",
+      "count": 1
+    },
+    {
+      "id": "topic:b925ef2a23",
+      "type": "topic",
+      "label": "Offenlegung",
+      "count": 1
+    },
+    {
+      "id": "topic:588af77b66",
+      "type": "topic",
+      "label": "KI-Anbietern",
+      "count": 1
+    },
+    {
+      "id": "topic:f5a7924e62",
+      "type": "topic",
+      "label": "World",
+      "count": 1
+    },
+    {
+      "id": "topic:d6b258792f",
+      "type": "topic",
+      "label": "Organization",
+      "count": 1
+    },
+    {
+      "id": "topic:5db9dcbfec",
+      "type": "topic",
+      "label": "Wissensmanagement",
+      "count": 1
+    },
+    {
+      "id": "topic:54f24ef5b0",
+      "type": "topic",
+      "label": "Forschung",
+      "count": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "page:agentic",
+      "target": "topic:3506c72149",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:ai_sweden",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:agentic",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:423e555c5e",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "topic:b26f6a78ae",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_monitoring",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "topic:1f0aef4f27",
+      "type": "about"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ai_sweden",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:46a2a41cc6",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:1dacaab7b3",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:4b1b4dc8cf",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:24749e6a9b",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "topic:5a935787d6",
+      "type": "about"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:arise",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:313b11a9b8",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:ai_monitoring",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:calster",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:control_panel",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:control_quartier",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:dikw",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:em_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:enquete",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:europe",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:gpt",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:kidelir",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:nursing",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:patient",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:soziale_arbeit",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:stanford",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:tripod",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:undp",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:vendor",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:who",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:bmg",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:cf4200c484",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:cdcf67fe32",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:220e324a82",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:2042101ac1",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:calster",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:ec8316aafa",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:9e4c57f479",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:aed6cd2625",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:claude",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:a0c1690cc2",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:7d0d54e614",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "topic:b3a87380da",
+      "type": "about"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:coach",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:892ea6abc9",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:a742922c82",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:a4f09d5081",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "topic:2f144d8cd2",
+      "type": "about"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:ai_monitoring",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:claude",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:gpt",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:who",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:constitution",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:a1595abbb4",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:b8da6df14b",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "topic:48cb31eaaf",
+      "type": "about"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_panel",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:32e341b60f",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:9697ab8ca1",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:295ec5e7da",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:f3fa46b11c",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "topic:883aed33c6",
+      "type": "about"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:dikw",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:control_quartier",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:9bae81755f",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:5ddd2a6ae8",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:fd3df184d4",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:10e883ae26",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "topic:c2a048c4e5",
+      "type": "about"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:ai_sweden",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:calster",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:iso_42001",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:medlog",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:vendor",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:decoding",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:c2a048c4e5",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:313b11a9b8",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:control_quartier",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:dikw",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:c20c35ef53",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:b5f7b1b510",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:2042101ac1",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:stanford",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:downloads",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:em_ki",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:8138efd810",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:224ac78006",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:04957c4493",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:2fed04208b",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "topic:c2a048c4e5",
+      "type": "about"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:enquete",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:313b11a9b8",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:ai_monitoring",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:dikw",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:esf_de",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:gpt",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:kidelir",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:patient",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:fe0bd74a32",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:daad392363",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:6950810f0d",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:esf",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:esf_de",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "topic:883aed33c6",
+      "type": "about"
+    },
+    {
+      "source": "page:europe",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:europe",
+      "target": "topic:c589571848",
+      "type": "about"
+    },
+    {
+      "source": "page:europe",
+      "target": "topic:5c4b925bf5",
+      "type": "about"
+    },
+    {
+      "source": "page:europe",
+      "target": "topic:32f28a2c73",
+      "type": "about"
+    },
+    {
+      "source": "page:europe",
+      "target": "topic:cb15dace22",
+      "type": "about"
+    },
+    {
+      "source": "page:europe",
+      "target": "topic:605669cab9",
+      "type": "about"
+    },
+    {
+      "source": "page:europe",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:europe",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:313b11a9b8",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:fmea",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:ee2b398667",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:2479230521",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:ce8c344603",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:GPAI",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:2fed04208b",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:c2a048c4e5",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:gpt",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:haip",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:impressum",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:impressum",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:impressum",
+      "target": "topic:fd2648427f",
+      "type": "about"
+    },
+    {
+      "source": "page:impressum",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:impressum",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:impressum",
+      "target": "topic:313b11a9b8",
+      "type": "about"
+    },
+    {
+      "source": "page:impressum",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:impressum",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:impressum",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:c2a048c4e5",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:ab6b2f9f56",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "topic:fa6330d85b",
+      "type": "about"
+    },
+    {
+      "source": "page:index",
+      "target": "page:ai_monitoring",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:claude",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:europe",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:gpt",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:iso_42001",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:ki_kompetenzpflicht",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:stanford",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:index",
+      "target": "page:undp",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:10e883ae26",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:e1cd17eb3d",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "topic:efa100f31b",
+      "type": "about"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:iso_42001",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:15f4029129",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:db6322f64f",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_kompetenzpflicht",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:c4c174dde8",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "topic:745e8a9c69",
+      "type": "about"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:ki_verordnung",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:6146f2c7de",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:85bf8b307c",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:d59033f93c",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:6bab6dbcbc",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:88e60b1fcf",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:2042101ac1",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kidelir",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:2d7adf4d0d",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:3bedd70433",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:5a6c1dd258",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:kompetenz",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:4917bde835",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:ab6b2f9f56",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:fa6330d85b",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "topic:7c9c4d8ece",
+      "type": "about"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:esf",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:leitbild",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:3506c72149",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:2fed04208b",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "topic:c2a048c4e5",
+      "type": "about"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:stanford",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:literatur",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:227679c1c7",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "topic:745e8a9c69",
+      "type": "about"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:control_panel",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:enquete",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mdr_ki",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:ff8d2eb9e8",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:648f993b62",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:df731e178a",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:745e8a9c69",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:fb92d35ead",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:ai_sweden",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:medlog",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:70d529695c",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:2af6fd9ec7",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:0bb8309239",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:c567a01ec0",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:dfa6ea1d16",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:esf",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:mission",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:c1311fa344",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "topic:7502044331",
+      "type": "about"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:nursing",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:45ebe6bd83",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:88fa71f0a6",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:4b1b4dc8cf",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:cd7778c566",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "topic:2f572fb702",
+      "type": "about"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:oecd",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:9fd4a5ff06",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:b940c638fb",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "topic:9e73e23ace",
+      "type": "about"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:patient",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:stanford",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:portal",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:883aed33c6",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:2fed04208b",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:5a935787d6",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:f17d2bb097",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:91b96c0ab9",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:praevention",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:3506c72149",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:10e883ae26",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:ai_monitoring",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:risk",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:b7aa2d3c95",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "topic:cfc4e76040",
+      "type": "about"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:agentic",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:ai_monitoring",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:ai_sweden",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:calster",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:claude",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:control_panel",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:control_quartier",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:decoding",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:dikw",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:downloads",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:em_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:enquete",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:esf",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:esf_de",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:europe",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:gpt",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:iso_42001",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:ki_kompetenzpflicht",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:kidelir",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:literatur",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:medlog",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:nursing",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:patient",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:soziale_arbeit",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:stanford",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:tripod",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:undp",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:vendor",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:who",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:wissen",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:sitemap",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:97eccc6754",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:2fed04208b",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:a5c93943ef",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:8703ee40c0",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:2042101ac1",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:soziale_arbeit",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:6c6e1bfbaf",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:45ebe6bd83",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:88fa71f0a6",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:4b1b4dc8cf",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:cd7778c566",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "topic:2f572fb702",
+      "type": "about"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:stanford",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termin-answer",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:termine",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:1f1fe4baeb",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:c5562ce2e2",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:5a6c1dd258",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:2fed04208b",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:c2a048c4e5",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:tripod",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:883aed33c6",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:0bb8309239",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:605669cab9",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:31045a275b",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "topic:e2da23c264",
+      "type": "about"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:GPAI",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:kompetenz",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:undp",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:b925ef2a23",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:588af77b66",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:21bb61eff8",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:vendor",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:605669cab9",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:f5a7924e62",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:d6b258792f",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:0bb8309239",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:who",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:9913249b30",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:9824e6622d",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:05ebe08362",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:313b11a9b8",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "topic:5db9dcbfec",
+      "type": "about"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:fmea",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:patient",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:termine",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissen",
+      "target": "page:wissenschaft",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:2fed04208b",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:97ea1707a3",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:2aa257402f",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:3406d9b84c",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:3da775df8d",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:3506c72149",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:54f24ef5b0",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:4e2cbd30d4",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "topic:e79e89b9cc",
+      "type": "about"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:arise",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:bmg",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:coach",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:constitution",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:gpt",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:haip",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:impressum",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:index",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:ki_verordnung",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:leitbild",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:mdr_ki",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:mission",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:oecd",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:portal",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:praevention",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:risk",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:sitemap",
+      "type": "linksTo"
+    },
+    {
+      "source": "page:wissenschaft",
+      "target": "page:termine",
+      "type": "linksTo"
+    }
+  ]
+}

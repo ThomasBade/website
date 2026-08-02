@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Gesundheitswesen",
+        "KI-Kompetenz",
+        "KI-Governance",
+        "Pflege",
+        "KI-Monitoring",
+        "Stanford",
+        "Index",
+        "Report",
+        "Einordnung",
+        "Kommunen"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/stanford.html#webpage",
+      "url": "https://www.thomas-bade.de/stanford.html",
+      "headline": "Stanford AI Index Report 2026 – Einordnung für Gesundheitswesen, Kommunen und Governance",
+      "description": "Deutschsprachige Einordnung des Stanford AI Index Report 2026 für Gesundheitswesen, Kommunen und regulierte Organisationen: Adoption, klinische KI, Governance, AI Sovereignty, Bildung und betriebliche Steuerung.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Stanford AI Index Report 2026 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Executive Summary Die eigentliche Frage ist nicht, was KI kann — sondern wie sie sicher eingesetzt wird! Der Stanford AI Index Report 2026 zeigt sehr deutlich, dass sich die Technologie schneller entwickelt, als Regulierung, Bewertungsverfahren und Organisationen mithalten können.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Stanford"
+        },
+        {
+          "@type": "Thing",
+          "name": "Index"
+        },
+        {
+          "@type": "Thing",
+          "name": "Report"
+        },
+        {
+          "@type": "Thing",
+          "name": "Einordnung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kommunen"
+        }
+      ],
+      "keywords": [
+        "Gesundheitswesen",
+        "KI-Kompetenz",
+        "KI-Governance",
+        "Pflege",
+        "KI-Monitoring",
+        "Stanford",
+        "Index",
+        "Report",
+        "Einordnung",
+        "Kommunen"
+      ]
+    }
+  ]
+}

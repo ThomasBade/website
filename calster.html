@@ -1,0 +1,2185 @@
+
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>Validierte KI Vorhersagemodelle – Kompetenz-Readiness | Thomas Bade</title>
+
+<meta name="description" content="Klinische KI-Vorhersagemodelle kritisch bewerten: Interaktiver Kompetenz-Readiness-Check basierend auf Van Calster et al. 2023 (BMC Medicine). Validierung, Kalibrierung, c-Statistik und EU AI Act Art. 4 – für Kliniken, Pflege und Gesundheitswesen.">
+
+<meta name="keywords" content="Validierte Vorhersagemodelle, Van Calster, TRIPOD, interne Validierung, externe Validierung, c-Statistik, AUC, Kalibrierung, Kalibrierungsdrift, EU AI Act Art. 4, Kompetenz-Readiness, Hochrisiko-KI, klinische KI, EuroSCORE, Prognosemodell, Patientensicherheit, Thomas Bade">
+
+<meta name="author" content="Thomas Bade">
+
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+<link rel="canonical" href="https://www.thomas-bade.de/calster.html">
+
+<!-- ═══════════════════════════════════════ -->
+<!-- OPEN GRAPH -->
+<!-- ═══════════════════════════════════════ -->
+
+<meta property="fb:app_id" content="1526070366197506" />
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Thomas Bade – KI-Compliance Beratung">
+<meta property="og:title" content="Validierte KI-Vorhersagemodelle – Kompetenz-Readiness | Thomas Bade">
+<meta property="og:description" content="Klinische KI-Vorhersagemodelle kritisch bewerten: Interaktiver Selbsttest zu Validierung, Kalibrierung und EU AI Act Art. 4 – basierend auf Van Calster et al. 2023 (BMC Medicine). Für Kliniken, Pflege und Gesundheitswesen.">
+<meta property="og:url" content="https://www.thomas-bade.de/calster.html">
+<meta property="og:image" content="https://www.thomas-bade.de/assets/img/calster_social.jpg">
+
+<!-- ═══════════════════════════════════════ -->
+<!-- TWITTER / X -->
+<!-- ═══════════════════════════════════════ -->
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Validierte KI-Vorhersagemodelle – Kompetenz-Readiness | Thomas Bade">
+<meta name="twitter:description" content="Klinische KI-Vorhersagemodelle kritisch bewerten: Interaktiver Selbsttest zu Validierung, Kalibrierung und EU AI Act Art. 4 – basierend auf Van Calster et al. 2023.">
+<meta name="twitter:image" content="https://www.thomas-bade.de/assets/img/calster_social.jpg">
+
+<!-- ═══════════════════════════════════════ -->
+<!-- BREADCRUMB STRUCTURED DATA -->
+<!-- ═══════════════════════════════════════ -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Startseite",
+      "item": "https://www.thomas-bade.de/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "KI Wissensarchitektur",
+      "item": "https://www.thomas-bade.de/sitemap.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Validierte KI-Vorhersagemodelle",
+      "item": "https://www.thomas-bade.de/calster.html"
+    }
+  ]
+}
+</script>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- ORGANIZATION SCHEMA -->
+<!-- ═══════════════════════════════════════ -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Thomas Bade",
+  "url": "https://www.thomas-bade.de",
+  "logo": "https://www.thomas-bade.de/assets/img/logo-transparent.png",
+  "sameAs": [
+    "https://www.linkedin.com",
+    "https://x.com/thomasbade"
+  ]
+}
+</script>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- WEBPAGE SCHEMA -->
+<!-- ═══════════════════════════════════════ -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Validierte KI-Vorhersagemodelle – Kompetenz-Readiness",
+  "description": "Klinische KI-Vorhersagemodelle kritisch bewerten: Interaktiver Kompetenz-Readiness-Check basierend auf Van Calster et al. 2023 (BMC Medicine). Validierung, Kalibrierung, c-Statistik und EU AI Act Art. 4.",
+  "dateModified": "2026-07-08",
+  "url": "https://www.thomas-bade.de/calster.html",
+  "inLanguage": "de-DE",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Thomas Bade",
+    "url": "https://www.thomas-bade.de"
+  }
+}
+</script>
+
+  <!-- Favicons -->
+ <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon.png">
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="https://www.thomas-bade.de/assets/img/apple-touch-icon.png">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ <!-- modal-kit.css entfernt: Modal komplett inline gesteuert -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://thomas-bade.de/assets/js/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://thomas-bade.de/assets/js/html2canvas.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #2c5282;
+            --success-color: #38a169;
+            --warning-color: #d69e2e;
+            --danger-color: #e53e3e;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7fafc;
+            color: #2d3748;
+        }
+        
+        .header-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #4a5568 100%);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .card {
+            border: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+        
+        .card-header {
+            background-color: #edf2f7;
+            border-bottom: 2px solid var(--primary-color);
+            font-weight: 600;
+            padding: 1rem 1.5rem;
+        }
+        
+        .criterion-number {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 6px;
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+        
+        .form-select {
+            border: 2px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 0.6rem;
+            transition: all 0.3s;
+        }
+        
+        .form-select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(44, 82, 130, 0.15);
+        }
+        
+        .grade-display {
+            font-size: 1.8rem;
+            font-weight: bold;
+            padding: 0.8rem;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .grade-excellent {
+            background-color: #c6f6d5;
+            color: #22543d;
+            border: 2px solid var(--success-color);
+        }
+        
+        .grade-good {
+            background-color: #fefcbf;
+            color: #744210;
+            border: 2px solid var(--warning-color);
+        }
+        
+        .grade-poor {
+            background-color: #fed7d7;
+            color: #742a2a;
+            border: 2px solid var(--danger-color);
+        }
+        
+        .management-summary {
+            background: white;
+            border-left: 5px solid var(--primary-color);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .overall-grade {
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+        }
+        
+        .recommendation-box {
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+            border-left: 5px solid;
+        }
+        
+        .recommendation-green {
+            background-color: #c6f6d5;
+            border-color: var(--success-color);
+        }
+        
+        .recommendation-yellow {
+            background-color: #fefcbf;
+            border-color: var(--warning-color);
+        }
+        
+        .recommendation-red {
+            background-color: #fed7d7;
+            border-color: var(--danger-color);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary:hover {
+            background-color: #1a365d;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .evidence-badge {
+            background-color: #bee3f8;
+            color: #2c5282;
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            display: inline-block;
+        }
+        
+        .footer-section {
+            background-color: #2d3748;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
+        /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+   <!-- =======================================================
+  * Template Name: Gp - v4.10.0
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+   <style>
+    a.btn.btn-ci {
+      background-color: #ffc451 !important;
+      border: 1px solid #ffc451 !important;
+      color: #000 !important;
+      font-weight: 600;
+    }
+
+    a.btn.btn-ci:hover,
+    a.btn.btn-ci:focus {
+      background-color: #ffffff !important;
+      border: 1px solid #ffc451 !important;
+      color: #000 !important;
+    }
+      /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+  <style>
+  button.btn.btn-ci {
+    background-color: #ffc451 !important;
+    border: 1px solid #ffc451 !important;
+    color: #000 !important;
+    font-weight: 600;
+  }
+
+  button.btn.btn-ci:hover,
+  button.btn.btn-ci:focus {
+    background-color: #ffffff !important;
+    border: 1px solid #ffc451 !important;
+    color: #000 !important;
+  }
+
+  button.btn.btn-ci:active {
+    background-color: #e0a800 !important;
+    border-color: #e0a800 !important;
+    color: #000 !important;
+  }
+  
+   /* ── Footer ── */
+    #footer { background:#000 !important; }
+    #footer .footer-top { background:#000 !important; padding:40px 0 20px; }
+    #footer .footer-top p { font-size:14px !important; line-height:2 !important; margin-bottom:4px; }
+    #footer .footer-top a { color:#ccc !important; font-size:14px !important; text-decoration:none !important; }
+    #footer .footer-top a:hover { color:#ffc451 !important; }
+    #footer .footer-top img { height:120px !important; margin-bottom:20px !important; }
+    #footer .copyright { display:none; }
+    #footer .footer-label { color:#ffc451 !important; }
+
+    /* ── Footer Dropdown ── */
+    .footer-dropdown { position:relative; display:inline-block; margin-bottom:16px; }
+    .footer-dd-trigger { background:#1a1a1a; border:1px solid #333; color:#ccc; font-size:13px; padding:8px 16px; border-radius:4px; cursor:pointer; display:flex; align-items:center; gap:8px; transition:border-color 0.2s, color 0.2s; font-family:inherit; }
+    .footer-dd-trigger:hover { border-color:#ffc451; color:#ffc451; }
+    .footer-dd-chevron { font-size:10px; color:#ffc451; transition:transform 0.2s; }
+    .footer-dd-menu { display:none; position:absolute; bottom:calc(100% + 6px); left:0; background:#1a1a1a; border:1px solid #333; border-top:2px solid #ffc451; border-radius:4px; list-style:none; padding:6px 0; min-width:280px; z-index:9999; box-shadow:0 -12px 32px rgba(0,0,0,0.6); column-count:2; column-gap:0; }
+    .footer-dd-menu.open { display:block; }
+    .footer-dd-trigger.open .footer-dd-chevron { transform:rotate(180deg); }
+    .footer-dd-menu li { break-inside:avoid; }
+    .footer-dd-menu li a { display:block; padding:6px 14px; font-size:12px !important; color:#aaa !important; text-decoration:none !important; white-space:nowrap; transition:color 0.15s, background 0.15s; line-height:1.6 !important; }
+    .footer-dd-menu li a:hover { color:#ffc451 !important; background:rgba(255,196,81,0.06); }
+/* ── Site Search ── */
+    .risk-search-wrapper { position: relative; margin: 20px 0; z-index: 1000; display: flex; justify-content: flex-start; }
+    .search-bar { position: relative; display: block; }
+    .search-input-wrapper { position: relative; display: flex; align-items: center; background: #ffffff !important; border: 2px solid #ced4da; border-radius: 8px; padding: 8px 14px; transition: all 0.3s ease; min-width: 300px; height: 42px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .search-input-wrapper:hover { background: #ffffff !important; border-color: #0066cc; box-shadow: 0 3px 10px rgba(0,0,0,0.15); }
+    .search-input-wrapper:focus-within { background: #ffffff !important; border-color: #0066cc; box-shadow: 0 0 0 4px rgba(0,102,204,0.2), 0 3px 10px rgba(0,0,0,0.15); }
+    .search-icon { color: #6c757d; flex-shrink: 0; margin-right: 8px; }
+    .search-input { flex: 1; border: none; outline: none; font-size: 14px; color: #212529; background: transparent !important; min-width: 0; font-family: inherit; }
+    .search-input::placeholder { color: #000000; opacity: 1; }
+    .search-input:focus { outline: none; }
+    .search-clear { background: none; border: none; color: #000000; cursor: pointer; padding: 2px; margin-left: 4px; display: flex; align-items: center; justify-content: center; border-radius: 3px; transition: all 0.2s ease; flex-shrink: 0; }
+    .search-clear:hover { background: rgba(0,0,0,0.05); color: #212529; }
+    .search-results { position: absolute; top: calc(100% + 8px); left: 0; width: 500px; max-width: 95vw; max-height: 500px; overflow-y: auto; background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); z-index: 10000; }
+    .search-results-header { padding: 10px 16px; background: #f8f9fa; border-bottom: 1px solid #dee2e6; font-size: 12px; color: #6c757d; font-weight: 500; }
+    .search-results-list { padding: 4px 0; }
+    .search-result-item { display: block; padding: 12px 16px; text-decoration: none; color: inherit; transition: all 0.2s ease; border-left: 3px solid transparent; cursor: pointer; }
+    .search-result-item:hover, .search-result-item.selected { background: #f8f9fa; border-left-color: #0066cc; }
+    .search-result-title { font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
+    .search-result-icon { width: 14px; height: 14px; color: #0066cc; flex-shrink: 0; }
+    .search-result-excerpt { font-size: 12px; color: #6c757d; line-height: 1.5; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .search-result-excerpt mark { background: rgba(255,196,81,0.4); color: #212529; padding: 1px 3px; border-radius: 2px; font-weight: 500; }
+    .search-result-meta { font-size: 11px; color: #adb5bd; display: flex; align-items: center; gap: 8px; }
+    .search-result-breadcrumb { display: flex; align-items: center; gap: 4px; }
+    .search-result-breadcrumb span::after { content: "›"; margin-left: 4px; color: #dee2e6; }
+    .search-result-breadcrumb span:last-child::after { content: none; }
+    .no-results { padding: 40px 20px; text-align: center; background: #ffffff; position: absolute; top: calc(100% + 8px); left: 0; width: 350px; max-width: 95vw; border: 1px solid #dee2e6; border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); z-index: 10000; }
+    .no-results svg { color: #adb5bd; margin-bottom: 12px; }
+    .no-results-title { font-size: 14px; font-weight: 600; color: #6c757d; margin-bottom: 4px; }
+    .no-results-text { font-size: 12px; color: #adb5bd; }
+    .search-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); z-index: 9998; }
+    .search-overlay.active { display: block; }
+    .search-results::-webkit-scrollbar { width: 8px; }
+    .search-results::-webkit-scrollbar-track { background: #f8f9fa; }
+    .search-results::-webkit-scrollbar-thumb { background: #dee2e6; border-radius: 4px; }
+    .search-results::-webkit-scrollbar-thumb:hover { background: #adb5bd; }
+    @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+    .search-results, .no-results { animation: slideDown 0.2s ease; }
+    @media (max-width: 991px) { .risk-search-wrapper { position: relative; top: 0; right: 0; margin-bottom: 20px; width: 100%; display: flex; justify-content: flex-start; } .search-input-wrapper { min-width: 280px; } .search-results, .no-results { left: 0; right: auto; } }
+    @media (max-width: 768px) { .risk-search-wrapper { justify-content: flex-start; } .search-input-wrapper { padding: 7px 12px; height: 40px; min-width: 100%; max-width: 100%; } .search-input { font-size: 14px; } .search-results, .no-results { left: 0; right: 0; width: 100%; } }
+
+
+
+/* DIKW Tooltip-System für Premium-Begriffe */
+.prrc-tooltip-wrapper {
+  position: relative;
+  display: inline;
+  cursor: help;
+}
+
+.prrc-highlight {
+  color: #000000;
+  font-weight: 400;
+  white-space: nowrap;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #000000;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
+
+.prrc-highlight:hover,
+.prrc-tooltip-wrapper:focus .prrc-highlight {
+  color: #000000;
+  background: rgba(255,196,81,.45);
+}
+
+.prrc-tooltip-box {
+  display: none;
+}
+
+#prrc-floating-tooltip {
+  display: none;
+  position: fixed;
+  width: 340px;
+  max-width: calc(100vw - 30px);
+  background: #1a1a1a;
+  color: #f0f0f0;
+  font-size: 13px;
+  line-height: 1.6;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border-left: 3px solid #ffc451;
+  box-shadow: 0 6px 20px rgba(0,0,0,.4);
+  z-index: 2147483000;
+  pointer-events: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+#prrc-floating-tooltip strong {
+  color: #ffc451;
+}
+
+@keyframes prrcFadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+    /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+
+
+
+
+  <!-- ═══ Main Section CI (Soziale Arbeit) ═══ -->
+  <style>
+
+    :root{--ci:#ffc451;--dark:#151515;--ink:#212529;--muted:#6c757d;--blue:#53868b;--red:#d34e36;--soft:#fff8e6;--line:#e8e8e8;}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;}
+    a{color:#2d6f74;text-decoration:none} a:hover{color:#000;text-decoration:underline}
+    #header{background:#000;padding:14px 0;position:sticky;top:0;z-index:1000;box-shadow:0 2px 18px rgba(0,0,0,.18)}
+    #header .brand{font-weight:800;color:#fff;letter-spacing:.02em;font-size:1.2rem}.brand span{color:var(--ci)}
+    .nav-link{color:#fff!important;font-weight:600}.btn-ci{background:var(--ci);color:#000;border:0;border-radius:999px;font-weight:800;padding:.65rem 1.1rem}.btn-ci:hover{background:#fff;color:#000;text-decoration:none}
+    .hero{background:#53868b;color:#fff;padding:92px 0 72px;position:relative;overflow:hidden;border-radius:22px;margin:30px 0 0;}.hero:after{content:"";position:absolute;right:-90px;top:-90px;width:360px;height:360px;background:rgba(255,196,81,.18);border-radius:50%;filter:blur(6px)}
+    .hero,
+    .hero h1,
+    .hero p,
+    .hero .metric strong,
+    .hero .metric span{
+      color:#fff !important;
+    }
+    .hero .kicker{
+      background:rgba(255,255,255,.12);
+      border:1px solid rgba(255,255,255,.28);
+      color:#fff !important;
+    }
+    .hero .hero-card{
+      background:#ffffff;
+      color:#000;
+      border:1px solid rgba(255,255,255,.18);
+      box-shadow:0 20px 60px rgba(0,0,0,.20);
+    }
+    .hero .hero-card strong{
+      color:#000 !important;
+    }
+    .hero .hero-card span{
+      color:#333 !important;
+    }
+    .hero .metric{
+      border-left:5px solid #53868b;
+    }
+
+    .kicker{display:inline-flex;align-items:center;gap:.45rem;background:rgba(255,196,81,.13);border:1px solid rgba(255,196,81,.5);color:var(--ci);border-radius:999px;padding:.4rem .8rem;font-weight:800;font-size:.85rem;letter-spacing:.03em;text-transform:uppercase}.hero h1{font-weight:900;line-height:1.05;font-size:clamp(2.2rem,5vw,4.8rem);margin:1rem 0}.hero p{font-size:1.15rem;color:#f3f3f3;max-width:780px}.hero-card{background:#fff;color:#111;border-radius:22px;padding:28px;box-shadow:0 20px 60px rgba(0,0,0,.35);position:relative;z-index:1}.hero-card .metric{border-left:5px solid var(--ci);padding-left:14px;margin-bottom:18px}.hero-card strong{font-size:1.5rem;display:block}
+    section{padding:70px 0}.section-title h2{font-size:.9rem;color:var(--muted);font-weight:900;text-transform:uppercase;letter-spacing:.12em}.section-title p{font-size:2rem;font-weight:900;color:#111;margin:0 0 1.4rem}.tb-card{border:1px solid var(--line);border-radius:20px;padding:24px;background:#fff;height:100%;box-shadow:0 8px 28px rgba(0,0,0,.05)}.tb-card h3{font-size:1.15rem;font-weight:900}.icon-round{width:48px;height:48px;border-radius:14px;background:var(--ci);display:grid;place-items:center;color:#000;font-size:1.4rem;margin-bottom:14px}.blue-box{background:var(--blue);color:#fff;border-radius:22px;padding:28px}.gold-box{background:var(--soft);border:1px solid #ffe2a1;border-left:8px solid var(--ci);border-radius:18px;padding:24px}.red-box{background:#fff5f3;border:1px solid #f4c3b9;border-left:8px solid var(--red);border-radius:18px;padding:24px}.black-section{background:var(--blue);color:#fff}.black-section .section-title p,.black-section h3{color:#fff}.black-section .section-title h2{color:rgba(255,255,255,.75)}.black-section .tb-card{background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.2);color:#fff}.black-section .tb-card h3{color:#fff}.black-section .small-muted{color:rgba(255,255,255,.75)}.black-section .badge-ci{background:var(--ci);color:#000}.badge-ci{background:var(--ci);color:#000;border-radius:999px;padding:.38rem .7rem;font-weight:800}.small-muted{font-size:.92rem;color:var(--muted)}
+
+      </style>
+<script type="application/ld+json" data-tbkg-generated="true">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "EU AI Act",
+        "Risikomanagement",
+        "KI-Kompetenz",
+        "Patientenzentrierung",
+        "KI-Monitoring",
+        "Validierte",
+        "Vorhersagemodelle",
+        "Kompetenz-Readiness",
+        "Thomas",
+        "Gesundheitswesen"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/calster.html#webpage",
+      "url": "https://www.thomas-bade.de/calster.html",
+      "headline": "Validierte KI Vorhersagemodelle – Kompetenz-Readiness | Thomas Bade",
+      "description": "Klinische KI-Vorhersagemodelle kritisch bewerten: Interaktiver Kompetenz-Readiness-Check basierend auf Van Calster et al. 2023 (BMC Medicine). Validierung, Kalibrierung, c-Statistik und EU AI Act Art. 4 – für Kliniken, Pflege und Gesundheitswesen.",
+      "abstract": "4 Es gibt kein validiertes Vorhersagemodell Van Calster et al. (2023) belegen: Eine einzige externe Validierung reicht nie aus, um ein klinisches Prognosemodell als „validiert\" zu bezeichnen.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Validierte"
+        },
+        {
+          "@type": "Thing",
+          "name": "Vorhersagemodelle"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kompetenz-Readiness"
+        },
+        {
+          "@type": "Thing",
+          "name": "Thomas"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        }
+      ],
+      "keywords": [
+        "EU AI Act",
+        "Risikomanagement",
+        "KI-Kompetenz",
+        "Patientenzentrierung",
+        "KI-Monitoring",
+        "Validierte",
+        "Vorhersagemodelle",
+        "Kompetenz-Readiness",
+        "Thomas",
+        "Gesundheitswesen"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo mb-0">
+        <a href="index.html">Thomas Bade<span style="font-size:15px; color:#ffc451;">&#9632;</span></a>
+      </h1>
+      <nav id="tb-nav" class="d-flex align-items-center gap-3">
+        <a href="https://www.thomas-bade.de/termine.html" class="tb-nav-link d-none d-lg-inline-block">
+          Let&#8217;s talk<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <a href="https://www.thomas-bade.de/sitemap.html" class="tb-nav-link d-none d-lg-inline-block">
+          Alle KI Themen<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <button id="tb-burger" aria-label="Men&#252; &#246;ffnen" aria-expanded="false" aria-controls="tb-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Hamburger Menu Panel ======= -->
+  <div id="tb-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+    <div id="tb-menu-inner">
+      <button id="tb-menu-close" aria-label="Men&#252; schlie&#223;en">
+        <i class="bi bi-x"></i>
+      </button>
+      <ul>
+        <li><a href="https://www.thomas-bade.de/termine.html">
+          <i class="bi bi-calendar-check me-2"></i>Let&#8217;s talk
+        </a></li>
+        <li><a href="https://www.thomas-bade.de/sitemap.html">
+          <i class="bi bi-grid-3x3-gap me-2"></i>Alle KI Themen &#8211; Site Map
+        </a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="tb-menu-overlay"></div>
+<!-- End Header -->
+
+  <main id="main">
+    <section class="inner-page">
+      <div class="container"><br><br>
+          <h1><p style="color:#000000"><b>Validierte KI Vorhersagemodelle</b></p></h1>
+          <img src="assets/img/calster.jpg" width="1000" height="439" class="img-fluid" alt=""><br><br>
+<!-- ======= Site Search ======= -->
+        <div id="site-search-container" class="risk-search-wrapper">
+          <div id="site-search-bar" class="search-bar">
+            <div class="search-input-wrapper">
+              <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
+              </svg>
+              <input type="text" id="site-search-input" class="search-input" placeholder="thomas-bade.de durchsuchen" autocomplete="off" aria-label="Suchbegriff eingeben">
+              <button id="search-clear-btn" class="search-clear" aria-label="Suche löschen" style="display:none;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </button>
+            </div>
+            <div id="search-results" class="search-results" style="display:none;">
+              <div class="search-results-header"><span id="results-count">0 Ergebnisse</span></div>
+              <div id="search-results-list" class="search-results-list"></div>
+            </div>
+            <div id="no-results" class="no-results" style="display:none;">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+              <p class="no-results-title">Keine Ergebnisse</p>
+              <p class="no-results-text">Andere Begriffe versuchen</p>
+            </div>
+          </div>
+          <div id="search-overlay" class="search-overlay"></div>
+        </div>
+
+
+<!-- ═══════════════════════ HERO: Validiertes Vorhersagemodell ═══════════════════════ -->
+<header class="vm-hero">
+<div class="container">
+<div class="vm-breadcrumb">
+<a href="https://www.thomas-bade.de/">thomas-bade.de</a>
+<span>›</span>
+<a href="https://www.thomas-bade.de/kompetenz.html">KI-Kompetenz</a>
+<span>›</span>
+      Validierungsillusion
+    </div>
+<div class="vm-hero-kicker">Wissenschaft · Klinische KI · EU AI Act Art. 4</div>
+<h1>Es gibt kein validiertes Vorhersagemodell</h1>
+<p>Van Calster et al. (2023) belegen: Eine einzige externe Validierung reicht nie aus, um ein klinisches Prognosemodell als „validiert" zu bezeichnen. Populationen variieren, Messverfahren variieren, und beides ändert sich über die Zeit.</p>
+<p>Diese Seite fasst die Kernergebnisse zusammen und bietet Ihnen einen <strong style="color:#ffc451;">Selbsttest zur Kompetenz-Readiness</strong> nach EU AI Act Artikel 4.</p>
+<p class="vm-hero-meta">Quelle: Van Calster B., Steyerberg EW., Wynants L., van Smeden M. · BMC Medicine (2023) 21:70 · DOI: 10.1186/s12916-023-02779-w · Open Access CC BY 4.0</p>
+<div class="vm-hero-grid">
+<div class="vm-stat">
+<strong>3 Kernargumente</strong>
+        Warum kein Vorhersagemodell wirklich „validiert" ist – trotz guter Testdaten
+      </div>
+<div class="vm-stat">
+<strong>4 Empfehlungen</strong>
+        Für eine robuste, heterogenitätssensible Validierungsstrategie
+      </div>
+</div>
+</div>
+</header>
+<!-- ═══════════════════════ /HERO: Validiertes Vorhersagemodell ═══════════════════════ -->
+
+<!-- ═══════════════════════ EINLEITUNG ═══════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-kicker">Hintergrund</div>
+    <h2>Was sind klinische Vorhersagemodelle?</h2>
+    <p class="section-intro">Klinische Vorhersagemodelle kombinieren Patienten- und Krankheitsmerkmale, um diagnostische oder prognostische Ergebnisse abzuschätzen.<br>
+    Sie sollen <span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight">Risikostratifizierung</span>
+      <span class="prrc-tooltip-box" role="tooltip">
+       Unter Risikostratifizierung versteht man die Bewertung und Einteilung von Patienten in verschiedene Risikogruppen. Anhand von Kriterien wie Vorerkrankungen, Laborwerten und Symptomen dient sie dazu, Behandlungsintensität und Überwachungsbedarf individuell auszurichten.    
+      </span>
+    </span>
+ leiten und optimale Behandlungsentscheidungen für einzelne Patienten unterstützen.</p>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="badge"><span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight"><b>Interne Validierung</b></span>
+      <span class="prrc-tooltip-box" role="tooltip">
+       Die interne Validierung von Künstlicher Intelligenz (KI) bezeichnet die Überprüfung eines Modells auf seine Zuverlässigkeit, Genauigkeit und Fehlerfreiheit innerhalb der eigenen Entwicklungsumgebung. Sie stellt sicher, dass das System intern korrekt funktioniert, bevor es an reale Testdaten oder den operativen Betrieb übergeben wird.    
+      </span>
+    </span>
+</div>
+        <h3>Reproduzierbarkeit prüfen</h3>
+        <p>Das Modell wird an derselben Patientengruppe getestet, für die es entwickelt wurde – z. B. per <span class="prrc-tooltip-wrapper" tabindex="0">
+      <span class="prrc-highlight">Train-Test-Split</span> und
+      <span class="prrc-tooltip-box" role="tooltip">
+        Beim Train-Test-Split (auch Holdout-Methode) wird ein Datensatz im Data Science und Machine Learning in zwei Teile aufgeteilt: Das Trainingsset dient dem Modell zum Lernen, während das Testset die Leistung des Modells anhand unbekannter Daten bewertet. 
+      </span>
+    </span>
+    <span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight">Kreuzvalidierung</span>
+      <span class="prrc-tooltip-box" role="tooltip">
+        Die Kreuzvalidierung (engl. Cross-Validation) ist eine statistische Methode, um die Leistungsfähigkeit eines Machine-Learning-Modells zu bewerten. Sie prüft, wie gut das Modell Vorhersagen auf unbekannten Daten treffen kann (Generalisierbarkeit), und verhindert so eine Überanpassung (Overfitting).  
+      </span>
+    </span>
+ oder  <span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight">Bootstrapping</span>
+      <span class="prrc-tooltip-box" role="tooltip">
+        Bootstrapping (abgeleitet von der englischen „Stiefelschlaufe“) beschreibt das Erreichen eines Ziels aus eigener Kraft. Je nach Kontext – Wirtschaft, Informatik oder Statistik – hat der Begriff eine andere konkrete Bedeutung.   
+      </span>
+    </span>
+. Fokus liegt auf Überanpassung (Overfitting).</p>
+      </div>
+      <div class="card">
+        <div class="badge"><span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight"><b>Externe Validierung</b></span>
+      <span class="prrc-tooltip-box" role="tooltip">
+        Die externe Validierung von Künstlicher Intelligenz (KI) ist der entscheidende Prozess, bei dem ein bereits trainiertes KI- oder Machine-Learning-Modell mit völlig neuen, ungesehenen Daten getestet wird, die aus einer anderen Quelle oder Population stammen als die Trainings- und internen Validierungsdaten. Sie beweist, dass die KI robust und verallgemeinerbar ist.    
+      </span>
+    </span>
+</div>
+        <h3>Übertragbarkeit prüfen</h3>
+        <p>Das Modell wird an neuen Patienten getestet – zeitlich (temporale Validierung) oder geografisch (an einem anderen Standort). Ziel: Transportierbarkeit der Modellleistung.</p>
+      </div>
+    </div>
+
+    <div class="quote">
+      „Obwohl die Bewertung der Übertragbarkeit von entscheidender Bedeutung ist, beweist eine externe Validierung mit günstigen Ergebnissen keine universelle Anwendbarkeit und rechtfertigt nicht die Behauptung, das Modell sei ‚extern validiert'."
+      <cite>Van Calster et al., BMC Medicine 2023</cite>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ 3 ARGUMENTE ═══════════════════════ -->
+<section style="background:#fff; padding: 40px 0;">
+  <div class="container">
+    <div class="section-kicker">Die drei Kernargumente</div>
+    <h2>Warum Vorhersagemodelle niemals wirklich validiert sind</h2>
+    <p class="section-intro">Die Autoren begründen ihre These mit drei strukturellen Problemen, die eine abschließende Validierung grundsätzlich unmöglich machen.</p>
+
+    <div class="grid-3">
+
+      <div class="reason-card r1">
+        <div class="reason-num">1</div>
+        <h3>Patientenpopulationen variieren</h3>
+        <p>Selbst bei gleichen Ein- und Ausschlusskriterien unterscheiden sich Patientenmerkmale zwischen Zentren erheblich:</p>
+        <ul>
+          <li>Demografische Unterschiede (Alter, Risikofaktoren, Schweregrad)</li>
+          <li>Unterschied Sekundär- vs. Tertiärversorgung</li>
+          <li>Länderspezifische Versorgungsstrukturen</li>
+          <li>Homogenere Populationen reduzieren die Diskriminanz (<span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight">c-Statistik</span>
+      <span class="prrc-tooltip-box" role="tooltip">
+        Die c-Statistik (oft als Konkordanz-Index oder C-Index bezeichnet) ist ein statistisches Maß zur Bewertung der Diskriminierungsfähigkeit eines Vorhersagemodells. Sie gibt an, wie gut ein Modell zwischen Patienten oder Fällen mit unterschiedlichem Risiko (z. B. krank vs. gesund) unterscheiden kann.  
+      </span>
+    </span>)</li>
+        </ul>
+        <div style="margin-top:14px; background:#f0f6ff; border-radius:8px; padding:12px 14px;">
+          <strong style="font-size:.8rem; color:#1f4d7a; display:block; margin-bottom:4px;">📊 Beispiel: Eierstockkrebsstudie</strong>
+          <span style="font-size:.82rem; color:#444;">17 Zentren, 7 Länder: Patientenalter variierte von 43 bis 56 Jahren. Malignomrate 26 % (Onkologiezentren) vs. 10 % (andere Zentren).</span>
+        </div>
+      </div>
+
+      <div class="reason-card r2">
+        <div class="reason-num">2</div>
+        <h3>Messverfahren variieren</h3>
+        <p>Prädiktoren und Endpunkte werden unterschiedlich gemessen – das verzerrt die Modellleistung:</p>
+        <ul>
+          <li>Verschiedene Geräte/Hersteller (z. B. Assay-Kits, Scanner)</li>
+          <li>Methoden- und Zeitpunktabhängigkeit (z. B. Blutdruckmessung)</li>
+          <li>Subjektivität (Erfahrung des Klinikers)</li>
+          <li>Biologische Variation bei Biomarkern</li>
+          <li>Variable klinische Praxisgewohnheiten</li>
+        </ul>
+        <div style="margin-top:14px; background:#f0fff4; border-radius:8px; padding:12px 14px;">
+          <strong style="font-size:.8rem; color:#0f6b38; display:block; margin-bottom:4px;">📊 Beispiel: Hüftfraktur-KI</strong>
+          <span style="font-size:.82rem; color:#444;">c-Statistik sank von 0,78 auf 0,52, sobald Scannertyp und Prozessvariablen kontrolliert wurden.</span>
+        </div>
+      </div>
+
+      <div class="reason-card r3">
+        <div class="reason-num">3</div>
+        <h3>Populationen ändern sich über Zeit</h3>
+        <p>Jedes Vorhersagemodell hat ein implizites Verfallsdatum:</p>
+        <ul>
+          <li>Wandel in Behandlungsstandards und Therapieoptionen</li>
+          <li>Demografischer Wandel (Alterung, Lebensstil)</li>
+          <li>Kalibrierungsdrift durch veränderte Ereignisraten</li>
+          <li>Modellimplementierung verändert das klinische Verhalten</li>
+        </ul>
+        <div style="margin-top:14px; background:#fff0ef; border-radius:8px; padding:12px 14px;">
+          <strong style="font-size:.8rem; color:#a12b1d; display:block; margin-bottom:4px;">📊 Beispiel: EuroSCORE</strong>
+          <span style="font-size:.82rem; color:#444;">Überschätzung der Sterblichkeit wuchs von 5,6 % auf 7,6 % (geschätzt) bei tatsächlich sinkender Mortalität von 4,1 % auf 2,8 %.</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ KALIBRIERUNG ═══════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-kicker">Achillesferse der KI</div>
+    <h2>Kalibrierung – das unterschätzte Qualitätskriterium</h2>
+    <p class="section-intro">Die Diskriminanz (c-Statistik, <span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight">AUC</span>
+      <span class="prrc-tooltip-box" role="tooltip">
+        Der Begriff AUC (Area Under the Curve) bezieht sich in der Künstlichen Intelligenz (KI) auf ein wichtiges Leistungsmaß zur Bewertung von Klassifizierungsmodellen. Der Begriff KI ist die gängige Abkürzung für Künstliche Intelligenz.   
+      </span>
+    </span>) bleibt oft stabil, wenn ein Modell auf neue Populationen übertragen wird.<br>Die Kalibrierung hingegen bricht häufig ein – und das ist klinisch gefährlich.</p>
+
+    <div class="grid-2">
+      <div>
+        <div class="highlight">
+          <strong>Was ist Kalibrierung?</strong>
+          <p>Übereinstimmung zwischen modellgeschätzten Risiken und tatsächlich beobachteten Ereignisanteilen. Ein gut kalibriertes Modell sagt 10 % Risiko – und bei diesen Patienten treten auch tatsächlich ~10 % Ereignisse auf.</p>
+        </div>
+        <div class="highlight">
+          <strong>Fehlkalibrierung – zwei Muster</strong>
+          <p><span class="tag-risk">Überschätzung</span> Modell sagt 20 % Risiko, tatsächlich nur 8 % → unnötige Interventionen<br><br><span class="tag-risk">Unterschätzung</span> Modell sagt 5 % Risiko, tatsächlich 18 % → verpasste Hochrisikopatienten</p>
+        </div>
+        <div class="highlight">
+          <strong>Kalibrierungsdrift im Zeitverlauf</strong>
+          <p>Wie das <span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight">EuroSCORE</span>
+      <span class="prrc-tooltip-box" role="tooltip">
+        Der EuroSCORE (European System for Cardiac Operative Risk Evaluation) ist ein medizinisches Punktesystem. Er schätzt das Sterberisiko (Mortalität) von Patienten nach einer Herzoperation ein. Der aktuell genutzte Standard ist der EuroSCORE II.    
+      </span>
+    </span> Beispiel zeigt: Die Diskriminanz kann stabil bleiben (0,79–0,85), während die Kalibrierung massiv abdriftet. Deshalb reicht die c-Statistik allein nicht aus.</p>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Dimension</th>
+              <th>Häufige Praxis</th>
+              <th>Empfehlung</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Validierungskriterium</strong></td>
+              <td><span class="tag-risk">Nur c-Statistik</span></td>
+              <td><span class="tag-good">c-Statistik + Kalibrierungskurve</span></td>
+            </tr>
+            <tr>
+              <td><strong>Validierungsumfang</strong></td>
+              <td><span class="tag-risk">1 externe Validierung</span></td>
+              <td><span class="tag-good">Viele Standorte, Zeitpunkte</span></td>
+            </tr>
+            <tr>
+              <td><strong>Stichprobengröße</strong></td>
+              <td><span class="tag-risk">Oft zu klein</span></td>
+              <td><span class="tag-good">≥ 100–200 Ereignisse empfohlen</span></td>
+            </tr>
+            <tr>
+              <td><strong>Reporting</strong></td>
+              <td><span class="tag-risk">Selektiv, unvollständig</span></td>
+              <td><span class="tag-good">TRIPOD-Leitlinie einhalten</span></td>
+            </tr>
+            <tr>
+              <td><strong>Monitoring</strong></td>
+              <td><span class="tag-risk">Einmalig bei Einführung</span></td>
+              <td><span class="tag-good">Kontinuierlich, dynamisch</span></td>
+            </tr>
+            <tr>
+              <td><strong>Modellaktualisierung</strong></td>
+              <td><span class="tag-risk">Selten, reaktiv</span></td>
+              <td><span class="tag-good">Regelmäßig, proaktiv</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ EMPFEHLUNGEN ═══════════════════════ -->
+<section style="background:#fff; padding: 40px 0;">
+  <div class="container">
+    <div class="section-kicker gold">Handlungsempfehlungen</div>
+    <h2>Was Van Calster et al. fordern</h2>
+    <p class="section-intro">Die Autoren empfehlen einen Paradigmenwechsel: weg vom Fokus auf Modellentwicklung, hin zu strukturierten, langfristigen Validierungsstrategien.</p>
+
+    <div class="emp-grid">
+      <div class="emp-card">
+        <div class="emp-num">1</div>
+        <div>
+          <strong>Multizentrische Entwicklung</strong>
+          <p>Mehrere Standorte und Populationen bereits bei der Modellentwicklung einbeziehen. Interne-externe Kreuzvalidierung (leave-one-out) durchführen. Prädiktordefinitionen standardisieren.</p>
+        </div>
+      </div>
+      <div class="emp-card">
+        <div class="emp-num">2</div>
+        <div>
+          <strong>Heterogenität quantifizieren</strong>
+          <p>Externe Validierung an mehreren Standorten und Zeitpunkten durchführen. Leistungsheterogenität aktiv messen und berichten – nicht als Fehler, sondern als Information.</p>
+        </div>
+      </div>
+      <div class="emp-card">
+        <div class="emp-num">3</div>
+        <div>
+          <strong>TRIPOD-Standard einhalten</strong>
+          <p>Vollständiges und transparentes Reporting gemäß <span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight">TRIPOD-Richtlinie</span>
+      <span class="prrc-tooltip-box" role="tooltip">
+        Die TRIPOD-Richtlinie (Transparent Reporting of a multivariable prediction model for Individual Prognosis or Diagnosis) ist ein internationaler Leitfaden zur transparenten und vollständigen Berichterstattung über Studien, die medizinische Vorhersagemodelle (Prognose- oder Diagnosemodelle) entwickeln, validieren oder aktualisieren.    
+      </span>
+    </span>  (inkl. <span class="prrc-tooltip-wrapper" tabindex="0">
+<span class="prrc-highlight">TRIPOD-Cluster</span>
+      <span class="prrc-tooltip-box" role="tooltip">
+        Das TRIPOD-Cluster (Erweiterung der TRIPOD-Leitlinien) ist ein internationaler Berichtsstandard für medizinische Prognosemodelle, die auf geclusterten Daten (z. B. Patienten in verschiedenen Krankenhäusern, Regionen oder Familien) basieren. Es hilft Forschern, Studien zur Modellentwicklung oder -validierung transparent und fehlerfrei zu dokumentieren.    
+      </span>
+    </span> für multizentrische Daten). Alle Prädiktoren definieren. Modell für unabhängige Validierung verfügbar machen.</p>
+        </div>
+      </div>
+      <div class="emp-card">
+        <div class="emp-num">4</div>
+        <div>
+          <strong>Kontinuierliches Monitoring &amp; Update</strong>
+          <p>Vor Einführung: lokale Validierungsstudie. Danach: regelmäßige Kalibrierungsüberwachung. Bei Drift: dynamische Modellaktualisierung – insbesondere wenn die Kalibrierung problematisch wird.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ FAQ / ACCORDION ═══════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-kicker">Häufige Fragen</div>
+    <h2>Bedeutet das, dass Validierung sinnlos ist?</h2>
+    <p class="section-intro">Nein – aber der Anspruch muss sich ändern. Hier die wichtigsten Missverständnisse im Überblick.</p>
+
+    <div class="accordion-item">
+      <button class="accordion-btn" onclick="toggleAcc(this)">
+        Ist eine einzige externe Validierung mit gutem Ergebnis ausreichend?
+        <span class="accordion-icon">+</span>
+      </button>
+      <div class="accordion-body">
+        Nein. Eine einzige Validierungsstudie ist immer nur eine Momentaufnahme – in einem bestimmten geografischen Umfeld, zu einem bestimmten Zeitpunkt, mit einer bestimmten Patientenpopulation. Sie kann keine Transportierbarkeit über diesen spezifischen Kontext hinaus belegen. Modelle, die in Dutzenden Zentren mit breiter geografischer Streuung gut abschneiden, bieten deutlich mehr Evidenz – aber auch dann keine 100%ige Garantie.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-btn" onclick="toggleAcc(this)">
+        Reicht eine hohe c-Statistik als Validierungsnachweis?
+        <span class="accordion-icon">+</span>
+      </button>
+      <div class="accordion-body">
+        Nein. Die c-Statistik misst nur Diskriminanz – ob das Modell Hochrisikopatienten von Niedrigrisikopatienten trennen kann. Sie sagt nichts über Kalibrierung aus: ob die Risikoschätzungen in absoluten Zahlen stimmen. Ein Modell kann perfekt diskriminieren, aber systematisch das Risiko verdoppeln. In der klinischen Entscheidungsfindung (Therapieschwellen) ist Kalibrierung mindestens ebenso wichtig. Kritisch ist auch: Kalibrierung driftet über die Zeit, Diskriminanz bleibt oft stabil – das Modell "sieht gut aus", ist aber gefährlich falsch kalibriert.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-btn" onclick="toggleAcc(this)">
+        Was bedeutet Kalibrierungsdrift im klinischen Alltag?
+        <span class="accordion-icon">+</span>
+      </button>
+      <div class="accordion-body">
+        Wenn ein Modell z. B. vor 10 Jahren mit einer Ereignisrate von 7,7 % entwickelt wurde, die Ereignisrate heute aber bei 6,2 % liegt (durch bessere Prävention), überschätzt das Modell das Risiko systematisch. Das führt zu unnötigen Interventionen und Überbehandlung. Beim EuroSCORE war die Diskrepanz dramatisch: Das Modell schätzte am Ende eine Sterblichkeit von 7,6 %, die tatsächliche lag bei 2,8 %.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-btn" onclick="toggleAcc(this)">
+        Was fordert der EU AI Act für Hochrisiko-KI im Gesundheitswesen?
+        <span class="accordion-icon">+</span>
+      </button>
+      <div class="accordion-body">
+        KI-Systeme, die als Hochrisiko-Systeme nach Anhang III EU AI Act eingestuft werden (z. B. Medizinprodukte, Systeme zur Patientenrisikoeinschätzung), unterliegen strengen Anforderungen an Genauigkeit, Robustheit und Transparenz. Artikel 4 verpflichtet Organisationen, KI-Kompetenz bei allen Beteiligten sicherzustellen. Das Wissen um die inhärenten Grenzen klinischer Vorhersagemodelle – wie sie Van Calster et al. beschreiben – ist eine Kernkomponente dieser Kompetenzanforderung.
+      </div>
+    </div>
+    <div class="accordion-item">
+      <button class="accordion-btn" onclick="toggleAcc(this)">
+        Was ist mit dem Paradoxon der Modellimplementierung gemeint?
+        <span class="accordion-icon">+</span>
+      </button>
+      <div class="accordion-body">
+        Wenn ein Prognosemodell erfolgreich eingesetzt wird und dazu führt, dass Hochrisikopatienten besser behandelt werden, sinkt deren Ereignisrate. Das Modell wird damit "Opfer seines eigenen Erfolgs": Die Vorhersagen gelten für eine Welt ohne diese Interventionen – in der Welt mit Interventionen sind sie systematisch falsch kalibriert. Zudem kann die Implementierung die Messqualität der Prädiktoren verändern, was die Validität der Vorhersagen weiter verzerrt.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════ SELBSTTEST ═══════════════════════ -->
+<section>
+  <div class="container">
+    <div class="check-section-bg">
+      <div class="section-kicker">Selbsttest</div>
+      <h2>Kompetenz-Readiness: Klinische Vorhersagemodelle &amp; EU AI Act</h2>
+      <p>Überprüfen Sie Ihr Verständnis der Kernkonzepte – und bewerten Sie Ihre Readiness als KI-Anwender oder KI-Verantwortlicher im Gesundheitswesen gemäß EU AI Act Art. 4. Markieren Sie alle Aussagen, die Sie sicher beantworten können.</p>
+
+      <!-- Kategorie A -->
+      <div class="check-cat-title">A · Grundkonzepte der Modellvalidierung</div>
+      <div class="check-grid">
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="A">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kenne den Unterschied zwischen interner und externer Validierung und wann welche eingesetzt wird.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="A">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich verstehe, warum eine einzige externe Validierung keine universelle Übertragbarkeit belegt.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="A">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kann erklären, was Diskriminanz (c-Statistik/AUC) misst – und was nicht.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="A">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kann erläutern, was Kalibrierung bedeutet und warum sie klinisch entscheidend ist.</span>
+        </div>
+      </div>
+
+      <!-- Kategorie B -->
+      <div class="check-cat-title">B · Heterogenität und Risikofaktoren</div>
+      <div class="check-grid">
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="B">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kenne die drei Hauptgründe, warum Vorhersagemodelle nie wirklich validiert sind (Populationen, Messungen, Zeitwandel).</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="B">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich verstehe, wie Messvariation (Geräte, Subjektivität, Timing) die Modellleistung beeinflusst.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="B">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kann Kalibrierungsdrift erklären und an einem klinischen Beispiel illustrieren.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="B">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich verstehe das Paradoxon: Wie eine erfolgreiche Modellimplementierung die eigenen Vorhersagen ungültig machen kann.</span>
+        </div>
+      </div>
+
+      <!-- Kategorie C -->
+      <div class="check-cat-title">C · EU AI Act &amp; Governance</div>
+      <div class="check-grid">
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="C">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kenne die Kompetenzanforderungen nach EU AI Act Art. 4 für meinen Bereich (Krankenhaus/Pflegeeinrichtung/Gemeinde).</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="C">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich weiß, welche KI-Systeme in meiner Einrichtung als Hochrisiko-KI nach Anhang III EU AI Act gelten könnten.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="C">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Meine Einrichtung hat (oder plant) ein Monitoring-Konzept für eingesetzte KI-Prognosemodelle.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="C">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kann kritisch beurteilen, ob ein Anbieter valide Validierungsevidenz für ein KI-Produkt vorweist.</span>
+        </div>
+      </div>
+
+      <!-- Kategorie D -->
+      <div class="check-cat-title">D · Anwendung &amp; Handlungskompetenz</div>
+      <div class="check-grid">
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="D">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kann TRIPOD-konforme Validierungsberichte lesen und kritisch bewerten.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="D">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich weiß, wie man eine lokale Validierungsstudie vor Modelleinsatz initiiert oder beauftragt.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="D">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kann Kolleginnen und Kollegen erklären, warum "validiert" kein finaler Qualitätsstempel ist.</span>
+        </div>
+        <div class="check-item" onclick="toggleCheck(this)" data-cat="D">
+          <div class="ci-box"><svg width="13" height="10" viewBox="0 0 13 10"><polyline points="1.5,5 5,8.5 11.5,1.5" fill="none" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <span class="ci-label">Ich kenne Warnsignale im Umgang mit Anbietern, die übertriebene Validierungsbehauptungen machen.</span>
+        </div>
+      </div>
+
+      <!-- Progress -->
+      <div class="progress-wrap" id="progressWrap">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <p style="font-size:.8rem; color:rgba(255,255,255,.45); margin-top:6px;" id="progressText">0 von 16 Aussagen markiert</p>
+
+      <!-- Buttons -->
+      <div class="check-btn-row">
+        <button class="btn-check-eval" type="button" onclick="return evaluate()">Ergebnis anzeigen</button>
+        <button class="btn-check-reset" onclick="resetCheck()">Zurücksetzen</button>
+        <button class="btn-pdf-export" onclick="exportPDF()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/></svg>
+          Als PDF speichern
+        </button>
+      </div>
+
+      <!-- Result -->
+      <div class="check-result" id="checkResult">
+        <div class="check-score-ring">
+          <span id="scoreDisplay">0/16</span>
+        </div>
+        <div>
+          <div class="check-result-label" id="resultLabel">–</div>
+          <div class="check-result-text" id="resultText">–</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- QUELLEN + CTA -->
+      <section id="quellen" class="py-5">
+        <div class="container">
+          <div class="table-responsive">
+            <table class="table table-borderless align-middle mb-0">
+              <tbody>
+                <tr>
+                  <td style="width:65%; vertical-align:top;">
+                    <div class="tb-card p-4 h-100">
+                      <div class="tb-kicker mb-2"><b>Originalveröffentlichung</b></div>
+                      <p>van Calster B.,Steyerberg E.W., Wynants L, van Smeden M.</p>
+                      <p class="tb-small mb-3">There is no such thing as a validated prediction model<br>
+                      BMC Med. 2023 Feb 24;21(1):70. doi: 10.1186/s12916-023-02779-w.</p>
+                      <a class="btn btn-ci rounded-pill px-4" href="https://pubmed.ncbi.nlm.nih.gov/36829188/" target="_blank" rel="noopener">
+                        Link zur Studie <i class="bi bi-box-arrow-up-right"></i>
+                      </a>
+                    </div>
+                  </td>
+                  <td style="width:35%; vertical-align:top;">
+                    <div class="tb-card p-4 h-100">
+                      <div class="fw-semibold mb-2">Partizipative KI-Einführung begleiten lassen?</div>
+                      <p class="tb-small">Ich zeige Ihnen, wie Sie Pflegefachpersonen strukturiert einbinden, Bias-Risiken erkennen und EU AI Act-Anforderungen erfüllen.</p>
+                      <hr class="my-3">
+                      <div class="d-grid">
+                        <a class="btn btn-ci rounded-pill" href="https://www.thomas-bade.de/termine.html">
+                          <i class="bi bi-calendar2-check me-1"></i>Let&#x2019;s talk
+                        </a>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div align="right">  <span class="prrc-tooltip-wrapper" tabindex="0">
+                  <span class="prrc-highlight">CC BY-ND 4.0</span>
+                  <span class="prrc-tooltip-box" role="tooltip">
+                    <strong>Creative Commons Lizenz (CC BY-ND 4.0)</strong><br>
+                    Inhalte dieser Webseite und der Selbsttest "Partizipative KI-Readiness-Check" dürfen geteilt werden, sofern der Urheber genannt wird und keine Bearbeitungen verbreitet werden.
+                  </span>
+                </span>
+</div>
+
+          </div>
+
+
+
+      
+
+</div>
+    </section>
+  </main>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+<div class="footer-top">
+<div class="container">
+<div class="row">
+<div class="col-lg-6 col-md-6 mb-3">
+<img alt="thomas-bade.de" src="https://thomas-bade.de/assets/img/logo-transparent.png" style="height:120px;margin-bottom:20px;display:block;"/>
+<p><a href="mailto:tb@thomas-bade.de"><i class="bi bi-envelope me-1"></i>E-Mail</a></p>
+<p><a href="https://www.thomas-bade.de/coach.html"><i class="bi bi-person me-1"></i>Zur Person</a></p>
+<p><a href="https://www.thomas-bade.de/termine.html"><i class="bi bi-calendar me-1"></i>Let's talk</a></p>
+<p><a href="https://www.thomas-bade.de/impressum.html"><i class="bi bi-file-text me-1"></i>Impressum &amp; Datenschutz</a></p>
+<p style="font-size:12px;color:#ffc451;margin-top:16px;">© Copyright 2026 Thomas Bade</p>
+</div>
+<div class="col-lg-6 col-md-6 mb-3">
+<p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;color:#ffc451!important;">Weitere Angebote</p>
+<p><a href="https://www.thomas-bade.eu" rel="noopener" target="_blank"><i class="bi bi-globe me-1"></i>thomas-bade.eu – Zukunftsraum Kommune</a></p>
+<p><a href="https://www.thomas-bade.org" rel="noopener" target="_blank"><i class="bi bi-mortarboard me-1"></i>thomas-bade.org – KI Lernportal</a></p>
+<p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:20px;margin-bottom:10px;color:#ffc451!important;">Alle KI-Themen</p>
+<div class="footer-dropdown" id="footerDropdown">
+<button class="footer-dd-trigger" id="footerDDBtn">Themenübersicht <span class="footer-dd-chevron">▲</span></button>
+<ul class="footer-dd-menu" id="footerDDMenu">
+<li><a href="https://www.thomas-bade.de/sitemap.html" target="_blank"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></li>
+<li><a href="https://www.thomas-bade.de/bmg.html">Digitalisierungsstrategie 2026</a></li>
+<li><a href="https://www.thomas-bade.de/mdr_ki.html">Hochrisiko-KI</a></li>
+              <li><a href="https://www.thomas-bade.de/leitbild.html">Leitbild</a></li>
+              <li><a href="https://www.thomas-bade.de/mission.html">Mission Statement</a></li>
+<li><a href="https://www.thomas-bade.de/ki_verordnung.html">KI-MIG 2026</a></li>
+<li><a href="https://www.thomas-bade.de/wissenschaft.html">Forschung &amp; Wissenschaft</a></li>
+<li><a href="https://www.thomas-bade.de/constitution.html">Ethische KI-Prinzipien</a></li>
+<li><a href="https://www.thomas-bade.de/risk.html">KI Risikomanagement</a></li>
+<li><a href="https://www.thomas-bade.de/oecd.html">OECD 2026</a></li>
+<li><a href="https://www.thomas-bade.de/fmea.html">FMEA im Gesundheitswesen</a></li>
+<li><a href="https://www.thomas-bade.de/praevention.html">KI in der Prävention</a></li>
+<li><a href="https://www.thomas-bade.de/haip.html">Health AI Partnership (HAIP)</a></li>
+<li><a href="https://www.thomas-bade.de/portal.html">KI Lernformate</a></li>
+</ul>
+</div>
+<p style="font-size:14px; margin-bottom:6px;">
+<a href="https://www.thomas-bade.de/sitemap.html" target="_blank" style="color:#ccc; text-decoration:none;"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></p>
+<p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:20px;margin-bottom:10px;color:#ffc451!important;">Seite teilen</p>
+          <div class="share-container" id="shareContainer">
+            <button class="share-button" id="shareToggleBtn" aria-label="Seite teilen" title="Seite teilen">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+            </button>
+            <div class="share-popup" id="sharePopup">
+              <a href="#" id="shareLinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" id="shareTwitter" title="X / Twitter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" id="shareFacebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+              </a>
+              <button class="share-icon-btn" id="shareMastodon" title="Mastodon" type="button">
+                <svg viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.24-5.032C17.69.242 15.948 0 11.994 0h-.028C8.017 0 6.274.242 5.94.281 3.35.693 1.038 2.554.526 5.157A27.3 27.3 0 0 0 .25 9.099c-.064 1.265-.063 2.529-.037 3.794.065 3.028.222 6.051.668 9.048.255 1.688.85 3.232 2.025 4.58A8.208 8.208 0 0 0 8.36 23.77c1.947.476 3.952.586 5.94.478a29.39 29.39 0 0 0 5.656-1.085 8.178 8.178 0 0 0 1.538-.666c-.01-.072-.013-.146-.013-.22v-3.03c-.756.183-1.522.33-2.296.44-1.698.241-3.413.31-5.12.188a9.94 9.94 0 0 1-2.494-.495c-.874-.297-1.57-.862-1.916-1.752a5.99 5.99 0 0 1-.326-1.48c2.064.496 4.162.744 6.265.744 1.013 0 2.024-.048 3.03-.148 1.71-.173 3.48-.556 4.997-1.464a6.274 6.274 0 0 0 2.786-4.148c.16-.924.22-1.86.22-2.798 0-.93-.063-1.855-.207-2.772zm-5.516 6.6c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.667-1.218-2.667-2.72V7.86c0-1.502 1.194-2.72 2.667-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053zm-8.068 0c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.668-1.218-2.668-2.72V7.86c0-1.502 1.195-2.72 2.668-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareInstagram" title="Instagram (Link kopieren)" type="button">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareCopyLink" title="Link kopieren" type="button">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </button>
+            </div><!-- /share-popup -->
+            <div id="mastodonPrompt">
+              <label for="mastodonInstance">Mastodon-Instanz eingeben:</label>
+              <input type="text" id="mastodonInstance" placeholder="z.B. mastodon.social" autocomplete="off">
+              <button class="masto-go" id="mastodonGo" type="button">Teilen &#8599;</button>
+            </div>
+          </div><!-- /share-container -->
+          <div class="copy-notification" id="copyNotification">&#10003; Link in Zwischenablage kopiert</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+      <script>
+ // ── Footer Dropdown ──
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn  = document.getElementById('footerDDBtn');
+      var menu = document.getElementById('footerDDMenu');
+      var dd   = document.getElementById('footerDropdown');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        menu.classList.toggle('open');
+        btn.classList.toggle('open');
+      });
+      document.addEventListener('click', function (e) {
+        if (dd && !dd.contains(e.target)) {
+          menu.classList.remove('open');
+          btn.classList.remove('open');
+        }
+      });
+    });
+</script>
+<!-- ======= Site Search ======= -->
+  <script src="https://thomas-bade.de/assets/js/search-config.js"></script>
+  <script src="https://thomas-bade.de/assets/js/search.js"></script>
+
+
+<script>
+(function () {
+  'use strict';
+
+  var activeTrigger = null;
+  var floatingTooltip = null;
+  var lastPointerOpen = 0;
+
+  function ensureTooltip() {
+    if (floatingTooltip) return floatingTooltip;
+
+    floatingTooltip = document.createElement('div');
+    floatingTooltip.id = 'prrc-floating-tooltip';
+    floatingTooltip.setAttribute('role', 'tooltip');
+    document.body.appendChild(floatingTooltip);
+
+    return floatingTooltip;
+  }
+
+  function getTooltipContent(wrapper) {
+    var box = wrapper.querySelector('.prrc-tooltip-box');
+    return box ? box.innerHTML : '';
+  }
+
+  function positionTooltip(trigger, tooltip) {
+    tooltip.style.visibility = 'hidden';
+    tooltip.style.display = 'block';
+
+    var rect = trigger.getBoundingClientRect();
+    var tooltipRect = tooltip.getBoundingClientRect();
+    var margin = 12;
+
+    var top = rect.bottom + margin;
+    var left = rect.left;
+
+    if (top + tooltipRect.height > window.innerHeight - 12) {
+      top = rect.top - tooltipRect.height - margin;
+    }
+
+    if (left + tooltipRect.width > window.innerWidth - 10) {
+      left = window.innerWidth - tooltipRect.width - 10;
+    }
+
+    if (left < 10) left = 10;
+    if (top < 10) top = 10;
+
+    tooltip.style.top = top + 'px';
+    tooltip.style.left = left + 'px';
+    tooltip.style.visibility = 'visible';
+    tooltip.style.animation = 'prrcFadeIn .18s ease';
+  }
+
+  function showTooltip(wrapper) {
+    var html = getTooltipContent(wrapper);
+    if (!html) return;
+
+    activeTrigger = wrapper;
+
+    var tooltip = ensureTooltip();
+    tooltip.innerHTML = html;
+    positionTooltip(wrapper, tooltip);
+
+    wrapper.setAttribute('aria-expanded', 'true');
+  }
+
+  function hideTooltip() {
+    if (activeTrigger) {
+      activeTrigger.setAttribute('aria-expanded', 'false');
+    }
+
+    if (floatingTooltip) {
+      floatingTooltip.style.display = 'none';
+      floatingTooltip.innerHTML = '';
+    }
+
+    activeTrigger = null;
+  }
+
+  function toggleTooltip(wrapper) {
+    if (activeTrigger === wrapper) {
+      hideTooltip();
+    } else {
+      showTooltip(wrapper);
+    }
+  }
+
+  function isInsideTooltipArea(target) {
+    return !!(
+      target.closest &&
+      (
+        target.closest('.prrc-tooltip-wrapper') ||
+        target.closest('#prrc-floating-tooltip')
+      )
+    );
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.prrc-tooltip-box').forEach(function (box) {
+      box.style.display = 'none';
+    });
+
+    document.querySelectorAll('.prrc-tooltip-wrapper').forEach(function (wrapper) {
+      wrapper.setAttribute('aria-expanded', 'false');
+
+      /*
+       * iPad/Safari-Fix:
+       * pointerdown öffnet sofort beim ersten Tap.
+       * Der danach ausgelöste synthetische click wird zeitlich blockiert,
+       * damit kein zweiter Tap nötig wird.
+       */
+      wrapper.addEventListener('pointerdown', function (e) {
+        if (e.pointerType === 'touch' || e.pointerType === 'pen') {
+          e.preventDefault();
+          e.stopPropagation();
+          lastPointerOpen = Date.now();
+          toggleTooltip(wrapper);
+        }
+      });
+
+      wrapper.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (Date.now() - lastPointerOpen < 600) {
+          return;
+        }
+
+        toggleTooltip(wrapper);
+      });
+
+      wrapper.addEventListener('mouseenter', function () {
+        if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+          showTooltip(wrapper);
+        }
+      });
+
+      wrapper.addEventListener('mouseleave', function () {
+        if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+          hideTooltip();
+        }
+      });
+
+      wrapper.addEventListener('focusin', function () {
+        showTooltip(wrapper);
+      });
+
+      wrapper.addEventListener('focusout', function () {
+        hideTooltip();
+      });
+    });
+  });
+
+  document.addEventListener('pointerdown', function (e) {
+    if (activeTrigger && !isInsideTooltipArea(e.target)) {
+      hideTooltip();
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    if (activeTrigger && !isInsideTooltipArea(e.target)) {
+      hideTooltip();
+    }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      hideTooltip();
+    }
+  });
+
+  window.addEventListener('resize', function () {
+    if (activeTrigger && floatingTooltip && floatingTooltip.style.display === 'block') {
+      positionTooltip(activeTrigger, floatingTooltip);
+    }
+  });
+
+  window.addEventListener('scroll', function () {
+    if (activeTrigger && floatingTooltip && floatingTooltip.style.display === 'block') {
+      positionTooltip(activeTrigger, floatingTooltip);
+    }
+  }, { passive: true });
+
+})();
+</script>
+
+
+<script>
+// ── ACCORDION ──
+function toggleAcc(btn) {
+  const body = btn.nextElementSibling;
+  const isOpen = btn.classList.contains('open');
+  document.querySelectorAll('.accordion-btn').forEach(b => { b.classList.remove('open'); b.nextElementSibling.classList.remove('open'); });
+  if (!isOpen) { btn.classList.add('open'); body.classList.add('open'); }
+}
+
+// ── SELF-TEST ──
+const TOTAL = 16;
+
+function toggleCheck(el) {
+  el.classList.toggle('checked');
+  updateProgress();
+}
+
+function updateProgress() {
+  const checked = document.querySelectorAll('.check-item.checked').length;
+  const pct = Math.round((checked / TOTAL) * 100);
+  document.getElementById('progressBar').style.width = pct + '%';
+  document.getElementById('progressText').textContent = checked + ' von ' + TOTAL + ' Aussagen markiert';
+}
+
+function evaluate() {
+  const checked = document.querySelectorAll('.check-item.checked').length;
+  const pct = Math.round((checked / TOTAL) * 100);
+  const result = document.getElementById('checkResult');
+  const label = document.getElementById('resultLabel');
+  const text = document.getElementById('resultText');
+  const score = document.getElementById('scoreDisplay');
+
+  score.textContent = checked + '/' + TOTAL;
+
+  let lvl, msg;
+  if (pct >= 88) {
+    lvl = '🏆 Experten-Level – Vollständige Readiness';
+    msg = 'Sie verfügen über umfassendes Wissen zu Validierungsgrenzen klinischer KI und können Kompetenzanforderungen nach EU AI Act Art. 4 souverän erfüllen. Geben Sie Ihr Wissen weiter!';
+  } else if (pct >= 63) {
+    lvl = '✅ Fortgeschritten – Gute Grundlage';
+    msg = 'Solides Verständnis vorhanden. Vertiefen Sie gezielt die markierten Lücken – besonders in den Bereichen Governance und kritische Anbieterbewertung.';
+  } else if (pct >= 38) {
+    lvl = '⚠️ Grundkenntnisse – Ausbaubedarf';
+    msg = 'Sie kennen Grundkonzepte, aber wichtige Validierungsaspekte und EU AI Act-Anforderungen sind noch unklar. Strukturierte Weiterbildung empfohlen.';
+  } else {
+    lvl = '🔴 Einsteiger – Weiterbildung dringend empfohlen';
+    msg = 'Die Thematik ist neu oder komplex. Für den Einsatz klinischer KI-Systeme sind fundierte Kenntnisse der Validierungsgrenzen Pflicht – laut EU AI Act Art. 4.';
+  }
+
+  label.textContent = pct + ' % – ' + lvl;
+  text.textContent = msg;
+  result.classList.add('visible');
+  result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function resetCheck() {
+  document.querySelectorAll('.check-item').forEach(el => el.classList.remove('checked'));
+  document.getElementById('checkResult').classList.remove('visible');
+  document.getElementById('progressBar').style.width = '0%';
+  document.getElementById('progressText').textContent = '0 von 16 Aussagen markiert';
+}
+
+// ── PDF EXPORT ──
+function exportPDF() {
+  const { jsPDF } = window.jspdf;
+  if (!jsPDF) { alert('PDF-Bibliothek nicht geladen. Bitte Seite neu laden.'); return; }
+
+  const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+  const pw = doc.internal.pageSize.getWidth();
+  const ph = doc.internal.pageSize.getHeight();
+  const margin = 20;
+  let y = 0;
+
+  // ── HEADER BLOCK ──
+  doc.setFillColor(21, 21, 21);
+  doc.rect(0, 0, pw, 42, 'F');
+  doc.setFillColor(255, 196, 81);
+  doc.rect(0, 42, pw, 3, 'F');
+
+  doc.setFontSize(8);
+  doc.setTextColor(180, 180, 180);
+  doc.text('thomas-bade.de  |  KI-Compliance & Digitale Gesundheit', margin, 10);
+
+  doc.setFontSize(15);
+  doc.setFont('helvetica', 'bold');
+  doc.setTextColor(255, 255, 255);
+  doc.text('Kompetenz-Readiness Check', margin, 22);
+
+  doc.setFontSize(9);
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(200, 200, 200);
+  doc.text('Klinische Vorhersagemodelle & EU AI Act Art. 4  |  Basierend auf Van Calster et al. 2023', margin, 30);
+
+  const today = new Date().toLocaleDateString('de-DE', { day:'2-digit', month:'2-digit', year:'numeric' });
+  doc.setFontSize(8);
+  doc.setTextColor(150, 150, 150);
+  doc.text('Ausgedruckt am: ' + today, pw - margin, 10, { align: 'right' });
+
+  y = 55;
+
+  // ── INTRO TEXT ──
+  doc.setFontSize(10);
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(60, 60, 60);
+  const intro = 'Dieser Selbsttest prüft Ihre Kompetenz im Umgang mit klinischen KI-Vorhersagemodellen nach den Anforderungen des EU AI Act Artikel 4. Markieren Sie alle Aussagen, die Sie sicher beantworten können.';
+  const introLines = doc.splitTextToSize(intro, pw - 2 * margin);
+  doc.text(introLines, margin, y);
+  y += introLines.length * 5 + 8;
+
+  // ── CATEGORIES & ITEMS ──
+  const categories = [
+    {
+      title: 'A · Grundkonzepte der Modellvalidierung',
+      items: [
+        'Ich kenne den Unterschied zwischen interner und externer Validierung und wann welche eingesetzt wird.',
+        'Ich verstehe, warum eine einzige externe Validierung keine universelle Übertragbarkeit belegt.',
+        'Ich kann erklären, was Diskriminanz (c-Statistik/AUC) misst – und was nicht.',
+        'Ich kann erläutern, was Kalibrierung bedeutet und warum sie klinisch entscheidend ist.'
+      ]
+    },
+    {
+      title: 'B · Heterogenität und Risikofaktoren',
+      items: [
+        'Ich kenne die drei Hauptgründe, warum Vorhersagemodelle nie wirklich validiert sind (Populationen, Messungen, Zeitwandel).',
+        'Ich verstehe, wie Messvariation (Geräte, Subjektivität, Timing) die Modellleistung beeinflusst.',
+        'Ich kann Kalibrierungsdrift erklären und an einem klinischen Beispiel illustrieren.',
+        'Ich verstehe das Paradoxon: Wie eine erfolgreiche Modellimplementierung die eigenen Vorhersagen ungültig machen kann.'
+      ]
+    },
+    {
+      title: 'C · EU AI Act & Governance',
+      items: [
+        'Ich kenne die Kompetenzanforderungen nach EU AI Act Art. 4 für meinen Bereich.',
+        'Ich weiß, welche KI-Systeme in meiner Einrichtung als Hochrisiko-KI nach Anhang III EU AI Act gelten könnten.',
+        'Meine Einrichtung hat (oder plant) ein Monitoring-Konzept für eingesetzte KI-Prognosemodelle.',
+        'Ich kann kritisch beurteilen, ob ein Anbieter valide Validierungsevidenz für ein KI-Produkt vorweist.'
+      ]
+    },
+    {
+      title: 'D · Anwendung & Handlungskompetenz',
+      items: [
+        'Ich kann TRIPOD-konforme Validierungsberichte lesen und kritisch bewerten.',
+        'Ich weiß, wie man eine lokale Validierungsstudie vor Modelleinsatz initiiert oder beauftragt.',
+        'Ich kann Kolleginnen und Kollegen erklären, warum "validiert" kein finaler Qualitätsstempel ist.',
+        'Ich kenne Warnsignale im Umgang mit Anbietern, die übertriebene Validierungsbehauptungen machen.'
+      ]
+    }
+  ];
+
+  // Collect checked items by their label text
+  const checkedLabels = new Set();
+  document.querySelectorAll('.check-item.checked .ci-label').forEach(el => {
+    checkedLabels.add(el.textContent.trim());
+  });
+
+  let itemIndex = 0;
+  categories.forEach(cat => {
+    // Check if new page needed
+    if (y > ph - 50) { doc.addPage(); y = 20; }
+
+    // Category header
+    doc.setFillColor(255, 196, 81);
+    doc.rect(margin, y - 4, pw - 2 * margin, 8, 'F');
+    doc.setFontSize(9);
+    doc.setFont('helvetica', 'bold');
+    doc.setTextColor(0, 0, 0);
+    doc.text(cat.title, margin + 3, y + 1);
+    y += 10;
+
+    cat.items.forEach(item => {
+      if (y > ph - 30) { doc.addPage(); y = 20; }
+      const isChecked = checkedLabels.has(item);
+      const shortened = item.length > 110 ? item.substring(0, 107) + '...' : item;
+      const lines = doc.splitTextToSize(shortened, pw - 2 * margin - 14);
+      const blockH = lines.length * 5 + 6;
+
+      // Background
+      doc.setFillColor(isChecked ? 255 : 248, isChecked ? 249 : 249, isChecked ? 230 : 249);
+      doc.rect(margin, y - 3, pw - 2 * margin, blockH, 'F');
+
+      // Checkbox
+      doc.setDrawColor(180, 180, 180);
+      doc.setLineWidth(0.4);
+      doc.rect(margin + 2, y - 1, 5, 5);
+      if (isChecked) {
+        doc.setDrawColor(0, 0, 0);
+        doc.setLineWidth(0.8);
+        doc.line(margin + 3, y + 2, margin + 4.2, y + 3.5);
+        doc.line(margin + 4.2, y + 3.5, margin + 7, y + 0.5);
+      }
+
+      // Text
+      doc.setFontSize(8.5);
+      doc.setFont('helvetica', isChecked ? 'bold' : 'normal');
+      doc.setTextColor(isChecked ? 60 : 90, isChecked ? 60 : 90, isChecked ? 20 : 90);
+      doc.text(lines, margin + 10, y + 1.5);
+
+      y += blockH + 2;
+      itemIndex++;
+    });
+    y += 4;
+  });
+
+  // ── ERGEBNIS BLOCK ──
+  if (y > ph - 60) { doc.addPage(); y = 20; }
+
+  const checkedCount = checkedLabels.size;
+  const pct = Math.round((checkedCount / TOTAL) * 100);
+
+  doc.setFillColor(30, 30, 30);
+  doc.rect(margin, y, pw - 2 * margin, 40, 'F');
+  doc.setFillColor(255, 196, 81);
+  doc.rect(margin, y, 4, 40, 'F');
+
+  doc.setFontSize(11);
+  doc.setFont('helvetica', 'bold');
+  doc.setTextColor(255, 196, 81);
+  doc.text('Ihr Ergebnis: ' + checkedCount + ' / ' + TOTAL + ' (' + pct + ' %)', margin + 8, y + 10);
+
+  let levelText = '';
+  if (pct >= 88) levelText = 'Experten-Level – Vollständige Readiness';
+  else if (pct >= 63) levelText = 'Fortgeschritten – Gute Grundlage';
+  else if (pct >= 38) levelText = 'Grundkenntnisse – Ausbaubedarf';
+  else levelText = 'Einsteiger – Weiterbildung empfohlen';
+
+  doc.setFontSize(9);
+  doc.setFont('helvetica', 'bold');
+  doc.setTextColor(255, 255, 255);
+  doc.text(levelText, margin + 8, y + 20);
+
+  doc.setFontSize(8);
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(180, 180, 180);
+  const hint = 'Basierend auf Van Calster et al. (2023) BMC Medicine 21:70 | Kompetenzrahmen EU AI Act Art. 4';
+  doc.text(hint, margin + 8, y + 30);
+
+  y += 48;
+
+  // ── FOOTER on last page ──
+  doc.setFontSize(7.5);
+  doc.setFont('helvetica', 'normal');
+  doc.setTextColor(150, 150, 150);
+  doc.text('thomas-bade.de  |  KI-Compliance & Digitale Gesundheit  |  Eichstätt, Bayern', margin, ph - 12);
+  doc.text('Seite ' + doc.internal.getCurrentPageInfo().pageNumber, pw - margin, ph - 12, { align: 'right' });
+  doc.setDrawColor(255, 196, 81);
+  doc.setLineWidth(0.5);
+  doc.line(margin, ph - 15, pw - margin, ph - 15);
+
+  doc.save('Kompetenz-Readiness_Vorhersagemodelle_' + today.replace(/\./g, '-') + '.pdf');
+}
+</script>
+
+<script id="vm-selftest-click-sicherung">
+(function(){
+  document.addEventListener('click', function(e){
+    var evalBtn = e.target.closest && e.target.closest('.btn-check-eval');
+    if (evalBtn) { e.preventDefault(); if (typeof window.evaluate === 'function') { window.evaluate(); } }
+    var resetBtn = e.target.closest && e.target.closest('.btn-check-reset');
+    if (resetBtn) { e.preventDefault(); if (typeof window.resetCheck === 'function') { window.resetCheck(); } }
+  });
+})();
+</script>
+<script>
+/* ---- Share Button â€“ vollstaendig inline, alle Plattformen ---- */
+(function(){
+  var container   = document.getElementById('shareContainer');
+  var toggleBtn   = document.getElementById('shareToggleBtn');
+  var popup       = document.getElementById('sharePopup');
+  var liBtn       = document.getElementById('shareLinkedIn');
+  var twBtn       = document.getElementById('shareTwitter');
+  var fbBtn       = document.getElementById('shareFacebook');
+  var mastoBtn    = document.getElementById('shareMastodon');
+  var igBtn       = document.getElementById('shareInstagram');
+  var cpBtn       = document.getElementById('shareCopyLink');
+  var notice      = document.getElementById('copyNotification');
+  var mastoPrompt = document.getElementById('mastodonPrompt');
+  var mastoInput  = document.getElementById('mastodonInstance');
+  var mastoGo     = document.getElementById('mastodonGo');
+  if(!toggleBtn || !popup) return;
+  var pageUrl   = encodeURIComponent(window.location.href);
+  var pageTitle = encodeURIComponent(document.title);
+  var rawUrl    = window.location.href;
+  liBtn.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl;
+  twBtn.href = 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle;
+  fbBtn.href = 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl;
+  toggleBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = popup.classList.contains('open');
+    closeAll();
+    if(!isOpen) popup.classList.add('open');
+  });
+  mastoBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = mastoPrompt.classList.contains('open');
+    mastoPrompt.classList.toggle('open');
+    if(!isOpen && mastoInput) mastoInput.focus();
+  });
+  mastoGo.addEventListener('click', function(){
+    var instance = (mastoInput.value || '').trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
+    if(!instance){ mastoInput.focus(); return; }
+    var shareUrl = 'https://' + instance + '/share?text=' + pageTitle + '%20' + pageUrl;
+    window.open(shareUrl, '_blank', 'noopener,noreferrer');
+    closeAll();
+  });
+  mastoInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter') mastoGo.click();
+    if(e.key === 'Escape') closeAll();
+  });
+  igBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, 'Link kopiert â€“ jetzt in Instagram einfuegen');
+  });
+  cpBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, '&#10003; Link in Zwischenablage kopiert');
+  });
+  function copyToClipboard(text, msg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showNotice(msg); }, function(){ fallback(text, msg); });
+    } else { fallback(text, msg); }
+  }
+  function fallback(text, msg){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position='fixed'; ta.style.top='-9999px';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try{ document.execCommand('copy'); showNotice(msg); } catch(err){}
+    document.body.removeChild(ta);
+  }
+  function showNotice(msg){
+    if(!notice) return;
+    notice.innerHTML = msg;
+    notice.classList.add('visible');
+    setTimeout(function(){ notice.classList.remove('visible'); }, 3000);
+  }
+  function closeAll(){
+    popup.classList.remove('open');
+    if(mastoPrompt) mastoPrompt.classList.remove('open');
+  }
+  document.addEventListener('click', function(e){
+    if(!container.contains(e.target)) closeAll();
+  });
+})();
+</script>
+
+  <style>
+    /* ── Hamburger Nav ── */
+    #tb-nav .tb-nav-link {
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+      letter-spacing: .02em;
+      transition: color .2s;
+    }
+    #tb-nav .tb-nav-link:hover { color: #ffc451; }
+
+    /* Hamburger Button */
+    #tb-burger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 4px;
+      transition: background .2s;
+    }
+    #tb-burger:hover { background: rgba(255,196,81,.15); }
+    #tb-burger span {
+      display: block;
+      height: 2px;
+      width: 24px;
+      background: #fff;
+      border-radius: 2px;
+      transition: transform .25s ease, opacity .2s ease, width .2s ease;
+      transform-origin: center;
+    }
+    #tb-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    #tb-burger.open span:nth-child(2) { opacity: 0; width: 0; }
+    #tb-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Menu Panel */
+    #tb-menu {
+      position: fixed;
+      top: 0; right: 0;
+      width: min(300px, 88vw);
+      height: 100%;
+      background: #0b0b0b;
+      z-index: 10100;
+      transform: translateX(100%);
+      transition: transform .28s cubic-bezier(.4,0,.2,1);
+      overflow-y: auto;
+    }
+    #tb-menu.open { transform: translateX(0); }
+    #tb-menu-inner { padding: 20px 24px 40px; }
+
+    /* Close Button */
+    #tb-menu-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 6px;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-bottom: 28px;
+      transition: background .2s, color .2s;
+      line-height: 1;
+    }
+    #tb-menu-close:hover { background: #ffc451; color: #000; border-color: #ffc451; }
+
+    /* Menu Links */
+    #tb-menu ul { list-style: none; padding: 0; margin: 0; }
+    #tb-menu ul li + li { margin-top: 8px; }
+    #tb-menu ul li a {
+      display: flex;
+      align-items: center;
+      padding: 14px 18px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 8px;
+      color: #eee;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background .2s, color .2s, border-color .2s;
+    }
+    #tb-menu ul li a:hover {
+      background: #ffc451;
+      color: #000;
+      border-color: #ffc451;
+    }
+    #tb-menu ul li a i { font-size: 17px; flex-shrink: 0; }
+
+    /* Overlay */
+    #tb-menu-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.55);
+      z-index: 10090;
+      backdrop-filter: blur(2px);
+    }
+    #tb-menu-overlay.open { display: block; }
+
+    /* Focus ring */
+    #tb-menu a:focus-visible,
+    #tb-menu-close:focus-visible,
+    #tb-burger:focus-visible {
+      outline: 2px solid #ffc451;
+      outline-offset: 2px;
+    }
+  </style>
+  <script>
+  /* ── Hamburger Menu ── */
+  (function () {
+    var burger   = document.getElementById('tb-burger');
+    var menu     = document.getElementById('tb-menu');
+    var overlay  = document.getElementById('tb-menu-overlay');
+    var closeBtn = document.getElementById('tb-menu-close');
+    if (!burger || !menu) return;
+
+    function openMenu() {
+      menu.classList.add('open');
+      overlay.classList.add('open');
+      burger.classList.add('open');
+      burger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      var first = menu.querySelector('a, button');
+      if (first) setTimeout(function () { first.focus(); }, 300);
+    }
+
+    function closeMenu() {
+      menu.classList.remove('open');
+      overlay.classList.remove('open');
+      burger.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      burger.focus();
+    }
+
+    burger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menu.classList.contains('open') ? closeMenu() : openMenu();
+    });
+
+    closeBtn.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('open')) closeMenu();
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { closeMenu(); });
+    });
+  })();
+  </script>
+</body>
+</html>

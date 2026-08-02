@@ -1,0 +1,188 @@
+{
+  "id": "page:iso_42001",
+  "slug": "iso_42001",
+  "filename": "iso_42001.html",
+  "url": "https://www.thomas-bade.de/iso_42001.html",
+  "canonical": "https://www.thomas-bade.de/iso_42001.html",
+  "title": "ISO 42001 – KI-Managementsystem | KI-MIG-konforme Nachweisführung",
+  "description": "ISO/IEC 42001:2023 – Vollständige Einführung: Struktur, Kontrollziele (Anhang A), Umsetzungsleitfaden (Anhang B), Ziele & Risikoquellen (Anhang C/D). AIMS als Nachweisinstrument gegenüber der Bundesnetzagentur nach KI-MIG. Vendor-unabhängige KI-Compliance Expertise für das Gesundheits- und Sozialwesen.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map ISO 42001 KI-Managementsystem Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. 223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland.",
+  "topics": [
+    "ISO/IEC 42001",
+    "KI-Governance",
+    "Datenschutz",
+    "Risikomanagement",
+    "Künstliche Intelligenz",
+    "EU AI Act",
+    "KI-Kompetenz",
+    "KI-Compliance",
+    "KI-Managementsystem",
+    "KI-MIG-konforme"
+  ],
+  "word_count": 3237,
+  "heading_count": 15,
+  "h1_count": 2,
+  "internal_links": 18,
+  "linked_pages": [
+    "bmg",
+    "coach",
+    "constitution",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 4,
+  "has_og": true,
+  "citation_signals": 9,
+  "question_headings": 0,
+  "structured_blocks": 11,
+  "author_signal": true,
+  "content_hash": "d8f862be4d5333c2",
+  "seo_score": 76,
+  "geo_score": 92,
+  "ai_overview_probability": 78,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "ISO/IEC 42001",
+          "KI-Governance",
+          "Datenschutz",
+          "Risikomanagement",
+          "Künstliche Intelligenz",
+          "EU AI Act",
+          "KI-Kompetenz",
+          "KI-Compliance",
+          "KI-Managementsystem",
+          "KI-MIG-konforme"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/iso_42001.html#webpage",
+        "url": "https://www.thomas-bade.de/iso_42001.html",
+        "headline": "ISO 42001 – KI-Managementsystem | KI-MIG-konforme Nachweisführung",
+        "description": "ISO/IEC 42001:2023 – Vollständige Einführung: Struktur, Kontrollziele (Anhang A), Umsetzungsleitfaden (Anhang B), Ziele & Risikoquellen (Anhang C/D). AIMS als Nachweisinstrument gegenüber der Bundesnetzagentur nach KI-MIG. Vendor-unabhängige KI-Compliance Expertise für das Gesundheits- und Sozialwesen.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map ISO 42001 KI-Managementsystem Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. 223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "ISO/IEC 42001"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "Künstliche Intelligenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Kompetenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Managementsystem"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-MIG-konforme"
+          }
+        ],
+        "keywords": [
+          "ISO/IEC 42001",
+          "KI-Governance",
+          "Datenschutz",
+          "Risikomanagement",
+          "Künstliche Intelligenz",
+          "EU AI Act",
+          "KI-Kompetenz",
+          "KI-Compliance",
+          "KI-Managementsystem",
+          "KI-MIG-konforme"
+        ]
+      }
+    ]
+  }
+}

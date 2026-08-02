@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Prävention",
+        "Gesundheitswesen",
+        "KI-Governance",
+        "Datenschutz",
+        "Risikomanagement",
+        "Patientenzentrierung",
+        "Digital",
+        "Health",
+        "Analyse",
+        "Lernformate"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/undp.html#webpage",
+      "url": "https://www.thomas-bade.de/undp.html",
+      "headline": "UNDP Digital Health & KI im Gesundheitswesen – Analyse & Lernformate",
+      "description": "KI und Digitalisierung für bessere Gesundheitsversorgung: Analyse der UNDP-Strategie zu Telemedizin, Prävention, Daten-Governance und Health Equity – mit KI-Lernformaten für Fachkräfte im Gesundheitswesen.",
+      "abstract": "Die Management-Botschaft: Digitale Gesundheit entfaltet ihren Nutzen nur dann, wenn Versorgungssysteme, Datenstrukturen, Zugänglichkeit und Governance gemeinsam gedacht werden. Zugang erweitern – Versorgung unabhängig von Ort ermöglichen.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Prävention"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Health"
+        },
+        {
+          "@type": "Thing",
+          "name": "Analyse"
+        },
+        {
+          "@type": "Thing",
+          "name": "Lernformate"
+        }
+      ],
+      "keywords": [
+        "Prävention",
+        "Gesundheitswesen",
+        "KI-Governance",
+        "Datenschutz",
+        "Risikomanagement",
+        "Patientenzentrierung",
+        "Digital",
+        "Health",
+        "Analyse",
+        "Lernformate"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+/**
+ * search-config.js  v2.5 (2026-06-22)
+ * ─────────────────────────────────────────────────────────────
+ * Zentrale Suchkonfiguration für thomas-bade.de
+ * Neue Seiten NUR HIER eintragen – kein Anfassen der anderen Dateien nötig.
+ *
+ * NEU in v2.4: Jeder Eintrag hat ein "image"-Feld für Vorschaubilder
+ * im Ermündigungs-Lotse (Site Search auf ermündigung.net).
+ * Aktuell zeigt JEDER Eintrag das generische Social-Share-Bild
+ * (assets/img/social_media.jpg) als Startwert.
+ * → Optional: Bei Bedarf pro Seite durch ein passenderes Bild ersetzen,
+ *   z. B. image: "https://thomas-bade.de/assets/img/stanford-hero.jpg"
+ * ─────────────────────────────────────────────────────────────
+ */
+
+var SITE_SEARCH_CONFIG = {
+  pages: [
+
+    // ── Hauptseiten ───────────────────────────────────────────
+    {
+      title: "Home - KI in Gesellschaft & Wirtschaft",
+      url: "https://www.thomas-bade.de/",
+      category: "Hauptseiten",
+      excerpt: "Künstliche Intelligenz in Gesellschaft und Wirtschaft. Chancen, Verantwortung und Zukunft.",
+      content: "Künstliche Intelligenz Gesundheitswesen Ethik Verantwortung Risikominimierung EU AI Act Governance Betriebsrat Versicherungen Haftung Fairness Bias",
+      keywords: "KI, Künstliche Intelligenz, Gesundheitswesen, Governance, EU AI Act, Ethik",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+  title: "Stanford AI Index Report 2026 – Einordnung für Gesundheitswesen und Kommunen",
+  url: "https://www.thomas-bade.de/stanford.html",
+  category: "Internationale Berichte",
+  excerpt: "Der Stanford AI Index Report 2026 eingeordnet für Kliniken, Pflege, kommunale Träger und öffentliche Verwaltung. Governance statt Modellleistung.",
+  content: "Stanford AI Index 2026 Gesundheitswesen Kommunen Governance KI-Einführung Monitoring Verantwortlichkeit EU AI Act DSGVO MDR IVDR Hochrisiko-KI Beschaffung Kompetenzaufbau Responsible AI KI-Incidents Evidenz Benchmark Klinik Pflege Verwaltung KI-Sovereignty Digital Health Strategie",
+  keywords: "Stanford AI Index 2026, KI Gesundheitswesen, KI Kommunen, Responsible AI, KI Governance, KI Einführung, KI Monitoring",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+},
+
+    {
+      title: "Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung",
+      url: "https://www.thomas-bade.de/agentic_ki.html",
+      category: "Internationale Berichte",
+      excerpt: "Agentische KI im Gesundheitssystem: Einordnung auf Basis von Leopoldina FOKUS Nr. 8 (2026), Fraunhofer IAIS Healthcare Agents Whitepaper und EDPS TechSonar. Chancen, Risiken, DSGVO, EU AI Act und Governance für Kliniken und Pflegeeinrichtungen.",
+      content: "Agentic AI agentische KI KI-Agenten Healthcare Agents autonome KI Gesundheitswesen Krankenhaus Pflege Pflegeeinrichtung Leopoldina FOKUS Nr. 8 Fraunhofer IAIS EDPS TechSonar EU AI Act Hochrisiko-KI DSGVO Art. 9 Datenschutz-Folgenabschätzung MDR DiGA KHZG Human-in-the-Loop Mensch-KI-Interaktion Automationsbias Transparenz Verantwortbarkeit Erklärbarkeit Prompt Injection Cybersicherheit Profilbildung Zweckbindung Drittanbieter-Risiko Vendor Management Halluzinationen RAG Retrieval Augmented Generation Foundation Models domänenspezifische KI Arztbrief-Generierung Medikationsmanagement Qualitätsregister Diagnosunterstützung Entlassmanagement OP-Planung Betten-Planung Therapieplanung Pflegeplanung Codierung ICD OPS KI-Governance Betreiberpflichten Risikoklassifizierung Post-Market-Monitoring Kompetenznachweis Art. 4 EU AI Act Legal Design Thinking technologische Souveränität Hightech Agenda bundesregierung KI-Implementierung 7 Schritte Fraunhofer EDPS Agent2Agent A2A Model Context Protocol MCP Google Anthropic LLM Large Language Model Agentenarchitektur Multi-Agent-System Orchestrierung Langzeitgedächtnis persistentes Gedächtnis Werkzeuge Tools externe Datenbanken Leitlinien SOP Standard Operating Procedures KI-Leitbild Governance-Board Use-Case-Register",
+      keywords: "Agentic AI, agentische KI, KI-Agenten, Healthcare Agents, Leopoldina 2026, Fraunhofer IAIS, EDPS TechSonar, EU AI Act, DSGVO, Hochrisiko-KI, Gesundheitswesen, Krankenhaus, Pflege, Human-in-the-Loop, KI-Governance, Automationsbias, MDR, Datenschutz-Folgenabschätzung",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "Business Coach",
+      url: "https://www.thomas-bade.de/coach.html",
+      category: "Hauptseiten",
+      excerpt: "Coaching für Führungskräfte im Gesundheitswesen.",
+      content: "Business Coaching Führungskräfte Transformation Leadership",
+      keywords: "Coaching, Führungskräfte, Transformation",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "KI-Kompetenz",
+      url: "https://www.thomas-bade.de/kompetenz.html",
+      category: "Hauptseiten",
+      excerpt: "KI-Compliance und EU AI Act für das Gesundheitswesen.",
+      content: "KI-Kompetenz EU AI Act MDR Hochrisiko BAPID Pflege Krankenhaus MEESTAR Checkliste",
+      keywords: "Kompetenz, EU AI Act, BAPID, KI Pflege, MEESTAR, MEESTAR-Modell",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    // ── Analyse & Beratungspraxis ─────────────────────────────
+    {
+      title: "Validierte KI-Vorhersagemodelle – Kompetenz-Readiness",
+      url: "https://www.thomas-bade.de/calster.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Klinische KI-Vorhersagemodelle kritisch bewerten: Interaktiver Kompetenz-Readiness-Check basierend auf Van Calster et al. 2023 (BMC Medicine) und EU AI Act Art. 4.",
+      content: "Klinische Vorhersagemodelle Validierung interne Validierung externe Validierung TRIPOD TRIPOD-Bericht Van Calster 2023 BMC Medicine Diskriminanz c-Statistik AUC Kalibrierung Kalibrierungsdrift Risikostratifizierung Prognosmodell diagnostisch prognostisch Heterogenität Populationen Messvariation Zeitwandel EuroSCORE EU AI Act Art. 4 Kompetenzanforderungen Hochrisiko-KI Anhang III Monitoring Betreiberpflichten Governance Krankenhaus Pflege Gesundheitswesen Kompetenz-Readiness-Check Selbsttest PDF-Auswertung interaktives Assessment Anbieterbeurteilung Validierungsevidenz",
+      keywords: "Validierte Vorhersagemodelle, Van Calster, TRIPOD, interne Validierung, externe Validierung, c-Statistik, AUC, Kalibrierung, Kalibrierungsdrift, EU AI Act Art. 4, Kompetenz-Readiness, Hochrisiko-KI, klinische KI",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+  title: "Kommunale Versorgungsstrukturen analysieren",
+  url: "https://www.thomas-bade.de/control_quartier.html",
+  category: "Analyse & Beratungspraxis",
+  excerpt: "Interaktives Analyse- und Assessment-Panel für kommunale Versorgungsstrukturen, Quartiersmanagement und Caring Communities – mit Bezug zu DIN SPEC 77003 (Information, Beratung, Vermittlung) und DIN SPEC 77004 (Dienstleistungserbringung).",
+  content: "Kommunale Versorgungsstrukturen Quartiersmanagement Caring Communities Gesundheitsversorgung Pflegeinfrastruktur Teilhabe Prävention Sozialraumanalyse Versorgungslücken Kommune regionale Netzwerke Gesundheitsregionen Primärversorgung Level 1i Krankenhaus Telemedizin mobile Physiotherapie Integrierte Notfallzentren KI Governance kommunale Daseinsvorsorge Strukturanalyse PDF Assessment digitale Versorgung Fördermittel Präventionsnetzwerke Sozialplanung DIN SPEC 77003 DIN SPEC 77004 personen- und haushaltsbezogene Dienstleistungen Information Beratung Vermittlung Dienstleistungserbringung Strukturqualität Prozessqualität Evaluation Kundschaft Nutzende Auftraggebende Dienstleistungserbringende Anbietende haushaltsbezogene Dienstleistung personenbezogene Dienstleistung Kinderbetreuung Pflege Haushalt Reinigung Einkaufen Nahrungszubereitung Wäschepflege Gartenarbeiten Reparaturen IKT Informations- und Kommunikationstechnologien Vereinbarkeit Familie Erwerbstätigkeit Fürsorgearbeit Datenschutz Datensicherheit Datenschutzerklärung Beratungskonzept Beratungskompetenz Erreichbarkeit Beratungsinhalte Bedarfsanalyse Lösungsweg Vermittlungsvorschlag Leistungsvertrag Vertragsgestaltung Vor-Ort-Besuch Führungszeugnis Qualifikation Fachkompetenz Personalkompetenz Selbstkompetenz Zuverlässigkeit Pünktlichkeit Flexibilität Diskretion Schweigepflicht Arbeitsschutz Unfallprävention Hygiene Personalplan Personalentwicklung Beschwerdemanagement Qualitätsmanagement Versicherungsschutz Haftpflicht Transparenz Leitbild AGB Preisgestaltung Stundenpreis Kündigungsfristen ambulanter Pflegedienst Haushaltshilfe Assistenzleistungen Assistenzdienste Betreuungsdienste Entlastungsdienste pflegende Angehörige informelle Pflege Vertrauensverhältnis Kooperationsbeziehung PDCA Zyklus Kundenzufriedenheit Evaluationsinstrument Feedbackgespräch Berichterstattung Qualitätssicherung Quartiersmanagement Quartiersentwicklung sozialraumorientierte Versorgung nachbarschaftliche Unterstützungsnetzwerke generationsübergreifende Unterstützung professionelle externe Dienstleistende SGB V SGB XI SGB XII Pflegeversicherung Jugendamt Sozialleistungsträger steuerliche Absetzbarkeit Schwarzarbeit legale Beschäftigungsmodelle",
+  keywords: "Kommunale Versorgungsstrukturen, Quartiersmanagement, Caring Communities, Gesundheitsregionen, Versorgungslücken, Sozialplanung, Kommune, Prävention, Telemedizin, Level 1i, DIN SPEC 77003, DIN SPEC 77004, personen- und haushaltsbezogene Dienstleistungen, Information Beratung Vermittlung, Dienstleistungserbringung, Strukturqualität, Prozessqualität, Evaluation, Haushaltshilfe, ambulanter Pflegedienst, pflegende Angehörige, Beratungskonzept, Leistungsvertrag, Datenschutz, Qualitätsmanagement, Beschwerdemanagement, SGB XI, Pflege",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+},
+    {
+      title: "Digitalisierungsstrategie 2026",
+      url: "https://www.thomas-bade.de/bmg.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "BMG Digitalisierungsstrategie Gemeinsam Digital 2026 für Kommunen und Kliniken.",
+      content: "Bundesministerium Gesundheit EHDS ePA FDZ KI-MIG DiGA DiPA Telepflege",
+      keywords: "Digitalisierungsstrategie 2026, BMG, EHDS, ePA, EU AI Act",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "KI Monitoring im Regelbetrieb",
+      url: "https://www.thomas-bade.de/ai_monitoring.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Post-Deployment Monitoring für KI-Systeme.",
+      content: "Post-Deployment Monitoring Modell-Drift Safety Reporting NIST AI 800-4, ISO/IEC 42005:2025",
+      keywords: "KI Monitoring, ISO/IEC 42005:2025, NIST, Post Deployment",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "UNDP: Digitalisierung & KI im Gesundheitswesen",
+      url: "https://www.thomas-bade.de/undp.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "United Nations Development Programme: Wie digitale Werkzeuge und KI Versorgung, Prävention und Governance verbessern können.",
+      content: "UNDP United Nations Development Programme Digital Health KI Telemedizin Prävention Dateninfrastruktur Interoperabilität Governance Ungleichheit Zugang Versorgung eHealth mHealth Datenschutz Infrastruktur Frühwarnsystem ARV Tuberkulose Indonesien",
+      keywords: "UNDP, Digital Health, Telemedizin, Prävention, Dateninfrastruktur, Versorgung, Governance",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "State of Clinical AI Report 2026 (ARISE)",
+      url: "https://www.thomas-bade.de/arise.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Klinische KI: Governance, Risiken und Einordnung. Bedingungen für sicheren, wirksamen und verantwortbaren KI-Einsatz in der Versorgung.",
+      content: "MEESTAR Checkliste und ARISE State of Clinical AI Report 2026 klinische KI Reasoning Modelle Benchmarks Evaluation Human-AI Kollaboration Workflow Guardrails Patientensicherheit Halluzinationen Übervertrauen Deskilling Ambient Scribes multimodal EHR Monitoring Governance Hochrisiko MDR",
+      keywords: "ARISE, Clinical AI, State of Clinical AI, MEESTAR Checkliste, Reasoning, Benchmarks, Patientensicherheit, Klinische KI 2026",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "OECD 2026: KI im Gesundheitswesen skalieren",
+      url: "https://www.thomas-bade.de/oecd.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "OECD-Bericht: Verantwortungsvolle Skalierung von KI in Gesundheitssystemen – Enablers, Guardrails, Engagement, Trustworthiness.",
+      content: "OECD Scaling AI in Health 2026 Skalierung Gesundheitswesen Enablers Guardrails Engagement Trustworthiness Governance Interoperabilität Datenbasis nationale Strategie Oversight Post-Market-Monitoring Bildgebung administrative Nutzung Policy Checklist Workforce Kompetenz Vertrauen Patientensicherheit",
+      keywords: "OECD, Scaling AI, KI skalieren, Guardrails, Enablers, Gesundheitsstrategie, Oversight",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "HAIP Reporting Framework – KI-Governance für das Gesundheitswesen",
+      url: "https://www.thomas-bade.de/haip.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Das G7 Hiroshima AI Process Reporting Framework eingeordnet für Krankenhäuser, Pflegeeinrichtungen und kommunale Träger. Governance-Kompetenz statt Tool-Schulung.",
+      content: "HAIP Hiroshima AI Process G7 OECD Brookings Institution Reporting Framework KI-Governance Deployer Betreiberpflichten Transparenz Use Case Dokumentation Risikoidentifikation Risikomanagement Verantwortlichkeit Monitoring KI-Steckbrief Krankenhaus Pflege Sozialdienst Verwaltung EU AI Act Art 4 Art 26 KI-Kompetenz Lernformate Governance-Nachweis Steuerungsfähigkeit",
+      keywords: "HAIP, Hiroshima AI Process, G7, OECD, Brookings, KI-Governance, Reporting Framework, Deployer, Betreiberpflichten, KI-Kompetenz, Gesundheitswesen",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "Gesundheitsinnovationen in Europa 2026",
+      url: "https://www.thomas-bade.de/europe.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Optimierung von Investitionen in Gesundheitsinnovationen in Europa – Prävention, Value-based Health und Standortwettbewerb.",
+      content: "Europa Gesundheitsinnovationen Investitionen Value-based Health Prävention Demografie NCD chronische Erkrankungen Krebs psychische Gesundheit Kostendämpfung Innovation Diagnostik Adeyemo Wilsdon Waste Effizienz Wachstum Produktivität BIP McKinsey Standort Wettbewerb EU Gesundheitspolitik",
+      keywords: "Europa, Gesundheitsinvestitionen, Value-based Health, Prävention, NCD, Innovation, Adeyemo",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    // ── Sicherheit & Monitoring ───────────────────────────────
+    {
+      title: "FMEA im Gesundheitswesen",
+      url: "https://www.thomas-bade.de/fmea.html",
+      category: "Sicherheit & Monitoring",
+      excerpt: "FMEA-Methodik, AI-FMEA und Compliance-Checkliste.",
+      content: "FMEA RPZ Risikopriorätszahl EU AI Act Art 9 ISO 14971 MDR IVDR FRIA DSFA",
+      keywords: "FMEA, RPZ, EU AI Act, ISO 14971, Hochrisiko-KI",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    // ── Regeln & Risiken ──────────────────────────────────────
+    {
+      title: "Hochrisiko-KI",
+      url: "https://www.thomas-bade.de/mdr_ki.html",
+      category: "Regeln & Risiken",
+      excerpt: "Hochrisiko-KI-Systeme nach EU AI Act.",
+      content: "Hochrisiko High Risk EU AI Act MDR Risikomanagement Bundesnetzagentur",
+      keywords: "Hochrisiko, EU AI Act, MDR, Risikomanagement",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "GPAI-Modelle",
+      url: "https://www.thomas-bade.de/GPAI.html",
+      category: "Regeln & Risiken",
+      excerpt: "General Purpose AI Modelle und regulatorische Anforderungen.",
+      content: "GPAI General Purpose AI Foundation Models GPT Claude Gemini",
+      keywords: "GPAI, Foundation Models, LLM",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "KI & Entlassmanagement",
+      url: "https://www.thomas-bade.de/em_ki.html",
+      category: "Regeln & Risiken",
+      excerpt: "KI-Systeme im Entlassmanagement.",
+      content: "Entlassmanagement Krankenhaus § 39 SGB V DNQP Prognose",
+      keywords: "Entlassmanagement, § 39 SGB V",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "Forschung & Wissenschaft",
+      url: "https://www.thomas-bade.de/wissenschaft.html",
+      category: "Regeln & Risiken",
+      excerpt: "KI in Forschung und Wissenschaft.",
+      content: "Forschung Wissenschaft Exzellenzcluster ARISE Bundesregierung",
+      keywords: "Forschung, Wissenschaft, ARISE",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "WHO Klassifizierung Digital Health",
+      url: "https://www.thomas-bade.de/who.html",
+      category: "Regeln & Risiken",
+      excerpt: "WHO-Klassifikationssystem für digitale Gesundheitstechnologien.",
+      content: "WHO Digital Health Klassifizierung mHealth Telemedizin",
+      keywords: "WHO, Digital Health, mHealth",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "KI-Produktivitätsanalyse",
+      url: "https://www.thomas-bade.de/claude.html",
+      category: "Regeln & Risiken",
+      excerpt: "KI-Produktivitätsgewinne kritisch betrachtet.",
+      content: "Produktivität Anthropic Claude ROI Wirtschaftlichkeit Zeitersparnis",
+      keywords: "Produktivität, ROI, Claude",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "Ethische KI-Prinzipien (Anthropic)",
+      url: "https://www.thomas-bade.de/constitution.html",
+      category: "Regeln & Risiken",
+      excerpt: "Constitutional AI und ethische Prinzipien.",
+      content: "Constitutional AI Anthropic RLHF Werte Fairness",
+      keywords: "Ethik, Constitutional AI, Anthropic",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "Risk Categorization & Responsible AI",
+      url: "https://www.thomas-bade.de/risk.html",
+      category: "Regeln & Risiken",
+      excerpt: "CHAI Risk Categorization Tool.",
+      content: "CHAI Risikobewertung Responsible AI Governance, ISO/IEC 42005:2025",
+      keywords: "Risk, CHAI, Responsible AI, ISO/IEC 42005:2025",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "KI in der Prävention – Governance, Bias & Predictive Policing",
+      url: "https://www.thomas-bade.de/praevention.html",
+      category: "Regeln & Risiken",
+      excerpt: "31. Deutscher Präventionstag 2026: KI in Sicherheit, Bildung und Sozialarbeit – Chancen, Bias-Risiken und Governance-Anforderungen.",
+      content: "Prävention Predictive Policing Bias Governance Deutscher Präventionstag 2026 Hannover Gesichtserkennung Verhaltensanalyse Hasskriminalität häusliche Gewalt Chatbots Schule Justiz Sicherheitsbehörden Datenqualität Verhältnismäßigkeit Grundrechte Black Box Falschpositive Diskriminierung EU AI Act Verantwortung Transparenz Rechtsrahmen",
+      keywords: "Prävention, Predictive Policing, Bias, Deutscher Präventionstag, Governance, Gesichtserkennung, Diskriminierung",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    // ── Kontakt ───────────────────────────────────────────────
+    {
+      title: "Let's talk! - Terminbuchung",
+      url: "https://www.thomas-bade.de/termine.html",
+      category: "Kontakt",
+      excerpt: "Beratungstermin für KI-Projekte vereinbaren.",
+      content: "Termin Beratung Kontakt Consulting EU AI Act",
+      keywords: "Termin, Beratung, Kontakt",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "AI Sweden Leadership Report 2026 – KI-Führung & Governance",
+      url: "https://www.thomas-bade.de/ai_sweden.html",
+      category: "Internationale Berichte",
+      excerpt: "Deutschsprachige Einordnung des AI Sweden Leadership Report 2026: KI-Führung, Governance, Fehlerbilder und pragmatischer Fahrplan für Kliniken, Pflege und regulierte Organisationen.",
+      content: "AI Sweden Leadership Report 2026 KI-Führung KI-Governance KI-Strategie Krankenhaus Pflegeeinrichtung Träger Geschäftsführung Vorstand Sozialwirtschaft kommunale Organisationen Mandate Zielbild Verantwortungsrahmen Versorgungsauftrag Datenschutz Risikomanagement Mitarbeitendenkompetenz Qualitätssicherung EU AI Act Art. 4 Art. 26 KI-Kompetenz Use-Case-Register Governance-Board Monitoring Regelbetrieb Mensch-KI-Orchestrierung Tool-Fixierung Pilotprojekte ROI-Verengung Fehlerbilder Contrast Findings Vision Act Leadership Shifts Kompetenzarchitektur Portfolio-Steuerung Betriebsverantwortung Führungsmandat KI-Leitbild Fahrplan Reife-Check Selbsttest KI-Transformation Organisationsentwicklung Göran Lindsjö Martin Svensson",
+      keywords: "AI Sweden Leadership Report 2026, KI-Führung, KI-Governance, KI-Strategie Gesundheitswesen, EU AI Act Führung, KI-Kompetenz Betreiber, Governance-Board, KI-Transformation, Fehlerbilder KI, KI-Fahrplan",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
+      title: "Partizipative KI-Entwicklung im Pflegekontext – KIDELIR Studie 2026",
+      url: "https://www.thomas-bade.de/kidelir.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "KIDELIR-Studie (Rambach et al. 2026): Wie Fallvignetten, Health Information Mapping und Participatory System Mapping implizites Pflegewissen für KI-Systeme erschließen.",
+      content: "KIDELIR partizipative KI-Entwicklung Pflege klinischer Kontext Delirprädiktion Fallvignetten Health Information Mapping HIMP Participatory System Mapping PSM Theory of Change Modelling Einzelinterviews Gruppendiskussion qualitative Sekundäranalyse Bias Trainingsdaten hyperaktiv Geschlecht Dokumentationsbrüche implizites Wissen professionsspezifisch Erfahrungswissen Hochrisiko-KI EU AI Act Anhang III Art. 4 Art. 26 Betreiberverantwortung Human Oversight DSGVO Art. 9 Art. 35 DSFA MDR IVDR Universitätsklinikum Freiburg Hochschule Furtwangen Universität Mannheim BMFTR Pflegefachpersonen Ärzte Geriatrie Neurochirurgie Chirurgie Nephrologie Intensivtherapie klinisches Entscheidungsunterstützungssystem CDSS Co-Design sozio-technisch Compliance Governance",
+      keywords: "KIDELIR, partizipative KI-Entwicklung, Pflege KI, Delirprädiktion, Health Information Mapping, Participatory System Mapping, Bias KI Pflege, Fallvignetten, EU AI Act Art. 26, Human Oversight, CDSS, Rambach 2026",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "DIKW-Pyramide – KI-Kompetenz strukturiert aufbauen",
+      url: "https://www.thomas-bade.de/dikw.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Das DIKW-Modell als Lernframework für KI-Kompetenz: Von Rohdaten zur KI-Weisheit – strukturiert nach EU AI Act Art. 4 für das Gesundheits- und Sozialwesen.",
+      content: "DIKW Pyramide Data Information Knowledge Wisdom Ackoff 1989 KI-Kompetenz EU AI Act Art. 4 Betreiberpflichten Governance Lernarchitektur Rohdaten KI-Outputs Kontext Bedeutung vernetztes Wissen Urteilsvermögen wertebasierte Entscheidung Know-how Know-why Rowley 2007 Gesundheitswesen Sozialwesen Krankenhaus Pflege Schulung Compliance Literacy KI-Urteilsfähigkeit DSGVO MDR Understanding Hierarchie Lernportal",
+      keywords: "DIKW, DIKW-Pyramide, KI-Kompetenz, EU AI Act Art. 4, Ackoff, Data Information Knowledge Wisdom, KI-Lernportal, Betreiberpflichten, Gesundheitswesen",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "MedLog – Protokollierung klinischer KI",
+      url: "https://www.thomas-bade.de/medlog.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "MedLog: Leitfaden zur ereignisbasierten Protokollierung klinischer KI nach dem Vorbild von Syslog – für Transparenz, Audit, Sicherheit und Governance im Gesundheitswesen.",
+      content: "MedLog Protokollierung klinische KI Syslog Audit Logging Gesundheitswesen EU AI Act Governance Transparenz Sicherheit Event-Logging Nachvollziehbarkeit Auditfähigkeit Reallabor Pilotierung Readiness-Check Header Modellinstanz Output Nutzer Ziel Inputs Outcomes User Feedback Betreiberpflichten Krankenhaus Pflege Compliance Dokumentation",
+      keywords: "MedLog, Medical AI, klinische KI, Syslog, KI Governance, Audit Logging, Gesundheitswesen, EU AI Act, Thomas Bade",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "KI in der Sozialen Arbeit: Fachsoftware, Governance & EU AI Act",
+      url: "https://www.thomas-bade.de/soziale_arbeit.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Fachsoftware übersetzt Soziale Arbeit in Daten und Entscheidungslogiken – mit Folgen für Klienten, Träger und Compliance. Digitalisierung und KI-Governance im Sozialwesen.",
+      content: "Soziale Arbeit Digitalisierung Fachsoftware Sozialinformatik KI-Governance Datafizierung Digitalität Partizipation EU AI Act Sozialwesen Pflege Krankenhaus Träger Beschäftigte Hilfeplanung Fallsteuerung Dokumentation Compliance DSGVO Automatisierung Bias Risikobewertung Entscheidungsunterstützung soziale Dienste Jugendhilfe Eingliederungshilfe Wohnungslosenhilfe Suchthilfe Beratungsstellen KI-Kompetenz digitale Souveränität Hochrisiko KI MDR Betreiberpflichten Transparenz Mitbestimmung Betriebsrat",
+      keywords: "Soziale Arbeit, Digitalisierung, Fachsoftware, KI Sozialwesen, Sozialinformatik, EU AI Act, Partizipation, KI-Governance, Datafizierung, Digitalität",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "TRIPOD-LLM – Reporting-Checkliste für LLM-Studien im Gesundheitswesen",
+      url: "https://www.thomas-bade.de/tripod.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Interaktive TRIPOD-LLM Basis-Checkliste: Transparentes Reporting von Large Language Models im Gesundheitswesen – Titel, Methoden, LLM-Ausgabe, Prompting und Ethik.",
+      content: "TRIPOD LLM Reporting Leitlinie Large Language Model Checkliste Gesundheitswesen Krankenhaus Pflege Transparenz Reproduzierbarkeit Evaluierung Validierung Prompt Engineering Inferenzparameter Modellarchitektur Fine-Tuning Alignment RLHF DPO Goldstandard Interrater-Reliabilität Benchmarks Metriken Konsistenz Akkuratesse Relevanz Klassifikation Wahrscheinlichkeit Schwellenwert Ausgabequalität EU AI Act MDR IVDR Hochrisiko-KI Bias Studiendesign Annotation klinische KI CDSS Entscheidungsunterstützung PDF Export Bewertungsskala Item 1 Item 6 Item 7 Item 9",
+      keywords: "TRIPOD-LLM, LLM Reporting, Reporting-Checkliste, Large Language Model, Gesundheitswesen, Prompt Engineering, Evaluierung, Validierung, Transparenz, EU AI Act, klinische KI, Interrater-Reliabilität, Benchmarks",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "Artikel 4 EU AI Act – Arbeitgeberpflicht zur KI-Kompetenzvermittlung",
+      url: "https://www.thomas-bade.de/ki_kompetenzpflicht.html",
+      category: "EU AI Act & KI-Regulatorik",
+      excerpt: "Seit dem 2. Februar 2025 gilt Artikel 4 EU AI Act unmittelbar. Praxisbeispiele aus dem Living Repository des EU AI Office für Deployer im Gesundheits- und Sozialwesen.",
+      content: "Artikel 4 EU AI Act KI-Kompetenz KI-Literacy AI Literacy Arbeitgeberpflicht Deployer Provider Qualifizierung Schulung Living Repository EU AI Office AI Pact Pledger Rollenbasierung Kontextspezifik Messbarkeit Kontinuität Pflichtbaseline Onboarding AI-SPOC Multiplikator Dokumentation Nachweis Curriculums-Review Shadow-AI Automation Bias Generali Fastweb IBM Dedalus Healthcare Smals VERBUND Telefónica INECO Krankenhaus Pflegeeinrichtung Sozialwesen Commune Gesundheitswesen MDR IVDR DSGVO Compliance",
+      keywords: "Artikel 4 EU AI Act, KI-Kompetenz, KI-Literacy, AI Literacy, Arbeitgeberpflicht, Deployer, Qualifizierung, Living Repository, AI Pact, Schulung Gesundheitswesen, KI-Kompetenzpflicht",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "Nursing Informatics – Pflege, Daten und digitale Verantwortung",
+      url: "https://www.thomas-bade.de/nursing.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Nursing Informatics verbindet Pflegewissen, Datenqualität, digitale Systeme, Governance und KI-Kompetenz. Orientierung für Pflege, Management und digitale Gesundheitsversorgung.",
+      content: "Nursing Informatics Pflegeinformatik IMIA ANA Pflegewissenschaft Informatik Informationswissenschaft Daten Information Wissen Weisheit digitale Pflege EPA EHR Elektronische Patientenakte Pflegedokumentation klinische Entscheidungsunterstützung CDS SNOMED CT ICNP NANDA-I NIC NOC Omaha FinCC Interoperabilität FHIR Terminologien One Health One Digital Health WHO Ökosystem Bildung Praxis Governance Forschung TIGER DACH-Empfehlungen Hübner Prokosch Breil Medizinische Informatik GMDS ePA gematik ELGA EPD EHDS Europäischer Gesundheitsdatenraum EU AI Act Art. 4 KI-Kompetenz Hochrisiko-KI MDR IVDR DSGVO Pflegefachpersonen Krankenhaus Pflegeeinrichtung Nursing Informatics Specialist CNIO Clinical Informatics Nurse Telehealth mHealth AAL Ambient Assisted Living Telemonitoring Sturzprädiktion Dekubitusprophylaxe Pflegequalität Nurse-Sensitive Indicators Sekundärnutzung FAIR Daten partizipative KI Green Health IT Peltonen IMIA Yearbook 2023",
+      keywords: "Nursing Informatics, Pflegeinformatik, digitale Pflege, Pflegedokumentation, EU AI Act KI-Kompetenz Pflege, Interoperabilität, SNOMED CT, ICNP, TIGER, EHDS, IMIA, ANA, One Health, EPA, EHR, CNIO, Thomas Bade",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "Offenlegung von KI Anbietern im Gesundheitswesen – HAIP Vendor Disclosure",
+      url: "https://www.thomas-bade.de/vendor.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Interaktive Checkliste zum HAIP AI Vendor Disclosure Framework: Strukturierte Offenlegung von KI-Anbietern für Transparenz und Governance bei der KI-Beschaffung im Gesundheitswesen.",
+      content: "HAIP Health AI Partnership AI Vendor Disclosure Framework KI-Anbieter Offenlegung Transparenz KI-Beschaffung Gesundheitswesen Krankenhaus Pflege Checkliste Governance EU AI Act Hochrisiko-KI Beschaffungsverantwortung Betreiberpflichten Art. 26 Anbieterbeurteilung KI-Governance Managementlogik Interoperabilität Datenqualität Validierung klinische Evidenz Zertifizierung MDR IVDR Datenschutz DSGVO Post-Market-Surveillance Monitoring Risikomanagement Anbietermacht Vendor Lock-in Preisgestaltung Vertragsgestaltung Herstellerverpflichtung Nutzerdaten Trainingsdaten Bias Fairness Explainability Nachvollziehbarkeit Audit Wirtschaftlichkeit ROI Beschaffungsentscheidung Ausschreibung Procurement digitale Souveränität",
+      keywords: "HAIP, KI Anbieter, Vendor Disclosure, KI Governance, Gesundheitswesen, KI Transparenz, Beschaffung, Checkliste, EU AI Act Art. 26, Betreiberpflichten, KI-Beschaffung, Anbieterbeurteilung, Hochrisiko-KI, MDR, DSGVO",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "ESF+ Programm Bayern – Partneraufruf KI-Qualifizierung",
+      url: "https://www.thomas-bade.de/esf.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "Öffentlicher Partneraufruf zur KI-Qualifizierung für Erwerbstätige in kleinen Unternehmen. ESF+-Aufruf 9 Bayern 2026 – Partner für gemeinsame Strategie gesucht.",
+      content: "ESF+ Bayern Aufruf 9 2026 KI-Qualifizierung Erwerbstätige kleine Unternehmen Gesundheitswesen Sozialwirtschaft Partneraufruf Einreichungsfrist 15. Juli 2026 Förderprogramm Europäischer Sozialfonds EU AI Act Art. 4 KI-Kompetenz Pflege Krankenhaus kommunale Träger Qualifizierungsmaßnahme Verbundprojekt Kofinanzierung Bildungsträger Weiterbildung digitale Kompetenzen Berufsbegleitend Träger Kooperation Netzwerk Bewerbung Strategie Thomas Bade",
+      keywords: "ESF+ Bayern, Aufruf 9, KI-Qualifizierung, Erwerbstätige, Partneraufruf, Förderprogramm, Gesundheitswesen, Sozialwirtschaft, EU AI Act Art. 4, KI-Kompetenz, Weiterbildung, Verbundprojekt",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "ESF+ Bundesländer – KI-Qualifizierung Transfer",
+      url: "https://www.thomas-bade.de/esf_de.html",
+      category: "Analyse & Beratungspraxis",
+      excerpt: "ESF+-Übersicht für die Übertragung des bayerischen KI-Qualifizierungsmodells auf andere Bundesländer: Baden-Württemberg, NRW, Niedersachsen, Brandenburg, Sachsen.",
+      content: "ESF+ Bundesländer KI-Qualifizierung Transfer Bayern Referenzmodell Baden-Württemberg Nordrhein-Westfalen Niedersachsen Brandenburg Sachsen Skalierung 2026 2028 Transfercluster regionale Positionierung Förderprogramme andere Bundesländer Europäischer Sozialfonds Aufruf 8 Aufruf 9 Sozialwirtschaft Kommunen Gesundheitswesen Pflege Krankenhaus Bildungsträger Verbundprojekt Kooperation Netzwerk Partnerschaft ESF+-Antrag Einreichung Bewerbung regionale Netzwerke KI-Kompetenz EU AI Act Weiterbildung Thomas Bade",
+      keywords: "ESF+ Bundesländer, KI-Qualifizierung Transfer, Bayern Referenzmodell, Baden-Württemberg, NRW, Niedersachsen, Brandenburg, Sachsen, Skalierung, Förderprogramme, ESF+ Aufruf 8, ESF+ Aufruf 9, Sozialwirtschaft",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+{
+      title: "Leitbild – Digitale Souveränität & Europäische KI",
+      url: "https://www.thomas-bade.de/leitbild.html",
+      category: "Hauptseiten",
+      excerpt: "Leitbild für KI-Qualifizierung in Gesundheitswesen, Pflege und Sozialwirtschaft: digitale Souveränität, europäische und deutsche KI-Anbieter, EU AI Act und Apply AI Strategy.",
+      content: "Leitbild Digitale Souveränität Europäische KI Apply AI Strategy EU AI Act Buy European Open Source KI Sozialwirtschaft ESF+ Gesundheitswesen Pflege Krankenhaus kommunale Daseinsvorsorge deutsche KI-Anbieter Datensouveränität Transparenz Art. 50 Europäisches KI-Ökosystem Abhängigkeiten außereuropäische Anbieter Qualifizierung Handlungskompetenz Leitziele Datenschutz DSGVO Betreiberpflichten Beschäftigte Thomas Bade",
+      keywords: "Leitbild, Digitale Souveränität, Europäische KI, Apply AI Strategy, EU AI Act, Buy European, Open Source KI, Sozialwirtschaft, ESF+, Thomas Bade",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+
+    {
+      title: "Mission Statement – Digital Sovereignty & European AI",
+      url: "https://www.thomas-bade.de/mission.html",
+      category: "Hauptseiten",
+      excerpt: "Mission statement for AI qualification in healthcare, care, social economy and municipal public services: digital sovereignty, European and German AI providers, EU AI Act and Apply AI Strategy.",
+      content: "Mission Statement Digital Sovereignty European AI Apply AI Strategy EU AI Act Buy European Open Source AI Social Economy ESF+ Healthcare Care Hospital Municipal Public Services German AI Providers Data Sovereignty Transparency Article 50 European AI Ecosystem Qualification Competence Employees Thomas Bade",
+      keywords: "Mission Statement, Digital Sovereignty, European AI, Apply AI Strategy, EU AI Act, Buy European, Open Source AI, Social Economy, ESF+, Thomas Bade",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    
+
+    // ── ISO/IEC 42001 ─────────────────────────────────────────
+    {
+      title: "ISO/IEC 42001:2023 – KI-Managementsystem (AIMS)",
+      url: "https://www.thomas-bade.de/iso42001.html",
+      category: "EU AI Act & KI-Regulatorik",
+      excerpt: "Trust by Design: Die erste internationale Norm für KI-Managementsysteme. Vollständige Einführung mit Struktur, Kontrollzielen (Anhang A), Umsetzungsleitfaden (Anhang B) und Praxistipps für das Gesundheits- und Sozialwesen.",
+      content: "ISO IEC 42001 2023 KI-Managementsystem AIMS Artificial Intelligence Management System Trust by Design KI-Governance Managementsystem Norm International Standard KI-Richtlinie KI-Risikobehandlung KI-Risikobewertung Auswirkungsbewertung Statement of Applicability SoA Kontrollziele Anhang A Umsetzungsleitfaden Anhang B Organisationsziele Risikoquellen Anhang C Sektorintegration Anhang D Kontext Organisation Führung Planung Unterstützung Betrieb Leistungsbewertung Verbesserung PDCA Zyklus HLS High Level Structure ISO 9001 ISO 27001 ISO 27701 Datenschutz Informationssicherheit Qualitätsmanagement Integration Harmonisierte Struktur KI-Richtlinie KI-Ziele Risikokriterien Risikobewertung Risikobehandlung Auswirkungsbewertung Gesellschaft Einzelpersonen Fairness Bias Transparenz Erklärbarkeit Rechenschaftspflicht Robustheit Sicherheit Datenschutz Wartbarkeit Umweltauswirkungen KI-Expertise Datenvergiftung Data Poisoning Modelldiebstahl Modellinversion Datenqualität Datenherkunft Datenaufbereitung Lebenszyklus KI-System Bereitstellung Betrieb Überwachung Ereignisprotokolle Technische Dokumentation Validierung Überprüfung Lieferanten Kunden Dritte Whistleblowing Meldung Bedenken menschliche Aufsicht Human Oversight Gesundheitswesen Krankenhaus Pflege Sozialwesen Sanitätsfachhandel MDR IVDR EU AI Act Hochrisiko-KI Beschaffung Governance Compliance vendor-unabhängig Thomas Bade Eichstätt Bayern Beratung",
+      keywords: "ISO 42001, ISO IEC 42001, KI-Managementsystem, AIMS, Trust by Design, KI-Governance, Kontrollziele Anhang A, Umsetzungsleitfaden Anhang B, Risikobewertung, Auswirkungsbewertung, Statement of Applicability, menschliche Aufsicht, Fairness, Transparenz, ISO 27001, ISO 9001, Gesundheitswesen, EU AI Act, Hochrisiko-KI, Thomas Bade",
+      image: "https://thomas-bade.de/assets/img/iso42001_social.jpg"
+    },
+
+    // ── Neue Seite hinzufügen: Eintrag hier einfügen ──────────
+    // {
+    //   title: "Seitentitel",
+    //   url: "https://www.thomas-bade.de/seite.html",
+    //   category: "Kategorie",
+    //   excerpt: "Kurzbeschreibung für Suchergebnisse (1–2 Sätze).",
+    //   content: "Volltext-Keywords Stichwörter für die Suche",
+    //   keywords: "Komma, getrennte, Hauptbegriffe",
+    //   image: "https://thomas-bade.de/assets/img/social_media.jpg"  // optional eigenes Bild verwenden
+    // },
+
+  ]
+};

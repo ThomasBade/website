@@ -1,0 +1,188 @@
+{
+  "id": "page:control_panel",
+  "slug": "control_panel",
+  "filename": "control_panel.html",
+  "url": "https://www.thomas-bade.de/control_panel.html",
+  "canonical": "https://www.thomas-bade.de/control_panel.html",
+  "title": "KI Control Panel für Entlassmanagement & Compliance | Thomas Bade",
+  "description": "Zentrales Control Panel zur Bewertung von KI-Systemen im Entlassmanagement. Prüfschemata, Compliance-Checks und Management-Summary nach Sozialgerichtsbarkeit & EU-Vorgaben.",
+  "summary": "Es verbindet sozialrechtliche Leitlinien, maßgebliche Gerichtsentscheidungen und anerkannte Expertenstandards zu einem praxisnahen Referenzrahmen für Management, Medizincontrolling und Versorgungssteuerung. Ziel ist es, komplexe rechtliche Anforderungen verständlich aufzubereiten, Risiken frühzeitig sichtbar zu machen und belastbare Entscheidungsgrundlagen für operative Prozesse zu schaffen.",
+  "topics": [
+    "Gesundheitswesen",
+    "Pflege",
+    "KI-Governance",
+    "Patientenzentrierung",
+    "Risikomanagement",
+    "KI-Kompetenz",
+    "KI-Compliance",
+    "Control",
+    "Panel",
+    "Entlassmanagement"
+  ],
+  "word_count": 2817,
+  "heading_count": 2,
+  "h1_count": 0,
+  "internal_links": 18,
+  "linked_pages": [
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 2,
+  "has_og": true,
+  "citation_signals": 13,
+  "question_headings": 0,
+  "structured_blocks": 61,
+  "author_signal": true,
+  "content_hash": "103184d9e537085d",
+  "seo_score": 88,
+  "geo_score": 82,
+  "ai_overview_probability": 75,
+  "maturity": "fortgeschritten",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": true,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": false,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Gesundheitswesen",
+          "Pflege",
+          "KI-Governance",
+          "Patientenzentrierung",
+          "Risikomanagement",
+          "KI-Kompetenz",
+          "KI-Compliance",
+          "Control",
+          "Panel",
+          "Entlassmanagement"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/control_panel.html#webpage",
+        "url": "https://www.thomas-bade.de/control_panel.html",
+        "headline": "KI Control Panel für Entlassmanagement & Compliance | Thomas Bade",
+        "description": "Zentrales Control Panel zur Bewertung von KI-Systemen im Entlassmanagement. Prüfschemata, Compliance-Checks und Management-Summary nach Sozialgerichtsbarkeit & EU-Vorgaben.",
+        "abstract": "Es verbindet sozialrechtliche Leitlinien, maßgebliche Gerichtsentscheidungen und anerkannte Expertenstandards zu einem praxisnahen Referenzrahmen für Management, Medizincontrolling und Versorgungssteuerung. Ziel ist es, komplexe rechtliche Anforderungen verständlich aufzubereiten, Risiken frühzeitig sichtbar zu machen und belastbare Entscheidungsgrundlagen für operative Prozesse zu schaffen.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Kompetenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Control"
+          },
+          {
+            "@type": "Thing",
+            "name": "Panel"
+          },
+          {
+            "@type": "Thing",
+            "name": "Entlassmanagement"
+          }
+        ],
+        "keywords": [
+          "Gesundheitswesen",
+          "Pflege",
+          "KI-Governance",
+          "Patientenzentrierung",
+          "Risikomanagement",
+          "KI-Kompetenz",
+          "KI-Compliance",
+          "Control",
+          "Panel",
+          "Entlassmanagement"
+        ]
+      }
+    ]
+  }
+}

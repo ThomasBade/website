@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Medizinprodukte",
+        "EU AI Act",
+        "Gesundheitswesen",
+        "KI-Governance",
+        "Risikomanagement",
+        "KI-Kompetenz",
+        "KI-Compliance",
+        "Datenschutz",
+        "KI-Verordnung",
+        "KI-MIG"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/ki_verordnung.html#webpage",
+      "url": "https://www.thomas-bade.de/ki_verordnung.html",
+      "headline": "EU KI-Verordnung (AI Act) im Gesundheitswesen | KI-MIG in Kraft & Umsetzung",
+      "description": "Das KI-MIG ist seit 29.07.2026 geltendes Recht, der EU AI Act ab 02.08.2026 allgemein anwendbar. Pflichten, Fristverschiebungen durch den Digital Omnibus und Compliance-Checkliste für Gesundheitseinrichtungen.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map EU KI-Verordnung (AI Act) im Gesundheitswesen KI-MIG in Kraft · Compliance & Umsetzung ab 02.08.2026 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Status: In Kraft. Das KI-MIG wurde am 22.07.2026 vom Bundestag beschlossen, am 28.07.2026 im Bundesgesetzblatt verkündet ( BGBl.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Verordnung"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-MIG"
+        }
+      ],
+      "keywords": [
+        "Medizinprodukte",
+        "EU AI Act",
+        "Gesundheitswesen",
+        "KI-Governance",
+        "Risikomanagement",
+        "KI-Kompetenz",
+        "KI-Compliance",
+        "Datenschutz",
+        "KI-Verordnung",
+        "KI-MIG"
+      ]
+    }
+  ]
+}

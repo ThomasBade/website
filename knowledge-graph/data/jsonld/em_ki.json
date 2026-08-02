@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Medizinprodukte",
+        "Künstliche Intelligenz",
+        "Pflege",
+        "KI-Governance",
+        "Risikomanagement",
+        "Patientenzentrierung",
+        "EU AI Act",
+        "Gesundheitswesen",
+        "KI-Kompetenz",
+        "KI-Monitoring"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/em_ki.html#webpage",
+      "url": "https://www.thomas-bade.de/em_ki.html",
+      "headline": "KI im Entlassmanagement | Krankenhaus und Plattformen",
+      "description": "Einordnung von Künstlicher Intelligenz im Entlassmanagement: Potenziale, Grenzen, regulatorische Anforderungen und praxisnahe Entscheidungsgrundlagen für Krankenhäuser und Sozialdienste.",
+      "abstract": "Mit dem Einsatz eines KI-Systems im Entlassmanagement verfolgt das Krankenhaus das Ziel, Entlassprozesse frühzeitiger und verlässlicher zu steuern, Versorgungsbedarfe rechtzeitig zu erkennen und Versorgungsbrüche zu vermeiden. Der erwartete qualitative und wirtschaftliche Mehrwert muss in einem angemessenen Verhältnis zu den Investitionskosten des KI-Systems sowie zu den zusätzlichen Verwaltungs-, Dokumentations- und Governance-Aufwänden nach EU-AI-Act stehen.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        }
+      ],
+      "keywords": [
+        "Medizinprodukte",
+        "Künstliche Intelligenz",
+        "Pflege",
+        "KI-Governance",
+        "Risikomanagement",
+        "Patientenzentrierung",
+        "EU AI Act",
+        "Gesundheitswesen",
+        "KI-Kompetenz",
+        "KI-Monitoring"
+      ]
+    }
+  ]
+}

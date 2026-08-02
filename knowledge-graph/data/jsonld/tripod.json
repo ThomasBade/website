@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "KI-Governance",
+        "Gesundheitswesen",
+        "TRIPOD",
+        "Reporting",
+        "Checkliste",
+        "Wissenschaft",
+        "KI-Ethik",
+        "EU AI Act",
+        "Künstliche Intelligenz",
+        "KI-Monitoring"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/tripod_llm.html#webpage",
+      "url": "https://www.thomas-bade.de/tripod_llm.html",
+      "headline": "TRIPOD LLM – Reporting Checkliste",
+      "description": "TRIPOD LLM: Kostenlose Basis-Checkliste für transparentes Reporting von Large Language Models im Gesundheitswesen – Titel, Methoden, Ausgabe, Prompting und Ethik.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map TRIPOD LLM – Reporting Leitlinie 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen 🎧 Die TRIPOD LLM – Reporting Leitlinie! Kurze Einführung · von Thomas Bade Ihr Browser unterstützt kein HTML5-Audio.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "TRIPOD"
+        },
+        {
+          "@type": "Thing",
+          "name": "Reporting"
+        },
+        {
+          "@type": "Thing",
+          "name": "Checkliste"
+        },
+        {
+          "@type": "Thing",
+          "name": "Wissenschaft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Ethik"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        }
+      ],
+      "keywords": [
+        "KI-Governance",
+        "Gesundheitswesen",
+        "TRIPOD",
+        "Reporting",
+        "Checkliste",
+        "Wissenschaft",
+        "KI-Ethik",
+        "EU AI Act",
+        "Künstliche Intelligenz",
+        "KI-Monitoring"
+      ]
+    }
+  ]
+}

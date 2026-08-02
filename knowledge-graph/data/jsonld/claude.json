@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "EU AI Act",
+        "KI-Governance",
+        "KI-Produktivitätsanalyse",
+        "Erkenntnissen",
+        "Anthropic-Studie",
+        "Gesundheitswesen",
+        "KI-Compliance",
+        "Datenschutz",
+        "Patientenzentrierung",
+        "Medizinprodukte"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/claude.html#webpage",
+      "url": "https://www.thomas-bade.de/claude.html",
+      "headline": "KI-Produktivitätsanalyse mit Erkenntnissen der Anthropic-Studie",
+      "description": "Anthropic-Studie: KI-Modelle steigern US-Arbeitsproduktivität um 1,8% jährlich. 80% Zeitersparnis bei 90-minütigen Aufgaben.",
+      "abstract": "Systeme wie Claude werden zunehmend für komplexe Aufgaben eingesetzt – darunter Analyse, Wissensmanagement, Textproduktion und Entscheidungsunterstützung. Warum diese Studie für Organisationen relevant ist KI-Systeme fungieren weniger als vollständiger Ersatz menschlicher Arbeit, sondern vielmehr als kooperative Assistenzsysteme .",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Produktivitätsanalyse"
+        },
+        {
+          "@type": "Thing",
+          "name": "Erkenntnissen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Anthropic-Studie"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        }
+      ],
+      "keywords": [
+        "EU AI Act",
+        "KI-Governance",
+        "KI-Produktivitätsanalyse",
+        "Erkenntnissen",
+        "Anthropic-Studie",
+        "Gesundheitswesen",
+        "KI-Compliance",
+        "Datenschutz",
+        "Patientenzentrierung",
+        "Medizinprodukte"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Pflege",
+        "EU AI Act",
+        "KI-Governance",
+        "KI-Kompetenz",
+        "Patientenzentrierung",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "Medizinprodukte",
+        "Nursing",
+        "Informatics"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/nursing-informatics.html#webpage",
+      "url": "https://www.thomas-bade.de/nursing-informatics.html",
+      "headline": "Nursing Informatics – Pflege, Daten und digitale Verantwortung | thomas-bade.de",
+      "description": "Nursing Informatics verbindet Pflegewissen, Datenqualität, digitale Systeme, Governance und KI-Kompetenz. Orientierung für Pflege, Management und digitale Gesundheitsversorgung.",
+      "abstract": "Transkript anzeigen Willkommen auf der Seite Nursing Informatics – Pflege trifft Digitalisierung. Nursing Informatics verbindet Pflegewissen, Datenqualität, digitale Systeme, Governance und KI-Kompetenz.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "Nursing"
+        },
+        {
+          "@type": "Thing",
+          "name": "Informatics"
+        }
+      ],
+      "keywords": [
+        "Pflege",
+        "EU AI Act",
+        "KI-Governance",
+        "KI-Kompetenz",
+        "Patientenzentrierung",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "Medizinprodukte",
+        "Nursing",
+        "Informatics"
+      ]
+    }
+  ]
+}

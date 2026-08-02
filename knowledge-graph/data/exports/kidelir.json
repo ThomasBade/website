@@ -1,0 +1,188 @@
+{
+  "id": "page:kidelir",
+  "slug": "kidelir",
+  "filename": "kidelir.html",
+  "url": "https://www.thomas-bade.de/kidelir.html",
+  "canonical": "https://www.thomas-bade.de/kidelir.html",
+  "title": "Partizipative KI-Entwicklung im Pflegekontext – KIDELIR Studie 2026 | Thomas Bade",
+  "description": "Wie macht man implizites Pflegewissen für KI-Systeme nutzbar? Die KIDELIR-Studie (Rambach et al. 2026) zeigt, wie partizipative Formate professionsspezifisches Erfahrungswissen in die KI-Entwicklung einbringen – mit Konsequenzen für Governance und EU AI Act.",
+  "summary": "Rambach T., Gleim P., Heizmann C., Mählmann S., Ritzi A., Ziegler S., Kellmeyer P., Kunze C. Hochschule Furtwangen · Universität Mannheim · Universitätsklinikum Freiburg.",
+  "topics": [
+    "EU AI Act",
+    "Pflege",
+    "Risikomanagement",
+    "Partizipative",
+    "KI-Entwicklung",
+    "Pflegekontext",
+    "KIDELIR",
+    "Studie",
+    "Thomas",
+    "KI-Kompetenz"
+  ],
+  "word_count": 1660,
+  "heading_count": 23,
+  "h1_count": 1,
+  "internal_links": 18,
+  "linked_pages": [
+    "bmg",
+    "coach",
+    "constitution",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 1,
+  "has_og": true,
+  "citation_signals": 8,
+  "question_headings": 3,
+  "structured_blocks": 4,
+  "author_signal": true,
+  "content_hash": "67abae684e5cf294",
+  "seo_score": 80,
+  "geo_score": 100,
+  "ai_overview_probability": 83,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": false,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "EU AI Act",
+          "Pflege",
+          "Risikomanagement",
+          "Partizipative",
+          "KI-Entwicklung",
+          "Pflegekontext",
+          "KIDELIR",
+          "Studie",
+          "Thomas",
+          "KI-Kompetenz"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/kidelir.html#webpage",
+        "url": "https://www.thomas-bade.de/kidelir.html",
+        "headline": "Partizipative KI-Entwicklung im Pflegekontext – KIDELIR Studie 2026 | Thomas Bade",
+        "description": "Wie macht man implizites Pflegewissen für KI-Systeme nutzbar? Die KIDELIR-Studie (Rambach et al. 2026) zeigt, wie partizipative Formate professionsspezifisches Erfahrungswissen in die KI-Entwicklung einbringen – mit Konsequenzen für Governance und EU AI Act.",
+        "abstract": "Rambach T., Gleim P., Heizmann C., Mählmann S., Ritzi A., Ziegler S., Kellmeyer P., Kunze C. Hochschule Furtwangen · Universität Mannheim · Universitätsklinikum Freiburg.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "Partizipative"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Entwicklung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflegekontext"
+          },
+          {
+            "@type": "Thing",
+            "name": "KIDELIR"
+          },
+          {
+            "@type": "Thing",
+            "name": "Studie"
+          },
+          {
+            "@type": "Thing",
+            "name": "Thomas"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Kompetenz"
+          }
+        ],
+        "keywords": [
+          "EU AI Act",
+          "Pflege",
+          "Risikomanagement",
+          "Partizipative",
+          "KI-Entwicklung",
+          "Pflegekontext",
+          "KIDELIR",
+          "Studie",
+          "Thomas",
+          "KI-Kompetenz"
+        ]
+      }
+    ]
+  }
+}

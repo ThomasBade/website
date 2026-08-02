@@ -1,0 +1,2825 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+ <!-- SEO Meta Tags – control_panel.html -->
+
+<title>KI Control Panel für Entlassmanagement &amp; Compliance | Thomas Bade</title>
+
+<meta name="description" content="Zentrales Control Panel zur Bewertung von KI-Systemen im Entlassmanagement. Prüfschemata, Compliance-Checks und Management-Summary nach Sozialgerichtsbarkeit & EU-Vorgaben.">
+
+<meta name="keywords" content="KI Entlassmanagement, KI Control Panel, Krankenhaus KI, Sozialgerichtsbarkeit, Entlassmanagement Prüfung, KI Compliance Gesundheitswesen, EU AI Act Gesundheit">
+
+<meta name="author" content="Thomas Bade">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph (LinkedIn / Social Sharing) -->
+<meta property="og:title" content="KI Control Panel für Entlassmanagement & Compliance">
+<meta property="og:description" content="Bewertung und Steuerung von KI-Systemen im Entlassmanagement – gerichtsfest, nachvollziehbar und praxisorientiert.">
+<meta property="fb:app_id" content="1526070366197506" />
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.thomas-bade.de/control_panel.html">
+<meta property="og:image" content="https://www.thomas-bade.de/assets/img/logo_tb.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KI Control Panel für Entlassmanagement & Compliance">
+<meta name="twitter:description" content="Prüfschemata und Management Summary für KI im Krankenhaus.">
+<meta name="twitter:image" content="https://www.thomas-bade.de/assets/img/logo_tb.png">
+<!-- =============================== -->
+<!-- STRUCTURED DATA: SCHEMA.ORG     -->
+<!-- =============================== -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Künstliche Intelligenz in Gesellschaft & Wirtschaft – Prolog",
+  "url": "https://thomas-bade.de",
+  "description": "Fundierter Prolog über die Auswirkungen künstlicher Intelligenz auf Gesellschaft und Wirtschaft – basierend auf Erkenntnissen von WHO, WEF, NAM und DFKI.",
+  "dateModified": "2026-07-08",
+  "inLanguage": "de",
+  "author": {
+    "@type": "Person",
+    "name": "Thomas Bade",
+    "url": "https://thomas-bade.de"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Thomas Bade – KI-Kompetenz & Gesundheitswesen",
+    "url": "https://thomas-bade.de",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://thomas-bade.de/assets/logo.png"
+    }
+  },
+  "mainEntity": {
+    "@type": "Article",
+    "headline": "Künstliche Intelligenz in Gesellschaft und Wirtschaft – Chancen und Verantwortung",
+    "keywords": "Künstliche Intelligenz, Gesundheitswesen, Wirtschaft, Gesellschaft, Responsible AI, Digitalisierung",
+    "image": "https://thomas-bade.de/assets/ai-preview.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "Thomas Bade"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Thomas Bade"
+    }
+  }
+}
+</script>
+
+  <!-- Favicons -->
+ <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon.png">
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="apple-touch-icon" href="https://www.thomas-bade.de/assets/img/apple-touch-icon.png">
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        :root {
+            --primary-color: #2c5282;
+            --success-color: #38a169;
+            --warning-color: #d69e2e;
+            --danger-color: #e53e3e;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f7fafc;
+            color: #2d3748;
+        }
+        
+        .header-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #4a5568 100%);
+            color: white;
+            padding: 3rem 0;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .card {
+            border: none;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+        
+        .card-header {
+            background-color: #edf2f7;
+            border-bottom: 2px solid var(--primary-color);
+            font-weight: 600;
+            padding: 1rem 1.5rem;
+        }
+        
+        .criterion-number {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 6px;
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+        
+        .form-select {
+            border: 2px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 0.6rem;
+            transition: all 0.3s;
+        }
+        
+        .form-select:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.2rem rgba(44, 82, 130, 0.15);
+        }
+        
+        .grade-display {
+            font-size: 1.8rem;
+            font-weight: bold;
+            padding: 0.8rem;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 1rem;
+            transition: all 0.3s;
+        }
+        
+        .grade-excellent {
+            background-color: #c6f6d5;
+            color: #22543d;
+            border: 2px solid var(--success-color);
+        }
+        
+        .grade-good {
+            background-color: #fefcbf;
+            color: #744210;
+            border: 2px solid var(--warning-color);
+        }
+        
+        .grade-poor {
+            background-color: #fed7d7;
+            color: #742a2a;
+            border: 2px solid var(--danger-color);
+        }
+        
+        .management-summary {
+            background: white;
+            border-left: 5px solid var(--primary-color);
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .overall-grade {
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+        }
+        
+        .recommendation-box {
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+            border-left: 5px solid;
+        }
+        
+        .recommendation-green {
+            background-color: #c6f6d5;
+            border-color: var(--success-color);
+        }
+        
+        .recommendation-yellow {
+            background-color: #fefcbf;
+            border-color: var(--warning-color);
+        }
+        
+        .recommendation-red {
+            background-color: #fed7d7;
+            border-color: var(--danger-color);
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border: none;
+            padding: 0.75rem 2rem;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary:hover {
+            background-color: #1a365d;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        
+        .evidence-badge {
+            background-color: #bee3f8;
+            color: #2c5282;
+            padding: 0.3rem 0.7rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            display: inline-block;
+        }
+        
+        .footer-section {
+            background-color: #2d3748;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
+        /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+   <!-- =======================================================
+  * Template Name: Gp - v4.10.0
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+   <style>
+    a.btn.btn-ci {
+      background-color: #ffc451 !important;
+      border: 1px solid #ffc451 !important;
+      color: #000 !important;
+      font-weight: 600;
+    }
+
+    a.btn.btn-ci:hover,
+    a.btn.btn-ci:focus {
+      background-color: #ffffff !important;
+      border: 1px solid #ffc451 !important;
+      color: #000 !important;
+    }
+      /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+  <style>
+  button.btn.btn-ci {
+    background-color: #ffc451 !important;
+    border: 1px solid #ffc451 !important;
+    color: #000 !important;
+    font-weight: 600;
+  }
+
+  button.btn.btn-ci:hover,
+  button.btn.btn-ci:focus {
+    background-color: #ffffff !important;
+    border: 1px solid #ffc451 !important;
+    color: #000 !important;
+  }
+
+  button.btn.btn-ci:active {
+    background-color: #e0a800 !important;
+    border-color: #e0a800 !important;
+    color: #000 !important;
+  }
+  
+   /* ── Footer ── */
+    #footer { background:#000 !important; }
+    #footer .footer-top { background:#000 !important; padding:40px 0 20px; }
+    #footer .footer-top p { font-size:14px !important; line-height:2 !important; margin-bottom:4px; }
+    #footer .footer-top a { color:#ccc !important; font-size:14px !important; text-decoration:none !important; }
+    #footer .footer-top a:hover { color:#ffc451 !important; }
+    #footer .footer-top img { height:120px !important; margin-bottom:20px !important; }
+    #footer .copyright { display:none; }
+    #footer .footer-label { color:#ffc451 !important; }
+
+    /* ── Footer Dropdown ── */
+    .footer-dropdown { position:relative; display:inline-block; margin-bottom:16px; }
+    .footer-dd-trigger { background:#1a1a1a; border:1px solid #333; color:#ccc; font-size:13px; padding:8px 16px; border-radius:4px; cursor:pointer; display:flex; align-items:center; gap:8px; transition:border-color 0.2s, color 0.2s; font-family:inherit; }
+    .footer-dd-trigger:hover { border-color:#ffc451; color:#ffc451; }
+    .footer-dd-chevron { font-size:10px; color:#ffc451; transition:transform 0.2s; }
+    .footer-dd-menu { display:none; position:absolute; bottom:calc(100% + 6px); left:0; background:#1a1a1a; border:1px solid #333; border-top:2px solid #ffc451; border-radius:4px; list-style:none; padding:6px 0; min-width:280px; z-index:9999; box-shadow:0 -12px 32px rgba(0,0,0,0.6); column-count:2; column-gap:0; }
+    .footer-dd-menu.open { display:block; }
+    .footer-dd-trigger.open .footer-dd-chevron { transform:rotate(180deg); }
+    .footer-dd-menu li { break-inside:avoid; }
+    .footer-dd-menu li a { display:block; padding:6px 14px; font-size:12px !important; color:#aaa !important; text-decoration:none !important; white-space:nowrap; transition:color 0.15s, background 0.15s; line-height:1.6 !important; }
+    .footer-dd-menu li a:hover { color:#ffc451 !important; background:rgba(255,196,81,0.06); }
+/* ── Site Search ── */
+    .risk-search-wrapper { position: relative; margin: 20px 0; z-index: 1000; display: flex; justify-content: flex-start; }
+    .search-bar { position: relative; display: block; }
+    .search-input-wrapper { position: relative; display: flex; align-items: center; background: #ffffff !important; border: 2px solid #ced4da; border-radius: 8px; padding: 8px 14px; transition: all 0.3s ease; min-width: 300px; height: 42px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .search-input-wrapper:hover { background: #ffffff !important; border-color: #0066cc; box-shadow: 0 3px 10px rgba(0,0,0,0.15); }
+    .search-input-wrapper:focus-within { background: #ffffff !important; border-color: #0066cc; box-shadow: 0 0 0 4px rgba(0,102,204,0.2), 0 3px 10px rgba(0,0,0,0.15); }
+    .search-icon { color: #6c757d; flex-shrink: 0; margin-right: 8px; }
+    .search-input { flex: 1; border: none; outline: none; font-size: 14px; color: #212529; background: transparent !important; min-width: 0; font-family: inherit; }
+    .search-input::placeholder { color: #000000; opacity: 1; }
+    .search-input:focus { outline: none; }
+    .search-clear { background: none; border: none; color: #000000; cursor: pointer; padding: 2px; margin-left: 4px; display: flex; align-items: center; justify-content: center; border-radius: 3px; transition: all 0.2s ease; flex-shrink: 0; }
+    .search-clear:hover { background: rgba(0,0,0,0.05); color: #212529; }
+    .search-results { position: absolute; top: calc(100% + 8px); left: 0; width: 500px; max-width: 95vw; max-height: 500px; overflow-y: auto; background: #ffffff; border: 1px solid #dee2e6; border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); z-index: 10000; }
+    .search-results-header { padding: 10px 16px; background: #f8f9fa; border-bottom: 1px solid #dee2e6; font-size: 12px; color: #6c757d; font-weight: 500; }
+    .search-results-list { padding: 4px 0; }
+    .search-result-item { display: block; padding: 12px 16px; text-decoration: none; color: inherit; transition: all 0.2s ease; border-left: 3px solid transparent; cursor: pointer; }
+    .search-result-item:hover, .search-result-item.selected { background: #f8f9fa; border-left-color: #0066cc; }
+    .search-result-title { font-size: 14px; font-weight: 600; color: #212529; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
+    .search-result-icon { width: 14px; height: 14px; color: #0066cc; flex-shrink: 0; }
+    .search-result-excerpt { font-size: 12px; color: #6c757d; line-height: 1.5; margin-bottom: 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .search-result-excerpt mark { background: rgba(255,196,81,0.4); color: #212529; padding: 1px 3px; border-radius: 2px; font-weight: 500; }
+    .search-result-meta { font-size: 11px; color: #adb5bd; display: flex; align-items: center; gap: 8px; }
+    .search-result-breadcrumb { display: flex; align-items: center; gap: 4px; }
+    .search-result-breadcrumb span::after { content: "›"; margin-left: 4px; color: #dee2e6; }
+    .search-result-breadcrumb span:last-child::after { content: none; }
+    .no-results { padding: 40px 20px; text-align: center; background: #ffffff; position: absolute; top: calc(100% + 8px); left: 0; width: 350px; max-width: 95vw; border: 1px solid #dee2e6; border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.15); z-index: 10000; }
+    .no-results svg { color: #adb5bd; margin-bottom: 12px; }
+    .no-results-title { font-size: 14px; font-weight: 600; color: #6c757d; margin-bottom: 4px; }
+    .no-results-text { font-size: 12px; color: #adb5bd; }
+    .search-overlay { display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); z-index: 9998; }
+    .search-overlay.active { display: block; }
+    .search-results::-webkit-scrollbar { width: 8px; }
+    .search-results::-webkit-scrollbar-track { background: #f8f9fa; }
+    .search-results::-webkit-scrollbar-thumb { background: #dee2e6; border-radius: 4px; }
+    .search-results::-webkit-scrollbar-thumb:hover { background: #adb5bd; }
+    @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+    .search-results, .no-results { animation: slideDown 0.2s ease; }
+    @media (max-width: 991px) { .risk-search-wrapper { position: relative; top: 0; right: 0; margin-bottom: 20px; width: 100%; display: flex; justify-content: flex-start; } .search-input-wrapper { min-width: 280px; } .search-results, .no-results { left: 0; right: auto; } }
+    @media (max-width: 768px) { .risk-search-wrapper { justify-content: flex-start; } .search-input-wrapper { padding: 7px 12px; height: 40px; min-width: 100%; max-width: 100%; } .search-input { font-size: 14px; } .search-results, .no-results { left: 0; right: 0; width: 100%; } }
+
+    /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+
+
+
+<!-- Privacy-friendly analytics by Plausible (Custom Properties aktiviert) -->
+<script defer data-domain="thomas-bade.de" src="/stats/js/script.php" data-api="/stats/api/event.php"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="llms" href="https://thomas-bade.de/llms.txt" />
+  <!-- Plausible Analytics -->
+  <script async="" src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
+    window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
+    plausible.init();
+  </script>
+<!-- =============================================================
+     GEO - Generative Engine Optimization - thomas-bade.de
+     Optimiert fuer: Perplexity, ChatGPT Search, Bing Copilot,
+                     Google AI Overviews, Claude, Gemini
+     Stand: 2026-07-08
+============================================================== -->
+
+<!-- 1. Autoren- und Publisher-Metadaten -->
+<meta name="author"            content="Thomas Bade">
+<meta name="creator"           content="Thomas Bade">
+<meta name="publisher"         content="thomas-bade.de">
+<meta name="copyright"         content="Thomas Bade, Eichstaett">
+<meta name="language"          content="de">
+<meta name="content-language"  content="de-DE">
+
+<!-- 2. Geografische Metadaten -->
+<meta name="geo.region"        content="DE-BY">
+<meta name="geo.placename"     content="Eichstaett, Bayern, Deutschland">
+<meta name="geo.position"      content="48.8921;11.1927">
+<meta name="ICBM"              content="48.8921, 11.1927">
+
+<!-- 3. Externe Identitaetsprofile -->
+<link rel="me" href="https://www.linkedin.com/in/thomas-bade">
+<link rel="me" href="https://x.com/thomasbade">
+<link rel="me" href="https://bsky.app/profile/thomas2024.bsky.social">
+<link rel="me" href="https://mastodon.social/@thomasbade">
+
+<!-- 4. LLM-Lesbarkeit -->
+<link rel="alternate" type="text/plain"
+      href="https://thomas-bade.de/llms.txt"
+      title="LLM-lesbarer Seitenindex thomas-bade.de">
+
+<!-- 5. Schema.org: Person + WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "givenName": "Thomas",
+      "familyName": "Bade",
+      "url": "https://www.thomas-bade.de",
+      "image": "https://www.thomas-bade.de/assets/img/leitbild.png",
+      "jobTitle": "KI-Compliance Consultant und Digital Content Designer",
+      "description": "Vendor-unabhaengiger KI-Compliance Berater mit ueber 30 Jahren Erfahrung im deutschen Gesundheits- und Sozialwesen. Spezialisiert auf EU AI Act, MDR/IVDR, DSGVO, SGB und ISO/IEC 42001. Mitglied Transparency Deutschland e.V. Signatar EU AI Act Art. 50 Code of Practice.",
+      "knowsAbout": [
+        "EU AI Act", "KI-Compliance", "KI-Governance", "Generative KI",
+        "ISO/IEC 42001:2023", "HAIP Framework", "TRIPOD-LLM",
+        "MDR", "IVDR", "DSGVO", "SGB", "Hochrisiko-KI",
+        "KI-Risikobewertung", "Gesundheitswesen", "Pflege",
+        "Krankenhaus", "Sanitaetsfachhandel", "Kommunen",
+        "Sozialwirtschaft", "Digital Health", "KI-Auswirkungsbewertung",
+        "Trust by Design", "Menschliche Aufsicht", "KI-Ethik"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "EU AI Act Art. 50 Code of Practice - Signatar"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Mitglied Transparency Deutschland e.V."
+        }
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Transparency Deutschland e.V.",
+        "url": "https://www.transparency.de"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://www.thomas-bade.de/#organisation",
+        "name": "thomas-bade.de",
+        "url": "https://www.thomas-bade.de",
+        "description": "Vendor-unabhaengige KI-Compliance Beratung fuer das Gesundheits- und Sozialwesen"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Eichstaett",
+        "addressRegion": "Bayern",
+        "postalCode": "85072",
+        "addressCountry": "DE"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/thomas-bade",
+        "https://x.com/thomasbade",
+        "https://bsky.app/profile/thomas2024.bsky.social",
+        "https://mastodon.social/@thomasbade",
+        "https://www.instagram.com/thomasbade7",
+        "https://www.thomas-bade.de",
+        "https://www.thomas-bade.org",
+        "https://www.thomas-bade.eu"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "name": "thomas-bade.de - KI-Compliance im Gesundheitswesen",
+      "alternateName": "Thomas Bade KI-Wissensportal",
+      "url": "https://www.thomas-bade.de",
+      "description": "Vendor-unabhaengige KI-Compliance Expertise fuer Krankenhaeuser, Pflegeeinrichtungen, Kommunen und Sozialeinrichtungen. EU AI Act, MDR/IVDR, DSGVO, ISO/IEC 42001, HAIP-Framework, TRIPOD-LLM.",
+      "inLanguage": "de-DE",
+      "author":          { "@id": "https://www.thomas-bade.de/#thomas-bade" },
+      "publisher":       { "@id": "https://www.thomas-bade.de/#thomas-bade" },
+      "copyrightHolder": { "@id": "https://www.thomas-bade.de/#thomas-bade" }
+    }
+  ]
+}
+</script>
+<!-- /GEO -->
+<script type="application/ld+json" data-tbkg-generated="true">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Gesundheitswesen",
+        "Pflege",
+        "KI-Governance",
+        "Patientenzentrierung",
+        "Risikomanagement",
+        "KI-Kompetenz",
+        "KI-Compliance",
+        "Control",
+        "Panel",
+        "Entlassmanagement"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/control_panel.html#webpage",
+      "url": "https://www.thomas-bade.de/control_panel.html",
+      "headline": "KI Control Panel für Entlassmanagement & Compliance | Thomas Bade",
+      "description": "Zentrales Control Panel zur Bewertung von KI-Systemen im Entlassmanagement. Prüfschemata, Compliance-Checks und Management-Summary nach Sozialgerichtsbarkeit & EU-Vorgaben.",
+      "abstract": "Es verbindet sozialrechtliche Leitlinien, maßgebliche Gerichtsentscheidungen und anerkannte Expertenstandards zu einem praxisnahen Referenzrahmen für Management, Medizincontrolling und Versorgungssteuerung. Ziel ist es, komplexe rechtliche Anforderungen verständlich aufzubereiten, Risiken frühzeitig sichtbar zu machen und belastbare Entscheidungsgrundlagen für operative Prozesse zu schaffen.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Control"
+        },
+        {
+          "@type": "Thing",
+          "name": "Panel"
+        },
+        {
+          "@type": "Thing",
+          "name": "Entlassmanagement"
+        }
+      ],
+      "keywords": [
+        "Gesundheitswesen",
+        "Pflege",
+        "KI-Governance",
+        "Patientenzentrierung",
+        "Risikomanagement",
+        "KI-Kompetenz",
+        "KI-Compliance",
+        "Control",
+        "Panel",
+        "Entlassmanagement"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+
+<body>
+<!-- Cookie-Hinweis: nur technisch notwendige Cookies -->
+<style>
+  #cookieNotice {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #111;
+    color: #f1f1f1;
+    padding: 16px 20px;
+    z-index: 9999;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.3);
+    display: none;
+  }
+
+  #cookieNotice a {
+    color: #4da3ff;
+    text-decoration: underline;
+  }
+
+  #cookieNotice button {
+    background: #4da3ff;
+    border: none;
+    color: #fff;
+    padding: 8px 14px;
+    margin-left: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+
+  #cookieNotice button:hover {
+    background: #2f89e5;
+  }
+
+  @media (max-width: 576px) {
+    #cookieNotice {
+      font-size: 0.85rem;
+    }
+    #cookieNotice button {
+      margin-top: 10px;
+      display: block;
+    }
+  }
+  
+  .prrc-tooltip-wrapper {
+    position: relative;
+    display: inline;
+  }
+
+  .prrc-highlight {
+    color: #000000;
+    font-weight: bold;
+    cursor: help;
+    border-bottom: 1px dashed #000000;
+    white-space: nowrap;
+  }
+
+  .prrc-tooltip-box {
+    display: none;
+    position: fixed;
+    width: 340px;
+    max-width: calc(100vw - 30px);
+    background: #1a1a1a;
+    color: #f0f0f0;
+    font-size: 13px;
+    line-height: 1.6;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border-left: 3px solid #ffc451;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+    pointer-events: none;
+  }
+
+  .prrc-tooltip-box strong {
+    color: #ffc451;
+  }
+
+  .prrc-tooltip-box::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    border: 7px solid transparent;
+    border-top-color: #1a1a1a;
+  }
+
+  @keyframes prrcFadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+    /* ---- Share Button â€“ vollstaendig inline ---- */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{
+      background:#1a1a1a;border:1px solid #333;border-radius:50%;
+      width:42px;height:42px;display:flex;align-items:center;justify-content:center;
+      cursor:pointer;transition:background .2s,border-color .2s;padding:0;
+    }
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{
+      display:none;position:absolute;bottom:calc(100% + 10px);left:0;
+      background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;
+      border-radius:6px;padding:10px 12px;gap:8px;
+      flex-direction:row;align-items:center;flex-wrap:wrap;
+      box-shadow:0 -8px 28px rgba(0,0,0,.5);
+      white-space:nowrap;z-index:9999;min-width:220px;
+    }
+    .share-popup.open{display:flex;}
+    .share-popup a,
+    .share-popup button.share-icon-btn{
+      display:flex;align-items:center;justify-content:center;
+      width:36px;height:36px;border-radius:50%;
+      background:#222;border:1px solid #333;cursor:pointer;
+      transition:background .18s,border-color .18s;
+      text-decoration:none;padding:0;
+    }
+    .share-popup a:hover,
+    .share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,
+    .share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{
+      display:none;position:absolute;bottom:calc(100% + 60px);left:0;
+      background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;
+      padding:12px 14px;z-index:10000;width:260px;
+      box-shadow:0 -8px 24px rgba(0,0,0,.6);
+    }
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{
+      width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;
+      background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;
+    }
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{
+      background:#ffc451;color:#000;border:none;
+      padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;
+    }
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+  </style>
+
+<div id="cookieNotice">
+  Diese Website verwendet ausschließlich technisch notwendige Cookies,
+  die für den Betrieb der Seite erforderlich sind.
+  <a href="https://www.thomas-bade.de/impressum.html">Weitere Informationen</a>
+  <button id="cookieAccept">Verstanden</button>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (!localStorage.getItem("cookieNoticeAccepted")) {
+      document.getElementById("cookieNotice").style.display = "block";
+    }
+
+    document.getElementById("cookieAccept").addEventListener("click", function () {
+      localStorage.setItem("cookieNoticeAccepted", "true");
+      document.getElementById("cookieNotice").style.display = "none";
+    });
+  });
+</script>
+
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo mb-0">
+        <a href="index.html">Thomas Bade<span style="font-size:15px; color:#ffc451;">&#9632;</span></a>
+      </h1>
+      <nav id="tb-nav" class="d-flex align-items-center gap-3">
+        <a href="https://www.thomas-bade.de/termine.html" class="tb-nav-link d-none d-lg-inline-block">
+          Let&#8217;s talk<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <a href="https://www.thomas-bade.de/sitemap.html" class="tb-nav-link d-none d-lg-inline-block">
+          Alle KI Themen<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <button id="tb-burger" aria-label="Men&#252; &#246;ffnen" aria-expanded="false" aria-controls="tb-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Hamburger Menu Panel ======= -->
+  <div id="tb-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+    <div id="tb-menu-inner">
+      <button id="tb-menu-close" aria-label="Men&#252; schlie&#223;en">
+        <i class="bi bi-x"></i>
+      </button>
+      <ul>
+        <li><a href="https://www.thomas-bade.de/termine.html">
+          <i class="bi bi-calendar-check me-2"></i>Let&#8217;s talk
+        </a></li>
+        <li><a href="https://www.thomas-bade.de/sitemap.html">
+          <i class="bi bi-grid-3x3-gap me-2"></i>Alle KI Themen &#8211; Site Map
+        </a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="tb-menu-overlay"></div><!-- End Header -->
+
+  <main id="main">
+
+
+
+    <!-- ======= Breadcrumbs ======= -->
+    
+    <section class="inner-page">
+      <div class="container">
+  <section class="inner-page">
+      <div class="container"><br><br>
+          <h1><p style="color:#000000"><b>KI Control Panel für Entlassmanagement</b></h1>
+               
+                          <img src="assets/img/team/summary.jpg" width="1000" height="439" class="img-fluid" alt=""><br><br>
+
+    
+ <!-- ======= Site Search ======= -->
+        <div id="site-search-container" class="risk-search-wrapper">
+          <div id="site-search-bar" class="search-bar">
+            <div class="search-input-wrapper">
+              <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
+              </svg>
+              <input type="text" id="site-search-input" class="search-input" placeholder="thomas-bade.de durchsuchen" autocomplete="off" aria-label="Suchbegriff eingeben">
+              <button id="search-clear-btn" class="search-clear" aria-label="Suche löschen" style="display:none;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </button>
+            </div>
+            <div id="search-results" class="search-results" style="display:none;">
+              <div class="search-results-header"><span id="results-count">0 Ergebnisse</span></div>
+              <div id="search-results-list" class="search-results-list"></div>
+            </div>
+            <div id="no-results" class="no-results" style="display:none;">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+              <p class="no-results-title">Keine Ergebnisse</p>
+              <p class="no-results-text">Andere Begriffe versuchen</p>
+            </div>
+          </div>
+          <div id="search-overlay" class="search-overlay"></div>
+        </div>
+
+    
+
+<section class="container my-5">
+  <div class="d-flex justify-content-between align-items-start flex-wrap gap-2 mb-3">
+    <div>
+    
+        <h4><b>Control Panel – Orientierung für rechtssichere Entscheidungen im Krankenhaus</b></h4>
+      
+      
+            <p>Das Control Panel bietet eine strukturierte Orientierung für rechtssichere Entscheidungen im Krankenhaus.<br>
+            Es verbindet sozialrechtliche Leitlinien, maßgebliche Gerichtsentscheidungen und anerkannte Expertenstandards zu einem praxisnahen Referenzrahmen für Management, Medizincontrolling und Versorgungssteuerung.</p>
+            <p>Ziel ist es, komplexe rechtliche Anforderungen verständlich aufzubereiten, Risiken frühzeitig sichtbar zu machen und belastbare Entscheidungsgrundlagen für operative Prozesse zu schaffen.</p>
+            <p>Gleichzeitig unterstützt das Control Panel den verantwortungsvollen Einsatz digitaler Entscheidungsunterstützung und KI-Systeme, indem es klinische Entscheidungen konsequent an einer soliden sozialrechtlichen und governancebasierten Grundlage ausrichtet.</p>
+ </div>
+ <hr style="border:solid #000000 1px;background-color:#000000;height:0.3em;"> 
+<!-- AI Governance Dashboard Box -->
+<div class="alert border rounded-4 shadow-sm mb-3 d-flex align-items-start" 
+     style="background:#f8f9fa; border-left:6px solid #d34e36;">  
+  <!-- Content -->
+  <div>
+    <h4><b>Einordnung wissenschaftlicher Referenzen</b></h4>
+    
+    <p>Das Control Panel dient nicht nur der technischen Bewertung von KI-Anwendungen im Gesundheitswesen, sondern auch der Einordnung ihrer ethischen, organisatorischen und governancebezogenen Dimensionen.<br>
+    Aus diesem Grund werden auf dieser Seite ausgewählte wissenschaftliche Publikationen referenziert, die zentrale Aspekte einer verantwortungsvollen KI-Nutzung im klinischen Kontext beleuchten.</p>
+
+<p>Die beiden hier vorgestellten Arbeiten adressieren unterschiedliche, aber komplementäre Perspektiven auf Responsible AI in der Gesundheitsversorgung.<br>
+Während das Konzept der <b><em>Care-Aware Decision Layer (CADL)</em></b> zeigt, wie ethische Überlegungen direkt in KI-gestützte klinische Entscheidungsprozesse integriert werden können, beschreibt die <b><em>Holistic Intelligent Healthcare Theory (HIHT)</em></b> einen systemischen Rahmen für Governance, Datenqualität, Human-AI-Zusammenarbeit und organisatorische Implementierung von KI im Gesundheitswesen.</p>
+
+<p>Durch die Referenz dieser Arbeiten wird deutlich, dass die Bewertung von KI-Systemen nicht ausschließlich eine technische Aufgabe ist.<br>
+Sie erfordert vielmehr eine interdisziplinäre Betrachtung aus Medizin, Ethik, Informatik und Organisationsentwicklung.<br>
+Die hier dargestellten Konzepte liefern wichtige Orientierungspunkte für die Entwicklung von Governance-Instrumenten, wie sie im Control Panel zur strukturierten Bewertung von KI-Systemen eingesetzt werden.</p>
+  </div>
+
+</div>   
+ <!-- INFO-BUTTONS SPALTEN-ANORDNUNG -->
+        <div class="container-fluid px-0 mb-4">
+          <div class="row g-2">
+            <!-- LINKE SPALTE -->
+            <div class="col-12 col-md-6">
+              <button type="button" class="btn btn-lg w-100" 
+                      data-bs-toggle="modal" data-bs-target="#vergabeModal" 
+                      style="background-color: #ffc451; border: none; font-size: 0.9rem; font-style: normal; color: dark; text-align: left;">
+                Hefny et al.: Care-Aware Decision Layer: Embedding Ethics of Care into AI-Supported Clinical Discharge Decisions, January 2026 <i class="bi bi-box-arrow-up-right"></i>
+              </button>
+            </div>
+            <!-- RECHTE SPALTE -->
+            <div class="col-12 col-md-6">
+              <button type="button" class="btn btn-lg w-100" 
+                      data-bs-toggle="modal" data-bs-target="#zweiterModal" 
+                      style="background-color: #ffc451; border: none; font-size: 0.9rem; font-style: normal; color: dark; text-align: left;">
+                Ejjami et al.: The Holistic Intelligent Healthcare Theory (HIHT): Integrating AI for Ethical, Transparent, and Human-Centered Healthcare Innovation, October 2024 <i class="bi bi-box-arrow-up-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- Ende col-lg-10 -->
+    
+ 
+
+
+<!-- ERSTES MODAL -->
+<div class="modal fade" id="vergabeModal" tabindex="-1" aria-labelledby="vergabeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header text-dark" style="background-color: #ffc451;">
+        <h2 class="modal-title" id="vergabeModalLabel">
+          Care-Aware Decision Layer:<br>Embedding Ethics of Care into AI-Supported Clinical Discharge Decisions
+        </h2>
+        <button type="button" class="btn btn-light btn-sm" data-bs-dismiss="modal">Schließen</button>
+      </div>
+      <div class="modal-body">
+        <div class="legal-section">
+          <div class="ref-small">Hefny M.S., Herman A-M.,<br>
+          ACM Journal on Responsible Computing, January 2026.</div>
+          <hr>
+  
+     <h5 class="mt-4 mb-3"><b>Care-Aware Decision Layer (CADL)</b></h5>
+
+    <p><b>Ethical Governance für KI-gestützte Entlassentscheidungen</b></p>
+      <p>Die Publikation „Care-Aware Decision Layer: Embedding Ethics of Care into AI-Supported Clinical Discharge Decisions“ entwickelt ein Konzept, das eine zentrale Schwäche vieler KI-Anwendungen im Gesundheitswesen adressiert:<br>
+      die fehlende Berücksichtigung relationaler und ethischer Faktoren in klinischen Entscheidungsprozessen. </p>
+      <p>Während klassische klinische KI-Modelle vor allem statistische Risikoprognosen aus EHR-Daten berechnen (z. B. Wiederaufnahmerisiko oder Verweildauer), schlägt die Studie eine zusätzliche ethische Bewertungsschicht vor, die Entscheidungen im Kontext von Vertrauen, emotionalem Zustand und sozialer Unterstützung interpretiert.</p>
+      <p>Für Governance-Modelle in Gesundheitssystemen entsteht daraus ein neues Paradigma:<br>
+KI-Systeme benötigen nicht nur technische Validierung, sondern auch eine strukturierte ethische Kontrollinstanz.</p>
+          <hr>
+          <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">1</span></span><b> Strategischer Kontext der Publikation</b></h5>
+          <p>KI wird zunehmend Bestandteil klinischer Entscheidungsprozesse.<br>
+          Typische Einsatzfelder sind:</p>
+          <ul><ul>
+            <li>Prognose von Wiederaufnahmerisiken.</li>
+            <li>Planung von Entlasszeitpunkten.</li>
+            <li>Priorisierung von Patienten im Bettenmanagement.</li>
+            <li>Steuerung von Versorgungsübergängen.</li></ul></ul>
+            <p>Diese Systeme basieren überwiegend auf strukturierten klinischen Daten wie Laborwerten, Diagnosen oder Aufenthaltsdauer.<br> 
+
+Die Autoren argumentieren jedoch, dass diese Modelle einen kritischen blinden Fleck besitzen.<br>
+Beispiele:</p>
+ <ul><ul>
+            <li>Patient hat keine häusliche Unterstützung.</li>
+            <li>Patient oder Angehörige haben Angst vor der Entlassung.</li>
+            <li>Patient vertraut dem Behandlungsteam nicht.</li>
+            <li>Komplexe Medikationsregime.</li></ul></ul>
+<p>Gerade diese Faktoren sind aber häufig entscheidend für einen sicheren Übergang in die Nachversorgung.</p>
+          <hr>
+           <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">2</span></span><b> Kernelement der Studie: Care-Aware Decision Layer</b></h5>
+          <p>Das zentrale Konzept der Publikation ist eine zusätzliche Systemschicht.<br>
+          <b>Care-Aware Decision Layer (CADL)</b></p>
+          <p>Diese Ebene wird nachgelagert zu bestehenden KI-Systemen eingesetzt.<br>
+Die Architektur ist bewusst modular aufgebaut:</p>
+          <ul><ul>
+            <li>Klinisches KI-System erstellt eine Empfehlung.</li>
+            <li>CADL bewertet diese Empfehlung ethisch.</li>
+            <li>Die Ergebnisse werden dem klinischen Team präsentiert</li></ul></ul>
+            <p>Die Schicht kann:</p>
+             <ul><ul>
+            <li>eine Empfehlung bestätigen.</li>
+            <li>eine Empfehlung modifizieren.</li>
+            <li>eine Empfehlung übersteuern.</li></ul></ul>
+<p>Das System generiert zusätzlich eine begründete ethische Erklärung für die Entscheidung.<br>
+Damit entsteht eine Art Ethik-Filter für KI-Entscheidungen.</p>
+<hr>
+        <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">3</span></span><b> Operationalisierung von Care Ethics</b></h5>
+          <p>Die Autoren greifen auf das Konzept der Ethics of Care zurück.<br>
+Dieses ethische Modell betont:<br>
+          <ul><ul>
+            <li>Beziehung zwischen Patient und Versorgungssystem.</li>
+            <li>Abhängigkeit und Verletzlichkeit.</li>
+            <li>Verantwortung und Aufmerksamkeit.</li>
+            <li>Kontextsensibilität</li></ul></ul></p>
+             
+            <p>Die Studie übersetzt diese abstrakten Prinzipien erstmals in technisch operationalisierbare Variablen.<br>
+Zu den wichtigsten Bewertungsparametern gehören:<br>
+
+            <ul><ul><li>Emotionaler Zustand des Patienten.</li>
+			<li>Depression bzw. psychische Belastung.</li>
+			<li>Verfügbarkeit eines Caregivers.</li>
+			<li>Vertrauen in das Behandlungsteam.</li>
+			<li>Präferenz des Patienten</li>
+			<li>besondere ethische Flags (z. B. End-of-Life-Situation).</li></ul></ul></p>
+	<p>Diese Variablen werden zu einem Vulnerability Score aggregiert, der bestimmt, ob eine KI-Empfehlung akzeptiert oder übersteuert wird.</p>		
+			
+		<hr>
+       <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">4</span></span><b> Governance-Logik des Modells</b></h5>
+          <p>Die Architektur des CADL ist bewusst nicht als autonomes KI-System konzipiert, sondern als Governance-Mechanismus.<br>
+Wichtige Designprinzipien: </p>
+<p><b>Transparenz</b></p>
+          <ul><ul>
+            <li>Die Entscheidungslogik basiert auf regelbasierten Strukturen.</li>
+            <li>Entscheidungen sind nachvollziehbar.</li>
+            <li>Entscheidungen sind auditierbar.</li>
+            <li>Entscheidungen dokumentierbar.</li></ul></ul>
+            
+            <p><b>Human-in-the-Loop</b></p>
+            <ul><ul>
+            <li>Die letzte Entscheidung bleibt beim klinischen Personal.</li>
+            <li>CADL unterstützt die Entscheidungsfindung, ersetzt sie jedoch nicht.</li></ul></ul>
+
+<hr>
+<h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">5</span></span><b> Beispiele aus klinischen Szenarien</b></h5>
+          <p>Die Studie demonstriert das Konzept anhand von sechs klinischen Fallbeispielen.<br>
+Typische Situationen:</p>
+<p><b>Premature Discharge Risk</b>
+          <ul>Ein älterer Patient ist medizinisch stabil, lebt jedoch allein und hat Angst vor der Entlassung.<br>
+Ergebnis:→ CADL stoppt die Entlassung und empfiehlt zusätzliche Unterstützung.</ul></p>
+
+            <p><b>Supportive Early Discharge</b>
+
+<ul>Ein Patient hat familiäre Unterstützung und hohe Selbstsicherheit.<br>
+Ergebnis:→ CADL erlaubt eine frühere Entlassung als vom KI-System empfohlen.</ul></p>
+           
+           <p><b>Distrust Scenario</b>
+    <ul>Patient zeigt starkes Misstrauen gegenüber dem Behandlungsteam.<br>
+Ergebnis: → CADL empfiehlt eine traumasensible Entlassplanung.</ul></p>
+<p>Diese Beispiele zeigen, dass die ethische Bewertung sowohl restriktiver als auch liberaler sein kann als die KI-Prognose.</p>       
+<hr>
+
+<h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">6</span></span><b> Relevanz für AI Governance und Control Panels</b></h5>
+          <p>Für Governance-Instrumente im Gesundheitswesen ist die Studie besonders relevant.<br>
+Sie zeigt:</p>
+<p><b>Responsible AI benötigt mehr als technische Prüfungen.</b>
+          <ul><ul><li>Notwendig sind ethische Bewertungen.</li>
+          <li>Notwendig sind Kontextprüfungen.</li>
+          <li>Notwendig sind soziale Risikoanalysen.</li>
+          <li>Notwendig ist institutionelle Governance.</li></ul></ul></p>
+
+          <p>Ein modernes AI Control Panel könnte daher folgende Elemente enthalten:
+           <ul><ul><li>Risiko-Score der KI.</li>
+          <li>Ethische Kontextanalyse.</li>
+          <li>Governance-Trigger.</li>
+          <li>Human-Review-Mechanismus.</li></ul></ul></p>
+          <p>CADL liefert für eine operationalisierte AI-Governance im klinischen Alltag  einen praktischen Ansatz.</p>
+   
+<hr>
+<h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">7</span></span><b> Einordnung für das Entlassmanagement</b></h5>
+          <p>Gerade im Entlassmanagement sind solche Modelle besonders relevant.<br>
+Entlassentscheidungen betreffen häufig:
+          <ul><ul><li>ältere Patienten.</li>
+          <li>multimorbide Patienten.</li>
+          <li>komplexe Versorgungsketten.</li>
+          <li>begrenzte Ressourcen.</li></ul></ul></p>
+          <p>Hier treffen ökonomische Logik (Bettenmanagement) und ethische Verantwortung (Versorgungssicherheit) unmittelbar aufeinander.<br>
+          Der vorgeschlagene Ansatz zeigt einen Weg, wie KI-Systeme nicht nur effizient, sondern auch verantwortungsvoll eingesetzt werden können.</p>
+         <p><b>Kernaussage der Publikation</b></p>
+
+<p>Die Studie demonstriert, dass KI-Systeme im Gesundheitswesen nicht nur durch technische Genauigkeit, sondern auch durch ethische Interpretationsschichten ergänzt werden müssen.<br>
+
+Die Care-Aware Decision Layer stellt dafür ein reproduzierbares Konzept bereit, das AI Governance, klinische Entscheidungsunterstützung und Care Ethics miteinander verbindet.</p> 
+          
+<hr>
+
+          <h6 class="mt-4 mb-3"><b>Link zur Original Veröffentlichung!</b></h6>
+          <p><a href="https://dl.acm.org/doi/10.1145/3786792" target="_blank" rel="noopener noreferrer" style="color: #0d6efd;">  Hefny et al.: Care-Aware Decision Layer: Embedding Ethics of Care into AI-Supported Clinical Discharge Decisions <i class="bi bi-box-arrow-up-right"></i></a></p>
+          <hr>
+
+          <div class="alert alert-ci rounded-4 mb-3">
+            <div class="fw-semibold"><i class="bi bi-exclamation-triangle me-1"></i><b>KI Transparenzhinweis</b> ART. 50 · VO (EU) 2024/1689 · EU AI ACT</div>
+            <div style="font-size:0.8rem;">
+              Englischsprachige Quelldokumente – darunter <em>Care-Aware Decision Layer</em> wurden mit Unterstützung von KI-Sprachmodellen ins Deutsche übersetzt, um die Zugänglichkeit für deutschsprachige Nutzerinnen und Nutzer zu verbessern.<br>
+              <b>Inhaltliche Prüfung &amp; Freigabe</b><br>
+              Thomas Bade – Autor und Administrator dieser Website – hat alle maschinell übersetzten Inhalte inhaltlich geprüft, fachlich bewertet und freigegeben. Die Verantwortung für Richtigkeit und Vollständigkeit liegt beim Autor.
+            </div>
+          </div>
+        </div><!-- Ende legal-section -->
+      </div><!-- Ende modal-body -->
+    </div><!-- Ende modal-content -->
+  </div><!-- Ende modal-dialog -->
+</div><!-- Ende vergabeModal -->
+
+
+<!-- ZWEITES MODAL -->
+<div class="modal fade" id="zweiterModal" tabindex="-1" aria-labelledby="zweiterModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header text-dark" style="background-color: #ffc451;">
+        <h2 class="modal-title" id="zweiterModalLabel">
+          The Holistic Intelligent Healthcare Theory (HIHT):<br>
+          Integrating AI for Ethical, Transparent, and Human-Centered Healthcare Innovation
+        </h2>
+        <button type="button" class="btn btn-light btn-sm" data-bs-dismiss="modal">Schließen</button>
+      </div>
+      <div class="modal-body">
+        <div class="legal-section">
+          <div class="ref-small">Ejjami R.:<br>
+          International Journal For Multidisciplinary Research, Volume 6, Issue 5, October 2024. </div>
+          <hr>
+          <p><b>Governance-Framework für KI im Gesundheitswesen</b></p>
+          <p>Die Publikation „<em>The Holistic Intelligent Healthcare Theory (HIHT)</em>" stellt ein umfassendes theoretisches Modell zur Integration von Künstlicher Intelligenz in Gesundheitssysteme vor.<br>
+          Ziel des Ansatzes ist es, KI nicht isoliert als Technologie zu betrachten, sondern als Bestandteil eines ganzheitlichen Governance- und Organisationssystems im Gesundheitswesen.</p>
+
+<p><b>The Holistic Intelligent Health</b></p>
+
+<p>Der Ansatz adressiert eine zentrale Herausforderung der aktuellen KI-Transformation:<br>
+In vielen Einrichtungen erfolgt die Einführung von KI-Systemen fragmentiert und ohne ein konsistentes organisatorisches und ethisches Steuerungsmodell.</p>
+          <hr>
+
+          <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">1</span></span> <b> Ausgangspunkt der Theorie</b></h5>
+          <p>Die Studie beschreibt eine strukturelle Entwicklung im Gesundheitswesen:</p>
+          <p>Beispiele für mögliche Insider-Zugänge:
+          <ul><ul>
+            <li>Rasche Ausbreitung von KI in Diagnose, Prognose und Administration.</li>
+            <li>Zunehmende Nutzung datenbasierter Entscheidungsmodelle.</li>
+            <li>Steigende Anforderungen an Datenschutz und Transparenz.</li>
+          </ul></ul></p>
+          <p>Gleichzeitig existieren laut Autoren erhebliche Defizite:
+          <ul><ul>
+            <li>Fehlende Governance-Strukturen.</li>
+            <li>Unzureichende Datenqualität.</li>
+            <li>Mangelnde Transparenz von Algorithmen.</li>
+           <li>Unklare Rollenverteilung zwischen Mensch und KI.</li> 
+          </ul></ul></p>
+          <p>Die <em>Holistic Intelligent Healthcare Theory</em> (HIHT) soll diese Lücke schließen und ein systemisches Integrationsmodell für AI-Healthcare-Systeme bereitstellen.</p>
+
+          <hr>
+
+          <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">2</span></span> <b>Grundstruktur der Holistic Intelligent Healthcare Theory</b></h5>
+          <p>Das Modell basiert auf mehreren miteinander verbundenen Bausteinen.<br>
+			Zentrale Elemente sind:</p>
+		<p><b>1. Spezialisierte AI-Governance-Strukturen</b><br>
+		Krankenhäuser sollen eigene organisatorische Einheiten einrichten.<br>
+		<b>Intelligent Healthcare Services</b> Einheiten übernehmen folgende Aufgaben:</p>
+          <ul><ul>
+            <li>Steuerung der AI-Implementierung.</li>
+            <li>Datenmanagement.</li>
+            <li>Ethische Kontrolle.</li>
+            <li>Regulatorische Compliance.</li></ul></ul>
+          <p>Die Studie beschreibt diese Einheiten als zentrale Koordinationsstelle für KI-Anwendungen im Krankenhaus.</p>
+          
+          <p><b>2. Datenqualität und Data Governance</b><br>
+	Die Leistungsfähigkeit von KI im Gesundheitswesen hängt unmittelbar von der Qualität der zugrunde liegenden Daten ab.<br>
+	<em>Holistic Intelligent Healthcare Theory</em> (HIHT) betont deshalb:</p>
+          <ul><ul>
+            <li>Datenstandardisierung.</li>
+            <li>Kontinuierliche Datenvalidierung.</li>
+            <li>Anonymisierung und Datenschutz.</li>
+            <li>Sichere Dateninfrastrukturen.</li></ul></ul>
+          <p>Der Ansatz betrachtet Datenmanagement nicht nur als technische, sondern auch als ethische Herausforderung.<br>
+Fehlerhafte oder verzerrte Daten können klinische Entscheidungen beeinflussen und damit direkte Auswirkungen auf Patientensicherheit haben. </p>
+
+ <p><b>3. Transparente und ethische KI-Entwicklung</b><br>
+	Ein weiterer zentraler Baustein ist die Forderung nach erklärbaren und transparenten KI-Systemen.<br>
+Die Autoren argumentieren, dass medizinisches Personal nur dann Vertrauen in KI-Modelle entwickelt, wenn:
+          <ul><ul>
+            <li>Entscheidungslogiken nachvollziehbar sind.</li>
+            <li>Kontinuierliche Datenvalidierung.</li>
+            <li>Algorithmen überprüfbar bleiben.</li>
+            <li>Ethische Standards eingehalten werden.</li></ul></ul></p>
+          <p>Die Theorie fordert daher:</p>
+ <ul><ul>
+            <li>Erklärbare Künstliche Intelligenz (KI).</li>
+            <li>Ethische Prüfverfahren.</li>
+            <li>Algorithmen überprüfbar bleiben.</li>
+            <li>Klare Verantwortungsstrukturen.</li></ul></ul>
+<p>Diese Aspekte bilden die Grundlage für <b><em>Responsible AI</em></b> in der klinischen Praxis. </p>
+<hr>
+  <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">3</span></span><b> Human-AI-Synergy als Kernprinzip</b></h5>
+	<p>Ein zentraler Gedanke des Modells ist die Zusammenarbeit zwischen Mensch und KI.<br>
+Die Theorie lehnt die Vorstellung ab, dass KI medizinische Entscheidungen ersetzen könnte.<br>
+Stattdessen wird ein Konzept der <b><em>Augmented Intelligence</em></b> vorgeschlagen:
+          <ul><ul>
+            <li>KI unterstützt medizinisches und pflegerisches Personal bei der Analyse großer Datenmengen.</li>
+            <li>KI unterstützt medizinisches und pflegerisches Personal bei Risikoabschätzungen.</li>
+            <li>KI unterstützt medizinisches und pflegerisches Personal bei personalisierten Therapieentscheidungen.</li></ul></ul></p>
+          <p>Die endgültige Entscheidung bleibt jedoch beim klinischen Personal.</p>
+          <p>Dieses Modell soll:</p>
+ <ul><ul>
+            <li>Vertrauen in KI stärken.</li>
+            <li>Fehlentscheidungen reduzieren.</li>
+            <li>Die Qualität klinischer Entscheidungen verbessern.</li></ul></ul>
+
+          <hr>
+          <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">4</span></span><b> Neue Rolle im Gesundheitssystem: der „Intelligent Doctor“</b></h5>
+	<p>Ein innovativer Bestandteil des Frameworks ist die Einführung einer neuen Berufsrolle:<br>
+Diese Rolle des <b><em>Intelligent Doctor</em></b> verbindet zwei Kompetenzbereiche:
+          <ul><ul>
+            <li>Klinische Expertise.</li>
+            <li>KI- und Datenkompetenz.</li></ul></ul></p>
+          <p>Der Intelligent Doctor soll:</p>
+          <ul><ul>
+            <li>KI-Empfehlungen interpretieren.</li>
+            <li>Ergebnisse validieren.</li>
+            <li>Algorithmische Entscheidungen kritisch prüfen.</li>
+            <li>Ethische Aspekte berücksichtigen.</li></ul></ul>
+<p>Damit entsteht ein neues Kompetenzprofil im Gesundheitswesen, das technologische und medizinische Expertise verbindet.</p>
+          <hr>
+
+
+          <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">5</span></span> <b>Integration von KI in klinische Workflows</b></h5>
+          <p>Die Studie zeigt, dass erfolgreiche KI-Implementierungen immer mit einer Anpassung klinischer Prozesse verbunden sind.<br>
+<em>Holistic Intelligent Healthcare Theory</em> (HIHT) beschreibt deshalb das Konzept des <b><em>AI-Integrated Workflow Design</em></b>.<br>
+Dabei werden KI-Systeme so in klinische Prozesse integriert, dass sie:</p>
+          <ul><ul>
+            <li>Entscheidungsunterstützung liefern.</li>
+            <li>Administrative Prozesse automatisieren.</li>
+            <li>Diagnostische Analysen verbessern.</li>
+          </ul></ul>
+          <p>Gleichzeitig soll verhindert werden, dass KI bestehende klinische Abläufe stört.<br>
+Die Theorie betont daher die Bedeutung eines sozio-technischen Ansatzes, bei dem Technologie, Organisation und menschliche Faktoren gemeinsam betrachtet werden.</p> 
+          <hr>
+
+          <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">6</span></span> <b>Ergebnisse der empirischen Untersuchung</b></h5>
+          <p>Die Autoren ergänzen die Theorie durch qualitative Untersuchungen:</p>
+            <ul><ul>
+            <li>Experteninterviews.</li>
+            <li>Fallstudien in Krankenhäusern.</li>
+           </ul></ul>
+          Wesentliche Ergebnisse:
+          <ul><ul>
+            <li>Einrichtungen mit zentralen AI-Governance-Strukturen implementieren KI erfolgreicher.</li>
+            <li>Datenqualität ist der wichtigste Erfolgsfaktor für klinische KI-Systeme.</li>
+            <li>Transparente Algorithmen erhöhen die Akzeptanz bei Ärzten.</li>
+            <li>Human-AI-Kooperation verbessert klinische Entscheidungsprozesse.</li>
+            <li>Schulungsprogramme für medizinisches Personal sind entscheidend für den erfolgreichen Einsatz von KI.</li>
+          </ul></ul></p>
+        
+          
+          <hr>
+
+          <h5 class="mt-4 mb-3"><span class="icon-number"><i class="bi bi-circle-fill"></i><span class="number">7</span></span> <b>Einordnung im Kontext aktueller KI-Debatten</b></h5>
+          <p>Die Holistic Intelligent Healthcare Theory ergänzt bestehende Modelle der Technologieakzeptanz wie:</p>
+          <ul><ul>
+            <li>Technology Acceptance Model (TAM).</li>
+            <li>Unified Theory of Acceptance and Use of Technology (UTAUT).</li></ul></ul>
+          <p>Während diese Modelle vor allem Adoptionsfaktoren analysieren, erweitert HIHT die Perspektive um:
+          <ul><ul>
+            <li>Ethische Governance.</li>
+            <li>Organisatorische Integration.</li>
+            <li>Human-AI-Interaktion</li></ul></ul>
+Damit liefert die Theorie einen umfassenderen Ansatz für die systemische Implementierung von KI im Gesundheitswesen.</p>
+          <hr>
+
+          <h5 class="mt-4 mb-3"><b>Fazit</b></h5>
+          <p>Die Holistic Intelligent Healthcare Theory stellt einen umfassenden Governance-Rahmen für den Einsatz von KI im Gesundheitswesen dar.<br>
+Damit liefert die Theorie eine strategische Grundlage für Gesundheitseinrichtungen, die KI nicht nur als technologische Innovation, sondern als Bestandteil eines integrierten Governance- und Versorgungssystems implementieren möchten.</p>
+          <hr>
+
+          <h6 class="mt-4 mb-3"><b>Link zur Original Veröffentlichung!</b></h6>
+          <p><a href="https://www.ijfmr.com/research-paper.php?id=28846" target="_blank" rel="noopener noreferrer" style="color: #0d6efd;">Ejjami et al.: The Holistic Intelligent Healthcare Theory (HIHT) <i class="bi bi-box-arrow-up-right"></i></a></p>
+          <hr>
+
+          <div class="alert alert-ci rounded-4 mb-3">
+            <div class="fw-semibold"><i class="bi bi-exclamation-triangle me-1"></i><b>KI Transparenzhinweis</b> ART. 50 · VO (EU) 2024/1689 · EU AI ACT</div>
+            <div style="font-size:0.8rem;">
+              Englischsprachige Quelldokumente – darunter <em>The Holistic Intelligent Healthcare Theory (HIHT)</em> den mit Unterstützung von KI-Sprachmodellen ins Deutsche übersetzt, um die Zugänglichkeit für deutschsprachige Nutzerinnen und Nutzer zu verbessern.<br>
+              <b>Inhaltliche Prüfung &amp; Freigabe</b><br>
+              Thomas Bade – Autor und Administrator dieser Website – hat alle maschinell übersetzten Inhalte inhaltlich geprüft, fachlich bewertet und freigegeben. Die Verantwortung für Richtigkeit und Vollständigkeit liegt beim Autor.
+            </div>
+            </div>
+          </div><!-- Ende modal-body -->
+    </div><!-- Ende modal-content -->
+  </div><!-- Ende modal-dialog -->
+</div><!-- Ende zweiterModal -->
+</div>
+ </div>
+ 
+<h4><b>Entlassmanagement Control Panel</b></h4>
+
+   <div class="container">
+        <!-- Einleitung -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5><i class="bi bi-info-circle"></i> <b>Anleitung</b></h5>
+                <p>Bewerten Sie jedes der 15 Prüfkriterien, indem Sie aus dem Dropdown-Menü wählen:</p>
+                <ul class="mb-0">
+                    <li><strong>Ja</strong> → Note 1-2 (Exzellent)</li>
+                    <li><strong>Teilweise</strong> → Note 3-4 (Verbesserungsbedarf)</li>
+                    <li><strong>Nein</strong> → Note 5-6 (Kritisch)</li>
+                </ul>
+                <p class="mt-2 mb-0">Nach der Bewertung wird automatisch ein <strong>Management Summary</strong> mit Gesamtnote und Handlungsempfehlungen erstellt (<b>PDF Export</b>).</p>
+            </div>
+        </div>
+
+        <!-- Bewertungskriterien -->
+        <div id="criteria-section">
+            <!-- Kriterium 1.1 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.1</span>
+                    Klare Zweckbestimmung
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI unterstützt Entlassmanagement als Teil der Krankenhausbehandlung (Versorgungsmanagement gem. § 11 Abs. 4 SGB V).</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BGH I ZR 120/13 (Spezialregelung zum Versorgungsmanagement).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Leistungsbeschreibung, Zweckbestimmungsdokument, Rollen/Verantwortlichkeiten</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-1" onchange="updateGrade('1-1')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                            <div class="grade-display" id="grade-1-1" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kriterium 1.2 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.2</span>
+                    Zielkorridor
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> Kontinuität der Versorgung, bessere Kommunikation, Handlungserfordernisse für die Vorbereitung der poststationären Versorgung liegen vor.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BGH I ZR 120/13 (Zielsetzung Entlassmanagement).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Zielbild / KPIs (z.B. Rehospitalisation, Übergabe-Quote, Zeit bis Anschlussversorgung)</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-2" onchange="updateGrade('1-2')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                            <div class="grade-display" id="grade-1-2" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kriterium 1.3 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.3</span>
+                    Kommunikationsfähigkeit
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI ermöglicht initiale und differenzierte Einschätzung des individuellen poststationären Versorgungsbedarfs.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BGH I ZR 120/13 (Kommunikation zwischen Versorgungsbereichen verbessern).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Übergabe-Checklisten, standardisierte Übergabedaten, Protokoll-/Audit-Funktion</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-3" onchange="updateGrade('1-3')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                       <div class="grade-display" id="grade-1-3" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.4 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.4</span>
+                    Anschlussversorgung planbar machen
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss Übergang in den nachstationären Versorgungsbereich organisieren helfen (z.B. HKP, Pflegeleistungen SGB XI) inkl. Koordination von Hilfsmitteln & HomeCare Leistungen.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BGH I ZR 120/13 (Planen/Organisieren/Koordinieren).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Workflow, Aufgabenliste, Hilfsmittel-Plan, Verantwortungszuweisung</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-4" onchange="updateGrade('1-4')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                            <div class="grade-display" id="grade-1-4" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+          
+
+            <!-- Kriterium 1.5 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.5</span>
+                    Erkennungslogik zur Krankenhausbehandlungsbedürftigkeit
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss Fälle identifizieren, bei denen Krankenhausbehandlungsbedürftigkeit vorliegt und dokumentiert werden kann.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 1 KR 13/19 R (unmittelbar anschließende stationäre Reha erforderlich).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Befundbericht, ärztliches Assessment, OPS Kodierung, klinische Trigger</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-5" onchange="updateGrade('1-5')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                           <div class="grade-display" id="grade-1-5" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.6 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.6</span>
+                    Zeitkritische Information
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss frühzeitige Planung der Entlassung operationalisieren (Fristen/Alerting).</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 1 KR 13/19 R (zeitgerecht informierter Reha-Träger).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Alerting, Fristenmonitor, Zuständigkeits-Check, Angemessenheit der Entlassungsplanung spätestens 24 Stunden vor Entlassung.</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-6" onchange="updateGrade('1-6')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                           <div class="grade-display" id="grade-1-6" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.7 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.7</span>
+                    Notfall-/Eskalationspfad
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss Eskalations- und Dokumentationspfad unterstützen, wenn Reha-Träger nicht rechtzeitig handelt (Gefahr Gesundheitsschädigung).</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 1 KR 13/19 R (Reha-Notfall, Versorgen zu KH-Sätzen).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Eskalationsworkflow, Risiko-/Schadensdokumentation, Management-Report</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-7" onchange="updateGrade('1-7')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                           <div class="grade-display" id="grade-1-7" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.8 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.8</span>
+                    Abgrenzung sozialer Risiken
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI darf keine „Leistungsausweitung" versprechen, die nicht Aufgabe der GKV ist; klare Koordination des Entlassungsprozesses.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 1 KR 20/15 R (GKV-Krankenkassen sind nicht für notwendige gesellschaftliche und soziale Rahmenbedingungen verantwortlich).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: DNQP Expertenstandard, Planungs- und Steuerungskompetenz zur Durchführung einer individuellen Entlassungsplanung</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-8" onchange="updateGrade('1-8')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                            <div class="grade-display" id="grade-1-8" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.9 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.9</span>
+                    Beratung triggern
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss Beratungspflicht auch ohne Nachfrage erkennen (Daten zum pflegerischen Entlassungsmanagement werden systematisch erfasst).</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 3 P 5/19 R (Pflicht zur Beratung).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Aufgaben an Sozialdienst/Pflegeberatung, Dokumentation der Beratung, Information an Kostenträger</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-9" onchange="updateGrade('1-9')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                            <div class="grade-display" id="grade-1-9" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.10 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.10</span>
+                    Beratung muss Folgen abdecken
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss systematisch alle absehbaren Folgen bei der Entlassung in Bezug auf Pflege- Hilfebedarf und Selbstmanagement berücksichtigen.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 3 P 5/19 R (Beratung auf alle Folgen erstrecken).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Beratungs-Checkliste, Risiko-/Folgenmatrix, patientenbezogene To-do-Liste</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-10" onchange="updateGrade('1-10')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                       <div class="grade-display" id="grade-1-10" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.11 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.11</span>
+                    Nicht fernliegende Komplikationen
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> Durch KI unterstützte Prozesse müssen typische, nicht fernliegende Komplikationen erkennen und Angehörige mit einbeziehen.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 3 P 5/19 R (Komplikationen einbeziehen).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Komplikationslisten pro Behandlungstyp, Aufklärungsbausteine, Übergabe-/Schulungshinweise</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-11" onchange="updateGrade('1-11')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                       <div class="grade-display" id="grade-1-11" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.12 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.12</span>
+                    Objektiv erkennbare Pflegerisiken
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss während des Krankenhausaufenthalts die differenzierte Einschätzung des individuellen poststationären Versorgungsbedarfs gewährleisten.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 3 P 5/19 R (objektiv erkennbar aufgrund konkreter Behandlungssituation).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Begründungslogik, Zeitstempel, Datenbasis/Quellenhinweise, Audit-Log-Files</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-12" onchange="updateGrade('1-12')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                           <div class="grade-display" id="grade-1-12" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.13 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.13</span>
+                    Fehlerfolgen adressieren
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss Beratung und Nachsorgesituation so dokumentieren, dass alle Information bei MDK-Leistungsprüfungen nachvollziehbar sind.</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> BSG B 3 P 5/19 R (Beratungsfehler zurechenbar).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Dokumentation, Versionierung, Log-Files, Nachweis an Patient/Angehörige</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-13" onchange="updateGrade('1-13')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                           <div class="grade-display" id="grade-1-13" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.14 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.14</span>
+                    Sektorenübergreifende Sicht
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI muss Übergang nach Krankenhausbehandlung abbilden (Patient Journey über Sektorgrenzen).</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> SG Wiesbaden S 18 KR 143/21 (Entlassmanagement zur Unterstützung sektorenübergreifender Versorgung).</small></p>
+                   <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Care-Plan, Übergabeprotokoll, Nachversorger Netzwerk, Entlassprotokoll</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-14" onchange="updateGrade('1-14')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                           <div class="grade-display" id="grade-1-14" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+           
+
+            <!-- Kriterium 1.15 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="criterion-number">1.15</span>
+                    Nachweis- und Dokumentationspflichten
+                </div>
+                <div class="card-body">
+                    <p><strong>Prüfkriterium:</strong> KI-Ausgaben müssen gerichtsfest nachvollziehbar sein (Was? Warum? Wann? Wer?).</p>
+                    <p class="text-muted mb-2"><small><strong>Ableitung:</strong> SG Wiesbaden S 18 KR 143/21 (Bewertung im Lichte des Entlassmanagements).</small></p>
+                    <div class="ci-badge"><i class="bi bi-file-text"></i> Nachweis: Begründung, Datenquellen, Freigaben, Export-Report</div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Erfüllt?</strong></label>
+                            <select class="form-select" id="criterion-1-15" onchange="updateGrade('1-15')">
+                                <option value="">Bitte wählen</option>
+                                <option value="1-2">Ja</option>
+                                <option value="3-4">Teilweise</option>
+                                <option value="5-6">Nein</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label class="form-label"><strong>Schulnote</strong></label>
+                         <div class="grade-display" id="grade-1-15" style="font-size: 1.2rem; padding: 0px; min-width: 30px;"></div></div>
+                        </div>
+                    </div>
+                </div>
+          
+       
+
+        <!-- Button zur Berechnung -->
+        <div class="text-center my-4 no-print">
+            <button class="btn btn-ci btn-lg" onclick="calculateSummary()">
+                <i class="bi bi-calculator"></i> Management Summary berechnen
+            </button>
+        </div>
+
+        <!-- Management Summary -->
+        <div id="management-summary" class="management-summary" style="display: none;">
+            <h2 class="text-center mb-4"><i class="bi bi-clipboard-check"></i> Management Summary</h2>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Gesamtbewertung</h4>
+                    <div class="overall-grade" id="overall-grade-display">-</div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Bewertungsdetails</h4>
+                    <div id="grade-breakdown"></div>
+                </div>
+            </div>
+
+            <div id="recommendation-section"></div>
+
+            <div class="text-center mt-4">
+                <p class="text-muted"><small>Erstellt am: <span id="report-date"></span></small></p>
+            </div>
+
+            <!-- PDF Export Button am Ende des Management Summary -->
+           <div class="text-center mt-4 no-print">
+  <button class="btn btn-ci"
+        onclick="exportToPDF()"
+        style="background-color:#ffc451 !important; border:1px solid #ffc451 !important; color:#000 !important;">
+    <i class="bi bi-file-pdf"></i> PDF Export
+  </button>
+</div>
+</div>
+<div align="right">  <span class="prrc-tooltip-wrapper" tabindex="0">
+                  <span class="prrc-highlight">CC BY-ND 4.0</span>
+                  <span class="prrc-tooltip-box" role="tooltip">
+                    <strong>Creative Commons Lizenz (CC BY-ND 4.0)</strong><br>
+                    Inhalte dieser Webseite und das Control Panel für Entlassmanagement dürfen geteilt werden, sofern der Urheber genannt wird und keine Bearbeitungen verbreitet werden.
+                  </span>
+                </span>
+</div>
+
+        </div>
+    </div>
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Update individual grade display
+        function updateGrade(criterionId) {
+            const select = document.getElementById('criterion-' + criterionId);
+            const gradeDisplay = document.getElementById('grade-' + criterionId);
+            const value = select.value;
+            
+            if (value) {
+                gradeDisplay.textContent = value;
+                gradeDisplay.className = 'grade-display';
+                
+                if (value === '1-2') {
+                    gradeDisplay.classList.add('grade-excellent');
+                } else if (value === '3-4') {
+                    gradeDisplay.classList.add('grade-good');
+                } else if (value === '5-6') {
+                    gradeDisplay.classList.add('grade-poor');
+                }
+            } else {
+                gradeDisplay.textContent = '-';
+                gradeDisplay.className = 'grade-display';
+            }
+        }
+
+        // Calculate Management Summary
+        function calculateSummary() {
+            let grades = [];
+            let gradeCount = {
+                '1-2': 0,
+                '3-4': 0,
+                '5-6': 0
+            };
+            
+            // Collect all grades
+            for (let i = 1; i <= 15; i++) {
+                const criterionId = i <= 9 ? '1-' + i : '1-' + i;
+                const select = document.getElementById('criterion-' + criterionId);
+                
+                if (!select.value) {
+                    alert('Bitte bewerten Sie alle 15 Kriterien, bevor Sie das Management Summary berechnen.');
+                    return;
+                }
+                
+                grades.push(select.value);
+                gradeCount[select.value]++;
+            }
+            
+            // Calculate average (convert to numeric)
+            let numericGrades = grades.map(g => {
+                if (g === '1-2') return 1.5;
+                if (g === '3-4') return 3.5;
+                if (g === '5-6') return 5.5;
+            });
+            
+            let average = numericGrades.reduce((a, b) => a + b, 0) / numericGrades.length;
+            let roundedAverage = Math.round(average * 10) / 10;
+            
+            // Display overall grade
+            const overallGradeDisplay = document.getElementById('overall-grade-display');
+            overallGradeDisplay.textContent = roundedAverage.toFixed(1);
+            overallGradeDisplay.className = 'overall-grade';
+            
+            if (roundedAverage <= 2.5) {
+                overallGradeDisplay.classList.add('grade-excellent');
+            } else if (roundedAverage <= 4.5) {
+                overallGradeDisplay.classList.add('grade-good');
+            } else {
+                overallGradeDisplay.classList.add('grade-poor');
+            }
+            
+            // Display grade breakdown
+            const breakdown = document.getElementById('grade-breakdown');
+            breakdown.innerHTML = `
+                <div class="mb-2">
+                    <span class="badge bg-success">1-2 (Exzellent):</span> <strong>${gradeCount['1-2']}</strong> Kriterien
+                </div>
+                <div class="mb-2">
+                    <span class="badge bg-warning text-dark">3-4 (Verbesserungsbedarf):</span> <strong>${gradeCount['3-4']}</strong> Kriterien
+                </div>
+                <div class="mb-2">
+                    <span class="badge bg-danger">5-6 (Kritisch):</span> <strong>${gradeCount['5-6']}</strong> Kriterien
+                </div>
+            `;
+            
+            // Display recommendation based on average
+            const recommendationSection = document.getElementById('recommendation-section');
+            let recommendationHTML = '';
+            
+            if (roundedAverage <= 2.5) {
+                recommendationHTML = `
+                    <div class="recommendation-box recommendation-green">
+                        <h5><i class="bi bi-check-circle-fill"></i> Empfehlung: Note 1-2 (Exzellent)</h5>
+                        <p><strong>Maßnahmen:</strong></p>
+                        <ul>
+                            <li>Due Diligence durchführen</li>
+                            <li>Segregation of Duties implementieren</li>
+                            <li>Prozessanalysen durchführen</li>
+                            <li>Return on Investment berechnen</li>
+                            <li>Eigenständige Validierung des Modells</li>
+                            <li>Regelmäßige Audits</li>
+                            <li>Kennzahlen zu Fairness und Sicherheit</li>
+                            <li>Einbindung des Betriebsrats</li>
+                            <li>Risikobewertungen durch einen Versicherer</li>
+
+                        </ul>
+                    </div>
+                `;
+            } else if (roundedAverage <= 4.5) {
+                recommendationHTML = `
+                    <div class="recommendation-box recommendation-yellow">
+                        <h5><i class="bi bi-exclamation-triangle-fill"></i> Empfehlung: Note 3-4 (Verbesserungsbedarf)</h5>
+                        <p><strong>Maßnahmen:</strong></p>
+                        <ul>
+                            <li>Kritische Prüfung der gesamten KI-Architektur</li>
+                            <li>Externe Beratung einholen</li>
+                            <li>Schwachstellen identifizieren und beheben</li>
+                            <li>Überarbeitung aller Kontroll- und Überwachungspflichten</li> 
+                            <li>Durchführung von Risikoabschätzungen</li> 
+                            <li>Prüfung, ob offizielle CE-Kennzeichnungen oder Risikoklassifikationen vorliegen müssen.</li>                          
+                             </ul>
+                    </div>
+                `;
+            } else {
+                recommendationHTML = `
+                    <div class="recommendation-box recommendation-red">
+                        <h5><i class="bi bi-x-circle-fill"></i> Empfehlung: Note 5-6 (Kritisch - NICHT EMPFOHLEN)</h5>
+                        <p><strong>Maßnahmen:</strong></p>
+                        <ul>
+                            <li><strong>Projekt nicht weiter verfolgen</strong></li>
+                            <li>Keine Investitionen tätigen</li>
+                            <li>Neues Angebot einholen</li>
+                            <li>Alternative Lösungen evaluieren</li>
+                            <li>KI-Angaben von Anbietern dieser Systeme kritisch prüfen (Human-in-the-Loop sicherstellen)</li>
+ 							<li>Keine Entscheidungen ohne Prüfung und Zustimmung der Krankenhausärzte zulassen</li>
+
+                        </ul>
+                    </div>
+                `;
+            }
+            
+            recommendationSection.innerHTML = recommendationHTML;
+            
+            // Set report date
+            const now = new Date();
+            document.getElementById('report-date').textContent = now.toLocaleDateString('de-DE', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            
+            // Show summary section
+            document.getElementById('management-summary').style.display = 'block';
+            
+            // Scroll to summary
+            document.getElementById('management-summary').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Export to PDF with Logo (66x69 px dimensions)
+        function exportToPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF('p', 'mm', 'a4');
+            
+            // Load and add logo
+            const logoImg = new Image();
+            logoImg.crossOrigin = 'Anonymous';
+            logoImg.src = 'https://thomas-bade.de/assets/img/logo_tb.png';
+            logoImg.width = 66;
+            logoImg.height = 69;
+            
+            logoImg.onload = function() {
+                // Calculate logo size in mm (maintaining aspect ratio from 66x69 px)
+                const aspectRatio = 66 / 69; // width / height
+                const logoHeightMM = 20; // mm
+                const logoWidthMM = logoHeightMM * aspectRatio; // approximately 19.13 mm
+                
+                // Add logo (top right corner)
+                doc.addImage(logoImg, 'PNG', 190 - logoWidthMM, 10, logoWidthMM, logoHeightMM);
+                
+                // Header
+                doc.setFontSize(20);
+                doc.setTextColor(44, 82, 130);
+                doc.text('KI im Entlassmanagement', 20, 20);
+                
+                doc.setFontSize(14);
+                doc.setTextColor(0, 0, 0);
+                doc.text('Bewertungsbericht - Management Summary', 20, 30);
+                
+                // Publisher info
+                doc.setFontSize(10);
+                doc.text('Thomas Bade', 20, 40);
+                doc.text('85072 Eichstätt', 20, 45);
+                doc.text('Email: tb@thomas-bade.de', 20, 50);
+                doc.text('Tel: 08421 675 19 77', 20, 55);
+                
+                // Date
+                const now = new Date();
+                doc.text('Erstellt am: ' + now.toLocaleDateString('de-DE'), 20, 65);
+                
+                // Overall grade
+                const overallGrade = document.getElementById('overall-grade-display').textContent;
+                doc.setFontSize(16);
+                doc.setTextColor(44, 82, 130);
+                doc.text('Gesamtnote: ' + overallGrade, 20, 80);
+                
+                // Criteria details with titles
+                const criterionTitles = {
+                    '1-1': 'Klare Zweckbestimmung',
+                    '1-2': 'Zielkorridor',
+                    '1-3': 'Kommunikationsfähigkeit',
+                    '1-4': 'Anschlussversorgung planbar machen',
+                    '1-5': 'Erkennungslogik zur Krankenhausbehandlungsbedürftigkeit',
+                    '1-6': 'Zeitkritische Information',
+                    '1-7': 'Notfall-/Eskalationspfad',
+                    '1-8': 'Abgrenzung sozialer Risiken',
+                    '1-9': 'Beratung triggern',
+                    '1-10': 'Beratung muss Folgen abdecken',
+                    '1-11': 'Nicht fernliegende Komplikationen',
+                    '1-12': 'Objektiv erkennbare Pflegerisiken',
+                    '1-13': 'Fehlerfolgen adressieren',
+                    '1-14': 'Sektorenübergreifende Sicht',
+                    '1-15': 'Nachweis- und Dokumentationspflichten'
+                };
+                
+                doc.setFontSize(11);
+                doc.setTextColor(0, 0, 0);
+                let yPos = 95;
+                
+                for (let i = 1; i <= 15; i++) {
+                    const criterionId = i <= 9 ? '1-' + i : '1-' + i;
+                    const select = document.getElementById('criterion-' + criterionId);
+                    const grade = select.value;
+                    const title = criterionTitles[criterionId];
+                    
+                    doc.setFont(undefined, 'bold');
+                    doc.text(`${criterionId}. ${title}`, 20, yPos);
+                    yPos += 5;
+                    
+                    doc.setFont(undefined, 'normal');
+                    doc.text(`Note: ${grade}`, 20, yPos);
+                    yPos += 10;
+                    
+                    if (yPos > 260) {
+                        doc.addPage();
+                        // Add logo on new page too
+                        doc.addImage(logoImg, 'PNG', 190 - logoWidthMM, 10, logoWidthMM, logoHeightMM);
+                        yPos = 30;
+                    }
+                }
+                
+                // Recommendation
+                yPos += 10;
+                if (yPos > 250) {
+                    doc.addPage();
+                    // Add logo on new page too
+                    doc.addImage(logoImg, 'PNG', 190 - logoWidthMM, 10, logoWidthMM, logoHeightMM);
+                    yPos = 30;
+                }
+                
+                doc.setFontSize(12);
+                doc.setFont(undefined, 'bold');
+                doc.setTextColor(44, 82, 130);
+                doc.text('Handlungsempfehlung:', 20, yPos);
+                yPos += 7;
+                
+                doc.setFont(undefined, 'normal');
+                doc.setFontSize(10);
+                doc.setTextColor(0, 0, 0);
+                
+                const average = parseFloat(overallGrade);
+                if (average <= 2.5) {
+                    doc.text('Due Diligence, Segregation of Duties, Prozessanalysen', 20, yPos);
+                    yPos += 5;
+                    doc.text('ROI-Berechnung, Mitarbeiterbenennung', 20, yPos);
+                } else if (average <= 3.5) {
+                    doc.text('Kritische Prüfung der KI-Architektur', 20, yPos);
+                    yPos += 5;
+                    doc.text('externe Beratung einholen, Schwachstellen identifizieren und beheben, Durchführung von Risikoabschätzungen', 20, yPos);
+                   
+                } else {
+                    doc.text('Projekt nicht weiter verfolgen,', 20, yPos);
+                    yPos += 5;
+                    doc.text('keine Investitionen tätigen, neues Angebot einholen', 20, yPos);
+                }
+                
+                // Footer
+                yPos = 280;
+                doc.setFontSize(9);
+                doc.setTextColor(100, 100, 100);
+                doc.text('Beratungstermine: https://www.thomas-bade.de/termine.html', 20, yPos);
+                
+                // Save
+                doc.save('KI_Entlassmanagement_Bewertung.pdf');
+                plausible('PDF Export', {props:{checklist_name:'ki-readiness',export_type:'pdf',completion_status:'partial',tool_name:'control-panel',user_tier:'free'}});
+            };
+            
+            // Fallback if logo fails to load
+            logoImg.onerror = function() {
+                console.warn('Logo konnte nicht geladen werden, erstelle PDF ohne Logo');
+                exportPDFWithoutLogo();
+            };
+        }
+
+        // Helper function for PDF without logo (fallback)
+        function exportPDFWithoutLogo() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF('p', 'mm', 'a4');
+            
+            // Header
+            doc.setFontSize(20);
+            doc.setTextColor(44, 82, 130);
+            doc.text('KI im Entlassmanagement', 20, 20);
+            
+            doc.setFontSize(14);
+            doc.setTextColor(0, 0, 0);
+            doc.text('Bewertungsbericht - Management Summary', 20, 30);
+            
+            // Publisher info
+            doc.setFontSize(10);
+            doc.text('Thomas Bade', 20, 40);
+            doc.text('85072 Eichstätt', 20, 45);
+            doc.text('Email: tb@thomas-bade.de', 20, 50);
+            doc.text('Tel: 08421 675 19 77', 20, 55);
+            
+            // Date
+            const now = new Date();
+            doc.text('Erstellt am: ' + now.toLocaleDateString('de-DE'), 20, 65);
+            
+            // Overall grade
+            const overallGrade = document.getElementById('overall-grade-display').textContent;
+            doc.setFontSize(16);
+            doc.setTextColor(44, 82, 130);
+            doc.text('Gesamtnote: ' + overallGrade, 20, 80);
+            
+            // Criteria details with titles
+            const criterionTitles = {
+                '1-1': 'Klare Zweckbestimmung',
+                '1-2': 'Zielkorridor',
+                '1-3': 'Kommunikationsfähigkeit',
+                '1-4': 'Anschlussversorgung planbar machen',
+                '1-5': 'Erkennungslogik zur Krankenhausbehandlungsbedürftigkeit',
+                '1-6': 'Zeitkritische Information',
+                '1-7': 'Notfall-/Eskalationspfad',
+                '1-8': 'Abgrenzung sozialer Risiken',
+                '1-9': 'Beratung triggern',
+                '1-10': 'Beratung muss Folgen abdecken',
+                '1-11': 'Nicht fernliegende Komplikationen',
+                '1-12': 'Objektiv erkennbare Pflegerisiken',
+                '1-13': 'Fehlerfolgen adressieren',
+                '1-14': 'Sektorenübergreifende Sicht',
+                '1-15': 'Nachweis- und Dokumentationspflichten'
+            };
+            
+            doc.setFontSize(11);
+            doc.setTextColor(0, 0, 0);
+            let yPos = 95;
+            
+            for (let i = 1; i <= 15; i++) {
+                const criterionId = i <= 9 ? '1-' + i : '1-' + i;
+                const select = document.getElementById('criterion-' + criterionId);
+                const grade = select.value;
+                const title = criterionTitles[criterionId];
+                
+                doc.setFont(undefined, 'bold');
+                doc.text(`${criterionId}. ${title}`, 20, yPos);
+                yPos += 5;
+                
+                doc.setFont(undefined, 'normal');
+                doc.text(`Note: ${grade}`, 20, yPos);
+                yPos += 10;
+                
+                if (yPos > 260) {
+                    doc.addPage();
+                    yPos = 20;
+                }
+            }
+            
+            // Recommendation
+            yPos += 10;
+            if (yPos > 250) {
+                doc.addPage();
+                yPos = 20;
+            }
+            
+            doc.setFontSize(12);
+            doc.setFont(undefined, 'bold');
+            doc.setTextColor(44, 82, 130);
+            doc.text('Handlungsempfehlung:', 20, yPos);
+            yPos += 7;
+            
+            doc.setFont(undefined, 'normal');
+            doc.setFontSize(10);
+            doc.setTextColor(0, 0, 0);
+            
+            const average = parseFloat(overallGrade);
+            if (average <= 2.5) {
+                doc.text('Due Diligence, Segregation of Duties, Prozessanalysen,', 20, yPos);
+                yPos += 5;
+                doc.text('ROI-Berechnung, Mitarbeiterbenennung', 20, yPos);
+            } else if (average <= 4.5) {
+                doc.text('Kritische Prüfung der KI-Architektur,', 20, yPos);
+                yPos += 5;
+                doc.text('externe Beratung einholen', 20, yPos);
+            } else {
+                doc.text('Projekt nicht weiter verfolgen,', 20, yPos);
+                yPos += 5;
+                doc.text('keine Investitionen tätigen, neues Angebot einholen', 20, yPos);
+            }
+            
+            // Footer
+            yPos = 280;
+            doc.setFontSize(9);
+            doc.setTextColor(100, 100, 100);
+            doc.text('Beratungstermine: https://www.thomas-bade.de/termine.html', 20, yPos);
+            
+            // Save
+            doc.save('KI_Entlassmanagement_Bewertung.pdf');
+            plausible('PDF Export', {props:{checklist_name:'ki-readiness',export_type:'pdf',completion_status:'partial',tool_name:'control-panel',user_tier:'free'}});
+        }
+    </script>
+     
+    </main>
+
+<!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <!-- Linke Spalte -->
+          <div class="col-lg-6 col-md-6 mb-3">
+            <img src="https://thomas-bade.de/assets/img/logo-transparent.png" alt="thomas-bade.de" style="height:120px; margin-bottom:20px; display:block;">
+            <p style="font-size:14px; margin-bottom:6px;"><a href="mailto:tb@thomas-bade.de" style="color:#ccc; text-decoration:none;"><i class="bi bi-envelope me-1"></i>E-Mail</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/coach.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-person me-1"></i>Zur Person</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/termine.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-calendar me-1"></i>Let's talk</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.de/impressum.html" style="color:#ccc; text-decoration:none;"><i class="bi bi-file-text me-1"></i>Impressum &amp; Datenschutz</a></p>
+            <p style="font-size:12px; color:#ffc451; margin-top:16px;">&copy; Copyright 2026 Thomas Bade</p>
+          </div>
+
+          <!-- Rechte Spalte -->
+          <div class="col-lg-6 col-md-6 mb-3">
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-bottom:10px; color:#ffc451 !important;">Weitere Angebote</p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.eu" target="_blank" rel="noopener" style="color:#ccc; text-decoration:none;"><i class="bi bi-globe me-1"></i>thomas-bade.eu – Zukunftsraum Kommune</a></p>
+            <p style="font-size:14px; margin-bottom:6px;"><a href="https://www.thomas-bade.org" target="_blank" rel="noopener" style="color:#ccc; text-decoration:none;"><i class="bi bi-mortarboard me-1"></i>thomas-bade.org – KI Kompetenz- &amp; Lernportal</a></p>
+
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-top:20px; margin-bottom:10px; color:#ffc451 !important;">Alle KI-Themen</p>
+            <div class="footer-dropdown" id="footerDropdown">
+              <button class="footer-dd-trigger" id="footerDDBtn">
+                Themenübersicht 
+                <span class="footer-dd-chevron">▲</span>
+              </button>
+              <ul class="footer-dd-menu" id="footerDDMenu">
+                 <li><a href="https://www.thomas-bade.de/sitemap.html" target="_blank"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></li>
+             <li><a href="https://www.thomas-bade.de/bmg.html">Digitalisierungsstrategie 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/mdr_ki.html">Hochrisiko-KI</a></li>
+              <li><a href="https://www.thomas-bade.de/leitbild.html">Leitbild</a></li>
+              <li><a href="https://www.thomas-bade.de/mission.html">Mission Statement</a></li>
+              <li><a href="https://www.thomas-bade.de/ki_verordnung.html">KI-MIG 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/wissenschaft.html">Forschung &amp; Wissenschaft</a></li>
+              <li><a href="https://www.thomas-bade.de/constitution.html">Ethische KI-Prinzipien</a></li>
+              <li><a href="https://www.thomas-bade.de/risk.html">KI Risikomanagement</a></li>
+              <li><a href="https://www.thomas-bade.de/oecd.html">OECD 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/arise.html">State of Clinical AI Report</a></li>
+              <li><a href="https://www.thomas-bade.de/praevention.html">KI in der Prävention</a></li>
+              <li><a href="https://www.thomas-bade.de/haip.html">Health AI Partnership (HAIP)</a></li>
+              <li><a href="https://www.thomas-bade.de/portal.html">KI Lernformate</a></li>
+
+
+                      </ul>
+            </div>
+<p style="font-size:14px; margin-bottom:6px;">
+              <a href="https://www.thomas-bade.de/sitemap.html" target="_blank" style="color:#ccc; text-decoration:none;"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></p>
+
+            <p class="footer-label" style="font-size:11px; letter-spacing:1px; text-transform:uppercase; margin-top:20px; margin-bottom:10px; color:#ffc451 !important;">Seite teilen</p>
+                      <div class="share-container" id="shareContainer">
+            <button class="share-button" id="shareToggleBtn" aria-label="Seite teilen" title="Seite teilen">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+            </button>
+            <div class="share-popup" id="sharePopup">
+              <a href="#" id="shareLinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" id="shareTwitter" title="X / Twitter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" id="shareFacebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+              </a>
+              <button class="share-icon-btn" id="shareMastodon" title="Mastodon" type="button">
+                <svg viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.24-5.032C17.69.242 15.948 0 11.994 0h-.028C8.017 0 6.274.242 5.94.281 3.35.693 1.038 2.554.526 5.157A27.3 27.3 0 0 0 .25 9.099c-.064 1.265-.063 2.529-.037 3.794.065 3.028.222 6.051.668 9.048.255 1.688.85 3.232 2.025 4.58A8.208 8.208 0 0 0 8.36 23.77c1.947.476 3.952.586 5.94.478a29.39 29.39 0 0 0 5.656-1.085 8.178 8.178 0 0 0 1.538-.666c-.01-.072-.013-.146-.013-.22v-3.03c-.756.183-1.522.33-2.296.44-1.698.241-3.413.31-5.12.188a9.94 9.94 0 0 1-2.494-.495c-.874-.297-1.57-.862-1.916-1.752a5.99 5.99 0 0 1-.326-1.48c2.064.496 4.162.744 6.265.744 1.013 0 2.024-.048 3.03-.148 1.71-.173 3.48-.556 4.997-1.464a6.274 6.274 0 0 0 2.786-4.148c.16-.924.22-1.86.22-2.798 0-.93-.063-1.855-.207-2.772zm-5.516 6.6c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.667-1.218-2.667-2.72V7.86c0-1.502 1.194-2.72 2.667-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053zm-8.068 0c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.668-1.218-2.668-2.72V7.86c0-1.502 1.195-2.72 2.668-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareInstagram" title="Instagram (Link kopieren)" type="button">
+                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareCopyLink" title="Link kopieren" type="button">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </button>
+            </div><!-- /share-popup -->
+            <div id="mastodonPrompt">
+              <label for="mastodonInstance">Mastodon-Instanz eingeben:</label>
+              <input type="text" id="mastodonInstance" placeholder="z.B. mastodon.social" autocomplete="off">
+              <button class="masto-go" id="mastodonGo" type="button">Teilen &#8599;</button>
+            </div>
+          </div><!-- /share-container -->
+          <div class="copy-notification" id="copyNotification">&#10003; Link in Zwischenablage kopiert</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+<!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+      <script>
+ // ── Footer Dropdown ──
+    document.addEventListener('DOMContentLoaded', function () {
+      var btn  = document.getElementById('footerDDBtn');
+      var menu = document.getElementById('footerDDMenu');
+      var dd   = document.getElementById('footerDropdown');
+      if (!btn || !menu) return;
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        menu.classList.toggle('open');
+        btn.classList.toggle('open');
+      });
+      document.addEventListener('click', function (e) {
+        if (dd && !dd.contains(e.target)) {
+          menu.classList.remove('open');
+          btn.classList.remove('open');
+        }
+      });
+    });
+</script>
+<script>
+(function () {
+  'use strict';
+
+  var usingTouch = false;
+  var touchActive = false;
+
+  window.addEventListener('touchstart', function () {
+    usingTouch = true;
+    touchActive = true;
+  }, { passive: true });
+
+  window.addEventListener('touchend', function () {
+    // kurze Sperre damit simuliertes mousemove danach ignoriert wird
+    setTimeout(function () { touchActive = false; }, 500);
+  }, { passive: true });
+
+  window.addEventListener('mousemove', function () {
+    if (touchActive) return; // simuliertes mousemove nach Touch ignorieren
+    usingTouch = false;
+  }, { passive: true });
+
+  function positionTooltip(wrapper, box) {
+    box.style.visibility = 'hidden';
+    box.style.display = 'block';
+    var tooltipHeight = box.offsetHeight;
+    box.style.display = 'none';
+    box.style.visibility = '';
+
+    var rect = wrapper.getBoundingClientRect();
+    var margin = 10;
+    var top = rect.top - tooltipHeight - margin;
+    if (top < 10) top = rect.bottom + margin;
+
+    var left = rect.left;
+    var maxLeft = window.innerWidth - 340 - 15;
+    if (left > maxLeft) left = maxLeft;
+    if (left < 10) left = 10;
+
+    box.style.top  = top + 'px';
+    box.style.left = left + 'px';
+    box.style.animation = 'prrcFadeIn 0.18s ease';
+  }
+
+  function closeAll() {
+    document.querySelectorAll('.prrc-tooltip-box').forEach(function (b) {
+      b.style.display = 'none';
+    });
+  }
+
+  document.querySelectorAll('.prrc-tooltip-wrapper').forEach(function (wrapper) {
+    var box = wrapper.querySelector('.prrc-tooltip-box');
+
+    // Desktop: Mouseover
+    wrapper.addEventListener('mouseenter', function () {
+      if (usingTouch) return;
+      positionTooltip(wrapper, box);
+      box.style.display = 'block';
+    });
+
+    wrapper.addEventListener('mouseleave', function () {
+      if (usingTouch) return;
+      box.style.display = 'none';
+    });
+
+    // Touch: 1x Tippen öffnet/schließt
+    wrapper.addEventListener('click', function (e) {
+      if (!usingTouch) return;
+      var isVisible = box.style.display === 'block';
+      closeAll();
+      if (!isVisible) {
+        positionTooltip(wrapper, box);
+        box.style.display = 'block';
+      }
+      e.stopPropagation();
+    });
+  });
+
+  document.addEventListener('click', function () {
+    if (usingTouch) closeAll();
+  });
+
+})();
+</script>
+
+<!-- ======= Site Search ======= -->
+  <script src="https://thomas-bade.de/assets/js/search-config.js"></script>
+  <script src="https://thomas-bade.de/assets/js/search.js"></script>
+
+<script>
+/* ---- Share Button â€“ vollstaendig inline, alle Plattformen ---- */
+(function(){
+  var container   = document.getElementById('shareContainer');
+  var toggleBtn   = document.getElementById('shareToggleBtn');
+  var popup       = document.getElementById('sharePopup');
+  var liBtn       = document.getElementById('shareLinkedIn');
+  var twBtn       = document.getElementById('shareTwitter');
+  var fbBtn       = document.getElementById('shareFacebook');
+  var mastoBtn    = document.getElementById('shareMastodon');
+  var igBtn       = document.getElementById('shareInstagram');
+  var cpBtn       = document.getElementById('shareCopyLink');
+  var notice      = document.getElementById('copyNotification');
+  var mastoPrompt = document.getElementById('mastodonPrompt');
+  var mastoInput  = document.getElementById('mastodonInstance');
+  var mastoGo     = document.getElementById('mastodonGo');
+  if(!toggleBtn || !popup) return;
+  var pageUrl   = encodeURIComponent(window.location.href);
+  var pageTitle = encodeURIComponent(document.title);
+  var rawUrl    = window.location.href;
+  liBtn.href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl;
+  twBtn.href = 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle;
+  fbBtn.href = 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl;
+  toggleBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = popup.classList.contains('open');
+    closeAll();
+    if(!isOpen) popup.classList.add('open');
+  });
+  mastoBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    var isOpen = mastoPrompt.classList.contains('open');
+    mastoPrompt.classList.toggle('open');
+    if(!isOpen && mastoInput) mastoInput.focus();
+  });
+  mastoGo.addEventListener('click', function(){
+    var instance = (mastoInput.value || '').trim().replace(/^https?:\/\//, '').replace(/\/$/, '');
+    if(!instance){ mastoInput.focus(); return; }
+    var shareUrl = 'https://' + instance + '/share?text=' + pageTitle + '%20' + pageUrl;
+    window.open(shareUrl, '_blank', 'noopener,noreferrer');
+    closeAll();
+  });
+  mastoInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter') mastoGo.click();
+    if(e.key === 'Escape') closeAll();
+  });
+  igBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, 'Link kopiert â€“ jetzt in Instagram einfuegen');
+  });
+  cpBtn.addEventListener('click', function(e){
+    e.stopPropagation();
+    copyToClipboard(rawUrl, '&#10003; Link in Zwischenablage kopiert');
+  });
+  function copyToClipboard(text, msg){
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ showNotice(msg); }, function(){ fallback(text, msg); });
+    } else { fallback(text, msg); }
+  }
+  function fallback(text, msg){
+    var ta = document.createElement('textarea');
+    ta.value = text; ta.style.position='fixed'; ta.style.top='-9999px';
+    document.body.appendChild(ta); ta.focus(); ta.select();
+    try{ document.execCommand('copy'); showNotice(msg); } catch(err){}
+    document.body.removeChild(ta);
+  }
+  function showNotice(msg){
+    if(!notice) return;
+    notice.innerHTML = msg;
+    notice.classList.add('visible');
+    setTimeout(function(){ notice.classList.remove('visible'); }, 3000);
+  }
+  function closeAll(){
+    popup.classList.remove('open');
+    if(mastoPrompt) mastoPrompt.classList.remove('open');
+  }
+  document.addEventListener('click', function(e){
+    if(!container.contains(e.target)) closeAll();
+  });
+})();
+</script>
+
+  <style>
+    /* ── Hamburger Nav ── */
+    #tb-nav .tb-nav-link {
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+      letter-spacing: .02em;
+      transition: color .2s;
+    }
+    #tb-nav .tb-nav-link:hover { color: #ffc451; }
+
+    /* Hamburger Button */
+    #tb-burger {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 40px;
+      height: 40px;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 4px;
+      transition: background .2s;
+    }
+    #tb-burger:hover { background: rgba(255,196,81,.15); }
+    #tb-burger span {
+      display: block;
+      height: 2px;
+      width: 24px;
+      background: #fff;
+      border-radius: 2px;
+      transition: transform .25s ease, opacity .2s ease, width .2s ease;
+      transform-origin: center;
+    }
+    #tb-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    #tb-burger.open span:nth-child(2) { opacity: 0; width: 0; }
+    #tb-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Menu Panel */
+    #tb-menu {
+      position: fixed;
+      top: 0; right: 0;
+      width: min(300px, 88vw);
+      height: 100%;
+      background: #0b0b0b;
+      z-index: 10100;
+      transform: translateX(100%);
+      transition: transform .28s cubic-bezier(.4,0,.2,1);
+      overflow-y: auto;
+    }
+    #tb-menu.open { transform: translateX(0); }
+    #tb-menu-inner { padding: 20px 24px 40px; }
+
+    /* Close Button */
+    #tb-menu-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 6px;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-bottom: 28px;
+      transition: background .2s, color .2s;
+      line-height: 1;
+    }
+    #tb-menu-close:hover { background: #ffc451; color: #000; border-color: #ffc451; }
+
+    /* Menu Links */
+    #tb-menu ul { list-style: none; padding: 0; margin: 0; }
+    #tb-menu ul li + li { margin-top: 8px; }
+    #tb-menu ul li a {
+      display: flex;
+      align-items: center;
+      padding: 14px 18px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 8px;
+      color: #eee;
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: background .2s, color .2s, border-color .2s;
+    }
+    #tb-menu ul li a:hover {
+      background: #ffc451;
+      color: #000;
+      border-color: #ffc451;
+    }
+    #tb-menu ul li a i { font-size: 17px; flex-shrink: 0; }
+
+    /* Overlay */
+    #tb-menu-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.55);
+      z-index: 10090;
+      backdrop-filter: blur(2px);
+    }
+    #tb-menu-overlay.open { display: block; }
+
+    /* Focus ring */
+    #tb-menu a:focus-visible,
+    #tb-menu-close:focus-visible,
+    #tb-burger:focus-visible {
+      outline: 2px solid #ffc451;
+      outline-offset: 2px;
+    }
+  </style>
+  <script>
+  /* ── Hamburger Menu ── */
+  (function () {
+    var burger   = document.getElementById('tb-burger');
+    var menu     = document.getElementById('tb-menu');
+    var overlay  = document.getElementById('tb-menu-overlay');
+    var closeBtn = document.getElementById('tb-menu-close');
+    if (!burger || !menu) return;
+
+    function openMenu() {
+      menu.classList.add('open');
+      overlay.classList.add('open');
+      burger.classList.add('open');
+      burger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      var first = menu.querySelector('a, button');
+      if (first) setTimeout(function () { first.focus(); }, 300);
+    }
+
+    function closeMenu() {
+      menu.classList.remove('open');
+      overlay.classList.remove('open');
+      burger.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      burger.focus();
+    }
+
+    burger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menu.classList.contains('open') ? closeMenu() : openMenu();
+    });
+
+    closeBtn.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('open')) closeMenu();
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { closeMenu(); });
+    });
+  })();
+  </script>
+</body>
+</html>

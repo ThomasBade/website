@@ -1,0 +1,188 @@
+{
+  "id": "page:who",
+  "slug": "who",
+  "filename": "who.html",
+  "url": "https://www.thomas-bade.de/who.html",
+  "canonical": "https://www.thomas-bade.de/who.html",
+  "title": "World Health Organization (WHO) und Digital Health",
+  "description": "Thomas Bade berät als KI-Compliance Experte Krankenhäuser, Pflegeeinrichtungen und Organisationen bei EU AI Act, MDR-Compliance und strategischer KI-Implementierung im Gesundheitswesen.",
+  "summary": "Die WHO-Klassifizierung etabliert ein bewährtes Ordnungssystem für digitale Gesundheitslösungen – von der Bedarfsanalyse über Funktionsdefinition bis zur Systemzuordnung. Das Ergebnis: vergleichbare Investitionen, interoperable Architekturen und transparente Portfolios.",
+  "topics": [
+    "Patientenzentrierung",
+    "Health",
+    "Risikomanagement",
+    "EU AI Act",
+    "KI-Governance",
+    "World",
+    "Organization",
+    "Digital",
+    "Pflege",
+    "DSGVO"
+  ],
+  "word_count": 1331,
+  "heading_count": 4,
+  "h1_count": 0,
+  "internal_links": 18,
+  "linked_pages": [
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 1,
+  "has_og": true,
+  "citation_signals": 0,
+  "question_headings": 1,
+  "structured_blocks": 13,
+  "author_signal": true,
+  "content_hash": "fba5555a6129a35c",
+  "seo_score": 76,
+  "geo_score": 86,
+  "ai_overview_probability": 68,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": false,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Patientenzentrierung",
+          "Health",
+          "Risikomanagement",
+          "EU AI Act",
+          "KI-Governance",
+          "World",
+          "Organization",
+          "Digital",
+          "Pflege",
+          "DSGVO"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/who.html#webpage",
+        "url": "https://www.thomas-bade.de/who.html",
+        "headline": "World Health Organization (WHO) und Digital Health",
+        "description": "Thomas Bade berät als KI-Compliance Experte Krankenhäuser, Pflegeeinrichtungen und Organisationen bei EU AI Act, MDR-Compliance und strategischer KI-Implementierung im Gesundheitswesen.",
+        "abstract": "Die WHO-Klassifizierung etabliert ein bewährtes Ordnungssystem für digitale Gesundheitslösungen – von der Bedarfsanalyse über Funktionsdefinition bis zur Systemzuordnung. Das Ergebnis: vergleichbare Investitionen, interoperable Architekturen und transparente Portfolios.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Health"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "World"
+          },
+          {
+            "@type": "Thing",
+            "name": "Organization"
+          },
+          {
+            "@type": "Thing",
+            "name": "Digital"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "DSGVO"
+          }
+        ],
+        "keywords": [
+          "Patientenzentrierung",
+          "Health",
+          "Risikomanagement",
+          "EU AI Act",
+          "KI-Governance",
+          "World",
+          "Organization",
+          "Digital",
+          "Pflege",
+          "DSGVO"
+        ]
+      }
+    ]
+  }
+}

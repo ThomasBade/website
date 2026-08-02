@@ -1,0 +1,45 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": []
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/termine.html#webpage",
+      "url": "https://www.thomas-bade.de/termine.html",
+      "headline": "Let's talk!",
+      "description": "Buche deinen Termin bei Thomas Bade: kostenfreies Erstgespräch, Coaching-Sessions, KI- und Digitalisierungsberatung. Alle verfügbaren Zeiten einfach und direkt online reservieren.",
+      "abstract": "Diese Website verwendet ausschließlich technisch notwendige Cookies, die für den Betrieb der Seite erforderlich sind. Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Let's talk ■ Wählen Sie einen passenden Termin für eine gemeinsame Microsoft-Teams-Sitzung aus.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [],
+      "keywords": []
+    }
+  ]
+}

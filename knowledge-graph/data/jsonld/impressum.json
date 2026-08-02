@@ -1,0 +1,84 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "DSGVO",
+        "Datenschutz",
+        "Impressum",
+        "EU AI Act",
+        "Medizinprodukte",
+        "FMEA"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/impressum.html#webpage",
+      "url": "https://www.thomas-bade.de/impressum.html",
+      "headline": "Impressum",
+      "description": "39 85072 Eichstätt Deutschland Pflichtangaben nach § 5 Abs. 1 Digitale-Dienste-Gesetz (DDG) Name und Anschrift (§ 5 Abs.",
+      "abstract": "39 85072 Eichstätt Deutschland Pflichtangaben nach § 5 Abs. 1 Digitale-Dienste-Gesetz (DDG) Name und Anschrift (§ 5 Abs.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Impressum"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "FMEA"
+        }
+      ],
+      "keywords": [
+        "DSGVO",
+        "Datenschutz",
+        "Impressum",
+        "EU AI Act",
+        "Medizinprodukte",
+        "FMEA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "id": "page:decoding",
+  "slug": "decoding",
+  "filename": "decoding.html",
+  "url": "https://www.thomas-bade.de/decoding.html",
+  "canonical": "https://www.thomas-bade.de/decoding.html",
+  "title": "DecodingTrust – Vertrauenswürdigkeit von GPT-Modellen",
+  "description": "DecodingTrust: Leitfaden zur Vertrauenswürdigkeitsprüfung von GPT-Modellen nach acht Perspektiven – Orientierung für Beschaffung, Pilotierung und Monitoring GPT-gestützter Systeme im Gesundheitswesen.",
+  "summary": "Für Betreiber, die GPT-basierte Systeme im Gesundheits- oder Sozialwesen einsetzen wollen, liefert dieses Rahmenwerk eine belastbare Grundlage für Beschaffungsentscheidungen, Risikobewertung und laufendes Monitoring. GPT-3.5 und GPT-4 werden unter identischen Bedingungen und Prompt-Vorgaben getestet.",
+  "topics": [
+    "Datenschutz",
+    "DecodingTrust",
+    "Vertrauenswürdigkeit",
+    "GPT-Modellen",
+    "EU AI Act",
+    "KI-Monitoring",
+    "Pflege",
+    "ISO/IEC 42001",
+    "Risikomanagement",
+    "KI-Ethik"
+  ],
+  "word_count": 583,
+  "heading_count": 12,
+  "h1_count": 0,
+  "internal_links": 22,
+  "linked_pages": [
+    "ai_sweden",
+    "bmg",
+    "calster",
+    "coach",
+    "constitution",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "iso_42001",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "medlog",
+    "mission",
+    "oecd",
+    "portal",
+    "risk",
+    "sitemap",
+    "termine",
+    "vendor",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 1,
+  "has_og": true,
+  "citation_signals": 1,
+  "question_headings": 0,
+  "structured_blocks": 2,
+  "author_signal": true,
+  "content_hash": "0705da2863f117ca",
+  "seo_score": 76,
+  "geo_score": 70,
+  "ai_overview_probability": 59,
+  "maturity": "fortgeschritten",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": false,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": false
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Datenschutz",
+          "DecodingTrust",
+          "Vertrauenswürdigkeit",
+          "GPT-Modellen",
+          "EU AI Act",
+          "KI-Monitoring",
+          "Pflege",
+          "ISO/IEC 42001",
+          "Risikomanagement",
+          "KI-Ethik"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/decoding.html#webpage",
+        "url": "https://www.thomas-bade.de/decoding.html",
+        "headline": "DecodingTrust – Vertrauenswürdigkeit von GPT-Modellen",
+        "description": "DecodingTrust: Leitfaden zur Vertrauenswürdigkeitsprüfung von GPT-Modellen nach acht Perspektiven – Orientierung für Beschaffung, Pilotierung und Monitoring GPT-gestützter Systeme im Gesundheitswesen.",
+        "abstract": "Für Betreiber, die GPT-basierte Systeme im Gesundheits- oder Sozialwesen einsetzen wollen, liefert dieses Rahmenwerk eine belastbare Grundlage für Beschaffungsentscheidungen, Risikobewertung und laufendes Monitoring. GPT-3.5 und GPT-4 werden unter identischen Bedingungen und Prompt-Vorgaben getestet.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "DecodingTrust"
+          },
+          {
+            "@type": "Thing",
+            "name": "Vertrauenswürdigkeit"
+          },
+          {
+            "@type": "Thing",
+            "name": "GPT-Modellen"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Monitoring"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "ISO/IEC 42001"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Ethik"
+          }
+        ],
+        "keywords": [
+          "Datenschutz",
+          "DecodingTrust",
+          "Vertrauenswürdigkeit",
+          "GPT-Modellen",
+          "EU AI Act",
+          "KI-Monitoring",
+          "Pflege",
+          "ISO/IEC 42001",
+          "Risikomanagement",
+          "KI-Ethik"
+        ]
+      }
+    ]
+  }
+}

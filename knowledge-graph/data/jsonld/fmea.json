@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Medizinprodukte",
+        "Gesundheitswesen",
+        "EU AI Act",
+        "KI-Monitoring",
+        "Risikomanagement",
+        "FMEA",
+        "DSGVO",
+        "Datenschutz",
+        "Patientenzentrierung",
+        "Pflege"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/fmea.html#webpage",
+      "url": "https://www.thomas-bade.de/fmea.html",
+      "headline": "FMEA im Gesundheitswesen – Risikoanalyse für KI & Medizinprodukte | Thomas Bade",
+      "description": "FMEA für KI-Systeme und Medizinprodukte im Krankenhaus: RPZ-Methodik, AI-FMEA, EU AI Act Art. 9, ISO 14971 und interaktive Compliance-Checkliste – Thomas Bade, Eichstätt.",
+      "abstract": "Im Gesundheitswesen ist die FMEA seit Jahrzehnten in der Medizinprodukteentwicklung verankert. Mit der Einführung des EU AI Act rückt sie als regulatorisches Werkzeug auch für Hochrisiko-KI-Systeme Hochrisiko-KI-Systeme sind KI-Anwendungen, die in Bereichen eingesetzt werden, die erhebliche Risiken für Gesundheit, Sicherheit oder Grundrechte darstellen – z.B.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "FMEA"
+        },
+        {
+          "@type": "Thing",
+          "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        }
+      ],
+      "keywords": [
+        "Medizinprodukte",
+        "Gesundheitswesen",
+        "EU AI Act",
+        "KI-Monitoring",
+        "Risikomanagement",
+        "FMEA",
+        "DSGVO",
+        "Datenschutz",
+        "Patientenzentrierung",
+        "Pflege"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+/* 
+=================================================================
+SHARE BUTTON JAVASCRIPT - thomas-bade.de
+=================================================================
+Variante 4: Compact Icon Button mit Instagram
+Link-Kopieren statt E-Mail (kein Outlook-Fehler)
+=================================================================
+*/
+
+// Toggle-Funktion für Share-Button
+function toggleShare(container) {
+    container.classList.toggle('active');
+}
+
+// Klick außerhalb schließt Pop-up
+document.addEventListener('click', function(event) {
+    const container = document.querySelector('.share-container');
+    if (container && !container.contains(event.target)) {
+        container.classList.remove('active');
+    }
+});
+
+// Link in Zwischenablage kopieren (statt mailto:)
+function copyLinkToClipboard(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    
+    const pageUrl = window.location.href;
+    const pageTitle = document.title;
+    const shareText = pageTitle + '\n' + pageUrl;
+    
+    // In Zwischenablage kopieren
+    navigator.clipboard.writeText(shareText).then(function() {
+        // Bestätigung anzeigen
+        const notification = document.getElementById('copyNotification');
+        if (notification) {
+            notification.classList.add('show');
+            
+            // Nach 3 Sekunden ausblenden
+            setTimeout(function() {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+        
+        // Pop-up schließen
+        const container = document.querySelector('.share-container');
+        if (container) {
+            container.classList.remove('active');
+        }
+    }).catch(function(err) {
+        // Fallback für ältere Browser
+        console.error('Kopieren fehlgeschlagen:', err);
+        alert('Link wurde in die Zwischenablage kopiert:\n\n' + shareText);
+    });
+}
+
+// Share-URLs automatisch generieren beim Laden der Seite
+document.addEventListener('DOMContentLoaded', function() {
+    const pageUrl = encodeURIComponent(window.location.href);
+    const pageTitle = encodeURIComponent(document.title);
+    
+    // Share-URLs für verschiedene Plattformen
+    const shareUrls = {
+        linkedin: 'https://www.linkedin.com/sharing/share-offsite/?url=' + pageUrl,
+        twitter: 'https://twitter.com/intent/tweet?url=' + pageUrl + '&text=' + pageTitle,
+        facebook: 'https://www.facebook.com/sharer/sharer.php?u=' + pageUrl,
+        instagram: 'https://www.instagram.com/',
+        mastodon: 'https://mastodon.social/share?text=' + pageTitle + '%20' + pageUrl
+    };
+    
+    // Alle Share-Links aktualisieren
+    document.querySelectorAll('[data-platform]').forEach(function(link) {
+        const platform = link.getAttribute('data-platform');
+        if (shareUrls[platform]) {
+            link.href = shareUrls[platform];
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+        }
+    });
+});
+
+(function () {
+  const cleanUrl = window.location.href.split('#')[0];
+  const url = encodeURIComponent(cleanUrl);
+  const text = encodeURIComponent(document.title);
+
+  (function () {
+  function setShareLinks() {
+    // komplette URL inkl. Query; ohne Hash (Hash bringt Share-Plattformen oft durcheinander)
+    var cleanUrl = window.location.origin + window.location.pathname + window.location.search;
+    var url = encodeURIComponent(cleanUrl);
+    var text = encodeURIComponent(document.title);
+
+    // X (Twitter) – Intent URL
+    var x = document.getElementById('x-btn');
+    if (x) x.setAttribute('href', 'https://x.com/intent/tweet?text=' + text + '&url=' + url);
+
+    // Facebook – Sharer
+    var fb = document.getElementById('facebook-btn');
+    if (fb) fb.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?u=' + url);
+  }
+
+  // DOM-sicher: wenn Elemente noch nicht da sind, warten wir sauber
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setShareLinks);
+  } else {
+    setShareLinks();
+  }
+})();
+
+
+/* 
+=================================================================
+ANPASSUNGEN
+=================================================================
+
+MASTODON INSTANCE:
+Falls du eine andere Mastodon-Instance bevorzugst, ändere in Zeile 57:
+mastodon: 'https://deine-instance.de/share?text=' + pageTitle + '%20' + pageUrl
+
+WEITERE PLATTFORMEN HINZUFÜGEN:
+Füge einfach neue Einträge in das shareUrls-Objekt ein, z.B.:
+whatsapp: 'https://wa.me/?text=' + pageTitle + '%20' + pageUrl,
+
+=================================================================
+*/

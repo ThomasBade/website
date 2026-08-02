@@ -1,0 +1,188 @@
+{
+  "id": "page:agentic",
+  "slug": "agentic",
+  "filename": "agentic.html",
+  "url": "https://www.thomas-bade.de/agentic.html",
+  "canonical": "https://www.thomas-bade.de/agentic.html",
+  "title": "Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung",
+  "description": "Was Agentic AI für Kliniken, Pflegeeinrichtungen und Gesundheitsorganisationen bedeutet: Chancen, Risiken, DSGVO, EU AI Act und KI-MIG-Zuständigkeiten. Einordnung von Thomas Bade.",
+  "summary": "223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland – die technologieneutrale KI-System-Definition der EU-KI-VO (Art. 1) erfasst dabei ausdrücklich auch autonom agierende KI-Agenten.",
+  "topics": [
+    "Agentic AI",
+    "Gesundheitswesen",
+    "EU AI Act",
+    "KI-Governance",
+    "DSGVO",
+    "Datenschutz",
+    "Risikomanagement",
+    "Medizinprodukte",
+    "Patientenzentrierung",
+    "KI-Monitoring"
+  ],
+  "word_count": 1949,
+  "heading_count": 21,
+  "h1_count": 1,
+  "internal_links": 18,
+  "linked_pages": [
+    "ai_sweden",
+    "bmg",
+    "coach",
+    "constitution",
+    "fmea",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 3,
+  "has_og": true,
+  "citation_signals": 9,
+  "question_headings": 1,
+  "structured_blocks": 9,
+  "author_signal": true,
+  "content_hash": "078f7e36b10d43cd",
+  "seo_score": 100,
+  "geo_score": 100,
+  "ai_overview_probability": 88,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": true,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Agentic AI",
+          "Gesundheitswesen",
+          "EU AI Act",
+          "KI-Governance",
+          "DSGVO",
+          "Datenschutz",
+          "Risikomanagement",
+          "Medizinprodukte",
+          "Patientenzentrierung",
+          "KI-Monitoring"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/agentic.html#webpage",
+        "url": "https://www.thomas-bade.de/agentic.html",
+        "headline": "Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung",
+        "description": "Was Agentic AI für Kliniken, Pflegeeinrichtungen und Gesundheitsorganisationen bedeutet: Chancen, Risiken, DSGVO, EU AI Act und KI-MIG-Zuständigkeiten. Einordnung von Thomas Bade.",
+        "abstract": "223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland – die technologieneutrale KI-System-Definition der EU-KI-VO (Art. 1) erfasst dabei ausdrücklich auch autonom agierende KI-Agenten.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Agentic AI"
+          },
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "DSGVO"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "Medizinprodukte"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Monitoring"
+          }
+        ],
+        "keywords": [
+          "Agentic AI",
+          "Gesundheitswesen",
+          "EU AI Act",
+          "KI-Governance",
+          "DSGVO",
+          "Datenschutz",
+          "Risikomanagement",
+          "Medizinprodukte",
+          "Patientenzentrierung",
+          "KI-Monitoring"
+        ]
+      }
+    ]
+  }
+}

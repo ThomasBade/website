@@ -1,0 +1,159 @@
+/*
+ * tb-modal-curriculum.css
+ * Erweiterung zu tb-modal-irland.css
+ * Nur einbinden auf Seiten MIT Curriculum-Modal (nicht index.html)
+ * Voraussetzung: tb-modal-irland.css muss bereits geladen sein
+ * ---------------------------------------------------------------
+ */
+
+/* ── Curriculum-Modul-Karten ── */
+.tb-curriculum-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 14px 0 20px;
+}
+@media (max-width: 600px) {
+  .tb-curriculum-grid { grid-template-columns: 1fr; }
+}
+
+.tb-cur-card {
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  padding: 12px 14px;
+  position: relative;
+  overflow: hidden;
+}
+.tb-cur-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px; height: 100%;
+  background: #ffc451;
+}
+.tb-cur-card.basic::before { background: #4A9EBF; }
+
+.tb-cur-num {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffc451;
+  margin-bottom: 4px;
+}
+.tb-cur-card.basic .tb-cur-num { color: #4A9EBF; }
+
+.tb-cur-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 5px;
+  line-height: 1.35;
+}
+
+.tb-cur-topics {
+  list-style: none;
+  padding: 0; margin: 0;
+}
+.tb-cur-topics li {
+  font-size: 11px;
+  color: #999;
+  padding: 2px 0 2px 12px;
+  line-height: 1.45;
+  position: relative;
+}
+.tb-cur-topics li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #ffc451;
+  font-size: 9px;
+  top: 3px;
+}
+.tb-cur-card.basic .tb-cur-topics li::before { color: #4A9EBF; }
+
+/* ── Tier-Badges ── */
+.tb-tier-row {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 16px;
+  flex-wrap: wrap;
+}
+.tb-tier-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.tb-tier-badge.basic {
+  background: rgba(74,158,191,0.15);
+  color: #4A9EBF;
+  border: 1px solid rgba(74,158,191,0.3);
+}
+.tb-tier-badge.premium {
+  background: rgba(255,196,81,0.12);
+  color: #ffc451;
+  border: 1px solid rgba(255,196,81,0.3);
+}
+
+/* ── Terminkalender-Box ── */
+.tb-cal-box {
+  background: linear-gradient(135deg, #1a1400, #1a1a00);
+  border: 1px solid rgba(255,196,81,0.3);
+  border-top: 3px solid #ffc451;
+  border-radius: 4px;
+  padding: 18px 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.tb-cal-box h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffc451;
+  margin: 0 0 6px;
+  letter-spacing: 0.04em;
+}
+.tb-cal-box p {
+  font-size: 12px;
+  color: #aaa;
+  margin: 0 0 14px;
+  line-height: 1.6;
+}
+.tb-cal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffc451;
+  color: #000 !important;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 10px 22px;
+  border-radius: 3px;
+  text-decoration: none !important;
+  transition: background 0.2s, transform 0.15s;
+  border: none;
+  cursor: pointer;
+}
+.tb-cal-btn:hover {
+  background: #ffe08a;
+  transform: translateY(-1px);
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.tb-cal-note {
+  font-size: 10px;
+  color: #555;
+  margin-top: 8px;
+  letter-spacing: 0.05em;
+}
+
+/* ── Floater-Tag Farbe für Curriculum-Floater ── */
+#tb-floater-curriculum .tb-floater-tag {
+  background: rgba(74,158,191,0.2);
+  color: #4A9EBF;
+}

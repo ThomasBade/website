@@ -1,0 +1,188 @@
+{
+  "id": "page:ai_monitoring",
+  "slug": "ai_monitoring",
+  "filename": "ai_monitoring.html",
+  "url": "https://www.thomas-bade.de/ai_monitoring.html",
+  "canonical": "https://www.thomas-bade.de/ai_monitoring.html",
+  "title": "KI Monitoring im Regelbetrieb | Post-Deployment Monitoring für KI im Gesundheitswesen",
+  "description": "KI Monitoring im Regelbetrieb: Wie Gesundheitseinrichtungen KI-Systeme nach der Einführung überwachen. Meldepflichten an die Bundesnetzagentur (KI-MIG), ISO/IEC 42005:2025, Governance, Drift-Erkennung, Safety Reporting, Compliance und AI Risk Management nach internationalen Leitlinien.",
+  "summary": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI Monitoring im Regelbetrieb 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Nach dem Go-live beginnt die eigentliche Verantwortung. Was ein System in kontrollierten Testbedingungen leistet, muss im klinischen Alltag kontinuierlich gemessen, bewertet und dokumentiert werden – rechtssicher, systematisch und mit klaren Zuständigkeiten.",
+  "topics": [
+    "Gesundheitswesen",
+    "KI-Governance",
+    "KI-Monitoring",
+    "Monitoring",
+    "Pflege",
+    "KI-Compliance",
+    "EU AI Act",
+    "Datenschutz",
+    "Patientenzentrierung",
+    "Regelbetrieb"
+  ],
+  "word_count": 2165,
+  "heading_count": 20,
+  "h1_count": 0,
+  "internal_links": 18,
+  "linked_pages": [
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "leitbild",
+    "mdr_ki",
+    "mission",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 6,
+  "has_og": true,
+  "citation_signals": 4,
+  "question_headings": 0,
+  "structured_blocks": 7,
+  "author_signal": true,
+  "content_hash": "2894c1e6d77b4381",
+  "seo_score": 68,
+  "geo_score": 92,
+  "ai_overview_probability": 76,
+  "maturity": "führend",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": false,
+    "Meta-Beschreibung": false,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": true
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "Gesundheitswesen",
+          "KI-Governance",
+          "KI-Monitoring",
+          "Monitoring",
+          "Pflege",
+          "KI-Compliance",
+          "EU AI Act",
+          "Datenschutz",
+          "Patientenzentrierung",
+          "Regelbetrieb"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/ai_monitoring.html#webpage",
+        "url": "https://www.thomas-bade.de/ai_monitoring.html",
+        "headline": "KI Monitoring im Regelbetrieb | Post-Deployment Monitoring für KI im Gesundheitswesen",
+        "description": "KI Monitoring im Regelbetrieb: Wie Gesundheitseinrichtungen KI-Systeme nach der Einführung überwachen. Meldepflichten an die Bundesnetzagentur (KI-MIG), ISO/IEC 42005:2025, Governance, Drift-Erkennung, Safety Reporting, Compliance und AI Risk Management nach internationalen Leitlinien.",
+        "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI Monitoring im Regelbetrieb 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Nach dem Go-live beginnt die eigentliche Verantwortung. Was ein System in kontrollierten Testbedingungen leistet, muss im klinischen Alltag kontinuierlich gemessen, bewertet und dokumentiert werden – rechtssicher, systematisch und mit klaren Zuständigkeiten.",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Monitoring"
+          },
+          {
+            "@type": "Thing",
+            "name": "Monitoring"
+          },
+          {
+            "@type": "Thing",
+            "name": "Pflege"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          },
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Regelbetrieb"
+          }
+        ],
+        "keywords": [
+          "Gesundheitswesen",
+          "KI-Governance",
+          "KI-Monitoring",
+          "Monitoring",
+          "Pflege",
+          "KI-Compliance",
+          "EU AI Act",
+          "Datenschutz",
+          "Patientenzentrierung",
+          "Regelbetrieb"
+        ]
+      }
+    ]
+  }
+}

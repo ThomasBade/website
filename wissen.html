@@ -1,0 +1,1524 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+    <!-- Favicon - Bing/Google Indexierung -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="canonical" href="https://www.thomas-bade.de/wissen.html" />
+  <title>Wissensmanagement mit KI – Erfahrungswissen sichern und transferieren</title>
+  <meta name="description" content="Wie KI-basierte Assistenzsysteme Erfahrungswissen im Gesundheits- und Sozialwesen sichern und transferieren. Das KI_eeper-Methoden-Toolkit (ifaa/Springer 2026) für Pflege, Sozialwirtschaft und Kommunen – eingeordnet von Thomas Bade.">
+  <meta name="keywords" content="Wissensmanagement KI, KI_eeper, Erfahrungswissen, Wissenstransfer, Pflege, Sozialwirtschaft, EU AI Act, implizites Wissen, intergenerational, Thomas Bade">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Wissensmanagement mit KI – Erfahrungswissen sichern und transferieren">
+  <meta property="og:description" content="Das KI_eeper-Methoden-Toolkit (ifaa/Springer 2026): Wie KI-basierte Assistenzsysteme implizites Erfahrungswissen im Gesundheitswesen sichern – eingeordnet für Pflege, Sozialwirtschaft und Kommunen.">
+  <meta property="og:url" content="https://www.thomas-bade.de/wissen.html">
+  <meta property="og:image" content="https://thomas-bade.de/assets/img/wissen.png">
+  <meta property="og:site_name" content="Thomas Bade – KI-Compliance &amp; Digitale Gesundheit">
+  <meta property="og:locale" content="de_DE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Wissensmanagement mit KI – KI_eeper-Toolkit für Pflege &amp; Sozialwirtschaft">
+  <meta name="twitter:description" content="Implizites Erfahrungswissen sichern mit KI: Das soziotechnische 6-Bausteine-Modell aus der Forschung für Gesundheit und Pflege.">
+  <meta name="twitter:image" content="https://thomas-bade.de/assets/img/wissen.png">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Article","headline":"Wissensmanagement mit Künstlicher Intelligenz","description":"Einordnung des KI_eeper-Methoden-Toolkits (Springer Vieweg 2026) für Pflege, Sozialwirtschaft und Kommunen.","author":{"@type":"Person","name":"Thomas Bade","url":"https://www.thomas-bade.de/coach.html"},"publisher":{"@type":"Organization","name":"Thomas Bade","logo":{"@type":"ImageObject","url":"https://thomas-bade.de/assets/img/logo-transparent.png"}},"url":"https://www.thomas-bade.de/wissen.html","inLanguage":"de"}
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <!-- CDN fallbacks for local preview (server uses local assets) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" crossorigin="anonymous">
+  <!-- Local assets (active on server) -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* Critical styles for local preview when style.css not available */
+    #header { background: rgba(0,0,0,.9); padding: 14px 0; position: fixed; top: 0; left: 0; right: 0; z-index: 997; }
+    #header .logo a { color: #fff; font-weight: 700; font-size: 1.4rem; text-decoration: none; font-family: "Raleway", sans-serif; }
+    .fixed-top { position: fixed !important; top: 0; right: 0; left: 0; z-index: 1030; }
+    .header-inner-pages { background: rgba(0,0,0,.9) !important; }
+    .back-to-top{display:none!important;position:fixed;right:20px;bottom:20px;z-index:10020;background:#ffc451;color:#000;width:44px;height:44px;border-radius:50%;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.28);transition:opacity .2s,transform .2s;background-color:#ffc451!important;}
+    .back-to-top.active{display:flex!important;opacity:1;transform:translateY(0);}
+    .back-to-top:hover{background:#fff!important;color:#000;transform:translateY(-2px);}
+    .back-to-top i{font-size:28px;line-height:1;}
+    #preloader { display: none; }
+    .inner-page { padding-top: 0; }
+  </style>
+
+
+  <!-- Plausible Analytics -->
+  <!-- Plausible stats: only active on server -->
+  <script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script>
+  <script async src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+  <script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};plausible.init();</script>
+  <link rel="llms" href="https://thomas-bade.de/llms.txt" />
+
+  <style>
+    :root{--tb-bg:#ffffff;--tb-text:#111111;--tb-muted:#4d5b66;--tb-line:#d9e1e6;--tb-accent:#ffc451;--tb-blue:#53868b;--tb-danger:#d34e36;--tb-dark:#0f1720;}
+    html{scroll-behavior:smooth;}
+    body{font-family:"Open Sans",Arial,Helvetica,sans-serif;background:#fff;color:var(--tb-text);line-height:1.7;}
+    #main{background:#fff;}
+    .inner-page{padding:0 0 20px;}
+    .inner-page .container{max-width:1025px;}
+    .section-title{color:var(--tb-danger);font-weight:500;text-transform:uppercase;letter-spacing:.04em;font-size:1rem;margin-bottom:10px;display:inline-block;}
+    .tb-intro{background:#f8fafc;border-left:4px solid #ffc451;border-radius:0 .5rem .5rem 0;padding:1.5rem 1.75rem;margin-bottom:2rem;font-size:1rem;color:#000;}
+    .tb-intro h2{font-family:"Raleway",sans-serif;font-size:2rem;font-weight:700;margin-top:.25rem;margin-bottom:1rem;color:#000;}
+    .grid-2{display:grid;gap:20px;grid-template-columns:repeat(2,minmax(0,1fr));}
+    .grid-3{display:grid;gap:20px;grid-template-columns:repeat(3,minmax(0,1fr));}
+    .card,.quote-box,.source-box,.cta,.highlight-item{background:#fff;border:1px solid var(--tb-line);border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.05);padding:24px;}
+    .card.blue-soft{background:#f5f9fa;}
+    .card h3,.highlight-item h3{font-family:"Raleway",sans-serif;color:#000;font-size:1.2rem;margin-bottom:12px;font-weight:700;}
+    .card p:last-child,.quote-box p:last-child,.cta p:last-child{margin-bottom:0;}
+    .tag{display:inline-block;padding:6px 10px;border-radius:999px;background:#ffc451;color:#000;font-size:.82rem;font-weight:700;margin-bottom:10px;}
+    .quote-box{border-left:4px solid #ffc451;background:#fffdfa;}
+    .stat{padding:20px 22px;background:#0f1720;color:#fff;border:1px solid #0f1720;border-radius:16px;box-shadow:none;}
+    .stat strong{display:block;font-size:1.8rem;color:#ffc451;margin-bottom:8px;line-height:1.1;}
+    .table-wrap{overflow:auto;padding:0;background:#fff;border:1px solid var(--tb-line);border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.05);}
+    table{width:100%;border-collapse:collapse;min-width:780px;}
+    th,td{padding:14px 16px;border-bottom:1px solid var(--tb-line);vertical-align:top;text-align:left;}
+    th{background:#ffc451;color:#000;font-size:.95rem;}
+    .cta{background:#0f1720;color:#fff;border-color:#0f1720;}
+    .cta h2,.cta p{color:#fff;}.cta .section-title{color:#ffc451;}
+    .cta .btn{display:inline-flex;align-items:center;justify-content:center;background:#ffc451;color:#000;border:1px solid #ffc451;padding:10px 18px;border-radius:4px;font-weight:600;text-decoration:none;transition:all .2s;}
+    .cta .btn:hover{background:#fff;color:#000;}
+    hr{border:none;border-top:3px solid #28323d;}
+    .footer-note{font-size:.95rem;color:var(--tb-muted);border-top:1px solid var(--tb-line);margin-top:20px;padding-top:16px;}
+
+    /* ── 6-Bausteine Block ── */
+    .tb-li-block{background:#0f1720;border-radius:16px;padding:2rem 2rem 1.5rem;margin-bottom:2.5rem;border:1px solid #1e2d3d;}
+    .tb-li-block .section-title{color:#ffc451;}
+    .tb-li-block .tb-li-lead{font-size:1.05rem;color:#c8d4dc;margin-bottom:1.75rem;line-height:1.6;}
+    .tb-li-list{display:grid;gap:16px;grid-template-columns:1fr;}
+    .tb-li-item{display:flex;gap:18px;align-items:flex-start;background:#162130;border:1px solid #263748;border-left:4px solid #ffc451;border-radius:10px;padding:18px 20px;}
+    .tb-li-num{flex-shrink:0;width:36px;height:36px;border-radius:50%;background:#ffc451;color:#000;font-weight:700;font-size:1rem;display:flex;align-items:center;justify-content:center;margin-top:2px;}
+    .tb-li-content h3{font-family:"Raleway",sans-serif;font-size:1.05rem;font-weight:700;color:#fff;margin:0 0 6px;}
+    .tb-li-content p{color:#a8bcc8;font-size:.93rem;margin:0;line-height:1.6;}
+
+    /* ── Site Search (from vendor.html) ── */
+    .risk-search-wrapper{position:relative;margin:20px 0;z-index:1000;display:flex;}
+    .search-bar{position:relative;display:block;}
+    .search-input-wrapper{display:flex;align-items:center;background:#fff!important;border:2px solid #ced4da;border-radius:8px;padding:8px 14px;min-width:300px;height:42px;box-shadow:0 2px 6px rgba(0,0,0,.1);}
+    .search-input-wrapper:focus-within{border-color:#0066cc;}
+    .search-icon{color:#6c757d;flex-shrink:0;margin-right:8px;}
+    .search-input{flex:1;border:none;outline:none;font-size:14px;color:#212529;background:transparent!important;font-family:inherit;}
+    .search-input::placeholder{color:#000;opacity:1;}
+    .search-clear{background:none;border:none;cursor:pointer;display:flex;align-items:center;flex-shrink:0;}
+    .search-results{position:absolute;top:calc(100% + 8px);left:0;width:500px;max-width:95vw;max-height:500px;overflow-y:auto;background:#fff;border:1px solid #dee2e6;border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.15);z-index:10000;display:none;}
+    .search-results-header{padding:10px 16px;background:#f8f9fa;border-bottom:1px solid #dee2e6;font-size:12px;color:#6c757d;}
+    .search-results-list{padding:4px 0;}
+    .search-result-item{display:block;padding:12px 16px;text-decoration:none;color:inherit;border-left:3px solid transparent;}
+    .search-result-item:hover{background:#f8f9fa;border-left-color:#0066cc;}
+    .search-result-title{font-size:14px;font-weight:600;color:#212529;margin-bottom:4px;display:flex;align-items:center;gap:8px;}
+    .search-result-icon,.search-result-item svg,.search-result-title svg{width:14px!important;height:14px!important;max-width:14px!important;max-height:14px!important;flex:0 0 14px;color:#0066cc;stroke-width:2;}
+    .search-result-item img{width:18px!important;height:18px!important;max-width:18px!important;max-height:18px!important;object-fit:contain;flex:0 0 18px;}
+    .search-result-item .bi,.search-result-title .bi{font-size:14px!important;line-height:1;color:#0066cc;}
+    .search-result-excerpt{font-size:12px;color:#6c757d;line-height:1.5;}
+    .search-result-excerpt mark{background:rgba(255,196,81,.4);padding:1px 3px;border-radius:2px;}
+    .search-result-meta{font-size:11px;color:#adb5bd;}
+    .no-results{padding:30px 20px;text-align:center;background:#fff;position:absolute;top:calc(100% + 8px);left:0;width:350px;border:1px solid #dee2e6;border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.15);z-index:10000;display:none;}
+    .search-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:9998;}
+    .search-overlay.active{display:block;}
+
+    /* ── Impact Entry Box ── */
+    .impact-entry-box{background:#fff;border:1px solid var(--tb-line);border-left:5px solid #ffc451;border-radius:12px;padding:18px 20px;margin:0 0 18px;color:#111;}
+    .impact-entry-box h3{font-family:"Raleway",sans-serif;font-size:1.1rem;font-weight:700;color:#000;margin:0 0 10px;}
+
+    /* ── Readiness Check ── */
+    .readiness-section{background:#f8fafc;border:1px solid var(--tb-line);border-radius:16px;padding:28px;margin:36px 0;box-shadow:0 8px 24px rgba(0,0,0,.05);}
+    .readiness-head{background:#0f1720;color:#fff;border-left:5px solid #ffc451;border-radius:12px;padding:24px;margin-bottom:22px;}
+    .readiness-head h2{font-family:"Raleway",sans-serif;font-weight:700;color:#ffc451;margin:0 0 12px;font-size:1.65rem;}
+    .readiness-head p{color:#e6edf2;margin-bottom:10px;}
+    .readiness-card{background:#fff;border:1px solid var(--tb-line);border-radius:14px;margin-bottom:18px;overflow:hidden;}
+    .readiness-card h3{background:#0f1720;color:#ffc451;font-family:"Raleway",sans-serif;font-size:1.1rem;font-weight:700;padding:14px 18px;margin:0;}
+    .readiness-card:nth-of-type(even) h3{background:#ffc451;color:#000;}
+    .readiness-table{width:100%;border-collapse:collapse;min-width:0;}
+    .readiness-table th{background:#53868b!important;color:#fff!important;font-size:.9rem;}
+    .readiness-table th,.readiness-table td{padding:12px 14px;border-bottom:1px solid var(--tb-line);vertical-align:top;}
+    .readiness-options label{display:block;margin-bottom:4px;cursor:pointer;font-size:.92rem;line-height:1.45;}
+    .readiness-options input{margin-right:6px;}
+    .readiness-summary{background:#162130;color:#fff;border-left:4px solid #ffc451;border-radius:12px;padding:20px;margin-top:22px;}
+    .readiness-summary h3{color:#ffc451;font-family:"Raleway",sans-serif;font-weight:700;margin-bottom:10px;}
+    .readiness-summary p{color:#dbe6ec;margin-bottom:0;}
+    .readiness-actions{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0 4px;}
+    .readiness-btn{background:#ffc451;color:#000;border:1px solid #ffc451;border-radius:999px;padding:10px 18px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:8px;font-family:inherit;font-size:inherit;}
+    .readiness-btn:hover{background:#fff;color:#000;}
+
+    /* ── Audio Card ── */
+    .audio-section{margin:2rem 0 2.5rem;}
+    .audio-card{background:#222;border:1px solid #FFC451;border-left:4px solid #FFC451;border-radius:8px;padding:1.5rem 1.75rem;box-shadow:0 4px 20px rgba(255,196,81,.08);}
+    .audio-header{display:flex;align-items:flex-start;gap:1rem;margin-bottom:1.25rem;}
+    .audio-icon{font-size:2rem;line-height:1;flex-shrink:0;margin-top:2px;}
+    .audio-title{font-family:'Raleway','Open Sans',sans-serif!important;font-size:1.55rem;font-weight:700;color:#FFC451;margin:0 0 .2rem;}
+    .audio-subtitle{font-size:.82rem;color:#aaa;margin:0;}
+    .quartier-player{width:100%;accent-color:#FFC451;border-radius:6px;margin-bottom:1rem;}
+    .audio-transcript summary{font-size:.85rem;color:#FFC451;cursor:pointer;user-select:none;opacity:.85;}
+    .audio-transcript summary:hover{opacity:1;}
+    .audio-transcript[open] summary{margin-bottom:.75rem;}
+    .transcript-text{font-size:.875rem;color:#ccc;line-height:1.7;border-top:1px solid #333;padding-top:.75rem;}
+    .transcript-text p{margin:0 0 .6rem;}
+
+    /* ── CC Tooltip (from vendor.html) ── */
+    .prrc-tooltip-wrapper{position:relative;display:inline;}
+    .prrc-highlight{color:#000;font-weight:bold;cursor:help;border-bottom:1px dashed #000;white-space:nowrap;}
+    .prrc-tooltip-box{display:none;position:fixed;width:340px;max-width:calc(100vw - 30px);background:#1a1a1a;color:#f0f0f0;font-size:13px;line-height:1.6;padding:14px 16px;border-radius:8px;border-left:3px solid #ffc451;box-shadow:0 6px 20px rgba(0,0,0,.4);z-index:9999;pointer-events:none;}
+    .prrc-tooltip-box strong{color:#ffc451;}
+    .prrc-tooltip-box::after{content:'';position:absolute;top:100%;left:20px;border:7px solid transparent;border-top-color:#1a1a1a;}
+    @keyframes prrcFadeIn{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+
+    /* ── Share Button (from vendor.html) ── */
+    .share-container{position:relative;display:inline-block;}
+    .share-button{background:#1a1a1a;border:1px solid #333;border-radius:50%;width:42px;height:42px;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:background .2s,border-color .2s;padding:0;}
+    .share-button:hover{background:#ffc451;border-color:#ffc451;}
+    .share-button svg{width:20px;height:20px;fill:#ffc451;}
+    .share-button:hover svg{fill:#000;}
+    .share-popup{display:none;position:absolute;bottom:calc(100% + 10px);left:0;background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;border-radius:6px;padding:10px 12px;gap:8px;flex-direction:row;align-items:center;flex-wrap:wrap;box-shadow:0 -8px 28px rgba(0,0,0,.5);white-space:nowrap;z-index:9999;min-width:220px;}
+    .share-popup.open{display:flex;}
+    .share-popup a,.share-popup button.share-icon-btn{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:#222;border:1px solid #333;cursor:pointer;transition:background .18s,border-color .18s;text-decoration:none;padding:0;}
+    .share-popup a:hover,.share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+    .share-popup svg{width:18px;height:18px;fill:#ccc;}
+    .share-popup a:hover svg,.share-popup button.share-icon-btn:hover svg{fill:#000;}
+    #mastodonPrompt{display:none;position:absolute;bottom:calc(100% + 60px);left:0;background:#1a1a1a;border:1px solid #ffc451;border-radius:6px;padding:12px 14px;z-index:10000;width:260px;box-shadow:0 -8px 24px rgba(0,0,0,.6);}
+    #mastodonPrompt.open{display:block;}
+    #mastodonPrompt label{font-size:.82rem;color:#ccc;display:block;margin-bottom:6px;}
+    #mastodonPrompt input{width:100%;padding:7px 10px;border:1px solid #333;border-radius:4px;background:#111;color:#fff;font-size:.88rem;margin-bottom:8px;box-sizing:border-box;}
+    #mastodonPrompt input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    #mastodonPrompt .masto-go{background:#ffc451;color:#000;border:none;padding:6px 14px;border-radius:4px;font-weight:600;cursor:pointer;font-size:.88rem;}
+    #mastodonPrompt .masto-go:hover{background:#fff;}
+    .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+    .copy-notification.visible{display:block;}
+
+    /* ── Cookie ── */
+    #cookieNotice{position:fixed;bottom:0;left:0;width:100%;background:#111;color:#f1f1f1;padding:16px 20px;z-index:9999;font-size:.9rem;display:none;}
+    #cookieNotice a{color:#4da3ff;text-decoration:underline;}
+    #cookieNotice button{background:#4da3ff;border:none;color:#fff;padding:8px 14px;margin-left:15px;border-radius:4px;cursor:pointer;}
+
+    /* ── CI Buttons ── */
+    a.btn.btn-ci,button.btn.btn-ci{background-color:#ffc451!important;border:1px solid #ffc451!important;color:#000!important;font-weight:600;}
+    a.btn.btn-ci:hover,button.btn.btn-ci:hover{background-color:#fff!important;}
+
+    /* ── Footer ── */
+    #footer{background:#000!important;}
+    #footer .footer-top{background:#000!important;padding:40px 0 20px;}
+    #footer .footer-top p{font-size:14px!important;line-height:2!important;margin-bottom:4px;}
+    #footer .footer-top a{color:#ccc!important;font-size:14px!important;text-decoration:none!important;}
+    #footer .footer-top a:hover{color:#ffc451!important;}
+    #footer .footer-top img{height:120px!important;margin-bottom:20px!important;}
+    #footer .copyright{display:none;}
+    #footer .footer-label{color:#ffc451!important;}
+    .footer-dropdown{position:relative;display:inline-block;margin-bottom:16px;}
+    .footer-dd-trigger{background:#1a1a1a;border:1px solid #333;color:#ccc;font-size:13px;padding:8px 16px;border-radius:4px;cursor:pointer;display:flex;align-items:center;gap:8px;font-family:inherit;}
+    .footer-dd-trigger:hover{border-color:#ffc451;color:#ffc451;}
+    .footer-dd-chevron{font-size:10px;color:#ffc451;transition:transform .2s;}
+    .footer-dd-menu{display:none;position:absolute;bottom:calc(100% + 6px);left:0;background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;border-radius:4px;list-style:none;padding:6px 0;min-width:280px;z-index:9999;box-shadow:0 -12px 32px rgba(0,0,0,.6);column-count:2;}
+    .footer-dd-menu.open{display:block;}
+    .footer-dd-trigger.open .footer-dd-chevron{transform:rotate(180deg);}
+    .footer-dd-menu li{break-inside:avoid;}
+    .footer-dd-menu li a{display:block;padding:6px 14px;font-size:12px!important;color:#aaa!important;text-decoration:none!important;white-space:nowrap;line-height:1.6!important;}
+    .footer-dd-menu li a:hover{color:#ffc451!important;background:rgba(255,196,81,.06);}
+
+    /* ── FAB ── */
+    #tb-fab-wrapper{position:fixed;bottom:28px;left:28px;z-index:9990;display:flex;flex-direction:column;align-items:flex-start;gap:6px;}
+    #tb-fab-dismiss{font-family:inherit;font-size:12px;color:#666;background:none;border:none;cursor:pointer;padding:2px 4px;line-height:1.2;}
+    #tb-fab-dismiss:hover{color:#ffc451;}
+    #tb-fab-link{display:inline-flex;align-items:center;gap:10px;background:#000;border:1px solid #000;border-left:3px solid #ffc451;border-radius:4px;padding:10px 18px 10px 12px;text-decoration:none;box-shadow:0 4px 20px rgba(0,0,0,.6);transition:background .2s,transform .15s;}
+    #tb-fab-link:hover{background:#1a1a1a;transform:translateY(-2px);}
+    #tb-fab-icon{width:34px;height:34px;border-radius:50%;overflow:hidden;display:flex;align-items:center;justify-content:center;flex-shrink:0;background:#000;}
+    #tb-fab-icon img{width:34px;height:34px;display:block;object-fit:contain;}
+    #tb-fab-text{display:flex;flex-direction:column;line-height:1.2;}
+    #tb-fab-label{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#ffc451;display:block;}
+    #tb-fab-sub{font-size:10px;color:#888;display:block;}
+
+    /* ── Hamburger Nav (from vendor.html – close btn right) ── */
+    #tb-nav .tb-nav-link{color:#fff;font-weight:500;font-size:14px;text-decoration:none;letter-spacing:.02em;transition:color .2s;}
+    #tb-nav .tb-nav-link:hover{color:#ffc451;}
+    #tb-burger{display:flex;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;background:transparent;border:none;cursor:pointer;padding:4px;border-radius:4px;transition:background .2s;}
+    #tb-burger:hover{background:rgba(255,196,81,.15);}
+    #tb-burger span{display:block;height:2px;width:24px;background:#fff;border-radius:2px;transition:transform .25s ease,opacity .2s ease,width .2s ease;transform-origin:center;}
+    #tb-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+    #tb-burger.open span:nth-child(2){opacity:0;width:0;}
+    #tb-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+    #tb-menu{position:fixed;top:0;right:0;width:min(300px,88vw);height:100%;background:#0b0b0b;z-index:10100;transform:translateX(100%);transition:transform .28s cubic-bezier(.4,0,.2,1);overflow-y:auto;}
+    #tb-menu.open{transform:translateX(0);}
+    #tb-menu-inner{padding:20px 24px 40px;}
+    /* CLOSE BUTTON RECHTS (vendor.html pattern) */
+    #tb-menu-close{display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:6px;color:#fff;font-size:20px;cursor:pointer;margin-left:auto;margin-bottom:28px;transition:background .2s,color .2s;line-height:1;}
+    #tb-menu-close:hover{background:#ffc451;color:#000;border-color:#ffc451;}
+    #tb-menu ul{list-style:none;padding:0;margin:0;}
+    #tb-menu ul li+li{margin-top:8px;}
+    #tb-menu ul li a{display:flex;align-items:center;padding:14px 18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:8px;color:#eee;font-size:15px;font-weight:500;text-decoration:none;transition:background .2s,color .2s,border-color .2s;}
+    #tb-menu ul li a:hover{background:#ffc451;color:#000;border-color:#ffc451;}
+    #tb-menu ul li a i{font-size:17px;flex-shrink:0;}
+    #tb-menu-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:10090;backdrop-filter:blur(2px);}
+    #tb-menu-overlay.open{display:block;}
+    #tb-menu a:focus-visible,#tb-menu-close:focus-visible,#tb-burger:focus-visible{outline:2px solid #ffc451;outline-offset:2px;}
+    /* Suppress main.js navbar elements that conflict */
+    .mobile-nav-toggle{display:none!important;}
+    #navbar{display:none!important;}
+
+    /* ── PDF-Ergebnis Modal ── */
+    .pdf-modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:20000;align-items:center;justify-content:center;}
+    .pdf-modal-overlay.open{display:flex;}
+    .pdf-modal{background:#fff;border-radius:16px;padding:32px;max-width:480px;width:90%;box-shadow:0 24px 64px rgba(0,0,0,.3);}
+    .pdf-modal h3{font-family:"Raleway",sans-serif;font-weight:700;color:#0f1720;margin:0 0 20px;font-size:1.35rem;}
+    .pdf-modal label{display:block;font-weight:600;font-size:.9rem;color:#333;margin-bottom:4px;}
+    .pdf-modal input{width:100%;padding:10px 12px;border:1px solid #ced4da;border-radius:8px;font-family:inherit;font-size:.95rem;margin-bottom:14px;box-sizing:border-box;}
+    .pdf-modal input:focus{outline:2px solid #ffc451;border-color:#ffc451;}
+    .pdf-modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px;}
+
+
+    /* ── Back-to-top Button Fix ── */
+    .back-to-top{display:none!important;position:fixed;right:20px;bottom:20px;z-index:10020;background:#ffc451!important;color:#000!important;width:44px;height:44px;border-radius:50%;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.28);transition:opacity .2s,transform .2s;}
+    .back-to-top.active{display:flex!important;}
+    .back-to-top:hover{background:#fff!important;color:#000!important;transform:translateY(-2px);}
+    .back-to-top i{font-size:28px;line-height:1;}
+
+    @media(max-width:991.98px){.grid-3,.grid-2{grid-template-columns:1fr;}}
+    @media(max-width:480px){#tb-fab-wrapper{bottom:16px;left:16px;}#tb-fab-sub{display:none;}}
+  </style>
+
+<!-- =============================================================
+     GEO - Generative Engine Optimization - thomas-bade.de
+     Optimiert fuer: Perplexity, ChatGPT Search, Bing Copilot,
+                     Google AI Overviews, Claude, Gemini
+     Stand: 2026-07-08
+============================================================== -->
+
+<!-- 1. Autoren- und Publisher-Metadaten -->
+<meta name="author"            content="Thomas Bade">
+<meta name="creator"           content="Thomas Bade">
+<meta name="publisher"         content="thomas-bade.de">
+<meta name="copyright"         content="Thomas Bade, Eichstaett">
+<meta name="language"          content="de">
+<meta name="content-language"  content="de-DE">
+
+<!-- 2. Geografische Metadaten -->
+<meta name="geo.region"        content="DE-BY">
+<meta name="geo.placename"     content="Eichstaett, Bayern, Deutschland">
+<meta name="geo.position"      content="48.8921;11.1927">
+<meta name="ICBM"              content="48.8921, 11.1927">
+
+<!-- 3. Externe Identitaetsprofile -->
+<link rel="me" href="https://www.linkedin.com/in/thomas-bade">
+<link rel="me" href="https://x.com/thomasbade">
+<link rel="me" href="https://bsky.app/profile/thomas2024.bsky.social">
+<link rel="me" href="https://mastodon.social/@thomasbade">
+
+<!-- 4. LLM-Lesbarkeit -->
+<link rel="alternate" type="text/plain"
+      href="https://thomas-bade.de/llms.txt"
+      title="LLM-lesbarer Seitenindex thomas-bade.de">
+
+<!-- 5. Schema.org: Person + WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "givenName": "Thomas",
+      "familyName": "Bade",
+      "url": "https://www.thomas-bade.de",
+      "image": "https://www.thomas-bade.de/assets/img/leitbild.png",
+      "jobTitle": "KI-Compliance Consultant und Digital Content Designer",
+      "description": "Vendor-unabhaengiger KI-Compliance Berater mit ueber 30 Jahren Erfahrung im deutschen Gesundheits- und Sozialwesen. Spezialisiert auf EU AI Act, MDR/IVDR, DSGVO, SGB und ISO/IEC 42001. Mitglied Transparency Deutschland e.V. Signatar EU AI Act Art. 50 Code of Practice.",
+  "dateModified": "2026-07-08",
+      "knowsAbout": [
+        "EU AI Act", "KI-Compliance", "KI-Governance", "Generative KI",
+        "ISO/IEC 42001:2023", "HAIP Framework", "TRIPOD-LLM",
+        "MDR", "IVDR", "DSGVO", "SGB", "Hochrisiko-KI",
+        "KI-Risikobewertung", "Gesundheitswesen", "Pflege",
+        "Krankenhaus", "Sanitaetsfachhandel", "Kommunen",
+        "Sozialwirtschaft", "Digital Health", "KI-Auswirkungsbewertung",
+        "Trust by Design", "Menschliche Aufsicht", "KI-Ethik"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "EU AI Act Art. 50 Code of Practice - Signatar"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Mitglied Transparency Deutschland e.V."
+        }
+      ],
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Transparency Deutschland e.V.",
+        "url": "https://www.transparency.de"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://www.thomas-bade.de/#organisation",
+        "name": "thomas-bade.de",
+        "url": "https://www.thomas-bade.de",
+        "description": "Vendor-unabhaengige KI-Compliance Beratung fuer das Gesundheits- und Sozialwesen"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Eichstaett",
+        "addressRegion": "Bayern",
+        "postalCode": "85072",
+        "addressCountry": "DE"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/thomas-bade",
+        "https://x.com/thomasbade",
+        "https://bsky.app/profile/thomas2024.bsky.social",
+        "https://mastodon.social/@thomasbade",
+        "https://www.instagram.com/thomasbade7",
+        "https://www.thomas-bade.de",
+        "https://www.thomas-bade.org",
+        "https://www.thomas-bade.eu"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "name": "thomas-bade.de - KI-Compliance im Gesundheitswesen",
+      "alternateName": "Thomas Bade KI-Wissensportal",
+      "url": "https://www.thomas-bade.de",
+      "description": "Vendor-unabhaengige KI-Compliance Expertise fuer Krankenhaeuser, Pflegeeinrichtungen, Kommunen und Sozialeinrichtungen. EU AI Act, MDR/IVDR, DSGVO, ISO/IEC 42001, HAIP-Framework, TRIPOD-LLM.",
+      "inLanguage": "de-DE",
+      "author":          { "@id": "https://www.thomas-bade.de/#thomas-bade" },
+      "publisher":       { "@id": "https://www.thomas-bade.de/#thomas-bade" },
+      "copyrightHolder": { "@id": "https://www.thomas-bade.de/#thomas-bade" }
+    }
+  ]
+}
+</script>
+<!-- /GEO -->
+<script type="application/ld+json" data-tbkg-generated="true">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "EU AI Act",
+        "Pflege",
+        "Risikomanagement",
+        "Datenschutz",
+        "Gesundheitswesen",
+        "KI-Compliance",
+        "DSGVO",
+        "Patientenzentrierung",
+        "FMEA",
+        "Wissensmanagement"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/wissen.html#webpage",
+      "url": "https://www.thomas-bade.de/wissen.html",
+      "headline": "Wissensmanagement mit KI – Erfahrungswissen sichern und transferieren",
+      "description": "Wie KI-basierte Assistenzsysteme Erfahrungswissen im Gesundheits- und Sozialwesen sichern und transferieren. Das KI_eeper-Methoden-Toolkit (ifaa/Springer 2026) für Pflege, Sozialwirtschaft und Kommunen – eingeordnet von Thomas Bade.",
+      "abstract": "Transkript anzeigen Willkommen auf dieser Seite zum Thema Wissensmanagement mit Künstlicher Intelligenz. Der demografische Wandel stellt Einrichtungen des Gesundheits- und Sozialwesens vor eine doppelte Herausforderung: Fachkräfte gehen in Rente – und mit ihnen geht wertvolles Erfahrungswissen verloren, das sich nicht einfach in Schulungsunterlagen übersetzen lässt.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "FMEA"
+        },
+        {
+          "@type": "Thing",
+          "name": "Wissensmanagement"
+        }
+      ],
+      "keywords": [
+        "EU AI Act",
+        "Pflege",
+        "Risikomanagement",
+        "Datenschutz",
+        "Gesundheitswesen",
+        "KI-Compliance",
+        "DSGVO",
+        "Patientenzentrierung",
+        "FMEA",
+        "Wissensmanagement"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body id="top">
+
+<div id="cookieNotice">
+  Diese Website verwendet ausschließlich technisch notwendige Cookies.
+  <a href="https://www.thomas-bade.de/impressum.html">Weitere Informationen</a>
+  <button id="cookieAccept">Verstanden</button>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top header-inner-pages">
+  <div class="container d-flex align-items-center justify-content-between">
+    <h1 class="logo mb-0">
+      <a href="index.html">Thomas Bade<span style="font-size:15px;color:#ffc451;">&#9632;</span></a>
+    </h1>
+    <nav id="tb-nav" class="d-flex align-items-center gap-3">
+      <a href="https://www.thomas-bade.de/termine.html" class="tb-nav-link d-none d-lg-inline-block">Let&#8217;s talk<span style="font-size:13px;color:#ffc451;">&#9632;</span></a>
+      <a href="https://www.thomas-bade.de/sitemap.html" class="tb-nav-link d-none d-lg-inline-block">Alle KI Themen<span style="font-size:13px;color:#ffc451;">&#9632;</span></a>
+      <button id="tb-burger" aria-label="Men&#252; &#246;ffnen" aria-expanded="false" aria-controls="tb-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<!-- ======= Hamburger Menu Panel ======= -->
+<div id="tb-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+  <div id="tb-menu-inner">
+    <button id="tb-menu-close" aria-label="Men&#252; schlie&#223;en"><i class="bi bi-x"></i></button>
+    <ul>
+      <li><a href="https://www.thomas-bade.de/termine.html"><i class="bi bi-calendar-check me-2"></i>Let&#8217;s talk</a></li>
+      <li><a href="https://www.thomas-bade.de/sitemap.html"><i class="bi bi-grid-3x3-gap me-2"></i>Alle KI Themen &#8211; Site Map</a></li>
+    </ul>
+  </div>
+</div>
+<div id="tb-menu-overlay"></div>
+
+<!-- ======= PDF-Ergebnis Modal ======= -->
+<div class="pdf-modal-overlay" id="pdfModal">
+  <div class="pdf-modal">
+    <h3><i class="bi bi-file-earmark-pdf me-2" style="color:#ffc451;"></i>Ergebnis als PDF speichern</h3>
+    <label for="pdf-name">Ihr Name</label>
+    <input type="text" id="pdf-name" placeholder="z.B. Maria Muster" autocomplete="name">
+    <label for="pdf-email">Einrichtung</label>
+    <input type="email" id="pdf-email" placeholder="Sanitätshaus XYZ GmbH" autocomplete="email">
+    <div style="background:#f8fafc;border-left:3px solid #ffc451;border-radius:6px;padding:10px 14px;margin-bottom:14px;font-size:.85rem;color:#555;">
+      <strong>Beratungskontakt:</strong> Thomas Bade · KI-Compliance-Berater<br>
+      <a href="https://www.thomas-bade.de" style="color:#53868b;">www.thomas-bade.de</a> · <a href="mailto:tb@thomas-bade.de" style="color:#53868b;">tb@thomas-bade.de</a>
+    </div>
+    <div class="pdf-modal-actions">
+      <button class="readiness-btn" id="pdfSaveBtn" onclick="doSavePdf()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        PDF speichern
+      </button>
+      <button class="readiness-btn" style="background:#fff;border-color:#ccc;color:#333;" onclick="document.getElementById('pdfModal').classList.remove('open')">Abbrechen</button>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+  <section class="inner-page">
+    <div class="container">
+      <br><br><br><br><br><br>
+
+      <h1 style="color:#000;font-weight:700;margin-bottom:8px;font-family:'Raleway',sans-serif;">
+        Wissensmanagement mit Künstlicher Intelligenz
+      </h1><img src="assets/img/wissen.png" width="1000" height="400" class="img-fluid" alt=""><br><br>
+      <p style="color:#4d5b66;font-size:1rem;margin-bottom:24px;">Erfahrungswissen effizient sichern und transferieren – eingeordnet für Pflege, Sozialwirtschaft, HomeCare und Kommunen</p>
+
+      <!-- ======= Site Search ======= -->
+        <div id="site-search-container" class="risk-search-wrapper">
+          <div id="site-search-bar" class="search-bar">
+            <div class="search-input-wrapper">
+              <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path>
+              </svg>
+              <input type="text" id="site-search-input" class="search-input" placeholder="thomas-bade.de durchsuchen" autocomplete="off" aria-label="Suchbegriff eingeben">
+              <button id="search-clear-btn" class="search-clear" aria-label="Suche löschen" style="display:none;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+              </button>
+            </div>
+            <div id="search-results" class="search-results" style="display:none;">
+              <div class="search-results-header"><span id="results-count">0 Ergebnisse</span></div>
+              <div id="search-results-list" class="search-results-list"></div>
+            </div>
+            <div id="no-results" class="no-results" style="display:none;">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.35-4.35"></path></svg>
+              <p class="no-results-title">Keine Ergebnisse</p>
+              <p class="no-results-text">Andere Begriffe versuchen</p>
+            </div>
+          </div>
+          <div id="search-overlay" class="search-overlay"></div>
+      </div>
+
+      <!-- ======= Audio Einleitung ======= -->
+      <section class="audio-section" aria-label="Audio-Einleitung Wissensmanagement KI">
+        <div class="audio-card">
+          <div class="audio-header">
+            <span class="audio-icon" aria-hidden="true">&#x1F3A7;</span>
+            <div>
+              <h2 class="audio-title">Erfahrungswissen – die unsichtbare Ressource im Gesundheitswesen</h2>
+              <p class="audio-subtitle">Kurze Einführung &nbsp;·&nbsp; von Thomas Bade</p>
+            </div>
+          </div>
+          <audio id="wissens-audio" class="quartier-player" controls preload="metadata">
+            <source src="https://thomas-bade.de/download/wissensmanagement.mp3" type="audio/mpeg">
+            <p>Ihr Browser unterstützt kein HTML5-Audio. <a href="https://thomas-bade.de/download/wissensmanagement.mp3">MP3 direkt herunterladen</a>.</p>
+          </audio>
+          <details class="audio-transcript">
+            <summary>Transkript anzeigen</summary>
+            <div class="transcript-text">
+              <p>Willkommen auf dieser Seite zum Thema Wissensmanagement mit Künstlicher Intelligenz.</p>
+              <p>Der demografische Wandel stellt Einrichtungen des Gesundheits- und Sozialwesens vor eine doppelte Herausforderung: Fachkräfte gehen in Rente – und mit ihnen geht wertvolles Erfahrungswissen verloren, das sich nicht einfach in Schulungsunterlagen übersetzen lässt.</p>
+              <p>Das Forschungsprojekt KI_eeper – gefördert durch das Bundesministerium für Bildung und Forschung – hat untersucht, wie KI-basierte Assistenzsysteme dieses implizite Wissen automatisiert erfassen, verarbeiten und im Betrieb verfügbar machen können.</p>
+              <p>Entscheidend dabei: Es geht nicht nur um Technik. KI-Systeme gelingen nur dann, wenn sie von den Beschäftigten gewollt und gebraucht werden. Der menschzentrierte, soziotechnische Ansatz ist der Kern des KI_eeper-Toolkits.</p>
+              <p>Diese Seite überträgt die Forschungsergebnisse auf den Kontext von Pflege, Sozialwirtschaft, HomeCare und Kommunen – und zeigt, welche Konsequenzen sich daraus für den EU AI Act und die Betreiberpflichten ergeben.</p>
+              <p>Ihr Thomas Bade</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- ======= Executive Summary ======= -->
+      <div class="tb-intro">
+        <div><h2 style="color:#ffc451;"><b>Executive Summary</b></h2></div>
+        <h3>KI im Gesundheitswesen scheitert nicht an der Technik – sondern an Akzeptanz, implizitem Wissen und falscher Einführungsstrategie.</h3>
+        <p>Die Publikation <strong>„Wissensmanagement mit Künstlicher Intelligenz – Erfahrungswissen effizient sichern und transferieren"</strong> dokumentiert die Ergebnisse des BMBF-geförderten Forschungsprojekts <span class="prrc-tooltip-wrapper" tabindex="0">
+              <span class="prrc-highlight">KI_eeper</span>
+              <span class="prrc-tooltip-box" role="tooltip">
+                Digitale KI-basierte Assistenz zur Wissensaufnahme, -verarbeitung, -speicherung und -anwendung an produktionsgebundenen Arbeitsplätzen (KI_eeper)
+              </span>
+            </span>. Im Zentrum steht ein soziotechnisches 6-Bausteine-Modell, das Unternehmen und Einrichtungen bei der nutzerorientierten Einführung von KI-basiertem Wissensmanagement unterstützt.</p>
+        <p>Für den Gesundheits- und Sozialsektor sind diese Erkenntnisse besonders relevant.<br>
+        Der altersbedingte Abgang der Babyboomer-Generation führt in Pflege, HomeCare und Sozialwirtschaft zum Verlust von implizitem Erfahrungswissen, das weder in Handbüchern noch in Schulungen vollständig abgebildet werden kann.</p>
+        <p class="mb-0"><strong>Kernaussage:</strong> Wissensmanagement mit KI gelingt nur dann, wenn die Einführung menschzentriert, partizipativ und zielgruppenspezifisch gestaltet wird – und wenn die regulatorischen Anforderungen des EU AI Act von Anfang an mitgedacht werden.</p>
+      </div>
+
+      <hr>
+
+      <!-- ======= Hintergrund ======= -->
+      <div class="tb-li-block mb-5">
+        <div><h2 style="font-family:'Raleway',sans-serif;font-weight:700;font-size:1.55rem;color:#fff;margin-bottom:.75rem;">Warum Wissensmanagement im Gesundheitswesen besonders dringend ist</h2></div>
+        <p class="tb-li-lead">Das Forschungsprojekt KI_eeper identifiziert vier Megatrends, die den Wissenstransfer in Unternehmen und Einrichtungen zunehmend erschweren. Für den Gesundheits- und Sozialsektor gelten alle vier – mit besonderer Intensität.</p>
+        <div class="tb-li-list">
+          <div class="tb-li-item"><div class="tb-li-num">1</div><div class="tb-li-content"><h3>Eine ganze Generation geht in Rente – und Erfahrungswissen geht verloren</h3><p>Die Babyboomer-Generation verlässt den Arbeitsmarkt. In der Pflege bedeutet das: Jahrzehntelang aufgebautes Versorgungswissen – Beobachtungsfähigkeiten, Risikoeinschätzungen, Situationsinterpretationen – droht unwiederbringlich zu verschwinden, wenn es nicht systematisch gesichert wird.</p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">2</div><div class="tb-li-content"><h3>Die Arbeitskräftelücke wächst: Wissensübertragung wird schwieriger</h3><p>Wenn auf eine erfahrene Fachkraft mehrere Berufseinsteiger folgen, fehlt die Zeit für klassisches Mentoring. KI-basierte Assistenzsysteme können hier Abhilfe schaffen – indem sie Erfahrungswissen automatisiert im Arbeitsprozess erfassen und abrufbar machen.</p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">3</div><div class="tb-li-content"><h3>Multikulturelle Belegschaften erschweren Einarbeitung und Wissenstransfer</h3><p>Im Pflegesektor sind sprachliche und kulturelle Barrieren besonders ausgeprägt. Visuelle Darstellungen, niedrigschwellige Formate und KI-gestützte Übersetzungsfunktionen sind notwendige Bestandteile jedes Wissensmanagement-Systems.</p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">4</div><div class="tb-li-content"><h3>Implizites Wissen lässt sich nicht einfach dokumentieren</h3><p>Pflegefachkräfte wissen oft selbst nicht, was sie wissen: Situative Entscheidungslogiken, Risikoeinschätzungen bei der Vitalzeichenkontrolle, Einschätzungen von Sturzsituationen – das ist tacit knowledge, das sich nur im Arbeitsprozess selbst erfassen lässt.</p></div></div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- ======= 6 Bausteine ======= -->
+      <div class="tb-li-block mb-5">
+        <div class="section-title">Methoden-Toolkit</div>
+        <div><h2 style="font-family:'Raleway',sans-serif;font-weight:700;font-size:1.55rem;color:#fff;margin-bottom:.75rem;">Das soziotechnische 6-Bausteine-Modell</h2></div>
+        <p class="tb-li-lead">Das KI_eeper-Methoden-Toolkit beschreibt sechs aufeinander aufbauende Bausteine für die menschzentrierte Einführung von KI-basiertem Wissensmanagement. Dieses Modell wird auf den Kontext von Pflege, Sanitätshaus, Arztparxis und Gesundheitswirtschaft übertragen.</p>
+        <div class="tb-li-list">
+          <div class="tb-li-item"><div class="tb-li-num">1</div><div class="tb-li-content"><h3>Baustein 1: Den geeigneten Anwendungsfall finden und Projektziele festlegen</h3><p>Nicht jeder Versorgungsprozess eignet sich als KI-Anwendungsfall. In moderierten Workshops mit Führungskräften und Fachpersonal wird herausgearbeitet, wo Erfahrungswissen besonders kritisch ist und wo KI den größten Mehrwert bietet. Werkzeug: Prozesslandkarte mit „Glühbirnen"-Markierung. <em>Übertragung auf Pflege: Welche Pflegestationen? Welche Hochrisikoprozesse gem. EU AI Act Anh. III?</em></p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">2</div><div class="tb-li-content"><h3>Baustein 2: Beschäftigte für Technik und KI begeistern</h3><p>Vor jeder Implementierung steht der Kick-off: Informationsveranstaltungen mit den an der Patientenversorgung involvierten Mitarbeitern, abgestimmt mit Betriebsrat/Mitarbeitervertretung. Schlüssel: Alltagsnahe KI-Beispiele (Navigations-Apps, Sprachassistenten). Besonders wichtig: Bildsprache statt Text, um Sprachbarrieren zu überbrücken. <em>Übertragung auf Pflege: 30-Minuten-Formate passend zum Schichtdienst; mehrsprachige Materialien.</em></p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">3</div><div class="tb-li-content"><h3>Baustein 3: Prozess- und Anforderungsanalyse</h3><p>Durch leitfadengestützte Fragebögen und teilnehmendes Beobachten wird der Versorgungsprozess detailliert erfasst. Externe Moderatoren, die den Prozess nicht kennen, stellen mehr Fragen – und machen damit unbewusstes Erfahrungswissen sichtbar. <em>Regulatorische Verknüpfung: Basis für die Hochrisiko-Einstufung nach EU AI Act Anh. III und die DSFA nach Art. 9 DSGVO.</em></p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">4+5</div><div class="tb-li-content"><h3>Bausteine 4 &amp; 5: Risikofolgenabschätzung und Bewertung der technischen Konzeption</h3><p>Analyse von Risiken für Beschäftigte, Betroffene (z.B. Angehörige) und Patienten: Datenschutz (Art. 9 DSGVO), Überwachungsängste, Haftungsfragen. Gleichzeitig: Bewertung der KI-Systemarchitektur aus Betreibersicht nach EU AI Act (Art. 13, 14, 12). <em>Werkzeug: <span class="prrc-tooltip-wrapper" tabindex="0">
+              FMEA, EU AI Act × MDR; HAIP AI Vendor Disclosure Framework (NEJM AI 2026, 29 Kriterien).</em></p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">6</div><div class="tb-li-content"><h3>Baustein 6: Einführung der Technik und Optimierung</h3><p>Iterative Implementierung mit regelmäßigen Feedbackschleifen der Anwender. <b>Wichtig</b>: Die Rücksprung-Funktion – Mitarbeiter müssen KI-Empfehlungen jederzeit übergehen können (Human-in-the-Loop nach Art. 14 EU AI Act). <em>Post-Market Surveillance: Dokumentationspflichten nach Art. 26 EU AI Act beginnen mit dem ersten produktiven Einsatz.</em></p></div></div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- ======= Implizites vs. explizites Wissen ======= -->
+      <h2 style="font-family:'Raleway',sans-serif;font-weight:700;font-size:1.65rem;color:#000;margin-bottom:1rem;">Implizites Wissen – die unsichtbare Ressource</h2>
+      <p style="margin-bottom:1.5rem;">Wissen bei Leistungserbringern des Gesundheitswesens existiert auf zwei Ebenen. Nur wenn beide systematisch erfasst werden, kann ein KI-Assistenzsystem den vollen Nutzen entfalten.</p>
+      <div class="grid-2 mb-5">
+        <div class="card"><span class="tag">Explizites Wissen</span><h3>Dokumentiertes Wissen</h3><p>Pflegedokumentationen, Behandlungspläne, Pflegestandards, Dienstanweisungen, MDK-Prüfprotokolle – das Wissen, das bereits in Systemen und Unterlagen vorhanden ist. Es lässt sich direkt in KI-Systeme einpflegen.</p><p><strong>Einschränkung:</strong> Es deckt nur einen Bruchteil des tatsächlich angewendeten Versorgungswissens ab.</p></div>
+        <div class="card blue-soft"><span class="tag">Implizites Wissen</span><h3>Erfahrungswissen – das eigentliche Kapital</h3><p>Die Einschätzung, dass ein Patient mit unauffälligen Vitalwerten trotzdem „nicht gut aussieht". Das Wissen, wann bei einem demenziellen Patienten das Verhalten auf Schmerzen hinweist. Die Routine, wie man eine Sturzsituation im Voraus erkennt.</p><p><strong>KI-Lösung:</strong> KI-Assistenzsysteme können dieses Wissen automatisiert im Arbeitsprozess erfassen – durch Sensorik, Spracheingabe und strukturiertes Feedback.</p></div>
+      </div>
+
+      <!-- ======= Zielgruppenmatrix ======= -->
+      <h2 style="font-family:'Raleway',sans-serif;font-weight:700;font-size:1.65rem;color:#000;margin-bottom:1rem;">Zielgruppenspezifische Qualifizierung</h2>
+      <p style="margin-bottom:1.5rem;">Alle Lernmodule werden so aufgebaut, dass verschiedene Zielgruppen und prozessbezogene Besonderheiten berücksichtigt werden. Eine Einheitslösung gibt es nicht.</p>
+      <div class="table-wrap mb-5">
+        <table>
+          <thead><tr><th>Zielgruppe</th><th>Lernziel</th><th>Modul-Schwerpunkt</th><th>Besonderheiten</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Leitungsebene</strong><br><small>GF, Meister, Heimleitung</small></td><td>Strategische KI-Entscheidung, Change-Architektur, Governance</td><td>Anwendungsfall-Auswahl (Baustein 1), Betreiberpflichten Art. 26 EUAIA</td><td>Kompakte Formate (2–3 Std.); Fokus auf ROI und Haftung</td></tr>
+            <tr><td><strong>Fachliche Koordination</strong><br><small>Prozessverantwortliche, QM, Datenschutz</small></td><td>Prozessanalyse, Anforderungsdefinition, Risikoabschätzung</td><td>Baustein 3 (Prozessanalyse), <span class="prrc-tooltip-wrapper" tabindex="0">
+              <span class="prrc-highlight">FMEA</span>
+              <span class="prrc-tooltip-box" role="tooltip">
+                <strong>Fehlermöglichkeits- und Einflussanalyse</strong><br>
+                Die FMEA ist eine präventive Methode im Qualitäts- und Risikomanagement. Sie dient dazu, potenzielle Fehler und Risiken in Produkten oder Prozessen bereits in der Planungsphase zu identifizieren, zu bewerten und durch Gegenmaßnahmen zu vermeiden.
+              </span>
+            </span>, 
+            <span class="prrc-tooltip-wrapper" tabindex="0">
+            <span class="prrc-highlight">HAIP-Framework</span>
+              <span class="prrc-tooltip-box" role="tooltip">
+                <strong>Hiroshima AI Process Reporting Framework</strong><br>
+                Das HAIP-Framework ist ein von den G7-Staaten und der OECD ins Leben gerufenes, freiwilliges Rahmenwerk für globale KI-Transparenz und Governance. Es übersetzt den internationalen Verhaltenskodex in konkrete Berichtsstrukturen, um die Entwicklung sicherer, geschützter und vertrauenswürdiger fortschrittlicher KI-Systeme zu gewährleisten.
+              </span>
+            </span></td><td>Methodenkompetenz; Schnittstellenfunktion Technik–Team</td></tr>
+            <tr><td><strong>Pflegefachkräfte, Care-Teams, OT/OST Meister</strong></td><td>Technikakzeptanz, kompetente Nutzung, Feedbackkompetenz</td><td>Baustein 2 (Begeisterung), Baustein 6 (Nutzung &amp; Feedback)</td><td>Schichtdienst-gerechte Kurzformate (15–30 Min.); Bildsprache; mehrsprachig</td></tr>
+            <tr><td><strong>KI-Compliance / IT</strong></td><td>Regulatorische Betreiberpflichten vollständig erfüllen</td><td>EU AI Act Art. 13, 14, 26; MDR; Post-Market Surveillance</td><td>Technisches Tiefenwissen; Schnittstelle zu Anbietern und Notified Bodies</td></tr>
+            <tr><td><strong>Verbände &amp; Träger als Multiplikatoren</strong></td><td>Wissenstransfer in die Fläche der Sozialwirtschaft</td><td>ESF+-Qualifizierungsprogramm; Verbandsmodell; Reallabor-Transfer</td><td>Skalierbarkeit; intergenerationaler Wissenstransfer als Leitthema</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr>
+
+      <!-- ======= EU AI Act ======= -->
+      <h2 style="font-family:'Raleway',sans-serif;font-weight:700;font-size:1.65rem;color:#000;margin-bottom:1rem;">Wissensmanagement-KI und EU AI Act: Was Betreiber wissen müssen</h2>
+      <div class="grid-2 mb-4">
+        <div class="impact-entry-box"><h3>&#x1F534; Hochrisiko-Prüfung: Pflicht vor dem Einsatz</h3><p>KI-Systeme, die in der Pflege Entscheidungen mit Auswirkung auf Pflegeeinstufungen, Personalplanung oder Sozialleistungen treffen, fallen potenziell unter Hochrisiko-KI (EU AI Act Anh. III Nr. 5). Vor dem Einsatz ist eine Konformitätsbewertung erforderlich.</p><p><strong>Praxis-Tipp:</strong> Der KI_eeper-Baustein 4 (Risikofolgenabschätzung) liefert die methodische Grundlage.</p></div>
+        <div class="impact-entry-box"><h3>&#x1F4CB; Betreiberpflichten nach Art. 26 EU AI Act</h3><p>Als Betreiber von KI-Assistenzsystemen tragen Einrichtungen die Verantwortung für: Protokollierung (Art. 12), menschliche Aufsicht und <span class="prrc-tooltip-wrapper" tabindex="0">
+              <span class="prrc-highlight">Override-Möglichkeit</span>
+              <span class="prrc-tooltip-box" role="tooltip">
+                <strong>Artikel 14: Menschliche Aufsicht</strong><br>
+                Eine "Override-Möglichkeit" (manuelle Überbrückung) beschreibt das gezielte Außerkraftsetzen von automatischen Systemen, Standardeinstellungen oder Programmierregeln.
+              </span>
+            </span> (Art. 14), Transparenz gegenüber betroffenen Personen (Art. 13) und Post-Market Surveillance.</p></div>
+        <div class="impact-entry-box"><h3>&#x1F510; DSGVO Art. 9: Gesundheitsdaten ab Tag 1 schützen</h3><p>KI-Wissensmanagement bei Versorgungsprozessen verarbeitet zwingend Gesundheitsdaten (besondere Kategorie nach Art. 9 DSGVO). Eine Datenschutz-Folgenabschätzung (DSFA) ist bereits in der Anforderungsanalyse (Baustein 3) zu beginnen – nicht erst bei der Implementierung.</p></div>
+        <div class="impact-entry-box"><h3>&#x1F91D; Partizipation ist Compliance</h3><p>Die Einbeziehung der Mitarbeitervertretung und aller Beschäftigten ist nicht nur ethisch geboten, sondern auch regulatorisch relevant. Akzeptanz verhindert Fehlanwendungen, die zu Compliance-Verstößen führen können.</p></div>
+      </div>
+
+      <!-- ======= Quote ======= -->
+      <div class="quote-box mb-5">
+        <p style="font-size:1.1rem;color:#000;margin-bottom:8px;"><strong>„Die Einführung von KI in Unternehmen kann mit Ängsten und Unsicherheiten bei den Beschäftigten einhergehen. Häufig wird mit Technik- und KI-Einführung Arbeitsplatzverlust oder Überwachung assoziiert. Eine daraus resultierende mangelnde Akzeptanz kann dem erfolgreichen Einsatz von KI-Systemen im Betrieb entgegenwirken."</strong></p>
+        <p style="color:#4d5b66;font-size:.9rem;margin-bottom:0;">Ottersböck / Dander / Stowasser (Hrsg.), Vorwort – Wissensmanagement mit Künstlicher Intelligenz, Springer Vieweg 2026</p>
+      </div>
+
+      <hr>
+
+      <!-- ======= Praktische Tipps ======= -->
+      <div class="tb-li-block mb-5">
+        <div class="section-title">Praxis</div>
+        <div><h2 style="font-family:'Raleway',sans-serif;font-weight:700;font-size:1.55rem;color:#fff;margin-bottom:.75rem;">5 praktische Tipps aus dem Toolkit</h2></div>
+        <p class="tb-li-lead">Diese Empfehlungen stammen direkt aus der Praxiserprobung im KI_eeper-Projekt und wurden für den Einsatz im Sanitätshaus, in der Arztpraxis, in der Pflege und bei HomeCare Unternehmen adaptiert.</p>
+        <div class="tb-li-list">
+          <div class="tb-li-item"><div class="tb-li-num">&#x1F4A1;</div><div class="tb-li-content"><h3>Machen Sie KI im Alltag sichtbar – bevor Sie von KI im Betrieb sprechen</h3><p>Zeigen Sie Mitarbeitern in Kick-off-Workshops, welche KI sie bereits täglich nutzen: Navigations-App, Übersetzer-App, Sprachassistenten. Das senkt die Hemmschwelle. Nutzen Sie Bildsprache statt Text, um Sprachbarrieren zu überbrücken.</p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">&#x1F50D;</div><div class="tb-li-content"><h3>Lassen Sie Ihren Prozess von Externen moderieren</h3><p>Wer den Prozess nicht kennt, stellt die besseren Fragen. Im KI_eeper-Projekt haben externe Moderatoren unbewusstes Erfahrungswissen sichtbar gemacht, das Mitarbeitern selbst nicht mehr auffiel – weil es Teil ihrer täglichen Routine geworden war.</p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">&#x1F4E2;</div><div class="tb-li-content"><h3>Entwickeln Sie ein Kommunikationskonzept – bevor der Flurfunk entsteht</h3><p>KI-Projekte erzeugen informelle Gerüchte. Wer zu spät kommuniziert, kämpft gegen Fehlinformationen an. Nutzen Sie alle Kanäle: Teambesprechungen, Aushänge in der Küche, Mitarbeiterzeitschrift, Intranet, Shopfloor-Kommunikation.</p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">&#x1F504;</div><div class="tb-li-content"><h3>Planen Sie Rücksprünge ein</h3><p>Mitarbeiter müssen KI-Empfehlungen jederzeit übergehen können – das ist nicht nur gute Praxis, sondern EU AI Act-Anforderung (Art. 14). Planen Sie diese Override-Funktion von Anfang an in das Systemdesign ein, nicht als Nachbesserung.</p></div></div>
+          <div class="tb-li-item"><div class="tb-li-num">&#x1F4CA;</div><div class="tb-li-content"><h3>Starten Sie mit dem Readiness-Check</h3><p>Bevor Sie in KI-Wissensmanagement investieren: Prüfen Sie, ob Ihre Einrichtung bereit ist. Sind Prozesse dokumentiert? Gibt es eine KI-Strategie? Ist die Mitarbeitervertretung eingebunden? Der folgende Readiness-Check gibt Ihnen eine erste Orientierung.</p></div></div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- ======= Readiness Check ======= -->
+      <div class="readiness-section" id="readiness-check">
+        <div class="readiness-head">
+          <h2>Readiness-Check: Ist Ihre Einrichtung bereit für KI-Wissensmanagement?</h2>
+          <p>Dieser Check basiert auf dem Readiness-Assessment aus dem KI_eeper-Toolkit (Chaput / Deutschmann / Volkmann 2026) und wurde für Einrichtungen des Gesundheits- und Sozialwesens adaptiert. Bewerten Sie jede Aussage ehrlich für Ihre Einrichtung.</p>
+          <div class="readiness-actions">
+            <button class="readiness-btn" onclick="resetCheck()">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 .49-3.51"></path></svg>
+              Zurücksetzen
+            </button>
+          </div>
+        </div>
+
+        <div class="readiness-card">
+          <h3>A – Strategische Voraussetzungen</h3>
+          <table class="readiness-table">
+            <thead><tr><th style="width:55%">Aussage</th><th>Bewertung</th></tr></thead>
+            <tbody>
+              <tr><td>Unsere Einrichtung hat eine schriftliche KI-Strategie oder plant eine.</td><td class="readiness-options"><label><input type="radio" name="r1" value="3"> &#x2705; Trifft zu</label><label><input type="radio" name="r1" value="1"> &#x26A0;&#xFE0F; In Planung</label><label><input type="radio" name="r1" value="0"> &#x274C; Nein</label></td></tr>
+              <tr><td>Die Leitungsebene unterstützt aktiv die Einführung von KI-Systemen.</td><td class="readiness-options"><label><input type="radio" name="r2" value="3"> &#x2705; Trifft zu</label><label><input type="radio" name="r2" value="1"> &#x26A0;&#xFE0F; Teilweise</label><label><input type="radio" name="r2" value="0"> &#x274C; Nein</label></td></tr>
+              <tr><td>Wir haben einen Datenschutzbeauftragten, der in KI-Projekte eingebunden wird.</td><td class="readiness-options"><label><input type="radio" name="r3" value="3"> &#x2705; Trifft zu</label><label><input type="radio" name="r3" value="1"> &#x26A0;&#xFE0F; Geplant</label><label><input type="radio" name="r3" value="0"> &#x274C; Nein</label></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="readiness-card">
+          <h3>B – Prozess- und Wissensbasis</h3>
+          <table class="readiness-table">
+            <thead><tr><th style="width:55%">Aussage</th><th>Bewertung</th></tr></thead>
+            <tbody>
+              <tr><td>Unsere Kernprozesse (Herstellung Sonderanfertigung, Versorgung, Dokumentation, Übergabe) sind strukturiert dokumentiert.</td><td class="readiness-options"><label><input type="radio" name="r4" value="3"> &#x2705; Trifft zu</label><label><input type="radio" name="r4" value="1"> &#x26A0;&#xFE0F; Teilweise</label><label><input type="radio" name="r4" value="0"> &#x274C; Nein</label></td></tr>
+              <tr><td>Wir wissen, in welchen Bereichen besonders viel implizites Erfahrungswissen steckt.</td><td class="readiness-options"><label><input type="radio" name="r5" value="3"> &#x2705; Trifft zu</label><label><input type="radio" name="r5" value="1"> &#x26A0;&#xFE0F; Ahnung, aber nicht systematisch</label><label><input type="radio" name="r5" value="0"> &#x274C; Nein</label></td></tr>
+              <tr><td>Erfahrene Fachkräfte sind bereit, ihr Wissen aktiv in ein Assistenzsystem einzubringen.</td><td class="readiness-options"><label><input type="radio" name="r6" value="3"> &#x2705; Trifft zu</label><label><input type="radio" name="r6" value="1"> &#x26A0;&#xFE0F; Mit Bedenken</label><label><input type="radio" name="r6" value="0"> &#x274C; Eher nein</label></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="readiness-card">
+          <h3>C – Team und Akzeptanz</h3>
+          <table class="readiness-table">
+            <thead><tr><th style="width:55%">Aussage</th><th>Bewertung</th></tr></thead>
+            <tbody>
+              <tr><td>Die Mitarbeitervertretung wird frühzeitig in Technikprojekte eingebunden.</td><td class="readiness-options"><label><input type="radio" name="r7" value="3"> &#x2705; Immer</label><label><input type="radio" name="r7" value="1"> &#x26A0;&#xFE0F; Manchmal</label><label><input type="radio" name="r7" value="0"> &#x274C; Selten/nie</label></td></tr>
+              <tr><td>Unser Team ist offen für digitale Veränderungen (auch wenn Skepsis vorhanden ist).</td><td class="readiness-options"><label><input type="radio" name="r8" value="3"> &#x2705; Trifft zu</label><label><input type="radio" name="r8" value="1"> &#x26A0;&#xFE0F; Gemischt</label><label><input type="radio" name="r8" value="0"> &#x274C; Eher ablehnend</label></td></tr>
+              <tr><td>Wir bieten sprachbarrierearme Kommunikation für Mitarbeitende mit Migrationshintergrund.</td><td class="readiness-options"><label><input type="radio" name="r9" value="3"> &#x2705; Trifft zu</label><label><input type="radio" name="r9" value="1"> &#x26A0;&#xFE0F; In Teilen</label><label><input type="radio" name="r9" value="0"> &#x274C; Nein</label></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="readiness-card">
+          <h3>D – Regulatorische Bereitschaft</h3>
+          <table class="readiness-table">
+            <thead><tr><th style="width:55%">Aussage</th><th>Bewertung</th></tr></thead>
+            <tbody>
+              <tr><td>Wir kennen unsere Betreiberpflichten nach EU AI Act Art. 26.</td><td class="readiness-options"><label><input type="radio" name="r10" value="3"> &#x2705; Ja, im Detail</label><label><input type="radio" name="r10" value="1"> &#x26A0;&#xFE0F; Grundkenntnisse</label><label><input type="radio" name="r10" value="0"> &#x274C; Nein</label></td></tr>
+              <tr><td>Wir können beurteilen, ob ein KI-System in unserer Einrichtung als Hochrisiko-KI einzustufen ist.</td><td class="readiness-options"><label><input type="radio" name="r11" value="3"> &#x2705; Ja</label><label><input type="radio" name="r11" value="1"> &#x26A0;&#xFE0F; Unsicher</label><label><input type="radio" name="r11" value="0"> &#x274C; Nein</label></td></tr>
+              <tr><td>Eine Datenschutz-Folgenabschätzung (DSFA) für Gesundheitsdaten-Verarbeitung ist uns vertraut.</td><td class="readiness-options"><label><input type="radio" name="r12" value="3"> &#x2705; Erfahrung vorhanden</label><label><input type="radio" name="r12" value="1"> &#x26A0;&#xFE0F; Grundkenntnisse</label><label><input type="radio" name="r12" value="0"> &#x274C; Nein</label></td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id="readiness-result" class="readiness-summary" style="display:none;">
+          <h3>Ihr Readiness-Ergebnis</h3>
+          <p id="readiness-score-text"></p>
+          <p id="readiness-recommendation" style="margin-top:8px;"></p>
+        </div>
+
+        <div class="readiness-actions" style="margin-top:16px;">
+          <button class="readiness-btn" onclick="calcReadiness()">
+            Ergebnis auswerten →
+          </button>
+          <button class="readiness-btn" id="openPdfModalBtn" onclick="openPdfModal()" style="display:none;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            PDF speichern
+          </button>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- QUELLEN + CTA -->
+      <section id="quellen" class="py-5">
+        <div class="container">
+          <div class="table-responsive">
+            <table class="table table-borderless align-middle mb-0">
+              <tbody>
+                <tr>
+                  <td style="width:65%;vertical-align:top;">
+                    <div style="background:#fff;border:1px solid var(--tb-line);border-radius:16px;padding:24px;">
+                      <div style="display:inline-block;padding:6px 10px;border-radius:999px;background:#ffc451;color:#000;font-size:.82rem;font-weight:700;margin-bottom:10px;">Springer Vieweg 2026 · ifaa-Edition</div>
+                      <p><strong>Ottersböck / Dander / Stowasser (Hrsg.):</strong> Wissensmanagement mit Künstlicher Intelligenz – Erfahrungswissen effizient sichern und transferieren.</p>
+                      <p style="font-size:.9rem;color:#4d5b66;">ISBN 978-3-662-71590-1 | DOI: 10.1007/978-3-662-71591-8 | Open Access CC BY 4.0</p>
+                      <a class="btn btn-ci rounded-pill px-4" href="https://link.springer.com/book/10.1007/978-3-662-71591-8" target="_blank" rel="noopener">Zur Publikation <i class="bi bi-box-arrow-up-right"></i></a>
+                    </div>
+                  </td>
+                  <td style="width:35%;vertical-align:top;">
+                    <div style="background:#fff;border:1px solid var(--tb-line);border-radius:16px;padding:24px;">
+                      <div style="font-weight:600;margin-bottom:8px;">Von der Forschung direkt in den Arbeitsalltag!</div>
+                      <p style="font-size:.9rem;color:#4d5b66;">Alle vorgestellten Methoden, Checklisten und Werkzeuge lassen sich sofort in bestehende Prozesse integrieren und praxisnah umsetzen.</p>
+                      <hr style="margin:16px 0;">
+                      <div class="d-grid">
+                        <a class="btn btn-ci rounded-pill" href="https://www.thomas-bade.de/termine.html"><i class="bi bi-calendar2-check me-1"></i>Let&#x2019;s talk</a>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          
+          <div style="text-align:right;margin-top:8px;">
+            <span class="prrc-tooltip-wrapper" tabindex="0">
+              <span class="prrc-highlight">CC BY-ND 4.0</span>
+              <span class="prrc-tooltip-box" role="tooltip">
+                <strong>Creative Commons Lizenz (CC BY-ND 4.0)</strong><br>
+                Inhalte dieser Webseite dürfen geteilt werden, sofern der Urheber Thomas Bade genannt wird und keine Bearbeitungen verbreitet werden. Quelle: thomas-bade.de
+              </span>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      
+  </section>
+</main>
+
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mb-3">
+          <img src="https://thomas-bade.de/assets/img/logo-transparent.png" alt="thomas-bade.de" style="height:120px;margin-bottom:20px;display:block;">
+          <p><a href="mailto:tb@thomas-bade.de"><i class="bi bi-envelope me-1"></i>E-Mail</a></p>
+          <p><a href="https://www.thomas-bade.de/coach.html"><i class="bi bi-person me-1"></i>Zur Person</a></p>
+          <p><a href="https://www.thomas-bade.de/termine.html"><i class="bi bi-calendar me-1"></i>Let's talk</a></p>
+          <p><a href="https://www.thomas-bade.de/impressum.html"><i class="bi bi-file-text me-1"></i>Impressum &amp; Datenschutz</a></p>
+          <p style="font-size:12px;color:#ffc451;margin-top:16px;">&copy; Copyright 2026 Thomas Bade</p>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;color:#ffc451!important;">Weitere Angebote</p>
+          <p><a href="https://www.thomas-bade.eu" target="_blank" rel="noopener"><i class="bi bi-globe me-1"></i>thomas-bade.eu – Zukunftsraum Kommune</a></p>
+          <p><a href="https://www.thomas-bade.org" target="_blank" rel="noopener"><i class="bi bi-mortarboard me-1"></i>thomas-bade.org – KI Lernportal</a></p>
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:20px;margin-bottom:10px;color:#ffc451!important;">Alle KI-Themen</p>
+          <div class="footer-dropdown" id="footerDropdown">
+            <button class="footer-dd-trigger" id="footerDDBtn" type="button">Themenübersicht <span class="footer-dd-chevron">▲</span></button>
+            <ul class="footer-dd-menu" id="footerDDMenu">
+              <li><a href="https://www.thomas-bade.de/sitemap.html" target="_blank"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></li>
+              <li><a href="https://www.thomas-bade.de/patient.html">KI &amp; Patientenperspektive</a></li>
+              <li><a href="https://www.thomas-bade.de/bmg.html">Digitalisierungsstrategie 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/mdr_ki.html">Hochrisiko-KI</a></li>
+              <li><a href="https://www.thomas-bade.de/haip.html">Health AI Partnership (HAIP)</a></li>
+              <li><a href="https://www.thomas-bade.de/risk.html">KI Risikomanagement</a></li>
+              <li><a href="https://www.thomas-bade.de/fmea.html">FMEA EU AI Act</a></li>
+              <li><a href="https://www.thomas-bade.de/portal.html">KI Lernformate</a></li>
+              <li><a href="https://www.thomas-bade.de/wissenschaft.html">Forschung &amp; Wissenschaft</a></li>
+              <li><a href="https://www.thomas-bade.de/constitution.html">Ethische KI-Prinzipien</a></li>
+              <li><a href="https://www.thomas-bade.de/praevention.html">KI in der Prävention</a></li>
+              <li><a href="https://www.thomas-bade.de/leitbild.html">Leitbild</a></li>
+            </ul>
+          </div>
+          <p style="font-size:14px;margin-bottom:6px;"><a href="https://www.thomas-bade.de/sitemap.html" target="_blank" style="color:#ccc;text-decoration:none;"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></p>
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:20px;margin-bottom:10px;color:#ffc451!important;">Seite teilen</p>
+          <div class="share-container" id="shareContainer">
+            <button class="share-button" id="shareToggleBtn" aria-label="Seite teilen" title="Seite teilen">
+              <svg viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+            </button>
+            <div class="share-popup" id="sharePopup">
+              <a href="#" id="shareLinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" id="shareTwitter" title="X / Twitter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" id="shareFacebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+              </a>
+              <button class="share-icon-btn" id="shareMastodon" title="Mastodon" type="button">
+                <svg viewBox="0 0 24 24"><path d="M23.268 5.313c-.35-2.578-2.617-4.61-5.24-5.032C17.69.242 15.948 0 11.994 0h-.028C8.017 0 6.274.242 5.94.281 3.35.693 1.038 2.554.526 5.157A27.3 27.3 0 0 0 .25 9.099c-.064 1.265-.063 2.529-.037 3.794.065 3.028.222 6.051.668 9.048.255 1.688.85 3.232 2.025 4.58A8.208 8.208 0 0 0 8.36 23.77c1.947.476 3.952.586 5.94.478a29.39 29.39 0 0 0 5.656-1.085 8.178 8.178 0 0 0 1.538-.666c-.01-.072-.013-.146-.013-.22v-3.03c-.756.183-1.522.33-2.296.44-1.698.241-3.413.31-5.12.188a9.94 9.94 0 0 1-2.494-.495c-.874-.297-1.57-.862-1.916-1.752a5.99 5.99 0 0 1-.326-1.48c2.064.496 4.162.744 6.265.744 1.013 0 2.024-.048 3.03-.148 1.71-.173 3.48-.556 4.997-1.464a6.274 6.274 0 0 0 2.786-4.148c.16-.924.22-1.86.22-2.798 0-.93-.063-1.855-.207-2.772zm-5.516 6.6c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.667-1.218-2.667-2.72V7.86c0-1.502 1.194-2.72 2.667-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053zm-8.068 0c0 1.502-1.195 2.72-2.667 2.72-1.473 0-2.668-1.218-2.668-2.72V7.86c0-1.502 1.195-2.72 2.668-2.72 1.472 0 2.667 1.218 2.667 2.72v4.053z"/></svg>
+              </button>
+              <button class="share-icon-btn" id="shareCopyLink" title="Link kopieren" type="button">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </button>
+            </div>
+            <div id="mastodonPrompt">
+              <label for="mastodonInstance">Mastodon-Instanz eingeben:</label>
+              <input type="text" id="mastodonInstance" placeholder="z.B. mastodon.social" autocomplete="off">
+              <button class="masto-go" id="mastodonGo" type="button">Teilen &#8599;</button>
+            </div>
+          </div>
+          <div class="copy-notification" id="copyNotification">&#10003; Link in Zwischenablage kopiert</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="preloader"></div>
+<a href="#top" class="back-to-top align-items-center justify-content-center" aria-label="Zurück nach oben"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
+
+<div id="tb-fab-wrapper">
+  <button id="tb-fab-dismiss" type="button">Ausblenden ✕</button>
+  <a id="tb-fab-link" href="https://www.thomas-bade.de/portal.html" target="_self" title="KI Lernformate – thomas-bade.de">
+    <span id="tb-fab-icon"><img src="https://www.thomas-bade.de/assets/img/favicon.png" alt="KI-Lernportal" width="34" height="34" onerror="this.style.display='none';this.parentElement.textContent='&#x1F393;';"></span>
+    <span id="tb-fab-text"><span id="tb-fab-label">KI Lernformate</span><span id="tb-fab-sub">thomas-bade.org</span></span>
+  </a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<!-- Local: <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<!-- ======= Site Search ======= -->
+  <script src="https://www.thomas-bade.de/assets/js/search-config.js"></script>
+  <script src="https://www.thomas-bade.de/assets/js/search.js"></script>
+
+<script>
+// Search
+var PAGES=[
+  {t:"AI Leadership Report 2026",u:"https://www.thomas-bade.de/ai_sweden.html",c:"Leadership",k:"AI Sweden Führung Governance Strategie Vorstand Geschäftsführung"},
+  {t:"Home",u:"https://www.thomas-bade.de/",c:"Hauptseiten",k:"KI EU AI Act Gesundheitswesen"},
+  {t:"FMEA im Gesundheitswesen",u:"https://www.thomas-bade.de/fmea.html",c:"Sicherheit",k:"FMEA RPZ MDR Hochrisiko"},
+  {t:"KI Monitoring",u:"https://www.thomas-bade.de/ai_monitoring.html",c:"Analyse",k:"Post-Deployment NIST Monitoring"},
+  {t:"KI-Kompetenz",u:"https://www.thomas-bade.de/kompetenz.html",c:"Hauptseiten",k:"Kompetenz EU AI Act BAPID Pflege"},
+  {t:"Hochrisiko-KI",u:"https://www.thomas-bade.de/mdr_ki.html",c:"Regeln",k:"Hochrisiko MDR EU AI Act"},
+  {t:"KI-Produktivitätsanalyse",u:"https://www.thomas-bade.de/claude.html",c:"Analyse",k:"Produktivität Anthropic Claude ROI 80%"},
+  {t:"GPAI-Modelle",u:"https://www.thomas-bade.de/GPAI.html",c:"Regeln",k:"GPAI Foundation Models GPT"},
+  {t:"KI Entlassmanagement",u:"https://www.thomas-bade.de/em_ki.html",c:"Regeln",k:"Entlassmanagement SGB V DNQP"},
+  {t:"KI Risikomanagement",u:"https://www.thomas-bade.de/risk.html",c:"Regeln",k:"CHAI Risikobewertung Governance"}
+];
+(function(){
+  var si=document.getElementById('site-search-input'),sr=document.getElementById('search-results'),srl=document.getElementById('search-results-list'),nr=document.getElementById('no-results'),rc=document.getElementById('results-count'),cb=document.getElementById('search-clear-btn'),so=document.getElementById('search-overlay');
+  if(!si)return;
+  function hs(q){q=q.trim().toLowerCase();if(cb)cb.style.display=q?'flex':'none';if(q.length<2){hide();return;}var r=PAGES.filter(function(p){return(p.t+' '+p.k).toLowerCase().includes(q);});if(r.length){sr.style.display='block';nr.style.display='none';if(so)so.classList.add('active');if(rc)rc.textContent=r.length+' Ergebnis'+(r.length!==1?'se':'');srl.innerHTML=r.map(function(p){return'<a href="'+p.u+'" class="search-result-item"><div class="search-result-title">'+p.t+'</div><div class="search-result-meta">'+p.c+'</div></a>';}).join('');srl.querySelectorAll('.search-result-item').forEach(function(i){i.addEventListener('click',hide);});}else{sr.style.display='none';nr.style.display='block';if(so)so.classList.add('active');}}
+  function hide(){sr.style.display='none';nr.style.display='none';if(so)so.classList.remove('active');}
+  si.addEventListener('input',function(e){hs(e.target.value);});
+  if(cb)cb.addEventListener('click',function(){si.value='';cb.style.display='none';hide();si.focus();});
+  if(so)so.addEventListener('click',hide);
+  document.addEventListener('click',function(e){var c=document.getElementById('site-search-container');if(c&&!c.contains(e.target))hide();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')hide();});
+})();
+</script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+/* ── Back-to-top Button Fix ── */
+(function(){
+  var btn=document.querySelector('.back-to-top');
+  if(!btn) return;
+  function toggleBackToTop(){
+    if(window.scrollY>180){btn.classList.add('active');}
+    else{btn.classList.remove('active');}
+  }
+  window.addEventListener('scroll', toggleBackToTop, {passive:true});
+  toggleBackToTop();
+  btn.addEventListener('click', function(e){
+    e.preventDefault();
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+})();
+
+/* ── Cookie ── */
+(function(){
+  var notice=document.getElementById('cookieNotice'),btn=document.getElementById('cookieAccept');
+  if(notice&&!localStorage.getItem('cookieAccepted'))notice.style.display='block';
+  if(btn)btn.addEventListener('click',function(){localStorage.setItem('cookieAccepted','1');notice.style.display='none';});
+})();
+
+/* ── Footer Dropdown ── */
+(function(){
+  var trigger=document.getElementById('footerDDBtn'),menu=document.getElementById('footerDDMenu');
+  if(!trigger||!menu)return;
+  trigger.addEventListener('click',function(e){e.stopPropagation();var o=menu.classList.toggle('open');trigger.classList.toggle('open',o);});
+  document.addEventListener('click',function(){menu.classList.remove('open');trigger.classList.remove('open');});
+})();
+
+/* ── FAB Dismiss ── */
+(function(){
+  var btn=document.getElementById('tb-fab-dismiss'),wrapper=document.getElementById('tb-fab-wrapper');
+  if(btn&&wrapper)btn.addEventListener('click',function(){wrapper.style.display='none';});
+})();
+
+/* ── Hamburger Menu – close button rechts, kein main.js-Konflikt ── */
+(function(){
+  var burger=document.getElementById('tb-burger');
+  var panel=document.getElementById('tb-menu');
+  var overlay=document.getElementById('tb-menu-overlay');
+  var closeBtn=document.getElementById('tb-menu-close');
+  if(!burger||!panel){return;}
+
+  function openMenu(){
+    panel.classList.add('open');
+    if(overlay)overlay.classList.add('open');
+    burger.classList.add('open');
+    burger.setAttribute('aria-expanded','true');
+    document.body.style.overflow='hidden';
+    setTimeout(function(){if(closeBtn)closeBtn.focus();},320);
+  }
+  function closeMenu(){
+    panel.classList.remove('open');
+    if(overlay)overlay.classList.remove('open');
+    burger.classList.remove('open');
+    burger.setAttribute('aria-expanded','false');
+    document.body.style.overflow='';
+    burger.focus();
+  }
+  burger.addEventListener('click',function(e){
+    e.preventDefault();e.stopPropagation();
+    panel.classList.contains('open')?closeMenu():openMenu();
+  });
+  if(closeBtn)closeBtn.addEventListener('click',function(e){e.preventDefault();closeMenu();});
+  if(overlay)overlay.addEventListener('click',closeMenu);
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape'&&panel.classList.contains('open'))closeMenu();
+  });
+  panel.querySelectorAll('a').forEach(function(l){
+    l.addEventListener('click',function(){closeMenu();});
+  });
+})();
+
+
+
+/* ── Share Button (vendor.html pattern – vollständig) ── */
+(function(){
+  var container=document.getElementById('shareContainer'),toggleBtn=document.getElementById('shareToggleBtn'),popup=document.getElementById('sharePopup'),
+      liBtn=document.getElementById('shareLinkedIn'),twBtn=document.getElementById('shareTwitter'),fbBtn=document.getElementById('shareFacebook'),
+      mastoBtn=document.getElementById('shareMastodon'),cpBtn=document.getElementById('shareCopyLink'),
+      notice=document.getElementById('copyNotification'),mastoPrompt=document.getElementById('mastodonPrompt'),
+      mastoInput=document.getElementById('mastodonInstance'),mastoGo=document.getElementById('mastodonGo');
+  if(!toggleBtn||!popup)return;
+  var pageUrl=encodeURIComponent(window.location.href),pageTitle=encodeURIComponent(document.title),rawUrl=window.location.href;
+  liBtn.href='https://www.linkedin.com/sharing/share-offsite/?url='+pageUrl;
+  twBtn.href='https://twitter.com/intent/tweet?url='+pageUrl+'&text='+pageTitle;
+  fbBtn.href='https://www.facebook.com/sharer/sharer.php?u='+pageUrl;
+  toggleBtn.addEventListener('click',function(e){e.stopPropagation();var o=popup.classList.contains('open');closeAll();if(!o)popup.classList.add('open');});
+  mastoBtn.addEventListener('click',function(e){e.stopPropagation();var o=mastoPrompt.classList.contains('open');mastoPrompt.classList.toggle('open');if(!o&&mastoInput)mastoInput.focus();});
+  mastoGo.addEventListener('click',function(){var inst=(mastoInput.value||'').trim().replace(/^https?:\/\//,'').replace(/\/$/,'');if(!inst){mastoInput.focus();return;}window.open('https://'+inst+'/share?text='+pageTitle+'%20'+pageUrl,'_blank','noopener,noreferrer');closeAll();});
+  mastoInput.addEventListener('keydown',function(e){if(e.key==='Enter')mastoGo.click();if(e.key==='Escape')closeAll();});
+  cpBtn.addEventListener('click',function(e){e.stopPropagation();copyToClipboard(rawUrl,'&#10003; Link in Zwischenablage kopiert');});
+  function copyToClipboard(text,msg){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(function(){showNotice(msg);},function(){fallback(text,msg);});}else{fallback(text,msg);}}
+  function fallback(text,msg){var ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.top='-9999px';document.body.appendChild(ta);ta.focus();ta.select();try{document.execCommand('copy');showNotice(msg);}catch(err){}document.body.removeChild(ta);}
+  function showNotice(msg){if(!notice)return;notice.innerHTML=msg;notice.classList.add('visible');setTimeout(function(){notice.classList.remove('visible');},3000);}
+  function closeAll(){popup.classList.remove('open');if(mastoPrompt)mastoPrompt.classList.remove('open');}
+  document.addEventListener('click',function(e){if(!container.contains(e.target))closeAll();});
+})();
+
+/* ── CC BY-ND 4.0 Tooltip – exakt nach tooltip_script.html ── */
+(function () {
+  'use strict';
+
+  var usingTouch = false;
+  var touchActive = false;
+
+  window.addEventListener('touchstart', function () {
+    usingTouch = true;
+    touchActive = true;
+  }, { passive: true });
+
+  window.addEventListener('touchend', function () {
+    setTimeout(function () { touchActive = false; }, 500);
+  }, { passive: true });
+
+  window.addEventListener('mousemove', function () {
+    if (touchActive) return;
+    usingTouch = false;
+  }, { passive: true });
+
+  function positionTooltip(wrapper, box) {
+    box.style.visibility = 'hidden';
+    box.style.display = 'block';
+    var tooltipHeight = box.offsetHeight;
+    box.style.display = 'none';
+    box.style.visibility = '';
+    var rect = wrapper.getBoundingClientRect();
+    var margin = 10;
+    var top = rect.top - tooltipHeight - margin;
+    if (top < 10) top = rect.bottom + margin;
+    var left = rect.left;
+    var maxLeft = window.innerWidth - 340 - 15;
+    if (left > maxLeft) left = maxLeft;
+    if (left < 10) left = 10;
+    box.style.top  = top + 'px';
+    box.style.left = left + 'px';
+    box.style.animation = 'prrcFadeIn 0.18s ease';
+  }
+
+  function closeAllTooltips() {
+    document.querySelectorAll('.prrc-tooltip-box').forEach(function (b) {
+      b.style.display = 'none';
+    });
+  }
+
+  document.querySelectorAll('.prrc-tooltip-wrapper').forEach(function (wrapper) {
+    var box = wrapper.querySelector('.prrc-tooltip-box');
+    if (!box) return;
+
+    wrapper.addEventListener('mouseenter', function () {
+      if (usingTouch) return;
+      positionTooltip(wrapper, box);
+      box.style.display = 'block';
+    });
+
+    wrapper.addEventListener('mouseleave', function () {
+      if (usingTouch) return;
+      box.style.display = 'none';
+    });
+
+    wrapper.addEventListener('click', function (e) {
+      if (!usingTouch) return;
+      var isVisible = box.style.display === 'block';
+      closeAllTooltips();
+      if (!isVisible) {
+        positionTooltip(wrapper, box);
+        box.style.display = 'block';
+      }
+      e.stopPropagation();
+    });
+  });
+
+  document.addEventListener('click', function () {
+    if (usingTouch) closeAllTooltips();
+  });
+})();
+
+}); // end DOMContentLoaded
+</script>
+
+<!-- Global functions called via onclick attributes – must be in global scope -->
+<script>
+(function(){
+  'use strict';
+
+  window._readinessScore = 0;
+  window._readinessPct = 0;
+
+  var readinessQuestions = [
+    ['r1','A1: KI-Strategie vorhanden'],
+    ['r2','A2: Leitungsunterstützung'],
+    ['r3','A3: Datenschutzbeauftragter eingebunden'],
+    ['r4','B1: Kernprozesse dokumentiert'],
+    ['r5','B2: Erfahrungswissen-Hotspots bekannt'],
+    ['r6','B3: Bereitschaft zum Wissenstransfer'],
+    ['r7','C1: Mitarbeitervertretung eingebunden'],
+    ['r8','C2: Offenheit für Digitalisierung'],
+    ['r9','C3: Sprachbarrierearme Kommunikation'],
+    ['r10','D1: EU AI Act Betreiberpflichten bekannt'],
+    ['r11','D2: Hochrisiko-Klassifizierung bewertbar'],
+    ['r12','D3: DSFA-Erfahrung vorhanden']
+  ];
+
+  function $(id){ return document.getElementById(id); }
+
+  function getChecked(name){
+    return document.querySelector('input[name="' + name + '"]:checked');
+  }
+
+  function getRecommendation(pct){
+    if(pct >= 80){
+      return {
+        html: '<b style="color:#a8e6b0">✅ Sehr gute Voraussetzungen (' + pct + ' %).</b> Ihre Einrichtung ist gut aufgestellt. Nächster Schritt: Anwendungsfall-Workshop (Baustein 1), strukturierte Anbieterprüfung und Governance-Fahrplan.',
+        text: 'Sehr gute Voraussetzungen. Ihre Einrichtung ist gut aufgestellt. Nächster Schritt: Anwendungsfall-Workshop (Baustein 1), strukturierte Anbieterprüfung und Governance-Fahrplan.',
+        status: 'Sehr gute Voraussetzungen'
+      };
+    }
+    if(pct >= 50){
+      return {
+        html: '<b style="color:#ffc451">⚠️ Solide Basis (' + pct + ' %).</b> Empfehlung: Prozessdokumentation, Kommunikationskonzept und regulatorische Rollen klären; anschließend mit einem klar abgegrenzten Pilotbereich starten.',
+        text: 'Solide Basis. Empfehlung: Prozessdokumentation, Kommunikationskonzept und regulatorische Rollen klären; anschließend mit einem klar abgegrenzten Pilotbereich starten.',
+        status: 'Solide Basis mit Entwicklungspotenzial'
+      };
+    }
+    return {
+      html: '<b style="color:#f08080">⛔ Grundlegende Vorarbeiten empfohlen (' + pct + ' %).</b> Vor dem KI-Einsatz: KI-Strategie entwickeln, Mitarbeitervertretung einbinden, Datenschutzbeauftragten einschalten und Basiswissen zu EU AI Act / DSFA aufbauen.',
+      text: 'Grundlegende Vorarbeiten empfohlen. Vor dem KI-Einsatz: KI-Strategie entwickeln, Mitarbeitervertretung einbinden, Datenschutzbeauftragten einschalten und Basiswissen zu EU AI Act / DSFA aufbauen.',
+      status: 'Grundlegende Vorarbeiten empfohlen'
+    };
+  }
+
+  function getAnswerLabel(value){
+    if(value === '3') return 'Trifft zu / Ja';
+    if(value === '1') return 'In Planung / Teilweise';
+    if(value === '0') return 'Nein / Selten';
+    return 'Nicht beantwortet';
+  }
+
+  window.calcReadiness = function calcReadiness(){
+    var total = 0;
+    var max = readinessQuestions.length * 3;
+    var answered = 0;
+
+    for(var i = 0; i < readinessQuestions.length; i++){
+      var checked = getChecked(readinessQuestions[i][0]);
+      if(checked){
+        total += Number(checked.value) || 0;
+        answered++;
+      }
+    }
+
+    var pct = Math.round((total / max) * 100);
+    window._readinessScore = total;
+    window._readinessPct = pct;
+
+    var result = $('readiness-result');
+    var scoreText = $('readiness-score-text');
+    var recommendation = $('readiness-recommendation');
+    var pdfButton = $('openPdfModalBtn');
+
+    if(result) result.style.display = 'block';
+    if(scoreText){
+      scoreText.textContent = 'Ihr Score: ' + total + ' von ' + max + ' Punkten (' + pct + ' %) · beantwortet: ' + answered + ' von ' + readinessQuestions.length + ' Aussagen';
+    }
+    if(recommendation) recommendation.innerHTML = getRecommendation(pct).html;
+    if(pdfButton) pdfButton.style.display = 'inline-flex';
+
+    if(result && typeof result.scrollIntoView === 'function'){
+      result.scrollIntoView({behavior:'smooth', block:'nearest'});
+    }
+  };
+
+  window.resetCheck = function resetCheck(){
+    var radios = document.querySelectorAll('.readiness-options input[type="radio"]');
+    for(var i = 0; i < radios.length; i++){
+      radios[i].checked = false;
+    }
+
+    var result = $('readiness-result');
+    var pdfButton = $('openPdfModalBtn');
+    var modal = $('pdfModal');
+    var name = $('pdf-name');
+    var email = $('pdf-email');
+    var scoreText = $('readiness-score-text');
+    var recommendation = $('readiness-recommendation');
+
+    if(result) result.style.display = 'none';
+    if(pdfButton) pdfButton.style.display = 'none';
+    if(modal) modal.classList.remove('open');
+    if(name) name.value = '';
+    if(email) email.value = '';
+    if(scoreText) scoreText.textContent = '';
+    if(recommendation) recommendation.innerHTML = '';
+
+    window._readinessScore = 0;
+    window._readinessPct = 0;
+  };
+
+  window.openPdfModal = function openPdfModal(){
+    var result = $('readiness-result');
+    if(!result || result.style.display === 'none'){
+      window.calcReadiness();
+    }
+    var modal = $('pdfModal');
+    if(modal) modal.classList.add('open');
+    var name = $('pdf-name');
+    if(name) setTimeout(function(){ name.focus(); }, 80);
+  };
+
+  function loadScript(src){
+    return new Promise(function(resolve, reject){
+      var existing = document.querySelector('script[src="' + src + '"]');
+      if(existing){
+        if(existing.dataset.loaded === 'true') return resolve();
+        existing.addEventListener('load', function(){ resolve(); }, {once:true});
+        existing.addEventListener('error', function(){ reject(new Error('Script nicht geladen: ' + src)); }, {once:true});
+        return;
+      }
+      var s = document.createElement('script');
+      s.src = src;
+      s.async = false;
+      s.onload = function(){ s.dataset.loaded = 'true'; resolve(); };
+      s.onerror = function(){ reject(new Error('Script nicht geladen: ' + src)); };
+      document.head.appendChild(s);
+    });
+  }
+
+  window.ensurePdfLibs = async function ensurePdfLibs(){
+    if(window.jspdf && window.jspdf.jsPDF) return;
+    var sources = [
+      'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js',
+      'https://unpkg.com/jspdf@2.5.1/dist/jspdf.umd.min.js',
+      'https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js'
+    ];
+    var lastError = null;
+    for(var i = 0; i < sources.length; i++){
+      try{
+        await loadScript(sources[i]);
+        if(window.jspdf && window.jspdf.jsPDF) return;
+      }catch(e){
+        lastError = e;
+      }
+    }
+    throw lastError || new Error('PDF-Bibliothek konnte nicht geladen werden.');
+  };
+
+  function addWrappedText(doc, text, x, y, width, lineHeight){
+    var lines = doc.splitTextToSize(text, width);
+    doc.text(lines, x, y);
+    return y + (lines.length * lineHeight);
+  }
+
+  window.doSavePdf = async function doSavePdf(){
+    var nameEl = $('pdf-name');
+    var emailEl = $('pdf-email');
+    var btn = $('pdfSaveBtn');
+    var name = (nameEl && nameEl.value ? nameEl.value : '').trim() || 'Anonym';
+    var email = (emailEl && emailEl.value ? emailEl.value : '').trim() || 'keine Angabe';
+
+    if(!window._readinessScore && !window._readinessPct){
+      window.calcReadiness();
+    }
+
+    if(btn){
+      btn.disabled = true;
+      btn.innerHTML = 'PDF wird erstellt …';
+    }
+
+    try{
+      await window.ensurePdfLibs();
+      var jsPDF = window.jspdf && window.jspdf.jsPDF;
+      if(!jsPDF) throw new Error('PDF-Bibliothek nicht verfügbar.');
+
+      var doc = new jsPDF({orientation:'portrait', unit:'mm', format:'a4'});
+      var margin = 14;
+      var y = 16;
+      var pageWidth = 210;
+      var contentWidth = pageWidth - (margin * 2);
+      var heute = new Date().toLocaleDateString('de-DE');
+      var rec = getRecommendation(window._readinessPct || 0);
+
+      doc.setFillColor(255,196,81);
+      doc.rect(0,0,pageWidth,10,'F');
+
+      doc.setTextColor(15,23,32);
+      doc.setFont('helvetica','bold');
+      doc.setFontSize(16);
+      doc.text('Readiness-Check: KI-Wissensmanagement', margin, y);
+      y += 8;
+
+      doc.setFont('helvetica','normal');
+      doc.setFontSize(10);
+      doc.setTextColor(80,90,100);
+      y = addWrappedText(doc, 'Ist Ihre Einrichtung bereit für KI-Wissensmanagement? Ergebnisprotokoll auf Grundlage des Readiness-Checks von thomas-bade.de.', margin, y, contentWidth, 5) + 4;
+
+      doc.setFillColor(248,250,252);
+      doc.setDrawColor(217,225,230);
+      doc.roundedRect(margin, y, contentWidth, 30, 2, 2, 'FD');
+      doc.setTextColor(15,23,32);
+      doc.setFont('helvetica','bold');
+      doc.setFontSize(9);
+      doc.text('Name:', margin + 4, y + 8);
+      doc.text('Einrichtung:', margin + 4, y + 16);
+      doc.text('Datum:', margin + 4, y + 24);
+      doc.setFont('helvetica','normal');
+      doc.text(name, margin + 30, y + 8);
+      doc.text(email, margin + 30, y + 16);
+      doc.text(heute, margin + 30, y + 24);
+      y += 39;
+
+      doc.setFillColor(15,23,32);
+      doc.roundedRect(margin, y, contentWidth, 25, 2, 2, 'F');
+      doc.setTextColor(255,196,81);
+      doc.setFont('helvetica','bold');
+      doc.setFontSize(12);
+      doc.text('Ergebnis: ' + (window._readinessScore || 0) + ' von 36 Punkten (' + (window._readinessPct || 0) + ' %)', margin + 5, y + 10);
+      doc.setFont('helvetica','normal');
+      doc.setFontSize(9);
+      doc.setTextColor(220,230,236);
+      doc.text('Status: ' + rec.status, margin + 5, y + 19);
+      y += 34;
+
+      doc.setTextColor(15,23,32);
+      doc.setFont('helvetica','bold');
+      doc.setFontSize(11);
+      doc.text('Empfehlung', margin, y);
+      y += 6;
+      doc.setFont('helvetica','normal');
+      doc.setFontSize(9.5);
+      y = addWrappedText(doc, rec.text, margin, y, contentWidth, 5) + 8;
+
+      doc.setFont('helvetica','bold');
+      doc.setFontSize(11);
+      doc.text('Einzelbewertungen', margin, y);
+      y += 7;
+
+      for(var i = 0; i < readinessQuestions.length; i++){
+        if(y > 270){
+          doc.addPage();
+          y = 18;
+        }
+        var q = readinessQuestions[i];
+        var checked = getChecked(q[0]);
+        var value = checked ? checked.value : '';
+        doc.setFont('helvetica','bold');
+        doc.setFontSize(8.8);
+        doc.setTextColor(15,23,32);
+        doc.text(q[1], margin, y);
+        doc.setFont('helvetica','normal');
+        doc.text(getAnswerLabel(value), margin + 100, y);
+        y += 5.5;
+        doc.setDrawColor(217,225,230);
+        doc.line(margin, y, margin + contentWidth, y);
+        y += 2.3;
+      }
+
+      if(y > 250){
+        doc.addPage();
+        y = 18;
+      }
+      y += 5;
+      doc.setFillColor(255,253,240);
+      doc.setDrawColor(255,196,81);
+      doc.roundedRect(margin, y, contentWidth, 29, 2, 2, 'FD');
+      doc.setTextColor(15,23,32);
+      doc.setFont('helvetica','bold');
+      doc.setFontSize(9.5);
+      doc.text('Beratung & Kontakt', margin + 4, y + 8);
+      doc.setFont('helvetica','normal');
+      doc.setFontSize(8.5);
+      doc.text('Thomas Bade · KI-Compliance-Berater', margin + 4, y + 15);
+      doc.text('www.thomas-bade.de · tb@thomas-bade.de', margin + 4, y + 21);
+      doc.text('Quelle: https://www.thomas-bade.de/wissensmanagement_ki.html', margin + 4, y + 27);
+
+      var pages = doc.internal.getNumberOfPages();
+      for(var p = 1; p <= pages; p++){
+        doc.setPage(p);
+        doc.setFont('helvetica','normal');
+        doc.setFontSize(7.5);
+        doc.setTextColor(130,130,130);
+        doc.text('Thomas Bade · www.thomas-bade.de · KI-Compliance & Wissensmanagement', margin, 290);
+        doc.text('Seite ' + p + ' von ' + pages, 196, 290, {align:'right'});
+      }
+
+      doc.save('Readiness-Check_KI-Wissensmanagement_' + heute.replace(/\./g,'-') + '.pdf');
+      var modal = $('pdfModal');
+      if(modal) modal.classList.remove('open');
+    }catch(err){
+      alert('PDF konnte nicht erstellt werden: ' + (err && err.message ? err.message : err));
+    }finally{
+      if(btn){
+        btn.disabled = false;
+        btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg> PDF speichern';
+      }
+    }
+  };
+
+  document.addEventListener('DOMContentLoaded', function(){
+    var modal = $('pdfModal');
+    if(modal){
+      modal.addEventListener('click', function(e){
+        if(e.target === modal) modal.classList.remove('open');
+      });
+    }
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && modal) modal.classList.remove('open');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="canonical" href="https://www.thomas-bade.de/decoding.html" />
+  <title>DecodingTrust – Vertrauenswürdigkeit von GPT-Modellen</title>
+  <meta name="description" content="DecodingTrust: Leitfaden zur Vertrauenswürdigkeitsprüfung von GPT-Modellen nach acht Perspektiven – Orientierung für Beschaffung, Pilotierung und Monitoring GPT-gestützter Systeme im Gesundheitswesen.">
+  <meta name="keywords" content="DecodingTrust, LLM Trustworthiness, GPT-4, GPT-3.5, KI Governance, Adversarial Robustness, Fairness, Privacy, Machine Ethics, EU AI Act, Gesundheitswesen, Thomas Bade">
+  <meta name="author" content="info" >
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Thomas Bade – KI-Governance & Digitale Transformation">
+  <meta property="og:title" content="DecodingTrust – Vertrauenswürdigkeit von GPT-Modellen">
+  <meta property="og:description" content="Ein kompakter Governance-Leitfaden: Acht Perspektiven zur Bewertung der Vertrauenswürdigkeit von GPT-basierten Systemen.">
+  <meta property="og:url" content="https://www.thomas-bade.de/decoding.html">
+  <meta property="og:image" content="https://www.thomas-bade.de/assets/img/decoding.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DecodingTrust – Vertrauenswürdigkeit von GPT-Modellen">
+  <meta name="twitter:description" content="Acht Perspektiven zur Vertrauenswürdigkeit von GPT-3.5 und GPT-4 – übertragen auf die Praxis im Gesundheitswesen.">
+  <meta name="twitter:image" content="https://www.thomas-bade.de/assets/img/decoding.png">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"DecodingTrust – Leitfaden zur Vertrauenswürdigkeit von GPT-Modellen","description":"DecodingTrust Basis-Leitfaden für die Vertrauenswürdigkeitsprüfung GPT-gestützter Systeme im Gesundheitswesen.","url":"https://www.thomas-bade.de/decoding.html","inLanguage":"de-DE","isPartOf":{"@type":"WebSite","name":"Thomas Bade","url":"https://www.thomas-bade.de"}}
+  </script>
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://www.thomas-bade.de/assets/css/style.css" rel="stylesheet">
+  <!-- Privacy-friendly analytics -->
+<script defer data-domain="thomas-bade.de" src="/stats/js/script.php" data-api="/stats/api/event.php"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+<link rel="llms" href="https://thomas-bade.de/llms.txt" />
+  <style>
+    :root{--ci:#ffc451;--dark:#151515;--muted:#6c757d;--soft:#f8f9fa;--line:#e9ecef;--blue:#53868b}
+    #preloader{display:none!important}[data-aos]{opacity:1!important;transform:none!important;transition:none!important}
+    body{color:#222;background:#fff;font-family:Arial,Helvetica,sans-serif} a{color:#2d6f74;text-decoration:none}a:hover{color:#000;text-decoration:underline}
+    #header{background:#000!important;padding:14px 0;position:fixed;top:0;left:0;right:0;z-index:997;box-shadow:0 2px 18px rgba(0,0,0,.18)}
+    #header .navbar a{color:#fff!important;font-weight:400;text-decoration:none!important}#header .navbar a:hover,#header .navbar .active,#header .navbar li:hover>a{color:var(--ci)!important}
+    .tb-section{padding:70px 0}.tb-section.alt{background:var(--soft)}.section-title h2{font-size:.9rem;color:var(--muted);font-weight:900;text-transform:uppercase;letter-spacing:.12em}.section-title p{font-size:2rem;font-weight:900;color:#111;margin:0 0 1.4rem;text-transform:none!important}
+    .btn-ci{background:var(--ci)!important;color:#111!important;border:1px solid var(--ci)!important;font-weight:800;border-radius:999px;padding:12px 24px;text-decoration:none!important;display:inline-block}.btn-ci:hover{background:#fff!important;color:#111!important;text-decoration:none!important}
+    .badge-ci{display:inline-block;background:#151515;color:var(--ci);border:1px solid var(--ci);border-radius:999px;padding:6px 13px;font-size:.82rem;font-weight:700;margin-bottom:12px}
+    .med-hero{padding:145px 0 78px;background:linear-gradient(135deg,#000 0%,#151515 55%,#2a210f 100%);color:#fff;position:relative;overflow:hidden}.med-hero:after{content:"TRUST";position:absolute;right:4vw;bottom:-22px;font-size:8vw;font-weight:900;letter-spacing:.08em;color:rgba(255,255,255,.045)}
+    .med-kicker{display:inline-flex;gap:8px;align-items:center;background:rgba(255,196,81,.13);border:1px solid rgba(255,196,81,.44);color:var(--ci);border-radius:999px;padding:8px 14px;font-size:.8rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px}.med-hero h1{font-size:3rem;line-height:1.08;font-weight:900;color:#fff;text-transform:none!important}.med-hero h1 span{color:var(--ci)}.med-hero p{font-size:1.06rem;line-height:1.75;color:#e8e8e8;max-width:860px}.med-alert{background:var(--ci);color:#111;border-radius:18px;padding:18px 20px;font-weight:800;margin-top:22px;max-width:860px}
+    .info-card{background:#fff;border:1px solid #ececec;border-radius:18px;padding:28px;height:100%;box-shadow:0 12px 30px rgba(0,0,0,.05)}.info-card .icon{width:52px;height:52px;border-radius:14px;background:var(--ci);color:#111;display:flex;align-items:center;justify-content:center;font-size:1.45rem;margin-bottom:18px}.info-card h3{font-size:1.22rem;font-weight:900;margin-bottom:12px;text-transform:none!important}.info-card p{font-size:.95rem;color:#555;line-height:1.62}
+    .big-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.bigpoint{position:relative;background:#fff;border:1px solid #ececec;border-radius:22px;padding:24px 22px;min-height:220px;box-shadow:0 14px 34px rgba(0,0,0,.07);overflow:hidden}.bigpoint:before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:var(--ci)}.bigpoint-icon{width:48px;height:48px;border-radius:15px;background:#151515;color:var(--ci);display:flex;align-items:center;justify-content:center;font-size:1.35rem;margin-bottom:16px}.bigpoint-label{font-size:.72rem;color:#777;font-weight:900;text-transform:uppercase;letter-spacing:.09em;margin-bottom:7px}.bigpoint h3{font-size:1.08rem;line-height:1.28;font-weight:900;color:#111;margin:0 0 10px;text-transform:none!important}.bigpoint p{font-size:.91rem;line-height:1.55;color:#555;margin:0}
+    .flow{background:#151515;color:#fff;border-left:7px solid var(--ci);padding:30px;border-radius:18px;box-shadow:0 16px 36px rgba(0,0,0,.12)}.flow-step{display:flex;gap:14px;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.11)}.flow-step:last-child{border-bottom:0}.flow-no{width:34px;height:34px;border-radius:10px;background:var(--ci);color:#111;font-weight:900;display:flex;align-items:center;justify-content:center;flex-shrink:0}.flow strong{color:var(--ci)}
+    .dt-block{background:#fff;border:1px solid #e6e6e6;border-radius:14px;margin-bottom:16px;overflow:hidden;box-shadow:0 4px 16px rgba(0,0,0,.04)}.dt-head{display:flex;align-items:center;gap:14px;padding:16px 22px;cursor:pointer;user-select:none}.dt-head:hover{background:#fafafa}.dt-icon{width:42px;height:42px;border-radius:12px;background:#151515;color:var(--ci);display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0}.dt-title{font-weight:800;font-size:1.04rem;flex:1;color:#222}.dt-status{font-size:.78rem;font-weight:800;padding:5px 11px;border-radius:999px;background:#f0f0f0;color:#555;white-space:nowrap}.dt-body{display:none;padding:0 22px 22px}.dt-body.open{display:block}.dt-body p{font-size:.93rem;color:#444;line-height:1.62}.dt-fields{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.dt-fields label{font-size:.78rem;font-weight:700;color:#000;display:block;margin-bottom:4px}.dt-fields input,.dt-fields textarea,.dt-fields select{width:100%;border:1px solid #ddd;border-radius:8px;padding:8px 12px;font-family:inherit;font-size:.88rem;outline:none;color:#333}.dt-fields textarea{min-height:60px;resize:vertical}.rating{display:flex;gap:8px;margin:12px 0;flex-wrap:wrap}.rating button{width:44px;height:44px;border-radius:10px;border:2px solid #e0e0e0;background:#fafafa;font-weight:800;cursor:pointer}.rating button.active{background:var(--ci);border-color:#151515;color:#111}.score-card{background:#151515;color:#fff;border-radius:18px;padding:26px;border-left:6px solid var(--ci)}.score-card .score{font-size:3rem;color:var(--ci);font-weight:900;line-height:1}.progress-wrap{height:10px;background:#333;border-radius:999px;overflow:hidden;margin:15px 0}.progress-bar-ci{height:10px;background:var(--ci);width:0%;transition:width .35s}
+    .example{background:#fff;border:1px solid #e6e6e6;border-radius:18px;padding:24px;box-shadow:0 12px 30px rgba(0,0,0,.05)}.example pre{background:#111;color:#eee;border-radius:14px;padding:18px;font-size:.82rem;white-space:pre-wrap;line-height:1.55}.tag{display:inline-block;border-radius:999px;padding:4px 10px;font-size:.75rem;font-weight:800;background:rgba(255,196,81,.24);border:1px solid rgba(255,196,81,.5);color:#6e5100;margin:3px}
+    .alert-ci{background:#fff7e3;border:1px solid rgba(255,196,81,.65);border-left:5px solid var(--ci);color:#111}.source-box{background:#fff;border:1px solid #ececec;border-radius:18px;padding:24px;box-shadow:0 12px 30px rgba(0,0,0,.05)}
+    #footer{background:#000!important;color:#fff}.footer-top{background:#000!important;padding:38px 0 20px}#footer a{color:#ccc!important;text-decoration:none!important}#footer a:hover{color:var(--ci)!important}.copyright{display:none!important}
+    @media(max-width:991px){.big-grid{grid-template-columns:repeat(2,1fr)}.med-hero h1{font-size:2.3rem}}@media(max-width:575px){.big-grid{grid-template-columns:1fr}.dt-fields{grid-template-columns:1fr}.med-hero{padding-top:120px}.section-title p{font-size:1.6rem}}
+    @media print{
+      body *{visibility:hidden!important;}
+      #print-readiness,#print-readiness *{visibility:visible!important;}
+      #print-readiness{position:absolute;left:0;top:0;width:100%;margin:0;padding:20px;}
+      #print-readiness .btn{display:none!important;}
+      #print-meta-fields{display:none!important;}
+      #print-meta-output{display:block!important;}
+      #header,#footer,#cookieNotice,#back-to-top{display:none!important;}
+      .dt-body{display:block!important;}
+    }
+
+
+/* =============================================
+   HEADER / HAMBURGER / FOOTER FIX - agentic.html kompatibel
+   ============================================= */
+#header.header-inner-pages{background:#000!important;padding:14px 0;position:fixed;top:0;left:0;right:0;z-index:997;box-shadow:0 2px 18px rgba(0,0,0,.18)}
+#tb-nav .tb-nav-link{color:#fff!important;font-weight:500;font-size:14px;text-decoration:none!important;letter-spacing:.02em;transition:color .2s;}
+#tb-nav .tb-nav-link:hover{color:#ffc451!important;text-decoration:none!important;}
+#tb-burger{display:flex;flex-direction:column;justify-content:center;gap:5px;width:40px;height:40px;background:transparent;border:none;cursor:pointer;padding:4px;border-radius:4px;transition:background .2s;}
+#tb-burger:hover{background:rgba(255,196,81,.15);}
+#tb-burger span{display:block;height:2px;width:24px;background:#fff;border-radius:2px;transition:transform .25s ease,opacity .2s ease,width .2s ease;transform-origin:center;}
+#tb-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+#tb-burger.open span:nth-child(2){opacity:0;width:0;}
+#tb-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+#tb-menu{position:fixed;top:0;right:0;width:min(300px,88vw);height:100%;background:#0b0b0b;z-index:10100;transform:translateX(100%);transition:transform .28s cubic-bezier(.4,0,.2,1);overflow-y:auto;box-shadow:-18px 0 38px rgba(0,0,0,.35);}
+#tb-menu.open{transform:translateX(0);}
+#tb-menu-inner{padding:20px 24px 40px;}
+#tb-menu-close{display:flex;align-items:center;justify-content:center;width:36px;height:36px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:6px;color:#fff;font-size:20px;cursor:pointer;margin-left:auto;margin-bottom:28px;transition:background .2s,color .2s;line-height:1;}
+#tb-menu-close:hover{background:#ffc451;color:#000;border-color:#ffc451;}
+#tb-menu ul{list-style:none!important;padding:0!important;margin:0!important;}
+#tb-menu ul li{list-style:none!important;margin:0!important;padding:0!important;}
+#tb-menu ul li+li{margin-top:8px!important;}
+#tb-menu ul li a{display:flex;align-items:center;padding:14px 18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:8px;color:#eee!important;font-size:15px;font-weight:500;text-decoration:none!important;transition:background .2s,color .2s,border-color .2s;}
+#tb-menu ul li a:hover{background:#ffc451;color:#000!important;border-color:#ffc451;text-decoration:none!important;}
+#tb-menu ul li a i{font-size:17px;flex-shrink:0;}
+#tb-menu-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:10090;backdrop-filter:blur(2px);}
+#tb-menu-overlay.open{display:block;}
+
+#footer{background:#000!important;color:#fff!important;position:relative;z-index:2;}
+#footer .footer-top{background:#000!important;padding:40px 0 20px!important;}
+#footer .footer-top p{font-size:14px!important;line-height:2!important;margin-bottom:4px!important;color:#ccc!important;}
+#footer .footer-top a{color:#ccc!important;font-size:14px!important;text-decoration:none!important;}
+#footer .footer-top a:hover{color:#ffc451!important;text-decoration:none!important;}
+#footer .footer-top img{height:120px!important;margin-bottom:20px!important;}
+#footer .copyright{display:none!important;}
+#footer .footer-label{color:#ffc451!important;}
+.footer-dropdown{position:relative;display:inline-block;margin-bottom:16px;}
+.footer-dd-trigger{background:#1a1a1a;border:1px solid #333;color:#ccc;font-size:13px;padding:8px 16px;border-radius:4px;cursor:pointer;display:flex;align-items:center;gap:8px;transition:border-color .2s,color .2s;font-family:inherit;}
+.footer-dd-trigger:hover{border-color:#ffc451;color:#ffc451;}
+.footer-dd-chevron{font-size:10px;color:#ffc451;transition:transform .2s;}
+.footer-dd-menu{display:none!important;position:absolute;bottom:calc(100% + 6px);left:0;background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;border-radius:4px;list-style:none!important;padding:6px 0!important;margin:0!important;min-width:280px;z-index:9999;box-shadow:0 -12px 32px rgba(0,0,0,.6);column-count:2;column-gap:0;}
+.footer-dd-menu.open{display:block!important;}
+.footer-dd-trigger.open .footer-dd-chevron{transform:rotate(180deg);}
+.footer-dd-menu li{break-inside:avoid;list-style:none!important;margin:0!important;padding:0!important;}
+.footer-dd-menu li a{display:block!important;padding:6px 14px!important;font-size:12px!important;color:#aaa!important;text-decoration:none!important;white-space:nowrap;transition:color .15s,background .15s;line-height:1.6!important;}
+.footer-dd-menu li a:hover{color:#ffc451!important;background:rgba(255,196,81,.06);}
+
+.share-container{position:relative;display:inline-block;}
+.share-button{background:#1a1a1a;border:1px solid #333;color:#ccc;width:40px;height:40px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s,border-color .2s;padding:0;}
+.share-button:hover{background:#ffc451;border-color:#ffc451;}
+.share-button svg{width:20px;height:20px;fill:#ccc;}
+.share-button:hover svg{fill:#000;}
+.share-popup{display:none;position:absolute;bottom:calc(100% + 10px);left:0;background:#1a1a1a;border:1px solid #333;border-top:2px solid #ffc451;border-radius:6px;padding:10px 12px;gap:8px;flex-direction:row;align-items:center;flex-wrap:wrap;box-shadow:0 -8px 28px rgba(0,0,0,.5);white-space:nowrap;z-index:9999;min-width:220px;}
+.share-popup.open{display:flex;}
+.share-popup a,.share-popup button.share-icon-btn{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:#222;border:1px solid #333;cursor:pointer;transition:background .18s,border-color .18s;text-decoration:none;padding:0;}
+.share-popup a:hover,.share-popup button.share-icon-btn:hover{background:#ffc451;border-color:#ffc451;}
+.share-popup svg{width:18px;height:18px;fill:#ccc;}
+.share-popup a:hover svg,.share-popup button.share-icon-btn:hover svg{fill:#000;}
+.copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
+.copy-notification.visible{display:block;}
+
+#back-to-top{position:fixed;bottom:28px;right:28px;z-index:9980;width:44px;height:44px;border-radius:50%;background:#ffc451;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.3);opacity:0;transform:translateY(12px);transition:opacity .3s,transform .3s,background .2s;pointer-events:none;}
+#back-to-top.visible{opacity:1;transform:translateY(0);pointer-events:auto;}
+#back-to-top:hover{background:#ffe08a;}
+#back-to-top svg{width:20px;height:20px;}
+@media(max-width:480px){#back-to-top{bottom:16px;right:16px;}#header .logo a{font-size:28px;}}
+
+  .prrc-tooltip-wrapper{position:relative;display:inline;}
+  .prrc-highlight{color:#000000;font-weight:bold;cursor:help;border-bottom:1px dashed #000000;white-space:nowrap;}
+  .prrc-tooltip-box{display:none;position:fixed;width:340px;max-width:calc(100vw - 30px);background:#1a1a1a;color:#f0f0f0;font-size:13px;line-height:1.6;padding:14px 16px;border-radius:8px;border-left:3px solid #ffc451;box-shadow:0 6px 20px rgba(0,0,0,.4);z-index:9999;pointer-events:none;}
+  .prrc-tooltip-box strong{color:#ffc451;}
+  .prrc-tooltip-box::after{content:'';position:absolute;top:100%;left:20px;border:7px solid transparent;border-top-color:#1a1a1a;}
+  @keyframes prrcFadeIn{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+
+  </style>
+<script type="application/ld+json" data-tbkg-generated="true">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Datenschutz",
+        "DecodingTrust",
+        "Vertrauenswürdigkeit",
+        "GPT-Modellen",
+        "EU AI Act",
+        "KI-Monitoring",
+        "Pflege",
+        "ISO/IEC 42001",
+        "Risikomanagement",
+        "KI-Ethik"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/decoding.html#webpage",
+      "url": "https://www.thomas-bade.de/decoding.html",
+      "headline": "DecodingTrust – Vertrauenswürdigkeit von GPT-Modellen",
+      "description": "DecodingTrust: Leitfaden zur Vertrauenswürdigkeitsprüfung von GPT-Modellen nach acht Perspektiven – Orientierung für Beschaffung, Pilotierung und Monitoring GPT-gestützter Systeme im Gesundheitswesen.",
+      "abstract": "Für Betreiber, die GPT-basierte Systeme im Gesundheits- oder Sozialwesen einsetzen wollen, liefert dieses Rahmenwerk eine belastbare Grundlage für Beschaffungsentscheidungen, Risikobewertung und laufendes Monitoring. GPT-3.5 und GPT-4 werden unter identischen Bedingungen und Prompt-Vorgaben getestet.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "DecodingTrust"
+        },
+        {
+          "@type": "Thing",
+          "name": "Vertrauenswürdigkeit"
+        },
+        {
+          "@type": "Thing",
+          "name": "GPT-Modellen"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISO/IEC 42001"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Ethik"
+        }
+      ],
+      "keywords": [
+        "Datenschutz",
+        "DecodingTrust",
+        "Vertrauenswürdigkeit",
+        "GPT-Modellen",
+        "EU AI Act",
+        "KI-Monitoring",
+        "Pflege",
+        "ISO/IEC 42001",
+        "Risikomanagement",
+        "KI-Ethik"
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- Header -->
+<header id="header" class="fixed-top header-inner-pages">
+  <div class="container d-flex align-items-center justify-content-between">
+    <h1 class="logo mb-0">
+      <a href="index.html">Thomas Bade<span style="font-size:15px; color:#ffc451;">&#9632;</span></a>
+    </h1>
+    <nav id="tb-nav" class="d-flex align-items-center gap-3">
+      <a href="https://www.thomas-bade.de/termine.html" class="tb-nav-link d-none d-lg-inline-block">
+        Let&#8217;s talk<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+      </a>
+      <a href="https://www.thomas-bade.de/sitemap.html" class="tb-nav-link d-none d-lg-inline-block">
+        Alle KI Themen<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+      </a>
+      <button id="tb-burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="tb-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+
+<!-- Hamburger Menu -->
+<div id="tb-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+  <div id="tb-menu-inner">
+    <button id="tb-menu-close" aria-label="Menü schließen">&#x2715;</button>
+    <ul>
+      <li><a href="https://www.thomas-bade.de/termine.html">
+        <i class="bi bi-calendar-check me-2"></i>Let&#8217;s talk
+      </a></li>
+      <li><a href="https://www.thomas-bade.de/sitemap.html">
+        <i class="bi bi-grid-3x3-gap me-2"></i>Alle KI Themen &#8211; Site Map
+      </a></li>
+      <li><a href="https://www.thomas-bade.de/medlog.html">
+        <i class="bi bi-shield-check me-2"></i>MedLog-Leitfaden
+      </a></li>
+      <li><a href="https://www.thomas-bade.de/iso_42001.html">
+        <i class="bi bi-exclamation-triangle me-2"></i>ISO 42001:2023
+      </a></li>
+      <li><a href="https://www.thomas-bade.de/calster.html">
+        <i class="bi bi-file-earmark-text me-2"></i>Validierte KI
+      </a></li>
+    </ul>
+  </div>
+</div>
+<div id="tb-menu-overlay"></div>
+
+
+<main id="main">
+    <section id="decodingtrust" class="tb-section">
+      <div class="container">
+        <div class="section-title"></div>
+        <img src="assets/img/decoding.png" width="1000" height="400" class="img-fluid" alt="DecodingTrust - Vertrauenswürdigkeit von GPT-Modellen"><p><br><br></p>
+
+        <div class="row align-items-stretch">
+          <div class="col-lg-8 mb-4 mb-lg-0">
+            <div class="flow h-100">
+              <h3 class="mb-3" style="font-weight:900;text-transform:none!important;">Von der Modellauswahl zur Vertrauensprüfung</h3>
+              <p style="color:#e8e8e8;line-height:1.75;">DecodingTrust ergänzt klassische Leistungsbenchmarks um eine systematische Vertrauenswürdigkeitsprüfung: Es dokumentiert nicht, wie gut ein Modell Aufgaben löst, sondern wie es sich unter neutralen und gezielt manipulierten Bedingungen verhält. Für Betreiber, die GPT-basierte Systeme im Gesundheits- oder Sozialwesen einsetzen wollen, liefert dieses Rahmenwerk eine belastbare Grundlage für Beschaffungsentscheidungen, Risikobewertung und laufendes Monitoring.</p>
+              <div class="flow-step"><div class="flow-no">1</div><div><strong>Modell wird ausgewählt.</strong><br>GPT-3.5 und GPT-4 werden unter identischen Bedingungen und Prompt-Vorgaben getestet.</div></div>
+              <div class="flow-step"><div class="flow-no">2</div><div><strong>Acht Perspektiven werden angewendet.</strong><br>Toxizität, Bias, Robustheit, Datenschutz, Maschinenethik und Fairness werden systematisch geprüft.</div></div>
+              <div class="flow-step"><div class="flow-no">3</div><div><strong>Adversariale Szenarien werden simuliert.</strong><br>Manipulierte Prompts, Demonstrationen und System-Anweisungen prüfen die Belastungsgrenzen der Modelle.</div></div>
+              <div class="flow-step"><div class="flow-no">4</div><div><strong>Schwachstellen werden dokumentiert.</strong><br>Ergebnisse fließen in ein offenes, sich weiterentwickelndes Benchmark und Leaderboard ein.</div></div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="info-card h-100"><span class="badge-ci">DecodingTrust im Kontext des EU AI Act</span><h3>Was dieses Modul leistet</h3><p>Der DecodingTrust-Leitfaden überträgt ein akademisches Benchmark &#8211; ausgezeichnet als Outstanding Paper der NeurIPS 2023 und als Best Scientific Cybersecurity Paper der NSA 2024 &#8211; in eine praxisorientierte Orientierungshilfe für Betreiberorganisationen.<br>
+            Ziel ist eine strukturierte Einschätzung, bevor GPT-basierte Systeme beschafft, pilotiert oder produktiv eingesetzt werden.</p><a href="#checkliste" class="btn btn-ci mt-2"><i class="bi bi-arrow-down-circle me-1"></i>Zur Vertrauens-Checkliste</a></div>
+          </div>
+        </div>
+        <div class="big-grid mt-4">
+          <div class="bigpoint"><div class="bigpoint-icon"><i class="bi bi-diagram-2-fill"></i></div><div class="bigpoint-label">Big Point 1</div><h3>Vertrauen hat viele Dimensionen</h3><p>DecodingTrust bewertet GPT-Modelle nicht an einer einzelnen Kennzahl, sondern anhand von acht eigenständigen Perspektiven &#8211; von Toxizität bis Fairness.</p></div>
+          <div class="bigpoint"><div class="bigpoint-icon"><i class="bi bi-shield-exclamation"></i></div><div class="bigpoint-label">Big Point 2</div><h3>Neuere Modelle sind nicht automatisch sicherer</h3><p>GPT-4 folgt irreführenden Anweisungen oft präziser als GPT-3.5 und kann dadurch anfälliger für gezielte Manipulation sein.</p></div>
+          <div class="bigpoint"><div class="bigpoint-icon"><i class="bi bi-shield-lock-fill"></i></div><div class="bigpoint-label">Big Point 3</div><h3>Datenschutzrisiken bleiben real</h3><p>Modelle können unter bestimmten Bedingungen Informationen aus Trainingsdaten oder dem Gesprächsverlauf offenlegen.</p></div>
+          <div class="bigpoint"><div class="bigpoint-icon"><i class="bi bi-arrow-repeat"></i></div><div class="bigpoint-label">Big Point 4</div><h3>Bewertung ist ein fortlaufender Prozess</h3><p>DecodingTrust versteht sich als lebendiges Benchmark, das mit neuen Modellen und Bedrohungsszenarien weiterentwickelt wird.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="checkliste" class="tb-section alt">
+      <div class="container">
+        <div class="section-title"><h2>Vertrauens-Checkliste</h2><p>DecodingTrust – 8 Perspektiven für GPT-gestützte Systeme</p></div>
+        <p>Bewerten Sie, ob eine geplante oder bereits eingesetzte GPT-Anwendung die acht DecodingTrust-Perspektiven belastbar berücksichtigt.<br>
+        Die Einschätzung dient als Orientierung für Beschaffung, Pilotierung und laufendes Monitoring GPT-gestützter Systeme.</p>
+        <div class="small text-muted mt-2 mb-3">
+<b>Bewertung nach dem Reifegrad (Maturity Level):</b>
+<span class="badge bg-danger">1</span> Nicht geprüft |
+<span class="badge bg-secondary">2</span> Geplant |
+<span class="badge bg-warning text-dark">3</span> Teilweise geprüft |
+<span class="badge bg-info text-dark">4</span> Weitgehend geprüft |
+<span class="badge bg-success">5</span> Vollständig geprüft und dokumentiert
+</div>
+        <div class="row align-items-start" id="print-readiness">
+          <div class="col-12 mb-4" id="print-meta-fields">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="small fw-bold mb-1" for="dtName">Vorname Name</label>
+                <input type="text" id="dtName" class="form-control" placeholder="z. B. Max Mustermann">
+              </div>
+              <div class="col-md-6">
+                <label class="small fw-bold mb-1" for="dtDept">Fachabteilung</label>
+                <input type="text" id="dtDept" class="form-control" placeholder="z. B. IT / Digitalisierung">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-4" id="print-meta-output" style="display:none;">
+            <div style="border-bottom:2px solid #151515;padding-bottom:10px;margin-bottom:6px;">
+              <strong>DecodingTrust Readiness – Auswertung</strong>
+            </div>
+            <div style="font-size:.9rem;line-height:1.7;">
+              <span id="printMetaName"></span><br>
+              <span id="printMetaDept"></span><br>
+              <span id="printMetaDate"></span><br>
+              thomas-bade.de &nbsp;·&nbsp; tb@thomas-bade.de
+            </div>
+          </div>
+          <div class="col-12" id="items"></div>
+          <div class="col-12 mt-4">
+            <div class="score-card" style="max-width:480px;margin:0 auto;">
+              <div class="small text-uppercase" style="letter-spacing:.12em;color:#bbb;font-weight:800;">DecodingTrust Readiness</div>
+              <div class="score"><span id="score">0</span>%</div>
+              <div class="progress-wrap"><div class="progress-bar-ci" id="bar"></div></div>
+              <p id="scoreText" style="color:#e8e8e8;line-height:1.55;">Noch keine Bewertung vorgenommen.</p>
+              <button class="btn btn-ci w-100 mt-2" onclick="window.print()"><i class="bi bi-filetype-pdf me-1"></i>Als PDF drucken</button>
+              <button class="btn btn-outline-light w-100 mt-2" onclick="resetDecodingTrust()"><i class="bi bi-arrow-counterclockwise me-1"></i>Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="umsetzung" class="tb-section alt">
+      <div class="container">
+        <div class="section-title"><h2>Implementierung</h2><p>Pragmatischer DecodingTrust-Fahrplan</p></div>
+        <div class="row g-4">
+          <div class="col-md-4"><div class="info-card"><div class="icon"><i class="bi bi-1-circle-fill"></i></div><h3>Trustworthiness-Reports einholen</h3><p>Vor Beschaffung prüfen, ob Anbieter Ergebnisse zu Toxizität, Bias, Robustheit und Datenschutz offenlegen oder eigene DecodingTrust-Auswertungen vorlegen können.</p><a href="https://www.thomas-bade.de/vendor.html" target="_blank" rel="noopener" class="btn btn-ci mt-2"><i class="bi bi-box-arrow-up-right me-1"></i>Checkliste für KI Beschaffungsteams</a></div></div>
+          <div class="col-md-4"><div class="info-card"><div class="icon"><i class="bi bi-2-circle-fill"></i></div><h3>Eigene Testfälle ergänzen</h3><p>Klinische und pflegerische Anwendungsfälle unterscheiden sich von akademischen Benchmarks; branchenspezifische Adversarial-Tests ergänzen die Bewertung sinnvoll.</p></div></div>
+          <div class="col-md-4"><div class="info-card"><div class="icon"><i class="bi bi-3-circle-fill"></i></div><h3>Re-Evaluation bei Modellwechsel</h3><p>Da DecodingTrust ein sich weiterentwickelndes Benchmark ist, sollte jede Modellaktualisierung eine erneute Vertrauensprüfung auslösen.</p></div></div>
+        </div>
+        <div class="alert alert-ci rounded-4 mt-4"><div class="fw-semibold"><i class="bi bi-exclamation-triangle me-1"></i><b>KI Transparenzhinweis</b> ART. 50 · VO (EU) 2024/1689 · EU AI ACT</div><div style="font-size:0.8rem;">Englischsprachige Quelldokumente wurden mit Unterstützung von KI-Sprachmodellen übersetzt.<br>Thomas Bade hat alle Inhalte inhaltlich geprüft, fachlich bewertet und freigegeben.</div></div>
+      </div>
+    </section>
+
+    <section id="quellen" class="tb-section">
+      <div class="container">
+        <div class="source-box">
+          <div class="row align-items-center">
+            <div class="col-lg-8"><div class="badge-ci">Quelle</div><h3 style="font-weight:900;text-transform:none!important;">DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models</h3><p class="mb-0">Wang et al. (UIUC Secure Learning Lab, Microsoft Research) stellen mit DecodingTrust ein umfassendes Bewertungsrahmenwerk für die Vertrauenswürdigkeit von GPT-3.5 und GPT-4 vor &#8211; ausgezeichnet als Outstanding Paper der NeurIPS 2023 und als Best Scientific Cybersecurity Paper der NSA 2024.</p></div>
+            <div class="col-lg-4 mt-3 mt-lg-0 text-lg-end">
+              <a class="btn btn-ci" href="https://arxiv.org/abs/2306.11698" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>arXiv öffnen</a>
+              <a class="btn btn-outline-dark mt-2 w-100" href="https://decodingtrust.github.io/" target="_blank" rel="noopener"><i class="bi bi-globe me-1"></i>Projektseite öffnen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const dtItems = [
+      ['Toxicity','Prüft, ob ein Modell unter neutralen oder gezielt manipulierten System-Prompts beleidigende, diskriminierende oder anderweitig schädliche Sprache erzeugt.','bi-emoji-frown-fill'],
+      ['Stereotype and Bias','Untersucht, ob Modelle Vorurteile gegenüber bestimmten Gruppen reproduzieren oder verstärken, etwa bei Aussagen zu Herkunft, Geschlecht oder Beruf.','bi-people-fill'],
+      ['Adversarial Robustness','Testet, wie stabil ein Modell auf gezielt manipulierte Eingaben reagiert, die eigentlich harmlose Aufgaben verändern sollen.','bi-shield-exclamation'],
+      ['Out-of-Distribution Robustness','Bewertet die Zuverlässigkeit bei Eingaben, die von den Trainingsdaten abweichen &#8211; etwa ungewöhnliche Formulierungen, Domänenwechsel oder seltene Szenarien.','bi-graph-up-arrow'],
+      ['Privacy','Analysiert, ob ein Modell personenbezogene Informationen aus Trainingsdaten oder dem laufenden Dialog unbeabsichtigt preisgibt.','bi-shield-lock-fill'],
+      ['Robustness to Adversarial Demonstrations','Untersucht, wie anfällig ein Modell für in-Context-Beispiele ist, die absichtlich irreführende Muster oder Anweisungen enthalten.','bi-diagram-3-fill'],
+      ['Machine Ethics','Bewertet, ob ein Modell in moralisch mehrdeutigen Situationen konsistente und nachvollziehbare Entscheidungen trifft.','bi-compass-fill'],
+      ['Fairness','Prüft, ob Modellentscheidungen und -bewertungen über verschiedene Gruppen hinweg gleichbehandelnd und diskriminierungsfrei ausfallen.','bi-bar-chart-fill']
+    ];
+    const container = document.getElementById('items');
+    const ratings = new Array(dtItems.length).fill(0);
+    container.innerHTML = dtItems.map((it,i)=>`<div class="dt-block"><div class="dt-head" onclick="toggleBlock(${i})"><div class="dt-icon"><i class="bi ${it[2]}"></i></div><div class="dt-title">${i+1}. ${it[0]}</div><div class="dt-status" id="status-${i}">offen</div><i class="bi bi-chevron-down"></i></div><div class="dt-body" id="body-${i}"><p>${it[1]}</p><div class="rating" aria-label="Bewertung ${it[0]}"><button onclick="rate(${i},1,event)">1</button><button onclick="rate(${i},2,event)">2</button><button onclick="rate(${i},3,event)">3</button><button onclick="rate(${i},4,event)">4</button><button onclick="rate(${i},5,event)">5</button></div><div class="dt-fields"><div><label>Nachweis / Systemquelle</label><input placeholder="z. B. Modellkarte, Anbieter-Report, eigener Testlauf"></div><div><label>Verantwortung</label><input placeholder="z. B. Datenschutz, IT, Fachbereich, MLOps"></div><div style="grid-column:1/-1"><label>Kommentar / offene Maßnahme</label><textarea placeholder="Was fehlt für eine belastbare Vertrauensbewertung?"></textarea></div></div></div></div>`).join('');
+    function toggleBlock(i){document.getElementById('body-'+i).classList.toggle('open')}
+    function rate(i,v,e){e.stopPropagation(); ratings[i]=v; const block=e.target.closest('.rating'); block.querySelectorAll('button').forEach(b=>b.classList.remove('active')); e.target.classList.add('active'); document.getElementById('status-'+i).textContent=v+'/5'; updateScore();}
+    function updateScore(){const done=ratings.filter(x=>x>0).length; const sum=ratings.reduce((a,b)=>a+b,0); const pct=Math.round((sum/(dtItems.length*5))*100); document.getElementById('score').textContent=pct; document.getElementById('bar').style.width=pct+'%'; let txt='Noch keine Bewertung vorgenommen.'; if(done>0 && pct<40) txt='Frühe Konzeptphase: Für eine belastbare Vertrauensbewertung fehlen noch wesentliche Nachweise.'; if(pct>=40) txt='Aufbauphase: Erste Prüfungen liegen vor, müssen aber organisatorisch gefestigt werden.'; if(pct>=70) txt='Pilotfähig: Die wesentlichen Vertrauensdimensionen sind überwiegend nachvollziehbar geprüft.'; if(pct>=90) txt='Auditnah: Die Vertrauenswürdigkeitsprüfung ist weitgehend belastbar dokumentiert.'; document.getElementById('scoreText').textContent=txt;}
+    function resetDecodingTrust(){ratings.fill(0);document.querySelectorAll('.rating button').forEach(b=>b.classList.remove('active'));dtItems.forEach((_,i)=>document.getElementById('status-'+i).textContent='offen');updateScore();document.getElementById('dtName').value='';document.getElementById('dtDept').value='';}
+    window.addEventListener('beforeprint',function(){
+      var name=document.getElementById('dtName').value.trim()||'—';
+      var dept=document.getElementById('dtDept').value.trim()||'—';
+      var today=new Date().toLocaleDateString('de-DE',{day:'2-digit',month:'2-digit',year:'numeric'});
+      document.getElementById('printMetaName').textContent='Name: '+name;
+      document.getElementById('printMetaDept').textContent='Fachabteilung: '+dept;
+      document.getElementById('printMetaDate').textContent='Datum: '+today;
+    });
+  </script>
+
+  <div class="container">
+    <div align="right" style="padding:6px 0 0;">
+      <span class="prrc-tooltip-wrapper" tabindex="0">
+        <span class="prrc-highlight">CC BY-ND 4.0</span>
+        <span class="prrc-tooltip-box" role="tooltip">
+          <strong>Creative Commons Lizenz (CC BY-ND 4.0)</strong><br>
+          Inhalte dieser Webseite und des Selbsttests &quot;DecodingTrust Readiness&quot; dürfen geteilt werden, sofern der Urheber genannt wird und keine Bearbeitungen verbreitet werden. Der zugrunde liegende DecodingTrust-Datensatz selbst steht unter CC BY-SA 4.0 der Originalautoren.
+        </span>
+      </span>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 mb-3">
+          <img src="https://thomas-bade.de/assets/img/logo-transparent.png" alt="thomas-bade.de" style="height:120px;margin-bottom:20px;display:block;">
+          <p><a href="mailto:tb@thomas-bade.de"><i class="bi bi-envelope me-1"></i>E-Mail</a></p>
+          <p><a href="https://www.thomas-bade.de/coach.html"><i class="bi bi-person me-1"></i>Zur Person</a></p>
+          <p><a href="https://www.thomas-bade.de/termine.html"><i class="bi bi-calendar me-1"></i>Let's talk</a></p>
+          <p><a href="https://www.thomas-bade.de/impressum.html"><i class="bi bi-file-text me-1"></i>Impressum &amp; Datenschutz</a></p>
+          <p style="font-size:12px;color:#ffc451;margin-top:16px;">&copy; Copyright 2026 Thomas Bade</p>
+        </div>
+        <div class="col-lg-6 col-md-6 mb-3">
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;color:#ffc451!important;">Weitere Angebote</p>
+          <p><a href="https://www.thomas-bade.eu" target="_blank" rel="noopener"><i class="bi bi-globe me-1"></i>thomas-bade.eu &#8211; Zukunftsraum Kommune</a></p>
+          <p><a href="https://www.thomas-bade.org" target="_blank" rel="noopener"><i class="bi bi-mortarboard me-1"></i>thomas-bade.org &#8211; KI Lernportal</a></p>
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:20px;margin-bottom:10px;color:#ffc451!important;">Alle KI-Themen</p>
+          <div class="footer-dropdown" id="footerDropdown">
+            <button class="footer-dd-trigger" id="footerDDBtn">Themenübersicht <span class="footer-dd-chevron">&#9650;</span></button>
+            <ul class="footer-dd-menu" id="footerDDMenu">
+              <li><a href="https://www.thomas-bade.de/sitemap.html"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></li>
+              <li><a href="https://www.thomas-bade.de/bmg.html">Digitalisierungsstrategie 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/mdr_ki.html">Hochrisiko-KI</a></li>
+              <li><a href="https://www.thomas-bade.de/leitbild.html">Leitbild</a></li>
+              <li><a href="https://www.thomas-bade.de/mission.html">Mission Statement</a></li>
+              <li><a href="https://www.thomas-bade.de/ki_verordnung.html">KI-MIG 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/wissenschaft.html">Forschung &amp; Wissenschaft</a></li>
+              <li><a href="https://www.thomas-bade.de/constitution.html">Ethische KI-Prinzipien</a></li>
+              <li><a href="https://www.thomas-bade.de/risk.html">KI Risikomanagement</a></li>
+              <li><a href="https://www.thomas-bade.de/oecd.html">OECD 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/ai_sweden.html">AI Leadership Report 2026</a></li>
+              <li><a href="https://www.thomas-bade.de/fmea.html">FMEA im Gesundheitswesen</a></li>
+              <li><a href="https://www.thomas-bade.de/haip.html">Health AI Partnership (HAIP)</a></li>
+              <li><a href="https://www.thomas-bade.de/portal.html">KI Lernformate</a></li>
+              <li><a href="https://www.thomas-bade.de/medlog.html">MedLog</a></li>
+              <li><a href="https://www.thomas-bade.de/decodingtrust.html">DecodingTrust</a></li>
+            </ul>
+          </div>
+          <p style="font-size:14px; margin-bottom:6px;">
+            <a href="https://www.thomas-bade.de/sitemap.html" target="_blank" style="color:#ccc;text-decoration:none;"><i class="bi bi-grid-3x3-gap"></i> Site Map</a>
+          </p>
+          <p class="footer-label" style="font-size:11px;letter-spacing:1px;text-transform:uppercase;margin-top:20px;margin-bottom:10px;color:#ffc451!important;">Seite teilen</p>
+          <div class="share-container" id="shareContainer">
+            <button class="share-button" id="shareToggleBtn" aria-label="Seite teilen" title="Seite teilen">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/></svg>
+            </button>
+            <div class="share-popup" id="sharePopup">
+              <a href="#" id="shareLinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="#" id="shareTwitter" title="X / Twitter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              </a>
+              <a href="#" id="shareFacebook" title="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.874v2.25h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+              </a>
+              <button class="share-icon-btn" id="shareCopyLink" title="Link kopieren" type="button">
+                <svg viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+              </button>
+            </div>
+            <div id="copyNotification" class="copy-notification">&#10003; Link kopiert</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back-to-Top Button -->
+<button id="back-to-top" aria-label="Zum Seitenanfang" style="position:fixed;bottom:28px;right:28px;z-index:9980;width:46px;height:46px;border-radius:50%;background:#ffc451;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(0,0,0,.35);opacity:0;transform:translateY(14px);transition:opacity .3s,transform .3s,background .2s;pointer-events:none;">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+/* Cookie Notice */
+(function(){
+  var n=document.getElementById('cookieNotice');
+  var b=document.getElementById('cookieAccept');
+  if(!n) return;
+  if(!localStorage.getItem('cookieAccepted')) n.style.display='block';
+  if(b) b.addEventListener('click',function(){ n.style.display='none'; localStorage.setItem('cookieAccepted','1'); });
+})();
+
+/* Footer Dropdown */
+(function(){
+  var btn=document.getElementById('footerDDBtn');
+  var menu=document.getElementById('footerDDMenu');
+  if(!btn||!menu) return;
+  btn.addEventListener('click',function(){
+    var open=menu.classList.toggle('open');
+    btn.classList.toggle('open',open);
+  });
+  document.addEventListener('click',function(e){
+    if(!btn.contains(e.target)&&!menu.contains(e.target)){
+      menu.classList.remove('open'); btn.classList.remove('open');
+    }
+  });
+})();
+
+/* Share Popup */
+(function(){
+  var toggle=document.getElementById('shareToggleBtn');
+  var popup=document.getElementById('sharePopup');
+  if(!toggle||!popup) return;
+  var pageUrl=window.location.href;
+  var pageTitle=document.title;
+  var li=document.getElementById('shareLinkedIn');
+  var tw=document.getElementById('shareTwitter');
+  var fb=document.getElementById('shareFacebook');
+  if(li) li.href='https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(pageUrl);
+  if(tw) tw.href='https://twitter.com/intent/tweet?url='+encodeURIComponent(pageUrl)+'&text='+encodeURIComponent(pageTitle);
+  if(fb) fb.href='https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(pageUrl);
+  toggle.addEventListener('click',function(e){ e.stopPropagation(); popup.classList.toggle('open'); });
+  document.addEventListener('click',function(e){
+    if(!toggle.contains(e.target)&&!popup.contains(e.target)) popup.classList.remove('open');
+  });
+  var copyBtn=document.getElementById('shareCopyLink');
+  var notif=document.getElementById('copyNotification');
+  if(copyBtn) copyBtn.addEventListener('click',function(){
+    navigator.clipboard.writeText(pageUrl).then(function(){
+      if(notif){ notif.classList.add('visible'); setTimeout(function(){ notif.classList.remove('visible'); },2200); }
+    });
+  });
+})();
+
+/* Hamburger Menu */
+(function(){
+  var burger=document.getElementById('tb-burger');
+  var menu=document.getElementById('tb-menu');
+  var overlay=document.getElementById('tb-menu-overlay');
+  var closeBtn=document.getElementById('tb-menu-close');
+  if(!burger||!menu) return;
+  function openMenu(){ menu.classList.add('open'); overlay.classList.add('open'); burger.classList.add('open'); burger.setAttribute('aria-expanded','true'); document.body.style.overflow='hidden'; }
+  function closeMenu(){ menu.classList.remove('open'); overlay.classList.remove('open'); burger.classList.remove('open'); burger.setAttribute('aria-expanded','false'); document.body.style.overflow=''; burger.focus(); }
+  burger.addEventListener('click',function(e){ e.stopPropagation(); menu.classList.contains('open')?closeMenu():openMenu(); });
+  closeBtn.addEventListener('click',closeMenu);
+  overlay.addEventListener('click',closeMenu);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&menu.classList.contains('open')) closeMenu(); });
+  menu.querySelectorAll('a').forEach(function(link){ link.addEventListener('click',function(){ closeMenu(); }); });
+})();
+
+/* Back-to-Top */
+(function(){
+  var btn=document.getElementById('back-to-top');
+  if(!btn) return;
+  function setVisible(v){
+    btn.style.opacity=v?'1':'0';
+    btn.style.transform=v?'translateY(0)':'translateY(14px)';
+    btn.style.pointerEvents=v?'auto':'none';
+  }
+  window.addEventListener('scroll',function(){
+    setVisible(window.scrollY>400);
+  },{passive:true});
+  btn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+})();
+
+/* Tooltips (prrc) */
+(function(){
+  'use strict';
+  var usingTouch=false,touchActive=false;
+  window.addEventListener('touchstart',function(){usingTouch=true;touchActive=true;},{passive:true});
+  window.addEventListener('touchend',function(){setTimeout(function(){touchActive=false;},500);},{passive:true});
+  window.addEventListener('mousemove',function(){if(touchActive)return;usingTouch=false;},{passive:true});
+
+  function positionTooltip(wrapper,box){
+    box.style.visibility='hidden';box.style.display='block';
+    var h=box.offsetHeight;
+    box.style.display='none';box.style.visibility='';
+    var rect=wrapper.getBoundingClientRect(),margin=10;
+    var top=rect.top-h-margin;
+    if(top<10) top=rect.bottom+margin;
+    var left=rect.left;
+    var maxLeft=window.innerWidth-340-15;
+    if(left>maxLeft) left=maxLeft;
+    if(left<10) left=10;
+    box.style.top=top+'px';box.style.left=left+'px';
+    box.style.animation='prrcFadeIn 0.18s ease';
+  }
+  function closeAll(){
+    document.querySelectorAll('.prrc-tooltip-box').forEach(function(b){b.style.display='none';});
+  }
+  document.querySelectorAll('.prrc-tooltip-wrapper').forEach(function(wrapper){
+    var box=wrapper.querySelector('.prrc-tooltip-box');
+    wrapper.addEventListener('mouseenter',function(){
+      if(usingTouch) return;
+      box.style.pointerEvents='auto';
+      positionTooltip(wrapper,box);
+      box.style.display='block';
+    });
+    wrapper.addEventListener('mouseleave',function(e){
+      if(usingTouch) return;
+      if(box.contains(e.relatedTarget)) return;
+      box.style.display='none';
+    });
+    box.addEventListener('mouseleave',function(e){
+      if(usingTouch) return;
+      if(wrapper.contains(e.relatedTarget)) return;
+      box.style.display='none';
+    });
+    wrapper.addEventListener('click',function(e){
+      if(!usingTouch) return;
+      var isVisible=box.style.display==='block';
+      closeAll();
+      if(!isVisible){
+        box.style.pointerEvents='auto';
+        positionTooltip(wrapper,box);
+        box.style.display='block';
+      }
+      e.stopPropagation();
+    });
+  });
+  document.addEventListener('click',function(){if(usingTouch) closeAll();});
+})();
+</script>
+
+</body>
+</html>

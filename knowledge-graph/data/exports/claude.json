@@ -1,0 +1,188 @@
+{
+  "id": "page:claude",
+  "slug": "claude",
+  "filename": "claude.html",
+  "url": "https://www.thomas-bade.de/claude.html",
+  "canonical": "https://www.thomas-bade.de/claude.html",
+  "title": "KI-Produktivitätsanalyse mit Erkenntnissen der Anthropic-Studie",
+  "description": "Anthropic-Studie: KI-Modelle steigern US-Arbeitsproduktivität um 1,8% jährlich. 80% Zeitersparnis bei 90-minütigen Aufgaben.",
+  "summary": "Systeme wie Claude werden zunehmend für komplexe Aufgaben eingesetzt – darunter Analyse, Wissensmanagement, Textproduktion und Entscheidungsunterstützung. Warum diese Studie für Organisationen relevant ist KI-Systeme fungieren weniger als vollständiger Ersatz menschlicher Arbeit, sondern vielmehr als kooperative Assistenzsysteme .",
+  "topics": [
+    "EU AI Act",
+    "KI-Governance",
+    "KI-Produktivitätsanalyse",
+    "Erkenntnissen",
+    "Anthropic-Studie",
+    "Gesundheitswesen",
+    "KI-Compliance",
+    "Datenschutz",
+    "Patientenzentrierung",
+    "Medizinprodukte"
+  ],
+  "word_count": 548,
+  "heading_count": 3,
+  "h1_count": 0,
+  "internal_links": 18,
+  "linked_pages": [
+    "GPAI",
+    "arise",
+    "bmg",
+    "coach",
+    "constitution",
+    "haip",
+    "impressum",
+    "index",
+    "ki_verordnung",
+    "kompetenz",
+    "mdr_ki",
+    "oecd",
+    "portal",
+    "praevention",
+    "risk",
+    "sitemap",
+    "termine",
+    "wissenschaft"
+  ],
+  "existing_jsonld": 0,
+  "has_og": false,
+  "citation_signals": 5,
+  "question_headings": 0,
+  "structured_blocks": 11,
+  "author_signal": true,
+  "content_hash": "8470db0d600adb21",
+  "seo_score": 68,
+  "geo_score": 64,
+  "ai_overview_probability": 59,
+  "maturity": "entwickelt",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": true,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": false,
+    "Ausreichende Substanz": true,
+    "Interne Links": true,
+    "Open Graph": false,
+    "Strukturierte Daten": false
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": false,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": true,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": false,
+    "Kontextuelle Verlinkung": true,
+    "Inhaltstiefe": false
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "EU AI Act",
+          "KI-Governance",
+          "KI-Produktivitätsanalyse",
+          "Erkenntnissen",
+          "Anthropic-Studie",
+          "Gesundheitswesen",
+          "KI-Compliance",
+          "Datenschutz",
+          "Patientenzentrierung",
+          "Medizinprodukte"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://www.thomas-bade.de/claude.html#webpage",
+        "url": "https://www.thomas-bade.de/claude.html",
+        "headline": "KI-Produktivitätsanalyse mit Erkenntnissen der Anthropic-Studie",
+        "description": "Anthropic-Studie: KI-Modelle steigern US-Arbeitsproduktivität um 1,8% jährlich. 80% Zeitersparnis bei 90-minütigen Aufgaben.",
+        "abstract": "Systeme wie Claude werden zunehmend für komplexe Aufgaben eingesetzt – darunter Analyse, Wissensmanagement, Textproduktion und Entscheidungsunterstützung. Warum diese Studie für Organisationen relevant ist KI-Systeme fungieren weniger als vollständiger Ersatz menschlicher Arbeit, sondern vielmehr als kooperative Assistenzsysteme .",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "EU AI Act"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Produktivitätsanalyse"
+          },
+          {
+            "@type": "Thing",
+            "name": "Erkenntnissen"
+          },
+          {
+            "@type": "Thing",
+            "name": "Anthropic-Studie"
+          },
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Compliance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Datenschutz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Patientenzentrierung"
+          },
+          {
+            "@type": "Thing",
+            "name": "Medizinprodukte"
+          }
+        ],
+        "keywords": [
+          "EU AI Act",
+          "KI-Governance",
+          "KI-Produktivitätsanalyse",
+          "Erkenntnissen",
+          "Anthropic-Studie",
+          "Gesundheitswesen",
+          "KI-Compliance",
+          "Datenschutz",
+          "Patientenzentrierung",
+          "Medizinprodukte"
+        ]
+      }
+    ]
+  }
+}

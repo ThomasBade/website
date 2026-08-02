@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "Prävention",
+        "Patientenzentrierung",
+        "Gesundheitsinvestitionen",
+        "Europa",
+        "Innovation",
+        "Value-based",
+        "Health",
+        "EU AI Act"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/europe.html#webpage",
+      "url": "https://www.thomas-bade.de/europe.html",
+      "headline": "Gesundheitsinvestitionen Europa: Prävention, Innovation & Value-based Health",
+      "description": "Europas Gesundheitssysteme unter Investitionsdruck: Analyse der OECD-Strategie zu Prävention, Diagnostik, innovativen Therapien und Value-based Health – mit KI-Lernformaten für Führungskräfte im Gesundheitswesen.",
+      "abstract": "1 argumentiert gegen eine rein kurzfristige Kostendämpfungslogik und für einen Strategiewechsel: Gesundheit soll in Europa nicht primär als Kostenblock, sondern als produktive Zukunftsinvestition verstanden werden. Diese Seite fasst die Kernbotschaften der Veröffentlichung zusammen und übersetzt sie in eine belastbare Management-Perspektive für Gesundheitspolitik, Versorgungsträger und Innovationsakteure.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Prävention"
+        },
+        {
+          "@type": "Thing",
+          "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitsinvestitionen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Europa"
+        },
+        {
+          "@type": "Thing",
+          "name": "Innovation"
+        },
+        {
+          "@type": "Thing",
+          "name": "Value-based"
+        },
+        {
+          "@type": "Thing",
+          "name": "Health"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        }
+      ],
+      "keywords": [
+        "Prävention",
+        "Patientenzentrierung",
+        "Gesundheitsinvestitionen",
+        "Europa",
+        "Innovation",
+        "Value-based",
+        "Health",
+        "EU AI Act"
+      ]
+    }
+  ]
+}
