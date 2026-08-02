@@ -200,16 +200,25 @@
     .copy-notification{display:none;font-size:.82rem;color:#ffc451;margin-top:8px;}
     .copy-notification.visible{display:block;}
   </style>
-<!-- Privacy-friendly analytics by Plausible (Custom Properties aktiviert) -->
-<script defer data-domain="thomas-bade.de" src="/stats/js/script.php" data-api="/stats/api/event.php"></script>
-<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
-  <link rel="llms" href="https://thomas-bade.de/llms.txt" />
-  <!-- Plausible Analytics -->
-  <script async="" src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+  <link rel="llms" href="https://thomas-bade.de/llms.txt">
+  <!-- Privacy-friendly analytics by Plausible: normalisierter Pageview mit Custom Properties -->
+  <script async src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
   <script>
     window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
     window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
-    plausible.init();
+    if (location.hostname === "thomas-bade.de" || location.hostname === "www.thomas-bade.de") {
+      plausible.init({
+        endpoint: "/stats/api/event.php",
+        autoCapturePageviews: false,
+        customProperties: {
+          bereich: "Hauptseite",
+          seitentyp: "Startseite"
+        }
+      });
+      plausible("pageview", {url: "https://www.thomas-bade.de/"});
+    } else {
+      plausible.init({autoCapturePageviews: false});
+    }
   </script>
 <!-- =============================================================
      GEO - Generative Engine Optimization - thomas-bade.de
