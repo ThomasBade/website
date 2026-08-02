@@ -21,7 +21,9 @@
   <link rel="llms" href="https://thomas-bade.de/llms.txt">
   <!-- Privacy-friendly analytics by Plausible: normalisierter Pageview mit Custom Properties -->
   <script>
-    if (location.hostname === "thomas-bade.de" || location.hostname === "www.thomas-bade.de") {
+    const plausibleProduction = location.hostname === "thomas-bade.de" || location.hostname === "www.thomas-bade.de";
+    const plausibleGitHub = location.hostname === "thomasbade.github.io";
+    if (plausibleProduction || plausibleGitHub) {
       window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
       window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
       const plausibleScript=document.createElement("script");
@@ -29,14 +31,15 @@
       plausibleScript.src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js";
       document.head.appendChild(plausibleScript);
       plausible.init({
-        endpoint: "/stats/api/event.php",
+        endpoint: plausibleProduction ? "/stats/api/event.php" : "https://plausible.io/api/event",
         autoCapturePageviews: false,
         customProperties: {
-          bereich: "Knowledge Graph",
-          seitentyp: "GEO Dashboard"
+          bereich: plausibleProduction ? "Knowledge Graph" : "GitHub Knowledge Graph",
+          seitentyp: "GEO Dashboard",
+          umgebung: plausibleProduction ? "Produktion" : "GitHub Pages"
         }
       });
-      plausible("pageview", {url: "https://www.thomas-bade.de/knowledge-graph/"});
+      plausible("pageview", {url: plausibleProduction ? "https://www.thomas-bade.de/knowledge-graph/" : "https://www.thomas-bade.de/github/knowledge-graph/"});
     }
   </script>
   <link rel="stylesheet" href="styles.css">
