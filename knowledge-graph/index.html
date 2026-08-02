@@ -4,6 +4,20 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Thomas Bade · Knowledge Graph & GEO</title>
   <meta name="description" content="Analyse-Dashboard für SEO, Generative Engine Optimization und semantische Wissensstrukturen.">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+  <link rel="canonical" href="https://www.thomas-bade.de/knowledge-graph/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Thomas Bade">
+  <meta property="og:title" content="Thomas Bade Knowledge Graph & GEO Platform">
+  <meta property="og:description" content="Wissensgraph, SEO- und GEO-Reifegrade für die Fachseiten von Thomas Bade.">
+  <meta property="og:url" content="https://www.thomas-bade.de/knowledge-graph/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Thomas Bade Knowledge Graph & GEO Platform">
+  <meta name="twitter:description" content="Semantisches Netzwerk und GEO-Analyse der Fachseiten von Thomas Bade.">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","@id":"https://www.thomas-bade.de/knowledge-graph/#app","name":"Thomas Bade Knowledge Graph & GEO Platform","url":"https://www.thomas-bade.de/knowledge-graph/","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"de-DE","description":"Analyse-Dashboard für SEO, Generative Engine Optimization und semantische Wissensstrukturen.","author":{"@type":"Person","@id":"https://www.thomas-bade.de/#thomas-bade","name":"Thomas Bade","url":"https://www.thomas-bade.de/"}}
+  </script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -32,7 +46,7 @@
       <article class="panel graph-panel"><div class="section-head"><div><p class="eyebrow">KNOWLEDGE GRAPH</p><h2>Semantisches Netzwerk</h2></div><button class="ghost" id="resetGraph">Ansicht zurücksetzen</button></div><canvas id="graphCanvas"></canvas><p class="hint">Knoten auswählen, um Beziehungen hervorzuheben. Orange: Seiten · Grün: Fachbegriffe.</p></article>
       <aside class="panel"><p class="eyebrow">TOPISCHE AUTORITÄT</p><h2>Stärkste Themenfelder</h2><div id="topics" class="topic-list"></div></aside>
     </section>
-    <section class="panel api" id="api"><div><p class="eyebrow">MACHINE-READABLE BY DESIGN</p><h2>API & LLM-Exporte</h2><p>Agenten können Seiten, Themen und Beziehungen strukturiert abfragen. Markdown und JSON stehen seitenweise bereit.</p></div><div class="endpoints"><code>GET /api/v1/pages</code><code>GET /api/v1/pages/{slug}</code><code>GET /api/v1/topics</code><code>GET /api/v1/graph</code></div></section>
+    <section class="panel api" id="api"><div><p class="eyebrow">MACHINE-READABLE BY DESIGN</p><h2>Daten & LLM-Exporte</h2><p>Agenten können Seiten, Themen und Beziehungen als statische JSON-Ressourcen abrufen. Markdown, JSON und JSON-LD stehen seitenweise bereit.</p></div><div class="endpoints"><code>GET data/pages.json</code><code>GET data/graph.json</code><code>GET data/exports/{slug}.json</code><code>GET data/jsonld/{slug}.json</code></div></section>
   </main>
   <dialog id="detail"><button class="close" aria-label="Schließen">×</button><div id="detailBody"></div></dialog>
   <footer><span>Thomas Bade · Knowledge Graph & GEO Platform</span><span>Scores sind heuristische Reifegradindikatoren, keine Ranking-Garantie.</span></footer>

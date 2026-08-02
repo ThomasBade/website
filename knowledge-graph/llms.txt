@@ -1,0 +1,14 @@
+# Thomas Bade Knowledge Graph & GEO Platform
+
+Canonical URL: https://www.thomas-bade.de/knowledge-graph/
+Language: de-DE
+Author: Thomas Bade
+
+## Machine-readable resources
+
+- Page inventory: https://www.thomas-bade.de/knowledge-graph/data/pages.json
+- Knowledge graph: https://www.thomas-bade.de/knowledge-graph/data/graph.json
+- Per-page JSON and Markdown: https://www.thomas-bade.de/knowledge-graph/data/exports/
+- Per-page Schema.org JSON-LD: https://www.thomas-bade.de/knowledge-graph/data/jsonld/
+
+The scores are transparent heuristic maturity indicators. They are not ranking guarantees or guarantees of inclusion in AI Overviews.
