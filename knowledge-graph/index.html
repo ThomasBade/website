@@ -24,15 +24,19 @@
   <script>
     window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
     window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
-    plausible.init({
-      endpoint: "/stats/api/event.php",
-      autoCapturePageviews: false,
-      customProperties: {
-        bereich: "Knowledge Graph",
-        seitentyp: "GEO Dashboard"
-      }
-    });
-    plausible("pageview", {url: "https://www.thomas-bade.de/knowledge-graph/"});
+    if (location.hostname === "thomas-bade.de" || location.hostname === "www.thomas-bade.de") {
+      plausible.init({
+        endpoint: "/stats/api/event.php",
+        autoCapturePageviews: false,
+        customProperties: {
+          bereich: "Knowledge Graph",
+          seitentyp: "GEO Dashboard"
+        }
+      });
+      plausible("pageview", {url: "https://www.thomas-bade.de/knowledge-graph/"});
+    } else {
+      plausible.init({autoCapturePageviews: false});
+    }
   </script>
   <link rel="stylesheet" href="styles.css">
 </head>
