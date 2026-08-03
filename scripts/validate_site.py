@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import json
+from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import unquote, urlsplit
 from xml.etree import ElementTree
 
 
@@ -16,6 +18,45 @@ REQUIRED_ROOT_FILES = (
     "llms-full.txt",
     "sitemap.xml",
 )
+
+
+class ImageReferenceParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.sources: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "img":
+            return
+        source = dict(attrs).get("src")
+        if source:
+            self.sources.append(source)
+
+
+def validate_local_images() -> int:
+    checked = 0
+    missing: list[str] = []
+    for html_path in sorted(ROOT.rglob("*.html")):
+        parser = ImageReferenceParser()
+        parser.feed(html_path.read_text(encoding="utf-8", errors="replace"))
+        for source in parser.sources:
+            checked += 1
+            parsed = urlsplit(source)
+            if parsed.scheme in {"http", "https", "data"} or source.startswith("//"):
+                continue
+            local_path = unquote(parsed.path)
+            if not local_path or local_path.startswith("#"):
+                continue
+            target = (
+                ROOT / local_path.lstrip("/")
+                if local_path.startswith("/")
+                else html_path.parent / local_path
+            )
+            if not target.is_file():
+                missing.append(f"{html_path.relative_to(ROOT)}: {source}")
+    if missing:
+        raise SystemExit("Missing local image references:\n" + "\n".join(missing))
+    return checked
 
 
 def main() -> None:
@@ -39,7 +80,11 @@ def main() -> None:
     if page_count != 52:
         raise SystemExit(f"Expected 52 page records, found {page_count}")
 
-    print(f"Validated {len(json_files)} JSON files, sitemap.xml and {page_count} pages.")
+    image_count = validate_local_images()
+    print(
+        f"Validated {len(json_files)} JSON files, sitemap.xml, "
+        f"{page_count} pages and {image_count} image references."
+    )
 
 
 if __name__ == "__main__":

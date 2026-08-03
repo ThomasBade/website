@@ -4,6 +4,7 @@ Alle wesentlichen Änderungen an Datenmodell, Exporten und Veröffentlichungspro
 
 ## 1.0.0 – 2026-08-03
 
+- Fehlende Bilddateien und falsche Bildpfade auf 17 HTML-Seiten korrigiert; Deployment-Prüfung für lokale Bildverweise ergänzt.
 - Quellcode und Knowledge-Graph-Daten unter CC BY-NC-SA 4.0 gestellt und Nutzungsbedingungen ergänzt.
 - Dashboard-Datenstand auf den aktuellen Plattformstand gesetzt und veraltete Browser-Caches für Graph-Daten ausgeschlossen.
 - Lokalen Quellpfad aus den öffentlich ausgelieferten Graph-Metadaten entfernt.
