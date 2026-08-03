@@ -21,5 +21,6 @@ Das Repository enthält 52 Fachseiten mit semantischen Verknüpfungen, strukturi
 - GitHub-Zitierfunktion: [`CITATION.cff`](CITATION.cff)
 - Bewertungs- und Datenmethodik: [`METHODOLOGY.md`](METHODOLOGY.md)
 - Änderungen: [`CHANGELOG.md`](CHANGELOG.md)
+- Nutzungsbedingungen: [`LICENSE.md`](LICENSE.md) – CC BY-NC-SA 4.0
 
 Die Veröffentlichung erfolgt automatisiert über GitHub Actions und GitHub Pages. Inhaltlich maßgeblich sind die kanonischen URLs unter `www.thomas-bade.de`.
