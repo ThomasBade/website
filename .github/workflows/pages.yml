@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+      - name: Validate GEO data and discovery files
+        run: python scripts/validate_site.py
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static site

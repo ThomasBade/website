@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Bitte zitieren Sie die Thomas Bade Knowledge Graph & GEO Platform mit Autor und kanonischer URL."
+title: "Thomas Bade Knowledge Graph & GEO Platform"
+type: dataset
+authors:
+  - family-names: "Bade"
+    given-names: "Thomas"
+version: "1.0.0"
+date-released: 2026-08-03
+url: "https://www.thomas-bade.de/knowledge-graph/"
+repository-code: "https://github.com/ThomasBade/website"
+keywords:
+  - "AI Governance"
+  - "EU AI Act"
+  - "ISO/IEC 42001"
+  - "Knowledge Graph"
+  - "Generative Engine Optimization"
+  - "Digital Health"
+abstract: >-
+  Eine deutschsprachige, maschinenlesbare Wissensplattform mit Fachseiten,
+  semantischen Beziehungen, JSON-LD sowie JSON- und Markdown-Exporten zu
+  KI-Governance im Gesundheits- und Sozialwesen.

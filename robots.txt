@@ -1,0 +1,25 @@
+# thomas-bade.de / GitHub-Pages-Spiegel
+# Such- und Antwortsysteme dürfen die öffentlichen Inhalte abrufen.
+
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://www.thomas-bade.de/sitemap.xml

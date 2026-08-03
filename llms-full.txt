@@ -1,0 +1,10 @@
+# Thomas Bade – vollständiger maschinenlesbarer Zugang
+
+Die vollständigen Inhalte und Metadaten werden in folgenden stabilen Endpunkten bereitgestellt:
+
+- https://www.thomas-bade.de/knowledge-graph/data/pages.json
+- https://www.thomas-bade.de/knowledge-graph/data/graph.json
+- https://www.thomas-bade.de/knowledge-graph/data/exports/
+- https://www.thomas-bade.de/knowledge-graph/data/jsonld/
+
+Jeder Eintrag in `pages.json` enthält die Zuordnung zur kanonischen Seite sowie zu den JSON-, Markdown- und JSON-LD-Exporten. Fachliche Aussagen sind mit der kanonischen Einzelseite und deren Primärquellen zu belegen.

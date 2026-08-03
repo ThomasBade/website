@@ -1,0 +1,23 @@
+# Thomas Bade – Knowledge Graph & GEO Platform
+
+> Deutschsprachige Fachplattform für KI-Governance, EU AI Act, ISO/IEC 42001 und KI im Gesundheits- und Sozialwesen. Autor: Thomas Bade.
+
+## Kanonische Einstiege
+
+- [Website](https://www.thomas-bade.de/): Fachbeiträge und interaktive Werkzeuge
+- [Knowledge Graph](https://www.thomas-bade.de/knowledge-graph/): GEO-Dashboard und semantischer Zugang
+- [Vollständiger LLM-Index](https://www.thomas-bade.de/llms-full.txt): Themen und Ressourcen
+- [Seitendaten](https://www.thomas-bade.de/knowledge-graph/data/pages.json): normalisierte JSON-Daten
+- [Graph](https://www.thomas-bade.de/knowledge-graph/data/graph.json): Knoten und Beziehungen
+
+## Kernthemen
+
+- EU AI Act und KI-Kompetenzpflicht
+- ISO/IEC 42001 und KI-Managementsysteme
+- KI-Risikomanagement, FMEA und Monitoring
+- Digital Health, Pflegeinformatik und soziale Arbeit
+- Kommunale KI-Governance und digitale Transformation
+
+## Zitieren
+
+Bitte Autor, Seitentitel, kanonische URL und das auf der Seite angegebene Änderungsdatum nennen. Die Repository-Zitierdaten stehen in `CITATION.cff`.
