@@ -2,7 +2,8 @@ let pages=[], graph={nodes:[],edges:[]};
 const $=s=>document.querySelector(s), avg=(arr,key)=>Math.round(arr.reduce((a,x)=>a+x[key],0)/(arr.length||1));
 const level=n=>n>=70?'good':n>=50?'mid':'low';
 async function init(){
-  const [pr,gr]=await Promise.all([fetch('data/pages.json').then(r=>r.json()),fetch('data/graph.json').then(r=>r.json())]);
+  const request={cache:'no-store'};
+  const [pr,gr]=await Promise.all([fetch('data/pages.json',request).then(r=>r.json()),fetch('data/graph.json',request).then(r=>r.json())]);
   pages=Array.isArray(pr)?pr:pr.items; graph=gr; fillMetrics(); renderRows(); renderTopics(); drawGraph();
 }
 function fillMetrics(){

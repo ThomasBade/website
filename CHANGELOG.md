@@ -4,6 +4,8 @@ Alle wesentlichen Änderungen an Datenmodell, Exporten und Veröffentlichungspro
 
 ## 1.0.0 – 2026-08-03
 
+- Dashboard-Datenstand auf den aktuellen Plattformstand gesetzt und veraltete Browser-Caches für Graph-Daten ausgeschlossen.
+- Lokalen Quellpfad aus den öffentlich ausgelieferten Graph-Metadaten entfernt.
 - GitHub-Zitierfunktion über `CITATION.cff` ergänzt.
 - Methodik und Grenzen der GEO-Scores dokumentiert.
 - Root-Endpunkte für `robots.txt`, `llms.txt`, `llms-full.txt` und `sitemap.xml` ergänzt.
