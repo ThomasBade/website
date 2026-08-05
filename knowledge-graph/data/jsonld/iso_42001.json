@@ -15,8 +15,8 @@
         "EU AI Act",
         "KI-Kompetenz",
         "KI-Compliance",
-        "KI-Managementsystem",
-        "KI-MIG-konforme"
+        "ISO/IEC",
+        "KI-Managementsystem"
       ]
     },
     {
@@ -36,9 +36,9 @@
       ],
       "@id": "https://www.thomas-bade.de/iso_42001.html#webpage",
       "url": "https://www.thomas-bade.de/iso_42001.html",
-      "headline": "ISO 42001 – KI-Managementsystem | KI-MIG-konforme Nachweisführung",
-      "description": "ISO/IEC 42001:2023 – Vollständige Einführung: Struktur, Kontrollziele (Anhang A), Umsetzungsleitfaden (Anhang B), Ziele & Risikoquellen (Anhang C/D). AIMS als Nachweisinstrument gegenüber der Bundesnetzagentur nach KI-MIG. Vendor-unabhängige KI-Compliance Expertise für das Gesundheits- und Sozialwesen.",
-      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map ISO 42001 KI-Managementsystem Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. 223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland.",
+      "headline": "ISO/IEC 42001 & 42005 – KI-Managementsystem und AI Impact Assessment",
+      "description": "Praxisleitfaden zu ISO/IEC 42001:2023 und ISO/IEC 42005:2025: KI-Managementsystem, AI System Impact Assessment, Governance, Risikomanagement, Kontrollziele und Dokumentationsvorlagen für Gesundheit, Pflege und Sozialwesen.",
+      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map ISO 42001 und 42005 KI-Managementsysteme Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. 223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -84,11 +84,11 @@
         },
         {
           "@type": "Thing",
-          "name": "KI-Managementsystem"
+          "name": "ISO/IEC"
         },
         {
           "@type": "Thing",
-          "name": "KI-MIG-konforme"
+          "name": "KI-Managementsystem"
         }
       ],
       "keywords": [
@@ -100,8 +100,8 @@
         "EU AI Act",
         "KI-Kompetenz",
         "KI-Compliance",
-        "KI-Managementsystem",
-        "KI-MIG-konforme"
+        "ISO/IEC",
+        "KI-Managementsystem"
       ]
     }
   ]

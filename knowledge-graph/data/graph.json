@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-03T07:46:39.498020+00:00",
-    "source": "https://www.thomas-bade.de/",
+    "generated_at": "2026-08-05T12:06:52.435930+00:00",
+    "source": "repository HTML pages",
     "page_count": 52,
     "method": "transparent heuristic v1"
   },
@@ -184,7 +184,7 @@
     {
       "id": "page:iso_42001",
       "type": "page",
-      "label": "ISO 42001 – KI-Managementsystem | KI-MIG-konforme Nachweisführung",
+      "label": "ISO/IEC 42001 & 42005 – KI-Managementsystem und AI Impact Assessment",
       "score": 92,
       "url": "https://www.thomas-bade.de/iso_42001.html"
     },
@@ -797,12 +797,6 @@
       "count": 1
     },
     {
-      "id": "topic:efa100f31b",
-      "type": "topic",
-      "label": "KI-MIG-konforme",
-      "count": 1
-    },
-    {
       "id": "topic:15f4029129",
       "type": "topic",
       "label": "Artikel",
@@ -1094,6 +1088,12 @@
       "id": "topic:54f24ef5b0",
       "type": "topic",
       "label": "Forschung",
+      "count": 1
+    },
+    {
+      "id": "topic:0828a84086",
+      "type": "topic",
+      "label": "ISO/IEC",
       "count": 1
     }
   ],
@@ -4740,12 +4740,12 @@
     },
     {
       "source": "page:iso_42001",
-      "target": "topic:e1cd17eb3d",
+      "target": "topic:0828a84086",
       "type": "about"
     },
     {
       "source": "page:iso_42001",
-      "target": "topic:efa100f31b",
+      "target": "topic:e1cd17eb3d",
       "type": "about"
     },
     {
