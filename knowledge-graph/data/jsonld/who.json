@@ -8,15 +8,15 @@
       "url": "https://www.thomas-bade.de/",
       "knowsAbout": [
         "Patientenzentrierung",
-        "Health",
         "Risikomanagement",
         "EU AI Act",
-        "KI-Governance",
-        "World",
-        "Organization",
-        "Digital",
         "Pflege",
-        "DSGVO"
+        "KI-Governance",
+        "WHODAS",
+        "Assessment",
+        "Scoring",
+        "Thomas",
+        "Gesundheitswesen"
       ]
     },
     {
@@ -36,8 +36,8 @@
       ],
       "@id": "https://www.thomas-bade.de/who.html#webpage",
       "url": "https://www.thomas-bade.de/who.html",
-      "headline": "World Health Organization (WHO) und Digital Health",
-      "description": "Thomas Bade berät als KI-Compliance Experte Krankenhäuser, Pflegeeinrichtungen und Organisationen bei EU AI Act, MDR-Compliance und strategischer KI-Implementierung im Gesundheitswesen.",
+      "headline": "WHODAS 2.0: Assessment, ICF & Scoring | Thomas Bade",
+      "description": "WHODAS 2.0 verständlich erklärt: 36- und 12-Item-Version, sechs ICF-Domänen, Durchführung, einfaches und IRT-basiertes Scoring sowie Praxiseinsatz.",
       "abstract": "Die WHO-Klassifizierung etabliert ein bewährtes Ordnungssystem für digitale Gesundheitslösungen – von der Bedarfsanalyse über Funktionsdefinition bis zur Systemzuordnung. Das Ergebnis: vergleichbare Investitionen, interoperable Architekturen und transparente Portfolios.",
       "inLanguage": "de-DE",
       "author": {
@@ -56,10 +56,6 @@
         },
         {
           "@type": "Thing",
-          "name": "Health"
-        },
-        {
-          "@type": "Thing",
           "name": "Risikomanagement"
         },
         {
@@ -68,40 +64,44 @@
         },
         {
           "@type": "Thing",
-          "name": "KI-Governance"
-        },
-        {
-          "@type": "Thing",
-          "name": "World"
-        },
-        {
-          "@type": "Thing",
-          "name": "Organization"
-        },
-        {
-          "@type": "Thing",
-          "name": "Digital"
-        },
-        {
-          "@type": "Thing",
           "name": "Pflege"
         },
         {
           "@type": "Thing",
-          "name": "DSGVO"
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "WHODAS"
+        },
+        {
+          "@type": "Thing",
+          "name": "Assessment"
+        },
+        {
+          "@type": "Thing",
+          "name": "Scoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Thomas"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
         }
       ],
       "keywords": [
         "Patientenzentrierung",
-        "Health",
         "Risikomanagement",
         "EU AI Act",
-        "KI-Governance",
-        "World",
-        "Organization",
-        "Digital",
         "Pflege",
-        "DSGVO"
+        "KI-Governance",
+        "WHODAS",
+        "Assessment",
+        "Scoring",
+        "Thomas",
+        "Gesundheitswesen"
       ]
     }
   ]

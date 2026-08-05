@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-05T12:06:52.435930+00:00",
+    "generated_at": "2026-08-05T15:04:17.594644+00:00",
     "source": "repository HTML pages",
     "page_count": 52,
     "method": "transparent heuristic v1"
@@ -352,8 +352,8 @@
     {
       "id": "page:who",
       "type": "page",
-      "label": "World Health Organization (WHO) und Digital Health",
-      "score": 86,
+      "label": "WHODAS 2.0: Assessment, ICF & Scoring | Thomas Bade",
+      "score": 100,
       "url": "https://www.thomas-bade.de/who.html"
     },
     {
@@ -380,7 +380,7 @@
       "id": "topic:9913249b30",
       "type": "topic",
       "label": "Gesundheitswesen",
-      "count": 32
+      "count": 33
     },
     {
       "id": "topic:3406d9b84c",
@@ -398,7 +398,7 @@
       "id": "topic:05ebe08362",
       "type": "topic",
       "label": "DSGVO",
-      "count": 13
+      "count": 12
     },
     {
       "id": "topic:3da775df8d",
@@ -524,7 +524,7 @@
       "id": "topic:2042101ac1",
       "type": "topic",
       "label": "Thomas",
-      "count": 4
+      "count": 5
     },
     {
       "id": "topic:ec8316aafa",
@@ -752,7 +752,7 @@
       "id": "topic:605669cab9",
       "type": "topic",
       "label": "Health",
-      "count": 3
+      "count": 2
     },
     {
       "id": "topic:ee2b398667",
@@ -926,7 +926,7 @@
       "id": "topic:0bb8309239",
       "type": "topic",
       "label": "Digital",
-      "count": 3
+      "count": 2
     },
     {
       "id": "topic:c567a01ec0",
@@ -1067,18 +1067,6 @@
       "count": 1
     },
     {
-      "id": "topic:f5a7924e62",
-      "type": "topic",
-      "label": "World",
-      "count": 1
-    },
-    {
-      "id": "topic:d6b258792f",
-      "type": "topic",
-      "label": "Organization",
-      "count": 1
-    },
-    {
       "id": "topic:5db9dcbfec",
       "type": "topic",
       "label": "Wissensmanagement",
@@ -1094,6 +1082,24 @@
       "id": "topic:0828a84086",
       "type": "topic",
       "label": "ISO/IEC",
+      "count": 1
+    },
+    {
+      "id": "topic:377de899db",
+      "type": "topic",
+      "label": "WHODAS",
+      "count": 1
+    },
+    {
+      "id": "topic:29a9929895",
+      "type": "topic",
+      "label": "Assessment",
+      "count": 1
+    },
+    {
+      "id": "topic:983f54421c",
+      "type": "topic",
+      "label": "Scoring",
       "count": 1
     }
   ],
@@ -8150,11 +8156,6 @@
     },
     {
       "source": "page:who",
-      "target": "topic:605669cab9",
-      "type": "about"
-    },
-    {
-      "source": "page:who",
       "target": "topic:97ea1707a3",
       "type": "about"
     },
@@ -8165,32 +8166,37 @@
     },
     {
       "source": "page:who",
-      "target": "topic:dc179b52fb",
-      "type": "about"
-    },
-    {
-      "source": "page:who",
-      "target": "topic:f5a7924e62",
-      "type": "about"
-    },
-    {
-      "source": "page:who",
-      "target": "topic:d6b258792f",
-      "type": "about"
-    },
-    {
-      "source": "page:who",
-      "target": "topic:0bb8309239",
-      "type": "about"
-    },
-    {
-      "source": "page:who",
       "target": "topic:e79e89b9cc",
       "type": "about"
     },
     {
       "source": "page:who",
-      "target": "topic:05ebe08362",
+      "target": "topic:dc179b52fb",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:377de899db",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:29a9929895",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:983f54421c",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:2042101ac1",
+      "type": "about"
+    },
+    {
+      "source": "page:who",
+      "target": "topic:9913249b30",
       "type": "about"
     },
     {

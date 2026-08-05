@@ -1,13 +1,13 @@
 ---
-title: "World Health Organization (WHO) und Digital Health"
+title: "WHODAS 2.0: Assessment, ICF & Scoring | Thomas Bade"
 url: https://www.thomas-bade.de/who.html
-seo_score: 76
-geo_score: 86
-ai_overview_probability: 68
-topics: ["Patientenzentrierung", "Health", "Risikomanagement", "EU AI Act", "KI-Governance", "World", "Organization", "Digital", "Pflege", "DSGVO"]
+seo_score: 100
+geo_score: 100
+ai_overview_probability: 82
+topics: ["Patientenzentrierung", "Risikomanagement", "EU AI Act", "Pflege", "KI-Governance", "WHODAS", "Assessment", "Scoring", "Thomas", "Gesundheitswesen"]
 ---
 
-# World Health Organization (WHO) und Digital Health
+# WHODAS 2.0: Assessment, ICF & Scoring | Thomas Bade
 
 ## Zitierfähige Kurzfassung
 
@@ -15,4 +15,4 @@ Die WHO-Klassifizierung etabliert ein bewährtes Ordnungssystem für digitale Ge
 
 ## Fachbegriffe
 
-Patientenzentrierung, Health, Risikomanagement, EU AI Act, KI-Governance, World, Organization, Digital, Pflege, DSGVO
+Patientenzentrierung, Risikomanagement, EU AI Act, Pflege, KI-Governance, WHODAS, Assessment, Scoring, Thomas, Gesundheitswesen

@@ -4,24 +4,24 @@
   "filename": "who.html",
   "url": "https://www.thomas-bade.de/who.html",
   "canonical": "https://www.thomas-bade.de/who.html",
-  "title": "World Health Organization (WHO) und Digital Health",
-  "description": "Thomas Bade berät als KI-Compliance Experte Krankenhäuser, Pflegeeinrichtungen und Organisationen bei EU AI Act, MDR-Compliance und strategischer KI-Implementierung im Gesundheitswesen.",
+  "title": "WHODAS 2.0: Assessment, ICF & Scoring | Thomas Bade",
+  "description": "WHODAS 2.0 verständlich erklärt: 36- und 12-Item-Version, sechs ICF-Domänen, Durchführung, einfaches und IRT-basiertes Scoring sowie Praxiseinsatz.",
   "summary": "Die WHO-Klassifizierung etabliert ein bewährtes Ordnungssystem für digitale Gesundheitslösungen – von der Bedarfsanalyse über Funktionsdefinition bis zur Systemzuordnung. Das Ergebnis: vergleichbare Investitionen, interoperable Architekturen und transparente Portfolios.",
   "topics": [
     "Patientenzentrierung",
-    "Health",
     "Risikomanagement",
     "EU AI Act",
-    "KI-Governance",
-    "World",
-    "Organization",
-    "Digital",
     "Pflege",
-    "DSGVO"
+    "KI-Governance",
+    "WHODAS",
+    "Assessment",
+    "Scoring",
+    "Thomas",
+    "Gesundheitswesen"
   ],
-  "word_count": 1331,
-  "heading_count": 4,
-  "h1_count": 0,
+  "word_count": 2487,
+  "heading_count": 7,
+  "h1_count": 1,
   "internal_links": 18,
   "linked_pages": [
     "arise",
@@ -43,23 +43,23 @@
     "termine",
     "wissenschaft"
   ],
-  "existing_jsonld": 1,
+  "existing_jsonld": 2,
   "has_og": true,
-  "citation_signals": 0,
+  "citation_signals": 2,
   "question_headings": 1,
-  "structured_blocks": 13,
+  "structured_blocks": 22,
   "author_signal": true,
-  "content_hash": "fba5555a6129a35c",
-  "seo_score": 76,
-  "geo_score": 86,
-  "ai_overview_probability": 68,
+  "content_hash": "5cc50966194b0329",
+  "seo_score": 100,
+  "geo_score": 100,
+  "ai_overview_probability": 82,
   "maturity": "führend",
   "seo_checks": {
     "Titel vorhanden": true,
     "Titellänge 30–65": true,
-    "Meta-Beschreibung": false,
+    "Meta-Beschreibung": true,
     "Canonical URL": true,
-    "Genau eine Inhalts-H1": false,
+    "Genau eine Inhalts-H1": true,
     "Ausreichende Substanz": true,
     "Interne Links": true,
     "Open Graph": true,
@@ -69,7 +69,7 @@
     "Direkte Zusammenfassung": true,
     "Klare Überschriften": true,
     "Entitäten und Fachbegriffe": true,
-    "Quellen-/Literaturhinweise": false,
+    "Quellen-/Literaturhinweise": true,
     "Frage-Antwort-Struktur": true,
     "Listen/Tabellen": true,
     "Autor-/Vertrauenssignal": true,
@@ -87,15 +87,15 @@
         "url": "https://www.thomas-bade.de/",
         "knowsAbout": [
           "Patientenzentrierung",
-          "Health",
           "Risikomanagement",
           "EU AI Act",
-          "KI-Governance",
-          "World",
-          "Organization",
-          "Digital",
           "Pflege",
-          "DSGVO"
+          "KI-Governance",
+          "WHODAS",
+          "Assessment",
+          "Scoring",
+          "Thomas",
+          "Gesundheitswesen"
         ]
       },
       {
@@ -115,8 +115,8 @@
         ],
         "@id": "https://www.thomas-bade.de/who.html#webpage",
         "url": "https://www.thomas-bade.de/who.html",
-        "headline": "World Health Organization (WHO) und Digital Health",
-        "description": "Thomas Bade berät als KI-Compliance Experte Krankenhäuser, Pflegeeinrichtungen und Organisationen bei EU AI Act, MDR-Compliance und strategischer KI-Implementierung im Gesundheitswesen.",
+        "headline": "WHODAS 2.0: Assessment, ICF & Scoring | Thomas Bade",
+        "description": "WHODAS 2.0 verständlich erklärt: 36- und 12-Item-Version, sechs ICF-Domänen, Durchführung, einfaches und IRT-basiertes Scoring sowie Praxiseinsatz.",
         "abstract": "Die WHO-Klassifizierung etabliert ein bewährtes Ordnungssystem für digitale Gesundheitslösungen – von der Bedarfsanalyse über Funktionsdefinition bis zur Systemzuordnung. Das Ergebnis: vergleichbare Investitionen, interoperable Architekturen und transparente Portfolios.",
         "inLanguage": "de-DE",
         "author": {
@@ -135,10 +135,6 @@
           },
           {
             "@type": "Thing",
-            "name": "Health"
-          },
-          {
-            "@type": "Thing",
             "name": "Risikomanagement"
           },
           {
@@ -147,40 +143,44 @@
           },
           {
             "@type": "Thing",
-            "name": "KI-Governance"
-          },
-          {
-            "@type": "Thing",
-            "name": "World"
-          },
-          {
-            "@type": "Thing",
-            "name": "Organization"
-          },
-          {
-            "@type": "Thing",
-            "name": "Digital"
-          },
-          {
-            "@type": "Thing",
             "name": "Pflege"
           },
           {
             "@type": "Thing",
-            "name": "DSGVO"
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "WHODAS"
+          },
+          {
+            "@type": "Thing",
+            "name": "Assessment"
+          },
+          {
+            "@type": "Thing",
+            "name": "Scoring"
+          },
+          {
+            "@type": "Thing",
+            "name": "Thomas"
+          },
+          {
+            "@type": "Thing",
+            "name": "Gesundheitswesen"
           }
         ],
         "keywords": [
           "Patientenzentrierung",
-          "Health",
           "Risikomanagement",
           "EU AI Act",
-          "KI-Governance",
-          "World",
-          "Organization",
-          "Digital",
           "Pflege",
-          "DSGVO"
+          "KI-Governance",
+          "WHODAS",
+          "Assessment",
+          "Scoring",
+          "Thomas",
+          "Gesundheitswesen"
         ]
       }
     ]
