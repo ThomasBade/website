@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.thomas-bade.de/knowledge-graph/data/schemas/pages.schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "slug",
+      "canonical",
+      "title",
+      "summary",
+      "topics",
+      "seo_score",
+      "geo_score",
+      "ai_overview_probability"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "2.0.0",
+  "baseUri": "https://www.thomas-bade.de/id/",
+  "scope": "KI-Governance, Gesundheitswesen, Pflege, Sozialwirtschaft und generative Suche",
+  "classes": [
+    {
+      "id": "https://www.thomas-bade.de/id/class/contentpage",
+      "label": "ContentPage"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/contentpagealias",
+      "label": "ContentPageAlias"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/document",
+      "label": "Document"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/standard",
+      "label": "Standard"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/legalact",
+      "label": "LegalAct"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/requirement",
+      "label": "Requirement"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/assessment",
+      "label": "Assessment"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/organization",
+      "label": "Organization"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/aiapplication",
+      "label": "AIApplication"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/technology",
+      "label": "Technology"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/process",
+      "label": "Process"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/evidence",
+      "label": "Evidence"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/outcome",
+      "label": "Outcome"
+    }
+  ],
+  "relations": [
+    {
+      "id": "about",
+      "uri": "https://schema.org/about",
+      "label": "behandelt Fachbegriff",
+      "status": "productive"
+    },
+    {
+      "id": "linksTo",
+      "uri": "https://www.thomas-bade.de/vocab/referencesPage",
+      "label": "verweist auf Seite",
+      "status": "productive"
+    },
+    {
+      "id": "requires",
+      "uri": "https://www.thomas-bade.de/vocab/requires",
+      "label": "fordert",
+      "status": "reserved"
+    },
+    {
+      "id": "appliesTo",
+      "uri": "https://www.thomas-bade.de/vocab/appliesTo",
+      "label": "gilt für",
+      "status": "reserved"
+    },
+    {
+      "id": "basedOn",
+      "uri": "https://www.thomas-bade.de/vocab/basedOn",
+      "label": "basiert auf",
+      "status": "reserved"
+    },
+    {
+      "id": "measures",
+      "uri": "https://www.thomas-bade.de/vocab/measures",
+      "label": "misst",
+      "status": "reserved"
+    },
+    {
+      "id": "implementedBy",
+      "uri": "https://www.thomas-bade.de/vocab/implementedBy",
+      "label": "wird umgesetzt durch",
+      "status": "reserved"
+    },
+    {
+      "id": "evidencedBy",
+      "uri": "https://www.thomas-bade.de/vocab/evidencedBy",
+      "label": "wird nachgewiesen durch",
+      "status": "reserved"
+    },
+    {
+      "id": "replaces",
+      "uri": "https://schema.org/supersedes",
+      "label": "ersetzt",
+      "status": "reserved"
+    },
+    {
+      "id": "supplements",
+      "uri": "https://www.thomas-bade.de/vocab/supplements",
+      "label": "ergänzt",
+      "status": "reserved"
+    }
+  ],
+  "edgeStatusModel": [
+    "asserted",
+    "extracted",
+    "inferred",
+    "reviewed",
+    "rejected",
+    "deprecated"
+  ],
+  "publicationRule": "Inferred relations require human review before publication as fact."
+}

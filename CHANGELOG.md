@@ -1,5 +1,15 @@
 # Änderungsprotokoll
 
+## 2.0.0 - 2026-08-06
+
+- Stabile URIs für Seiten- und Begriffsknoten ergänzt.
+- Kontrolliertes Vokabular, Synonymregister, Klassen- und Relationskatalog veröffentlicht.
+- Alle produktiven Kanten um eindeutige IDs, Prädikate, Status, Konfidenz und Provenienz erweitert.
+- Ungeprüfte Inferenz technisch von der Veröffentlichung als Fakt ausgeschlossen.
+- Dataset-JSON-LD, Turtle/RDF, JSON Schemas, SHACL-Grundregeln und statischen Agenten-Endpunkt ergänzt.
+- Build-Manifest mit SHA-256-Prüfsummen und erweiterte CI-Validierung eingeführt.
+- Dashboard um semantische und provenancebezogene Endpunkte erweitert.
+
 Alle wesentlichen Änderungen an Datenmodell, Exporten und Veröffentlichungsprozess werden hier dokumentiert.
 
 ## 1.0.0 – 2026-08-03

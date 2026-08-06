@@ -6,5 +6,11 @@ Die vollständigen Inhalte und Metadaten werden in folgenden stabilen Endpunkten
 - https://www.thomas-bade.de/knowledge-graph/data/graph.json
 - https://www.thomas-bade.de/knowledge-graph/data/exports/
 - https://www.thomas-bade.de/knowledge-graph/data/jsonld/
+- https://www.thomas-bade.de/knowledge-graph/api/v1/index.json
+- https://www.thomas-bade.de/knowledge-graph/data/vocabulary.json
+- https://www.thomas-bade.de/knowledge-graph/data/ontology.json
+- https://www.thomas-bade.de/knowledge-graph/data/dataset.jsonld
+- https://www.thomas-bade.de/knowledge-graph/data/graph.ttl
+- https://www.thomas-bade.de/knowledge-graph/data/build-manifest.json
 
-Jeder Eintrag in `pages.json` enthält die Zuordnung zur kanonischen Seite sowie zu den JSON-, Markdown- und JSON-LD-Exporten. Fachliche Aussagen sind mit der kanonischen Einzelseite und deren Primärquellen zu belegen.
+Jeder Eintrag in `pages.json` enthält die Zuordnung zur kanonischen Seite sowie zu den JSON-, Markdown- und JSON-LD-Exporten. Jede produktive Graphkante weist Prädikat, Status, Konfidenz und Provenienz aus. Fachliche Aussagen sind mit der kanonischen Einzelseite und deren Primärquellen zu belegen; ungeprüfte maschinelle Inferenz ist nicht als bestätigter Fakt zu behandeln.

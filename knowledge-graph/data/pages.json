@@ -77,7 +77,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:ai_monitoring",
@@ -157,7 +158,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:ai_sweden",
@@ -237,7 +239,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:arise",
@@ -317,7 +320,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:bmg",
@@ -417,7 +421,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:calster",
@@ -498,7 +503,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:claude",
@@ -578,7 +584,8 @@
       "Schema-Abdeckung": false,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:coach",
@@ -657,7 +664,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:constitution",
@@ -737,7 +745,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:control_panel",
@@ -817,7 +826,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:control_quartier",
@@ -898,7 +908,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:decoding",
@@ -982,7 +993,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:dikw",
@@ -1064,7 +1076,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:downloads",
@@ -1144,7 +1157,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:em_ki",
@@ -1225,7 +1239,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:enquete",
@@ -1305,7 +1320,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:esf",
@@ -1391,7 +1407,8 @@
       "Schema-Abdeckung": false,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:esf_de",
@@ -1472,7 +1489,8 @@
       "Schema-Abdeckung": false,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:europe",
@@ -1550,7 +1568,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:fmea",
@@ -1630,7 +1649,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:GPAI",
@@ -1710,7 +1730,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:gpt",
@@ -1790,7 +1811,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:haip",
@@ -1870,7 +1892,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:impressum",
@@ -1931,7 +1954,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": false,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:index",
@@ -2017,7 +2041,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:iso_42001",
@@ -2097,7 +2122,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:ki_kompetenzpflicht",
@@ -2177,7 +2203,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:ki_verordnung",
@@ -2258,7 +2285,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:kidelir",
@@ -2338,7 +2366,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:kompetenz",
@@ -2418,7 +2447,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:leitbild",
@@ -2499,7 +2529,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:literatur",
@@ -2579,7 +2610,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:mdr_ki",
@@ -2661,7 +2693,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:medlog",
@@ -2741,7 +2774,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:mission",
@@ -2821,7 +2855,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:nursing",
@@ -2902,7 +2937,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:oecd",
@@ -2982,7 +3018,9 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "duplicate-alias",
+    "canonical_entity": "https://www.thomas-bade.de/stanford.html#knowledge-graph-node"
   },
   {
     "id": "page:patient",
@@ -3062,7 +3100,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:portal",
@@ -3142,7 +3181,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:praevention",
@@ -3222,7 +3262,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:risk",
@@ -3302,7 +3343,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:sitemap",
@@ -3414,7 +3456,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:soziale_arbeit",
@@ -3494,7 +3537,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:stanford",
@@ -3574,7 +3618,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:termin-answer",
@@ -3643,7 +3688,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:termine",
@@ -3712,7 +3758,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:tripod",
@@ -3792,7 +3839,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:undp",
@@ -3872,7 +3920,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:vendor",
@@ -3952,7 +4001,8 @@
       "Schema-Abdeckung": false,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:who",
@@ -4032,7 +4082,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:wissen",
@@ -4110,7 +4161,8 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   },
   {
     "id": "page:wissenschaft",
@@ -4190,6 +4242,7 @@
       "Schema-Abdeckung": true,
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
-    }
+    },
+    "content_status": "published"
   }
 ]

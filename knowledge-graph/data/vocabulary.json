@@ -1,0 +1,882 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "https://www.thomas-bade.de/knowledge-graph/data/vocabulary.json",
+  "definedTermSet": "https://www.thomas-bade.de/id/defined-term-set/thomas-bade-knowledge-graph",
+  "classes": [
+    {
+      "id": "https://www.thomas-bade.de/id/class/contentpage",
+      "label": "ContentPage"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/contentpagealias",
+      "label": "ContentPageAlias"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/document",
+      "label": "Document"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/standard",
+      "label": "Standard"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/legalact",
+      "label": "LegalAct"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/requirement",
+      "label": "Requirement"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/assessment",
+      "label": "Assessment"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/organization",
+      "label": "Organization"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/aiapplication",
+      "label": "AIApplication"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/technology",
+      "label": "Technology"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/process",
+      "label": "Process"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/evidence",
+      "label": "Evidence"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/class/outcome",
+      "label": "Outcome"
+    }
+  ],
+  "relations": [
+    {
+      "id": "about",
+      "uri": "https://schema.org/about",
+      "label": "behandelt Fachbegriff",
+      "status": "productive"
+    },
+    {
+      "id": "linksTo",
+      "uri": "https://www.thomas-bade.de/vocab/referencesPage",
+      "label": "verweist auf Seite",
+      "status": "productive"
+    },
+    {
+      "id": "requires",
+      "uri": "https://www.thomas-bade.de/vocab/requires",
+      "label": "fordert",
+      "status": "reserved"
+    },
+    {
+      "id": "appliesTo",
+      "uri": "https://www.thomas-bade.de/vocab/appliesTo",
+      "label": "gilt für",
+      "status": "reserved"
+    },
+    {
+      "id": "basedOn",
+      "uri": "https://www.thomas-bade.de/vocab/basedOn",
+      "label": "basiert auf",
+      "status": "reserved"
+    },
+    {
+      "id": "measures",
+      "uri": "https://www.thomas-bade.de/vocab/measures",
+      "label": "misst",
+      "status": "reserved"
+    },
+    {
+      "id": "implementedBy",
+      "uri": "https://www.thomas-bade.de/vocab/implementedBy",
+      "label": "wird umgesetzt durch",
+      "status": "reserved"
+    },
+    {
+      "id": "evidencedBy",
+      "uri": "https://www.thomas-bade.de/vocab/evidencedBy",
+      "label": "wird nachgewiesen durch",
+      "status": "reserved"
+    },
+    {
+      "id": "replaces",
+      "uri": "https://schema.org/supersedes",
+      "label": "ersetzt",
+      "status": "reserved"
+    },
+    {
+      "id": "supplements",
+      "uri": "https://www.thomas-bade.de/vocab/supplements",
+      "label": "ergänzt",
+      "status": "reserved"
+    }
+  ],
+  "terms": [
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/f679e01a69740bdf",
+      "label": "Agentic AI",
+      "synonyms": [],
+      "usageCount": 4
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84",
+      "label": "Gesundheitswesen",
+      "synonyms": [],
+      "usageCount": 33
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/55d230ca9e9e0f24",
+      "label": "EU AI Act",
+      "synonyms": [
+        "AI Act",
+        "EU-KI-Verordnung",
+        "KI-Verordnung",
+        "Verordnung (EU) 2024/1689"
+      ],
+      "usageCount": 42
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2",
+      "label": "KI-Governance",
+      "synonyms": [],
+      "usageCount": 41
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/e4eee33cc466fc5a",
+      "label": "DSGVO",
+      "synonyms": [
+        "GDPR",
+        "Datenschutz-Grundverordnung",
+        "Verordnung (EU) 2016/679"
+      ],
+      "usageCount": 12
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/f624fcf0dcbb39c0",
+      "label": "Datenschutz",
+      "synonyms": [],
+      "usageCount": 24
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/d520d22ef5fbcfb1",
+      "label": "Risikomanagement",
+      "synonyms": [],
+      "usageCount": 34
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7a19ba42f98e9b2d",
+      "label": "Medizinprodukte",
+      "synonyms": [
+        "MDR",
+        "Medical Device Regulation",
+        "Verordnung (EU) 2017/745"
+      ],
+      "usageCount": 17
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/1b555c72bbe6f2ee",
+      "label": "Patientenzentrierung",
+      "synonyms": [],
+      "usageCount": 24
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7d76cc36a84312eb",
+      "label": "KI-Monitoring",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/1dc83f605edf0ae2",
+      "label": "Monitoring",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/a9386d3e8b5790f2",
+      "label": "Pflege",
+      "synonyms": [],
+      "usageCount": 31
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/36b9f42a9a662953",
+      "label": "KI-Compliance",
+      "synonyms": [],
+      "usageCount": 18
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b66ffeb78dac6526",
+      "label": "Regelbetrieb",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/2edaa855579bd892",
+      "label": "KI-Kompetenz",
+      "synonyms": [
+        "AI Literacy",
+        "KI literacy"
+      ],
+      "usageCount": 28
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/ec75f79040af1755",
+      "label": "Leadership",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/a3b50c476732c740",
+      "label": "State",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/94b7ace2708b3b33",
+      "label": "Clinical",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b6ce788d9786917c",
+      "label": "Report",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/f0b7293c26c20ffb",
+      "label": "Klinische",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/86f8a694159b712f",
+      "label": "Governance",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/d3b4ae7b16dbbb63",
+      "label": "FMEA",
+      "synonyms": [],
+      "usageCount": 6
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/e3c303fbd747c768",
+      "label": "Validierte",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/062d259dce6e35ec",
+      "label": "Vorhersagemodelle",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/6c4dc48c7ef6591a",
+      "label": "Kompetenz-Readiness",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc",
+      "label": "Thomas",
+      "synonyms": [],
+      "usageCount": 5
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/aea2f6f865c95345",
+      "label": "KI-Produktivitätsanalyse",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/77b666a260a0e388",
+      "label": "Erkenntnissen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/c6eaacfca3d15e80",
+      "label": "Anthropic-Studie",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b1a03b358fed478e",
+      "label": "Menschen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/440082f1e97fe050",
+      "label": "befähigen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/edd1cbfa5e7c5436",
+      "label": "verantwortungsvoll",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/0615570f9ea13694",
+      "label": "Claude",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/5bcec8e5566641fd",
+      "label": "Verfassung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/ff1101f41674038d",
+      "label": "Ethische",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/488b975cda8d3f53",
+      "label": "KI-Prinzipien",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/32d7e82082479b8c",
+      "label": "Control",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/d0d91173008b6f83",
+      "label": "Panel",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/bc0ecaf970c01ad4",
+      "label": "Entlassmanagement",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b0be1e5aefb05e3f",
+      "label": "Kommunale",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/af30751561b04836",
+      "label": "Versorgungsstrukturen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/9c43c68ba18f5040",
+      "label": "analysieren",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/11137c233eae62c9",
+      "label": "Quartiersmanagement",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/c496d148eef9edd3",
+      "label": "Prävention",
+      "synonyms": [],
+      "usageCount": 4
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/3f1ae26cd98e13a3",
+      "label": "DecodingTrust",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/1c366e60ef51cc36",
+      "label": "Vertrauenswürdigkeit",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/cdb465f558f18056",
+      "label": "GPT-Modellen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/ce7a8441d4e3f226",
+      "label": "ISO/IEC 42001",
+      "synonyms": [
+        "ISO 42001",
+        "AIMS-Norm",
+        "AI Management System Standard"
+      ],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/00903fc4a62077bb",
+      "label": "KI-Ethik",
+      "synonyms": [],
+      "usageCount": 7
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/d5fdc1af021e2d36",
+      "label": "Downloads",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/e8f5c44b2217de2a",
+      "label": "KI-Lernformate",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/073765018b89550b",
+      "label": "Künstliche Intelligenz",
+      "synonyms": [
+        "KI",
+        "Artificial Intelligence",
+        "AI"
+      ],
+      "usageCount": 12
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/cbf2b80453caef21",
+      "label": "Enquete-Kommission",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/6d2f8dfc44dd4e85",
+      "label": "Künstliche",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/df0b776ac1a393ab",
+      "label": "Intelligenz",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/eadf716f50f83416",
+      "label": "Wissenschaft",
+      "synonyms": [],
+      "usageCount": 7
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/cde573cbef0e6c71",
+      "label": "Bundesländer",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/70d09eb3e1f74a99",
+      "label": "KI-Qualifizierung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/dde8bef78cbb7206",
+      "label": "Transfer",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/3e3c1e5eb3edae24",
+      "label": "Gesundheitsinvestitionen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/fc30e2a579cdb971",
+      "label": "Europa",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/389fdf62a9a9e5da",
+      "label": "Innovation",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/4acd5e0ea21a594b",
+      "label": "Value-based",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/55898449eb74fb2e",
+      "label": "Health",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/1f1f1320947fd09e",
+      "label": "GPAI-Modelle",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/ba59c49f9c09513b",
+      "label": "Compliance-Checkliste",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/980a3d089aca53e7",
+      "label": "Krankenhäuser",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b8a6051923e6a649",
+      "label": "Impressum",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/0b9172f0aeffb387",
+      "label": "Digitale",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/1f8c886e5d0001fd",
+      "label": "Souveränität",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/071b28e91a67cf52",
+      "label": "KI-Managementsystem",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/4435fcc2e763d6b8",
+      "label": "Artikel",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/cc74691f3fc234c9",
+      "label": "Arbeitgeberpflicht",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/0655fdae081eb578",
+      "label": "KI-Verordnung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/85a1088f1c7b992a",
+      "label": "KI-MIG",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/24de8f5e13920c06",
+      "label": "Partizipative",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/1e016fa77fd52510",
+      "label": "KI-Entwicklung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/8a2cad3de1869962",
+      "label": "Pflegekontext",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/71cd4f793ebb0da4",
+      "label": "KIDELIR",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/3c94911cbb1a1d78",
+      "label": "Studie",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/c96d323a690fc942",
+      "label": "BAPID",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/e52f30170c6308bb",
+      "label": "MEESTAR",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/ab242651b32579eb",
+      "label": "Checkliste",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b9aa0175eb533255",
+      "label": "Leitbild",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/4aebf40ea1bcdfcf",
+      "label": "Europäische",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/a7514a69d22b5106",
+      "label": "Verordnung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/dc3dbe972ef1ed1a",
+      "label": "MedLog",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/1eece5150cf0f33d",
+      "label": "Protokollierung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b8006e2475c5454e",
+      "label": "klinischer",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/bc057b1aaf267772",
+      "label": "Aufbewahrungspflichten",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/e6b85bfbf55020aa",
+      "label": "Mission",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/6171b2a461207d19",
+      "label": "Statement",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/42be1f53d688ed48",
+      "label": "Digital",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/8e3b1dc3e3414ae8",
+      "label": "Sovereignty",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/dc011743d9f36fb1",
+      "label": "European",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/2e81556f5b4ba1b1",
+      "label": "Nursing",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/5270f13f11aa3799",
+      "label": "Informatics",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/bf90d29a5ccb2df5",
+      "label": "Stanford",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/39c3be1198a2fddf",
+      "label": "Index",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/05bf956cc4078c26",
+      "label": "Einordnung",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/f746eefcaa4b2465",
+      "label": "Kommunen",
+      "synonyms": [],
+      "usageCount": 2
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/9656b445a03bff0d",
+      "label": "bewerten",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/cb507212600ab198",
+      "label": "Patienten",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/41021458382a86dd",
+      "label": "einbinden",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/666681affe05a806",
+      "label": "Predictive",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/35f3728ff296a08b",
+      "label": "Policing",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/e7a39507f2d80a8d",
+      "label": "Wissens",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/233e26670cce075b",
+      "label": "Soziale Arbeit",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b08fa53b2711c0b8",
+      "label": "Sozialen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/3f0828ad8bfa9913",
+      "label": "Arbeit",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/304217a0a0b03e83",
+      "label": "TRIPOD",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b1fa104b9bf0635e",
+      "label": "Reporting",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/d8673f986239d37b",
+      "label": "Analyse",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/3c1eeb9766a05e74",
+      "label": "Lernformate",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7b0156d6e59c729f",
+      "label": "Offenlegung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/2887f46a567ea06b",
+      "label": "KI-Anbietern",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/100a9faa1100f3db",
+      "label": "Wissensmanagement",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7a3a4a2bf2d2dffe",
+      "label": "Forschung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/6d4489236f6dd87a",
+      "label": "ISO/IEC",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/cdb6daf69270a9d6",
+      "label": "WHODAS",
+      "synonyms": [
+        "WHODAS 2.0",
+        "WHO Disability Assessment Schedule 2.0"
+      ],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7808eeeb45dfa074",
+      "label": "Assessment",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/9ea9bd2122aab52a",
+      "label": "Scoring",
+      "synonyms": [],
+      "usageCount": 1
+    }
+  ]
+}

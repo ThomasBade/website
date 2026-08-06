@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -17,6 +18,19 @@ REQUIRED_ROOT_FILES = (
     "llms.txt",
     "llms-full.txt",
     "sitemap.xml",
+)
+
+REQUIRED_KG_FILES = (
+    "graph.json",
+    "pages.json",
+    "vocabulary.json",
+    "ontology.json",
+    "dataset.jsonld",
+    "graph.ttl",
+    "build-manifest.json",
+    "schemas/graph.schema.json",
+    "schemas/pages.schema.json",
+    "schemas/knowledge-graph.shacl.ttl",
 )
 
 
@@ -80,10 +94,65 @@ def main() -> None:
     if page_count != 52:
         raise SystemExit(f"Expected 52 page records, found {page_count}")
 
+    data_root = ROOT / "knowledge-graph" / "data"
+    missing_kg = [name for name in REQUIRED_KG_FILES if not (data_root / name).is_file()]
+    if missing_kg:
+        raise SystemExit(f"Missing semantic artifacts: {', '.join(missing_kg)}")
+
+    graph = json.loads((data_root / "graph.json").read_text(encoding="utf-8"))
+    vocabulary = json.loads((data_root / "vocabulary.json").read_text(encoding="utf-8"))
+    relation_types = {item["id"] for item in vocabulary["relations"]}
+    node_ids = {node["id"] for node in graph["nodes"]}
+    node_uris = {node.get("uri") for node in graph["nodes"]}
+    if None in node_uris or len(node_uris) != len(graph["nodes"]):
+        raise SystemExit("Every graph node must have a unique stable URI")
+
+    edge_ids: set[str] = set()
+    for edge in graph["edges"]:
+        required = {
+            "id", "source", "target", "type", "predicate", "assertionStatus",
+            "reviewStatus", "confidence", "isInferred", "provenance",
+        }
+        missing_edge = required - set(edge)
+        if missing_edge:
+            raise SystemExit(f"Edge is missing fields: {sorted(missing_edge)}")
+        if edge["id"] in edge_ids:
+            raise SystemExit(f"Duplicate edge ID: {edge['id']}")
+        edge_ids.add(edge["id"])
+        if edge["source"] not in node_ids or edge["target"] not in node_ids:
+            raise SystemExit(f"Edge references missing node: {edge['id']}")
+        if edge["type"] not in relation_types:
+            raise SystemExit(f"Undefined relation type: {edge['type']}")
+        if edge["isInferred"] and edge["reviewStatus"] != "reviewed":
+            raise SystemExit(f"Unreviewed inferred edge must not be published: {edge['id']}")
+        provenance = edge["provenance"]
+        for key in ("source", "method", "generatedAt", "generator"):
+            if not provenance.get(key):
+                raise SystemExit(f"Incomplete provenance on edge {edge['id']}: {key}")
+
+    for page in pages:
+        slug = page["slug"]
+        for relative in (f"exports/{slug}.json", f"exports/{slug}.md", f"jsonld/{slug}.json"):
+            if not (data_root / relative).is_file():
+                raise SystemExit(f"Missing page export: {relative}")
+
+    manifest = json.loads((data_root / "build-manifest.json").read_text(encoding="utf-8"))
+    for artifact in manifest["artifacts"]:
+        path = data_root / artifact["path"]
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        if digest != artifact["sha256"]:
+            raise SystemExit(f"Manifest hash mismatch: {artifact['path']}")
+
+    api_index = ROOT / "knowledge-graph" / "api" / "v1" / "index.json"
+    if not api_index.is_file():
+        raise SystemExit("Missing static agent API index")
+    json.loads(api_index.read_text(encoding="utf-8"))
+
     image_count = validate_local_images()
     print(
         f"Validated {len(json_files)} JSON files, sitemap.xml, "
-        f"{page_count} pages and {image_count} image references."
+        f"{page_count} pages, {len(graph['nodes'])} nodes, {len(graph['edges'])} "
+        f"provenanced edges and {image_count} image references."
     )
 
 

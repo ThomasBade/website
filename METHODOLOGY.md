@@ -11,6 +11,24 @@ Die Thomas Bade Knowledge Graph & GEO Platform erschließt die öffentlich zugä
 3. Gemeinsame Fachbegriffe und interne Verweise erzeugen nachvollziehbare Kanten im Knowledge Graph.
 4. Die statischen Dateien werden versioniert und über GitHub Pages veröffentlicht. Kanonische Inhalts-URLs verweisen auf `www.thomas-bade.de`.
 
+## Semantisches Kernmodell
+
+Die Plattform verwendet ein begrenztes, versioniertes Domänenmodell statt einer unkontrollierten Vollontologie. Es unterscheidet unter anderem `ContentPage`, `Document`, `Standard`, `LegalAct`, `Requirement`, `Assessment`, `Organization`, `AIApplication`, `Process`, `Evidence` und `Outcome`.
+
+- Jeder Knoten besitzt neben der internen ID eine stabile URI.
+- Fachbegriffe werden in `vocabulary.json` als `DefinedTerm` mit kanonischer Bezeichnung und bekannten Synonymen geführt.
+- Zulässige Beziehungen werden in `ontology.json` definiert. Produktive Kanten verwenden derzeit `about` und `linksTo`; weitere fachliche Prädikate sind reserviert und werden erst nach Quellen- und Reviewregeln aktiviert.
+- Jede produktive Kante enthält Prädikat, Erzeugungsmethode, Zeitstempel, Konfidenz, Aussage- und Reviewstatus.
+- Automatisch vermutete Beziehungen werden nicht als fachlich geprüfte Wahrheit veröffentlicht. `isInferred=true` ist nur zusammen mit `reviewStatus=reviewed` zulässig.
+
+## Graphmetriken
+
+Die ausgewiesene Degree Centrality ist die Anzahl direkter Verbindungen eines Knotens geteilt durch den höchsten beobachteten Knotengrad im jeweiligen Build. Sie dient der relativen Navigation und Priorisierung, nicht als Wahrheits- oder Qualitätswert. Weitere Zentralitäts- oder Community-Metriken werden erst veröffentlicht, wenn Algorithmus, Parameter und fachliche Interpretation reproduzierbar dokumentiert sind.
+
+## Versionierung und Provenienz
+
+`build-manifest.json` dokumentiert Build-ID, Generatorversion, Schema-Version, Umfang und SHA-256-Prüfsummen der zentralen Artefakte. `dataset.jsonld` beschreibt Datensatz und Distributionen. JSON Schema und SHACL-Dateien definieren maschinenprüfbare Mindestanforderungen. Turtle/RDF und `knowledge-graph/api/v1/index.json` ermöglichen die Nutzung durch semantische Werkzeuge und KI-Agenten ohne laufende Graphdatenbank.
+
 ## Bewertungsmodell
 
 Die Dashboard-Werte sind heuristische Reifeindikatoren und keine Zusage einer Suchmaschine oder eines KI-Anbieters:
@@ -32,6 +50,9 @@ Autor der Plattform und der gekennzeichneten Fachinhalte ist Thomas Bade. Maßge
 - Interne Links und Exportpfade werden automatisiert getestet.
 - Methodische Änderungen werden in `CHANGELOG.md` dokumentiert.
 - Fachliche Aussagen sind anhand der auf den Einzelseiten genannten Primärquellen zu prüfen.
+- Stabile Knoten-URIs, eindeutige Kanten-IDs, zulässige Relationstypen und vollständige Provenienz werden im GitHub-Actions-Build geprüft.
+- Manifest-Prüfsummen verhindern die Veröffentlichung inkonsistenter Datenartefakte.
+- Alle seitenweisen JSON-, JSON-LD- und Markdown-Exporte müssen vorhanden sein.
 
 ## Grenzen
 

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.thomas-bade.de/knowledge-graph/data/schemas/graph.schema.json",
+  "type": "object",
+  "required": [
+    "meta",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "uri",
+          "type",
+          "entityType",
+          "label"
+        ]
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source",
+          "target",
+          "type",
+          "predicate",
+          "assertionStatus",
+          "reviewStatus",
+          "confidence",
+          "isInferred",
+          "provenance"
+        ]
+      }
+    }
+  }
+}

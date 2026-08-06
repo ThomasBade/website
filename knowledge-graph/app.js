@@ -1,23 +1,23 @@
-let pages=[], graph={nodes:[],edges:[]};
+let pages=[], graph={nodes:[],edges:[]}, manifest={};
 const $=s=>document.querySelector(s), avg=(arr,key)=>Math.round(arr.reduce((a,x)=>a+x[key],0)/(arr.length||1));
 const level=n=>n>=70?'good':n>=50?'mid':'low';
 async function init(){
   const request={cache:'no-store'};
-  const [pr,gr]=await Promise.all([fetch('data/pages.json',request).then(r=>r.json()),fetch('data/graph.json',request).then(r=>r.json())]);
-  pages=Array.isArray(pr)?pr:pr.items; graph=gr; fillMetrics(); renderRows(); renderTopics(); drawGraph();
+  const [pr,gr,mr]=await Promise.all([fetch('data/pages.json',request).then(r=>r.json()),fetch('data/graph.json',request).then(r=>r.json()),fetch('data/build-manifest.json',request).then(r=>r.json())]);
+  pages=Array.isArray(pr)?pr:pr.items; graph=gr; manifest=mr; fillMetrics(); renderRows(); renderTopics(); drawGraph();
 }
 function fillMetrics(){
   const seo=avg(pages,'seo_score'),geo=avg(pages,'geo_score'),ai=avg(pages,'ai_overview_probability');
   $('#pageCount').textContent=pages.length; $('#topicCount').textContent=graph.nodes.filter(n=>n.type==='topic').length;
   $('#avgSeo').textContent=seo; $('#avgGeo').textContent=geo; $('#avgAi').textContent=ai+'%';
   $('#maturityLabel').textContent=geo>=70?'Fortgeschrittene GEO-Reife':geo>=50?'Entwickelte GEO-Basis':'GEO-Potenzial erschließen';
-  $('#generated').textContent='Stand '+new Date(graph.meta.generated_at).toLocaleString('de-DE',{dateStyle:'medium',timeStyle:'short'});
+  $('#generated').textContent='Stand '+new Date(graph.meta.generated_at).toLocaleString('de-DE',{dateStyle:'medium',timeStyle:'short'})+' · Build '+manifest.buildId;
 }
 function renderRows(){
   const q=$('#search').value.toLowerCase(), sort=$('#sort').value;
   let list=pages.filter(p=>(p.title+' '+p.topics.join(' ')).toLowerCase().includes(q));
   list.sort(sort==='title'?(a,b)=>a.title.localeCompare(b.title):(a,b)=>b[{geo:'geo_score',seo:'seo_score',ai:'ai_overview_probability'}[sort]]-a[{geo:'geo_score',seo:'seo_score',ai:'ai_overview_probability'}[sort]]);
-  $('#pageRows').innerHTML=list.map(p=>`<tr data-slug="${p.slug}"><td class="page-title">${esc(p.title)}<small>${p.filename} · ${p.word_count.toLocaleString('de-DE')} Wörter</small></td><td><span class="badge">${p.maturity}</span></td>${scoreCell(p.seo_score)}${scoreCell(p.geo_score)}<td><span class="dot ${level(p.ai_overview_probability)}"></span>${p.ai_overview_probability}%</td><td class="arrow">→</td></tr>`).join('');
+  $('#pageRows').innerHTML=list.map(p=>`<tr data-slug="${p.slug}"><td class="page-title">${esc(p.title)}<small>${p.filename} · ${p.word_count.toLocaleString('de-DE')} Wörter${p.content_status==='duplicate-alias'?' · kanonischer Alias':''}</small></td><td><span class="badge">${p.content_status==='duplicate-alias'?'Alias':p.maturity}</span></td>${scoreCell(p.seo_score)}${scoreCell(p.geo_score)}<td><span class="dot ${level(p.ai_overview_probability)}"></span>${p.ai_overview_probability}%</td><td class="arrow">→</td></tr>`).join('');
   document.querySelectorAll('tbody tr').forEach(tr=>tr.onclick=()=>showDetail(tr.dataset.slug));
 }
 function scoreCell(n){return `<td><div class="score"><b>${n}</b><span class="bar"><i style="width:${n}%"></i></span></div></td>`}
@@ -27,7 +27,8 @@ function renderTopics(){
 }
 function showDetail(slug){
   const p=pages.find(x=>x.slug===slug), checks=(title,obj)=>`<h3>${title}</h3><div class="check-grid">${Object.entries(obj).map(([k,v])=>`<span class="check ${v?'ok':'no'}">${v?'✓':'○'} ${esc(k)}</span>`).join('')}</div>`;
-  $('#detailBody').innerHTML=`<p class="eyebrow">${p.filename}</p><h2>${esc(p.title)}</h2><p>${esc(p.summary)}</p><div class="detail-scores"><div><span>SEO</span><strong>${p.seo_score}</strong></div><div><span>GEO</span><strong>${p.geo_score}</strong></div><div><span>AI Overview</span><strong>${p.ai_overview_probability}%</strong></div></div><div class="chips">${p.topics.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}</div>${checks('SEO-Signale',p.seo_checks)}${checks('GEO-Signale',p.geo_checks)}<div class="actions"><a href="data/exports/${p.slug}.md" download>Markdown</a><a href="data/exports/${p.slug}.json" download>JSON</a><a href="data/jsonld/${p.slug}.json" target="_blank">JSON-LD</a><a href="../${p.filename}" target="_blank">Seite öffnen</a></div>`;
+  const edges=graph.edges.filter(e=>e.source===p.id), asserted=edges.filter(e=>e.assertionStatus==='asserted').length, extracted=edges.filter(e=>e.assertionStatus==='extracted').length, inferred=edges.filter(e=>e.isInferred).length;
+  $('#detailBody').innerHTML=`<p class="eyebrow">${p.filename}</p><h2>${esc(p.title)}</h2><p>${esc(p.summary)}</p><div class="detail-scores"><div><span>SEO</span><strong>${p.seo_score}</strong></div><div><span>GEO</span><strong>${p.geo_score}</strong></div><div><span>AI Overview</span><strong>${p.ai_overview_probability}%</strong></div></div><div class="chips">${p.topics.map(t=>`<span class="chip">${esc(t)}</span>`).join('')}</div><h3>Provenienz & Graphstatus</h3><p>${edges.length} Beziehungen · ${asserted} explizite Seitenverweise · ${extracted} deterministisch extrahierte Themen · ${inferred} inferierte Kanten. Ungeprüfte Inferenz wird nicht als Fakt veröffentlicht.</p>${checks('SEO-Signale',p.seo_checks)}${checks('GEO-Signale',p.geo_checks)}<div class="actions"><a href="data/exports/${p.slug}.md" download>Markdown</a><a href="data/exports/${p.slug}.json" download>JSON</a><a href="data/jsonld/${p.slug}.json" target="_blank">JSON-LD</a><a href="../${p.filename}" target="_blank">Seite öffnen</a></div>`;
   $('#detail').showModal();
 }
 function drawGraph(){
@@ -36,7 +37,7 @@ function drawGraph(){
   const pageNodes=graph.nodes.filter(n=>n.type==='page'&&graph.edges.some(e=>e.source===n.id&&tids.has(e.target))).slice(0,34), nodes=[...topics,...pageNodes];
   nodes.forEach((n,i)=>{const ring=n.type==='topic'?0.28:0.44, angle=i*2.39996+(n.type==='page'?1:.2);n.x=w/2+Math.cos(angle)*w*ring*(.75+(i%5)/12);n.y=h/2+Math.sin(angle)*h*ring*(.72+(i%4)/13)});
   const map=new Map(nodes.map(n=>[n.id,n])); ctx.strokeStyle=getComputedStyle(document.body).getPropertyValue('--line');ctx.globalAlpha=.55;
-  graph.edges.filter(e=>map.has(e.source)&&map.has(e.target)).forEach(e=>{const a=map.get(e.source),b=map.get(e.target);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()});ctx.globalAlpha=1;
+  graph.edges.filter(e=>map.has(e.source)&&map.has(e.target)).forEach(e=>{const a=map.get(e.source),b=map.get(e.target);ctx.setLineDash(e.isInferred?[5,4]:[]);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()});ctx.setLineDash([]);ctx.globalAlpha=1;
   nodes.forEach(n=>{ctx.beginPath();ctx.fillStyle=n.type==='topic'?'#1d6b50':'#ed7f43';const r=n.type==='topic'?Math.min(13,5+(n.count||1)) : 4;ctx.arc(n.x,n.y,r,0,Math.PI*2);ctx.fill();if(n.type==='topic'){ctx.font='11px Segoe UI';ctx.fillStyle=getComputedStyle(document.body).getPropertyValue('--ink');ctx.fillText(n.label,n.x+r+4,n.y+4)}});
 }
 function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}

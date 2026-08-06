@@ -1,0 +1,11 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix schema: <https://schema.org/> .
+@prefix tbkg: <https://www.thomas-bade.de/vocab/> .
+
+tbkg:ContentNodeShape a sh:NodeShape ;
+  sh:targetClass schema:WebPage ;
+  sh:property [ sh:path schema:name ; sh:minCount 1 ; sh:maxCount 1 ] .
+
+tbkg:DefinedTermShape a sh:NodeShape ;
+  sh:targetClass schema:DefinedTerm ;
+  sh:property [ sh:path schema:name ; sh:minCount 1 ] .

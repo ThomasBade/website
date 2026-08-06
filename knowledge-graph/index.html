@@ -19,9 +19,11 @@
   <link rel="icon" type="image/png" sizes="512x512" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"WebApplication","@id":"https://www.thomas-bade.de/knowledge-graph/#app","name":"Thomas Bade Knowledge Graph & GEO Platform","url":"https://www.thomas-bade.de/knowledge-graph/","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"de-DE","description":"Analyse-Dashboard für SEO, Generative Engine Optimization und semantische Wissensstrukturen.","author":{"@type":"Person","@id":"https://www.thomas-bade.de/#thomas-bade","name":"Thomas Bade","url":"https://www.thomas-bade.de/"}}
+  {"@context":"https://schema.org","@graph":[{"@type":"WebApplication","@id":"https://www.thomas-bade.de/knowledge-graph/#app","name":"Thomas Bade Knowledge Graph & GEO Platform","url":"https://www.thomas-bade.de/knowledge-graph/","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"de-DE","description":"Analyse-Dashboard für SEO, Generative Engine Optimization und semantische Wissensstrukturen.","author":{"@type":"Person","@id":"https://www.thomas-bade.de/#thomas-bade","name":"Thomas Bade","url":"https://www.thomas-bade.de/"},"subjectOf":{"@id":"https://www.thomas-bade.de/knowledge-graph/#dataset"}},{"@type":"Dataset","@id":"https://www.thomas-bade.de/knowledge-graph/#dataset","name":"Thomas Bade Knowledge Graph & GEO Dataset","url":"https://www.thomas-bade.de/knowledge-graph/","license":"https://creativecommons.org/licenses/by-nc-sa/4.0/","distribution":[{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://www.thomas-bade.de/knowledge-graph/data/graph.json"},{"@type":"DataDownload","encodingFormat":"text/turtle","contentUrl":"https://www.thomas-bade.de/knowledge-graph/data/graph.ttl"}]}]}
   </script>
   <link rel="llms" href="https://thomas-bade.de/llms.txt">
+  <link rel="describedby" type="application/ld+json" href="data/dataset.jsonld">
+  <link rel="alternate" type="text/turtle" href="data/graph.ttl" title="Knowledge Graph als Turtle/RDF">
   <!-- Privacy-friendly analytics by Plausible: normalisierter Pageview mit Custom Properties -->
   <script>
     const plausibleProduction = location.hostname === "thomas-bade.de" || location.hostname === "www.thomas-bade.de";
@@ -73,9 +75,9 @@
       <article class="panel graph-panel"><div class="section-head"><div><p class="eyebrow">KNOWLEDGE GRAPH</p><h2>Semantisches Netzwerk</h2></div><button class="ghost" id="resetGraph">Ansicht zurücksetzen</button></div><canvas id="graphCanvas"></canvas><p class="hint">Knoten auswählen, um Beziehungen hervorzuheben. Orange: Seiten · Grün: Fachbegriffe.</p></article>
       <aside class="panel"><p class="eyebrow">TOPISCHE AUTORITÄT</p><h2>Stärkste Themenfelder</h2><div id="topics" class="topic-list"></div></aside>
     </section>
-    <section class="panel api" id="api"><div><p class="eyebrow">MACHINE-READABLE BY DESIGN</p><h2>Daten & LLM-Exporte</h2><p>Agenten können Seiten, Themen und Beziehungen als statische JSON-Ressourcen abrufen. Markdown, JSON und JSON-LD stehen seitenweise bereit.</p></div><div class="endpoints"><code>GET data/pages.json</code><code>GET data/graph.json</code><code>GET data/exports/{slug}.json</code><code>GET data/jsonld/{slug}.json</code></div></section>
+    <section class="panel api" id="api"><div><p class="eyebrow">MACHINE-READABLE BY DESIGN</p><h2>Daten, Provenienz & LLM-Exporte</h2><p>Agenten können Seiten, kontrollierte Begriffe und typisierte Beziehungen als versionierte statische Ressourcen abrufen. Kanten enthalten Erzeugungsmethode, Status und Zeitstempel; ungeprüfte Inferenz wird nicht als Fakt veröffentlicht.</p></div><div class="endpoints"><code>GET api/v1/index.json</code><code>GET data/pages.json</code><code>GET data/graph.json</code><code>GET data/vocabulary.json</code><code>GET data/dataset.jsonld</code><code>GET data/graph.ttl</code><code>GET data/build-manifest.json</code><code>GET data/exports/{slug}.json</code><code>GET data/jsonld/{slug}.json</code></div></section>
   </main>
   <dialog id="detail"><button class="close" aria-label="Schließen">×</button><div id="detailBody"></div></dialog>
   <footer><span>Thomas Bade · Knowledge Graph & GEO Platform</span><span>Scores sind heuristische Reifegradindikatoren, keine Ranking-Garantie.</span></footer>
-  <script src="app.js?v=20260803-2"></script>
+  <script src="app.js?v=20260806-1"></script>
 </body></html>

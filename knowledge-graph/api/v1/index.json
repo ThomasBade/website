@@ -1,0 +1,14 @@
+{
+  "apiVersion": "v1",
+  "readOnly": true,
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "endpoints": {
+    "pages": "../../data/pages.json",
+    "graph": "../../data/graph.json",
+    "dataset": "../../data/dataset.jsonld",
+    "vocabulary": "../../data/vocabulary.json",
+    "ontology": "../../data/ontology.json",
+    "turtle": "../../data/graph.ttl",
+    "manifest": "../../data/build-manifest.json"
+  }
+}
