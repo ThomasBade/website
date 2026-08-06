@@ -72,12 +72,12 @@
       <div class="table-wrap"><table><thead><tr><th>Seite</th><th>Reifegrad</th><th>SEO</th><th>GEO</th><th>AI Overview</th><th></th></tr></thead><tbody id="pageRows"></tbody></table></div>
     </section>
     <section class="split" id="graph">
-      <article class="panel graph-panel"><div class="section-head"><div><p class="eyebrow">KNOWLEDGE GRAPH</p><h2>Semantisches Netzwerk</h2></div><button class="ghost" id="resetGraph" disabled>Ansicht zurücksetzen</button></div><canvas id="graphCanvas" tabindex="0" aria-label="Interaktiver Knowledge Graph: Knoten anklicken, um direkte Beziehungen hervorzuheben"></canvas><p class="hint" aria-live="polite">Knoten auswählen, um Beziehungen hervorzuheben. Orange: Seiten · Grün: Fachbegriffe.</p></article>
+      <article class="panel graph-panel"><div class="section-head"><div><p class="eyebrow">KNOWLEDGE GRAPH</p><h2>Semantisches Netzwerk</h2></div><button class="ghost" id="resetGraph" disabled>Ansicht zurücksetzen</button></div><canvas id="graphCanvas" tabindex="0" aria-label="Interaktiver Knowledge Graph: Knoten anklicken, um direkte Beziehungen hervorzuheben"></canvas><p class="hint" aria-live="polite">Knoten auswählen, um Beziehungen hervorzuheben. Orange: Seiten · Grün: Fachbegriffe.</p><div id="graphRelations" class="graph-relations" hidden aria-live="polite"></div></article>
       <aside class="panel"><p class="eyebrow">TOPISCHE AUTORITÄT</p><h2>Stärkste Themenfelder</h2><div id="topics" class="topic-list"></div></aside>
     </section>
     <section class="panel api" id="api"><div><p class="eyebrow">MACHINE-READABLE BY DESIGN</p><h2>Daten, Provenienz & LLM-Exporte</h2><p>Agenten können Seiten, kontrollierte Begriffe und typisierte Beziehungen als versionierte statische Ressourcen abrufen. Kanten enthalten Erzeugungsmethode, Status und Zeitstempel; ungeprüfte Inferenz wird nicht als Fakt veröffentlicht.</p></div><div class="endpoints"><code>GET api/v1/index.json</code><code>GET data/pages.json</code><code>GET data/graph.json</code><code>GET data/vocabulary.json</code><code>GET data/dataset.jsonld</code><code>GET data/graph.ttl</code><code>GET data/build-manifest.json</code><code>GET data/exports/{slug}.json</code><code>GET data/jsonld/{slug}.json</code></div></section>
   </main>
   <dialog id="detail"><button class="close" aria-label="Schließen">×</button><div id="detailBody"></div></dialog>
   <footer><span>Thomas Bade · Knowledge Graph & GEO Platform</span><span>Scores sind heuristische Reifegradindikatoren, keine Ranking-Garantie.</span></footer>
-  <script src="app.js?v=20260806-2"></script>
+  <script src="app.js?v=20260806-4"></script>
 </body></html>
