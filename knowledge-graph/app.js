@@ -1,4 +1,5 @@
 let pages=[], graph={nodes:[],edges:[]}, manifest={};
+const graphView={nodes:[],selectedId:null};
 const $=s=>document.querySelector(s), avg=(arr,key)=>Math.round(arr.reduce((a,x)=>a+x[key],0)/(arr.length||1));
 const level=n=>n>=70?'good':n>=50?'mid':'low';
 async function init(){
@@ -35,11 +36,17 @@ function drawGraph(){
   const canvas=$('#graphCanvas'),ctx=canvas.getContext('2d'),dpr=devicePixelRatio||1,rect=canvas.getBoundingClientRect(); canvas.width=rect.width*dpr;canvas.height=rect.height*dpr;ctx.scale(dpr,dpr);
   const w=rect.width,h=rect.height, topics=graph.nodes.filter(n=>n.type==='topic').sort((a,b)=>b.count-a.count).slice(0,22), tids=new Set(topics.map(n=>n.id));
   const pageNodes=graph.nodes.filter(n=>n.type==='page'&&graph.edges.some(e=>e.source===n.id&&tids.has(e.target))).slice(0,34), nodes=[...topics,...pageNodes];
-  nodes.forEach((n,i)=>{const ring=n.type==='topic'?0.28:0.44, angle=i*2.39996+(n.type==='page'?1:.2);n.x=w/2+Math.cos(angle)*w*ring*(.75+(i%5)/12);n.y=h/2+Math.sin(angle)*h*ring*(.72+(i%4)/13)});
-  const map=new Map(nodes.map(n=>[n.id,n])); ctx.strokeStyle=getComputedStyle(document.body).getPropertyValue('--line');ctx.globalAlpha=.55;
-  graph.edges.filter(e=>map.has(e.source)&&map.has(e.target)).forEach(e=>{const a=map.get(e.source),b=map.get(e.target);ctx.setLineDash(e.isInferred?[5,4]:[]);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()});ctx.setLineDash([]);ctx.globalAlpha=1;
-  nodes.forEach(n=>{ctx.beginPath();ctx.fillStyle=n.type==='topic'?'#1d6b50':'#ed7f43';const r=n.type==='topic'?Math.min(13,5+(n.count||1)) : 4;ctx.arc(n.x,n.y,r,0,Math.PI*2);ctx.fill();if(n.type==='topic'){ctx.font='11px Segoe UI';ctx.fillStyle=getComputedStyle(document.body).getPropertyValue('--ink');ctx.fillText(n.label,n.x+r+4,n.y+4)}});
+  nodes.forEach((n,i)=>{const ring=n.type==='topic'?0.28:0.44, angle=i*2.39996+(n.type==='page'?1:.2);n.x=w/2+Math.cos(angle)*w*ring*(.75+(i%5)/12);n.y=h/2+Math.sin(angle)*h*ring*(.72+(i%4)/13);n.r=n.type==='topic'?Math.min(13,5+(n.count||1)):4});
+  graphView.nodes=nodes;
+  const map=new Map(nodes.map(n=>[n.id,n])),visibleEdges=graph.edges.filter(e=>map.has(e.source)&&map.has(e.target)),selected=graphView.selectedId;
+  const connected=new Set(selected?[selected]:[]);if(selected)visibleEdges.forEach(e=>{if(e.source===selected)connected.add(e.target);if(e.target===selected)connected.add(e.source)});
+  visibleEdges.forEach(e=>{const a=map.get(e.source),b=map.get(e.target),active=!selected||e.source===selected||e.target===selected;ctx.strokeStyle=active&&selected?'#c66a36':getComputedStyle(document.body).getPropertyValue('--line');ctx.globalAlpha=selected?(active?.9:.08):.55;ctx.lineWidth=active&&selected?2:1;ctx.setLineDash(e.isInferred?[5,4]:[]);ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke()});ctx.setLineDash([]);ctx.lineWidth=1;ctx.globalAlpha=1;
+  nodes.forEach(n=>{const active=!selected||connected.has(n.id);ctx.globalAlpha=active?1:.16;ctx.beginPath();ctx.fillStyle=n.type==='topic'?'#1d6b50':'#ed7f43';ctx.arc(n.x,n.y,n.r+(n.id===selected?3:0),0,Math.PI*2);ctx.fill();if(n.id===selected){ctx.strokeStyle='#102d25';ctx.lineWidth=2;ctx.stroke();ctx.lineWidth=1}if(n.type==='topic'&&active){ctx.font='11px Segoe UI';ctx.fillStyle=getComputedStyle(document.body).getPropertyValue('--ink');ctx.fillText(n.label,n.x+n.r+4,n.y+4)}});ctx.globalAlpha=1;
+  const selectedNode=map.get(selected),relationCount=selected?visibleEdges.filter(e=>e.source===selected||e.target===selected).length:0;
+  $('.graph-panel .hint').textContent=selectedNode?`Ausgewählt: ${selectedNode.label} · ${relationCount} direkte Beziehungen.`:'Knoten auswählen, um Beziehungen hervorzuheben. Orange: Seiten · Grün: Fachbegriffe.';
+  $('#resetGraph').disabled=!selected;
 }
+function graphNodeAt(event){const canvas=$('#graphCanvas'),rect=canvas.getBoundingClientRect(),x=event.clientX-rect.left,y=event.clientY-rect.top;return [...graphView.nodes].reverse().find(n=>Math.hypot(n.x-x,n.y-y)<=Math.max(10,n.r+6))}
 function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 $('#search').addEventListener('input',renderRows);$('#sort').addEventListener('change',renderRows);$('#detail .close').onclick=()=>$('#detail').close();$('#detail').onclick=e=>{if(e.target===$('#detail'))$('#detail').close()};
-$('#theme').onclick=()=>{document.body.classList.toggle('dark');drawGraph()};$('#resetGraph').onclick=drawGraph;addEventListener('resize',()=>{clearTimeout(window.rt);window.rt=setTimeout(drawGraph,150)});init().catch(e=>{$('#pageRows').innerHTML=`<tr><td>Analyse-Daten fehlen: ${esc(e.message)}. Bitte scripts/analyze.py ausführen.</td></tr>`});
+$('#theme').onclick=()=>{document.body.classList.toggle('dark');drawGraph()};$('#resetGraph').onclick=()=>{graphView.selectedId=null;drawGraph()};$('#graphCanvas').onclick=e=>{const node=graphNodeAt(e);if(node){graphView.selectedId=node.id;drawGraph()}};$('#graphCanvas').onpointermove=e=>{$('#graphCanvas').style.cursor=graphNodeAt(e)?'pointer':'default'};addEventListener('resize',()=>{clearTimeout(window.rt);window.rt=setTimeout(drawGraph,150)});init().catch(e=>{$('#pageRows').innerHTML=`<tr><td>Analyse-Daten fehlen: ${esc(e.message)}. Bitte scripts/analyze.py ausführen.</td></tr>`});
