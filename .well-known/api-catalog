@@ -1,0 +1,48 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.thomas-bade.de/",
+      "service-desc": [
+        {
+          "href": "https://www.thomas-bade.de/openapi.json",
+          "type": "application/vnd.oai.openapi+json;version=3.1",
+          "title": "Thomas Bade Knowledge Graph API – OpenAPI 3.1"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://www.thomas-bade.de/knowledge-graph/api/v1/index.json",
+          "type": "application/json",
+          "title": "Knowledge Graph API index"
+        },
+        {
+          "href": "https://www.thomas-bade.de/knowledge-graph/",
+          "type": "text/html",
+          "title": "Knowledge Graph & GEO Platform"
+        },
+        {
+          "href": "https://www.thomas-bade.de/llms.txt",
+          "type": "text/plain",
+          "title": "LLM content index"
+        }
+      ],
+      "item": [
+        {
+          "href": "https://www.thomas-bade.de/knowledge-graph/data/graph.json",
+          "type": "application/json",
+          "title": "Knowledge graph"
+        },
+        {
+          "href": "https://www.thomas-bade.de/knowledge-graph/data/dataset.jsonld",
+          "type": "application/ld+json",
+          "title": "Knowledge graph dataset"
+        },
+        {
+          "href": "https://www.thomas-bade.de/knowledge-graph/data/graph.ttl",
+          "type": "text/turtle",
+          "title": "Knowledge graph in RDF/Turtle"
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,8 @@
 - [Seitendaten](https://www.thomas-bade.de/knowledge-graph/data/pages.json): normalisierte JSON-Daten
 - [Graph](https://www.thomas-bade.de/knowledge-graph/data/graph.json): Knoten und Beziehungen
 - [Agenten-Endpunkt](https://www.thomas-bade.de/knowledge-graph/api/v1/index.json): versionierter Lesezugriff auf alle Ressourcen
+- [OpenAPI 3.1](https://www.thomas-bade.de/openapi.json): maschinenlesbare Beschreibung der Knowledge-Graph-API
+- [Entwickler- und Agentenzugang](https://www.thomas-bade.de/entwickler.html): technische Ressourcen, strukturierte Daten und API-Einstiege
 - [Kontrolliertes Vokabular](https://www.thomas-bade.de/knowledge-graph/data/vocabulary.json): kanonische Begriffe und Synonyme
 - [Dataset-JSON-LD](https://www.thomas-bade.de/knowledge-graph/data/dataset.jsonld): maschinenlesbare Datensatzbeschreibung
 - [RDF/Turtle](https://www.thomas-bade.de/knowledge-graph/data/graph.ttl): interoperabler Graph-Export

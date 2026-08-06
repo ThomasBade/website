@@ -1,0 +1,207 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Thomas Bade Knowledge Graph API",
+    "version": "1.0.0",
+    "description": "Öffentliche, schreibgeschützte API für Seiten, Entitäten, kontrollierte Begriffe und typisierte Beziehungen des Knowledge Graphs von thomas-bade.de.",
+    "termsOfService": "https://www.thomas-bade.de/knowledge-graph/",
+    "contact": {
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/"
+    },
+    "license": {
+      "name": "CC BY-NC-SA 4.0",
+      "identifier": "CC-BY-NC-SA-4.0",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://www.thomas-bade.de/knowledge-graph",
+      "description": "Produktionsumgebung"
+    }
+  ],
+  "tags": [
+    { "name": "Discovery", "description": "API-Index und Build-Metadaten" },
+    { "name": "Knowledge Graph", "description": "Seiten, Knoten und Beziehungen" },
+    { "name": "Semantics", "description": "JSON-LD, Vokabular, Ontologie und RDF/Turtle" }
+  ],
+  "paths": {
+    "/api/v1/index.json": {
+      "get": {
+        "operationId": "getApiIndex",
+        "summary": "API-Endpunkte ermitteln",
+        "description": "Liefert den versionierten, schreibgeschützten Einstiegspunkt der API.",
+        "tags": ["Discovery"],
+        "responses": {
+          "200": {
+            "description": "API-Index",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ApiIndex" } } }
+          }
+        }
+      }
+    },
+    "/data/pages.json": {
+      "get": {
+        "operationId": "listPages",
+        "summary": "Analysierte Seiten abrufen",
+        "description": "Liefert die im Knowledge Graph erfassten Webseiten einschließlich Metadaten, Themen und GEO-/SEO-Signalen.",
+        "tags": ["Knowledge Graph"],
+        "responses": {
+          "200": {
+            "description": "Liste der Seiten",
+            "content": { "application/json": { "schema": { "type": "array", "items": { "$ref": "#/components/schemas/Page" } } } }
+          }
+        }
+      }
+    },
+    "/data/graph.json": {
+      "get": {
+        "operationId": "getGraph",
+        "summary": "Knowledge Graph abrufen",
+        "description": "Liefert Knoten, typisierte Kanten und Erzeugungsmetadaten.",
+        "tags": ["Knowledge Graph"],
+        "responses": {
+          "200": {
+            "description": "Knowledge Graph",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/Graph" } } }
+          }
+        }
+      }
+    },
+    "/data/dataset.jsonld": {
+      "get": {
+        "operationId": "getDatasetJsonLd",
+        "summary": "JSON-LD-Datensatz abrufen",
+        "description": "Liefert die semantische Datensatzbeschreibung im JSON-LD-Format.",
+        "tags": ["Semantics"],
+        "responses": {
+          "200": {
+            "description": "JSON-LD-Datensatz",
+            "content": { "application/ld+json": { "schema": { "type": "object", "additionalProperties": true } } }
+          }
+        }
+      }
+    },
+    "/data/vocabulary.json": {
+      "get": {
+        "operationId": "getVocabulary",
+        "summary": "Kontrolliertes Vokabular abrufen",
+        "description": "Liefert Klassen, Relationen und definierte Fachbegriffe.",
+        "tags": ["Semantics"],
+        "responses": {
+          "200": {
+            "description": "Vokabular",
+            "content": { "application/json": { "schema": { "type": "object", "additionalProperties": true } } }
+          }
+        }
+      }
+    },
+    "/data/ontology.json": {
+      "get": {
+        "operationId": "getOntology",
+        "summary": "Ontologie abrufen",
+        "description": "Liefert Klassen, Relationen, Statusmodell und Publikationsregeln.",
+        "tags": ["Semantics"],
+        "responses": {
+          "200": {
+            "description": "Ontologie",
+            "content": { "application/json": { "schema": { "type": "object", "additionalProperties": true } } }
+          }
+        }
+      }
+    },
+    "/data/graph.ttl": {
+      "get": {
+        "operationId": "getGraphTurtle",
+        "summary": "Knowledge Graph als RDF/Turtle abrufen",
+        "description": "Liefert den Graphen als textuelle RDF/Turtle-Repräsentation.",
+        "tags": ["Semantics"],
+        "responses": {
+          "200": {
+            "description": "RDF/Turtle",
+            "content": { "text/turtle": { "schema": { "type": "string" } } }
+          }
+        }
+      }
+    },
+    "/data/build-manifest.json": {
+      "get": {
+        "operationId": "getBuildManifest",
+        "summary": "Build-Manifest abrufen",
+        "description": "Liefert Version, Erzeugungszeitpunkt, Qualitätsdaten und Artefaktübersicht.",
+        "tags": ["Discovery"],
+        "responses": {
+          "200": {
+            "description": "Build-Manifest",
+            "content": { "application/json": { "schema": { "type": "object", "additionalProperties": true } } }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ApiIndex": {
+        "type": "object",
+        "required": ["apiVersion", "readOnly", "license", "endpoints"],
+        "properties": {
+          "apiVersion": { "type": "string", "example": "v1" },
+          "readOnly": { "type": "boolean", "const": true },
+          "license": { "type": "string", "format": "uri" },
+          "openapi": { "type": "string", "format": "uri-reference" },
+          "endpoints": {
+            "type": "object",
+            "additionalProperties": { "type": "string", "format": "uri-reference" }
+          }
+        }
+      },
+      "Page": {
+        "type": "object",
+        "required": ["slug"],
+        "properties": {
+          "slug": { "type": "string" },
+          "url": { "type": "string", "format": "uri" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "topics": { "type": "array", "items": { "type": "string" } },
+          "seoScore": { "type": "number", "minimum": 0, "maximum": 100 },
+          "geoScore": { "type": "number", "minimum": 0, "maximum": 100 }
+        },
+        "additionalProperties": true
+      },
+      "Graph": {
+        "type": "object",
+        "required": ["meta", "nodes", "edges"],
+        "properties": {
+          "meta": { "type": "object", "additionalProperties": true },
+          "nodes": { "type": "array", "items": { "$ref": "#/components/schemas/Node" } },
+          "edges": { "type": "array", "items": { "$ref": "#/components/schemas/Edge" } }
+        }
+      },
+      "Node": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string" },
+          "type": { "type": "string" },
+          "label": { "type": "string" },
+          "url": { "type": "string", "format": "uri" }
+        },
+        "additionalProperties": true
+      },
+      "Edge": {
+        "type": "object",
+        "required": ["source", "target"],
+        "properties": {
+          "source": { "type": "string" },
+          "target": { "type": "string" },
+          "relation": { "type": "string" },
+          "status": { "type": "string" },
+          "generatedAt": { "type": "string", "format": "date-time" }
+        },
+        "additionalProperties": true
+      }
+    }
+  }
+}

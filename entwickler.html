@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Entwickler-Tools: GitHub-Repository | Thomas Bade</title>
+  <meta name="description" content="Was Entwickler mit der Open-Source-GitHub-Version von thomas-bade.de machen können: Repository, Knowledge Graph, maschinenlesbare Daten und GitHub Pages.">
+  <meta name="keywords" content="GitHub Repository, Open Source, Knowledge Graph, JSON-LD, thomas-bade.de, Entwickler, GEO Dashboard, llms.txt, KI-Compliance">
+  <meta name="author" content="info" >
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://www.thomas-bade.de/entwickler.html">
+
+  <meta property="fb:app_id" content="1526070366197506" />
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Entwickler-Tools: GitHub-Repository von thomas-bade.de">
+  <meta property="og:description" content="Repository, Knowledge Graph und maschinenlesbare Daten der Open-Source-GitHub-Version von thomas-bade.de – für Entwickler erklärt.">
+  <meta property="og:url" content="https://www.thomas-bade.de/entwickler.html">
+  <meta property="og:image" content="https://www.thomas-bade.de/assets/img/favicon.png">
+  <meta property="og:site_name" content="Thomas Bade – KI-Compliance & Digitale Gesundheit">
+  <meta property="og:locale" content="de_DE">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Entwickler-Tools: GitHub-Repository von thomas-bade.de">
+  <meta name="twitter:description" content="Repository, Knowledge Graph und maschinenlesbare Daten der Open-Source-GitHub-Version von thomas-bade.de.">
+  <meta name="twitter:image" content="https://www.thomas-bade.de/assets/img/favicon.png">
+
+  <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon.png">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+  <link rel="apple-touch-icon" href="https://www.thomas-bade.de/assets/img/apple-touch-icon.png">
+
+  <!-- =============================================================
+       GEO - Generative Engine Optimization - thomas-bade.de
+       Stand: 2026-08-03
+  ============================================================== -->
+  <meta name="geo.region" content="DE-BY">
+  <meta name="geo.placename" content="Eichstaett, Bayern, Deutschland">
+  <meta name="geo.position" content="48.8921;11.1927">
+  <meta name="ICBM" content="48.8921, 11.1927">
+  <link rel="alternate" type="text/plain" href="https://thomas-bade.de/llms.txt" title="LLM-lesbarer Seitenindex thomas-bade.de">
+  <link rel="me" href="https://www.thomas-bade.de/knowledge-graph/">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://www.thomas-bade.de/entwickler.html",
+    "name": "Entwickler-Tools: GitHub-Repository von thomas-bade.de",
+    "description": "Was Entwickler mit der Open-Source-GitHub-Version von thomas-bade.de machen können: Repository, Knowledge Graph, maschinenlesbare Daten und GitHub Pages.",
+    "url": "https://www.thomas-bade.de/entwickler.html",
+    "inLanguage": "de-DE",
+    "dateModified": "2026-08-03",
+    "isPartOf": { "@id": "https://www.thomas-bade.de/#website" },
+    "about": {
+      "@type": "SoftwareSourceCode",
+      "name": "Thomas Bade Knowledge Graph & GEO Platform",
+      "codeRepository": "https://github.com/ThomasBade/website/",
+      "programmingLanguage": "HTML",
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "author": { "@type": "Person", "name": "Thomas Bade", "url": "https://www.thomas-bade.de" }
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de",
+        "jobTitle": "KI-Compliance Fachautor und Digital Content Designer"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "name": "thomas-bade.de - KI-Compliance im Gesundheitswesen",
+        "url": "https://www.thomas-bade.de",
+        "author":    { "@type": "Person", "@id": "https://www.thomas-bade.de/#thomas-bade" },
+        "publisher": { "@type": "Person", "@id": "https://www.thomas-bade.de/#thomas-bade" }
+      }
+    ]
+  }
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+<!-- Privacy-friendly analytics by Plausible (Custom Properties aktiviert) -->
+<script defer data-domain="thomas-bade.de" src="/stats/js/script.php" data-api="/stats/api/event.php"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <link rel="llms" href="https://thomas-bade.de/llms.txt" />
+  <!-- Plausible Analytics -->
+  <script async="" src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
+    window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
+    plausible.init();
+  </script>
+  <style>
+    .dev-code { background:#1a1a1a; color:#ffc451; border-radius:8px; padding:14px 18px; font-family:'Courier New',monospace; font-size:0.9rem; overflow-x:auto; }
+    .dev-table th, .dev-table td { vertical-align:top; padding:10px 12px; }
+    .dev-table code { color:#8a5a00; background:rgba(255,196,81,0.15); padding:1px 5px; border-radius:4px; }
+  </style>
+</head>
+
+<body class="inner-page">
+
+  <header id="header" class="fixed-top header-inner-pages">
+    <div class="container d-flex align-items-center justify-content-between">
+      <p class="logo mb-0">
+        <a href="index.html">Thomas Bade<span style="font-size:15px; color:#ffc451;">&#9632;</span></a>
+      </p>
+      <nav id="tb-nav" class="d-flex align-items-center gap-3">
+        <a href="https://www.thomas-bade.de/termine.html" class="tb-nav-link d-none d-lg-inline-block">
+          Let&#8217;s talk<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <a href="https://www.thomas-bade.de/sitemap.html" class="tb-nav-link d-none d-lg-inline-block">
+          Alle KI Themen<span style="font-size:13px; color:#ffc451;">&#9632;</span>
+        </a>
+        <button id="tb-burger" aria-label="Men&#252; &#246;ffnen" aria-expanded="false" aria-controls="tb-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Hamburger Menu Panel ======= -->
+  <div id="tb-menu" role="dialog" aria-modal="true" aria-label="Navigation">
+    <div id="tb-menu-inner">
+      <button id="tb-menu-close" aria-label="Men&#252; schlie&#223;en">
+        <i class="bi bi-x"></i>
+      </button>
+      <ul>
+        <li><a href="https://www.thomas-bade.de/termine.html">
+          <i class="bi bi-calendar-check me-2"></i>Let&#8217;s talk
+        </a></li>
+        <li><a href="https://www.thomas-bade.de/sitemap.html">
+          <i class="bi bi-grid-3x3-gap me-2"></i>Alle KI Themen &#8211; Site Map
+        </a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="tb-menu-overlay"></div>
+
+  <main id="main">
+    <section class="inner-page">
+      <div class="container"><br><br>
+
+        <h1><p style="color:#000000"><b>Entwickler-Tools<br>Die GitHub-Version von thomas-bade.de</b></p></h1>
+
+        <div class="alert alert-ci rounded-4 mb-3">
+          <div class="fw-semibold mb-2"><i class="bi bi-lightbulb me-1"></i>Kurz zusammengefasst</div>
+          <ul class="mb-0" style="font-size:0.95rem;">
+            <li>Alle Fachseiten von thomas-bade.de liegen als offener Quellcode im GitHub-Repository <a href="https://github.com/ThomasBade/website/" target="_blank" rel="noopener">ThomasBade/website</a>.</li>
+            <li>Zusätzlich enthält das Repository einen Knowledge Graph mit maschinenlesbaren Daten (JSON, JSON-LD, Markdown) unter <code>knowledge-graph/data/</code>.</li>
+            <li>Eine automatisch aktualisierte Spiegelversion läuft über GitHub Pages unter <a href="https://thomasbade.github.io/website/" target="_blank" rel="noopener">thomasbade.github.io/website</a>; inhaltlich maßgeblich bleibt <a href="https://www.thomas-bade.de">www.thomas-bade.de</a>.</li>
+          </ul>
+        </div>
+
+        <p>Der Inhalt dieser Website – EU AI Act, ISO/IEC 42001, KI-Governance im Gesundheits- und Sozialwesen – wird nicht nur als Webseite veröffentlicht, sondern auch als offener Quellcode bereitgestellt. Diese Seite erklärt, was in diesem Repository steckt und was Entwickler, Datenjournalisten, Forschende oder KI-Agenten damit tun können.</p>
+
+        <hr class="hr-ci">
+        <h2>Was ist im Repository enthalten?</h2>
+        <p>Das GitHub-Repository <a href="https://github.com/ThomasBade/website/" target="_blank" rel="noopener">github.com/ThomasBade/website</a> enthält den vollständigen statischen Quellcode der Website:</p>
+        <div class="table-responsive">
+          <table class="table table-borderless dev-table">
+            <tbody>
+              <tr><td style="width:220px;"><code>*.html</code></td><td>Rund 50 Fachseiten zu EU AI Act, ISO/IEC 42001, MDR/IVDR, Pflegekompetenz, internationalen Berichten und mehr – derselbe Inhalt wie auf www.thomas-bade.de.</td></tr>
+              <tr><td><code>knowledge-graph/</code></td><td>Das GEO-Dashboard sowie der maschinenlesbare Knowledge Graph unter <code>knowledge-graph/data/</code>, u.&nbsp;a. <code>pages.json</code> (Seitendaten) und <code>graph.json</code> (semantische Verknüpfungen zwischen den Seiten).</td></tr>
+              <tr><td><code>README.md</code></td><td>Einstiegspunkt mit allen relevanten Links und einer Kurzbeschreibung des Projekts.</td></tr>
+              <tr><td><code>CITATION.cff</code></td><td>Maschinenlesbare Zitierangaben (GitHub-Zitierfunktion) für Autor, Titel und kanonische URL.</td></tr>
+              <tr><td><code>METHODOLOGY.md</code></td><td>Dokumentiert, wie die Seiteninhalte erfasst, verknüpft und bewertet werden (SEO-/GEO-Score, Datenpipeline, Grenzen der Bewertung).</td></tr>
+              <tr><td><code>llms.txt</code></td><td>Strukturierter Einstiegspunkt für LLMs und KI-Agenten nach der llms.txt-Konvention.</td></tr>
+              <tr><td><code>.github/</code></td><td>GitHub-Actions-Workflow, der das Repository automatisiert über GitHub Pages veröffentlicht.</td></tr>
+              <tr><td><code>LICENSE.md</code></td><td>Nutzungsbedingungen für Quellcode und Knowledge-Graph-Daten: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de" target="_blank" rel="noopener license">CC BY-NC-SA 4.0</a>.</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <hr class="hr-ci">
+        <h2>Was können Entwickler damit machen?</h2>
+
+        <h3>1. Repository klonen oder forken</h3>
+        <p>Der Quellcode lässt sich lokal auslesen, durchsuchen oder als Fork weiterverwenden:</p>
+        <div class="dev-code">git clone https://github.com/ThomasBade/website.git</div>
+
+        <h3 class="mt-4">2. Maschinenlesbare Daten auswerten</h3>
+        <p>Statt HTML zu parsen, können die strukturierten Exporte im Knowledge Graph direkt eingelesen werden – z.&nbsp;B. für eigene Suchindizes, Chatbots, Vergleichstools oder Forschungszwecke:</p>
+        <div class="dev-code">fetch('https://raw.githubusercontent.com/ThomasBade/website/main/knowledge-graph/data/pages.json')<br>&nbsp;&nbsp;.then(r =&gt; r.json())<br>&nbsp;&nbsp;.then(pages =&gt; console.log(pages));</div>
+        <p class="mt-2">Ergänzend liegen die Seiten auch als JSON-LD-, JSON- und Markdown-Kurzfassungen vor – nützlich, um zitierfähige Auszüge direkt weiterzuverarbeiten, ohne HTML parsen zu müssen.</p>
+
+        <h3 class="mt-4">3. GitHub-Pages-Spiegel nutzen</h3>
+        <p>Unter <a href="https://thomasbade.github.io/website/" target="_blank" rel="noopener">thomasbade.github.io/website</a> läuft eine automatisch aktualisierte Kopie der Website, inklusive Knowledge-Graph-Dashboard unter <a href="https://thomasbade.github.io/website/knowledge-graph/" target="_blank" rel="noopener">/knowledge-graph/</a>. Praktisch, um Änderungen am Quellcode direkt im Browser zu prüfen, ohne einen eigenen Server aufzusetzen.</p>
+
+        <h3 class="mt-4">4. Automatisierung nachvollziehen</h3>
+        <p>Veröffentlichung und Deployment laufen über GitHub Actions (<code>.github/workflows/</code>): Jede Änderung am <code>main</code>-Branch löst automatisch einen neuen Build und ein Deployment auf GitHub Pages aus. Der Workflow selbst ist im Repository einsehbar.</p>
+
+        <h3 class="mt-4">5. Inhalte korrekt zitieren</h3>
+        <p>Für akademische oder redaktionelle Zwecke liegt eine maschinenlesbare Zitierangabe in <a href="https://github.com/ThomasBade/website/blob/main/CITATION.cff" target="_blank" rel="noopener">CITATION.cff</a> vor (GitHub-Zitierfunktion). Autor ist Thomas Bade, maßgeblich für Inhalte bleibt die jeweilige kanonische URL unter <code>www.thomas-bade.de</code>.</p>
+
+        <hr class="hr-ci">
+        <h2>Nutzungshinweise</h2>
+        <p>Quellcode und Knowledge-Graph-Daten dieses Repositories stehen unter <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de" target="_blank" rel="noopener license">CC BY-NC-SA 4.0</a> (Namensnennung – nicht kommerziell – Weitergabe unter gleichen Bedingungen). Das heißt: Teilen, Kopieren und Bearbeiten ist erlaubt, sofern der Urheber genannt wird, die Nutzung nicht kommerziell ist und eigene Bearbeitungen unter derselben Lizenz weitergegeben werden. Details in <a href="https://github.com/ThomasBade/website/blob/main/LICENSE.md" target="_blank" rel="noopener">LICENSE.md</a>. Für kommerzielle Nutzung außerhalb dieser Lizenz wenden Sie sich bitte an <a href="mailto:tb@thomas-bade.de">tb@thomas-bade.de</a>. Fachliche Aussagen auf den einzelnen Seiten sind stets anhand der dort genannten Primärquellen zu prüfen; die Plattform bietet Fachinformation, keine Rechts- oder Medizinberatung.</p>
+
+        <p class="mt-3">
+          <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de" target="_blank" rel="noopener license">
+            <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="Creative Commons Lizenz CC BY-NC-SA 4.0" style="border:0;">
+          </a>
+        </p>
+
+        <hr class="hr-ci">
+        <h2>Quellen &amp; weiterführende Links</h2>
+        <ul>
+          <li><a href="https://github.com/ThomasBade/website/" target="_blank" rel="noopener">GitHub-Repository: ThomasBade/website <i class="bi bi-box-arrow-up-right"></i></a></li>
+          <li><a href="https://thomasbade.github.io/website/" target="_blank" rel="noopener">GitHub-Pages-Spiegel <i class="bi bi-box-arrow-up-right"></i></a></li>
+          <li><a href="https://www.thomas-bade.de/knowledge-graph/" target="_blank" rel="noopener">Knowledge Graph &amp; GEO-Dashboard (kanonisch) <i class="bi bi-box-arrow-up-right"></i></a></li>
+          <li><a href="https://github.com/ThomasBade/website/blob/main/README.md" target="_blank" rel="noopener">README.md <i class="bi bi-box-arrow-up-right"></i></a></li>
+          <li><a href="https://github.com/ThomasBade/website/blob/main/METHODOLOGY.md" target="_blank" rel="noopener">METHODOLOGY.md <i class="bi bi-box-arrow-up-right"></i></a></li>
+        </ul>
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 mb-3">
+            <img src="https://thomas-bade.de/assets/img/logo-transparent.png" alt="thomas-bade.de" width="175" height="120" style="height:120px; width:175px; margin-bottom:20px; display:block;">
+            <p><a href="mailto:tb@thomas-bade.de"><i class="bi bi-envelope me-1"></i>E-Mail</a></p>
+            <p><a href="https://www.thomas-bade.de/coach.html"><i class="bi bi-person me-1"></i>Zur Person</a></p>
+            <p><a href="https://www.thomas-bade.de/termine.html"><i class="bi bi-calendar me-1"></i>Let's talk</a></p>
+            <p><a href="https://www.thomas-bade.de/impressum.html"><i class="bi bi-file-text me-1"></i>Impressum &amp; Datenschutz</a></p>
+            <p style="font-size:12px; color:#ffc451; margin-top:16px;">&copy; Copyright 2026 Thomas Bade</p>
+          </div>
+
+          <div class="col-lg-6 col-md-6 mb-3">
+            <p class="footer-label">Weitere Angebote</p>
+            <p><a href="https://www.thomas-bade.eu" target="_blank" rel="noopener"><i class="bi bi-globe me-1"></i>thomas-bade.eu – Zukunftsraum Kommune</a></p>
+            <p><a href="https://www.thomas-bade.org" target="_blank" rel="noopener"><i class="bi bi-mortarboard me-1"></i>thomas-bade.org – KI Kompetenz- &amp; Lernportal</a></p>
+            <p><a href="https://www.thomas-bade.de/knowledge-graph/" target="_blank" rel="noopener"><i class="bi bi-diagram-3 me-1"></i>Knowledge Graph &amp; GEO-Dashboard</a></p>
+            <p><a href="https://github.com/ThomasBade/website/" target="_blank" rel="noopener"><i class="bi bi-github me-1"></i>GitHub-Repository (Entwickler-Tools)</a></p>
+
+            <p class="footer-label mt-4">Alle KI-Themen</p>
+            <p style="font-size:14px; margin-bottom:6px;">
+              <a href="https://www.thomas-bade.de/sitemap.html" target="_blank" style="color:#ccc; text-decoration:none;"><i class="bi bi-grid-3x3-gap"></i> Site Map</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <style>
+    #header.header-inner-pages { background:#111; }
+    #tb-nav .tb-nav-link { color:#eee; font-size:14px; font-weight:500; text-decoration:none; }
+    #tb-nav .tb-nav-link:hover { color:#ffc451; }
+    #tb-burger { display:flex; flex-direction:column; justify-content:center; gap:5px; width:36px; height:36px; background:transparent; border:none; cursor:pointer; }
+    #tb-burger span { display:block; width:22px; height:2px; background:#eee; transition:transform .2s, opacity .2s; }
+    #tb-menu { position:fixed; top:0; right:0; height:100%; width:min(340px,88vw); background:#151515; z-index:10091; transform:translateX(100%); transition:transform .28s cubic-bezier(.4,0,.2,1); overflow-y:auto; }
+    #tb-menu.open { transform:translateX(0); }
+    #tb-menu-inner { padding:20px 24px 40px; }
+    #tb-menu-close { display:flex; align-items:center; justify-content:center; width:36px; height:36px; background:rgba(255,255,255,.07); border:1px solid rgba(255,255,255,.12); border-radius:6px; color:#fff; font-size:20px; cursor:pointer; margin-left:auto; margin-bottom:28px; transition:background .2s, color .2s; line-height:1; }
+    #tb-menu-close:hover { background:#ffc451; color:#000; border-color:#ffc451; }
+    #tb-menu ul { list-style:none; padding:0; margin:0; }
+    #tb-menu ul li + li { margin-top:8px; }
+    #tb-menu ul li a { display:flex; align-items:center; padding:14px 18px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.07); border-radius:8px; color:#eee; font-size:15px; font-weight:500; text-decoration:none; transition:background .2s, color .2s, border-color .2s; }
+    #tb-menu ul li a:hover { background:#ffc451; color:#000; border-color:#ffc451; }
+    #tb-menu ul li a i { font-size:17px; flex-shrink:0; }
+    #tb-menu-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.55); z-index:10090; backdrop-filter:blur(2px); }
+    #tb-menu-overlay.open { display:block; }
+    #tb-menu a:focus-visible, #tb-menu-close:focus-visible, #tb-burger:focus-visible { outline:2px solid #ffc451; outline-offset:2px; }
+  </style>
+  <script>
+  (function () {
+    var burger   = document.getElementById('tb-burger');
+    var menu     = document.getElementById('tb-menu');
+    var overlay  = document.getElementById('tb-menu-overlay');
+    var closeBtn = document.getElementById('tb-menu-close');
+    if (!burger || !menu) return;
+
+    function openMenu() {
+      menu.classList.add('open');
+      overlay.classList.add('open');
+      burger.classList.add('open');
+      burger.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      var first = menu.querySelector('a, button');
+      if (first) setTimeout(function () { first.focus(); }, 300);
+    }
+
+    function closeMenu() {
+      menu.classList.remove('open');
+      overlay.classList.remove('open');
+      burger.classList.remove('open');
+      burger.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      burger.focus();
+    }
+
+    burger.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menu.classList.contains('open') ? closeMenu() : openMenu();
+    });
+
+    closeBtn.addEventListener('click', closeMenu);
+    overlay.addEventListener('click', closeMenu);
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && menu.classList.contains('open')) closeMenu();
+    });
+
+    menu.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () { closeMenu(); });
+    });
+  })();
+  </script>
+
+</body>
+</html>
