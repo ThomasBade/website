@@ -51,7 +51,11 @@ def load(path: Path):
 
 def save(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
 
 
 def stable_token(value: str) -> str:
@@ -188,7 +192,7 @@ for node in graph["nodes"]:
 predicate_tokens = {value["uri"]: ("schema:about" if value["uri"] == "https://schema.org/about" else f"<{value['uri']}>") for value in RELATIONS.values()}
 for edge in graph["edges"]:
     ttl.append(f"<{node_uri[edge['source']]}> {predicate_tokens[edge['predicate']]} <{node_uri[edge['target']]}> .")
-(DATA / "graph.ttl").write_text("\n".join(ttl) + "\n", encoding="utf-8")
+(DATA / "graph.ttl").write_text("\n".join(ttl) + "\n", encoding="utf-8", newline="\n")
 
 schemas = DATA / "schemas"
 graph_schema = {
@@ -220,7 +224,7 @@ tbkg:DefinedTermShape a sh:NodeShape ;
   sh:targetClass schema:DefinedTerm ;
   sh:property [ sh:path schema:name ; sh:minCount 1 ] .
 """
-(schemas / "knowledge-graph.shacl.ttl").write_text(shacl, encoding="utf-8")
+(schemas / "knowledge-graph.shacl.ttl").write_text(shacl, encoding="utf-8", newline="\n")
 
 artifacts = [
     "pages.json", "graph.json", "vocabulary.json", "ontology.json", "dataset.jsonld",

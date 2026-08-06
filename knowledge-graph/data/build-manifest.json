@@ -1,6 +1,6 @@
 {
-  "buildId": "tbkg-20260806-bb255dc4",
-  "generatedAt": "2026-08-06T06:58:59+00:00",
+  "buildId": "tbkg-20260806-fdd155f3",
+  "generatedAt": "2026-08-06T07:07:51+00:00",
   "generator": "tbkg-static-pipeline/2.0.0",
   "schemaVersion": "2.0.0",
   "source": {
@@ -16,39 +16,39 @@
   "artifacts": [
     {
       "path": "pages.json",
-      "sha256": "ab03bb0983af0b3a8221dac669a77b0dafd4442f143e477bba5180ad0098f315"
+      "sha256": "183d24d63b9ead0cd34a314c578a6ad0770d58e018b15df49786efb577be767c"
     },
     {
       "path": "graph.json",
-      "sha256": "1ad17281b9617d0572c324d871d47d84e1e56c304e80f9709e1c170d947c2614"
+      "sha256": "22efb1d7af5a4d370dd798ec50927264a2c4e28d30dc91ca9dc4cf9d661ad2b1"
     },
     {
       "path": "vocabulary.json",
-      "sha256": "0cb3c31af5643b691b25590f5907f37cc564af8d3a0f412dc1dc4c59041d4e60"
+      "sha256": "7aa46cff526f5988da0239113fbc46f2f08d68aaa26c9bb2890bec26f17d6d86"
     },
     {
       "path": "ontology.json",
-      "sha256": "41b87888e824004baeae46353aca3fc64bb682947f0c42ab9efb3e0399e09ac2"
+      "sha256": "26cbe0aaea5f888b7d6709fdc75351f445355ba1cb8414bb6d88b99d108a8526"
     },
     {
       "path": "dataset.jsonld",
-      "sha256": "4f84114481ca9ede51514b425743749c4e2696f8647e9dd2c25f175f277fe1ee"
+      "sha256": "a42025778deba9a5e2c1256ea0d0ffa153c4a2fc8404c7d105a80fc2efaa4e24"
     },
     {
       "path": "graph.ttl",
-      "sha256": "a288801f76796894dc2b011153a38c14a356120f73bba2f0a3f9437bf60f3096"
+      "sha256": "e52fd35710440abae5a75ffe068f5bb13e8e62246452f6388f64ef5a3e97dd30"
     },
     {
       "path": "schemas/graph.schema.json",
-      "sha256": "afdbfaff79a2bcb352f378c48c4835301f32802451f09f0555e9ff58a92c8598"
+      "sha256": "41e565ff8bbc168234e1b5a42f3d00769789fcf9ac0759dcb54c9324b1db74db"
     },
     {
       "path": "schemas/pages.schema.json",
-      "sha256": "d1a89365927a2ce355677780087898eb917b6d94431b9805b7b3fbe92f8173cc"
+      "sha256": "2de747de15c5e8edb6b39d7a915b3051a03236f946968ae051fd62871bc90294"
     },
     {
       "path": "schemas/knowledge-graph.shacl.ttl",
-      "sha256": "305f0ba37dbec5eecd27765af50833214c02079fe5b8e49b92891b3e0a744757"
+      "sha256": "cf3e8e8aba8581bb984e1ba5a2b49a9fde7959d1f19c1d46332c1c710644cb59"
     }
   ]
 }
