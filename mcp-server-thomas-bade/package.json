@@ -1,0 +1,23 @@
+{
+  "name": "mcp-server-thomas-bade-kg",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for the Thomas Bade healthcare AI knowledge graph",
+  "scripts": {
+    "start": "tsx mcp-server-thomas-bade.ts",
+    "build": "tsc --noEmit",
+    "inspect": "npx @modelcontextprotocol/inspector tsx mcp-server-thomas-bade.ts"
+  },
+  "keywords": ["mcp", "knowledge-graph", "healthcare-ai", "eu-ai-act", "ki-governance"],
+  "author": "Thomas Bade",
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "tsx": "4.23.10",
+    "typescript": "7.0.2"
+  }
+}

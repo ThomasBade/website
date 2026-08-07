@@ -1,0 +1,26 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tb: <https://thomas-bade.de/entity/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+tb:eu-ai-act rdfs:label "EU AI Act"@de ; owl:sameAs wd:Q108456694 ; skos:exactMatch wd:Q108456694 .
+tb:dsgvo rdfs:label "DSGVO"@de ; owl:sameAs wd:Q29643082 ; skos:exactMatch wd:Q29643082 .
+tb:kuenstliche-intelligenz rdfs:label "Künstliche Intelligenz"@de ; owl:sameAs wd:Q11660 ; skos:exactMatch wd:Q11660 .
+tb:gesundheitswesen rdfs:label "Gesundheitswesen"@de ; owl:sameAs wd:Q31207 ; skos:exactMatch wd:Q31207 .
+tb:risikomanagement rdfs:label "Risikomanagement"@de ; owl:sameAs wd:Q204785 ; skos:exactMatch wd:Q204785 .
+tb:medizinprodukt rdfs:label "Medizinprodukt"@de ; owl:sameAs wd:Q217602 ; skos:exactMatch wd:Q217602 .
+tb:pflege rdfs:label "Pflege"@de ; owl:sameAs wd:Q186361 ; skos:exactMatch wd:Q186361 .
+tb:krankenhaus rdfs:label "Krankenhaus"@de ; owl:sameAs wd:Q16917 ; skos:exactMatch wd:Q16917 .
+tb:datenschutz rdfs:label "Datenschutz"@de ; owl:sameAs wd:Q2602249 ; skos:exactMatch wd:Q2602249 .
+tb:fmea rdfs:label "FMEA"@de ; owl:sameAs wd:Q853049 ; skos:exactMatch wd:Q853049 .
+tb:knowledge-graph rdfs:label "Knowledge Graph"@de ; owl:sameAs wd:Q33002955 ; skos:exactMatch wd:Q33002955 .
+tb:compliance rdfs:label "Compliance"@de ; owl:sameAs wd:Q1069725 ; skos:exactMatch wd:Q1069725 .
+tb:maschinelles-lernen rdfs:label "Maschinelles Lernen"@de ; owl:sameAs wd:Q2539 ; skos:exactMatch wd:Q2539 .
+tb:who rdfs:label "WHO"@de ; owl:sameAs wd:Q7817 ; skos:exactMatch wd:Q7817 .
+tb:digitale-souveraenitaet rdfs:label "Digitale Souveränität"@de ; owl:sameAs wd:Q19824804 ; skos:exactMatch wd:Q19824804 .
+tb:qualitaetsmanagement rdfs:label "Qualitätsmanagement"@de ; owl:sameAs wd:Q748019 ; skos:exactMatch wd:Q748019 .
+tb:ki-ethik rdfs:label "KI-Ethik"@de ; owl:sameAs wd:Q56875098 ; skos:exactMatch wd:Q56875098 .
+tb:transparenz rdfs:label "Transparenz"@de ; owl:sameAs wd:Q535891 ; skos:exactMatch wd:Q535891 .
+tb:europaeische-union rdfs:label "Europäische Union"@de ; owl:sameAs wd:Q458 ; skos:exactMatch wd:Q458 .
+tb:wissensmanagement rdfs:label "Wissensmanagement"@de ; owl:sameAs wd:Q192060 ; skos:exactMatch wd:Q192060 .

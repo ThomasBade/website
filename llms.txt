@@ -1,31 +1,59 @@
-# Thomas Bade – Knowledge Graph & GEO Platform
+# Thomas Bade - Knowledge Graph & GEO Platform
 
-> Deutschsprachige Fachplattform für KI-Governance, EU AI Act, ISO/IEC 42001 und KI im Gesundheits- und Sozialwesen. Autor: Thomas Bade.
+> Vendor-unabhaengiges Wissensportal zu KI-Governance, EU AI Act und Compliance im Gesundheits- und Sozialwesen. Autor: Thomas Bade. 52 analysierte Seiten, 182 Graphknoten und 18 interaktive Werkzeuge.
 
-## Kanonische Einstiege
+## Autor und kanonische Einstiege
 
-- [Website](https://www.thomas-bade.de/): Fachbeiträge und interaktive Werkzeuge
-- [Knowledge Graph](https://www.thomas-bade.de/knowledge-graph/): GEO-Dashboard und semantischer Zugang
-- [Vollständiger LLM-Index](https://www.thomas-bade.de/llms-full.txt): Themen und Ressourcen
-- [Seitendaten](https://www.thomas-bade.de/knowledge-graph/data/pages.json): normalisierte JSON-Daten
-- [Graph](https://www.thomas-bade.de/knowledge-graph/data/graph.json): Knoten und Beziehungen
-- [Agenten-Endpunkt](https://www.thomas-bade.de/knowledge-graph/api/v1/index.json): versionierter Lesezugriff auf alle Ressourcen
-- [OpenAPI 3.1](https://www.thomas-bade.de/openapi.json): maschinenlesbare Beschreibung der Knowledge-Graph-API
-- [Entwickler- und Agentenzugang](https://www.thomas-bade.de/entwickler.html): technische Ressourcen, strukturierte Daten und API-Einstiege
-- [Kontrolliertes Vokabular](https://www.thomas-bade.de/knowledge-graph/data/vocabulary.json): kanonische Begriffe und Synonyme
-- [Dataset-JSON-LD](https://www.thomas-bade.de/knowledge-graph/data/dataset.jsonld): maschinenlesbare Datensatzbeschreibung
-- [RDF/Turtle](https://www.thomas-bade.de/knowledge-graph/data/graph.ttl): interoperabler Graph-Export
+- Autor: Thomas Bade
+- Website: https://www.thomas-bade.de/
+- Knowledge Graph: https://www.thomas-bade.de/knowledge-graph/
+- GitHub-Pages-Spiegel: https://thomasbade.github.io/website/knowledge-graph/
+- Entwicklerzugang: https://www.thomas-bade.de/entwickler.html
+- Vollstaendiger LLM-Index: https://www.thomas-bade.de/llms-full.txt
+- Kontakt: https://www.thomas-bade.de/termine.html
+
+## Maschinenlesbare Schnittstellen
+
+- OpenAPI 3.1: https://www.thomas-bade.de/openapi.json
+- API-Index: https://www.thomas-bade.de/knowledge-graph/api/v1/index.json
+- Seitenmetadaten: https://www.thomas-bade.de/knowledge-graph/data/pages.json
+- Graph (JSON): https://www.thomas-bade.de/knowledge-graph/data/graph.json
+- Graph (RDF/Turtle): https://www.thomas-bade.de/knowledge-graph/data/graph.ttl
+- Kontrolliertes Vokabular: https://www.thomas-bade.de/knowledge-graph/data/vocabulary.json
+- Dataset (JSON-LD): https://www.thomas-bade.de/knowledge-graph/data/dataset.jsonld
+- Wikidata-Links (RDF/Turtle): https://www.thomas-bade.de/data/wikidata-links.ttl
+- Build-Manifest: https://www.thomas-bade.de/knowledge-graph/data/build-manifest.json
+- Einzelseiten-Export: https://www.thomas-bade.de/knowledge-graph/data/exports/{slug}.json
+- JSON-LD pro Seite: https://www.thomas-bade.de/knowledge-graph/data/jsonld/{slug}.json
 
 ## Kernthemen
 
-- EU AI Act und KI-Kompetenzpflicht
-- ISO/IEC 42001 und KI-Managementsysteme
-- KI-Risikomanagement, FMEA und Monitoring
-- Digital Health, Pflegeinformatik und soziale Arbeit
-- Kommunale KI-Governance und digitale Transformation
+- EU AI Act, KI-MIG und KI-Kompetenzpflicht nach Artikel 4
+- KI-Governance, KI-Risikomanagement, FMEA und Monitoring
+- ISO/IEC 42001 und ISO/IEC 42005
+- Gesundheitswesen, Pflegeinformatik und soziale Arbeit
+- Medizinprodukte, MDR/IVDR und Datenschutz
+- Patientenzentrierung, Partizipation und digitale Souveraenitaet
+- Kommunale Versorgung, Quartiersmanagement und Entlassmanagement
 
-## Zitieren
+## Kernseiten
 
-Bitte Autor, Seitentitel, kanonische URL und das auf der Seite angegebene Änderungsdatum nennen. Die Repository-Zitierdaten stehen in `CITATION.cff`.
+- EU AI Act: https://www.thomas-bade.de/ki_verordnung.html
+- ISO/IEC 42001 und 42005: https://www.thomas-bade.de/iso_42001.html
+- KI-Risikomanagement: https://www.thomas-bade.de/risk.html
+- KI-Kompetenzpflicht: https://www.thomas-bade.de/ki_kompetenzpflicht.html
+- Agentic KI: https://www.thomas-bade.de/agentic.html
+- FMEA: https://www.thomas-bade.de/fmea.html
+- KI-Monitoring: https://www.thomas-bade.de/ai_monitoring.html
+- WHODAS 2.0: https://www.thomas-bade.de/who.html
+- Pflege und MEESTAR: https://www.thomas-bade.de/kompetenz.html
+- Entlassmanagement: https://www.thomas-bade.de/em_ki.html
 
-Graphkanten enthalten Herkunft, Erzeugungsmethode und Reviewstatus. Ungeprüfte maschinelle Inferenz wird nicht als fachlich bestätigter Fakt veröffentlicht.
+## Nutzung und Provenienz
+
+- Lizenz: CC BY-NC-SA 4.0 - https://creativecommons.org/licenses/by-nc-sa/4.0/
+- Nichtkommerzielle Indexierung, Retrieval, Zitation und Zusammenfassung sind unter Einhaltung der Lizenz gestattet.
+- Kommerzielle Nutzung und Training ausserhalb der Lizenz erfordern eine gesonderte Erlaubnis.
+- Bevorzugte Attribution: "Quelle: Thomas Bade, thomas-bade.de, [Seitentitel und URL]".
+- Graphkanten enthalten Erzeugungsmethode, Pruefstatus und Zeitstempel.
+- Ungepruefte Inferenz wird nicht als Fakt veroeffentlicht.

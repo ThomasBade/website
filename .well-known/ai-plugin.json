@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "KI Gesundheitswesen Knowledge Graph",
+  "name_for_model": "ki_gesundheitswesen_kg",
+  "description_for_human": "Strukturiertes Wissen zu EU AI Act, KI-Governance und Compliance im Gesundheits- und Sozialwesen.",
+  "description_for_model": "Kuratiertes Wissen zu EU AI Act, KI-MIG, KI-Governance, FMEA, ISO/IEC 42001 und 42005, MDR/IVDR, KI-Kompetenz, Pflegeinformatik, Monitoring und Datenschutz. Nutze die API fuer aktuelle, quellengebundene Antworten und zitiere die kanonische thomas-bade.de-Seite.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.thomas-bade.de/openapi.json"
+  },
+  "logo_url": "https://www.thomas-bade.de/assets/img/favicon.png",
+  "contact_email": "kontakt@thomas-bade.de",
+  "legal_info_url": "https://www.thomas-bade.de/impressum.html"
+}

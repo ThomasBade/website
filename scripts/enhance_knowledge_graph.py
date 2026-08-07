@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import unicodedata
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -14,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "knowledge-graph" / "data"
 BASE = "https://www.thomas-bade.de"
 VERSION = "2.0.0"
+WIKIDATA_PATCH = ROOT / "config" / "wikidata-sameas-patch.json"
 
 SYNONYMS = {
     "EU AI Act": ["AI Act", "EU-KI-Verordnung", "KI-Verordnung", "Verordnung (EU) 2024/1689"],
@@ -91,6 +93,15 @@ def save(path: Path, value) -> None:
         encoding="utf-8",
         newline="\n",
     )
+
+
+def normalized(value: str) -> str:
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
+    return " ".join(value.casefold().replace("-", " ").split())
+
+
+def term_slug(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", normalized(value)).strip("-")
 
 
 def stable_token(value: str) -> str:
@@ -242,6 +253,26 @@ vocabulary = {
         for node in graph["nodes"] if node["type"] == "topic"
     ],
 }
+if WIKIDATA_PATCH.is_file():
+    mappings = json.loads(WIKIDATA_PATCH.read_text(encoding="utf-8"))["mappings"]
+    term_index = {}
+    for term in vocabulary["terms"]:
+        for value in [term["label"], *term.get("synonyms", [])]:
+            term_index[normalized(value)] = term
+    for mapping in mappings:
+        candidates = [mapping["term"], *mapping.get("aliases", [])]
+        term = next((term_index.get(normalized(value)) for value in candidates if term_index.get(normalized(value))), None)
+        if term is None:
+            term = {
+                "id": f"{BASE}/id/defined-term/{term_slug(mapping['term'])}",
+                "label": mapping["term"],
+                "synonyms": mapping.get("aliases", []),
+                "usageCount": 0,
+                "source": "Wikidata alignment vocabulary",
+            }
+            vocabulary["terms"].append(term)
+        term["sameAs"] = sorted(set([*term.get("sameAs", []), mapping["uri"]]))
+        term["wikidataQid"] = mapping["qid"]
 save(DATA / "vocabulary.json", vocabulary)
 
 ontology = {
@@ -294,6 +325,10 @@ for node in graph["nodes"]:
 predicate_tokens = {value["uri"]: ("schema:about" if value["uri"] == "https://schema.org/about" else f"<{value['uri']}>") for value in RELATIONS.values()}
 for edge in graph["edges"]:
     ttl.append(f"<{node_uri[edge['source']]}> {predicate_tokens[edge['predicate']]} <{node_uri[edge['target']]}> .")
+ttl.extend(["", "@prefix owl: <http://www.w3.org/2002/07/owl#> ."])
+for term in vocabulary["terms"]:
+    for same_as in term.get("sameAs", []):
+        ttl.append(f"<{term['id']}> owl:sameAs <{same_as}> .")
 (DATA / "graph.ttl").write_text("\n".join(ttl) + "\n", encoding="utf-8", newline="\n")
 
 schemas = DATA / "schemas"

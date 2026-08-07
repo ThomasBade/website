@@ -129,7 +129,11 @@
       "id": "https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84",
       "label": "Gesundheitswesen",
       "synonyms": [],
-      "usageCount": 33
+      "usageCount": 33,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q31207"
+      ],
+      "wikidataQid": "Q31207"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/55d230ca9e9e0f24",
@@ -140,7 +144,11 @@
         "KI-Verordnung",
         "Verordnung (EU) 2024/1689"
       ],
-      "usageCount": 42
+      "usageCount": 42,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q108456694"
+      ],
+      "wikidataQid": "Q108456694"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2",
@@ -156,19 +164,31 @@
         "Datenschutz-Grundverordnung",
         "Verordnung (EU) 2016/679"
       ],
-      "usageCount": 12
+      "usageCount": 12,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q29643082"
+      ],
+      "wikidataQid": "Q29643082"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/f624fcf0dcbb39c0",
       "label": "Datenschutz",
       "synonyms": [],
-      "usageCount": 24
+      "usageCount": 24,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q2602249"
+      ],
+      "wikidataQid": "Q2602249"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/d520d22ef5fbcfb1",
       "label": "Risikomanagement",
       "synonyms": [],
-      "usageCount": 34
+      "usageCount": 34,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q204785"
+      ],
+      "wikidataQid": "Q204785"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/7a19ba42f98e9b2d",
@@ -178,7 +198,11 @@
         "Medical Device Regulation",
         "Verordnung (EU) 2017/745"
       ],
-      "usageCount": 17
+      "usageCount": 17,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q217602"
+      ],
+      "wikidataQid": "Q217602"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/1b555c72bbe6f2ee",
@@ -202,7 +226,11 @@
       "id": "https://www.thomas-bade.de/id/defined-term/a9386d3e8b5790f2",
       "label": "Pflege",
       "synonyms": [],
-      "usageCount": 31
+      "usageCount": 31,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q186361"
+      ],
+      "wikidataQid": "Q186361"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/36b9f42a9a662953",
@@ -265,7 +293,11 @@
       "id": "https://www.thomas-bade.de/id/defined-term/d3b4ae7b16dbbb63",
       "label": "FMEA",
       "synonyms": [],
-      "usageCount": 6
+      "usageCount": 6,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q853049"
+      ],
+      "wikidataQid": "Q853049"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/e3c303fbd747c768",
@@ -431,7 +463,11 @@
       "id": "https://www.thomas-bade.de/id/defined-term/00903fc4a62077bb",
       "label": "KI-Ethik",
       "synonyms": [],
-      "usageCount": 7
+      "usageCount": 7,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q56875098"
+      ],
+      "wikidataQid": "Q56875098"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/d5fdc1af021e2d36",
@@ -453,7 +489,11 @@
         "Artificial Intelligence",
         "AI"
       ],
-      "usageCount": 12
+      "usageCount": 12,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q11660"
+      ],
+      "wikidataQid": "Q11660"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/cbf2b80453caef21",
@@ -843,7 +883,11 @@
       "id": "https://www.thomas-bade.de/id/defined-term/100a9faa1100f3db",
       "label": "Wissensmanagement",
       "synonyms": [],
-      "usageCount": 1
+      "usageCount": 1,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q192060"
+      ],
+      "wikidataQid": "Q192060"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/7a3a4a2bf2d2dffe",
@@ -883,6 +927,129 @@
       "label": "Interaktive Werkzeuge",
       "synonyms": [],
       "usageCount": 18
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/krankenhaus",
+      "label": "Krankenhaus",
+      "synonyms": [
+        "Klinik",
+        "Hospital"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q16917"
+      ],
+      "wikidataQid": "Q16917"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/knowledge-graph",
+      "label": "Knowledge Graph",
+      "synonyms": [
+        "Wissensgraph",
+        "Wissensgraphen"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q33002955"
+      ],
+      "wikidataQid": "Q33002955"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/compliance",
+      "label": "Compliance",
+      "synonyms": [
+        "Regelkonformität"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1069725"
+      ],
+      "wikidataQid": "Q1069725"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/maschinelles-lernen",
+      "label": "Maschinelles Lernen",
+      "synonyms": [
+        "Machine Learning",
+        "ML"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q2539"
+      ],
+      "wikidataQid": "Q2539"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/who",
+      "label": "WHO",
+      "synonyms": [
+        "World Health Organization",
+        "Weltgesundheitsorganisation"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q7817"
+      ],
+      "wikidataQid": "Q7817"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/digitale-souveranitat",
+      "label": "Digitale Souveränität",
+      "synonyms": [
+        "Digital Sovereignty"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q19824804"
+      ],
+      "wikidataQid": "Q19824804"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/qualitatsmanagement",
+      "label": "Qualitätsmanagement",
+      "synonyms": [
+        "Quality Management",
+        "QM"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q748019"
+      ],
+      "wikidataQid": "Q748019"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/transparenz",
+      "label": "Transparenz",
+      "synonyms": [
+        "Transparency"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q535891"
+      ],
+      "wikidataQid": "Q535891"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/europaische-union",
+      "label": "Europäische Union",
+      "synonyms": [
+        "EU",
+        "European Union"
+      ],
+      "usageCount": 0,
+      "source": "Wikidata alignment vocabulary",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q458"
+      ],
+      "wikidataQid": "Q458"
     }
   ]
 }

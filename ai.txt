@@ -1,0 +1,33 @@
+# ai.txt - thomas-bade.de
+# Aktualisiert: 2026-08-07
+
+Name: Thomas Bade - KI im Gesundheitswesen
+Description: Vendor-unabhaengiges Wissensportal zu EU AI Act, KI-Governance, Risikomanagement und Compliance im Gesundheits- und Sozialwesen.
+URL: https://www.thomas-bade.de/
+Knowledge-Graph: https://www.thomas-bade.de/knowledge-graph/
+GitHub-Mirror: https://thomasbade.github.io/website/knowledge-graph/
+Contact: https://www.thomas-bade.de/termine.html
+Language: de
+
+License: CC BY-NC-SA 4.0
+License-URL: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Permitted-Uses: non-commercial retrieval, citation, summarization, indexing
+Conditional-Uses: non-commercial training subject to CC BY-NC-SA 4.0 and applicable law
+Permission-Required: commercial use, commercial training, relicensing
+Attribution-Required: yes
+Attribution-Format: Quelle: Thomas Bade, thomas-bade.de, Seitentitel und kanonische URL
+
+API-Specification: https://www.thomas-bade.de/openapi.json
+Data-API-Index: https://www.thomas-bade.de/knowledge-graph/api/v1/index.json
+Data-Graph-JSON: https://www.thomas-bade.de/knowledge-graph/data/graph.json
+Data-Graph-RDF: https://www.thomas-bade.de/knowledge-graph/data/graph.ttl
+Data-Vocabulary: https://www.thomas-bade.de/knowledge-graph/data/vocabulary.json
+Data-JSONLD: https://www.thomas-bade.de/knowledge-graph/data/dataset.jsonld
+Data-Pages: https://www.thomas-bade.de/knowledge-graph/data/pages.json
+Data-Wikidata-Links: https://www.thomas-bade.de/data/wikidata-links.ttl
+Data-Build: https://www.thomas-bade.de/knowledge-graph/data/build-manifest.json
+
+Topics: EU AI Act, KI-MIG, KI-Governance, Risikomanagement, Gesundheitswesen, Pflege, Pflegeinformatik, KI-Kompetenz, DSGVO, Medizinprodukte, MDR, ISO/IEC 42001, ISO/IEC 42005, Patientenzentrierung, Digitale Souveraenitaet
+Provenance: Graphkanten enthalten Erzeugungsmethode, Status und Zeitstempel.
+Verification: Ungepruefte Inferenz wird nicht als Fakt veroeffentlicht.
+Update-Frequency: weekly
