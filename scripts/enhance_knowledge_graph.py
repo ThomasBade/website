@@ -44,6 +44,20 @@ RELATIONS = {
     "supplements": {"uri": f"{BASE}/vocab/supplements", "label": "ergänzt", "status": "reserved"},
 }
 
+THOMAS_RELATIONS = [
+    ("page:impressum", "Impressum", f"{BASE}/impressum.html"),
+    ("page:coach", "Coaching und Beratung", f"{BASE}/coach.html"),
+    ("page:termine", "Termine", f"{BASE}/termine.html"),
+    ("page:leitbild", "Leitbild", f"{BASE}/leitbild.html"),
+    ("external:thomas-bade-org", "thomas-bade.org", "https://thomas-bade.org/"),
+    ("external:thomas-bade-eu", "thomas-bade.eu", "https://thomas-bade.eu/"),
+    ("external:linkedin", "LinkedIn", "https://www.linkedin.com/in/thomas-bade"),
+    ("external:bluesky", "Bluesky", "https://bsky.app/profile/thomas-bade.de"),
+    ("external:mastodon", "Mastodon", "https://mastodon.social/@thomasbade"),
+    ("external:x", "X", "https://x.com/thomasbade"),
+    ("external:whatsapp", "WhatsApp-Kanal", "https://www.whatsapp.com/channel/0029Vb7Yfze0LKZ8ikCNtu3w"),
+]
+
 
 def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -72,6 +86,34 @@ generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 page_by_id = {page["id"]: page for page in pages}
 canonical_counts = Counter(page["canonical"] for page in pages)
 
+# "Thomas" is a curated person hub, not a term extracted from arbitrary page text.
+thomas_node = next((node for node in graph["nodes"] if node.get("label") == "Thomas"), None)
+if thomas_node:
+    thomas_id = thomas_node["id"]
+    graph["edges"] = [
+        edge for edge in graph["edges"]
+        if edge["source"] != thomas_id and edge["target"] != thomas_id
+    ]
+    existing_nodes = {node["id"]: node for node in graph["nodes"]}
+    for target_id, label, url in THOMAS_RELATIONS:
+        if target_id.startswith("external:") and target_id not in existing_nodes:
+            node = {
+                "id": target_id,
+                "type": "external",
+                "label": label,
+                "url": url,
+                "uri": url,
+            }
+            graph["nodes"].append(node)
+            existing_nodes[target_id] = node
+        graph["edges"].append({
+            "source": thomas_id,
+            "target": target_id,
+            "type": "linksTo",
+            "curated": True,
+        })
+    thomas_node["count"] = len(THOMAS_RELATIONS)
+
 degree = Counter()
 for edge in graph["edges"]:
     degree[edge["source"]] += 1
@@ -94,6 +136,9 @@ for node in graph["nodes"]:
             page["content_status"] = "published"
             node["entityType"] = "ContentPage"
             node["uri"] = page["canonical"] + "#knowledge-graph-node"
+    elif node["type"] == "external":
+        node["entityType"] = "WebPage"
+        node["uri"] = node["url"]
     else:
         node["entityType"] = "DefinedTerm"
         node["uri"] = f"{BASE}/id/defined-term/{stable_token(node['label'])}"
@@ -118,6 +163,12 @@ for edge in graph["edges"]:
         "generatedAt": generated_at,
         "generator": f"tbkg-static-pipeline/{VERSION}",
     }
+    if edge.pop("curated", False):
+        edge["assertionStatus"] = "asserted"
+        edge["reviewStatus"] = "editorially-confirmed"
+        edge["confidence"] = 1.0
+        edge["provenance"]["source"] = f"{BASE}/#thomas-bade"
+        edge["provenance"]["method"] = "editorial-curation"
 
 graph["meta"].update({
     "generated_at": generated_at,
