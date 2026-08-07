@@ -3,9 +3,24 @@
 @prefix tbkg: <https://www.thomas-bade.de/vocab/> .
 
 <https://www.thomas-bade.de/knowledge-graph/#dataset> a schema:Dataset ;
-  schema:name "Thomas Bade Knowledge Graph & GEO Dataset"@de ;
+  schema:name "Knowledge Graph: KI im Gesundheitswesen"@de ;
+  schema:alternateName "Thomas Bade Knowledge Graph & GEO Platform"@de ;
+  schema:description "Maschinenlesbarer Knowledge Graph mit 52 Fachseiten, 182 Knoten und 18 interaktiven Werkzeugen zu KI-Governance und KI im Gesundheits- und Sozialwesen."@de ;
+  schema:url <https://www.thomas-bade.de/knowledge-graph/> ;
+  schema:datePublished "2026-08-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
+  schema:dateModified "2026-08-07T08:40:33+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
   schema:version "2.0.0" ;
+  schema:inLanguage "de-DE" ;
+  schema:creator <https://www.thomas-bade.de/#thomas-bade> ;
   dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> .
+
+<https://www.thomas-bade.de/#thomas-bade> a schema:Person ;
+  schema:name "Thomas Bade" ;
+  schema:url <https://www.thomas-bade.de/> ;
+  schema:sameAs <https://www.linkedin.com/in/thomas-bade>,
+                <https://bsky.app/profile/thomas-bade.de>,
+                <https://mastodon.social/@thomasbade>,
+                <https://x.com/thomasbade> .
 
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> a schema:WebPage ;
   schema:name "Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung"@de .
