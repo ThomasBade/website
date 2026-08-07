@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "thomas-bade-kg": {
+      "command": "npx",
+      "args": [
+        "tsx",
+        "C:/ABSOLUTER/PFAD/mcp-server-thomas-bade/mcp-server-thomas-bade.ts"
+      ],
+      "env": {
+        "TBKG_BASE_URL": "https://thomasbade.github.io/website/knowledge-graph"
+      }
+    }
+  }
+}

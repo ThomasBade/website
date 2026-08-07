@@ -138,6 +138,20 @@
           }
         }
       }
+    },
+    "/data/wikidata-links.ttl": {
+      "get": {
+        "operationId": "getWikidataLinks",
+        "summary": "Wikidata-Verknüpfungen als RDF/Turtle abrufen",
+        "description": "Liefert kuratierte owl:sameAs- und skos:exactMatch-Verknüpfungen für 20 zentrale Entitäten.",
+        "tags": ["Semantics"],
+        "responses": {
+          "200": {
+            "description": "RDF/Turtle mit Wikidata-Verknüpfungen",
+            "content": { "text/turtle": { "schema": { "type": "string" } } }
+          }
+        }
+      }
     }
   },
   "components": {

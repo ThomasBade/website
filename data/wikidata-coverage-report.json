@@ -1,0 +1,130 @@
+{
+  "generatedAt": "2026-08-07T08:40:34.147506+00:00",
+  "mappingCount": 20,
+  "linkedCount": 20,
+  "coveragePercent": 100.0,
+  "linked": [
+    {
+      "term": "EU AI Act",
+      "vocabularyLabel": "EU AI Act",
+      "qid": "Q108456694",
+      "uri": "https://www.wikidata.org/entity/Q108456694"
+    },
+    {
+      "term": "DSGVO",
+      "vocabularyLabel": "DSGVO",
+      "qid": "Q29643082",
+      "uri": "https://www.wikidata.org/entity/Q29643082"
+    },
+    {
+      "term": "Künstliche Intelligenz",
+      "vocabularyLabel": "Künstliche Intelligenz",
+      "qid": "Q11660",
+      "uri": "https://www.wikidata.org/entity/Q11660"
+    },
+    {
+      "term": "Gesundheitswesen",
+      "vocabularyLabel": "Gesundheitswesen",
+      "qid": "Q31207",
+      "uri": "https://www.wikidata.org/entity/Q31207"
+    },
+    {
+      "term": "Risikomanagement",
+      "vocabularyLabel": "Risikomanagement",
+      "qid": "Q204785",
+      "uri": "https://www.wikidata.org/entity/Q204785"
+    },
+    {
+      "term": "Medizinprodukt",
+      "vocabularyLabel": "Medizinprodukte",
+      "qid": "Q217602",
+      "uri": "https://www.wikidata.org/entity/Q217602"
+    },
+    {
+      "term": "Pflege",
+      "vocabularyLabel": "Pflege",
+      "qid": "Q186361",
+      "uri": "https://www.wikidata.org/entity/Q186361"
+    },
+    {
+      "term": "Krankenhaus",
+      "vocabularyLabel": "Krankenhaus",
+      "qid": "Q16917",
+      "uri": "https://www.wikidata.org/entity/Q16917"
+    },
+    {
+      "term": "Datenschutz",
+      "vocabularyLabel": "Datenschutz",
+      "qid": "Q2602249",
+      "uri": "https://www.wikidata.org/entity/Q2602249"
+    },
+    {
+      "term": "FMEA",
+      "vocabularyLabel": "FMEA",
+      "qid": "Q853049",
+      "uri": "https://www.wikidata.org/entity/Q853049"
+    },
+    {
+      "term": "Knowledge Graph",
+      "vocabularyLabel": "Knowledge Graph",
+      "qid": "Q33002955",
+      "uri": "https://www.wikidata.org/entity/Q33002955"
+    },
+    {
+      "term": "Compliance",
+      "vocabularyLabel": "Compliance",
+      "qid": "Q1069725",
+      "uri": "https://www.wikidata.org/entity/Q1069725"
+    },
+    {
+      "term": "Maschinelles Lernen",
+      "vocabularyLabel": "Maschinelles Lernen",
+      "qid": "Q2539",
+      "uri": "https://www.wikidata.org/entity/Q2539"
+    },
+    {
+      "term": "WHO",
+      "vocabularyLabel": "WHO",
+      "qid": "Q7817",
+      "uri": "https://www.wikidata.org/entity/Q7817"
+    },
+    {
+      "term": "Digitale Souveränität",
+      "vocabularyLabel": "Digitale Souveränität",
+      "qid": "Q19824804",
+      "uri": "https://www.wikidata.org/entity/Q19824804"
+    },
+    {
+      "term": "Qualitätsmanagement",
+      "vocabularyLabel": "Qualitätsmanagement",
+      "qid": "Q748019",
+      "uri": "https://www.wikidata.org/entity/Q748019"
+    },
+    {
+      "term": "KI-Ethik",
+      "vocabularyLabel": "KI-Ethik",
+      "qid": "Q56875098",
+      "uri": "https://www.wikidata.org/entity/Q56875098"
+    },
+    {
+      "term": "Transparenz",
+      "vocabularyLabel": "Transparenz",
+      "qid": "Q535891",
+      "uri": "https://www.wikidata.org/entity/Q535891"
+    },
+    {
+      "term": "Europäische Union",
+      "vocabularyLabel": "Europäische Union",
+      "qid": "Q458",
+      "uri": "https://www.wikidata.org/entity/Q458"
+    },
+    {
+      "term": "Wissensmanagement",
+      "vocabularyLabel": "Wissensmanagement",
+      "qid": "Q192060",
+      "uri": "https://www.wikidata.org/entity/Q192060"
+    }
+  ],
+  "unmatched": [],
+  "onlineValidation": "not requested"
+}

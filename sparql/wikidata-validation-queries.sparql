@@ -1,0 +1,58 @@
+# Thomas Bade Knowledge Graph – sieben getrennt auszuführende Wikidata-Abfragen
+# Endpoint: https://query.wikidata.org/
+
+# 1. EU AI Act Entity prüfen
+SELECT ?item ?itemLabel ?description WHERE {
+  VALUES ?item { wd:Q108456694 }
+  OPTIONAL { ?item schema:description ?description FILTER(LANG(?description) IN ("de", "en")) }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
+}
+
+# 2. ISO-KI-Normen finden
+SELECT ?item ?itemLabel ?publicationDate WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q317623;
+        rdfs:label ?label.
+  FILTER(LANG(?label) IN ("de", "en"))
+  FILTER(CONTAINS(LCASE(?label), "4200") || CONTAINS(LCASE(?label), "artificial intelligence"))
+  OPTIONAL { ?item wdt:P571 ?publicationDate }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
+}
+
+# 3. KI-MIG Existenz prüfen
+SELECT ?item ?itemLabel ?description WHERE {
+  ?item rdfs:label ?label.
+  FILTER(LANG(?label) = "de")
+  FILTER(CONTAINS(LCASE(?label), "marktüberwach") || CONTAINS(LCASE(?label), "innovationsförderungs"))
+  OPTIONAL { ?item schema:description ?description FILTER(LANG(?description) = "de") }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
+}
+
+# 4. Deutsche KI-Gesetze
+SELECT ?item ?itemLabel ?date WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q820655; wdt:P17 wd:Q183.
+  OPTIONAL { ?item wdt:P577|wdt:P571 ?date }
+  FILTER(EXISTS { ?item rdfs:label ?l FILTER(CONTAINS(LCASE(?l), "künstliche intelligenz") || CONTAINS(LCASE(?l), "ki")) })
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
+}
+
+# 5. Nursing Informatics prüfen
+SELECT ?item ?itemLabel ?parent ?parentLabel WHERE {
+  VALUES ?item { wd:Q11862829 }
+  OPTIONAL { ?item wdt:P279 ?parent }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
+}
+
+# 6. thomas-bade.de Verweise
+SELECT ?item ?itemLabel ?property ?url WHERE {
+  ?item ?property ?url.
+  FILTER(ISLITERAL(?url) && CONTAINS(LCASE(STR(?url)), "thomas-bade.de"))
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
+}
+
+# 7. Healthcare Knowledge Graphs
+SELECT ?item ?itemLabel ?description WHERE {
+  ?item wdt:P31/wdt:P279* wd:Q33002955.
+  OPTIONAL { ?item schema:description ?description FILTER(LANG(?description) IN ("de", "en")) }
+  FILTER(EXISTS { ?item rdfs:label ?label FILTER(CONTAINS(LCASE(?label), "health") || CONTAINS(LCASE(?label), "medizin") || CONTAINS(LCASE(?label), "pflege")) })
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
+}

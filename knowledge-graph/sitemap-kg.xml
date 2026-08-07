@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://thomasbade.github.io/website/knowledge-graph/</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://thomasbade.github.io/website/openapi.json</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://thomasbade.github.io/website/knowledge-graph/api/v1/index.json</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://thomasbade.github.io/website/knowledge-graph/data/graph.json</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://thomasbade.github.io/website/knowledge-graph/data/graph.ttl</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://thomasbade.github.io/website/knowledge-graph/data/dataset.jsonld</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://thomasbade.github.io/website/knowledge-graph/data/vocabulary.json</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://thomasbade.github.io/website/knowledge-graph/data/pages.json</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://thomasbade.github.io/website/data/wikidata-links.ttl</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.thomas-bade.de/agentic.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thomas-bade.de/ki_verordnung.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thomas-bade.de/iso_42001.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thomas-bade.de/risk.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thomas-bade.de/ki_kompetenzpflicht.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.thomas-bade.de/fmea.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.thomas-bade.de/em_ki.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.thomas-bade.de/dikw.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.thomas-bade.de/ai_monitoring.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.thomas-bade.de/nursing.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>

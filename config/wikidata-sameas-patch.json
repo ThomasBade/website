@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-07",
+  "license": "CC BY-NC-SA 4.0",
+  "mappings": [
+    {"term": "EU AI Act", "qid": "Q108456694", "uri": "https://www.wikidata.org/entity/Q108456694", "aliases": ["AI Act", "EU-KI-Verordnung", "Verordnung (EU) 2024/1689"]},
+    {"term": "DSGVO", "qid": "Q29643082", "uri": "https://www.wikidata.org/entity/Q29643082", "aliases": ["GDPR", "Datenschutz-Grundverordnung"]},
+    {"term": "Künstliche Intelligenz", "qid": "Q11660", "uri": "https://www.wikidata.org/entity/Q11660", "aliases": ["KI", "Artificial Intelligence", "AI"]},
+    {"term": "Gesundheitswesen", "qid": "Q31207", "uri": "https://www.wikidata.org/entity/Q31207", "aliases": ["Gesundheitssystem", "Healthcare"]},
+    {"term": "Risikomanagement", "qid": "Q204785", "uri": "https://www.wikidata.org/entity/Q204785", "aliases": ["Risk Management"]},
+    {"term": "Medizinprodukt", "qid": "Q217602", "uri": "https://www.wikidata.org/entity/Q217602", "aliases": ["Medizinprodukte", "Medical Device"]},
+    {"term": "Pflege", "qid": "Q186361", "uri": "https://www.wikidata.org/entity/Q186361", "aliases": ["Krankenpflege", "Nursing"]},
+    {"term": "Krankenhaus", "qid": "Q16917", "uri": "https://www.wikidata.org/entity/Q16917", "aliases": ["Klinik", "Hospital"]},
+    {"term": "Datenschutz", "qid": "Q2602249", "uri": "https://www.wikidata.org/entity/Q2602249", "aliases": ["Data Protection"]},
+    {"term": "FMEA", "qid": "Q853049", "uri": "https://www.wikidata.org/entity/Q853049", "aliases": ["Fehlermöglichkeits- und Einflussanalyse", "Failure Mode and Effects Analysis"]},
+    {"term": "Knowledge Graph", "qid": "Q33002955", "uri": "https://www.wikidata.org/entity/Q33002955", "aliases": ["Wissensgraph", "Wissensgraphen"]},
+    {"term": "Compliance", "qid": "Q1069725", "uri": "https://www.wikidata.org/entity/Q1069725", "aliases": ["Regelkonformität"]},
+    {"term": "Maschinelles Lernen", "qid": "Q2539", "uri": "https://www.wikidata.org/entity/Q2539", "aliases": ["Machine Learning", "ML"]},
+    {"term": "WHO", "qid": "Q7817", "uri": "https://www.wikidata.org/entity/Q7817", "aliases": ["World Health Organization", "Weltgesundheitsorganisation"]},
+    {"term": "Digitale Souveränität", "qid": "Q19824804", "uri": "https://www.wikidata.org/entity/Q19824804", "aliases": ["Digital Sovereignty"]},
+    {"term": "Qualitätsmanagement", "qid": "Q748019", "uri": "https://www.wikidata.org/entity/Q748019", "aliases": ["Quality Management", "QM"]},
+    {"term": "KI-Ethik", "qid": "Q56875098", "uri": "https://www.wikidata.org/entity/Q56875098", "aliases": ["Ethik der künstlichen Intelligenz", "AI Ethics"]},
+    {"term": "Transparenz", "qid": "Q535891", "uri": "https://www.wikidata.org/entity/Q535891", "aliases": ["Transparency"]},
+    {"term": "Europäische Union", "qid": "Q458", "uri": "https://www.wikidata.org/entity/Q458", "aliases": ["EU", "European Union"]},
+    {"term": "Wissensmanagement", "qid": "Q192060", "uri": "https://www.wikidata.org/entity/Q192060", "aliases": ["Knowledge Management"]}
+  ]
+}

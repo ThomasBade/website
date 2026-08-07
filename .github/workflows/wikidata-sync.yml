@@ -1,0 +1,37 @@
+name: Validate Wikidata links
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  push:
+    paths:
+      - "knowledge-graph/data/vocabulary.json"
+      - "config/wikidata-sameas-patch.json"
+      - "scripts/inject-wikidata-sameas.py"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Validate Wikidata entities and calculate coverage
+        run: >-
+          python scripts/inject-wikidata-sameas.py
+          --vocab knowledge-graph/data/vocabulary.json
+          --patch config/wikidata-sameas-patch.json
+          --output-dir data
+          --validate-online
+      - name: Publish validation report as workflow artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: wikidata-coverage-report
+          path: data/wikidata-coverage-report.json
+          if-no-files-found: error

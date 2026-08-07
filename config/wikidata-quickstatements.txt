@@ -1,0 +1,39 @@
+# ENTWURF – NICHT UNGEPRÜFT AUSFÜHREN.
+# Vor jeder Anlage: Dubletten, Aktualität, Relevanzkriterien und belastbare Primärquellen manuell prüfen.
+# QuickStatements V2; LAST bezieht sich jeweils auf das unmittelbar zuvor erstellte Item.
+
+CREATE
+LAST|Lde|"KI-Marktüberwachungs- und Innovationsförderungs-Gesetz"
+LAST|Len|"German AI Market Surveillance and Innovation Promotion Act"
+LAST|Dde|"deutsches Gesetz zur Durchführung des EU AI Act"
+LAST|P31|Q820655
+LAST|P17|Q183
++
+CREATE
+LAST|Lde|"ISO/IEC 42001:2023"
+LAST|Len|"ISO/IEC 42001:2023"
+LAST|Dde|"internationale Norm für Managementsysteme für künstliche Intelligenz"
+LAST|P31|Q317623
+LAST|P123|Q15028
+LAST|P571|+2023-12-18T00:00:00Z/11
++
+CREATE
+LAST|Lde|"ISO/IEC 42005"
+LAST|Len|"ISO/IEC 42005"
+LAST|Dde|"internationale Norm zur Folgenabschätzung für Systeme künstlicher Intelligenz"
+LAST|P31|Q317623
+LAST|P123|Q15028
++
+CREATE
+LAST|Lde|"KI-Kompetenzpflicht"
+LAST|Len|"AI literacy obligation"
+LAST|Dde|"Anforderung aus Artikel 4 der Verordnung über künstliche Intelligenz"
+LAST|P31|Q1151067
+LAST|P361|Q108456694
++
+CREATE
+LAST|Lde|"Pflegeinformatik"
+LAST|Len|"nursing informatics"
+LAST|Dde|"Anwendungsgebiet der Informatik in der professionellen Pflege"
+LAST|P31|Q11862829
+LAST|P279|Q788926
