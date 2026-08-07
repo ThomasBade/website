@@ -877,6 +877,12 @@
       "label": "Scoring",
       "synonyms": [],
       "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/9146be57b446391b",
+      "label": "Interaktive Werkzeuge",
+      "synonyms": [],
+      "usageCount": 18
     }
   ]
 }

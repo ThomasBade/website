@@ -58,6 +58,27 @@ THOMAS_RELATIONS = [
     ("external:whatsapp", "WhatsApp-Kanal", "https://www.whatsapp.com/channel/0029Vb7Yfze0LKZ8ikCNtu3w"),
 ]
 
+INTERACTIVE_TOOLS = {
+    "ai_monitoring": ("Monitoring-Assessment", ["assessment", "checklist", "notes", "pdf"]),
+    "arise": ("Ethik-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
+    "calster": ("Readiness-Selbsttest", ["assessment", "scoring", "pdf"]),
+    "control_panel": ("Entscheidungsunterstützung", ["assessment", "scoring", "summary", "pdf"]),
+    "control_quartier": ("Kommunales Assessment", ["assessment", "notes", "summary", "pdf"]),
+    "decoding": ("Vertrauens-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
+    "fmea": ("FMEA-Checkliste", ["checklist", "progress"]),
+    "GPAI": ("Compliance-Checkliste", ["checklist", "progress"]),
+    "iso_42001": ("Reporting-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
+    "kompetenz": ("Ethik-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
+    "medlog": ("Readiness-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
+    "nursing": ("Reporting-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
+    "patient": ("Governance-Checkliste", ["assessment", "checklist", "notes", "pdf"]),
+    "risk": ("Risiko-Assessment", ["assessment", "checklist", "notes", "pdf"]),
+    "soziale_arbeit": ("Readiness-Assessment", ["assessment", "checklist", "notes", "summary", "pdf"]),
+    "tripod": ("Reporting-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
+    "vendor": ("Anbieter-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
+    "wissen": ("Readiness-Selbsttest", ["assessment", "scoring", "pdf"]),
+}
+
 
 def load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -85,6 +106,36 @@ graph = load(DATA / "graph.json")
 generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 page_by_id = {page["id"]: page for page in pages}
 canonical_counts = Counter(page["canonical"] for page in pages)
+
+tool_topic = next((node for node in graph["nodes"] if node.get("label") == "Interaktive Werkzeuge"), None)
+if not tool_topic:
+    tool_topic = {
+        "id": "topic:interactive-tools",
+        "type": "topic",
+        "label": "Interaktive Werkzeuge",
+        "count": len(INTERACTIVE_TOOLS),
+    }
+    graph["nodes"].append(tool_topic)
+tool_topic["count"] = len(INTERACTIVE_TOOLS)
+graph["edges"] = [
+    edge for edge in graph["edges"]
+    if edge["target"] != tool_topic["id"] and edge["source"] != tool_topic["id"]
+]
+for page in pages:
+    tool = INTERACTIVE_TOOLS.get(page["slug"])
+    page["interactive_tool"] = bool(tool)
+    if not tool:
+        page.pop("tool_type", None)
+        page.pop("tool_capabilities", None)
+        continue
+    page["tool_type"] = tool[0]
+    page["tool_capabilities"] = tool[1]
+    graph["edges"].append({
+        "source": page["id"],
+        "target": tool_topic["id"],
+        "type": "about",
+        "curated": True,
+    })
 
 # "Thomas" is a curated person hub, not a term extracted from arbitrary page text.
 thomas_node = next((node for node in graph["nodes"] if node.get("label") == "Thomas"), None)
@@ -167,7 +218,7 @@ for edge in graph["edges"]:
         edge["assertionStatus"] = "asserted"
         edge["reviewStatus"] = "editorially-confirmed"
         edge["confidence"] = 1.0
-        edge["provenance"]["source"] = f"{BASE}/#thomas-bade"
+        edge["provenance"]["source"] = source_page["canonical"] if source_page else f"{BASE}/#thomas-bade"
         edge["provenance"]["method"] = "editorial-curation"
 
 graph["meta"].update({

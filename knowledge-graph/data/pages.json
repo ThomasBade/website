@@ -78,7 +78,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:ai_monitoring",
@@ -159,7 +160,15 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Monitoring-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "pdf"
+    ]
   },
   {
     "id": "page:ai_sweden",
@@ -240,7 +249,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:arise",
@@ -321,7 +331,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Ethik-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:bmg",
@@ -422,7 +441,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:calster",
@@ -504,7 +524,14 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Readiness-Selbsttest",
+    "tool_capabilities": [
+      "assessment",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:claude",
@@ -585,7 +612,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:coach",
@@ -665,7 +693,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:constitution",
@@ -746,7 +775,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:control_panel",
@@ -827,7 +857,15 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Entscheidungsunterstützung",
+    "tool_capabilities": [
+      "assessment",
+      "scoring",
+      "summary",
+      "pdf"
+    ]
   },
   {
     "id": "page:control_quartier",
@@ -909,7 +947,15 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Kommunales Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "notes",
+      "summary",
+      "pdf"
+    ]
   },
   {
     "id": "page:decoding",
@@ -994,7 +1040,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Vertrauens-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:dikw",
@@ -1077,7 +1132,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:downloads",
@@ -1158,7 +1214,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:em_ki",
@@ -1240,7 +1297,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:enquete",
@@ -1321,7 +1379,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:esf",
@@ -1408,7 +1467,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:esf_de",
@@ -1490,7 +1550,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:europe",
@@ -1569,7 +1630,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:fmea",
@@ -1650,7 +1712,13 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "FMEA-Checkliste",
+    "tool_capabilities": [
+      "checklist",
+      "progress"
+    ]
   },
   {
     "id": "page:GPAI",
@@ -1731,7 +1799,13 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Compliance-Checkliste",
+    "tool_capabilities": [
+      "checklist",
+      "progress"
+    ]
   },
   {
     "id": "page:gpt",
@@ -1812,7 +1886,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:haip",
@@ -1893,7 +1968,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:impressum",
@@ -1955,7 +2031,8 @@
       "Kontextuelle Verlinkung": false,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:index",
@@ -2042,7 +2119,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:iso_42001",
@@ -2123,7 +2201,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Reporting-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:ki_kompetenzpflicht",
@@ -2204,7 +2291,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:ki_verordnung",
@@ -2286,7 +2374,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:kidelir",
@@ -2367,7 +2456,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:kompetenz",
@@ -2448,7 +2538,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Ethik-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:leitbild",
@@ -2530,7 +2629,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:literatur",
@@ -2611,7 +2711,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:mdr_ki",
@@ -2694,7 +2795,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:medlog",
@@ -2775,7 +2877,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Readiness-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:mission",
@@ -2856,7 +2967,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:nursing",
@@ -2938,7 +3050,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Reporting-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:oecd",
@@ -3020,7 +3141,8 @@
       "Inhaltstiefe": true
     },
     "content_status": "duplicate-alias",
-    "canonical_entity": "https://www.thomas-bade.de/stanford.html#knowledge-graph-node"
+    "canonical_entity": "https://www.thomas-bade.de/stanford.html#knowledge-graph-node",
+    "interactive_tool": false
   },
   {
     "id": "page:patient",
@@ -3101,7 +3223,15 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Governance-Checkliste",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "pdf"
+    ]
   },
   {
     "id": "page:portal",
@@ -3182,7 +3312,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:praevention",
@@ -3263,7 +3394,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:risk",
@@ -3344,7 +3476,15 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Risiko-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "pdf"
+    ]
   },
   {
     "id": "page:sitemap",
@@ -3457,7 +3597,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:soziale_arbeit",
@@ -3538,7 +3679,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Readiness-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "summary",
+      "pdf"
+    ]
   },
   {
     "id": "page:stanford",
@@ -3619,7 +3769,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:termin-answer",
@@ -3689,7 +3840,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:termine",
@@ -3759,7 +3911,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": false
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:tripod",
@@ -3840,7 +3993,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Reporting-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:undp",
@@ -3921,7 +4083,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:vendor",
@@ -4002,7 +4165,16 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Anbieter-Assessment",
+    "tool_capabilities": [
+      "assessment",
+      "checklist",
+      "notes",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:who",
@@ -4083,7 +4255,8 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   },
   {
     "id": "page:wissen",
@@ -4162,7 +4335,14 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": true,
+    "tool_type": "Readiness-Selbsttest",
+    "tool_capabilities": [
+      "assessment",
+      "scoring",
+      "pdf"
+    ]
   },
   {
     "id": "page:wissenschaft",
@@ -4243,6 +4423,7 @@
       "Kontextuelle Verlinkung": true,
       "Inhaltstiefe": true
     },
-    "content_status": "published"
+    "content_status": "published",
+    "interactive_tool": false
   }
 ]
