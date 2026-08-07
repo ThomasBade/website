@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ISO/IEC 42001 im Knowledge Graph: KI-Governance semantisch einordnen</title>
+  <meta name="description" content="Fachbeitrag zur semantischen Einordnung von ISO/IEC 42001, KI-Governance, Risikomanagement und verantwortungsvoller KI im Knowledge Graph von Thomas Bade.">
+  <meta name="author" content="Thomas Bade">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <link rel="canonical" href="https://thomasbade.github.io/website/beitrag-iso-iec-42001.html">
+  <link rel="alternate" type="text/plain" href="https://thomasbade.github.io/website/llms.txt" title="LLM-Kontext">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Thomas Bade – Knowledge Graph &amp; GEO Platform">
+  <meta property="og:title" content="ISO/IEC 42001 im Knowledge Graph">
+  <meta property="og:description" content="Wie ein Knowledge Graph ISO/IEC 42001 mit KI-Governance, Risiken und organisatorischen Verantwortlichkeiten verbindet.">
+  <meta property="og:url" content="https://thomasbade.github.io/website/beitrag-iso-iec-42001.html">
+  <meta property="og:image" content="https://thomasbade.github.io/website/assets/img/iso42001.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "@id": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#article",
+    "url": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html",
+    "headline": "ISO/IEC 42001 im Knowledge Graph: KI-Governance semantisch einordnen",
+    "description": "Fachbeitrag zur semantischen Einordnung von ISO/IEC 42001, KI-Governance, Risikomanagement und verantwortungsvoller KI.",
+    "datePublished": "2026-08-07",
+    "dateModified": "2026-08-07",
+    "inLanguage": "de-DE",
+    "author": {"@type": "Person", "name": "Thomas Bade", "url": "https://www.thomas-bade.de/"},
+    "about": [
+      {"@type": "Thing", "name": "ISO/IEC 42001", "sameAs": "https://www.wikidata.org/wiki/Q138351903"},
+      {"@type": "Thing", "name": "Künstliche Intelligenz", "sameAs": "https://www.wikidata.org/wiki/Q11660"},
+      {"@type": "Thing", "name": "Risikomanagement", "sameAs": "https://www.wikidata.org/wiki/Q204785"}
+    ],
+    "citation": [
+      "https://www.iso.org/standard/42001",
+      "https://www.wikidata.org/wiki/Q138351903",
+      "https://thomasbade.github.io/website/iso_42001.html"
+    ],
+    "isPartOf": {"@type": "WebSite", "name": "Thomas Bade Knowledge Graph & GEO Platform", "url": "https://thomasbade.github.io/website/knowledge-graph/"}
+  }
+  </script>
+  <script async src="https://plausible.io/js/pa-Z4m1Y9WnfZ56-aWPWhM38.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)};
+    window.plausible.init=window.plausible.init||function(i){plausible.o=i||{}};
+    plausible.init();
+  </script>
+  <style>
+    :root { --ink:#102c25; --green:#176f56; --gold:#ef813f; --paper:#fbfaf5; --line:#dcded5; --muted:#5f706b; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:18px/1.7 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    a { color:var(--green); text-underline-offset:3px; }
+    header { border-bottom:1px solid var(--line); background:#f5f3eb; }
+    .bar, main, footer { width:min(920px,calc(100% - 40px)); margin:auto; }
+    .bar { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:20px 0; }
+    .brand { font-weight:800; color:var(--ink); text-decoration:none; }
+    .brand small { display:block; color:var(--muted); font-size:.7rem; letter-spacing:.08em; text-transform:uppercase; }
+    main { padding:72px 0 56px; }
+    .kicker { color:var(--green); font-size:.78rem; font-weight:800; letter-spacing:.15em; text-transform:uppercase; }
+    h1 { max-width:850px; margin:.3em 0 .35em; font-family:Georgia,serif; font-size:clamp(2.4rem,7vw,4.8rem); line-height:1.03; letter-spacing:-.035em; }
+    h2 { margin-top:2.2em; font-family:Georgia,serif; font-size:2rem; line-height:1.2; }
+    .lead { max-width:780px; color:#354d47; font-size:1.25rem; }
+    .meta { margin:28px 0 42px; color:var(--muted); font-size:.9rem; }
+    .thesis { margin:42px 0; padding:26px 30px; border-left:5px solid var(--gold); background:#f1f4ed; font:1.35rem/1.55 Georgia,serif; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:28px 0; }
+    .card { padding:22px; border:1px solid var(--line); border-radius:14px; background:white; }
+    .card strong { display:block; margin-bottom:8px; }
+    .cta { margin:48px 0 20px; padding:30px; border-radius:18px; color:white; background:var(--ink); }
+    .cta a { color:#ffd19f; font-weight:750; }
+    footer { padding:28px 0 48px; border-top:1px solid var(--line); color:var(--muted); font-size:.85rem; }
+    @media (max-width:720px) { .grid { grid-template-columns:1fr; } .bar { align-items:flex-start; flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="brand" href="knowledge-graph/">Thomas Bade<small>Knowledge Graph &amp; GEO Platform</small></a>
+      <a href="iso_42001.html">Praxisleitfaden ISO/IEC 42001</a>
+    </div>
+  </header>
+  <main>
+    <article>
+      <p class="kicker">Fachbeitrag · KI-Governance · Knowledge Graph</p>
+      <h1>ISO/IEC 42001 wird wertvoll, wenn Beziehungen sichtbar werden</h1>
+      <p class="lead">Die Norm schafft einen Managementrahmen für den verantwortungsvollen Einsatz künstlicher Intelligenz. Ein Knowledge Graph ergänzt diesen Rahmen um eine semantische Sicht: Er verbindet Anforderungen, Risiken, Rollen, Prozesse und Nachweise so, dass Menschen und Maschinen Zusammenhänge nachvollziehen können.</p>
+      <p class="meta">Thomas Bade · veröffentlicht am 7. August 2026 · Lesezeit etwa 6 Minuten</p>
+
+      <h2>Von einzelnen Dokumenten zu einem steuerbaren System</h2>
+      <p>ISO/IEC 42001:2023 beschreibt Anforderungen an Aufbau, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines Artificial Intelligence Management System (AIMS). Die Norm richtet sich an Organisationen, die KI-basierte Produkte oder Dienstleistungen entwickeln, bereitstellen oder einsetzen. Im Mittelpunkt steht daher nicht ein einzelnes Modell, sondern die organisatorische Fähigkeit, Chancen und Risiken von KI dauerhaft zu steuern.</p>
+      <p>In der Praxis liegen die dafür benötigten Informationen häufig verteilt vor: Richtlinien, Risikoregister, Rollenbeschreibungen, Prozessmodelle, technische Dokumentationen und Bewertungsnachweise werden getrennt gepflegt. Dadurch ist zwar vieles dokumentiert, aber nicht automatisch erkennbar, wie die Elemente zusammenwirken.</p>
+
+      <blockquote class="thesis">Ein Knowledge Graph macht aus einer Sammlung von Nachweisen ein Beziehungsmodell: Welche KI-Anwendung gehört zu welchem Prozess, welches Risiko betrifft sie, wer trägt Verantwortung und welcher Nachweis belegt die Kontrolle?</blockquote>
+
+      <h2>Was die semantische Ebene ergänzt</h2>
+      <div class="grid">
+        <section class="card"><strong>Kontext</strong>KI-Systeme werden mit Einsatzbereichen, betroffenen Gruppen, Verantwortlichen und organisatorischen Zielen verbunden.</section>
+        <section class="card"><strong>Nachvollziehbarkeit</strong>Risiken, Maßnahmen, Kontrollen und Evidenzen lassen sich als überprüfbare Pfade darstellen.</section>
+        <section class="card"><strong>Maschinenlesbarkeit</strong>Definierte Entitäten und Beziehungen können über JSON-LD, RDF oder eine API von Suchsystemen und KI-Agenten verarbeitet werden.</section>
+      </div>
+      <p>Diese semantische Struktur ersetzt weder die Norm noch eine Konformitätsbewertung. Sie kann jedoch helfen, die Umsetzung konsistent zu organisieren und Fragen schneller zu beantworten: Welche Anwendungen sind von einer geänderten Risikobewertung betroffen? Wo fehlen Nachweise? Welche Rollen sind an einer Freigabe beteiligt? Welche Kontrollen gelten für mehrere Systeme?</p>
+
+      <h2>Einordnung in Wikidata und offene Wissensstrukturen</h2>
+      <p>Der Wikidata-Eintrag <a href="https://www.wikidata.org/wiki/Q138351903">ISO/IEC 42001 (Q138351903)</a> stellt eine weltweit referenzierbare Entität bereit. Über eine solche stabile Kennung kann eine lokale Wissensstruktur eindeutig ausdrücken, dass sie sich auf dieselbe Norm bezieht. Das reduziert Mehrdeutigkeiten zwischen Schreibweisen wie „ISO 42001“, „ISO/IEC 42001“ und „ISO/IEC 42001:2023“.</p>
+      <p>Die Verknüpfung mit Wikidata ist dabei kein Gütesiegel und keine Zertifizierung. Ihr Nutzen liegt in der eindeutigen semantischen Referenz. Fachliche Aussagen, Umsetzungshinweise und Bewertungen müssen weiterhin nachvollziehbar belegt und redaktionell verantwortet werden.</p>
+
+      <h2>Nutzen für Beratung und operative Entscheidungen</h2>
+      <p>Für Beratungsleistungen eröffnet die Kombination aus Managementsystem und Knowledge Graph zwei Wege. Erstens können Berater schneller erkennen, welche Dokumente, Rollen und Prozesse für eine konkrete Fragestellung relevant sind. Zweitens lassen sich vorbereitende Self-Services entwickeln, bei denen Organisationen strukturierte Fragen beantworten und daraus erste Risiko-, Maßnahmen- oder Reifegradübersichten erzeugen.</p>
+      <p>Entscheidend bleibt die Erklärbarkeit: Ein Ergebnis sollte nicht nur einen Score anzeigen, sondern den Pfad dorthin offenlegen. Die zugrunde liegenden Entitäten, Beziehungen, Annahmen und Nachweise müssen für Menschen prüfbar bleiben. Gerade bei kritischen operativen Entscheidungen ist diese Transparenz wichtiger als eine scheinbar präzise, aber nicht begründete Empfehlung.</p>
+
+      <h2>Praktischer Einstieg</h2>
+      <p>Ein tragfähiger Einstieg beginnt klein: Zunächst werden KI-Systeme, Geschäftsprozesse, Verantwortliche, Risiken, Kontrollen und Nachweise als zentrale Entitätsklassen definiert. Danach werden Beziehungen und ein kontrolliertes Vokabular festgelegt. Erst auf dieser Grundlage sollten Automatisierungen, Scores oder KI-gestützte Auswertungen aufgebaut werden.</p>
+
+      <aside class="cta">
+        <strong>Weiterführender Praxisleitfaden</strong>
+        <p>Die ausführliche Einordnung zu KI-Managementsystem, Governance, Risikomanagement und Folgenabschätzung finden Sie zunächst auf GitHub:</p>
+        <p><a href="https://thomasbade.github.io/website/iso_42001.html">ISO/IEC 42001 &amp; 42005 – Praxisleitfaden von Thomas Bade</a></p>
+      </aside>
+
+      <h2>Quellen und Transparenz</h2>
+      <ul>
+        <li><a href="https://www.iso.org/standard/42001">ISO: ISO/IEC 42001:2023 – AI management systems</a></li>
+        <li><a href="https://www.wikidata.org/wiki/Q138351903">Wikidata: ISO/IEC 42001 (Q138351903)</a></li>
+        <li><a href="knowledge-graph/">Thomas Bade Knowledge Graph &amp; GEO Platform</a></li>
+      </ul>
+      <p><small>Offenlegung: Der Autor betreibt die verlinkte Knowledge-Graph-Plattform. Dieser Beitrag gibt eine fachliche Einordnung wieder, enthält keine Zertifizierungszusage und reproduziert keine geschützten Normtexte.</small></p>
+    </article>
+  </main>
+  <footer>© 2026 Thomas Bade · <a href="impressum.html">Impressum</a> · <a href="https://www.thomas-bade.de/datenschutz.html">Datenschutz</a></footer>
+</body>
+</html>
