@@ -32,11 +32,11 @@
     },
     {
       "path": "dataset.jsonld",
-      "sha256": "3e70eeb38bdd68657ef78785876b518e15083ca624004f878b1a137ceb1c4d3c"
+      "sha256": "d4380f06ce97d56e5ed402a4b82d47378b68f2d3a038e1187f859d0371ae237b"
     },
     {
       "path": "graph.ttl",
-      "sha256": "e6f1d88730589f6413f21d6187053b3b048914f595ba59296f49e2b2a8fb93d7"
+      "sha256": "cce9487033a91625593ef380f5f530029734929c58373c0a8153480536e8df3c"
     },
     {
       "path": "schemas/graph.schema.json",
