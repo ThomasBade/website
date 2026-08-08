@@ -16,7 +16,16 @@
         "Compliance-Checkliste",
         "Krankenhäuser",
         "Künstliche Intelligenz",
-        "Datenschutz"
+        "Datenschutz",
+        "BSI",
+        "BSI-Kriterienkatalog",
+        "Generative KI",
+        "KI-Sicherheit",
+        "Beschaffung",
+        "System-Prompts",
+        "Threat Modelling",
+        "ISMS",
+        "PDF-Dokumentation"
       ]
     },
     {
@@ -36,9 +45,9 @@
       ],
       "@id": "https://www.thomas-bade.de/GPAI.html#webpage",
       "url": "https://www.thomas-bade.de/GPAI.html",
-      "headline": "GPAI-Modelle im Gesundheitswesen: EU AI Act Compliance-Checkliste für Krankenhäuser",
-      "description": "Praxiserprobte Checkliste für GPAI-Compliance nach EU AI Act und KI-MIG: 10²³ FLOPS-Schwelle, systemisches Risiko, Betreiberpflichten, Bundesnetzagentur-Zuständigkeit, Due Diligence. Spezialisierte Beratung für Krankenhäuser & Gesundheitseinrichtungen.",
-      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map GPAI-Modelle im Gesundheitswesen 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. Für GPAI-Modelle selbst bleibt das europäische KI-Büro zuständig; für den Einsatz GPAI-basierter Anwendungen in Deutschland (z.",
+      "headline": "GPAI-Compliance: EU AI Act & BSI-Checkliste | Thomas Bade",
+      "description": "GPAI-Compliance mit EU AI Act, KI-MIG und BSI-Kriterien prüfen: interaktive Checklisten für Risiken, Betreiberpflichten und PDF-Dokumentation.",
+      "abstract": "Interaktive GPAI-Compliance-Prüfung nach EU AI Act, KI-MIG und BSI-Kriterienkatalog: Risiken, Betreiberpflichten, Beschaffungsanforderungen und Sicherheitsmaßnahmen werden strukturiert bewertet und als PDF dokumentiert.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,6 +98,42 @@
         {
           "@type": "Thing",
           "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI-Kriterienkatalog"
+        },
+        {
+          "@type": "Thing",
+          "name": "Generative KI"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Sicherheit"
+        },
+        {
+          "@type": "Thing",
+          "name": "Beschaffung"
+        },
+        {
+          "@type": "Thing",
+          "name": "System-Prompts"
+        },
+        {
+          "@type": "Thing",
+          "name": "Threat Modelling"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISMS"
+        },
+        {
+          "@type": "Thing",
+          "name": "PDF-Dokumentation"
         }
       ],
       "keywords": [
@@ -101,7 +146,16 @@
         "Compliance-Checkliste",
         "Krankenhäuser",
         "Künstliche Intelligenz",
-        "Datenschutz"
+        "Datenschutz",
+        "BSI",
+        "BSI-Kriterienkatalog",
+        "Generative KI",
+        "KI-Sicherheit",
+        "Beschaffung",
+        "System-Prompts",
+        "Threat Modelling",
+        "ISMS",
+        "PDF-Dokumentation"
       ]
     }
   ]

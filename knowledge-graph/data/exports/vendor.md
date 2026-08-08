@@ -1,18 +1,18 @@
 ---
-title: "Offenlegung von KI-Anbietern"
+title: "KI-Anbieter prüfen: HAIP & BSI-Checkliste | Thomas Bade"
 url: https://www.thomas-bade.de/vendor.html
-seo_score: 68
-geo_score: 82
-ai_overview_probability: 64
-topics: ["Gesundheitswesen", "KI-Governance", "Pflege", "Datenschutz", "KI-Compliance", "Offenlegung", "KI-Anbietern", "EU AI Act", "KI-Monitoring", "Patientenzentrierung"]
+seo_score: 100
+geo_score: 100
+ai_overview_probability: 88
+topics: ["Gesundheitswesen", "KI-Governance", "Pflege", "Datenschutz", "KI-Compliance", "Offenlegung", "KI-Anbietern", "EU AI Act", "KI-Monitoring", "Patientenzentrierung", "BSI", "BSI-Kriterienkatalog", "Generative KI", "KI-Sicherheit", "Risikomanagement", "Beschaffung", "System-Prompts", "Threat Modelling", "ISMS", "PDF-Dokumentation"]
 ---
 
-# Offenlegung von KI-Anbietern
+# KI-Anbieter prüfen: HAIP & BSI-Checkliste | Thomas Bade
 
 ## Zitierfähige Kurzfassung
 
-0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen 🎧 KI-Beschaffung im Gesundheitswesen – Transparenz als Governance-Pflicht! Kurze Einführung · von Thomas Bade Ihr Browser unterstützt kein HTML5-Audio.
+Interaktive Prüfung von KI-Anbietern anhand des HAIP Vendor Disclosure Framework und des BSI-Kriterienkatalogs für generative KI: Beschaffung, Governance, Risiken und Ergebnisse werden nachvollziehbar dokumentiert und als PDF exportiert.
 
 ## Fachbegriffe
 
-Gesundheitswesen, KI-Governance, Pflege, Datenschutz, KI-Compliance, Offenlegung, KI-Anbietern, EU AI Act, KI-Monitoring, Patientenzentrierung
+Gesundheitswesen, KI-Governance, Pflege, Datenschutz, KI-Compliance, Offenlegung, KI-Anbietern, EU AI Act, KI-Monitoring, Patientenzentrierung, BSI, BSI-Kriterienkatalog, Generative KI, KI-Sicherheit, Risikomanagement, Beschaffung, System-Prompts, Threat Modelling, ISMS, PDF-Dokumentation
