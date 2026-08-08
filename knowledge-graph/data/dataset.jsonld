@@ -2,82 +2,39 @@
   "@context": "https://schema.org",
   "@type": "Dataset",
   "@id": "https://www.thomas-bade.de/knowledge-graph/#dataset",
-  "name": "Knowledge Graph: KI im Gesundheitswesen",
-  "alternateName": "Thomas Bade Knowledge Graph & GEO Platform",
-  "description": "Maschinenlesbarer Knowledge Graph mit 52 Fachseiten, 182 Knoten und 18 interaktiven Werkzeugen zu KI-Governance und KI im Gesundheits- und Sozialwesen.",
+  "name": "Thomas Bade Knowledge Graph & GEO Dataset",
+  "description": "Versionierter Wissensgraph zu KI-Governance, Standards und KI im Gesundheits- und Sozialwesen.",
   "url": "https://www.thomas-bade.de/knowledge-graph/",
-  "datePublished": "2026-08-06",
-  "dateModified": "2026-08-07T08:40:33+00:00",
-  "version": "2.0.0",
-  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "inLanguage": "de-DE",
-  "isAccessibleForFree": true,
   "creator": {
     "@type": "Person",
     "@id": "https://www.thomas-bade.de/#thomas-bade",
-    "name": "Thomas Bade",
-    "url": "https://www.thomas-bade.de/",
-    "sameAs": [
-      "https://www.linkedin.com/in/thomas-bade",
-      "https://bsky.app/profile/thomas-bade.de",
-      "https://mastodon.social/@thomasbade",
-      "https://x.com/thomasbade"
-    ]
+    "name": "Thomas Bade"
   },
-  "keywords": [
-    "EU AI Act",
-    "KI-Governance",
-    "Gesundheitswesen",
-    "Risikomanagement",
-    "Pflege",
-    "KI-Kompetenz",
-    "ISO/IEC 42001",
-    "DSGVO",
-    "Medizinprodukte",
-    "KI-Monitoring"
-  ],
-  "about": [
-    {"@type": "DefinedTerm", "name": "EU AI Act", "sameAs": "https://www.wikidata.org/entity/Q108456694"},
-    {"@type": "DefinedTerm", "name": "Kuenstliche Intelligenz", "sameAs": "https://www.wikidata.org/entity/Q11660"},
-    {"@type": "DefinedTerm", "name": "Gesundheitswesen", "sameAs": "https://www.wikidata.org/entity/Q31207"},
-    {"@type": "DefinedTerm", "name": "Risikomanagement", "sameAs": "https://www.wikidata.org/entity/Q204785"}
-  ],
+  "inLanguage": "de-DE",
+  "dateModified": "2026-08-08T07:39:54+00:00",
+  "version": "2.0.0",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "isAccessibleForFree": true,
   "distribution": [
     {
       "@type": "DataDownload",
       "encodingFormat": "application/json",
-      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/pages.json",
-      "name": "Seiteninventar (JSON)"
+      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/pages.json"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/json",
-      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/graph.json",
-      "name": "Knowledge Graph (JSON)"
+      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/graph.json"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "text/turtle",
-      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/graph.ttl",
-      "name": "Knowledge Graph (RDF/Turtle)"
+      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/graph.ttl"
     },
     {
       "@type": "DataDownload",
       "encodingFormat": "application/json",
-      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/vocabulary.json",
-      "name": "Kontrolliertes Vokabular"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "application/ld+json",
-      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/dataset.jsonld",
-      "name": "Dataset (JSON-LD)"
-    },
-    {
-      "@type": "DataDownload",
-      "encodingFormat": "text/turtle",
-      "contentUrl": "https://www.thomas-bade.de/data/wikidata-links.ttl",
-      "name": "Wikidata-Verknuepfungen"
+      "contentUrl": "https://www.thomas-bade.de/knowledge-graph/data/vocabulary.json"
     }
   ]
 }
