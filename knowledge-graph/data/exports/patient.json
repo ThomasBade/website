@@ -5,8 +5,8 @@
   "url": "https://www.thomas-bade.de/patient.html",
   "canonical": "https://www.thomas-bade.de/patient.html",
   "title": "KI bewerten, Patienten einbinden, KI demokratisieren",
-  "description": "Drei aktuelle Forschungsbeiträge im Überblick: AI for IMPACTS-Framework (JMIR 2025), Patientenperspektiven auf KI-Entwicklung (BMC 2023) und Demokratisierung von KI im Gesundheitswesen (Future Healthcare Journal 2024) – eingeordnet für Kliniken, Pflege und Kommunen.",
-  "summary": "Kurze Einführung · von Thomas Bade Ihr Browser unterstützt kein HTML5-Audio. Transkript anzeigen Willkommen auf der Webseite zu aktuellen Forschungsbeiträgen zum Einsatz künstlicher Intelligenz im Gesundheitswesen.",
+  "description": "Drei aktuelle Forschungsbeiträge im Überblick: AI for IMPACTS-Framework (JMIR 2025), Patientenperspektiven auf KI-Entwicklung (BMC 2023) und Demokratisierung von KI im Gesundheitswesen (Future Healthcare Journal 2024) – ergänzt um das Europarat-Handbuch zu Menschenrechten und KI (CDDH, April 2026). Eingeordnet für Kliniken, Pflege und Kommunen.",
+  "summary": "Der Beitrag verbindet aktuelle Forschung zu KI-Bewertung und Patientenbeteiligung mit dem Europarat-Handbuch zu Menschenrechten und k?nstlicher Intelligenz vom April 2026. F?r Kliniken, Pflege und Kommunen werden EMRK, Europ?ische Sozialcharta und Oviedo-Konvention als menschenrechtlicher Rahmen f?r KI-Governance eingeordnet.",
   "topics": [
     "Gesundheitswesen",
     "Pflege",
@@ -15,12 +15,15 @@
     "KI-Monitoring",
     "EU AI Act",
     "KI-Kompetenz",
-    "bewerten",
-    "Patienten",
-    "einbinden"
+    "Europarat",
+    "CDDH",
+    "Menschenrechte",
+    "EMRK",
+    "Europ?ische Sozialcharta",
+    "Oviedo-Konvention"
   ],
-  "word_count": 2421,
-  "heading_count": 42,
+  "word_count": 2777,
+  "heading_count": 49,
   "h1_count": 1,
   "internal_links": 18,
   "linked_pages": [
@@ -43,13 +46,13 @@
     "termine",
     "wissenschaft"
   ],
-  "existing_jsonld": 1,
+  "existing_jsonld": 2,
   "has_og": true,
-  "citation_signals": 17,
-  "question_headings": 1,
+  "citation_signals": 34,
+  "question_headings": 2,
   "structured_blocks": 10,
   "author_signal": true,
-  "content_hash": "cc559ab76741ea3e",
+  "content_hash": "3869542e254affcd",
   "seo_score": 88,
   "geo_score": 100,
   "ai_overview_probability": 85,
@@ -93,9 +96,12 @@
           "KI-Monitoring",
           "EU AI Act",
           "KI-Kompetenz",
-          "bewerten",
-          "Patienten",
-          "einbinden"
+          "Europarat",
+          "CDDH",
+          "Menschenrechte",
+          "EMRK",
+          "Europ?ische Sozialcharta",
+          "Oviedo-Konvention"
         ]
       },
       {
@@ -116,8 +122,8 @@
         "@id": "https://www.thomas-bade.de/patient.html#webpage",
         "url": "https://www.thomas-bade.de/patient.html",
         "headline": "KI bewerten, Patienten einbinden, KI demokratisieren",
-        "description": "Drei aktuelle Forschungsbeiträge im Überblick: AI for IMPACTS-Framework (JMIR 2025), Patientenperspektiven auf KI-Entwicklung (BMC 2023) und Demokratisierung von KI im Gesundheitswesen (Future Healthcare Journal 2024) – eingeordnet für Kliniken, Pflege und Kommunen.",
-        "abstract": "Kurze Einführung · von Thomas Bade Ihr Browser unterstützt kein HTML5-Audio. Transkript anzeigen Willkommen auf der Webseite zu aktuellen Forschungsbeiträgen zum Einsatz künstlicher Intelligenz im Gesundheitswesen.",
+        "description": "Drei aktuelle Forschungsbeiträge im Überblick: AI for IMPACTS-Framework (JMIR 2025), Patientenperspektiven auf KI-Entwicklung (BMC 2023) und Demokratisierung von KI im Gesundheitswesen (Future Healthcare Journal 2024) – ergänzt um das Europarat-Handbuch zu Menschenrechten und KI (CDDH, April 2026). Eingeordnet für Kliniken, Pflege und Kommunen.",
+        "abstract": "Der Beitrag verbindet aktuelle Forschung zu KI-Bewertung und Patientenbeteiligung mit dem Europarat-Handbuch zu Menschenrechten und k?nstlicher Intelligenz vom April 2026. F?r Kliniken, Pflege und Kommunen werden EMRK, Europ?ische Sozialcharta und Oviedo-Konvention als menschenrechtlicher Rahmen f?r KI-Governance eingeordnet.",
         "inLanguage": "de-DE",
         "author": {
           "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -159,15 +165,27 @@
           },
           {
             "@type": "Thing",
-            "name": "bewerten"
+            "name": "Europarat"
           },
           {
             "@type": "Thing",
-            "name": "Patienten"
+            "name": "CDDH"
           },
           {
             "@type": "Thing",
-            "name": "einbinden"
+            "name": "Menschenrechte"
+          },
+          {
+            "@type": "Thing",
+            "name": "EMRK"
+          },
+          {
+            "@type": "Thing",
+            "name": "Europ?ische Sozialcharta"
+          },
+          {
+            "@type": "Thing",
+            "name": "Oviedo-Konvention"
           }
         ],
         "keywords": [
@@ -178,11 +196,23 @@
           "KI-Monitoring",
           "EU AI Act",
           "KI-Kompetenz",
-          "bewerten",
-          "Patienten",
-          "einbinden"
+          "Europarat",
+          "CDDH",
+          "Menschenrechte",
+          "EMRK",
+          "Europ?ische Sozialcharta",
+          "Oviedo-Konvention"
         ]
       }
     ]
-  }
+  },
+  "content_status": "published",
+  "interactive_tool": true,
+  "tool_type": "Governance-Checkliste",
+  "tool_capabilities": [
+    "assessment",
+    "checklist",
+    "notes",
+    "pdf"
+  ]
 }

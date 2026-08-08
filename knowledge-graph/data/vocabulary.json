@@ -123,7 +123,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/f679e01a69740bdf",
       "label": "Agentic AI",
       "synonyms": [],
-      "usageCount": 4
+      "usageCount": 5
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84",
@@ -154,7 +154,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2",
       "label": "KI-Governance",
       "synonyms": [],
-      "usageCount": 41
+      "usageCount": 42
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/e4eee33cc466fc5a",
@@ -184,7 +184,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/d520d22ef5fbcfb1",
       "label": "Risikomanagement",
       "synonyms": [],
-      "usageCount": 34,
+      "usageCount": 35,
       "sameAs": [
         "https://www.wikidata.org/entity/Q204785"
       ],
@@ -457,7 +457,7 @@
         "AIMS-Norm",
         "AI Management System Standard"
       ],
-      "usageCount": 3
+      "usageCount": 4
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/00903fc4a62077bb",
@@ -489,7 +489,7 @@
         "Artificial Intelligence",
         "AI"
       ],
-      "usageCount": 12,
+      "usageCount": 13,
       "sameAs": [
         "https://www.wikidata.org/entity/Q11660"
       ],
@@ -793,19 +793,19 @@
       "id": "https://www.thomas-bade.de/id/defined-term/9656b445a03bff0d",
       "label": "bewerten",
       "synonyms": [],
-      "usageCount": 1
+      "usageCount": 0
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/cb507212600ab198",
       "label": "Patienten",
       "synonyms": [],
-      "usageCount": 1
+      "usageCount": 0
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/41021458382a86dd",
       "label": "einbinden",
       "synonyms": [],
-      "usageCount": 1
+      "usageCount": 0
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/666681affe05a806",
@@ -899,7 +899,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/6d4489236f6dd87a",
       "label": "ISO/IEC",
       "synonyms": [],
-      "usageCount": 1
+      "usageCount": 2
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/cdb6daf69270a9d6",
@@ -949,6 +949,42 @@
     {
       "id": "https://www.thomas-bade.de/id/defined-term/01d7b6b0a44ec287",
       "label": "einordnen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/68de41b485bbc5b7",
+      "label": "Europarat",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b3d68298f3613ed0",
+      "label": "CDDH",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/ea215ca4d5a4c201",
+      "label": "Menschenrechte",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/4d096abf87b1cec3",
+      "label": "EMRK",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/c325f85430dbaeb8",
+      "label": "Europ?ische Sozialcharta",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/e3c89898ca9f0980",
+      "label": "Oviedo-Konvention",
       "synonyms": [],
       "usageCount": 1
     },
