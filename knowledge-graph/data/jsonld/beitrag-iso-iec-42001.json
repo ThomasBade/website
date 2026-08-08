@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "ISO/IEC 42001",
+        "KI-Governance",
+        "Risikomanagement",
+        "ISO/IEC",
+        "Knowledge",
+        "Graph",
+        "semantisch",
+        "einordnen",
+        "Künstliche Intelligenz",
+        "Agentic AI"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#webpage",
+      "url": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html",
+      "headline": "ISO/IEC 42001 im Knowledge Graph: KI-Governance semantisch einordnen",
+      "description": "Fachbeitrag zur semantischen Einordnung von ISO/IEC 42001, KI-Governance, Risikomanagement und verantwortungsvoller KI im Knowledge Graph von Thomas Bade.",
+      "abstract": "Ein Knowledge Graph ergänzt diesen Rahmen um eine semantische Sicht: Er verbindet Anforderungen, Risiken, Rollen, Prozesse und Nachweise so, dass Menschen und Maschinen Zusammenhänge nachvollziehen können. August 2026 · Lesezeit etwa 6 Minuten Von einzelnen Dokumenten zu einem steuerbaren System ISO/IEC 42001:2023 beschreibt Anforderungen an Aufbau, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines Artificial Intelligence Management System (AIMS).",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "ISO/IEC 42001"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISO/IEC"
+        },
+        {
+          "@type": "Thing",
+          "name": "Knowledge"
+        },
+        {
+          "@type": "Thing",
+          "name": "Graph"
+        },
+        {
+          "@type": "Thing",
+          "name": "semantisch"
+        },
+        {
+          "@type": "Thing",
+          "name": "einordnen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Künstliche Intelligenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Agentic AI"
+        }
+      ],
+      "keywords": [
+        "ISO/IEC 42001",
+        "KI-Governance",
+        "Risikomanagement",
+        "ISO/IEC",
+        "Knowledge",
+        "Graph",
+        "semantisch",
+        "einordnen",
+        "Künstliche Intelligenz",
+        "Agentic AI"
+      ]
+    }
+  ]
+}

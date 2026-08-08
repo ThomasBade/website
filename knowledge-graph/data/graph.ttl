@@ -3,24 +3,9 @@
 @prefix tbkg: <https://www.thomas-bade.de/vocab/> .
 
 <https://www.thomas-bade.de/knowledge-graph/#dataset> a schema:Dataset ;
-  schema:name "Knowledge Graph: KI im Gesundheitswesen"@de ;
-  schema:alternateName "Thomas Bade Knowledge Graph & GEO Platform"@de ;
-  schema:description "Maschinenlesbarer Knowledge Graph mit 52 Fachseiten, 182 Knoten und 18 interaktiven Werkzeugen zu KI-Governance und KI im Gesundheits- und Sozialwesen."@de ;
-  schema:url <https://www.thomas-bade.de/knowledge-graph/> ;
-  schema:datePublished "2026-08-06"^^<http://www.w3.org/2001/XMLSchema#date> ;
-  schema:dateModified "2026-08-07T08:40:33+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+  schema:name "Thomas Bade Knowledge Graph & GEO Dataset"@de ;
   schema:version "2.0.0" ;
-  schema:inLanguage "de-DE" ;
-  schema:creator <https://www.thomas-bade.de/#thomas-bade> ;
   dcterms:license <https://creativecommons.org/licenses/by-nc-sa/4.0/> .
-
-<https://www.thomas-bade.de/#thomas-bade> a schema:Person ;
-  schema:name "Thomas Bade" ;
-  schema:url <https://www.thomas-bade.de/> ;
-  schema:sameAs <https://www.linkedin.com/in/thomas-bade>,
-                <https://bsky.app/profile/thomas-bade.de>,
-                <https://mastodon.social/@thomasbade>,
-                <https://x.com/thomasbade> .
 
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> a schema:WebPage ;
   schema:name "Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung"@de .
@@ -567,6 +552,21 @@
 
 <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> a schema:DefinedTerm ;
   schema:name "Interaktive Werkzeuge"@de .
+
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> a schema:WebPage ;
+  schema:name "ISO/IEC 42001 im Knowledge Graph: KI-Governance semantisch einordnen"@de .
+
+<https://www.thomas-bade.de/id/defined-term/dcb3e1c00e79236d> a schema:DefinedTerm ;
+  schema:name "Knowledge"@de .
+
+<https://www.thomas-bade.de/id/defined-term/32ab018fd38a7b42> a schema:DefinedTerm ;
+  schema:name "Graph"@de .
+
+<https://www.thomas-bade.de/id/defined-term/7bc823e66fb3e88a> a schema:DefinedTerm ;
+  schema:name "semantisch"@de .
+
+<https://www.thomas-bade.de/id/defined-term/01d7b6b0a44ec287> a schema:DefinedTerm ;
+  schema:name "einordnen"@de .
 
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f679e01a69740bdf> .
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84> .
@@ -2054,6 +2054,18 @@
 <https://www.thomas-bade.de/wissenschaft.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/risk.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/wissenschaft.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/sitemap.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/wissenschaft.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/termine.html#knowledge-graph-node> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/ce7a8441d4e3f226> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/d520d22ef5fbcfb1> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/6d4489236f6dd87a> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/dcb3e1c00e79236d> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/32ab018fd38a7b42> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/7bc823e66fb3e88a> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/01d7b6b0a44ec287> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/073765018b89550b> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f679e01a69740bdf> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/impressum.html#knowledge-graph-node> .
+<https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/ai_monitoring.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
 <https://www.thomas-bade.de/arise.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
 <https://www.thomas-bade.de/calster.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .

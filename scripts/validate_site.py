@@ -91,8 +91,8 @@ def main() -> None:
         (ROOT / "knowledge-graph" / "data" / "pages.json").read_text(encoding="utf-8")
     )
     page_count = len(pages) if isinstance(pages, list) else len(pages.get("pages", []))
-    if page_count != 52:
-        raise SystemExit(f"Expected 52 page records, found {page_count}")
+    if page_count != 53:
+        raise SystemExit(f"Expected 53 page records, found {page_count}")
 
     data_root = ROOT / "knowledge-graph" / "data"
     missing_kg = [name for name in REQUIRED_KG_FILES if not (data_root / name).is_file()]

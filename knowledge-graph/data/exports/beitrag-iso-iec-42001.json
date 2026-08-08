@@ -1,0 +1,172 @@
+{
+  "id": "page:beitrag-iso-iec-42001",
+  "slug": "beitrag-iso-iec-42001",
+  "filename": "beitrag-iso-iec-42001.html",
+  "url": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html",
+  "canonical": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html",
+  "title": "ISO/IEC 42001 im Knowledge Graph: KI-Governance semantisch einordnen",
+  "description": "Fachbeitrag zur semantischen Einordnung von ISO/IEC 42001, KI-Governance, Risikomanagement und verantwortungsvoller KI im Knowledge Graph von Thomas Bade.",
+  "summary": "Ein Knowledge Graph ergänzt diesen Rahmen um eine semantische Sicht: Er verbindet Anforderungen, Risiken, Rollen, Prozesse und Nachweise so, dass Menschen und Maschinen Zusammenhänge nachvollziehen können. August 2026 · Lesezeit etwa 6 Minuten Von einzelnen Dokumenten zu einem steuerbaren System ISO/IEC 42001:2023 beschreibt Anforderungen an Aufbau, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines Artificial Intelligence Management System (AIMS).",
+  "topics": [
+    "ISO/IEC 42001",
+    "KI-Governance",
+    "Risikomanagement",
+    "ISO/IEC",
+    "Knowledge",
+    "Graph",
+    "semantisch",
+    "einordnen",
+    "Künstliche Intelligenz",
+    "Agentic AI"
+  ],
+  "word_count": 608,
+  "heading_count": 7,
+  "h1_count": 1,
+  "internal_links": 2,
+  "linked_pages": [
+    "impressum",
+    "iso_42001"
+  ],
+  "existing_jsonld": 1,
+  "has_og": true,
+  "citation_signals": 1,
+  "question_headings": 0,
+  "structured_blocks": 1,
+  "author_signal": true,
+  "content_hash": "289c1167a15abb21",
+  "seo_score": 82,
+  "geo_score": 54,
+  "ai_overview_probability": 51,
+  "maturity": "entwickelt",
+  "seo_checks": {
+    "Titel vorhanden": true,
+    "Titellänge 30–65": false,
+    "Meta-Beschreibung": true,
+    "Canonical URL": true,
+    "Genau eine Inhalts-H1": true,
+    "Ausreichende Substanz": true,
+    "Interne Links": false,
+    "Open Graph": true,
+    "Strukturierte Daten": true
+  },
+  "geo_checks": {
+    "Direkte Zusammenfassung": true,
+    "Klare Überschriften": true,
+    "Entitäten und Fachbegriffe": true,
+    "Quellen-/Literaturhinweise": false,
+    "Frage-Antwort-Struktur": false,
+    "Listen/Tabellen": false,
+    "Autor-/Vertrauenssignal": true,
+    "Schema-Abdeckung": true,
+    "Kontextuelle Verlinkung": false,
+    "Inhaltstiefe": false
+  },
+  "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.thomas-bade.de/#thomas-bade",
+        "name": "Thomas Bade",
+        "url": "https://www.thomas-bade.de/",
+        "knowsAbout": [
+          "ISO/IEC 42001",
+          "KI-Governance",
+          "Risikomanagement",
+          "ISO/IEC",
+          "Knowledge",
+          "Graph",
+          "semantisch",
+          "einordnen",
+          "Künstliche Intelligenz",
+          "Agentic AI"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.thomas-bade.de/#website",
+        "url": "https://www.thomas-bade.de/",
+        "name": "Thomas Bade",
+        "inLanguage": "de-DE",
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        }
+      },
+      {
+        "@type": [
+          "Article",
+          "WebPage"
+        ],
+        "@id": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html#webpage",
+        "url": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html",
+        "headline": "ISO/IEC 42001 im Knowledge Graph: KI-Governance semantisch einordnen",
+        "description": "Fachbeitrag zur semantischen Einordnung von ISO/IEC 42001, KI-Governance, Risikomanagement und verantwortungsvoller KI im Knowledge Graph von Thomas Bade.",
+        "abstract": "Ein Knowledge Graph ergänzt diesen Rahmen um eine semantische Sicht: Er verbindet Anforderungen, Risiken, Rollen, Prozesse und Nachweise so, dass Menschen und Maschinen Zusammenhänge nachvollziehen können. August 2026 · Lesezeit etwa 6 Minuten Von einzelnen Dokumenten zu einem steuerbaren System ISO/IEC 42001:2023 beschreibt Anforderungen an Aufbau, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines Artificial Intelligence Management System (AIMS).",
+        "inLanguage": "de-DE",
+        "author": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "publisher": {
+          "@id": "https://www.thomas-bade.de/#thomas-bade"
+        },
+        "isPartOf": {
+          "@id": "https://www.thomas-bade.de/#website"
+        },
+        "about": [
+          {
+            "@type": "Thing",
+            "name": "ISO/IEC 42001"
+          },
+          {
+            "@type": "Thing",
+            "name": "KI-Governance"
+          },
+          {
+            "@type": "Thing",
+            "name": "Risikomanagement"
+          },
+          {
+            "@type": "Thing",
+            "name": "ISO/IEC"
+          },
+          {
+            "@type": "Thing",
+            "name": "Knowledge"
+          },
+          {
+            "@type": "Thing",
+            "name": "Graph"
+          },
+          {
+            "@type": "Thing",
+            "name": "semantisch"
+          },
+          {
+            "@type": "Thing",
+            "name": "einordnen"
+          },
+          {
+            "@type": "Thing",
+            "name": "Künstliche Intelligenz"
+          },
+          {
+            "@type": "Thing",
+            "name": "Agentic AI"
+          }
+        ],
+        "keywords": [
+          "ISO/IEC 42001",
+          "KI-Governance",
+          "Risikomanagement",
+          "ISO/IEC",
+          "Knowledge",
+          "Graph",
+          "semantisch",
+          "einordnen",
+          "Künstliche Intelligenz",
+          "Agentic AI"
+        ]
+      }
+    ]
+  }
+}

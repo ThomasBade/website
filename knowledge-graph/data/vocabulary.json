@@ -929,6 +929,30 @@
       "usageCount": 18
     },
     {
+      "id": "https://www.thomas-bade.de/id/defined-term/dcb3e1c00e79236d",
+      "label": "Knowledge",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/32ab018fd38a7b42",
+      "label": "Graph",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7bc823e66fb3e88a",
+      "label": "semantisch",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/01d7b6b0a44ec287",
+      "label": "einordnen",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
       "id": "https://www.thomas-bade.de/id/defined-term/krankenhaus",
       "label": "Krankenhaus",
       "synonyms": [
