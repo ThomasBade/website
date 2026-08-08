@@ -184,7 +184,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/d520d22ef5fbcfb1",
       "label": "Risikomanagement",
       "synonyms": [],
-      "usageCount": 35,
+      "usageCount": 36,
       "sameAs": [
         "https://www.wikidata.org/entity/Q204785"
       ],
@@ -926,7 +926,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/9146be57b446391b",
       "label": "Interaktive Werkzeuge",
       "synonyms": [],
-      "usageCount": 18
+      "usageCount": 19
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/dcb3e1c00e79236d",
@@ -987,6 +987,60 @@
       "label": "Oviedo-Konvention",
       "synonyms": [],
       "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/abe4eed8990f0824",
+      "label": "BSI",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/0f4ae34f32fc9483",
+      "label": "BSI-Kriterienkatalog",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/9f12e1b3f4469b4c",
+      "label": "Generative KI",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/94dafc2f543c69ca",
+      "label": "KI-Sicherheit",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/4610dc2a67d16f21",
+      "label": "Beschaffung",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/824b7182d8156a94",
+      "label": "System-Prompts",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/ac0794151015da8d",
+      "label": "Threat Modelling",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/c4c554df5b7814a7",
+      "label": "ISMS",
+      "synonyms": [],
+      "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/15a3c2b60459e66d",
+      "label": "PDF-Dokumentation",
+      "synonyms": [],
+      "usageCount": 3
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/krankenhaus",

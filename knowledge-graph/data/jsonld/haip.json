@@ -16,7 +16,16 @@
         "Pflege",
         "DSGVO",
         "Gesundheitswesen",
-        "KI-Compliance"
+        "KI-Compliance",
+        "BSI",
+        "BSI-Kriterienkatalog",
+        "Generative KI",
+        "KI-Sicherheit",
+        "Beschaffung",
+        "System-Prompts",
+        "Threat Modelling",
+        "ISMS",
+        "PDF-Dokumentation"
       ]
     },
     {
@@ -36,9 +45,9 @@
       ],
       "@id": "https://www.thomas-bade.de/haip.html#webpage",
       "url": "https://www.thomas-bade.de/haip.html",
-      "headline": "Health AI Partnership (HAIP) – KI-Beschaffung & Vendor Disclosure Framework | Thomas Bade",
-      "description": "Health AI Partnership (HAIP): Das HAIP AI Vendor Disclosure Framework strukturiert KI-Beschaffung im Krankenhaus. Fünf Pflichtdomänen für Gesundheitseinrichtungen – praxisnahe Einordnung mit Bezug zu EU AI Act, KI-MIG, MDR/IVDR und DSGVO.",
-      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Health AI Partnership 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Rechtlicher Status (Stand 02.08.2026) Das KI-MIG ist seit 29.07.2026 in Kraft ( BGBl. 223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland.",
+      "headline": "KI-Beschaffung: HAIP & BSI-Checkliste | Thomas Bade",
+      "description": "KI-Beschaffung mit HAIP Vendor Disclosure und BSI-Kriterien strukturieren: interaktive Checklisten für Krankenhäuser, Risiken und PDF-Dokumentation.",
+      "abstract": "Interaktive KI-Beschaffungsprüfung für Gesundheitseinrichtungen anhand von HAIP Vendor Disclosure und BSI-Kriterienkatalog: Anbieterangaben, Risiken, Governance und Sicherheitsanforderungen werden strukturiert dokumentiert und als PDF exportiert.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,6 +98,42 @@
         {
           "@type": "Thing",
           "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI-Kriterienkatalog"
+        },
+        {
+          "@type": "Thing",
+          "name": "Generative KI"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Sicherheit"
+        },
+        {
+          "@type": "Thing",
+          "name": "Beschaffung"
+        },
+        {
+          "@type": "Thing",
+          "name": "System-Prompts"
+        },
+        {
+          "@type": "Thing",
+          "name": "Threat Modelling"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISMS"
+        },
+        {
+          "@type": "Thing",
+          "name": "PDF-Dokumentation"
         }
       ],
       "keywords": [
@@ -101,7 +146,16 @@
         "Pflege",
         "DSGVO",
         "Gesundheitswesen",
-        "KI-Compliance"
+        "KI-Compliance",
+        "BSI",
+        "BSI-Kriterienkatalog",
+        "Generative KI",
+        "KI-Sicherheit",
+        "Beschaffung",
+        "System-Prompts",
+        "Threat Modelling",
+        "ISMS",
+        "PDF-Dokumentation"
       ]
     }
   ]
