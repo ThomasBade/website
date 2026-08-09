@@ -19,7 +19,8 @@ WIKIDATA_PATCH = ROOT / "config" / "wikidata-sameas-patch.json"
 
 SYNONYMS = {
     "EU AI Act": ["AI Act", "EU-KI-Verordnung", "KI-Verordnung", "Verordnung (EU) 2024/1689"],
-    "ISO/IEC 42001": ["ISO 42001", "AIMS-Norm", "AI Management System Standard"],
+    "ISO/IEC 42001": ["ISO 42001", "DIN EN ISO/IEC 42001:2026-08", "AIMS-Norm", "AI Management System Standard"],
+    "DIN EN ISO/IEC 42001:2026-08": ["ISO/IEC 42001", "ISO 42001", "deutsche ISO-42001-Fassung", "AIMS-Norm"],
     "WHODAS": ["WHODAS 2.0", "WHO Disability Assessment Schedule 2.0"],
     "ICF": ["International Classification of Functioning, Disability and Health", "Internationale Klassifikation der Funktionsfähigkeit"],
     "Medizinprodukte": ["MDR", "Medical Device Regulation", "Verordnung (EU) 2017/745"],

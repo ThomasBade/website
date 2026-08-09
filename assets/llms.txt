@@ -13,7 +13,7 @@ Sprache: Deutsch (primär), Englisch
 - EU AI Act: Risikoklassifizierung, Konformitätsbewertung, Hochrisiko-KI, Art. 4 Kompetenzpflicht
 - MDR / IVDR: KI-gestützte Medizinprodukte, Software as a Medical Device (SaMD)
 - DSGVO / Datenschutz: Datensouveränität, Privacy by Design, DSGVO-konforme KI-Systeme
-- ISO/IEC 42001:2023: KI-Managementsystem (AIMS), Trust by Design, Kontrollziele Anhang A
+- DIN EN ISO/IEC 42001:2026-08: KI-Managementsystem (AIMS), Trust by Design, Kontrollziele Anhang A
 - SGB-Konformität: KI in der Sozialarbeit, Pflege und kommunalen Daseinsvorsorge
 - KI-Governance: Monitoring, FMEA, NIST AI RMF, HAIP-Framework, TRIPOD-LLM
 - Kommunale Demografie: §71 SGB XII, Quartiersanalyse, kommunale KI-Readiness
@@ -61,7 +61,7 @@ Sprache: Deutsch (primär), Englisch
 - Art. 4 EU AI Act – Arbeitgeberpflicht zur KI-Kompetenzvermittlung
   URL: thomas-bade.de/ki_kompetenzpflicht.html
 
-- ISO/IEC 42001:2023 – KI-Managementsystem (AIMS), Trust by Design
+- DIN EN ISO/IEC 42001:2026-08 – KI-Managementsystem (AIMS), Trust by Design
   URL: thomas-bade.de/iso42001.html
 
 - MDR/IVDR und KI (Medizinprodukte, SaMD, Hochrisiko-KI)

@@ -6,7 +6,7 @@
   "canonical": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html",
   "title": "ISO/IEC 42001 im Knowledge Graph: KI-Governance semantisch einordnen",
   "description": "Fachbeitrag zur semantischen Einordnung von ISO/IEC 42001, KI-Governance, Risikomanagement und verantwortungsvoller KI im Knowledge Graph von Thomas Bade.",
-  "summary": "Ein Knowledge Graph ergänzt diesen Rahmen um eine semantische Sicht: Er verbindet Anforderungen, Risiken, Rollen, Prozesse und Nachweise so, dass Menschen und Maschinen Zusammenhänge nachvollziehen können. August 2026 · Lesezeit etwa 6 Minuten Von einzelnen Dokumenten zu einem steuerbaren System ISO/IEC 42001:2023 beschreibt Anforderungen an Aufbau, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines Artificial Intelligence Management System (AIMS).",
+  "summary": "Ein Knowledge Graph ergänzt diesen Rahmen um eine semantische Sicht: Er verbindet Anforderungen, Risiken, Rollen, Prozesse und Nachweise so, dass Menschen und Maschinen Zusammenhänge nachvollziehen können. August 2026 · Lesezeit etwa 6 Minuten Von einzelnen Dokumenten zu einem steuerbaren System DIN EN ISO/IEC 42001:2026-08 beschreibt Anforderungen an Aufbau, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines Artificial Intelligence Management System (AIMS).",
   "topics": [
     "ISO/IEC 42001",
     "KI-Governance",
@@ -101,7 +101,7 @@
         "url": "https://thomasbade.github.io/website/beitrag-iso-iec-42001.html",
         "headline": "ISO/IEC 42001 im Knowledge Graph: KI-Governance semantisch einordnen",
         "description": "Fachbeitrag zur semantischen Einordnung von ISO/IEC 42001, KI-Governance, Risikomanagement und verantwortungsvoller KI im Knowledge Graph von Thomas Bade.",
-        "abstract": "Ein Knowledge Graph ergänzt diesen Rahmen um eine semantische Sicht: Er verbindet Anforderungen, Risiken, Rollen, Prozesse und Nachweise so, dass Menschen und Maschinen Zusammenhänge nachvollziehen können. August 2026 · Lesezeit etwa 6 Minuten Von einzelnen Dokumenten zu einem steuerbaren System ISO/IEC 42001:2023 beschreibt Anforderungen an Aufbau, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines Artificial Intelligence Management System (AIMS).",
+        "abstract": "Ein Knowledge Graph ergänzt diesen Rahmen um eine semantische Sicht: Er verbindet Anforderungen, Risiken, Rollen, Prozesse und Nachweise so, dass Menschen und Maschinen Zusammenhänge nachvollziehen können. August 2026 · Lesezeit etwa 6 Minuten Von einzelnen Dokumenten zu einem steuerbaren System DIN EN ISO/IEC 42001:2026-08 beschreibt Anforderungen an Aufbau, Umsetzung, Aufrechterhaltung und fortlaufende Verbesserung eines Artificial Intelligence Management System (AIMS).",
         "inLanguage": "de-DE",
         "author": {
           "@id": "https://www.thomas-bade.de/#thomas-bade"
