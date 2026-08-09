@@ -83,7 +83,7 @@
   schema:name "Digitale Souveränität im Gesundheitswesen – KI verstehen, steuern und nutzen"@de .
 
 <https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> a schema:WebPage ;
-  schema:name "ISO/IEC 42001 & 42005 – KI-Managementsystem und AI Impact Assessment"@de .
+  schema:name "DIN EN ISO/IEC 42001:2026 – KI-Managementsystem | Thomas Bade"@de .
 
 <https://www.thomas-bade.de/ki_kompetenzpflicht.html#knowledge-graph-node> a schema:WebPage ;
   schema:name "Artikel 4 EU AI Act – Arbeitgeberpflicht KI-Kompetenz"@de .
@@ -612,6 +612,30 @@
 
 <https://www.thomas-bade.de/id/defined-term/15a3c2b60459e66d> a schema:DefinedTerm ;
   schema:name "PDF-Dokumentation"@de .
+
+<https://www.thomas-bade.de/id/defined-term/da7dba190114f753> a schema:DefinedTerm ;
+  schema:name "DIN EN ISO/IEC 42001:2026-08"@de .
+
+<https://www.thomas-bade.de/id/defined-term/fdd1d444f24b091b> a schema:DefinedTerm ;
+  schema:name "ISO/IEC 42005:2025"@de .
+
+<https://www.thomas-bade.de/id/defined-term/edf0462e3d9cc6ae> a schema:DefinedTerm ;
+  schema:name "Artificial Intelligence Management System"@de .
+
+<https://www.thomas-bade.de/id/defined-term/3c7611bc6a334a5c> a schema:DefinedTerm ;
+  schema:name "AIMS"@de .
+
+<https://www.thomas-bade.de/id/defined-term/b1a3e81a6b1e2a05> a schema:DefinedTerm ;
+  schema:name "AI System Impact Assessment"@de .
+
+<https://www.thomas-bade.de/id/defined-term/d78ff83abf2866c8> a schema:DefinedTerm ;
+  schema:name "KI-Risikomanagement"@de .
+
+<https://www.thomas-bade.de/id/defined-term/2870f61d8192b32b> a schema:DefinedTerm ;
+  schema:name "Kontrollziele"@de .
+
+<https://www.thomas-bade.de/id/defined-term/fdd8e072af8ec523> a schema:DefinedTerm ;
+  schema:name "Sozialwesen"@de .
 
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f679e01a69740bdf> .
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84> .
@@ -1275,34 +1299,6 @@
 <https://www.thomas-bade.de/index.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/stanford.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/index.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/termine.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/index.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/undp.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/ce7a8441d4e3f226> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f624fcf0dcbb39c0> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/d520d22ef5fbcfb1> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/073765018b89550b> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/55d230ca9e9e0f24> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/2edaa855579bd892> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/36b9f42a9a662953> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/6d4489236f6dd87a> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/071b28e91a67cf52> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/bmg.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/coach.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/constitution.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/fmea.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/haip.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/impressum.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/index.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/ki_verordnung.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/leitbild.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/mdr_ki.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/mission.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/oecd.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/portal.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://thomas-bade.de/praevention.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/risk.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/sitemap.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/termine.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/wissenschaft.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/ki_kompetenzpflicht.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/2edaa855579bd892> .
 <https://www.thomas-bade.de/ki_kompetenzpflicht.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/55d230ca9e9e0f24> .
 <https://www.thomas-bade.de/ki_kompetenzpflicht.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/a9386d3e8b5790f2> .
@@ -2142,6 +2138,39 @@
 <https://www.thomas-bade.de/haip.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://thomas-bade.de/praevention.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/haip.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/haip.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/haip.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/portal.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/da7dba190114f753> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/ce7a8441d4e3f226> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/fdd1d444f24b091b> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/071b28e91a67cf52> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/edf0462e3d9cc6ae> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/3c7611bc6a334a5c> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/b1a3e81a6b1e2a05> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/d78ff83abf2866c8> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/55d230ca9e9e0f24> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/85a1088f1c7b992a> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/2870f61d8192b32b> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/a9386d3e8b5790f2> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/fdd8e072af8ec523> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/impressum.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/index.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/termine.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/sitemap.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/coach.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/bmg.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/mdr_ki.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/leitbild.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/mission.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/ki_verordnung.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/wissenschaft.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/constitution.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/risk.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/oecd.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/fmea.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://thomas-bade.de/praevention.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/haip.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/portal.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/ai_monitoring.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
 <https://www.thomas-bade.de/arise.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
 <https://www.thomas-bade.de/calster.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .

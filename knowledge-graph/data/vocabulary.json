@@ -129,7 +129,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84",
       "label": "Gesundheitswesen",
       "synonyms": [],
-      "usageCount": 33,
+      "usageCount": 34,
       "sameAs": [
         "https://www.wikidata.org/entity/Q31207"
       ],
@@ -174,7 +174,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/f624fcf0dcbb39c0",
       "label": "Datenschutz",
       "synonyms": [],
-      "usageCount": 24,
+      "usageCount": 23,
       "sameAs": [
         "https://www.wikidata.org/entity/Q2602249"
       ],
@@ -184,7 +184,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/d520d22ef5fbcfb1",
       "label": "Risikomanagement",
       "synonyms": [],
-      "usageCount": 36,
+      "usageCount": 35,
       "sameAs": [
         "https://www.wikidata.org/entity/Q204785"
       ],
@@ -226,7 +226,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/a9386d3e8b5790f2",
       "label": "Pflege",
       "synonyms": [],
-      "usageCount": 31,
+      "usageCount": 32,
       "sameAs": [
         "https://www.wikidata.org/entity/Q186361"
       ],
@@ -236,7 +236,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/36b9f42a9a662953",
       "label": "KI-Compliance",
       "synonyms": [],
-      "usageCount": 18
+      "usageCount": 17
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/b66ffeb78dac6526",
@@ -251,7 +251,7 @@
         "AI Literacy",
         "KI literacy"
       ],
-      "usageCount": 28
+      "usageCount": 27
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/ec75f79040af1755",
@@ -454,6 +454,7 @@
       "label": "ISO/IEC 42001",
       "synonyms": [
         "ISO 42001",
+        "DIN EN ISO/IEC 42001:2026-08",
         "AIMS-Norm",
         "AI Management System Standard"
       ],
@@ -489,7 +490,7 @@
         "Artificial Intelligence",
         "AI"
       ],
-      "usageCount": 13,
+      "usageCount": 12,
       "sameAs": [
         "https://www.wikidata.org/entity/Q11660"
       ],
@@ -631,7 +632,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/85a1088f1c7b992a",
       "label": "KI-MIG",
       "synonyms": [],
-      "usageCount": 3
+      "usageCount": 4
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/24de8f5e13920c06",
@@ -899,7 +900,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/6d4489236f6dd87a",
       "label": "ISO/IEC",
       "synonyms": [],
-      "usageCount": 2
+      "usageCount": 1
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/cdb6daf69270a9d6",
@@ -1041,6 +1042,59 @@
       "label": "PDF-Dokumentation",
       "synonyms": [],
       "usageCount": 3
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/da7dba190114f753",
+      "label": "DIN EN ISO/IEC 42001:2026-08",
+      "synonyms": [
+        "ISO/IEC 42001",
+        "ISO 42001",
+        "deutsche ISO-42001-Fassung",
+        "AIMS-Norm"
+      ],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/fdd1d444f24b091b",
+      "label": "ISO/IEC 42005:2025",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/edf0462e3d9cc6ae",
+      "label": "Artificial Intelligence Management System",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/3c7611bc6a334a5c",
+      "label": "AIMS",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b1a3e81a6b1e2a05",
+      "label": "AI System Impact Assessment",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/d78ff83abf2866c8",
+      "label": "KI-Risikomanagement",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/2870f61d8192b32b",
+      "label": "Kontrollziele",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/fdd8e072af8ec523",
+      "label": "Sozialwesen",
+      "synonyms": [],
+      "usageCount": 1
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/krankenhaus",

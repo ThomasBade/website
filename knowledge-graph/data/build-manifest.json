@@ -1,6 +1,6 @@
 {
-  "buildId": "tbkg-20260808-1dd0cc78",
-  "generatedAt": "2026-08-08T12:42:42+00:00",
+  "buildId": "tbkg-20260809-1650f271",
+  "generatedAt": "2026-08-09T10:01:09+00:00",
   "generator": "tbkg-static-pipeline/2.0.0",
   "schemaVersion": "2.0.0",
   "source": {
@@ -9,22 +9,22 @@
     "pageCount": 53
   },
   "quality": {
-    "nodeCount": 202,
-    "edgeCount": 1559,
+    "nodeCount": 210,
+    "edgeCount": 1564,
     "inferredPublished": 0
   },
   "artifacts": [
     {
       "path": "pages.json",
-      "sha256": "3ccf756fe269ab8a8a37df1ffb414da5153156b1140ece6b01bc106a5b23187e"
+      "sha256": "d49b728c1d54902de9fd6c965c316c7394a8d9079e4cace78cf7c468b96a60ea"
     },
     {
       "path": "graph.json",
-      "sha256": "06fadc73447fd174839908fe7bea1f3c8f81d2d3ebebc68928ac39d282cf616f"
+      "sha256": "cdbca03625788594fe6afffff16f58719bdeaaa099f67005ed63078e4ad04756"
     },
     {
       "path": "vocabulary.json",
-      "sha256": "781078ed7dcef67100ba8778b72432382e270b303821ec9e9898a60932319a46"
+      "sha256": "2bc78dbe874a15bc4f5b50425139a52204630588103769fc68f18db7f8272ef7"
     },
     {
       "path": "ontology.json",
@@ -32,11 +32,11 @@
     },
     {
       "path": "dataset.jsonld",
-      "sha256": "11efebe22b88ca96df352f173a4a6b3f75cb3a611b6e8d83cce09ba71a943e3d"
+      "sha256": "9b2fc4f577c1ad6c5206ed26ae3ced8de4e8c719c1627bcb7af656b41f30b376"
     },
     {
       "path": "graph.ttl",
-      "sha256": "306a02480187b6f292ded5845796102c3711578e70f199741b550d325fa477a2"
+      "sha256": "5010b8e3721d7780b936bb8a1ff7f153f97082e864f4bca07fb06c9d9694c245"
     },
     {
       "path": "schemas/graph.schema.json",
