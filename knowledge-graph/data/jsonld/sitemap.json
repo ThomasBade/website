@@ -16,7 +16,17 @@
         "Gesundheitswesen",
         "Risikomanagement",
         "KI-Monitoring",
-        "Wissens"
+        "Wissens",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +48,7 @@
       "url": "https://www.thomas-bade.de/sitemap.html",
       "headline": "KI Wissens- und Lernportal – Site Map | Thomas Bade",
       "description": "Strukturierter ÜÜberblick üüber alle Inhalte zur KI-Compliance im Gesundheitswesen: EU AI Act, MDR, DSGVO, Governance und Kompetenzaufbau für Krankenhäuser, Pflegeeinrichtungen und Kommunen.",
-      "abstract": "Transkript anzeigen Willkommen auf der Sitemap des Wissens- und Lernportals für Kompetenz und Governance im Gesundheits- und Sozialwesen beim Einsatz von künstlicher Intelligenz. Diese Seite bietet Ihnen einen strukturierten Überblick über alle Inhalte der Plattform.",
+      "abstract": "Strukturierter ÜÜberblick üüber alle Inhalte zur KI-Compliance im Gesundheitswesen: EU AI Act, MDR, DSGVO, Governance und Kompetenzaufbau für Krankenhäuser, Pflegeeinrichtungen und Kommunen.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +99,47 @@
         {
           "@type": "Thing",
           "name": "Wissens"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "EU AI Act",
-        "KI-Kompetenz",
-        "KI-Governance",
-        "Pflege",
-        "KI-Compliance",
-        "Medizinprodukte",
-        "Gesundheitswesen",
-        "Risikomanagement",
-        "KI-Monitoring",
-        "Wissens"
       ]
     }
   ]

@@ -1,18 +1,18 @@
 ---
 title: "KI im Gesundheitswesen und Code of Conduct"
 url: https://www.thomas-bade.de/gpt.html
-seo_score: 76
+seo_score: 78
 geo_score: 100
-ai_overview_probability: 82
-topics: ["Künstliche Intelligenz", "Gesundheitswesen", "EU AI Act", "Pflege", "KI-Governance", "Wissenschaft", "KI-Ethik", "Risikomanagement", "KI-Monitoring", "KI-Kompetenz"]
+ai_overview_probability: 80
+topics: ["Künstliche Intelligenz", "Gesundheitswesen", "EU AI Act", "Pflege", "KI-Governance", "Wissenschaft", "KI-Ethik", "Risikomanagement", "KI-Monitoring", "KI-Kompetenz", "BSI A5", "KI-Assurance", "ISAE 3000", "Human Oversight", "Incident Response", "Systembeschreibung", "Kontrollmatrix", "BSI C5", "Community Draft", "KI-Audit"]
 ---
 
 # KI im Gesundheitswesen und Code of Conduct
 
 ## Zitierfähige Kurzfassung
 
-Auf dieser Webseite werden die wichtigsten Entwicklungen zusammengefasst – kompakt, praxisnah und strategisch ausgerichtet. Egal, ob KI im Krankenhaus, in der Pflege, bei Home Care Versorgungen, in der Daseinsvorsorge oder im kommunalen Management eingesetzt wird: Die regulatorischen Rahmenbedingungen sind ein entscheidender Faktor für erfolgreiche Projekte.
+Strategischer Einsatz von KI im Gesundheitswesen und in Kommunen: KI-Governance, EU AI Act Compliance, Risikobewertung und praxisnahe Implementierung. Beratung für Krankenhäuser, Pflege, Verwaltung und kommunale Entscheider.
 
 ## Fachbegriffe
 
-Künstliche Intelligenz, Gesundheitswesen, EU AI Act, Pflege, KI-Governance, Wissenschaft, KI-Ethik, Risikomanagement, KI-Monitoring, KI-Kompetenz
+Künstliche Intelligenz, Gesundheitswesen, EU AI Act, Pflege, KI-Governance, Wissenschaft, KI-Ethik, Risikomanagement, KI-Monitoring, KI-Kompetenz, BSI A5, KI-Assurance, ISAE 3000, Human Oversight, Incident Response, Systembeschreibung, Kontrollmatrix, BSI C5, Community Draft, KI-Audit

@@ -16,7 +16,19 @@
         "Leitbild",
         "Digitale",
         "Souveränität",
-        "Europäische"
+        "Europäische",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +50,7 @@
       "url": "https://www.thomas-bade.de/leitbild.html",
       "headline": "Leitbild – Digitale Souveränität & Europäische KI | thomas-bade.de",
       "description": "Leitbild für die KI-Qualifizierung in Gesundheitswesen, Pflege und Sozialwirtschaft: digitale Souveränität, europäische und deutsche KI-Anbieter, EU AI Act und Apply AI Strategy.",
-      "abstract": "Leitbild · ESF+ Aufrufe 8 & 9 Souveränität als Grundprinzip der Qualifizierung Die digitale Transformation der Sozialwirtschaft wird zunehmend durch den Einsatz von Künstlicher Intelligenz geprägt. Diese Qualifizierungsinitiative verfolgt das Ziel, bei der Entwicklung, Erprobung und Umsetzung von KI-Qualifizierungsmaßnahmen bevorzugt auf europäische und insbesondere deutsche KI-Anbieter , Plattformen und digitale Infrastrukturen zurückzugreifen.",
+      "abstract": "Leitbild für die KI-Qualifizierung in Gesundheitswesen, Pflege und Sozialwirtschaft: digitale Souveränität, europäische und deutsche KI-Anbieter, EU AI Act und Apply AI Strategy.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +101,55 @@
         {
           "@type": "Thing",
           "name": "Europäische"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "EU AI Act",
-        "KI-Kompetenz",
-        "Pflege",
-        "KI-Governance",
-        "Gesundheitswesen",
-        "Datenschutz",
-        "Leitbild",
-        "Digitale",
-        "Souveränität",
-        "Europäische"
       ]
     }
   ]

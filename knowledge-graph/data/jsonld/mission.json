@@ -15,7 +15,19 @@
         "Digital",
         "Sovereignty",
         "European",
-        "KI-Compliance"
+        "KI-Compliance",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -37,7 +49,7 @@
       "url": "https://www.thomas-bade.de/mission.html",
       "headline": "Mission Statement Digital Sovereignty & European AI",
       "description": "Mission statement for AI qualification in healthcare, care, social economy and municipal public services: digital sovereignty, European and German AI providers, EU AI Act and Apply AI Strategy.",
-      "abstract": "Mission Statement · ESF+ Calls 8 & 9 Sovereignty as a guiding principle of qualification The digital transformation of the social economy is increasingly shaped by the use of artificial intelligence. In development, testing and implementation of AI qualification measures, this initiative aims to give priority to European and especially German AI providers , platforms and digital infrastructures.",
+      "abstract": "Mission statement for AI qualification in healthcare, care, social economy and municipal public services: digital sovereignty, European and German AI providers, EU AI Act and Apply AI Strategy.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -84,18 +96,55 @@
         {
           "@type": "Thing",
           "name": "KI-Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "EU AI Act",
-        "KI-Governance",
-        "Künstliche Intelligenz",
-        "Mission",
-        "Statement",
-        "Digital",
-        "Sovereignty",
-        "European",
-        "KI-Compliance"
       ]
     }
   ]

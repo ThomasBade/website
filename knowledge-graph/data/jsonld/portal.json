@@ -16,7 +16,18 @@
         "KI-Governance",
         "KI-Compliance",
         "DSGVO",
-        "Medizinprodukte"
+        "Medizinprodukte",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +49,7 @@
       "url": "https://www.thomas-bade.de/portal.html",
       "headline": "KI-Lernformate für das Gesundheitswesen | Thomas Bade",
       "description": "Vendor-unabhängige KI-Lernmodule für Krankenhaus, Pflege und HomeCare: EU AI Act, DSGVO, Hochrisiko-KI und Vendor-Evaluation – aus Betreiber-Perspektive, ohne Interessenkonflikt.",
-      "abstract": "Sie schaffen Orientierung in einem Feld, das für viele Einrichtungen strategisch wichtig, im Alltag aber oft noch unklar ist. Vendor-unabhängig, aus der Perspektive von Betreiberorganisationen entwickelt und konsequent auf die Qualifizierung von Mitarbeitenden ausgerichtet.",
+      "abstract": "Vendor-unabhängige KI-Lernmodule für Krankenhaus, Pflege und HomeCare: EU AI Act, DSGVO, Hochrisiko-KI und Vendor-Evaluation – aus Betreiber-Perspektive, ohne Interessenkonflikt.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +100,51 @@
         {
           "@type": "Thing",
           "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Pflege",
-        "Datenschutz",
-        "KI-Kompetenz",
-        "Gesundheitswesen",
-        "Risikomanagement",
-        "EU AI Act",
-        "KI-Governance",
-        "KI-Compliance",
-        "DSGVO",
-        "Medizinprodukte"
       ]
     }
   ]

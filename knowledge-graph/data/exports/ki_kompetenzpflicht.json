@@ -6,7 +6,7 @@
   "canonical": "https://www.thomas-bade.de/ki_kompetenzpflicht.html",
   "title": "Artikel 4 EU AI Act – Arbeitgeberpflicht KI-Kompetenz",
   "description": "Arbeitgeberpflichten zur KI-Kompetenzvermittlung nach Artikel 4 EU AI Act – Praxisbeispiele aus dem Living Repository des EU AI Office für Deployer im Gesundheits- und Sozialwesen.",
-  "summary": "KI-Kompetenzvermittlung ist keine Empfehlung mehr – sie ist Pflicht. Wer als Provider oder Deployer KI-Systeme einsetzt oder bereitstellt, muss sicherstellen, dass alle betroffenen Mitarbeitenden über ein ausreichendes Maß an KI-Kompetenz verfügen – zugeschnitten auf ihre Rolle, den eingesetzten System-Kontext und die betroffenen Personengruppen.",
+  "summary": "Arbeitgeberpflichten zur KI-Kompetenzvermittlung nach Artikel 4 EU AI Act – Praxisbeispiele aus dem Living Repository des EU AI Office für Deployer im Gesundheits- und Sozialwesen.",
   "topics": [
     "KI-Kompetenz",
     "EU AI Act",
@@ -17,43 +17,38 @@
     "Artikel",
     "Arbeitgeberpflicht",
     "Medizinprodukte",
-    "Patientenzentrierung"
+    "Patientenzentrierung",
+    "BSI A5",
+    "KI-Assurance",
+    "ISAE 3000",
+    "Human Oversight",
+    "KI-Monitoring",
+    "Incident Response",
+    "Systembeschreibung",
+    "Kontrollmatrix",
+    "BSI C5",
+    "Community Draft",
+    "KI-Audit"
   ],
-  "word_count": 2667,
-  "heading_count": 18,
-  "h1_count": 0,
-  "internal_links": 18,
+  "word_count": 2607,
+  "heading_count": 19,
+  "h1_count": 2,
+  "internal_links": 2,
   "linked_pages": [
-    "arise",
-    "bmg",
-    "coach",
-    "constitution",
-    "haip",
-    "impressum",
-    "index",
-    "ki_verordnung",
-    "leitbild",
-    "mdr_ki",
-    "mission",
-    "oecd",
-    "portal",
-    "praevention",
-    "risk",
-    "sitemap",
-    "termine",
-    "wissenschaft"
+    "bsi",
+    "index"
   ],
-  "existing_jsonld": 3,
+  "existing_jsonld": 4,
   "has_og": true,
-  "citation_signals": 0,
-  "question_headings": 0,
+  "citation_signals": 24,
+  "question_headings": 3,
   "structured_blocks": 5,
   "author_signal": true,
-  "content_hash": "b9aaf726294f5086",
-  "seo_score": 88,
-  "geo_score": 78,
-  "ai_overview_probability": 66,
-  "maturity": "fortgeschritten",
+  "content_hash": "a3b510e7a476058a",
+  "seo_score": 89,
+  "geo_score": 100,
+  "ai_overview_probability": 85,
+  "maturity": "führend",
   "seo_checks": {
     "Titel vorhanden": true,
     "Titellänge 30–65": true,
@@ -69,120 +64,14 @@
     "Direkte Zusammenfassung": true,
     "Klare Überschriften": true,
     "Entitäten und Fachbegriffe": true,
-    "Quellen-/Literaturhinweise": false,
-    "Frage-Antwort-Struktur": false,
+    "Quellen-/Literaturhinweise": true,
+    "Frage-Antwort-Struktur": true,
     "Listen/Tabellen": true,
     "Autor-/Vertrauenssignal": true,
     "Schema-Abdeckung": true,
     "Kontextuelle Verlinkung": true,
     "Inhaltstiefe": true
   },
-  "schema": {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://www.thomas-bade.de/#thomas-bade",
-        "name": "Thomas Bade",
-        "url": "https://www.thomas-bade.de/",
-        "knowsAbout": [
-          "KI-Kompetenz",
-          "EU AI Act",
-          "Pflege",
-          "KI-Compliance",
-          "KI-Governance",
-          "Risikomanagement",
-          "Artikel",
-          "Arbeitgeberpflicht",
-          "Medizinprodukte",
-          "Patientenzentrierung"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.thomas-bade.de/#website",
-        "url": "https://www.thomas-bade.de/",
-        "name": "Thomas Bade",
-        "inLanguage": "de-DE",
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        }
-      },
-      {
-        "@type": [
-          "Article",
-          "WebPage"
-        ],
-        "@id": "https://www.thomas-bade.de/ki_kompetenzpflicht.html#webpage",
-        "url": "https://www.thomas-bade.de/ki_kompetenzpflicht.html",
-        "headline": "Artikel 4 EU AI Act – Arbeitgeberpflicht KI-Kompetenz",
-        "description": "Arbeitgeberpflichten zur KI-Kompetenzvermittlung nach Artikel 4 EU AI Act – Praxisbeispiele aus dem Living Repository des EU AI Office für Deployer im Gesundheits- und Sozialwesen.",
-        "abstract": "KI-Kompetenzvermittlung ist keine Empfehlung mehr – sie ist Pflicht. Wer als Provider oder Deployer KI-Systeme einsetzt oder bereitstellt, muss sicherstellen, dass alle betroffenen Mitarbeitenden über ein ausreichendes Maß an KI-Kompetenz verfügen – zugeschnitten auf ihre Rolle, den eingesetzten System-Kontext und die betroffenen Personengruppen.",
-        "inLanguage": "de-DE",
-        "author": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "isPartOf": {
-          "@id": "https://www.thomas-bade.de/#website"
-        },
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "KI-Kompetenz"
-          },
-          {
-            "@type": "Thing",
-            "name": "EU AI Act"
-          },
-          {
-            "@type": "Thing",
-            "name": "Pflege"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Compliance"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Governance"
-          },
-          {
-            "@type": "Thing",
-            "name": "Risikomanagement"
-          },
-          {
-            "@type": "Thing",
-            "name": "Artikel"
-          },
-          {
-            "@type": "Thing",
-            "name": "Arbeitgeberpflicht"
-          },
-          {
-            "@type": "Thing",
-            "name": "Medizinprodukte"
-          },
-          {
-            "@type": "Thing",
-            "name": "Patientenzentrierung"
-          }
-        ],
-        "keywords": [
-          "KI-Kompetenz",
-          "EU AI Act",
-          "Pflege",
-          "KI-Compliance",
-          "KI-Governance",
-          "Risikomanagement",
-          "Artikel",
-          "Arbeitgeberpflicht",
-          "Medizinprodukte",
-          "Patientenzentrierung"
-        ]
-      }
-    ]
-  }
+  "content_status": "published",
+  "interactive_tool": false
 }

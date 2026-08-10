@@ -1,18 +1,18 @@
 ---
 title: "Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung"
 url: https://www.thomas-bade.de/agentic.html
-seo_score: 100
+seo_score: 89
 geo_score: 100
-ai_overview_probability: 88
-topics: ["Agentic AI", "Gesundheitswesen", "EU AI Act", "KI-Governance", "DSGVO", "Datenschutz", "Risikomanagement", "Medizinprodukte", "Patientenzentrierung", "KI-Monitoring"]
+ai_overview_probability: 85
+topics: ["Agentic AI", "Gesundheitswesen", "EU AI Act", "KI-Governance", "DSGVO", "Datenschutz", "Risikomanagement", "Medizinprodukte", "Patientenzentrierung", "KI-Monitoring", "BSI A5", "KI-Assurance", "ISAE 3000", "Human Oversight", "Incident Response", "Systembeschreibung", "Kontrollmatrix", "BSI C5", "Community Draft", "KI-Audit"]
 ---
 
 # Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung
 
 ## Zitierfähige Kurzfassung
 
-223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland – die technologieneutrale KI-System-Definition der EU-KI-VO (Art. 1) erfasst dabei ausdrücklich auch autonom agierende KI-Agenten.
+Was Agentic AI für Kliniken, Pflegeeinrichtungen und Gesundheitsorganisationen bedeutet: Chancen, Risiken, DSGVO, EU AI Act und KI-MIG-Zuständigkeiten. Einordnung von Thomas Bade.
 
 ## Fachbegriffe
 
-Agentic AI, Gesundheitswesen, EU AI Act, KI-Governance, DSGVO, Datenschutz, Risikomanagement, Medizinprodukte, Patientenzentrierung, KI-Monitoring
+Agentic AI, Gesundheitswesen, EU AI Act, KI-Governance, DSGVO, Datenschutz, Risikomanagement, Medizinprodukte, Patientenzentrierung, KI-Monitoring, BSI A5, KI-Assurance, ISAE 3000, Human Oversight, Incident Response, Systembeschreibung, Kontrollmatrix, BSI C5, Community Draft, KI-Audit

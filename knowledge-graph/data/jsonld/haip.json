@@ -25,7 +25,17 @@
         "System-Prompts",
         "Threat Modelling",
         "ISMS",
-        "PDF-Dokumentation"
+        "PDF-Dokumentation",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -47,7 +57,7 @@
       "url": "https://www.thomas-bade.de/haip.html",
       "headline": "KI-Beschaffung: HAIP & BSI-Checkliste | Thomas Bade",
       "description": "KI-Beschaffung mit HAIP Vendor Disclosure und BSI-Kriterien strukturieren: interaktive Checklisten für Krankenhäuser, Risiken und PDF-Dokumentation.",
-      "abstract": "Interaktive KI-Beschaffungsprüfung für Gesundheitseinrichtungen anhand von HAIP Vendor Disclosure und BSI-Kriterienkatalog: Anbieterangaben, Risiken, Governance und Sicherheitsanforderungen werden strukturiert dokumentiert und als PDF exportiert.",
+      "abstract": "KI-Beschaffung mit HAIP Vendor Disclosure und BSI-Kriterien strukturieren: interaktive Checklisten für Krankenhäuser, Risiken und PDF-Dokumentation.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -134,28 +144,47 @@
         {
           "@type": "Thing",
           "name": "PDF-Dokumentation"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "EU AI Act",
-        "KI-Governance",
-        "Datenschutz",
-        "KI-Monitoring",
-        "Risikomanagement",
-        "KI-Kompetenz",
-        "Pflege",
-        "DSGVO",
-        "Gesundheitswesen",
-        "KI-Compliance",
-        "BSI",
-        "BSI-Kriterienkatalog",
-        "Generative KI",
-        "KI-Sicherheit",
-        "Beschaffung",
-        "System-Prompts",
-        "Threat Modelling",
-        "ISMS",
-        "PDF-Dokumentation"
       ]
     }
   ]

@@ -16,7 +16,18 @@
         "DSGVO",
         "Datenschutz",
         "Patientenzentrierung",
-        "Pflege"
+        "Pflege",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "KI-Governance",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +49,7 @@
       "url": "https://www.thomas-bade.de/fmea.html",
       "headline": "FMEA im Gesundheitswesen – Risikoanalyse für KI & Medizinprodukte | Thomas Bade",
       "description": "FMEA für KI-Systeme und Medizinprodukte im Krankenhaus: RPZ-Methodik, AI-FMEA, EU AI Act Art. 9, ISO 14971 und interaktive Compliance-Checkliste – Thomas Bade, Eichstätt.",
-      "abstract": "Im Gesundheitswesen ist die FMEA seit Jahrzehnten in der Medizinprodukteentwicklung verankert. Mit der Einführung des EU AI Act rückt sie als regulatorisches Werkzeug auch für Hochrisiko-KI-Systeme Hochrisiko-KI-Systeme sind KI-Anwendungen, die in Bereichen eingesetzt werden, die erhebliche Risiken für Gesundheit, Sicherheit oder Grundrechte darstellen – z.B.",
+      "abstract": "FMEA für KI-Systeme und Medizinprodukte im Krankenhaus: RPZ-Methodik, AI-FMEA, EU AI Act Art. 9, ISO 14971 und interaktive Compliance-Checkliste – Thomas Bade, Eichstätt.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +100,51 @@
         {
           "@type": "Thing",
           "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Medizinprodukte",
-        "Gesundheitswesen",
-        "EU AI Act",
-        "KI-Monitoring",
-        "Risikomanagement",
-        "FMEA",
-        "DSGVO",
-        "Datenschutz",
-        "Patientenzentrierung",
-        "Pflege"
       ]
     }
   ]

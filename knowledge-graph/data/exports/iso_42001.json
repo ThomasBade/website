@@ -6,7 +6,7 @@
   "canonical": "https://www.thomas-bade.de/iso_42001.html",
   "title": "DIN EN ISO/IEC 42001:2026 – KI-Managementsystem | Thomas Bade",
   "description": "Praxisleitfaden zur DIN EN ISO/IEC 42001:2026-08: KI-Managementsystem, Governance, Risikomanagement, ISO 42005 und dokumentierbare Umsetzung.",
-  "summary": "DIN EN ISO/IEC 42001:2026-08 ist seit August 2026 die offizielle deutsche Fassung für KI-Managementsysteme. Der Praxisleitfaden verbindet AIMS, Governance, Risikomanagement und ISO/IEC 42005 mit dokumentierbaren Kontrollen, Vorlagen und PDF-gestützter Umsetzung.",
+  "summary": "Praxisleitfaden zur DIN EN ISO/IEC 42001:2026-08: KI-Managementsystem, Governance, Risikomanagement, ISO 42005 und dokumentierbare Umsetzung.",
   "topics": [
     "DIN EN ISO/IEC 42001:2026-08",
     "ISO/IEC 42001",
@@ -22,39 +22,35 @@
     "Kontrollziele",
     "Gesundheitswesen",
     "Pflege",
-    "Sozialwesen"
+    "Sozialwesen",
+    "BSI A5",
+    "KI-Assurance",
+    "ISAE 3000",
+    "Human Oversight",
+    "Risikomanagement",
+    "KI-Monitoring",
+    "Incident Response",
+    "Systembeschreibung",
+    "Kontrollmatrix",
+    "BSI C5",
+    "Community Draft",
+    "KI-Audit"
   ],
-  "word_count": 4757,
-  "heading_count": 108,
+  "word_count": 4823,
+  "heading_count": 35,
   "h1_count": 1,
-  "internal_links": 18,
+  "internal_links": 2,
   "linked_pages": [
-    "impressum",
-    "index",
-    "termine",
-    "sitemap",
-    "coach",
-    "bmg",
-    "mdr_ki",
-    "leitbild",
-    "mission",
-    "ki_verordnung",
-    "wissenschaft",
-    "constitution",
-    "risk",
-    "oecd",
-    "fmea",
-    "praevention",
-    "haip",
-    "portal"
+    "bsi",
+    "index"
   ],
   "existing_jsonld": 4,
   "has_og": true,
-  "citation_signals": 21,
+  "citation_signals": 83,
   "question_headings": 3,
   "structured_blocks": 17,
   "author_signal": true,
-  "content_hash": "f23fbe197a4f265f",
+  "content_hash": "969a4af1a65b1964",
   "seo_score": 100,
   "geo_score": 100,
   "ai_overview_probability": 90,
@@ -81,144 +77,6 @@
     "Schema-Abdeckung": true,
     "Kontextuelle Verlinkung": true,
     "Inhaltstiefe": true
-  },
-  "schema": {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://www.thomas-bade.de/#thomas-bade",
-        "name": "Thomas Bade",
-        "url": "https://www.thomas-bade.de/",
-        "knowsAbout": [
-          "DIN EN ISO/IEC 42001:2026-08",
-          "ISO/IEC 42001",
-          "ISO/IEC 42005:2025",
-          "KI-Managementsystem",
-          "Artificial Intelligence Management System",
-          "AIMS",
-          "AI System Impact Assessment",
-          "KI-Governance",
-          "KI-Risikomanagement",
-          "EU AI Act",
-          "KI-MIG",
-          "Kontrollziele",
-          "Gesundheitswesen",
-          "Pflege",
-          "Sozialwesen"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.thomas-bade.de/#website",
-        "url": "https://www.thomas-bade.de/",
-        "name": "Thomas Bade",
-        "inLanguage": "de-DE",
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        }
-      },
-      {
-        "@type": [
-          "Article",
-          "WebPage"
-        ],
-        "@id": "https://www.thomas-bade.de/iso_42001.html#webpage",
-        "url": "https://www.thomas-bade.de/iso_42001.html",
-        "headline": "DIN EN ISO/IEC 42001:2026 – KI-Managementsystem | Thomas Bade",
-        "description": "Praxisleitfaden zur DIN EN ISO/IEC 42001:2026-08: KI-Managementsystem, Governance, Risikomanagement, ISO 42005 und dokumentierbare Umsetzung.",
-        "abstract": "DIN EN ISO/IEC 42001:2026-08 ist seit August 2026 die offizielle deutsche Fassung für KI-Managementsysteme. Der Praxisleitfaden verbindet AIMS, Governance, Risikomanagement und ISO/IEC 42005 mit dokumentierbaren Kontrollen, Vorlagen und PDF-gestützter Umsetzung.",
-        "inLanguage": "de-DE",
-        "author": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "isPartOf": {
-          "@id": "https://www.thomas-bade.de/#website"
-        },
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "DIN EN ISO/IEC 42001:2026-08"
-          },
-          {
-            "@type": "Thing",
-            "name": "ISO/IEC 42001"
-          },
-          {
-            "@type": "Thing",
-            "name": "ISO/IEC 42005:2025"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Managementsystem"
-          },
-          {
-            "@type": "Thing",
-            "name": "Artificial Intelligence Management System"
-          },
-          {
-            "@type": "Thing",
-            "name": "AIMS"
-          },
-          {
-            "@type": "Thing",
-            "name": "AI System Impact Assessment"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Governance"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Risikomanagement"
-          },
-          {
-            "@type": "Thing",
-            "name": "EU AI Act"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-MIG"
-          },
-          {
-            "@type": "Thing",
-            "name": "Kontrollziele"
-          },
-          {
-            "@type": "Thing",
-            "name": "Gesundheitswesen"
-          },
-          {
-            "@type": "Thing",
-            "name": "Pflege"
-          },
-          {
-            "@type": "Thing",
-            "name": "Sozialwesen"
-          }
-        ],
-        "keywords": [
-          "DIN EN ISO/IEC 42001:2026-08",
-          "ISO/IEC 42001",
-          "ISO/IEC 42005:2025",
-          "KI-Managementsystem",
-          "Artificial Intelligence Management System",
-          "AIMS",
-          "AI System Impact Assessment",
-          "KI-Governance",
-          "KI-Risikomanagement",
-          "EU AI Act",
-          "KI-MIG",
-          "Kontrollziele",
-          "Gesundheitswesen",
-          "Pflege",
-          "Sozialwesen"
-        ]
-      }
-    ]
   },
   "content_status": "published",
   "interactive_tool": true,

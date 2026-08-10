@@ -16,7 +16,18 @@
         "EU AI Act",
         "Datenschutz",
         "Patientenzentrierung",
-        "Regelbetrieb"
+        "Regelbetrieb",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Risikomanagement",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +49,7 @@
       "url": "https://www.thomas-bade.de/ai_monitoring.html",
       "headline": "KI Monitoring im Regelbetrieb | Post-Deployment Monitoring für KI im Gesundheitswesen",
       "description": "KI Monitoring im Regelbetrieb: Wie Gesundheitseinrichtungen KI-Systeme nach der Einführung überwachen. Meldepflichten an die Bundesnetzagentur (KI-MIG), ISO/IEC 42005:2025, Governance, Drift-Erkennung, Safety Reporting, Compliance und AI Risk Management nach internationalen Leitlinien.",
-      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map KI Monitoring im Regelbetrieb 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Nach dem Go-live beginnt die eigentliche Verantwortung. Was ein System in kontrollierten Testbedingungen leistet, muss im klinischen Alltag kontinuierlich gemessen, bewertet und dokumentiert werden – rechtssicher, systematisch und mit klaren Zuständigkeiten.",
+      "abstract": "KI Monitoring im Regelbetrieb: Wie Gesundheitseinrichtungen KI-Systeme nach der Einführung überwachen. Meldepflichten an die Bundesnetzagentur (KI-MIG), ISO/IEC 42005:2025, Governance, Drift-Erkennung, Safety Reporting, Compliance und AI Risk Management nach internationalen Leitlinien.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +100,51 @@
         {
           "@type": "Thing",
           "name": "Regelbetrieb"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Gesundheitswesen",
-        "KI-Governance",
-        "KI-Monitoring",
-        "Monitoring",
-        "Pflege",
-        "KI-Compliance",
-        "EU AI Act",
-        "Datenschutz",
-        "Patientenzentrierung",
-        "Regelbetrieb"
       ]
     }
   ]

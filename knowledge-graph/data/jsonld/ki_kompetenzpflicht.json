@@ -16,7 +16,18 @@
         "Artikel",
         "Arbeitgeberpflicht",
         "Medizinprodukte",
-        "Patientenzentrierung"
+        "Patientenzentrierung",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +49,7 @@
       "url": "https://www.thomas-bade.de/ki_kompetenzpflicht.html",
       "headline": "Artikel 4 EU AI Act – Arbeitgeberpflicht KI-Kompetenz",
       "description": "Arbeitgeberpflichten zur KI-Kompetenzvermittlung nach Artikel 4 EU AI Act – Praxisbeispiele aus dem Living Repository des EU AI Office für Deployer im Gesundheits- und Sozialwesen.",
-      "abstract": "KI-Kompetenzvermittlung ist keine Empfehlung mehr – sie ist Pflicht. Wer als Provider oder Deployer KI-Systeme einsetzt oder bereitstellt, muss sicherstellen, dass alle betroffenen Mitarbeitenden über ein ausreichendes Maß an KI-Kompetenz verfügen – zugeschnitten auf ihre Rolle, den eingesetzten System-Kontext und die betroffenen Personengruppen.",
+      "abstract": "Arbeitgeberpflichten zur KI-Kompetenzvermittlung nach Artikel 4 EU AI Act – Praxisbeispiele aus dem Living Repository des EU AI Office für Deployer im Gesundheits- und Sozialwesen.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +100,51 @@
         {
           "@type": "Thing",
           "name": "Patientenzentrierung"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "KI-Kompetenz",
-        "EU AI Act",
-        "Pflege",
-        "KI-Compliance",
-        "KI-Governance",
-        "Risikomanagement",
-        "Artikel",
-        "Arbeitgeberpflicht",
-        "Medizinprodukte",
-        "Patientenzentrierung"
       ]
     }
   ]

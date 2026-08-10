@@ -16,7 +16,17 @@
         "Risikomanagement",
         "Medizinprodukte",
         "Patientenzentrierung",
-        "KI-Monitoring"
+        "KI-Monitoring",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +48,7 @@
       "url": "https://www.thomas-bade.de/agentic.html",
       "headline": "Agentic KI im Gesundheitswesen – Chancen, Governance & Einordnung",
       "description": "Was Agentic AI für Kliniken, Pflegeeinrichtungen und Gesundheitsorganisationen bedeutet: Chancen, Risiken, DSGVO, EU AI Act und KI-MIG-Zuständigkeiten. Einordnung von Thomas Bade.",
-      "abstract": "223 ) und benennt die Bundesnetzagentur als zentrale Marktüberwachungsbehörde für KI-Systeme in Deutschland – die technologieneutrale KI-System-Definition der EU-KI-VO (Art. 1) erfasst dabei ausdrücklich auch autonom agierende KI-Agenten.",
+      "abstract": "Was Agentic AI für Kliniken, Pflegeeinrichtungen und Gesundheitsorganisationen bedeutet: Chancen, Risiken, DSGVO, EU AI Act und KI-MIG-Zuständigkeiten. Einordnung von Thomas Bade.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +99,47 @@
         {
           "@type": "Thing",
           "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Agentic AI",
-        "Gesundheitswesen",
-        "EU AI Act",
-        "KI-Governance",
-        "DSGVO",
-        "Datenschutz",
-        "Risikomanagement",
-        "Medizinprodukte",
-        "Patientenzentrierung",
-        "KI-Monitoring"
       ]
     }
   ]

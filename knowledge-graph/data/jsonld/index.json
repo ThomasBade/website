@@ -16,7 +16,18 @@
         "Patientenzentrierung",
         "KI-Ethik",
         "Digitale",
-        "Souveränität"
+        "Souveränität",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -34,11 +45,11 @@
         "Article",
         "WebPage"
       ],
-      "@id": "https://www.thomas-bade.de/index.html#webpage",
-      "url": "https://www.thomas-bade.de/index.html",
-      "headline": "Digitale Souveränität im Gesundheitswesen – KI verstehen, steuern und nutzen",
-      "description": "KI im Krankenhaus und Pflegeheim, EU AI Act-Compliance und Digitalisierung: Thomas Bade begleitet Krankenhäuser, Pflegeheime und kommunale Einrichtungen auf dem Weg zur sicheren KI-Nutzung.",
-      "abstract": "Damit stehen Transparenzpflichten, Marktüberwachung und nationale Durchsetzung im Mittelpunkt. Für Krankenhäuser, Pflegeeinrichtungen und Anbieter von KI-Systemen sind insbesondere die Einordnung als Hochrisiko-KI, die Zuständigkeit der Bundesnetzagentur, Human Oversight, technische Dokumentation und die Fristen für Medizinprodukte relevant.",
+      "@id": "https://www.thomas-bade.de/#webpage",
+      "url": "https://www.thomas-bade.de/",
+      "headline": "Digitale Souveränität im Gesundheitswesen | Thomas Bade",
+      "description": "EU AI Act-Compliance und Digitalisierung im Krankenhaus und Pflegeheim: Thomas Bade begleitet Sie zur sicheren KI-Nutzung.",
+      "abstract": "EU AI Act-Compliance und Digitalisierung im Krankenhaus und Pflegeheim: Thomas Bade begleitet Sie zur sicheren KI-Nutzung.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +100,51 @@
         {
           "@type": "Thing",
           "name": "Souveränität"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Gesundheitswesen",
-        "Künstliche Intelligenz",
-        "EU AI Act",
-        "KI-Governance",
-        "KI-Kompetenz",
-        "Risikomanagement",
-        "Patientenzentrierung",
-        "KI-Ethik",
-        "Digitale",
-        "Souveränität"
       ]
     }
   ]
