@@ -238,8 +238,8 @@
 <https://www.thomas-bade.de/id/defined-term/6c4dc48c7ef6591a> a schema:DefinedTerm ;
   schema:name "Kompetenz-Readiness"@de .
 
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> a schema:DefinedTerm ;
-  schema:name "Thomas"@de .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> a schema:DefinedTerm ;
+  schema:name "Thomas Bade"@de .
 
 <https://www.thomas-bade.de/id/defined-term/aea2f6f865c95345> a schema:DefinedTerm ;
   schema:name "KI-Produktivitätsanalyse"@de .
@@ -2508,17 +2508,17 @@
 <https://www.thomas-bade.de/tripod_llm.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
 <https://www.thomas-bade.de/vendor.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
 <https://www.thomas-bade.de/wissen.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/impressum.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/coach.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/termine.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/leitbild.html#knowledge-graph-node> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://thomas-bade.org/> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://thomas-bade.eu/> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.linkedin.com/in/thomas-bade> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://bsky.app/profile/thomas-bade.de> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://mastodon.social/@thomasbade> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://x.com/thomasbade> .
-<https://www.thomas-bade.de/id/defined-term/5dfcf9ef1fb1ecbc> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.whatsapp.com/channel/0029Vb7Yfze0LKZ8ikCNtu3w> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/impressum.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/coach.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/termine.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/leitbild.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://thomas-bade.org/> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://thomas-bade.eu/> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.linkedin.com/in/thomas-bade> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://bsky.app/profile/thomas-bade.de> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://mastodon.social/@thomasbade> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://x.com/thomasbade> .
+<https://www.thomas-bade.de/id/defined-term/d6b45cc0ce33b6a8> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.whatsapp.com/channel/0029Vb7Yfze0LKZ8ikCNtu3w> .
 
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 <https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84> owl:sameAs <https://www.wikidata.org/entity/Q31207> .

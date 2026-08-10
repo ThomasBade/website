@@ -1,6 +1,6 @@
 {
-  "buildId": "tbkg-20260810-9d7dc145",
-  "generatedAt": "2026-08-10T08:53:27+00:00",
+  "buildId": "tbkg-20260810-0e987801",
+  "generatedAt": "2026-08-10T09:19:06+00:00",
   "generator": "tbkg-static-pipeline/2.0.0",
   "schemaVersion": "2.0.0",
   "source": {
@@ -20,11 +20,11 @@
     },
     {
       "path": "graph.json",
-      "sha256": "1c53d48d2c45840ab7e3c9d1a6f487e08206495287981d1300170c1077159c53"
+      "sha256": "d6d47840c379452153b3000b8c2e12f7e0c3687c604b86c1870d79e94316a263"
     },
     {
       "path": "vocabulary.json",
-      "sha256": "296472736cd1b2a0171e92a41bc7437a0913d5057bab1cae2e163f1b0d56931f"
+      "sha256": "38adf43ec094f840fe7b0a78c976992eb96b14d420865f4f3158f23153a6102d"
     },
     {
       "path": "ontology.json",
@@ -32,11 +32,11 @@
     },
     {
       "path": "dataset.jsonld",
-      "sha256": "9a450461ac422c5292a8a0b43718a3e3873973dab2e2a63f0851b4e0ff98cf6e"
+      "sha256": "4a3e4758720c19a25c2f76d314fde6157b405d27368200110e73852338c43f67"
     },
     {
       "path": "graph.ttl",
-      "sha256": "b7a5c844d21bd5f5cb0add647d1b3f5df60205ed8cf14bb83c8f5997b585439b"
+      "sha256": "ef60bbfc7d16a6ab64f35cd20b8032b8f70f8337a30e4865091e07650b042730"
     },
     {
       "path": "schemas/graph.schema.json",
