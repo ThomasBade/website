@@ -151,9 +151,11 @@ for page in pages:
         "curated": True,
     })
 
-# "Thomas" is a curated person hub, not a term extracted from arbitrary page text.
-thomas_node = next((node for node in graph["nodes"] if node.get("label") == "Thomas"), None)
+# "Thomas Bade" is a curated person hub, not a term extracted from arbitrary page text.
+# Accept the former label during migration so existing graph builds stay upgradeable.
+thomas_node = next((node for node in graph["nodes"] if node.get("label") in {"Thomas", "Thomas Bade"}), None)
 if thomas_node:
+    thomas_node["label"] = "Thomas Bade"
     thomas_id = thomas_node["id"]
     graph["edges"] = [
         edge for edge in graph["edges"]
