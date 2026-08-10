@@ -62,6 +62,7 @@ THOMAS_RELATIONS = [
 ]
 
 INTERACTIVE_TOOLS = {
+    "bsi": ("BSI-A5-Readiness-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
     "ai_monitoring": ("Monitoring-Assessment", ["assessment", "checklist", "notes", "pdf"]),
     "arise": ("Ethik-Assessment", ["assessment", "checklist", "notes", "scoring", "pdf"]),
     "calster": ("Readiness-Selbsttest", ["assessment", "scoring", "pdf"]),

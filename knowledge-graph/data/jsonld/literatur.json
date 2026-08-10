@@ -16,7 +16,19 @@
         "Pflege",
         "KI-Governance",
         "Patientenzentrierung",
-        "KI-Ethik"
+        "KI-Ethik",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +50,7 @@
       "url": "https://www.thomas-bade.de/literatur.html",
       "headline": "Literaturverzeichnis – KI im Gesundheitswesen | Thomas Bade",
       "description": "Wissenschaftliches Literaturverzeichnis zur KI im Gesundheitswesen: kuratierte Quellen zu EU AI Act, Agentic AI, klinischer KI, Risikomanagement, Ethik und KI-Kompetenz.",
-      "abstract": "Die Analyse und Bewertung dieser Literatur orientiert sich am DIKW-Modell Das DIKW-Modell (Daten – Information – Wissen – Weisheit) beschreibt, wie Rohmaterial durch Kontext und Urteilsvermögen zu handlungsleitendem Wissen wird. Jede Quelle wird nicht nur gesammelt, sondern eingeordnet: Was bedeutet sie für die Praxis?",
+      "abstract": "Wissenschaftliches Literaturverzeichnis zur KI im Gesundheitswesen: kuratierte Quellen zu EU AI Act, Agentic AI, klinischer KI, Risikomanagement, Ethik und KI-Kompetenz.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +101,55 @@
         {
           "@type": "Thing",
           "name": "KI-Ethik"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Künstliche Intelligenz",
-        "Gesundheitswesen",
-        "Agentic AI",
-        "KI-Kompetenz",
-        "Wissenschaft",
-        "EU AI Act",
-        "Pflege",
-        "KI-Governance",
-        "Patientenzentrierung",
-        "KI-Ethik"
       ]
     }
   ]

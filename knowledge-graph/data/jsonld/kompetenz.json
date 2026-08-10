@@ -16,7 +16,17 @@
         "BAPID",
         "MEESTAR",
         "Checkliste",
-        "DSGVO"
+        "DSGVO",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -36,9 +46,9 @@
       ],
       "@id": "https://www.thomas-bade.de/kompetenz.html#webpage",
       "url": "https://www.thomas-bade.de/kompetenz.html",
-      "headline": "KI-Kompetenz in der Pflege nach BAPID & MEESTAR Checkliste",
+      "headline": "KI-Kompetenz in der Pflege nach BAPID  & MEESTAR Checkliste",
       "description": "KI-Kompetenz in der Pflege nach BAPID und MEESTAR Checkliste: Einordnung für Pflegeeinrichtungen, Krankenhäuser und Gesundheitsorganisationen auf Grundlage von Artikel 4 EU AI Act.",
-      "abstract": "Für Nutzer entsteht dadurch eine einfache, schnelle und plattformunabhängige Nutzung — besonders praktisch in Kliniken, Pflegeeinrichtungen, Kommunen und im mobilen Arbeitsalltag. Die PWA ermöglicht damit einen schnellen Zugriff auf KI-Wissen, Checklisten, Governance-Inhalte und Lernmodule — auch bei eingeschränkter Internetverbindung.",
+      "abstract": "KI-Kompetenz in der Pflege nach BAPID und MEESTAR Checkliste: Einordnung für Pflegeeinrichtungen, Krankenhäuser und Gesundheitsorganisationen auf Grundlage von Artikel 4 EU AI Act.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +99,47 @@
         {
           "@type": "Thing",
           "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Pflege",
-        "KI-Kompetenz",
-        "KI-Governance",
-        "EU AI Act",
-        "Risikomanagement",
-        "KI-Monitoring",
-        "BAPID",
-        "MEESTAR",
-        "Checkliste",
-        "DSGVO"
       ]
     }
   ]

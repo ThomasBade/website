@@ -3,10 +3,10 @@
   "slug": "index",
   "filename": "index.html",
   "url": "https://www.thomas-bade.de/index.html",
-  "canonical": "https://www.thomas-bade.de/index.html",
-  "title": "Digitale Souveränität im Gesundheitswesen – KI verstehen, steuern und nutzen",
-  "description": "KI im Krankenhaus und Pflegeheim, EU AI Act-Compliance und Digitalisierung: Thomas Bade begleitet Krankenhäuser, Pflegeheime und kommunale Einrichtungen auf dem Weg zur sicheren KI-Nutzung.",
-  "summary": "Damit stehen Transparenzpflichten, Marktüberwachung und nationale Durchsetzung im Mittelpunkt. Für Krankenhäuser, Pflegeeinrichtungen und Anbieter von KI-Systemen sind insbesondere die Einordnung als Hochrisiko-KI, die Zuständigkeit der Bundesnetzagentur, Human Oversight, technische Dokumentation und die Fristen für Medizinprodukte relevant.",
+  "canonical": "https://www.thomas-bade.de/",
+  "title": "Digitale Souveränität im Gesundheitswesen | Thomas Bade",
+  "description": "EU AI Act-Compliance und Digitalisierung im Krankenhaus und Pflegeheim: Thomas Bade begleitet Sie zur sicheren KI-Nutzung.",
+  "summary": "EU AI Act-Compliance und Digitalisierung im Krankenhaus und Pflegeheim: Thomas Bade begleitet Sie zur sicheren KI-Nutzung.",
   "topics": [
     "Gesundheitswesen",
     "Künstliche Intelligenz",
@@ -17,55 +17,44 @@
     "Patientenzentrierung",
     "KI-Ethik",
     "Digitale",
-    "Souveränität"
+    "Souveränität",
+    "BSI A5",
+    "KI-Assurance",
+    "ISAE 3000",
+    "Human Oversight",
+    "KI-Monitoring",
+    "Incident Response",
+    "Systembeschreibung",
+    "Kontrollmatrix",
+    "BSI C5",
+    "Community Draft",
+    "KI-Audit"
   ],
-  "word_count": 1004,
-  "heading_count": 4,
-  "h1_count": 0,
-  "internal_links": 24,
+  "word_count": 1252,
+  "heading_count": 6,
+  "h1_count": 1,
+  "internal_links": 2,
   "linked_pages": [
-    "ai_monitoring",
-    "arise",
-    "bmg",
-    "claude",
-    "coach",
-    "constitution",
-    "europe",
-    "fmea",
-    "gpt",
-    "haip",
-    "impressum",
-    "index",
-    "iso_42001",
-    "ki_kompetenzpflicht",
-    "ki_verordnung",
-    "leitbild",
-    "mission",
-    "oecd",
-    "portal",
-    "praevention",
-    "sitemap",
-    "stanford",
-    "termine",
-    "undp"
+    "bsi",
+    "index"
   ],
-  "existing_jsonld": 2,
+  "existing_jsonld": 5,
   "has_og": true,
-  "citation_signals": 3,
+  "citation_signals": 25,
   "question_headings": 1,
-  "structured_blocks": 4,
+  "structured_blocks": 6,
   "author_signal": true,
-  "content_hash": "5eb340d51d830068",
-  "seo_score": 68,
+  "content_hash": "918cac0d32529e2f",
+  "seo_score": 100,
   "geo_score": 100,
-  "ai_overview_probability": 74,
+  "ai_overview_probability": 90,
   "maturity": "führend",
   "seo_checks": {
     "Titel vorhanden": true,
-    "Titellänge 30–65": false,
-    "Meta-Beschreibung": false,
+    "Titellänge 30–65": true,
+    "Meta-Beschreibung": true,
     "Canonical URL": true,
-    "Genau eine Inhalts-H1": false,
+    "Genau eine Inhalts-H1": true,
     "Ausreichende Substanz": true,
     "Interne Links": true,
     "Open Graph": true,
@@ -83,112 +72,6 @@
     "Kontextuelle Verlinkung": true,
     "Inhaltstiefe": true
   },
-  "schema": {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://www.thomas-bade.de/#thomas-bade",
-        "name": "Thomas Bade",
-        "url": "https://www.thomas-bade.de/",
-        "knowsAbout": [
-          "Gesundheitswesen",
-          "Künstliche Intelligenz",
-          "EU AI Act",
-          "KI-Governance",
-          "KI-Kompetenz",
-          "Risikomanagement",
-          "Patientenzentrierung",
-          "KI-Ethik",
-          "Digitale",
-          "Souveränität"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.thomas-bade.de/#website",
-        "url": "https://www.thomas-bade.de/",
-        "name": "Thomas Bade",
-        "inLanguage": "de-DE",
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        }
-      },
-      {
-        "@type": [
-          "Article",
-          "WebPage"
-        ],
-        "@id": "https://www.thomas-bade.de/index.html#webpage",
-        "url": "https://www.thomas-bade.de/index.html",
-        "headline": "Digitale Souveränität im Gesundheitswesen – KI verstehen, steuern und nutzen",
-        "description": "KI im Krankenhaus und Pflegeheim, EU AI Act-Compliance und Digitalisierung: Thomas Bade begleitet Krankenhäuser, Pflegeheime und kommunale Einrichtungen auf dem Weg zur sicheren KI-Nutzung.",
-        "abstract": "Damit stehen Transparenzpflichten, Marktüberwachung und nationale Durchsetzung im Mittelpunkt. Für Krankenhäuser, Pflegeeinrichtungen und Anbieter von KI-Systemen sind insbesondere die Einordnung als Hochrisiko-KI, die Zuständigkeit der Bundesnetzagentur, Human Oversight, technische Dokumentation und die Fristen für Medizinprodukte relevant.",
-        "inLanguage": "de-DE",
-        "author": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "isPartOf": {
-          "@id": "https://www.thomas-bade.de/#website"
-        },
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "Gesundheitswesen"
-          },
-          {
-            "@type": "Thing",
-            "name": "Künstliche Intelligenz"
-          },
-          {
-            "@type": "Thing",
-            "name": "EU AI Act"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Governance"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Kompetenz"
-          },
-          {
-            "@type": "Thing",
-            "name": "Risikomanagement"
-          },
-          {
-            "@type": "Thing",
-            "name": "Patientenzentrierung"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Ethik"
-          },
-          {
-            "@type": "Thing",
-            "name": "Digitale"
-          },
-          {
-            "@type": "Thing",
-            "name": "Souveränität"
-          }
-        ],
-        "keywords": [
-          "Gesundheitswesen",
-          "Künstliche Intelligenz",
-          "EU AI Act",
-          "KI-Governance",
-          "KI-Kompetenz",
-          "Risikomanagement",
-          "Patientenzentrierung",
-          "KI-Ethik",
-          "Digitale",
-          "Souveränität"
-        ]
-      }
-    ]
-  }
+  "content_status": "published",
+  "interactive_tool": false
 }

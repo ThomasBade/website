@@ -16,7 +16,17 @@
         "KI-Ethik",
         "Risikomanagement",
         "KI-Monitoring",
-        "KI-Kompetenz"
+        "KI-Kompetenz",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +48,7 @@
       "url": "https://www.thomas-bade.de/gpt.html",
       "headline": "KI im Gesundheitswesen und Code of Conduct",
       "description": "Strategischer Einsatz von KI im Gesundheitswesen und in Kommunen: KI-Governance, EU AI Act Compliance, Risikobewertung und praxisnahe Implementierung. Beratung für Krankenhäuser, Pflege, Verwaltung und kommunale Entscheider.",
-      "abstract": "Auf dieser Webseite werden die wichtigsten Entwicklungen zusammengefasst – kompakt, praxisnah und strategisch ausgerichtet. Egal, ob KI im Krankenhaus, in der Pflege, bei Home Care Versorgungen, in der Daseinsvorsorge oder im kommunalen Management eingesetzt wird: Die regulatorischen Rahmenbedingungen sind ein entscheidender Faktor für erfolgreiche Projekte.",
+      "abstract": "Strategischer Einsatz von KI im Gesundheitswesen und in Kommunen: KI-Governance, EU AI Act Compliance, Risikobewertung und praxisnahe Implementierung. Beratung für Krankenhäuser, Pflege, Verwaltung und kommunale Entscheider.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +99,47 @@
         {
           "@type": "Thing",
           "name": "KI-Kompetenz"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Künstliche Intelligenz",
-        "Gesundheitswesen",
-        "EU AI Act",
-        "Pflege",
-        "KI-Governance",
-        "Wissenschaft",
-        "KI-Ethik",
-        "Risikomanagement",
-        "KI-Monitoring",
-        "KI-Kompetenz"
       ]
     }
   ]

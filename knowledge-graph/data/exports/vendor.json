@@ -6,7 +6,7 @@
   "canonical": "https://www.thomas-bade.de/vendor.html",
   "title": "KI-Anbieter prüfen: HAIP & BSI-Checkliste | Thomas Bade",
   "description": "KI-Anbieter mit HAIP Vendor Disclosure und BSI-Kriterien prüfen: interaktive Checklisten für Beschaffung, Governance, Risiken und PDF-Dokumentation.",
-  "summary": "Interaktive Prüfung von KI-Anbietern anhand des HAIP Vendor Disclosure Framework und des BSI-Kriterienkatalogs für generative KI: Beschaffung, Governance, Risiken und Ergebnisse werden nachvollziehbar dokumentiert und als PDF exportiert.",
+  "summary": "KI-Anbieter mit HAIP Vendor Disclosure und BSI-Kriterien prüfen: interaktive Checklisten für Beschaffung, Governance, Risiken und PDF-Dokumentation.",
   "topics": [
     "Gesundheitswesen",
     "KI-Governance",
@@ -27,42 +27,36 @@
     "System-Prompts",
     "Threat Modelling",
     "ISMS",
-    "PDF-Dokumentation"
+    "PDF-Dokumentation",
+    "BSI A5",
+    "KI-Assurance",
+    "ISAE 3000",
+    "Human Oversight",
+    "Incident Response",
+    "Systembeschreibung",
+    "Kontrollmatrix",
+    "BSI C5",
+    "Community Draft",
+    "KI-Audit"
   ],
-  "word_count": 10130,
-  "heading_count": 21,
+  "word_count": 1255,
+  "heading_count": 13,
   "h1_count": 1,
-  "internal_links": 18,
+  "internal_links": 2,
   "linked_pages": [
-    "index",
-    "termine",
-    "sitemap",
-    "coach",
-    "impressum",
-    "bmg",
-    "mdr_ki",
-    "leitbild",
-    "mission",
-    "ki_verordnung",
-    "wissenschaft",
-    "constitution",
-    "risk",
-    "oecd",
-    "arise",
-    "praevention",
-    "haip",
-    "portal"
+    "bsi",
+    "index"
   ],
   "existing_jsonld": 3,
   "has_og": true,
-  "citation_signals": 15,
-  "question_headings": 13,
-  "structured_blocks": 4,
+  "citation_signals": 16,
+  "question_headings": 4,
+  "structured_blocks": 7,
   "author_signal": true,
-  "content_hash": "5f06837ae6167708",
+  "content_hash": "46ed160a3846728a",
   "seo_score": 100,
   "geo_score": 100,
-  "ai_overview_probability": 88,
+  "ai_overview_probability": 90,
   "maturity": "führend",
   "seo_checks": {
     "Titel vorhanden": true,
@@ -86,114 +80,6 @@
     "Schema-Abdeckung": true,
     "Kontextuelle Verlinkung": true,
     "Inhaltstiefe": true
-  },
-  "schema": {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://www.thomas-bade.de/#thomas-bade",
-        "name": "Thomas Bade",
-        "url": "https://www.thomas-bade.de/",
-        "knowsAbout": [
-          "Gesundheitswesen",
-          "KI-Governance",
-          "Pflege",
-          "Datenschutz",
-          "KI-Compliance",
-          "Offenlegung",
-          "KI-Anbietern",
-          "EU AI Act",
-          "KI-Monitoring",
-          "Patientenzentrierung"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.thomas-bade.de/#website",
-        "url": "https://www.thomas-bade.de/",
-        "name": "Thomas Bade",
-        "inLanguage": "de-DE",
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        }
-      },
-      {
-        "@type": [
-          "Article",
-          "WebPage"
-        ],
-        "@id": "https://www.thomas-bade.de/vendor.html#webpage",
-        "url": "https://www.thomas-bade.de/vendor.html",
-        "headline": "Offenlegung von KI-Anbietern",
-        "description": "Interaktive Checkliste zum HAIP AI Vendor Disclosure Framework für die strukturierte Offenlegung von KI-Anbietern im Gesundheitswesen.",
-        "abstract": "0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen 🎧 KI-Beschaffung im Gesundheitswesen – Transparenz als Governance-Pflicht! Kurze Einführung · von Thomas Bade Ihr Browser unterstützt kein HTML5-Audio.",
-        "inLanguage": "de-DE",
-        "author": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "isPartOf": {
-          "@id": "https://www.thomas-bade.de/#website"
-        },
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "Gesundheitswesen"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Governance"
-          },
-          {
-            "@type": "Thing",
-            "name": "Pflege"
-          },
-          {
-            "@type": "Thing",
-            "name": "Datenschutz"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Compliance"
-          },
-          {
-            "@type": "Thing",
-            "name": "Offenlegung"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Anbietern"
-          },
-          {
-            "@type": "Thing",
-            "name": "EU AI Act"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Monitoring"
-          },
-          {
-            "@type": "Thing",
-            "name": "Patientenzentrierung"
-          }
-        ],
-        "keywords": [
-          "Gesundheitswesen",
-          "KI-Governance",
-          "Pflege",
-          "Datenschutz",
-          "KI-Compliance",
-          "Offenlegung",
-          "KI-Anbietern",
-          "EU AI Act",
-          "KI-Monitoring",
-          "Patientenzentrierung"
-        ]
-      }
-    ]
   },
   "content_status": "published",
   "interactive_tool": true,

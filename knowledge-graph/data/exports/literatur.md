@@ -1,18 +1,18 @@
 ---
 title: "Literaturverzeichnis – KI im Gesundheitswesen | Thomas Bade"
 url: https://www.thomas-bade.de/literatur.html
-seo_score: 100
-geo_score: 92
-ai_overview_probability: 83
-topics: ["Künstliche Intelligenz", "Gesundheitswesen", "Agentic AI", "KI-Kompetenz", "Wissenschaft", "EU AI Act", "Pflege", "KI-Governance", "Patientenzentrierung", "KI-Ethik"]
+seo_score: 89
+geo_score: 90
+ai_overview_probability: 81
+topics: ["Künstliche Intelligenz", "Gesundheitswesen", "Agentic AI", "KI-Kompetenz", "Wissenschaft", "EU AI Act", "Pflege", "KI-Governance", "Patientenzentrierung", "KI-Ethik", "BSI A5", "KI-Assurance", "ISAE 3000", "Human Oversight", "Risikomanagement", "KI-Monitoring", "Incident Response", "Systembeschreibung", "Kontrollmatrix", "BSI C5", "Community Draft", "KI-Audit"]
 ---
 
 # Literaturverzeichnis – KI im Gesundheitswesen | Thomas Bade
 
 ## Zitierfähige Kurzfassung
 
-Die Analyse und Bewertung dieser Literatur orientiert sich am DIKW-Modell Das DIKW-Modell (Daten – Information – Wissen – Weisheit) beschreibt, wie Rohmaterial durch Kontext und Urteilsvermögen zu handlungsleitendem Wissen wird. Jede Quelle wird nicht nur gesammelt, sondern eingeordnet: Was bedeutet sie für die Praxis?
+Wissenschaftliches Literaturverzeichnis zur KI im Gesundheitswesen: kuratierte Quellen zu EU AI Act, Agentic AI, klinischer KI, Risikomanagement, Ethik und KI-Kompetenz.
 
 ## Fachbegriffe
 
-Künstliche Intelligenz, Gesundheitswesen, Agentic AI, KI-Kompetenz, Wissenschaft, EU AI Act, Pflege, KI-Governance, Patientenzentrierung, KI-Ethik
+Künstliche Intelligenz, Gesundheitswesen, Agentic AI, KI-Kompetenz, Wissenschaft, EU AI Act, Pflege, KI-Governance, Patientenzentrierung, KI-Ethik, BSI A5, KI-Assurance, ISAE 3000, Human Oversight, Risikomanagement, KI-Monitoring, Incident Response, Systembeschreibung, Kontrollmatrix, BSI C5, Community Draft, KI-Audit

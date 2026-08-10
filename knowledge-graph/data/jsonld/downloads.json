@@ -16,7 +16,20 @@
         "Downloads",
         "KI-Lernformate",
         "Thomas",
-        "DSGVO"
+        "DSGVO",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "KI-Governance",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +51,7 @@
       "url": "https://www.thomas-bade.de/downloads.html",
       "headline": "Downloads KI-Lernformate für das Gesundheitswesen | Thomas Bade",
       "description": "Vendor-unabhängige KI-Lernmodule für Krankenhaus, Pflege und HomeCare: EU AI Act, DSGVO, Hochrisiko-KI und Vendor-Evaluation – aus Betreiber-Perspektive, ohne Interessenkonflikt.",
-      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map Downloads ■ Ressourcen ■ PDF-Dokumente ■ Praxiswissen als PDF Alle Dokumente stehen als druckfertige PDF zur freien Nutzung bereit. One-Pager geben einen kompakten Überblick für Entscheider und Führungskräfte.",
+      "abstract": "Vendor-unabhängige KI-Lernmodule für Krankenhaus, Pflege und HomeCare: EU AI Act, DSGVO, Hochrisiko-KI und Vendor-Evaluation – aus Betreiber-Perspektive, ohne Interessenkonflikt.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +102,59 @@
         {
           "@type": "Thing",
           "name": "DSGVO"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Gesundheitswesen",
-        "Pflege",
-        "KI-Compliance",
-        "EU AI Act",
-        "Datenschutz",
-        "Medizinprodukte",
-        "Downloads",
-        "KI-Lernformate",
-        "Thomas",
-        "DSGVO"
       ]
     }
   ]

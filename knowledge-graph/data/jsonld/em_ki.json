@@ -16,7 +16,17 @@
         "EU AI Act",
         "Gesundheitswesen",
         "KI-Kompetenz",
-        "KI-Monitoring"
+        "KI-Monitoring",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +48,7 @@
       "url": "https://www.thomas-bade.de/em_ki.html",
       "headline": "KI im Entlassmanagement | Krankenhaus und Plattformen",
       "description": "Einordnung von Künstlicher Intelligenz im Entlassmanagement: Potenziale, Grenzen, regulatorische Anforderungen und praxisnahe Entscheidungsgrundlagen für Krankenhäuser und Sozialdienste.",
-      "abstract": "Mit dem Einsatz eines KI-Systems im Entlassmanagement verfolgt das Krankenhaus das Ziel, Entlassprozesse frühzeitiger und verlässlicher zu steuern, Versorgungsbedarfe rechtzeitig zu erkennen und Versorgungsbrüche zu vermeiden. Der erwartete qualitative und wirtschaftliche Mehrwert muss in einem angemessenen Verhältnis zu den Investitionskosten des KI-Systems sowie zu den zusätzlichen Verwaltungs-, Dokumentations- und Governance-Aufwänden nach EU-AI-Act stehen.",
+      "abstract": "Einordnung von Künstlicher Intelligenz im Entlassmanagement: Potenziale, Grenzen, regulatorische Anforderungen und praxisnahe Entscheidungsgrundlagen für Krankenhäuser und Sozialdienste.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +99,47 @@
         {
           "@type": "Thing",
           "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Medizinprodukte",
-        "Künstliche Intelligenz",
-        "Pflege",
-        "KI-Governance",
-        "Risikomanagement",
-        "Patientenzentrierung",
-        "EU AI Act",
-        "Gesundheitswesen",
-        "KI-Kompetenz",
-        "KI-Monitoring"
       ]
     }
   ]

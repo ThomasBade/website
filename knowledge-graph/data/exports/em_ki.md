@@ -1,18 +1,18 @@
 ---
 title: "KI im Entlassmanagement | Krankenhaus und Plattformen"
 url: https://www.thomas-bade.de/em_ki.html
-seo_score: 76
-geo_score: 92
-ai_overview_probability: 78
-topics: ["Medizinprodukte", "Künstliche Intelligenz", "Pflege", "KI-Governance", "Risikomanagement", "Patientenzentrierung", "EU AI Act", "Gesundheitswesen", "KI-Kompetenz", "KI-Monitoring"]
+seo_score: 78
+geo_score: 90
+ai_overview_probability: 76
+topics: ["Medizinprodukte", "Künstliche Intelligenz", "Pflege", "KI-Governance", "Risikomanagement", "Patientenzentrierung", "EU AI Act", "Gesundheitswesen", "KI-Kompetenz", "KI-Monitoring", "BSI A5", "KI-Assurance", "ISAE 3000", "Human Oversight", "Incident Response", "Systembeschreibung", "Kontrollmatrix", "BSI C5", "Community Draft", "KI-Audit"]
 ---
 
 # KI im Entlassmanagement | Krankenhaus und Plattformen
 
 ## Zitierfähige Kurzfassung
 
-Mit dem Einsatz eines KI-Systems im Entlassmanagement verfolgt das Krankenhaus das Ziel, Entlassprozesse frühzeitiger und verlässlicher zu steuern, Versorgungsbedarfe rechtzeitig zu erkennen und Versorgungsbrüche zu vermeiden. Der erwartete qualitative und wirtschaftliche Mehrwert muss in einem angemessenen Verhältnis zu den Investitionskosten des KI-Systems sowie zu den zusätzlichen Verwaltungs-, Dokumentations- und Governance-Aufwänden nach EU-AI-Act stehen.
+Einordnung von Künstlicher Intelligenz im Entlassmanagement: Potenziale, Grenzen, regulatorische Anforderungen und praxisnahe Entscheidungsgrundlagen für Krankenhäuser und Sozialdienste.
 
 ## Fachbegriffe
 
-Medizinprodukte, Künstliche Intelligenz, Pflege, KI-Governance, Risikomanagement, Patientenzentrierung, EU AI Act, Gesundheitswesen, KI-Kompetenz, KI-Monitoring
+Medizinprodukte, Künstliche Intelligenz, Pflege, KI-Governance, Risikomanagement, Patientenzentrierung, EU AI Act, Gesundheitswesen, KI-Kompetenz, KI-Monitoring, BSI A5, KI-Assurance, ISAE 3000, Human Oversight, Incident Response, Systembeschreibung, Kontrollmatrix, BSI C5, Community Draft, KI-Audit

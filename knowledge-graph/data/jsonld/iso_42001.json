@@ -21,7 +21,19 @@
         "Kontrollziele",
         "Gesundheitswesen",
         "Pflege",
-        "Sozialwesen"
+        "Sozialwesen",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "Risikomanagement",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -43,7 +55,7 @@
       "url": "https://www.thomas-bade.de/iso_42001.html",
       "headline": "DIN EN ISO/IEC 42001:2026 – KI-Managementsystem | Thomas Bade",
       "description": "Praxisleitfaden zur DIN EN ISO/IEC 42001:2026-08: KI-Managementsystem, Governance, Risikomanagement, ISO 42005 und dokumentierbare Umsetzung.",
-      "abstract": "DIN EN ISO/IEC 42001:2026-08 ist seit August 2026 die offizielle deutsche Fassung für KI-Managementsysteme. Der Praxisleitfaden verbindet AIMS, Governance, Risikomanagement und ISO/IEC 42005 mit dokumentierbaren Kontrollen, Vorlagen und PDF-gestützter Umsetzung.",
+      "abstract": "Praxisleitfaden zur DIN EN ISO/IEC 42001:2026-08: KI-Managementsystem, Governance, Risikomanagement, ISO 42005 und dokumentierbare Umsetzung.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -114,24 +126,55 @@
         {
           "@type": "Thing",
           "name": "Sozialwesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "Risikomanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "DIN EN ISO/IEC 42001:2026-08",
-        "ISO/IEC 42001",
-        "ISO/IEC 42005:2025",
-        "KI-Managementsystem",
-        "Artificial Intelligence Management System",
-        "AIMS",
-        "AI System Impact Assessment",
-        "KI-Governance",
-        "KI-Risikomanagement",
-        "EU AI Act",
-        "KI-MIG",
-        "Kontrollziele",
-        "Gesundheitswesen",
-        "Pflege",
-        "Sozialwesen"
       ]
     }
   ]

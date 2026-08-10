@@ -16,7 +16,18 @@
         "KI-Compliance",
         "Datenschutz",
         "KI-Verordnung",
-        "KI-MIG"
+        "KI-MIG",
+        "BSI A5",
+        "KI-Assurance",
+        "ISAE 3000",
+        "Human Oversight",
+        "KI-Monitoring",
+        "Incident Response",
+        "Systembeschreibung",
+        "Kontrollmatrix",
+        "BSI C5",
+        "Community Draft",
+        "KI-Audit"
       ]
     },
     {
@@ -38,7 +49,7 @@
       "url": "https://www.thomas-bade.de/ki_verordnung.html",
       "headline": "EU KI-Verordnung (AI Act) im Gesundheitswesen | KI-MIG in Kraft & Umsetzung",
       "description": "Das KI-MIG ist seit 29.07.2026 geltendes Recht, der EU AI Act ab 02.08.2026 allgemein anwendbar. Pflichten, Fristverschiebungen durch den Digital Omnibus und Compliance-Checkliste für Gesundheitseinrichtungen.",
-      "abstract": "Weitere Informationen Verstanden Thomas Bade ■ Let’s talk Alle KI Themen – Site Map EU KI-Verordnung (AI Act) im Gesundheitswesen KI-MIG in Kraft · Compliance & Umsetzung ab 02.08.2026 0 Ergebnisse Keine Ergebnisse Andere Begriffe versuchen Status: In Kraft. Das KI-MIG wurde am 22.07.2026 vom Bundestag beschlossen, am 28.07.2026 im Bundesgesetzblatt verkündet ( BGBl.",
+      "abstract": "Das KI-MIG ist seit 29.07.2026 geltendes Recht, der EU AI Act ab 02.08.2026 allgemein anwendbar. Pflichten, Fristverschiebungen durch den Digital Omnibus und Compliance-Checkliste für Gesundheitseinrichtungen.",
       "inLanguage": "de-DE",
       "author": {
         "@id": "https://www.thomas-bade.de/#thomas-bade"
@@ -89,19 +100,51 @@
         {
           "@type": "Thing",
           "name": "KI-MIG"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Assurance"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISAE 3000"
+        },
+        {
+          "@type": "Thing",
+          "name": "Human Oversight"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Monitoring"
+        },
+        {
+          "@type": "Thing",
+          "name": "Incident Response"
+        },
+        {
+          "@type": "Thing",
+          "name": "Systembeschreibung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kontrollmatrix"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI C5"
+        },
+        {
+          "@type": "Thing",
+          "name": "Community Draft"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
         }
-      ],
-      "keywords": [
-        "Medizinprodukte",
-        "EU AI Act",
-        "Gesundheitswesen",
-        "KI-Governance",
-        "Risikomanagement",
-        "KI-Kompetenz",
-        "KI-Compliance",
-        "Datenschutz",
-        "KI-Verordnung",
-        "KI-MIG"
       ]
     }
   ]

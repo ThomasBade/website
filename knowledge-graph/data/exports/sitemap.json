@@ -6,7 +6,7 @@
   "canonical": "https://www.thomas-bade.de/sitemap.html",
   "title": "KI Wissens- und Lernportal – Site Map | Thomas Bade",
   "description": "Strukturierter ÜÜberblick üüber alle Inhalte zur KI-Compliance im Gesundheitswesen: EU AI Act, MDR, DSGVO, Governance und Kompetenzaufbau für Krankenhäuser, Pflegeeinrichtungen und Kommunen.",
-  "summary": "Transkript anzeigen Willkommen auf der Sitemap des Wissens- und Lernportals für Kompetenz und Governance im Gesundheits- und Sozialwesen beim Einsatz von künstlicher Intelligenz. Diese Seite bietet Ihnen einen strukturierten Überblick über alle Inhalte der Plattform.",
+  "summary": "Strukturierter ÜÜberblick üüber alle Inhalte zur KI-Compliance im Gesundheitswesen: EU AI Act, MDR, DSGVO, Governance und Kompetenzaufbau für Krankenhäuser, Pflegeeinrichtungen und Kommunen.",
   "topics": [
     "EU AI Act",
     "KI-Kompetenz",
@@ -17,75 +17,36 @@
     "Gesundheitswesen",
     "Risikomanagement",
     "KI-Monitoring",
-    "Wissens"
+    "Wissens",
+    "BSI A5",
+    "KI-Assurance",
+    "ISAE 3000",
+    "Human Oversight",
+    "Incident Response",
+    "Systembeschreibung",
+    "Kontrollmatrix",
+    "BSI C5",
+    "Community Draft",
+    "KI-Audit"
   ],
-  "word_count": 1184,
-  "heading_count": 2,
+  "word_count": 1072,
+  "heading_count": 3,
   "h1_count": 0,
-  "internal_links": 50,
+  "internal_links": 1,
   "linked_pages": [
-    "GPAI",
-    "agentic",
-    "ai_monitoring",
-    "ai_sweden",
-    "arise",
-    "bmg",
-    "calster",
-    "claude",
-    "coach",
-    "constitution",
-    "control_panel",
-    "control_quartier",
-    "decoding",
-    "dikw",
-    "downloads",
-    "em_ki",
-    "enquete",
-    "esf",
-    "esf_de",
-    "europe",
-    "fmea",
-    "gpt",
-    "haip",
-    "impressum",
-    "index",
-    "iso_42001",
-    "ki_kompetenzpflicht",
-    "ki_verordnung",
-    "kidelir",
-    "kompetenz",
-    "leitbild",
-    "literatur",
-    "mdr_ki",
-    "medlog",
-    "mission",
-    "nursing",
-    "oecd",
-    "patient",
-    "portal",
-    "praevention",
-    "risk",
-    "soziale_arbeit",
-    "stanford",
-    "termine",
-    "tripod",
-    "undp",
-    "vendor",
-    "who",
-    "wissen",
-    "wissenschaft"
+    "bsi"
   ],
-  "existing_jsonld": 2,
+  "existing_jsonld": 3,
   "has_og": true,
-  "citation_signals": 16,
+  "citation_signals": 13,
   "question_headings": 0,
-  "structured_blocks": 0,
+  "structured_blocks": 1,
   "author_signal": true,
-  "content_hash": "06a8ea2dbc8da01d",
-  "seo_score": 76,
-  "geo_score": 74,
-  "ai_overview_probability": 67,
-  "maturity": "fortgeschritten",
+  "content_hash": "91e0b1e3ec858c67",
+  "seo_score": 67,
+  "geo_score": 60,
+  "ai_overview_probability": 57,
+  "maturity": "ausbaufähig",
   "seo_checks": {
     "Titel vorhanden": true,
     "Titellänge 30–65": true,
@@ -93,7 +54,7 @@
     "Canonical URL": true,
     "Genau eine Inhalts-H1": false,
     "Ausreichende Substanz": true,
-    "Interne Links": true,
+    "Interne Links": false,
     "Open Graph": true,
     "Strukturierte Daten": true
   },
@@ -106,115 +67,9 @@
     "Listen/Tabellen": false,
     "Autor-/Vertrauenssignal": true,
     "Schema-Abdeckung": true,
-    "Kontextuelle Verlinkung": true,
+    "Kontextuelle Verlinkung": false,
     "Inhaltstiefe": true
   },
-  "schema": {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Person",
-        "@id": "https://www.thomas-bade.de/#thomas-bade",
-        "name": "Thomas Bade",
-        "url": "https://www.thomas-bade.de/",
-        "knowsAbout": [
-          "EU AI Act",
-          "KI-Kompetenz",
-          "KI-Governance",
-          "Pflege",
-          "KI-Compliance",
-          "Medizinprodukte",
-          "Gesundheitswesen",
-          "Risikomanagement",
-          "KI-Monitoring",
-          "Wissens"
-        ]
-      },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.thomas-bade.de/#website",
-        "url": "https://www.thomas-bade.de/",
-        "name": "Thomas Bade",
-        "inLanguage": "de-DE",
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        }
-      },
-      {
-        "@type": [
-          "Article",
-          "WebPage"
-        ],
-        "@id": "https://www.thomas-bade.de/sitemap.html#webpage",
-        "url": "https://www.thomas-bade.de/sitemap.html",
-        "headline": "KI Wissens- und Lernportal – Site Map | Thomas Bade",
-        "description": "Strukturierter ÜÜberblick üüber alle Inhalte zur KI-Compliance im Gesundheitswesen: EU AI Act, MDR, DSGVO, Governance und Kompetenzaufbau für Krankenhäuser, Pflegeeinrichtungen und Kommunen.",
-        "abstract": "Transkript anzeigen Willkommen auf der Sitemap des Wissens- und Lernportals für Kompetenz und Governance im Gesundheits- und Sozialwesen beim Einsatz von künstlicher Intelligenz. Diese Seite bietet Ihnen einen strukturierten Überblick über alle Inhalte der Plattform.",
-        "inLanguage": "de-DE",
-        "author": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "publisher": {
-          "@id": "https://www.thomas-bade.de/#thomas-bade"
-        },
-        "isPartOf": {
-          "@id": "https://www.thomas-bade.de/#website"
-        },
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "EU AI Act"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Kompetenz"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Governance"
-          },
-          {
-            "@type": "Thing",
-            "name": "Pflege"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Compliance"
-          },
-          {
-            "@type": "Thing",
-            "name": "Medizinprodukte"
-          },
-          {
-            "@type": "Thing",
-            "name": "Gesundheitswesen"
-          },
-          {
-            "@type": "Thing",
-            "name": "Risikomanagement"
-          },
-          {
-            "@type": "Thing",
-            "name": "KI-Monitoring"
-          },
-          {
-            "@type": "Thing",
-            "name": "Wissens"
-          }
-        ],
-        "keywords": [
-          "EU AI Act",
-          "KI-Kompetenz",
-          "KI-Governance",
-          "Pflege",
-          "KI-Compliance",
-          "Medizinprodukte",
-          "Gesundheitswesen",
-          "Risikomanagement",
-          "KI-Monitoring",
-          "Wissens"
-        ]
-      }
-    ]
-  }
+  "content_status": "published",
+  "interactive_tool": false
 }

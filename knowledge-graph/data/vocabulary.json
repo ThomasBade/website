@@ -154,7 +154,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2",
       "label": "KI-Governance",
       "synonyms": [],
-      "usageCount": 42
+      "usageCount": 47
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/e4eee33cc466fc5a",
@@ -184,7 +184,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/d520d22ef5fbcfb1",
       "label": "Risikomanagement",
       "synonyms": [],
-      "usageCount": 35,
+      "usageCount": 42,
       "sameAs": [
         "https://www.wikidata.org/entity/Q204785"
       ],
@@ -214,7 +214,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/7d76cc36a84312eb",
       "label": "KI-Monitoring",
       "synonyms": [],
-      "usageCount": 25
+      "usageCount": 37
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/1dc83f605edf0ae2",
@@ -927,7 +927,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/9146be57b446391b",
       "label": "Interaktive Werkzeuge",
       "synonyms": [],
-      "usageCount": 19
+      "usageCount": 20
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/dcb3e1c00e79236d",
@@ -1095,6 +1095,66 @@
       "label": "Sozialwesen",
       "synonyms": [],
       "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/e8e0b7cfd7c1b5ac",
+      "label": "BSI A5",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/b924b3d689cc1ba0",
+      "label": "KI-Assurance",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/6b8f799fdff6bc01",
+      "label": "ISAE 3000",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/aca9ddfe598d52f4",
+      "label": "Human Oversight",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/c8550dd23d3a233b",
+      "label": "Incident Response",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7b7563f4b6b01b0e",
+      "label": "Systembeschreibung",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7864d2fe8f42b48d",
+      "label": "Kontrollmatrix",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/f5a013fc7b47e09b",
+      "label": "BSI C5",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/c196d5e3a064dc6c",
+      "label": "Community Draft",
+      "synonyms": [],
+      "usageCount": 25
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/96abbe4ac2bc71de",
+      "label": "KI-Audit",
+      "synonyms": [],
+      "usageCount": 25
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/krankenhaus",
