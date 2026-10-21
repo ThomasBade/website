@@ -40,6 +40,7 @@
 
 - EU AI Act: https://www.thomas-bade.de/ki_verordnung.html
 - ISO/IEC 42001 und 42005: https://www.thomas-bade.de/iso_42001.html
+- DIN EN 18286:2026 KI-Qualitätsmanagement: https://www.thomas-bade.de/din_18286.html
 - KI-Risikomanagement: https://www.thomas-bade.de/risk.html
 - KI-Kompetenzpflicht: https://www.thomas-bade.de/ki_kompetenzpflicht.html
 - Agentic KI: https://www.thomas-bade.de/agentic.html
