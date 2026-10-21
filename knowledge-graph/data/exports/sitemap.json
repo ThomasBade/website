@@ -32,9 +32,10 @@
   "word_count": 1072,
   "heading_count": 3,
   "h1_count": 0,
-  "internal_links": 1,
+  "internal_links": 2,
   "linked_pages": [
-    "bsi"
+    "bsi",
+    "din_18286"
   ],
   "existing_jsonld": 3,
   "has_og": true,
