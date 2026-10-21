@@ -1,30 +1,30 @@
 {
-  "buildId": "tbkg-20260810-0e987801",
-  "generatedAt": "2026-08-10T09:19:06+00:00",
+  "buildId": "tbkg-20261021-9cf1745b",
+  "generatedAt": "2026-10-21T08:39:35+00:00",
   "generator": "tbkg-static-pipeline/2.0.0",
   "schemaVersion": "2.0.0",
   "source": {
     "repository": "https://github.com/ThomasBade/website",
     "branch": "main",
-    "pageCount": 54
+    "pageCount": 55
   },
   "quality": {
-    "nodeCount": 221,
-    "edgeCount": 1849,
+    "nodeCount": 229,
+    "edgeCount": 1876,
     "inferredPublished": 0
   },
   "artifacts": [
     {
       "path": "pages.json",
-      "sha256": "9dc901b5a9f3502b8e732140053e0cba3b097181952574ec6c5b3ebd1cf01d79"
+      "sha256": "e4eed90fd0029f523cede8ed33f16b50dfb3b1b85a3bed4b76ee23d1f296df8d"
     },
     {
       "path": "graph.json",
-      "sha256": "d6d47840c379452153b3000b8c2e12f7e0c3687c604b86c1870d79e94316a263"
+      "sha256": "cab413a68635262d61ac86884d8113fb79a20f011da9b141eb98bd9560b20ce6"
     },
     {
       "path": "vocabulary.json",
-      "sha256": "38adf43ec094f840fe7b0a78c976992eb96b14d420865f4f3158f23153a6102d"
+      "sha256": "d909af01c59a3bb91418b2f8184090207be2334330fe9bdf94882efe759105dd"
     },
     {
       "path": "ontology.json",
@@ -32,11 +32,11 @@
     },
     {
       "path": "dataset.jsonld",
-      "sha256": "4a3e4758720c19a25c2f76d314fde6157b405d27368200110e73852338c43f67"
+      "sha256": "4324c4ab9e26ad7f5258687c940185acfbafb724a2326edaa83b37c5f53ff2a5"
     },
     {
       "path": "graph.ttl",
-      "sha256": "ef60bbfc7d16a6ab64f35cd20b8032b8f70f8337a30e4865091e07650b042730"
+      "sha256": "b19dc98d1da08d6cf983a1274d57b25e08632e0d607a491e450b3065eca03cf6"
     },
     {
       "path": "schemas/graph.schema.json",

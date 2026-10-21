@@ -670,6 +670,30 @@
 <https://www.thomas-bade.de/id/defined-term/96abbe4ac2bc71de> a schema:DefinedTerm ;
   schema:name "KI-Audit"@de .
 
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> a schema:WebPage ;
+  schema:name "DIN EN 18286:2026 – KI-Qualitätsmanagement | Thomas Bade"@de .
+
+<https://www.thomas-bade.de/id/defined-term/54fcc16fe7651db8> a schema:DefinedTerm ;
+  schema:name "DIN EN 18286"@de .
+
+<https://www.thomas-bade.de/id/defined-term/2ac13babcb1ab7c2> a schema:DefinedTerm ;
+  schema:name "KI-Qualitätsmanagement"@de .
+
+<https://www.thomas-bade.de/id/defined-term/57a4e391e71a0f57> a schema:DefinedTerm ;
+  schema:name "Konformitätsvermutung"@de .
+
+<https://www.thomas-bade.de/id/defined-term/7da9bcfabf6eb004> a schema:DefinedTerm ;
+  schema:name "Harmonisierte Norm"@de .
+
+<https://www.thomas-bade.de/id/defined-term/c474cacc041b12da> a schema:DefinedTerm ;
+  schema:name "Hochrisiko-KI"@de .
+
+<https://www.thomas-bade.de/id/defined-term/80084346ed1004ca> a schema:DefinedTerm ;
+  schema:name "Qualitätsmanagement"@de .
+
+<https://www.thomas-bade.de/id/defined-term/4a109cc49467be33> a schema:DefinedTerm ;
+  schema:name "Compliance"@de .
+
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f679e01a69740bdf> .
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84> .
 <https://www.thomas-bade.de/agentic.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/55d230ca9e9e0f24> .
@@ -2488,6 +2512,33 @@
 <https://www.thomas-bade.de/bsi.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/GPAI.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/bsi.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/control_panel.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/bsi.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/ki_verordnung.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/54fcc16fe7651db8> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/2ac13babcb1ab7c2> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/57a4e391e71a0f57> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/7da9bcfabf6eb004> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/c474cacc041b12da> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/55d230ca9e9e0f24> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/80084346ed1004ca> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/ce7a8441d4e3f226> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/071b28e91a67cf52> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/7a19ba42f98e9b2d> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f624fcf0dcbb39c0> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/4a109cc49467be33> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/4610dc2a67d16f21> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/980a3d089aca53e7> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/a9386d3e8b5790f2> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/fdd8e072af8ec523> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/f746eefcaa4b2465> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/e8e0b7cfd7c1b5ac> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/96abbe4ac2bc71de> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/iso_42001.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/mdr_ki.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/ki_kompetenzpflicht.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/bsi.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/fmea.html#knowledge-graph-node> .
+<https://www.thomas-bade.de/sitemap.html#knowledge-graph-node> <https://www.thomas-bade.de/vocab/referencesPage> <https://www.thomas-bade.de/din_18286.html#knowledge-graph-node> .
 <https://www.thomas-bade.de/ai_monitoring.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
 <https://www.thomas-bade.de/arise.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
 <https://www.thomas-bade.de/bsi.html#knowledge-graph-node> schema:about <https://www.thomas-bade.de/id/defined-term/9146be57b446391b> .
@@ -2532,12 +2583,12 @@
 <https://www.thomas-bade.de/id/defined-term/00903fc4a62077bb> owl:sameAs <https://www.wikidata.org/entity/Q56875098> .
 <https://www.thomas-bade.de/id/defined-term/073765018b89550b> owl:sameAs <https://www.wikidata.org/entity/Q11660> .
 <https://www.thomas-bade.de/id/defined-term/100a9faa1100f3db> owl:sameAs <https://www.wikidata.org/entity/Q192060> .
+<https://www.thomas-bade.de/id/defined-term/80084346ed1004ca> owl:sameAs <https://www.wikidata.org/entity/Q748019> .
+<https://www.thomas-bade.de/id/defined-term/4a109cc49467be33> owl:sameAs <https://www.wikidata.org/entity/Q1069725> .
 <https://www.thomas-bade.de/id/defined-term/krankenhaus> owl:sameAs <https://www.wikidata.org/entity/Q16917> .
 <https://www.thomas-bade.de/id/defined-term/knowledge-graph> owl:sameAs <https://www.wikidata.org/entity/Q33002955> .
-<https://www.thomas-bade.de/id/defined-term/compliance> owl:sameAs <https://www.wikidata.org/entity/Q1069725> .
 <https://www.thomas-bade.de/id/defined-term/maschinelles-lernen> owl:sameAs <https://www.wikidata.org/entity/Q2539> .
 <https://www.thomas-bade.de/id/defined-term/who> owl:sameAs <https://www.wikidata.org/entity/Q7817> .
 <https://www.thomas-bade.de/id/defined-term/digitale-souveranitat> owl:sameAs <https://www.wikidata.org/entity/Q19824804> .
-<https://www.thomas-bade.de/id/defined-term/qualitatsmanagement> owl:sameAs <https://www.wikidata.org/entity/Q748019> .
 <https://www.thomas-bade.de/id/defined-term/transparenz> owl:sameAs <https://www.wikidata.org/entity/Q535891> .
 <https://www.thomas-bade.de/id/defined-term/europaische-union> owl:sameAs <https://www.wikidata.org/entity/Q458> .

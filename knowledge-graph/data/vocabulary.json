@@ -129,7 +129,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/a53cb366a9e89b84",
       "label": "Gesundheitswesen",
       "synonyms": [],
-      "usageCount": 34,
+      "usageCount": 35,
       "sameAs": [
         "https://www.wikidata.org/entity/Q31207"
       ],
@@ -144,7 +144,7 @@
         "KI-Verordnung",
         "Verordnung (EU) 2024/1689"
       ],
-      "usageCount": 42,
+      "usageCount": 43,
       "sameAs": [
         "https://www.wikidata.org/entity/Q108456694"
       ],
@@ -154,7 +154,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/f632744b28aa66d2",
       "label": "KI-Governance",
       "synonyms": [],
-      "usageCount": 47
+      "usageCount": 48
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/e4eee33cc466fc5a",
@@ -174,7 +174,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/f624fcf0dcbb39c0",
       "label": "Datenschutz",
       "synonyms": [],
-      "usageCount": 23,
+      "usageCount": 24,
       "sameAs": [
         "https://www.wikidata.org/entity/Q2602249"
       ],
@@ -198,7 +198,7 @@
         "Medical Device Regulation",
         "Verordnung (EU) 2017/745"
       ],
-      "usageCount": 17,
+      "usageCount": 18,
       "sameAs": [
         "https://www.wikidata.org/entity/Q217602"
       ],
@@ -226,7 +226,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/a9386d3e8b5790f2",
       "label": "Pflege",
       "synonyms": [],
-      "usageCount": 32,
+      "usageCount": 33,
       "sameAs": [
         "https://www.wikidata.org/entity/Q186361"
       ],
@@ -458,7 +458,7 @@
         "AIMS-Norm",
         "AI Management System Standard"
       ],
-      "usageCount": 4
+      "usageCount": 5
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/00903fc4a62077bb",
@@ -584,7 +584,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/980a3d089aca53e7",
       "label": "Krankenhäuser",
       "synonyms": [],
-      "usageCount": 1
+      "usageCount": 2
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/b8a6051923e6a649",
@@ -608,7 +608,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/071b28e91a67cf52",
       "label": "KI-Managementsystem",
       "synonyms": [],
-      "usageCount": 1
+      "usageCount": 2
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/4435fcc2e763d6b8",
@@ -788,7 +788,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/f746eefcaa4b2465",
       "label": "Kommunen",
       "synonyms": [],
-      "usageCount": 2
+      "usageCount": 3
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/9656b445a03bff0d",
@@ -1017,7 +1017,7 @@
       "id": "https://www.thomas-bade.de/id/defined-term/4610dc2a67d16f21",
       "label": "Beschaffung",
       "synonyms": [],
-      "usageCount": 3
+      "usageCount": 4
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/824b7182d8156a94",
@@ -1094,13 +1094,13 @@
       "id": "https://www.thomas-bade.de/id/defined-term/fdd8e072af8ec523",
       "label": "Sozialwesen",
       "synonyms": [],
-      "usageCount": 1
+      "usageCount": 2
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/e8e0b7cfd7c1b5ac",
       "label": "BSI A5",
       "synonyms": [],
-      "usageCount": 25
+      "usageCount": 26
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/b924b3d689cc1ba0",
@@ -1154,7 +1154,57 @@
       "id": "https://www.thomas-bade.de/id/defined-term/96abbe4ac2bc71de",
       "label": "KI-Audit",
       "synonyms": [],
-      "usageCount": 25
+      "usageCount": 26
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/54fcc16fe7651db8",
+      "label": "DIN EN 18286",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/2ac13babcb1ab7c2",
+      "label": "KI-Qualitätsmanagement",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/57a4e391e71a0f57",
+      "label": "Konformitätsvermutung",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/7da9bcfabf6eb004",
+      "label": "Harmonisierte Norm",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/c474cacc041b12da",
+      "label": "Hochrisiko-KI",
+      "synonyms": [],
+      "usageCount": 1
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/80084346ed1004ca",
+      "label": "Qualitätsmanagement",
+      "synonyms": [],
+      "usageCount": 1,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q748019"
+      ],
+      "wikidataQid": "Q748019"
+    },
+    {
+      "id": "https://www.thomas-bade.de/id/defined-term/4a109cc49467be33",
+      "label": "Compliance",
+      "synonyms": [],
+      "usageCount": 1,
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q1069725"
+      ],
+      "wikidataQid": "Q1069725"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/krankenhaus",
@@ -1183,19 +1233,6 @@
         "https://www.wikidata.org/entity/Q33002955"
       ],
       "wikidataQid": "Q33002955"
-    },
-    {
-      "id": "https://www.thomas-bade.de/id/defined-term/compliance",
-      "label": "Compliance",
-      "synonyms": [
-        "Regelkonformität"
-      ],
-      "usageCount": 0,
-      "source": "Wikidata alignment vocabulary",
-      "sameAs": [
-        "https://www.wikidata.org/entity/Q1069725"
-      ],
-      "wikidataQid": "Q1069725"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/maschinelles-lernen",
@@ -1237,20 +1274,6 @@
         "https://www.wikidata.org/entity/Q19824804"
       ],
       "wikidataQid": "Q19824804"
-    },
-    {
-      "id": "https://www.thomas-bade.de/id/defined-term/qualitatsmanagement",
-      "label": "Qualitätsmanagement",
-      "synonyms": [
-        "Quality Management",
-        "QM"
-      ],
-      "usageCount": 0,
-      "source": "Wikidata alignment vocabulary",
-      "sameAs": [
-        "https://www.wikidata.org/entity/Q748019"
-      ],
-      "wikidataQid": "Q748019"
     },
     {
       "id": "https://www.thomas-bade.de/id/defined-term/transparenz",
