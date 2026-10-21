@@ -1,0 +1,151 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.thomas-bade.de/#thomas-bade",
+      "name": "Thomas Bade",
+      "url": "https://www.thomas-bade.de/",
+      "knowsAbout": [
+        "DIN EN 18286",
+        "KI-Qualitätsmanagement",
+        "Konformitätsvermutung",
+        "Harmonisierte Norm",
+        "Hochrisiko-KI",
+        "EU AI Act",
+        "KI-Governance",
+        "Qualitätsmanagement",
+        "ISO/IEC 42001",
+        "KI-Managementsystem",
+        "Medizinprodukte",
+        "Datenschutz",
+        "Compliance",
+        "Beschaffung",
+        "Gesundheitswesen",
+        "Krankenhäuser",
+        "Pflege",
+        "Sozialwesen",
+        "Kommunen",
+        "BSI A5",
+        "KI-Audit"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thomas-bade.de/#website",
+      "url": "https://www.thomas-bade.de/",
+      "name": "Thomas Bade",
+      "inLanguage": "de-DE",
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      }
+    },
+    {
+      "@type": [
+        "Article",
+        "WebPage"
+      ],
+      "@id": "https://www.thomas-bade.de/din_18286.html#webpage",
+      "url": "https://www.thomas-bade.de/din_18286.html",
+      "headline": "DIN EN 18286:2026 – KI-Qualitätsmanagement | Thomas Bade",
+      "description": "DIN EN 18286:2026-09 erklärt: harmonisierte Norm für KI-Qualitätsmanagement, Art. 17 und 40 EU AI Act, Prüffelder und Praxis im Gesundheits- und Sozialwesen.",
+      "abstract": "DIN EN 18286:2026-09 erklärt: harmonisierte Norm für KI-Qualitätsmanagement, Art. 17 und 40 EU AI Act, Prüffelder und Praxis im Gesundheits- und Sozialwesen.",
+      "inLanguage": "de-DE",
+      "author": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "publisher": {
+        "@id": "https://www.thomas-bade.de/#thomas-bade"
+      },
+      "isPartOf": {
+        "@id": "https://www.thomas-bade.de/#website"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "DIN EN 18286"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Qualitätsmanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "Konformitätsvermutung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Harmonisierte Norm"
+        },
+        {
+          "@type": "Thing",
+          "name": "Hochrisiko-KI"
+        },
+        {
+          "@type": "Thing",
+          "name": "EU AI Act"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Governance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Qualitätsmanagement"
+        },
+        {
+          "@type": "Thing",
+          "name": "ISO/IEC 42001"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Managementsystem"
+        },
+        {
+          "@type": "Thing",
+          "name": "Medizinprodukte"
+        },
+        {
+          "@type": "Thing",
+          "name": "Datenschutz"
+        },
+        {
+          "@type": "Thing",
+          "name": "Compliance"
+        },
+        {
+          "@type": "Thing",
+          "name": "Beschaffung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Gesundheitswesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Krankenhäuser"
+        },
+        {
+          "@type": "Thing",
+          "name": "Pflege"
+        },
+        {
+          "@type": "Thing",
+          "name": "Sozialwesen"
+        },
+        {
+          "@type": "Thing",
+          "name": "Kommunen"
+        },
+        {
+          "@type": "Thing",
+          "name": "BSI A5"
+        },
+        {
+          "@type": "Thing",
+          "name": "KI-Audit"
+        }
+      ]
+    }
+  ]
+}
