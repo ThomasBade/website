@@ -1,5 +1,5 @@
 /**
- * search-config.js  v2.5 (2026-06-22)
+ * search-config.js  v2.6 (2026-10-21)  – neu: DIN EN 18286
  * ─────────────────────────────────────────────────────────────
  * Zentrale Suchkonfiguration für thomas-bade.de
  * Neue Seiten NUR HIER eintragen – kein Anfassen der anderen Dateien nötig.
@@ -232,6 +232,15 @@ var SITE_SEARCH_CONFIG = {
       image: "https://thomas-bade.de/assets/img/social_media.jpg"
     },
     {
+      title: "BSI A5 – KI-Vertrauenswürdigkeit, Audit & Assurance",
+      url: "https://www.thomas-bade.de/bsi.html",
+      category: "Regeln & Risiken",
+      excerpt: "BSI A5 praxisnah erklärt: Trustworthiness-Basismodul, Systembeschreibung, Human Oversight, Cloud/C5, Prüfung nach ISAE 3000 und interaktive A5-Readiness-Checkliste.",
+      content: "BSI A5 AI Audit and Assurance Assessment Architecture KI-Vertrauenswürdigkeit KI-Audit AI Assurance Human Oversight ISAE 3000 BSI C5 Cloud-Infrastruktur KI-Governance KI-Risikomanagement Data Provenance ISO/IEC 42001 Governance Compliance Scope GCS DEI VAV DEP OPS RET Prüfmethodik Systembeschreibung Gesundheitswesen Pflege",
+      keywords: "BSI A5, AI Audit and Assurance Assessment Architecture, ISAE 3000, BSI C5, Human Oversight, KI-Governance, KI-Risikomanagement, Cloud-Infrastruktur, ISO/IEC 42001",
+      image: "https://thomas-bade.de/assets/img/social_media.jpg"
+    },
+    {
       title: "KI in der Prävention – Governance, Bias & Predictive Policing",
       url: "https://www.thomas-bade.de/praevention.html",
       category: "Regeln & Risiken",
@@ -394,12 +403,23 @@ var SITE_SEARCH_CONFIG = {
     // ── ISO/IEC 42001 ─────────────────────────────────────────
     {
       title: "DIN EN ISO/IEC 42001:2026-08 – KI-Managementsystem (AIMS)",
-      url: "https://www.thomas-bade.de/iso42001.html",
+      url: "https://www.thomas-bade.de/iso_42001.html",
       category: "EU AI Act & KI-Regulatorik",
       excerpt: "Trust by Design: Die erste internationale Norm für KI-Managementsysteme. Vollständige Einführung mit Struktur, Kontrollzielen (Anhang A), Umsetzungsleitfaden (Anhang B) und Praxistipps für das Gesundheits- und Sozialwesen.",
       content: "DIN EN ISO IEC 42001 2026 08 KI-Managementsystem AIMS Artificial Intelligence Management System Trust by Design KI-Governance Managementsystem Norm International Standard KI-Richtlinie KI-Risikobehandlung KI-Risikobewertung Auswirkungsbewertung Statement of Applicability SoA Kontrollziele Anhang A Umsetzungsleitfaden Anhang B Organisationsziele Risikoquellen Anhang C Sektorintegration Anhang D Kontext Organisation Führung Planung Unterstützung Betrieb Leistungsbewertung Verbesserung PDCA Zyklus HLS High Level Structure ISO 9001 ISO 27001 ISO 27701 Datenschutz Informationssicherheit Qualitätsmanagement Integration Harmonisierte Struktur KI-Richtlinie KI-Ziele Risikokriterien Risikobewertung Risikobehandlung Auswirkungsbewertung Gesellschaft Einzelpersonen Fairness Bias Transparenz Erklärbarkeit Rechenschaftspflicht Robustheit Sicherheit Datenschutz Wartbarkeit Umweltauswirkungen KI-Expertise Datenvergiftung Data Poisoning Modelldiebstahl Modellinversion Datenqualität Datenherkunft Datenaufbereitung Lebenszyklus KI-System Bereitstellung Betrieb Überwachung Ereignisprotokolle Technische Dokumentation Validierung Überprüfung Lieferanten Kunden Dritte Whistleblowing Meldung Bedenken menschliche Aufsicht Human Oversight Gesundheitswesen Krankenhaus Pflege Sozialwesen Sanitätsfachhandel MDR IVDR EU AI Act Hochrisiko-KI Beschaffung Governance Compliance vendor-unabhängig Thomas Bade Eichstätt Bayern Beratung",
       keywords: "ISO 42001, ISO IEC 42001, KI-Managementsystem, AIMS, Trust by Design, KI-Governance, Kontrollziele Anhang A, Umsetzungsleitfaden Anhang B, Risikobewertung, Auswirkungsbewertung, Statement of Applicability, menschliche Aufsicht, Fairness, Transparenz, ISO 27001, ISO 9001, Gesundheitswesen, EU AI Act, Hochrisiko-KI, Thomas Bade",
       image: "https://thomas-bade.de/assets/img/iso42001_social.jpg"
+    },
+
+    // ── DIN EN 18286 ──────────────────────────────────────────
+    {
+      title: "DIN EN 18286:2026 – KI-Qualitätsmanagement nach EU AI Act",
+      url: "https://www.thomas-bade.de/din_18286.html",
+      category: "EU AI Act & KI-Regulatorik",
+      excerpt: "DIN EN 18286:2026-09 verständlich erklärt: harmonisierte Norm für das Qualitätsmanagement von KI-Systemen, Artikel 17 und 40 EU AI Act, sieben Handlungsfelder, Praxis-Check und Einordnung für das Gesundheits- und Sozialwesen.",
+      content: "DIN EN 18286 DIN EN 18286:2026 DIN EN 18286:2026-09 EN 18286 DIN 18286 18286 prEN 18286 harmonisierte Norm harmonisierte europäische Norm Konformitätsvermutung Normung CEN CENELEC JTC 21 Qualitätsmanagementsystem QMS QM-System KI-Qualitätsmanagement Qualitätsmanagement für KI-Systeme Artikel 17 EU AI Act Artikel 40 EU AI Act Art. 17 Art. 40 Anbieterpflichten Hochrisiko-KI Hochrisiko-KI-Systeme Anbieter Betreiber Rollen Rollenklärung Durchführungsbeschluss (EU) 2026/2274 EU-Amtsblatt Amtsblatt Referenz Veröffentlichung 14. Oktober 2026 2. Dezember 2027 2. August 2028 Anhang III Anhang I Normenreihe Zertifizierung freiwillig Konformitätsbewertung Compliance-Strategie Führung Verantwortung Qualitätspolitik Planung Qualitätsziele Ressourcen Kompetenz KI-Lebenszyklus Datenqualität Datenmanagement Tests Validierung Dokumentation Kennzeichnung Änderungsmanagement Außerbetriebnahme Lieferkette Marktbeobachtung Post-Market-Monitoring Vorfallprozesse Managementbewertung Wirksamkeitsprüfung kontinuierliche Verbesserung Prüfliste Praxis-Check Gap-Analyse KI-Inventar Nachweise Krankenhaus Pflegeeinrichtung Pflege soziale Träger Kommunen ÖGD Softwareanbieter Plattformbetreiber Medizinprodukte MDR IVDR DSGVO ISO/IEC 42001 DIN EN ISO/IEC 42001 ISO 9001 KI-Managementsystem AIMS Vergleich Praxiswissen+ Thomas Bade",
+      keywords: "DIN EN 18286, DIN EN 18286:2026-09, EN 18286, DIN 18286, 18286, KI-Qualitätsmanagement, QMS KI, harmonisierte Norm, Konformitätsvermutung, Artikel 17 EU AI Act, Artikel 40 EU AI Act, Durchführungsbeschluss 2026/2274, Hochrisiko-KI, Anbieterpflichten, ISO/IEC 42001, Gesundheitswesen, Sozialwesen, KI Compliance, Thomas Bade",
+      image: "https://www.thomas-bade.de/assets/img/din_18286.png"
     },
 
     // ── Neue Seite hinzufügen: Eintrag hier einfügen ──────────
